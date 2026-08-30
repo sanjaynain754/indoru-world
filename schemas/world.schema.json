@@ -1,0 +1,41 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://indoru.game/schemas/world.schema.json",
+  "title": "Indoru World Registry",
+  "type": "object",
+  "required": ["worldId", "name", "version", "startingCountryId", "countryCount", "temporaryMapCodes", "countries", "regions", "comingSoonPolicy"],
+  "properties": {
+    "worldId": {"type": "string", "pattern": "^indoru-world-[0-9]{3}$"},
+    "name": {"const": "Indoru"},
+    "version": {"type": "string"},
+    "mapAsset": {"type": "string"},
+    "startingCountryId": {"type": "string"},
+    "countryCount": {"type": "integer", "minimum": 1},
+    "temporaryMapCodes": {"const": false},
+    "countries": {"type": "array", "minItems": 100, "items": {"$ref": "#/$defs/country"}},
+    "regions": {"type": "array", "minItems": 7},
+    "comingSoonPolicy": {"type": "object", "required": ["visibleOnWorldMap", "playable", "unlockByExpansion", "label"], "properties": {"visibleOnWorldMap": {"const": true}, "playable": {"const": false}, "unlockByExpansion": {"const": true}, "label": {"const": "Coming Soon"}}}
+  },
+  "$defs": {
+    "country": {
+      "type": "object",
+      "required": ["countryId", "name", "displayName", "region", "regionCode", "flagId", "flagAsset", "identity", "status", "mapKey", "peopleProfileId"],
+      "properties": {
+        "countryId": {"type": "string", "pattern": "^country-[0-9]{3}$"},
+        "name": {"type": "string", "minLength": 2},
+        "displayName": {"type": "string", "minLength": 2},
+        "region": {"type": "string", "minLength": 2},
+        "regionCode": {"type": "string", "pattern": "^[A-Z]{3}$"},
+        "flagId": {"type": "string", "pattern": "^flag-[a-z0-9-]+$"},
+        "flagAsset": {"type": "string", "pattern": "^assets/flags/flag-[a-z0-9-]+\\.svg$"},
+        "identity": {"type": "string", "minLength": 5},
+        "regionalTheme": {"type": "string"},
+        "status": {"enum": ["playable", "coming_soon"]},
+        "unlockOrder": {"type": ["integer", "null"], "minimum": 1},
+        "mapKey": {"type": "string", "pattern": "^country/[a-z0-9-]+$"},
+        "peopleProfileId": {"type": "string", "pattern": "^people-[a-z0-9-]+$"}
+      },
+      "additionalProperties": false
+    }
+  }
+}
