@@ -2,10 +2,10 @@
   "worldId": "indoru-world-001",
   "version": "0.1.0",
   "counts": {
-    "majorCities": 15,
-    "normalCities": 100,
-    "villages": 150,
-    "totalSettlements": 265
+    "majorCities": 6,
+    "normalCities": 85,
+    "villages": 110,
+    "totalSettlements": 201
   },
   "settlements": [
     {
@@ -88,123 +88,6 @@
     },
     {
       "settlementId": "settlement-007",
-      "name": "Lunessa",
-      "countryId": "country-041",
-      "region": "Velmora Isles",
-      "type": "major_city",
-      "status": "coming_soon",
-      "flagRef": "country:country-041",
-      "mapKey": "country-041/lunessa",
-      "populationTier": "large",
-      "description": "night-market cultural metropolis",
-      "unlockLabel": "Coming Soon"
-    },
-    {
-      "settlementId": "settlement-008",
-      "name": "Orsik Heights",
-      "countryId": "country-055",
-      "region": "Orsik Plateau",
-      "type": "major_city",
-      "status": "coming_soon",
-      "flagRef": "country:country-055",
-      "mapKey": "country-055/orsik-heights",
-      "populationTier": "large",
-      "description": "high-altitude aviation and administration hub",
-      "unlockLabel": "Coming Soon"
-    },
-    {
-      "settlementId": "settlement-009",
-      "name": "Karmuun",
-      "countryId": "country-056",
-      "region": "Orsik Plateau",
-      "type": "major_city",
-      "status": "coming_soon",
-      "flagRef": "country:country-056",
-      "mapKey": "country-056/karmuun",
-      "populationTier": "large",
-      "description": "mountain capital and engineering center",
-      "unlockLabel": "Coming Soon"
-    },
-    {
-      "settlementId": "settlement-010",
-      "name": "Nembasa City",
-      "countryId": "country-072",
-      "region": "Nembasa Greenbelt",
-      "type": "major_city",
-      "status": "coming_soon",
-      "flagRef": "country:country-072",
-      "mapKey": "country-072/nembasa-city",
-      "populationTier": "large",
-      "description": "rainforest river megacity",
-      "unlockLabel": "Coming Soon"
-    },
-    {
-      "settlementId": "settlement-011",
-      "name": "Kalemba Delta",
-      "countryId": "country-074",
-      "region": "Nembasa Greenbelt",
-      "type": "major_city",
-      "status": "coming_soon",
-      "flagRef": "country:country-074",
-      "mapKey": "country-074/kalemba-delta",
-      "populationTier": "large",
-      "description": "delta logistics and waterway center",
-      "unlockLabel": "Coming Soon"
-    },
-    {
-      "settlementId": "settlement-012",
-      "name": "Dravik Port",
-      "countryId": "country-090",
-      "region": "Dravik Arc",
-      "type": "major_city",
-      "status": "coming_soon",
-      "flagRef": "country:country-090",
-      "mapKey": "country-090/dravik-port",
-      "populationTier": "large",
-      "description": "volcanic arc maritime capital",
-      "unlockLabel": "Coming Soon"
-    },
-    {
-      "settlementId": "settlement-013",
-      "name": "Ashkara",
-      "countryId": "country-091",
-      "region": "Dravik Arc",
-      "type": "major_city",
-      "status": "coming_soon",
-      "flagRef": "country:country-091",
-      "mapKey": "country-091/ashkara",
-      "populationTier": "large",
-      "description": "geothermal energy metropolis",
-      "unlockLabel": "Coming Soon"
-    },
-    {
-      "settlementId": "settlement-014",
-      "name": "Erynd Station",
-      "countryId": "country-106",
-      "region": "Erynd Polar Ring",
-      "type": "major_city",
-      "status": "coming_soon",
-      "flagRef": "country:country-106",
-      "mapKey": "country-106/erynd-station",
-      "populationTier": "large",
-      "description": "polar research and supply capital",
-      "unlockLabel": "Coming Soon"
-    },
-    {
-      "settlementId": "settlement-015",
-      "name": "Norriku",
-      "countryId": "country-108",
-      "region": "Erynd Polar Ring",
-      "type": "major_city",
-      "status": "coming_soon",
-      "flagRef": "country:country-108",
-      "mapKey": "country-108/norriku",
-      "populationTier": "large",
-      "description": "observatory and northern-lights city",
-      "unlockLabel": "Coming Soon"
-    },
-    {
-      "settlementId": "settlement-016",
       "name": "Arela",
       "countryId": "country-001",
       "region": "Avarra Crescent",
@@ -217,7 +100,7 @@
       "unlockLabel": "Available Now"
     },
     {
-      "settlementId": "settlement-017",
+      "settlementId": "settlement-008",
       "name": "Brena",
       "countryId": "country-021",
       "region": "Khoruun Reach",
@@ -230,7 +113,7 @@
       "unlockLabel": "Coming Soon"
     },
     {
-      "settlementId": "settlement-018",
+      "settlementId": "settlement-009",
       "name": "Cavora",
       "countryId": "country-039",
       "region": "Velmora Isles",
@@ -243,7 +126,7 @@
       "unlockLabel": "Coming Soon"
     },
     {
-      "settlementId": "settlement-019",
+      "settlementId": "settlement-010",
       "name": "Dalena",
       "countryId": "country-055",
       "region": "Orsik Plateau",
@@ -256,7 +139,7 @@
       "unlockLabel": "Coming Soon"
     },
     {
-      "settlementId": "settlement-020",
+      "settlementId": "settlement-011",
       "name": "Evaraa",
       "countryId": "country-072",
       "region": "Nembasa Greenbelt",
@@ -269,7 +152,7 @@
       "unlockLabel": "Coming Soon"
     },
     {
-      "settlementId": "settlement-021",
+      "settlementId": "settlement-012",
       "name": "Farona",
       "countryId": "country-090",
       "region": "Dravik Arc",
@@ -282,7 +165,7 @@
       "unlockLabel": "Coming Soon"
     },
     {
-      "settlementId": "settlement-022",
+      "settlementId": "settlement-013",
       "name": "Girela",
       "countryId": "country-106",
       "region": "Erynd Polar Ring",
@@ -295,7 +178,7 @@
       "unlockLabel": "Coming Soon"
     },
     {
-      "settlementId": "settlement-023",
+      "settlementId": "settlement-014",
       "name": "Havora",
       "countryId": "country-002",
       "region": "Avarra Crescent",
@@ -308,7 +191,7 @@
       "unlockLabel": "Coming Soon"
     },
     {
-      "settlementId": "settlement-024",
+      "settlementId": "settlement-015",
       "name": "Ivaraa",
       "countryId": "country-022",
       "region": "Khoruun Reach",
@@ -321,7 +204,7 @@
       "unlockLabel": "Coming Soon"
     },
     {
-      "settlementId": "settlement-025",
+      "settlementId": "settlement-016",
       "name": "Jalena",
       "countryId": "country-040",
       "region": "Velmora Isles",
@@ -334,7 +217,7 @@
       "unlockLabel": "Coming Soon"
     },
     {
-      "settlementId": "settlement-026",
+      "settlementId": "settlement-017",
       "name": "Kerona",
       "countryId": "country-056",
       "region": "Orsik Plateau",
@@ -347,7 +230,7 @@
       "unlockLabel": "Coming Soon"
     },
     {
-      "settlementId": "settlement-027",
+      "settlementId": "settlement-018",
       "name": "Luraa",
       "countryId": "country-073",
       "region": "Nembasa Greenbelt",
@@ -360,7 +243,7 @@
       "unlockLabel": "Coming Soon"
     },
     {
-      "settlementId": "settlement-028",
+      "settlementId": "settlement-019",
       "name": "Marena",
       "countryId": "country-091",
       "region": "Dravik Arc",
@@ -373,7 +256,7 @@
       "unlockLabel": "Coming Soon"
     },
     {
-      "settlementId": "settlement-029",
+      "settlementId": "settlement-020",
       "name": "Navora",
       "countryId": "country-107",
       "region": "Erynd Polar Ring",
@@ -386,7 +269,7 @@
       "unlockLabel": "Coming Soon"
     },
     {
-      "settlementId": "settlement-030",
+      "settlementId": "settlement-021",
       "name": "Orela",
       "countryId": "country-003",
       "region": "Avarra Crescent",
@@ -399,7 +282,7 @@
       "unlockLabel": "Coming Soon"
     },
     {
-      "settlementId": "settlement-031",
+      "settlementId": "settlement-022",
       "name": "Pavena",
       "countryId": "country-023",
       "region": "Khoruun Reach",
@@ -412,7 +295,7 @@
       "unlockLabel": "Coming Soon"
     },
     {
-      "settlementId": "settlement-032",
+      "settlementId": "settlement-023",
       "name": "Qorina",
       "countryId": "country-041",
       "region": "Velmora Isles",
@@ -425,7 +308,7 @@
       "unlockLabel": "Coming Soon"
     },
     {
-      "settlementId": "settlement-033",
+      "settlementId": "settlement-024",
       "name": "Ravela",
       "countryId": "country-057",
       "region": "Orsik Plateau",
@@ -438,7 +321,7 @@
       "unlockLabel": "Coming Soon"
     },
     {
-      "settlementId": "settlement-034",
+      "settlementId": "settlement-025",
       "name": "Sorena",
       "countryId": "country-074",
       "region": "Nembasa Greenbelt",
@@ -451,7 +334,7 @@
       "unlockLabel": "Coming Soon"
     },
     {
-      "settlementId": "settlement-035",
+      "settlementId": "settlement-026",
       "name": "Tavraa",
       "countryId": "country-092",
       "region": "Dravik Arc",
@@ -464,7 +347,7 @@
       "unlockLabel": "Coming Soon"
     },
     {
-      "settlementId": "settlement-036",
+      "settlementId": "settlement-027",
       "name": "Ulena",
       "countryId": "country-108",
       "region": "Erynd Polar Ring",
@@ -477,7 +360,7 @@
       "unlockLabel": "Coming Soon"
     },
     {
-      "settlementId": "settlement-037",
+      "settlementId": "settlement-028",
       "name": "Vareka",
       "countryId": "country-004",
       "region": "Avarra Crescent",
@@ -490,7 +373,7 @@
       "unlockLabel": "Coming Soon"
     },
     {
-      "settlementId": "settlement-038",
+      "settlementId": "settlement-029",
       "name": "Weraa",
       "countryId": "country-024",
       "region": "Khoruun Reach",
@@ -503,7 +386,7 @@
       "unlockLabel": "Coming Soon"
     },
     {
-      "settlementId": "settlement-039",
+      "settlementId": "settlement-030",
       "name": "Xarina",
       "countryId": "country-042",
       "region": "Velmora Isles",
@@ -516,7 +399,7 @@
       "unlockLabel": "Coming Soon"
     },
     {
-      "settlementId": "settlement-040",
+      "settlementId": "settlement-031",
       "name": "Yoraa",
       "countryId": "country-058",
       "region": "Orsik Plateau",
@@ -529,7 +412,7 @@
       "unlockLabel": "Coming Soon"
     },
     {
-      "settlementId": "settlement-041",
+      "settlementId": "settlement-032",
       "name": "Zavela",
       "countryId": "country-075",
       "region": "Nembasa Greenbelt",
@@ -542,7 +425,7 @@
       "unlockLabel": "Coming Soon"
     },
     {
-      "settlementId": "settlement-042",
+      "settlementId": "settlement-033",
       "name": "Arelen",
       "countryId": "country-093",
       "region": "Dravik Arc",
@@ -555,7 +438,7 @@
       "unlockLabel": "Coming Soon"
     },
     {
-      "settlementId": "settlement-043",
+      "settlementId": "settlement-034",
       "name": "Brenen",
       "countryId": "country-109",
       "region": "Erynd Polar Ring",
@@ -568,7 +451,7 @@
       "unlockLabel": "Coming Soon"
     },
     {
-      "settlementId": "settlement-044",
+      "settlementId": "settlement-035",
       "name": "Cavoren",
       "countryId": "country-005",
       "region": "Avarra Crescent",
@@ -581,7 +464,7 @@
       "unlockLabel": "Coming Soon"
     },
     {
-      "settlementId": "settlement-045",
+      "settlementId": "settlement-036",
       "name": "Dalenen",
       "countryId": "country-025",
       "region": "Khoruun Reach",
@@ -594,7 +477,7 @@
       "unlockLabel": "Coming Soon"
     },
     {
-      "settlementId": "settlement-046",
+      "settlementId": "settlement-037",
       "name": "Evaraen",
       "countryId": "country-043",
       "region": "Velmora Isles",
@@ -607,7 +490,7 @@
       "unlockLabel": "Coming Soon"
     },
     {
-      "settlementId": "settlement-047",
+      "settlementId": "settlement-038",
       "name": "Faronen",
       "countryId": "country-059",
       "region": "Orsik Plateau",
@@ -620,7 +503,7 @@
       "unlockLabel": "Coming Soon"
     },
     {
-      "settlementId": "settlement-048",
+      "settlementId": "settlement-039",
       "name": "Girelen",
       "countryId": "country-076",
       "region": "Nembasa Greenbelt",
@@ -633,7 +516,7 @@
       "unlockLabel": "Coming Soon"
     },
     {
-      "settlementId": "settlement-049",
+      "settlementId": "settlement-040",
       "name": "Havoren",
       "countryId": "country-094",
       "region": "Dravik Arc",
@@ -646,7 +529,7 @@
       "unlockLabel": "Coming Soon"
     },
     {
-      "settlementId": "settlement-050",
+      "settlementId": "settlement-041",
       "name": "Ivaraen",
       "countryId": "country-110",
       "region": "Erynd Polar Ring",
@@ -659,7 +542,7 @@
       "unlockLabel": "Coming Soon"
     },
     {
-      "settlementId": "settlement-051",
+      "settlementId": "settlement-042",
       "name": "Jalenen",
       "countryId": "country-006",
       "region": "Avarra Crescent",
@@ -672,7 +555,7 @@
       "unlockLabel": "Coming Soon"
     },
     {
-      "settlementId": "settlement-052",
+      "settlementId": "settlement-043",
       "name": "Keronen",
       "countryId": "country-026",
       "region": "Khoruun Reach",
@@ -685,7 +568,7 @@
       "unlockLabel": "Coming Soon"
     },
     {
-      "settlementId": "settlement-053",
+      "settlementId": "settlement-044",
       "name": "Luraen",
       "countryId": "country-044",
       "region": "Velmora Isles",
@@ -698,7 +581,7 @@
       "unlockLabel": "Coming Soon"
     },
     {
-      "settlementId": "settlement-054",
+      "settlementId": "settlement-045",
       "name": "Marenen",
       "countryId": "country-060",
       "region": "Orsik Plateau",
@@ -711,7 +594,7 @@
       "unlockLabel": "Coming Soon"
     },
     {
-      "settlementId": "settlement-055",
+      "settlementId": "settlement-046",
       "name": "Navoren",
       "countryId": "country-077",
       "region": "Nembasa Greenbelt",
@@ -724,7 +607,7 @@
       "unlockLabel": "Coming Soon"
     },
     {
-      "settlementId": "settlement-056",
+      "settlementId": "settlement-047",
       "name": "Orelen",
       "countryId": "country-095",
       "region": "Dravik Arc",
@@ -737,7 +620,7 @@
       "unlockLabel": "Coming Soon"
     },
     {
-      "settlementId": "settlement-057",
+      "settlementId": "settlement-048",
       "name": "Pavenen",
       "countryId": "country-111",
       "region": "Erynd Polar Ring",
@@ -750,7 +633,7 @@
       "unlockLabel": "Coming Soon"
     },
     {
-      "settlementId": "settlement-058",
+      "settlementId": "settlement-049",
       "name": "Qorinen",
       "countryId": "country-007",
       "region": "Avarra Crescent",
@@ -763,7 +646,7 @@
       "unlockLabel": "Coming Soon"
     },
     {
-      "settlementId": "settlement-059",
+      "settlementId": "settlement-050",
       "name": "Ravelen",
       "countryId": "country-027",
       "region": "Khoruun Reach",
@@ -776,7 +659,7 @@
       "unlockLabel": "Coming Soon"
     },
     {
-      "settlementId": "settlement-060",
+      "settlementId": "settlement-051",
       "name": "Sorenen",
       "countryId": "country-045",
       "region": "Velmora Isles",
@@ -789,7 +672,7 @@
       "unlockLabel": "Coming Soon"
     },
     {
-      "settlementId": "settlement-061",
+      "settlementId": "settlement-052",
       "name": "Tavraen",
       "countryId": "country-061",
       "region": "Orsik Plateau",
@@ -802,7 +685,7 @@
       "unlockLabel": "Coming Soon"
     },
     {
-      "settlementId": "settlement-062",
+      "settlementId": "settlement-053",
       "name": "Ulenen",
       "countryId": "country-078",
       "region": "Nembasa Greenbelt",
@@ -815,7 +698,7 @@
       "unlockLabel": "Coming Soon"
     },
     {
-      "settlementId": "settlement-063",
+      "settlementId": "settlement-054",
       "name": "Vareken",
       "countryId": "country-096",
       "region": "Dravik Arc",
@@ -828,7 +711,7 @@
       "unlockLabel": "Coming Soon"
     },
     {
-      "settlementId": "settlement-064",
+      "settlementId": "settlement-055",
       "name": "Weraen",
       "countryId": "country-112",
       "region": "Erynd Polar Ring",
@@ -841,7 +724,7 @@
       "unlockLabel": "Coming Soon"
     },
     {
-      "settlementId": "settlement-065",
+      "settlementId": "settlement-056",
       "name": "Xarinen",
       "countryId": "country-008",
       "region": "Avarra Crescent",
@@ -854,7 +737,7 @@
       "unlockLabel": "Coming Soon"
     },
     {
-      "settlementId": "settlement-066",
+      "settlementId": "settlement-057",
       "name": "Yoraen",
       "countryId": "country-028",
       "region": "Khoruun Reach",
@@ -867,7 +750,7 @@
       "unlockLabel": "Coming Soon"
     },
     {
-      "settlementId": "settlement-067",
+      "settlementId": "settlement-058",
       "name": "Zavelen",
       "countryId": "country-046",
       "region": "Velmora Isles",
@@ -880,7 +763,7 @@
       "unlockLabel": "Coming Soon"
     },
     {
-      "settlementId": "settlement-068",
+      "settlementId": "settlement-059",
       "name": "Arelis",
       "countryId": "country-062",
       "region": "Orsik Plateau",
@@ -893,7 +776,7 @@
       "unlockLabel": "Coming Soon"
     },
     {
-      "settlementId": "settlement-069",
+      "settlementId": "settlement-060",
       "name": "Brenis",
       "countryId": "country-079",
       "region": "Nembasa Greenbelt",
@@ -906,7 +789,7 @@
       "unlockLabel": "Coming Soon"
     },
     {
-      "settlementId": "settlement-070",
+      "settlementId": "settlement-061",
       "name": "Cavoris",
       "countryId": "country-097",
       "region": "Dravik Arc",
@@ -919,7 +802,7 @@
       "unlockLabel": "Coming Soon"
     },
     {
-      "settlementId": "settlement-071",
+      "settlementId": "settlement-062",
       "name": "Dalenis",
       "countryId": "country-113",
       "region": "Erynd Polar Ring",
@@ -932,7 +815,7 @@
       "unlockLabel": "Coming Soon"
     },
     {
-      "settlementId": "settlement-072",
+      "settlementId": "settlement-063",
       "name": "Evarais",
       "countryId": "country-009",
       "region": "Avarra Crescent",
@@ -945,7 +828,7 @@
       "unlockLabel": "Coming Soon"
     },
     {
-      "settlementId": "settlement-073",
+      "settlementId": "settlement-064",
       "name": "Faronis",
       "countryId": "country-029",
       "region": "Khoruun Reach",
@@ -958,7 +841,7 @@
       "unlockLabel": "Coming Soon"
     },
     {
-      "settlementId": "settlement-074",
+      "settlementId": "settlement-065",
       "name": "Girelis",
       "countryId": "country-047",
       "region": "Velmora Isles",
@@ -971,7 +854,7 @@
       "unlockLabel": "Coming Soon"
     },
     {
-      "settlementId": "settlement-075",
+      "settlementId": "settlement-066",
       "name": "Havoris",
       "countryId": "country-063",
       "region": "Orsik Plateau",
@@ -984,7 +867,7 @@
       "unlockLabel": "Coming Soon"
     },
     {
-      "settlementId": "settlement-076",
+      "settlementId": "settlement-067",
       "name": "Ivarais",
       "countryId": "country-080",
       "region": "Nembasa Greenbelt",
@@ -997,7 +880,7 @@
       "unlockLabel": "Coming Soon"
     },
     {
-      "settlementId": "settlement-077",
+      "settlementId": "settlement-068",
       "name": "Jalenis",
       "countryId": "country-098",
       "region": "Dravik Arc",
@@ -1010,7 +893,7 @@
       "unlockLabel": "Coming Soon"
     },
     {
-      "settlementId": "settlement-078",
+      "settlementId": "settlement-069",
       "name": "Keronis",
       "countryId": "country-114",
       "region": "Erynd Polar Ring",
@@ -1023,7 +906,7 @@
       "unlockLabel": "Coming Soon"
     },
     {
-      "settlementId": "settlement-079",
+      "settlementId": "settlement-070",
       "name": "Lurais",
       "countryId": "country-010",
       "region": "Avarra Crescent",
@@ -1036,7 +919,7 @@
       "unlockLabel": "Coming Soon"
     },
     {
-      "settlementId": "settlement-080",
+      "settlementId": "settlement-071",
       "name": "Marenis",
       "countryId": "country-030",
       "region": "Khoruun Reach",
@@ -1049,7 +932,7 @@
       "unlockLabel": "Coming Soon"
     },
     {
-      "settlementId": "settlement-081",
+      "settlementId": "settlement-072",
       "name": "Navoris",
       "countryId": "country-048",
       "region": "Velmora Isles",
@@ -1062,7 +945,7 @@
       "unlockLabel": "Coming Soon"
     },
     {
-      "settlementId": "settlement-082",
+      "settlementId": "settlement-073",
       "name": "Orelis",
       "countryId": "country-064",
       "region": "Orsik Plateau",
@@ -1075,7 +958,7 @@
       "unlockLabel": "Coming Soon"
     },
     {
-      "settlementId": "settlement-083",
+      "settlementId": "settlement-074",
       "name": "Pavenis",
       "countryId": "country-081",
       "region": "Nembasa Greenbelt",
@@ -1088,7 +971,7 @@
       "unlockLabel": "Coming Soon"
     },
     {
-      "settlementId": "settlement-084",
+      "settlementId": "settlement-075",
       "name": "Qorinis",
       "countryId": "country-099",
       "region": "Dravik Arc",
@@ -1101,7 +984,7 @@
       "unlockLabel": "Coming Soon"
     },
     {
-      "settlementId": "settlement-085",
+      "settlementId": "settlement-076",
       "name": "Ravelis",
       "countryId": "country-115",
       "region": "Erynd Polar Ring",
@@ -1114,7 +997,7 @@
       "unlockLabel": "Coming Soon"
     },
     {
-      "settlementId": "settlement-086",
+      "settlementId": "settlement-077",
       "name": "Sorenis",
       "countryId": "country-011",
       "region": "Avarra Crescent",
@@ -1127,7 +1010,7 @@
       "unlockLabel": "Coming Soon"
     },
     {
-      "settlementId": "settlement-087",
+      "settlementId": "settlement-078",
       "name": "Tavrais",
       "countryId": "country-031",
       "region": "Khoruun Reach",
@@ -1140,7 +1023,7 @@
       "unlockLabel": "Coming Soon"
     },
     {
-      "settlementId": "settlement-088",
+      "settlementId": "settlement-079",
       "name": "Ulenis",
       "countryId": "country-049",
       "region": "Velmora Isles",
@@ -1153,7 +1036,7 @@
       "unlockLabel": "Coming Soon"
     },
     {
-      "settlementId": "settlement-089",
+      "settlementId": "settlement-080",
       "name": "Varekis",
       "countryId": "country-065",
       "region": "Orsik Plateau",
@@ -1166,7 +1049,7 @@
       "unlockLabel": "Coming Soon"
     },
     {
-      "settlementId": "settlement-090",
+      "settlementId": "settlement-081",
       "name": "Werais",
       "countryId": "country-082",
       "region": "Nembasa Greenbelt",
@@ -1179,7 +1062,7 @@
       "unlockLabel": "Coming Soon"
     },
     {
-      "settlementId": "settlement-091",
+      "settlementId": "settlement-082",
       "name": "Xarinis",
       "countryId": "country-100",
       "region": "Dravik Arc",
@@ -1192,7 +1075,7 @@
       "unlockLabel": "Coming Soon"
     },
     {
-      "settlementId": "settlement-092",
+      "settlementId": "settlement-083",
       "name": "Yorais",
       "countryId": "country-116",
       "region": "Erynd Polar Ring",
@@ -1205,7 +1088,7 @@
       "unlockLabel": "Coming Soon"
     },
     {
-      "settlementId": "settlement-093",
+      "settlementId": "settlement-084",
       "name": "Zavelis",
       "countryId": "country-012",
       "region": "Avarra Crescent",
@@ -1218,7 +1101,7 @@
       "unlockLabel": "Coming Soon"
     },
     {
-      "settlementId": "settlement-094",
+      "settlementId": "settlement-085",
       "name": "Arelor",
       "countryId": "country-032",
       "region": "Khoruun Reach",
@@ -1231,7 +1114,7 @@
       "unlockLabel": "Coming Soon"
     },
     {
-      "settlementId": "settlement-095",
+      "settlementId": "settlement-086",
       "name": "Brenor",
       "countryId": "country-050",
       "region": "Velmora Isles",
@@ -1244,7 +1127,7 @@
       "unlockLabel": "Coming Soon"
     },
     {
-      "settlementId": "settlement-096",
+      "settlementId": "settlement-087",
       "name": "Cavoror",
       "countryId": "country-066",
       "region": "Orsik Plateau",
@@ -1257,7 +1140,7 @@
       "unlockLabel": "Coming Soon"
     },
     {
-      "settlementId": "settlement-097",
+      "settlementId": "settlement-088",
       "name": "Dalenor",
       "countryId": "country-083",
       "region": "Nembasa Greenbelt",
@@ -1270,7 +1153,7 @@
       "unlockLabel": "Coming Soon"
     },
     {
-      "settlementId": "settlement-098",
+      "settlementId": "settlement-089",
       "name": "Evaraor",
       "countryId": "country-101",
       "region": "Dravik Arc",
@@ -1283,7 +1166,7 @@
       "unlockLabel": "Coming Soon"
     },
     {
-      "settlementId": "settlement-099",
+      "settlementId": "settlement-090",
       "name": "Faronor",
       "countryId": "country-117",
       "region": "Erynd Polar Ring",
@@ -1296,7 +1179,7 @@
       "unlockLabel": "Coming Soon"
     },
     {
-      "settlementId": "settlement-100",
+      "settlementId": "settlement-091",
       "name": "Girelor",
       "countryId": "country-013",
       "region": "Avarra Crescent",
@@ -1309,202 +1192,7 @@
       "unlockLabel": "Coming Soon"
     },
     {
-      "settlementId": "settlement-101",
-      "name": "Havoror",
-      "countryId": "country-033",
-      "region": "Khoruun Reach",
-      "type": "normal_city",
-      "status": "coming_soon",
-      "flagRef": "country:country-033",
-      "mapKey": "country-033/havoror",
-      "populationTier": "medium",
-      "description": "normal city 86",
-      "unlockLabel": "Coming Soon"
-    },
-    {
-      "settlementId": "settlement-102",
-      "name": "Ivaraor",
-      "countryId": "country-051",
-      "region": "Velmora Isles",
-      "type": "normal_city",
-      "status": "coming_soon",
-      "flagRef": "country:country-051",
-      "mapKey": "country-051/ivaraor",
-      "populationTier": "medium",
-      "description": "normal city 87",
-      "unlockLabel": "Coming Soon"
-    },
-    {
-      "settlementId": "settlement-103",
-      "name": "Jalenor",
-      "countryId": "country-067",
-      "region": "Orsik Plateau",
-      "type": "normal_city",
-      "status": "coming_soon",
-      "flagRef": "country:country-067",
-      "mapKey": "country-067/jalenor",
-      "populationTier": "medium",
-      "description": "normal city 88",
-      "unlockLabel": "Coming Soon"
-    },
-    {
-      "settlementId": "settlement-104",
-      "name": "Keronor",
-      "countryId": "country-084",
-      "region": "Nembasa Greenbelt",
-      "type": "normal_city",
-      "status": "coming_soon",
-      "flagRef": "country:country-084",
-      "mapKey": "country-084/keronor",
-      "populationTier": "medium",
-      "description": "normal city 89",
-      "unlockLabel": "Coming Soon"
-    },
-    {
-      "settlementId": "settlement-105",
-      "name": "Luraor",
-      "countryId": "country-102",
-      "region": "Dravik Arc",
-      "type": "normal_city",
-      "status": "coming_soon",
-      "flagRef": "country:country-102",
-      "mapKey": "country-102/luraor",
-      "populationTier": "medium",
-      "description": "normal city 90",
-      "unlockLabel": "Coming Soon"
-    },
-    {
-      "settlementId": "settlement-106",
-      "name": "Marenor",
-      "countryId": "country-118",
-      "region": "Erynd Polar Ring",
-      "type": "normal_city",
-      "status": "coming_soon",
-      "flagRef": "country:country-118",
-      "mapKey": "country-118/marenor",
-      "populationTier": "medium",
-      "description": "normal city 91",
-      "unlockLabel": "Coming Soon"
-    },
-    {
-      "settlementId": "settlement-107",
-      "name": "Navoror",
-      "countryId": "country-014",
-      "region": "Avarra Crescent",
-      "type": "normal_city",
-      "status": "coming_soon",
-      "flagRef": "country:country-014",
-      "mapKey": "country-014/navoror",
-      "populationTier": "medium",
-      "description": "normal city 92",
-      "unlockLabel": "Coming Soon"
-    },
-    {
-      "settlementId": "settlement-108",
-      "name": "Orelor",
-      "countryId": "country-034",
-      "region": "Khoruun Reach",
-      "type": "normal_city",
-      "status": "coming_soon",
-      "flagRef": "country:country-034",
-      "mapKey": "country-034/orelor",
-      "populationTier": "medium",
-      "description": "normal city 93",
-      "unlockLabel": "Coming Soon"
-    },
-    {
-      "settlementId": "settlement-109",
-      "name": "Pavenor",
-      "countryId": "country-052",
-      "region": "Velmora Isles",
-      "type": "normal_city",
-      "status": "coming_soon",
-      "flagRef": "country:country-052",
-      "mapKey": "country-052/pavenor",
-      "populationTier": "medium",
-      "description": "normal city 94",
-      "unlockLabel": "Coming Soon"
-    },
-    {
-      "settlementId": "settlement-110",
-      "name": "Qorinor",
-      "countryId": "country-068",
-      "region": "Orsik Plateau",
-      "type": "normal_city",
-      "status": "coming_soon",
-      "flagRef": "country:country-068",
-      "mapKey": "country-068/qorinor",
-      "populationTier": "medium",
-      "description": "normal city 95",
-      "unlockLabel": "Coming Soon"
-    },
-    {
-      "settlementId": "settlement-111",
-      "name": "Ravelor",
-      "countryId": "country-085",
-      "region": "Nembasa Greenbelt",
-      "type": "normal_city",
-      "status": "coming_soon",
-      "flagRef": "country:country-085",
-      "mapKey": "country-085/ravelor",
-      "populationTier": "medium",
-      "description": "normal city 96",
-      "unlockLabel": "Coming Soon"
-    },
-    {
-      "settlementId": "settlement-112",
-      "name": "Sorenor",
-      "countryId": "country-103",
-      "region": "Dravik Arc",
-      "type": "normal_city",
-      "status": "coming_soon",
-      "flagRef": "country:country-103",
-      "mapKey": "country-103/sorenor",
-      "populationTier": "medium",
-      "description": "normal city 97",
-      "unlockLabel": "Coming Soon"
-    },
-    {
-      "settlementId": "settlement-113",
-      "name": "Tavraor",
-      "countryId": "country-119",
-      "region": "Erynd Polar Ring",
-      "type": "normal_city",
-      "status": "coming_soon",
-      "flagRef": "country:country-119",
-      "mapKey": "country-119/tavraor",
-      "populationTier": "medium",
-      "description": "normal city 98",
-      "unlockLabel": "Coming Soon"
-    },
-    {
-      "settlementId": "settlement-114",
-      "name": "Ulenor",
-      "countryId": "country-015",
-      "region": "Avarra Crescent",
-      "type": "normal_city",
-      "status": "coming_soon",
-      "flagRef": "country:country-015",
-      "mapKey": "country-015/ulenor",
-      "populationTier": "medium",
-      "description": "normal city 99",
-      "unlockLabel": "Coming Soon"
-    },
-    {
-      "settlementId": "settlement-115",
-      "name": "Varekor",
-      "countryId": "country-035",
-      "region": "Khoruun Reach",
-      "type": "normal_city",
-      "status": "coming_soon",
-      "flagRef": "country:country-035",
-      "mapKey": "country-035/varekor",
-      "populationTier": "medium",
-      "description": "normal city 100",
-      "unlockLabel": "Coming Soon"
-    },
-    {
-      "settlementId": "settlement-116",
+      "settlementId": "settlement-092",
       "name": "Ashagaon",
       "countryId": "country-001",
       "region": "Avarra Crescent",
@@ -1517,7 +1205,7 @@
       "unlockLabel": "Available Now"
     },
     {
-      "settlementId": "settlement-117",
+      "settlementId": "settlement-093",
       "name": "Belagaon",
       "countryId": "country-055",
       "region": "Orsik Plateau",
@@ -1530,7 +1218,7 @@
       "unlockLabel": "Coming Soon"
     },
     {
-      "settlementId": "settlement-118",
+      "settlementId": "settlement-094",
       "name": "Ciragaon",
       "countryId": "country-106",
       "region": "Erynd Polar Ring",
@@ -1543,7 +1231,7 @@
       "unlockLabel": "Coming Soon"
     },
     {
-      "settlementId": "settlement-119",
+      "settlementId": "settlement-095",
       "name": "Dumagaon",
       "countryId": "country-039",
       "region": "Velmora Isles",
@@ -1556,7 +1244,7 @@
       "unlockLabel": "Coming Soon"
     },
     {
-      "settlementId": "settlement-120",
+      "settlementId": "settlement-096",
       "name": "Eshagaon",
       "countryId": "country-090",
       "region": "Dravik Arc",
@@ -1569,7 +1257,7 @@
       "unlockLabel": "Coming Soon"
     },
     {
-      "settlementId": "settlement-121",
+      "settlementId": "settlement-097",
       "name": "Felagaon",
       "countryId": "country-021",
       "region": "Khoruun Reach",
@@ -1582,7 +1270,7 @@
       "unlockLabel": "Coming Soon"
     },
     {
-      "settlementId": "settlement-122",
+      "settlementId": "settlement-098",
       "name": "Garogaon",
       "countryId": "country-072",
       "region": "Nembasa Greenbelt",
@@ -1595,7 +1283,7 @@
       "unlockLabel": "Coming Soon"
     },
     {
-      "settlementId": "settlement-123",
+      "settlementId": "settlement-099",
       "name": "Himagaon",
       "countryId": "country-002",
       "region": "Avarra Crescent",
@@ -1608,7 +1296,7 @@
       "unlockLabel": "Coming Soon"
     },
     {
-      "settlementId": "settlement-124",
+      "settlementId": "settlement-100",
       "name": "Iragaon",
       "countryId": "country-056",
       "region": "Orsik Plateau",
@@ -1621,7 +1309,7 @@
       "unlockLabel": "Coming Soon"
     },
     {
-      "settlementId": "settlement-125",
+      "settlementId": "settlement-101",
       "name": "Joragaon",
       "countryId": "country-107",
       "region": "Erynd Polar Ring",
@@ -1634,7 +1322,7 @@
       "unlockLabel": "Coming Soon"
     },
     {
-      "settlementId": "settlement-126",
+      "settlementId": "settlement-102",
       "name": "Kavigaon",
       "countryId": "country-040",
       "region": "Velmora Isles",
@@ -1647,7 +1335,7 @@
       "unlockLabel": "Coming Soon"
     },
     {
-      "settlementId": "settlement-127",
+      "settlementId": "settlement-103",
       "name": "Lumagaon",
       "countryId": "country-091",
       "region": "Dravik Arc",
@@ -1660,7 +1348,7 @@
       "unlockLabel": "Coming Soon"
     },
     {
-      "settlementId": "settlement-128",
+      "settlementId": "settlement-104",
       "name": "Miragaon",
       "countryId": "country-022",
       "region": "Khoruun Reach",
@@ -1673,7 +1361,7 @@
       "unlockLabel": "Coming Soon"
     },
     {
-      "settlementId": "settlement-129",
+      "settlementId": "settlement-105",
       "name": "Nalagaon",
       "countryId": "country-073",
       "region": "Nembasa Greenbelt",
@@ -1686,7 +1374,7 @@
       "unlockLabel": "Coming Soon"
     },
     {
-      "settlementId": "settlement-130",
+      "settlementId": "settlement-106",
       "name": "Oshagaon",
       "countryId": "country-003",
       "region": "Avarra Crescent",
@@ -1699,7 +1387,7 @@
       "unlockLabel": "Coming Soon"
     },
     {
-      "settlementId": "settlement-131",
+      "settlementId": "settlement-107",
       "name": "Piragaon",
       "countryId": "country-057",
       "region": "Orsik Plateau",
@@ -1712,7 +1400,7 @@
       "unlockLabel": "Coming Soon"
     },
     {
-      "settlementId": "settlement-132",
+      "settlementId": "settlement-108",
       "name": "Qumagaon",
       "countryId": "country-108",
       "region": "Erynd Polar Ring",
@@ -1725,7 +1413,7 @@
       "unlockLabel": "Coming Soon"
     },
     {
-      "settlementId": "settlement-133",
+      "settlementId": "settlement-109",
       "name": "Risagaon",
       "countryId": "country-041",
       "region": "Velmora Isles",
@@ -1738,7 +1426,7 @@
       "unlockLabel": "Coming Soon"
     },
     {
-      "settlementId": "settlement-134",
+      "settlementId": "settlement-110",
       "name": "Savagaon",
       "countryId": "country-092",
       "region": "Dravik Arc",
@@ -1751,7 +1439,7 @@
       "unlockLabel": "Coming Soon"
     },
     {
-      "settlementId": "settlement-135",
+      "settlementId": "settlement-111",
       "name": "Tiragaon",
       "countryId": "country-023",
       "region": "Khoruun Reach",
@@ -1764,7 +1452,7 @@
       "unlockLabel": "Coming Soon"
     },
     {
-      "settlementId": "settlement-136",
+      "settlementId": "settlement-112",
       "name": "Ushagaon",
       "countryId": "country-074",
       "region": "Nembasa Greenbelt",
@@ -1777,7 +1465,7 @@
       "unlockLabel": "Coming Soon"
     },
     {
-      "settlementId": "settlement-137",
+      "settlementId": "settlement-113",
       "name": "Vinagaon",
       "countryId": "country-004",
       "region": "Avarra Crescent",
@@ -1790,7 +1478,7 @@
       "unlockLabel": "Coming Soon"
     },
     {
-      "settlementId": "settlement-138",
+      "settlementId": "settlement-114",
       "name": "Walagaon",
       "countryId": "country-058",
       "region": "Orsik Plateau",
@@ -1803,7 +1491,7 @@
       "unlockLabel": "Coming Soon"
     },
     {
-      "settlementId": "settlement-139",
+      "settlementId": "settlement-115",
       "name": "Xiragaon",
       "countryId": "country-109",
       "region": "Erynd Polar Ring",
@@ -1816,7 +1504,7 @@
       "unlockLabel": "Coming Soon"
     },
     {
-      "settlementId": "settlement-140",
+      "settlementId": "settlement-116",
       "name": "Yumagaon",
       "countryId": "country-042",
       "region": "Velmora Isles",
@@ -1829,7 +1517,7 @@
       "unlockLabel": "Coming Soon"
     },
     {
-      "settlementId": "settlement-141",
+      "settlementId": "settlement-117",
       "name": "Ziragaon",
       "countryId": "country-093",
       "region": "Dravik Arc",
@@ -1842,7 +1530,7 @@
       "unlockLabel": "Coming Soon"
     },
     {
-      "settlementId": "settlement-142",
+      "settlementId": "settlement-118",
       "name": "Ashapur",
       "countryId": "country-024",
       "region": "Khoruun Reach",
@@ -1855,7 +1543,7 @@
       "unlockLabel": "Coming Soon"
     },
     {
-      "settlementId": "settlement-143",
+      "settlementId": "settlement-119",
       "name": "Belapur",
       "countryId": "country-075",
       "region": "Nembasa Greenbelt",
@@ -1868,7 +1556,7 @@
       "unlockLabel": "Coming Soon"
     },
     {
-      "settlementId": "settlement-144",
+      "settlementId": "settlement-120",
       "name": "Cirapur",
       "countryId": "country-005",
       "region": "Avarra Crescent",
@@ -1881,7 +1569,7 @@
       "unlockLabel": "Coming Soon"
     },
     {
-      "settlementId": "settlement-145",
+      "settlementId": "settlement-121",
       "name": "Dumapur",
       "countryId": "country-059",
       "region": "Orsik Plateau",
@@ -1894,7 +1582,7 @@
       "unlockLabel": "Coming Soon"
     },
     {
-      "settlementId": "settlement-146",
+      "settlementId": "settlement-122",
       "name": "Eshapur",
       "countryId": "country-110",
       "region": "Erynd Polar Ring",
@@ -1907,7 +1595,7 @@
       "unlockLabel": "Coming Soon"
     },
     {
-      "settlementId": "settlement-147",
+      "settlementId": "settlement-123",
       "name": "Felapur",
       "countryId": "country-043",
       "region": "Velmora Isles",
@@ -1920,7 +1608,7 @@
       "unlockLabel": "Coming Soon"
     },
     {
-      "settlementId": "settlement-148",
+      "settlementId": "settlement-124",
       "name": "Garopur",
       "countryId": "country-094",
       "region": "Dravik Arc",
@@ -1933,7 +1621,7 @@
       "unlockLabel": "Coming Soon"
     },
     {
-      "settlementId": "settlement-149",
+      "settlementId": "settlement-125",
       "name": "Himapur",
       "countryId": "country-025",
       "region": "Khoruun Reach",
@@ -1946,7 +1634,7 @@
       "unlockLabel": "Coming Soon"
     },
     {
-      "settlementId": "settlement-150",
+      "settlementId": "settlement-126",
       "name": "Irapur",
       "countryId": "country-076",
       "region": "Nembasa Greenbelt",
@@ -1959,7 +1647,7 @@
       "unlockLabel": "Coming Soon"
     },
     {
-      "settlementId": "settlement-151",
+      "settlementId": "settlement-127",
       "name": "Jorapur",
       "countryId": "country-006",
       "region": "Avarra Crescent",
@@ -1972,7 +1660,7 @@
       "unlockLabel": "Coming Soon"
     },
     {
-      "settlementId": "settlement-152",
+      "settlementId": "settlement-128",
       "name": "Kavipur",
       "countryId": "country-060",
       "region": "Orsik Plateau",
@@ -1985,7 +1673,7 @@
       "unlockLabel": "Coming Soon"
     },
     {
-      "settlementId": "settlement-153",
+      "settlementId": "settlement-129",
       "name": "Lumapur",
       "countryId": "country-111",
       "region": "Erynd Polar Ring",
@@ -1998,7 +1686,7 @@
       "unlockLabel": "Coming Soon"
     },
     {
-      "settlementId": "settlement-154",
+      "settlementId": "settlement-130",
       "name": "Mirapur",
       "countryId": "country-044",
       "region": "Velmora Isles",
@@ -2011,7 +1699,7 @@
       "unlockLabel": "Coming Soon"
     },
     {
-      "settlementId": "settlement-155",
+      "settlementId": "settlement-131",
       "name": "Nalapur",
       "countryId": "country-095",
       "region": "Dravik Arc",
@@ -2024,7 +1712,7 @@
       "unlockLabel": "Coming Soon"
     },
     {
-      "settlementId": "settlement-156",
+      "settlementId": "settlement-132",
       "name": "Oshapur",
       "countryId": "country-026",
       "region": "Khoruun Reach",
@@ -2037,7 +1725,7 @@
       "unlockLabel": "Coming Soon"
     },
     {
-      "settlementId": "settlement-157",
+      "settlementId": "settlement-133",
       "name": "Pirapur",
       "countryId": "country-077",
       "region": "Nembasa Greenbelt",
@@ -2050,7 +1738,7 @@
       "unlockLabel": "Coming Soon"
     },
     {
-      "settlementId": "settlement-158",
+      "settlementId": "settlement-134",
       "name": "Qumapur",
       "countryId": "country-007",
       "region": "Avarra Crescent",
@@ -2063,7 +1751,7 @@
       "unlockLabel": "Coming Soon"
     },
     {
-      "settlementId": "settlement-159",
+      "settlementId": "settlement-135",
       "name": "Risapur",
       "countryId": "country-061",
       "region": "Orsik Plateau",
@@ -2076,7 +1764,7 @@
       "unlockLabel": "Coming Soon"
     },
     {
-      "settlementId": "settlement-160",
+      "settlementId": "settlement-136",
       "name": "Savapur",
       "countryId": "country-112",
       "region": "Erynd Polar Ring",
@@ -2089,7 +1777,7 @@
       "unlockLabel": "Coming Soon"
     },
     {
-      "settlementId": "settlement-161",
+      "settlementId": "settlement-137",
       "name": "Tirapur",
       "countryId": "country-045",
       "region": "Velmora Isles",
@@ -2102,7 +1790,7 @@
       "unlockLabel": "Coming Soon"
     },
     {
-      "settlementId": "settlement-162",
+      "settlementId": "settlement-138",
       "name": "Ushapur",
       "countryId": "country-096",
       "region": "Dravik Arc",
@@ -2115,7 +1803,7 @@
       "unlockLabel": "Coming Soon"
     },
     {
-      "settlementId": "settlement-163",
+      "settlementId": "settlement-139",
       "name": "Vinapur",
       "countryId": "country-027",
       "region": "Khoruun Reach",
@@ -2128,7 +1816,7 @@
       "unlockLabel": "Coming Soon"
     },
     {
-      "settlementId": "settlement-164",
+      "settlementId": "settlement-140",
       "name": "Walapur",
       "countryId": "country-078",
       "region": "Nembasa Greenbelt",
@@ -2141,7 +1829,7 @@
       "unlockLabel": "Coming Soon"
     },
     {
-      "settlementId": "settlement-165",
+      "settlementId": "settlement-141",
       "name": "Xirapur",
       "countryId": "country-008",
       "region": "Avarra Crescent",
@@ -2154,7 +1842,7 @@
       "unlockLabel": "Coming Soon"
     },
     {
-      "settlementId": "settlement-166",
+      "settlementId": "settlement-142",
       "name": "Yumapur",
       "countryId": "country-062",
       "region": "Orsik Plateau",
@@ -2167,7 +1855,7 @@
       "unlockLabel": "Coming Soon"
     },
     {
-      "settlementId": "settlement-167",
+      "settlementId": "settlement-143",
       "name": "Zirapur",
       "countryId": "country-113",
       "region": "Erynd Polar Ring",
@@ -2180,7 +1868,7 @@
       "unlockLabel": "Coming Soon"
     },
     {
-      "settlementId": "settlement-168",
+      "settlementId": "settlement-144",
       "name": "Ashavale",
       "countryId": "country-046",
       "region": "Velmora Isles",
@@ -2193,7 +1881,7 @@
       "unlockLabel": "Coming Soon"
     },
     {
-      "settlementId": "settlement-169",
+      "settlementId": "settlement-145",
       "name": "Belavale",
       "countryId": "country-097",
       "region": "Dravik Arc",
@@ -2206,7 +1894,7 @@
       "unlockLabel": "Coming Soon"
     },
     {
-      "settlementId": "settlement-170",
+      "settlementId": "settlement-146",
       "name": "Ciravale",
       "countryId": "country-028",
       "region": "Khoruun Reach",
@@ -2219,7 +1907,7 @@
       "unlockLabel": "Coming Soon"
     },
     {
-      "settlementId": "settlement-171",
+      "settlementId": "settlement-147",
       "name": "Dumavale",
       "countryId": "country-079",
       "region": "Nembasa Greenbelt",
@@ -2232,7 +1920,7 @@
       "unlockLabel": "Coming Soon"
     },
     {
-      "settlementId": "settlement-172",
+      "settlementId": "settlement-148",
       "name": "Eshavale",
       "countryId": "country-009",
       "region": "Avarra Crescent",
@@ -2245,7 +1933,7 @@
       "unlockLabel": "Coming Soon"
     },
     {
-      "settlementId": "settlement-173",
+      "settlementId": "settlement-149",
       "name": "Felavale",
       "countryId": "country-063",
       "region": "Orsik Plateau",
@@ -2258,7 +1946,7 @@
       "unlockLabel": "Coming Soon"
     },
     {
-      "settlementId": "settlement-174",
+      "settlementId": "settlement-150",
       "name": "Garovale",
       "countryId": "country-114",
       "region": "Erynd Polar Ring",
@@ -2271,7 +1959,7 @@
       "unlockLabel": "Coming Soon"
     },
     {
-      "settlementId": "settlement-175",
+      "settlementId": "settlement-151",
       "name": "Himavale",
       "countryId": "country-047",
       "region": "Velmora Isles",
@@ -2284,7 +1972,7 @@
       "unlockLabel": "Coming Soon"
     },
     {
-      "settlementId": "settlement-176",
+      "settlementId": "settlement-152",
       "name": "Iravale",
       "countryId": "country-098",
       "region": "Dravik Arc",
@@ -2297,7 +1985,7 @@
       "unlockLabel": "Coming Soon"
     },
     {
-      "settlementId": "settlement-177",
+      "settlementId": "settlement-153",
       "name": "Joravale",
       "countryId": "country-029",
       "region": "Khoruun Reach",
@@ -2310,7 +1998,7 @@
       "unlockLabel": "Coming Soon"
     },
     {
-      "settlementId": "settlement-178",
+      "settlementId": "settlement-154",
       "name": "Kavivale",
       "countryId": "country-080",
       "region": "Nembasa Greenbelt",
@@ -2323,7 +2011,7 @@
       "unlockLabel": "Coming Soon"
     },
     {
-      "settlementId": "settlement-179",
+      "settlementId": "settlement-155",
       "name": "Lumavale",
       "countryId": "country-010",
       "region": "Avarra Crescent",
@@ -2336,7 +2024,7 @@
       "unlockLabel": "Coming Soon"
     },
     {
-      "settlementId": "settlement-180",
+      "settlementId": "settlement-156",
       "name": "Miravale",
       "countryId": "country-064",
       "region": "Orsik Plateau",
@@ -2349,7 +2037,7 @@
       "unlockLabel": "Coming Soon"
     },
     {
-      "settlementId": "settlement-181",
+      "settlementId": "settlement-157",
       "name": "Nalavale",
       "countryId": "country-115",
       "region": "Erynd Polar Ring",
@@ -2362,7 +2050,7 @@
       "unlockLabel": "Coming Soon"
     },
     {
-      "settlementId": "settlement-182",
+      "settlementId": "settlement-158",
       "name": "Oshavale",
       "countryId": "country-048",
       "region": "Velmora Isles",
@@ -2375,7 +2063,7 @@
       "unlockLabel": "Coming Soon"
     },
     {
-      "settlementId": "settlement-183",
+      "settlementId": "settlement-159",
       "name": "Piravale",
       "countryId": "country-099",
       "region": "Dravik Arc",
@@ -2388,7 +2076,7 @@
       "unlockLabel": "Coming Soon"
     },
     {
-      "settlementId": "settlement-184",
+      "settlementId": "settlement-160",
       "name": "Qumavale",
       "countryId": "country-030",
       "region": "Khoruun Reach",
@@ -2401,7 +2089,7 @@
       "unlockLabel": "Coming Soon"
     },
     {
-      "settlementId": "settlement-185",
+      "settlementId": "settlement-161",
       "name": "Risavale",
       "countryId": "country-081",
       "region": "Nembasa Greenbelt",
@@ -2414,7 +2102,7 @@
       "unlockLabel": "Coming Soon"
     },
     {
-      "settlementId": "settlement-186",
+      "settlementId": "settlement-162",
       "name": "Savavale",
       "countryId": "country-011",
       "region": "Avarra Crescent",
@@ -2427,7 +2115,7 @@
       "unlockLabel": "Coming Soon"
     },
     {
-      "settlementId": "settlement-187",
+      "settlementId": "settlement-163",
       "name": "Tiravale",
       "countryId": "country-065",
       "region": "Orsik Plateau",
@@ -2440,7 +2128,7 @@
       "unlockLabel": "Coming Soon"
     },
     {
-      "settlementId": "settlement-188",
+      "settlementId": "settlement-164",
       "name": "Ushavale",
       "countryId": "country-116",
       "region": "Erynd Polar Ring",
@@ -2453,7 +2141,7 @@
       "unlockLabel": "Coming Soon"
     },
     {
-      "settlementId": "settlement-189",
+      "settlementId": "settlement-165",
       "name": "Vinavale",
       "countryId": "country-049",
       "region": "Velmora Isles",
@@ -2466,7 +2154,7 @@
       "unlockLabel": "Coming Soon"
     },
     {
-      "settlementId": "settlement-190",
+      "settlementId": "settlement-166",
       "name": "Walavale",
       "countryId": "country-100",
       "region": "Dravik Arc",
@@ -2479,7 +2167,7 @@
       "unlockLabel": "Coming Soon"
     },
     {
-      "settlementId": "settlement-191",
+      "settlementId": "settlement-167",
       "name": "Xiravale",
       "countryId": "country-031",
       "region": "Khoruun Reach",
@@ -2492,7 +2180,7 @@
       "unlockLabel": "Coming Soon"
     },
     {
-      "settlementId": "settlement-192",
+      "settlementId": "settlement-168",
       "name": "Yumavale",
       "countryId": "country-082",
       "region": "Nembasa Greenbelt",
@@ -2505,7 +2193,7 @@
       "unlockLabel": "Coming Soon"
     },
     {
-      "settlementId": "settlement-193",
+      "settlementId": "settlement-169",
       "name": "Ziravale",
       "countryId": "country-012",
       "region": "Avarra Crescent",
@@ -2518,7 +2206,7 @@
       "unlockLabel": "Coming Soon"
     },
     {
-      "settlementId": "settlement-194",
+      "settlementId": "settlement-170",
       "name": "Ashanadi",
       "countryId": "country-066",
       "region": "Orsik Plateau",
@@ -2531,7 +2219,7 @@
       "unlockLabel": "Coming Soon"
     },
     {
-      "settlementId": "settlement-195",
+      "settlementId": "settlement-171",
       "name": "Belanadi",
       "countryId": "country-117",
       "region": "Erynd Polar Ring",
@@ -2544,7 +2232,7 @@
       "unlockLabel": "Coming Soon"
     },
     {
-      "settlementId": "settlement-196",
+      "settlementId": "settlement-172",
       "name": "Ciranadi",
       "countryId": "country-050",
       "region": "Velmora Isles",
@@ -2557,7 +2245,7 @@
       "unlockLabel": "Coming Soon"
     },
     {
-      "settlementId": "settlement-197",
+      "settlementId": "settlement-173",
       "name": "Dumanadi",
       "countryId": "country-101",
       "region": "Dravik Arc",
@@ -2570,7 +2258,7 @@
       "unlockLabel": "Coming Soon"
     },
     {
-      "settlementId": "settlement-198",
+      "settlementId": "settlement-174",
       "name": "Eshanadi",
       "countryId": "country-032",
       "region": "Khoruun Reach",
@@ -2583,7 +2271,7 @@
       "unlockLabel": "Coming Soon"
     },
     {
-      "settlementId": "settlement-199",
+      "settlementId": "settlement-175",
       "name": "Felanadi",
       "countryId": "country-083",
       "region": "Nembasa Greenbelt",
@@ -2596,7 +2284,7 @@
       "unlockLabel": "Coming Soon"
     },
     {
-      "settlementId": "settlement-200",
+      "settlementId": "settlement-176",
       "name": "Garonadi",
       "countryId": "country-013",
       "region": "Avarra Crescent",
@@ -2609,7 +2297,7 @@
       "unlockLabel": "Coming Soon"
     },
     {
-      "settlementId": "settlement-201",
+      "settlementId": "settlement-177",
       "name": "Himanadi",
       "countryId": "country-067",
       "region": "Orsik Plateau",
@@ -2622,7 +2310,7 @@
       "unlockLabel": "Coming Soon"
     },
     {
-      "settlementId": "settlement-202",
+      "settlementId": "settlement-178",
       "name": "Iranadi",
       "countryId": "country-118",
       "region": "Erynd Polar Ring",
@@ -2635,7 +2323,7 @@
       "unlockLabel": "Coming Soon"
     },
     {
-      "settlementId": "settlement-203",
+      "settlementId": "settlement-179",
       "name": "Joranadi",
       "countryId": "country-051",
       "region": "Velmora Isles",
@@ -2648,7 +2336,7 @@
       "unlockLabel": "Coming Soon"
     },
     {
-      "settlementId": "settlement-204",
+      "settlementId": "settlement-180",
       "name": "Kavinadi",
       "countryId": "country-102",
       "region": "Dravik Arc",
@@ -2661,7 +2349,7 @@
       "unlockLabel": "Coming Soon"
     },
     {
-      "settlementId": "settlement-205",
+      "settlementId": "settlement-181",
       "name": "Lumanadi",
       "countryId": "country-033",
       "region": "Khoruun Reach",
@@ -2674,7 +2362,7 @@
       "unlockLabel": "Coming Soon"
     },
     {
-      "settlementId": "settlement-206",
+      "settlementId": "settlement-182",
       "name": "Miranadi",
       "countryId": "country-084",
       "region": "Nembasa Greenbelt",
@@ -2687,7 +2375,7 @@
       "unlockLabel": "Coming Soon"
     },
     {
-      "settlementId": "settlement-207",
+      "settlementId": "settlement-183",
       "name": "Nalanadi",
       "countryId": "country-014",
       "region": "Avarra Crescent",
@@ -2700,7 +2388,7 @@
       "unlockLabel": "Coming Soon"
     },
     {
-      "settlementId": "settlement-208",
+      "settlementId": "settlement-184",
       "name": "Oshanadi",
       "countryId": "country-068",
       "region": "Orsik Plateau",
@@ -2713,7 +2401,7 @@
       "unlockLabel": "Coming Soon"
     },
     {
-      "settlementId": "settlement-209",
+      "settlementId": "settlement-185",
       "name": "Piranadi",
       "countryId": "country-119",
       "region": "Erynd Polar Ring",
@@ -2726,7 +2414,7 @@
       "unlockLabel": "Coming Soon"
     },
     {
-      "settlementId": "settlement-210",
+      "settlementId": "settlement-186",
       "name": "Qumanadi",
       "countryId": "country-052",
       "region": "Velmora Isles",
@@ -2739,7 +2427,7 @@
       "unlockLabel": "Coming Soon"
     },
     {
-      "settlementId": "settlement-211",
+      "settlementId": "settlement-187",
       "name": "Risanadi",
       "countryId": "country-103",
       "region": "Dravik Arc",
@@ -2752,7 +2440,7 @@
       "unlockLabel": "Coming Soon"
     },
     {
-      "settlementId": "settlement-212",
+      "settlementId": "settlement-188",
       "name": "Savanadi",
       "countryId": "country-034",
       "region": "Khoruun Reach",
@@ -2765,7 +2453,7 @@
       "unlockLabel": "Coming Soon"
     },
     {
-      "settlementId": "settlement-213",
+      "settlementId": "settlement-189",
       "name": "Tiranadi",
       "countryId": "country-085",
       "region": "Nembasa Greenbelt",
@@ -2778,7 +2466,7 @@
       "unlockLabel": "Coming Soon"
     },
     {
-      "settlementId": "settlement-214",
+      "settlementId": "settlement-190",
       "name": "Ushanadi",
       "countryId": "country-015",
       "region": "Avarra Crescent",
@@ -2791,7 +2479,7 @@
       "unlockLabel": "Coming Soon"
     },
     {
-      "settlementId": "settlement-215",
+      "settlementId": "settlement-191",
       "name": "Vinanadi",
       "countryId": "country-069",
       "region": "Orsik Plateau",
@@ -2804,7 +2492,7 @@
       "unlockLabel": "Coming Soon"
     },
     {
-      "settlementId": "settlement-216",
+      "settlementId": "settlement-192",
       "name": "Walanadi",
       "countryId": "country-120",
       "region": "Erynd Polar Ring",
@@ -2817,7 +2505,7 @@
       "unlockLabel": "Coming Soon"
     },
     {
-      "settlementId": "settlement-217",
+      "settlementId": "settlement-193",
       "name": "Xiranadi",
       "countryId": "country-053",
       "region": "Velmora Isles",
@@ -2830,7 +2518,7 @@
       "unlockLabel": "Coming Soon"
     },
     {
-      "settlementId": "settlement-218",
+      "settlementId": "settlement-194",
       "name": "Yumanadi",
       "countryId": "country-104",
       "region": "Dravik Arc",
@@ -2843,7 +2531,7 @@
       "unlockLabel": "Coming Soon"
     },
     {
-      "settlementId": "settlement-219",
+      "settlementId": "settlement-195",
       "name": "Ziranadi",
       "countryId": "country-035",
       "region": "Khoruun Reach",
@@ -2856,7 +2544,7 @@
       "unlockLabel": "Coming Soon"
     },
     {
-      "settlementId": "settlement-220",
+      "settlementId": "settlement-196",
       "name": "Ashakhet",
       "countryId": "country-086",
       "region": "Nembasa Greenbelt",
@@ -2869,7 +2557,7 @@
       "unlockLabel": "Coming Soon"
     },
     {
-      "settlementId": "settlement-221",
+      "settlementId": "settlement-197",
       "name": "Belakhet",
       "countryId": "country-016",
       "region": "Avarra Crescent",
@@ -2882,7 +2570,7 @@
       "unlockLabel": "Coming Soon"
     },
     {
-      "settlementId": "settlement-222",
+      "settlementId": "settlement-198",
       "name": "Cirakhet",
       "countryId": "country-070",
       "region": "Orsik Plateau",
@@ -2895,7 +2583,7 @@
       "unlockLabel": "Coming Soon"
     },
     {
-      "settlementId": "settlement-223",
+      "settlementId": "settlement-199",
       "name": "Dumakhet",
       "countryId": "country-106",
       "region": "Erynd Polar Ring",
@@ -2908,7 +2596,7 @@
       "unlockLabel": "Coming Soon"
     },
     {
-      "settlementId": "settlement-224",
+      "settlementId": "settlement-200",
       "name": "Eshakhet",
       "countryId": "country-054",
       "region": "Velmora Isles",
@@ -2921,7 +2609,7 @@
       "unlockLabel": "Coming Soon"
     },
     {
-      "settlementId": "settlement-225",
+      "settlementId": "settlement-201",
       "name": "Felakhet",
       "countryId": "country-105",
       "region": "Dravik Arc",
@@ -2931,526 +2619,6 @@
       "mapKey": "country-105/felakhet",
       "populationTier": "small",
       "description": "village 110",
-      "unlockLabel": "Coming Soon"
-    },
-    {
-      "settlementId": "settlement-226",
-      "name": "Garokhet",
-      "countryId": "country-036",
-      "region": "Khoruun Reach",
-      "type": "village",
-      "status": "coming_soon",
-      "flagRef": "country:country-036",
-      "mapKey": "country-036/garokhet",
-      "populationTier": "small",
-      "description": "village 111",
-      "unlockLabel": "Coming Soon"
-    },
-    {
-      "settlementId": "settlement-227",
-      "name": "Himakhet",
-      "countryId": "country-087",
-      "region": "Nembasa Greenbelt",
-      "type": "village",
-      "status": "coming_soon",
-      "flagRef": "country:country-087",
-      "mapKey": "country-087/himakhet",
-      "populationTier": "small",
-      "description": "village 112",
-      "unlockLabel": "Coming Soon"
-    },
-    {
-      "settlementId": "settlement-228",
-      "name": "Irakhet",
-      "countryId": "country-017",
-      "region": "Avarra Crescent",
-      "type": "village",
-      "status": "coming_soon",
-      "flagRef": "country:country-017",
-      "mapKey": "country-017/irakhet",
-      "populationTier": "small",
-      "description": "village 113",
-      "unlockLabel": "Coming Soon"
-    },
-    {
-      "settlementId": "settlement-229",
-      "name": "Jorakhet",
-      "countryId": "country-071",
-      "region": "Orsik Plateau",
-      "type": "village",
-      "status": "coming_soon",
-      "flagRef": "country:country-071",
-      "mapKey": "country-071/jorakhet",
-      "populationTier": "small",
-      "description": "village 114",
-      "unlockLabel": "Coming Soon"
-    },
-    {
-      "settlementId": "settlement-230",
-      "name": "Kavikhet",
-      "countryId": "country-107",
-      "region": "Erynd Polar Ring",
-      "type": "village",
-      "status": "coming_soon",
-      "flagRef": "country:country-107",
-      "mapKey": "country-107/kavikhet",
-      "populationTier": "small",
-      "description": "village 115",
-      "unlockLabel": "Coming Soon"
-    },
-    {
-      "settlementId": "settlement-231",
-      "name": "Lumakhet",
-      "countryId": "country-039",
-      "region": "Velmora Isles",
-      "type": "village",
-      "status": "coming_soon",
-      "flagRef": "country:country-039",
-      "mapKey": "country-039/lumakhet",
-      "populationTier": "small",
-      "description": "village 116",
-      "unlockLabel": "Coming Soon"
-    },
-    {
-      "settlementId": "settlement-232",
-      "name": "Mirakhet",
-      "countryId": "country-090",
-      "region": "Dravik Arc",
-      "type": "village",
-      "status": "coming_soon",
-      "flagRef": "country:country-090",
-      "mapKey": "country-090/mirakhet",
-      "populationTier": "small",
-      "description": "village 117",
-      "unlockLabel": "Coming Soon"
-    },
-    {
-      "settlementId": "settlement-233",
-      "name": "Nalakhet",
-      "countryId": "country-037",
-      "region": "Khoruun Reach",
-      "type": "village",
-      "status": "coming_soon",
-      "flagRef": "country:country-037",
-      "mapKey": "country-037/nalakhet",
-      "populationTier": "small",
-      "description": "village 118",
-      "unlockLabel": "Coming Soon"
-    },
-    {
-      "settlementId": "settlement-234",
-      "name": "Oshakhet",
-      "countryId": "country-088",
-      "region": "Nembasa Greenbelt",
-      "type": "village",
-      "status": "coming_soon",
-      "flagRef": "country:country-088",
-      "mapKey": "country-088/oshakhet",
-      "populationTier": "small",
-      "description": "village 119",
-      "unlockLabel": "Coming Soon"
-    },
-    {
-      "settlementId": "settlement-235",
-      "name": "Pirakhet",
-      "countryId": "country-018",
-      "region": "Avarra Crescent",
-      "type": "village",
-      "status": "coming_soon",
-      "flagRef": "country:country-018",
-      "mapKey": "country-018/pirakhet",
-      "populationTier": "small",
-      "description": "village 120",
-      "unlockLabel": "Coming Soon"
-    },
-    {
-      "settlementId": "settlement-236",
-      "name": "Qumakhet",
-      "countryId": "country-055",
-      "region": "Orsik Plateau",
-      "type": "village",
-      "status": "coming_soon",
-      "flagRef": "country:country-055",
-      "mapKey": "country-055/qumakhet",
-      "populationTier": "small",
-      "description": "village 121",
-      "unlockLabel": "Coming Soon"
-    },
-    {
-      "settlementId": "settlement-237",
-      "name": "Risakhet",
-      "countryId": "country-108",
-      "region": "Erynd Polar Ring",
-      "type": "village",
-      "status": "coming_soon",
-      "flagRef": "country:country-108",
-      "mapKey": "country-108/risakhet",
-      "populationTier": "small",
-      "description": "village 122",
-      "unlockLabel": "Coming Soon"
-    },
-    {
-      "settlementId": "settlement-238",
-      "name": "Savakhet",
-      "countryId": "country-040",
-      "region": "Velmora Isles",
-      "type": "village",
-      "status": "coming_soon",
-      "flagRef": "country:country-040",
-      "mapKey": "country-040/savakhet",
-      "populationTier": "small",
-      "description": "village 123",
-      "unlockLabel": "Coming Soon"
-    },
-    {
-      "settlementId": "settlement-239",
-      "name": "Tirakhet",
-      "countryId": "country-091",
-      "region": "Dravik Arc",
-      "type": "village",
-      "status": "coming_soon",
-      "flagRef": "country:country-091",
-      "mapKey": "country-091/tirakhet",
-      "populationTier": "small",
-      "description": "village 124",
-      "unlockLabel": "Coming Soon"
-    },
-    {
-      "settlementId": "settlement-240",
-      "name": "Ushakhet",
-      "countryId": "country-038",
-      "region": "Khoruun Reach",
-      "type": "village",
-      "status": "coming_soon",
-      "flagRef": "country:country-038",
-      "mapKey": "country-038/ushakhet",
-      "populationTier": "small",
-      "description": "village 125",
-      "unlockLabel": "Coming Soon"
-    },
-    {
-      "settlementId": "settlement-241",
-      "name": "Vinakhet",
-      "countryId": "country-089",
-      "region": "Nembasa Greenbelt",
-      "type": "village",
-      "status": "coming_soon",
-      "flagRef": "country:country-089",
-      "mapKey": "country-089/vinakhet",
-      "populationTier": "small",
-      "description": "village 126",
-      "unlockLabel": "Coming Soon"
-    },
-    {
-      "settlementId": "settlement-242",
-      "name": "Walakhet",
-      "countryId": "country-019",
-      "region": "Avarra Crescent",
-      "type": "village",
-      "status": "coming_soon",
-      "flagRef": "country:country-019",
-      "mapKey": "country-019/walakhet",
-      "populationTier": "small",
-      "description": "village 127",
-      "unlockLabel": "Coming Soon"
-    },
-    {
-      "settlementId": "settlement-243",
-      "name": "Xirakhet",
-      "countryId": "country-056",
-      "region": "Orsik Plateau",
-      "type": "village",
-      "status": "coming_soon",
-      "flagRef": "country:country-056",
-      "mapKey": "country-056/xirakhet",
-      "populationTier": "small",
-      "description": "village 128",
-      "unlockLabel": "Coming Soon"
-    },
-    {
-      "settlementId": "settlement-244",
-      "name": "Yumakhet",
-      "countryId": "country-109",
-      "region": "Erynd Polar Ring",
-      "type": "village",
-      "status": "coming_soon",
-      "flagRef": "country:country-109",
-      "mapKey": "country-109/yumakhet",
-      "populationTier": "small",
-      "description": "village 129",
-      "unlockLabel": "Coming Soon"
-    },
-    {
-      "settlementId": "settlement-245",
-      "name": "Zirakhet",
-      "countryId": "country-041",
-      "region": "Velmora Isles",
-      "type": "village",
-      "status": "coming_soon",
-      "flagRef": "country:country-041",
-      "mapKey": "country-041/zirakhet",
-      "populationTier": "small",
-      "description": "village 130",
-      "unlockLabel": "Coming Soon"
-    },
-    {
-      "settlementId": "settlement-246",
-      "name": "Ashabari",
-      "countryId": "country-092",
-      "region": "Dravik Arc",
-      "type": "village",
-      "status": "coming_soon",
-      "flagRef": "country:country-092",
-      "mapKey": "country-092/ashabari",
-      "populationTier": "small",
-      "description": "village 131",
-      "unlockLabel": "Coming Soon"
-    },
-    {
-      "settlementId": "settlement-247",
-      "name": "Belabari",
-      "countryId": "country-021",
-      "region": "Khoruun Reach",
-      "type": "village",
-      "status": "coming_soon",
-      "flagRef": "country:country-021",
-      "mapKey": "country-021/belabari",
-      "populationTier": "small",
-      "description": "village 132",
-      "unlockLabel": "Coming Soon"
-    },
-    {
-      "settlementId": "settlement-248",
-      "name": "Cirabari",
-      "countryId": "country-072",
-      "region": "Nembasa Greenbelt",
-      "type": "village",
-      "status": "coming_soon",
-      "flagRef": "country:country-072",
-      "mapKey": "country-072/cirabari",
-      "populationTier": "small",
-      "description": "village 133",
-      "unlockLabel": "Coming Soon"
-    },
-    {
-      "settlementId": "settlement-249",
-      "name": "Dumabari",
-      "countryId": "country-020",
-      "region": "Avarra Crescent",
-      "type": "village",
-      "status": "coming_soon",
-      "flagRef": "country:country-020",
-      "mapKey": "country-020/dumabari",
-      "populationTier": "small",
-      "description": "village 134",
-      "unlockLabel": "Coming Soon"
-    },
-    {
-      "settlementId": "settlement-250",
-      "name": "Eshabari",
-      "countryId": "country-057",
-      "region": "Orsik Plateau",
-      "type": "village",
-      "status": "coming_soon",
-      "flagRef": "country:country-057",
-      "mapKey": "country-057/eshabari",
-      "populationTier": "small",
-      "description": "village 135",
-      "unlockLabel": "Coming Soon"
-    },
-    {
-      "settlementId": "settlement-251",
-      "name": "Felabari",
-      "countryId": "country-110",
-      "region": "Erynd Polar Ring",
-      "type": "village",
-      "status": "coming_soon",
-      "flagRef": "country:country-110",
-      "mapKey": "country-110/felabari",
-      "populationTier": "small",
-      "description": "village 136",
-      "unlockLabel": "Coming Soon"
-    },
-    {
-      "settlementId": "settlement-252",
-      "name": "Garobari",
-      "countryId": "country-042",
-      "region": "Velmora Isles",
-      "type": "village",
-      "status": "coming_soon",
-      "flagRef": "country:country-042",
-      "mapKey": "country-042/garobari",
-      "populationTier": "small",
-      "description": "village 137",
-      "unlockLabel": "Coming Soon"
-    },
-    {
-      "settlementId": "settlement-253",
-      "name": "Himabari",
-      "countryId": "country-093",
-      "region": "Dravik Arc",
-      "type": "village",
-      "status": "coming_soon",
-      "flagRef": "country:country-093",
-      "mapKey": "country-093/himabari",
-      "populationTier": "small",
-      "description": "village 138",
-      "unlockLabel": "Coming Soon"
-    },
-    {
-      "settlementId": "settlement-254",
-      "name": "Irabari",
-      "countryId": "country-022",
-      "region": "Khoruun Reach",
-      "type": "village",
-      "status": "coming_soon",
-      "flagRef": "country:country-022",
-      "mapKey": "country-022/irabari",
-      "populationTier": "small",
-      "description": "village 139",
-      "unlockLabel": "Coming Soon"
-    },
-    {
-      "settlementId": "settlement-255",
-      "name": "Jorabari",
-      "countryId": "country-073",
-      "region": "Nembasa Greenbelt",
-      "type": "village",
-      "status": "coming_soon",
-      "flagRef": "country:country-073",
-      "mapKey": "country-073/jorabari",
-      "populationTier": "small",
-      "description": "village 140",
-      "unlockLabel": "Coming Soon"
-    },
-    {
-      "settlementId": "settlement-256",
-      "name": "Kavibari",
-      "countryId": "country-001",
-      "region": "Avarra Crescent",
-      "type": "village",
-      "status": "playable",
-      "flagRef": "country:country-001",
-      "mapKey": "country-001/kavibari",
-      "populationTier": "small",
-      "description": "village 141",
-      "unlockLabel": "Available Now"
-    },
-    {
-      "settlementId": "settlement-257",
-      "name": "Lumabari",
-      "countryId": "country-058",
-      "region": "Orsik Plateau",
-      "type": "village",
-      "status": "coming_soon",
-      "flagRef": "country:country-058",
-      "mapKey": "country-058/lumabari",
-      "populationTier": "small",
-      "description": "village 142",
-      "unlockLabel": "Coming Soon"
-    },
-    {
-      "settlementId": "settlement-258",
-      "name": "Mirabari",
-      "countryId": "country-111",
-      "region": "Erynd Polar Ring",
-      "type": "village",
-      "status": "coming_soon",
-      "flagRef": "country:country-111",
-      "mapKey": "country-111/mirabari",
-      "populationTier": "small",
-      "description": "village 143",
-      "unlockLabel": "Coming Soon"
-    },
-    {
-      "settlementId": "settlement-259",
-      "name": "Nalabari",
-      "countryId": "country-043",
-      "region": "Velmora Isles",
-      "type": "village",
-      "status": "coming_soon",
-      "flagRef": "country:country-043",
-      "mapKey": "country-043/nalabari",
-      "populationTier": "small",
-      "description": "village 144",
-      "unlockLabel": "Coming Soon"
-    },
-    {
-      "settlementId": "settlement-260",
-      "name": "Oshabari",
-      "countryId": "country-094",
-      "region": "Dravik Arc",
-      "type": "village",
-      "status": "coming_soon",
-      "flagRef": "country:country-094",
-      "mapKey": "country-094/oshabari",
-      "populationTier": "small",
-      "description": "village 145",
-      "unlockLabel": "Coming Soon"
-    },
-    {
-      "settlementId": "settlement-261",
-      "name": "Pirabari",
-      "countryId": "country-023",
-      "region": "Khoruun Reach",
-      "type": "village",
-      "status": "coming_soon",
-      "flagRef": "country:country-023",
-      "mapKey": "country-023/pirabari",
-      "populationTier": "small",
-      "description": "village 146",
-      "unlockLabel": "Coming Soon"
-    },
-    {
-      "settlementId": "settlement-262",
-      "name": "Qumabari",
-      "countryId": "country-074",
-      "region": "Nembasa Greenbelt",
-      "type": "village",
-      "status": "coming_soon",
-      "flagRef": "country:country-074",
-      "mapKey": "country-074/qumabari",
-      "populationTier": "small",
-      "description": "village 147",
-      "unlockLabel": "Coming Soon"
-    },
-    {
-      "settlementId": "settlement-263",
-      "name": "Risabari",
-      "countryId": "country-002",
-      "region": "Avarra Crescent",
-      "type": "village",
-      "status": "coming_soon",
-      "flagRef": "country:country-002",
-      "mapKey": "country-002/risabari",
-      "populationTier": "small",
-      "description": "village 148",
-      "unlockLabel": "Coming Soon"
-    },
-    {
-      "settlementId": "settlement-264",
-      "name": "Savabari",
-      "countryId": "country-059",
-      "region": "Orsik Plateau",
-      "type": "village",
-      "status": "coming_soon",
-      "flagRef": "country:country-059",
-      "mapKey": "country-059/savabari",
-      "populationTier": "small",
-      "description": "village 149",
-      "unlockLabel": "Coming Soon"
-    },
-    {
-      "settlementId": "settlement-265",
-      "name": "Tirabari",
-      "countryId": "country-112",
-      "region": "Erynd Polar Ring",
-      "type": "village",
-      "status": "coming_soon",
-      "flagRef": "country:country-112",
-      "mapKey": "country-112/tirabari",
-      "populationTier": "small",
-      "description": "village 150",
       "unlockLabel": "Coming Soon"
     }
   ],

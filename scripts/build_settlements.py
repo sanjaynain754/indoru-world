@@ -44,6 +44,11 @@ for i in range(150):
     name = f'{village_roots[i % len(village_roots)]}{village_suffixes[(i // len(village_roots)) % len(village_suffixes)]}'
     villages.append((name, country['countryId'], region, 'village', 'playable' if country['countryId']=='country-001' else 'coming_soon', f'village {i+1}'))
 
+# Central playable map scope. Global Coming Soon settlements remain in the country registry and are not touched here.
+major = major[:6]
+normal = normal[:85]
+villages = villages[:110]
+
 records = []
 for idx, row in enumerate(major + normal + villages, 1):
     name, country_id, region, kind, status, note = row
