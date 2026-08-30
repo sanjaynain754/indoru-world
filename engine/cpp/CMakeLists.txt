@@ -1,0 +1,21 @@
+cmake_minimum_required(VERSION 3.24)
+project(indoru_engine LANGUAGES CXX)
+
+set(CMAKE_CXX_STANDARD 20)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+set(CMAKE_CXX_EXTENSIONS OFF)
+
+add_library(indoru_engine STATIC
+    src/engine.cpp
+    src/world_state.cpp
+)
+
+target_include_directories(indoru_engine PUBLIC include)
+target_compile_options(indoru_engine PRIVATE -Wall -Wextra -Wpedantic -Wconversion -Wshadow)
+
+add_executable(indoru_smoke_test tests/world_state_smoke.cpp)
+target_link_libraries(indoru_smoke_test PRIVATE indoru_engine)
+target_compile_options(indoru_smoke_test PRIVATE -Wall -Wextra -Wpedantic -Wconversion -Wshadow)
+
+enable_testing()
+add_test(NAME world_state_smoke COMMAND indoru_smoke_test)
