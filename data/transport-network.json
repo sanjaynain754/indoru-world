@@ -1,0 +1,38 @@
+{
+  "worldId": "indoru-world-001",
+  "countryId": "country-indoru",
+  "networkVersion": "0.1.0",
+  "transportModes": ["road", "rail", "air", "ferry", "pedestrian"],
+  "nodes": [
+    {"nodeId":"navaar-central","name":"Navaar Central","type":"capital_hub","cityId":"city-navaar"},
+    {"nodeId":"solmera-hub","name":"Solmera Sunport","type":"airport_port_hub","cityId":"city-solmera"},
+    {"nodeId":"mirqara-hub","name":"Mirqara Air-Sea Hub","type":"airport_port_hub","cityId":"city-mirqara-prime"},
+    {"nodeId":"khoruun-hub","name":"Khoruun Ridge Hub","type":"airport_rail_hub","cityId":"city-khoruun"},
+    {"nodeId":"vaskora-hub","name":"Vaskora Bay Hub","type":"airport_port_hub","cityId":"city-vaskora-bay"},
+    {"nodeId":"velmora-hub","name":"Velmora Sky-Island Hub","type":"airport_ferry_hub","cityId":"city-velmora-central"},
+    {"nodeId":"miren-lake","name":"Miren Lake Terminal","type":"lake_terminal","settlementRef":"Miren Lake"},
+    {"nodeId":"dharvek","name":"Dharvek","type":"town_hub","settlementRef":"Dharvek"},
+    {"nodeId":"koral-port","name":"Koral Port","type":"port_hub","settlementRef":"Koral Port"},
+    {"nodeId":"surok-gate","name":"Surok Gate","type":"desert_outpost","settlementRef":"Surok Gate"},
+    {"nodeId":"shivren-base","name":"Shivren Base","type":"highland_station","settlementRef":"Shivren Base"}
+  ],
+  "corridors": [
+    {"corridorId":"road-capital-ring","name":"Navaar Capital Ring Road","mode":"road","tier":"urban_expressway","from":"navaar-central","to":"navaar-central","lanes":6,"weatherRisk":"low_to_medium"},
+    {"corridorId":"road-crown-highway","name":"Crown Highway","mode":"road","tier":"primary","from":"navaar-central","to":"shivren-base","lanes":4,"weatherRisk":"snow_and_ice"},
+    {"corridorId":"road-rain-expressway","name":"East Rain Expressway","mode":"road","tier":"primary","from":"navaar-central","to":"koral-port","lanes":4,"weatherRisk":"heavy_rain_and_flooding"},
+    {"corridorId":"road-desert-bypass","name":"Southern Desert Bypass","mode":"road","tier":"primary","from":"navaar-central","to":"surok-gate","lanes":4,"weatherRisk":"dust_storm_and_heat"},
+    {"corridorId":"road-forest-route","name":"West Forest Route","mode":"road","tier":"secondary","from":"navaar-central","to":"dharvek","lanes":2,"weatherRisk":"fog_and_fallen_trees"},
+    {"corridorId":"road-lake-route","name":"Nivor Lake Route","mode":"road","tier":"secondary","from":"navaar-central","to":"miren-lake","lanes":2,"weatherRisk":"fog_and_rockfall"},
+    {"corridorId":"rail-mainline","name":"Indoru Crown Rail","mode":"rail","tier":"intercity","from":"navaar-central","to":"vaskora-hub","tracks":2,"cargo":true,"passenger":true,"weatherRisk":"rain_and_flooding"},
+    {"corridorId":"rail-canyon-line","name":"Khoruun Freight Line","mode":"rail","tier":"industrial","from":"navaar-central","to":"khoruun-hub","tracks":1,"cargo":true,"passenger":false,"weatherRisk":"dust_and_rockfall"},
+    {"corridorId":"rail-west-loop","name":"Forest-Lake Rail Loop","mode":"rail","tier":"regional","from":"dharvek","to":"miren-lake","tracks":1,"cargo":true,"passenger":true,"weatherRisk":"fog_and_flooding"},
+    {"corridorId":"rail-highland-tunnel","name":"Shivren Mountain Rail","mode":"rail","tier":"mountain","from":"navaar-central","to":"shivren-base","tracks":1,"cargo":false,"passenger":true,"weatherRisk":"snow_and_ice"},
+    {"corridorId":"air-six-city-network","name":"Indoru Air Grid","mode":"air","tier":"domestic_and_international","from":"navaar-central","to":"solmera-hub","stops":["mirqara-hub","khoruun-hub","vaskora-hub","velmora-hub"],"weatherRisk":"storms_and_visibility"},
+    {"corridorId":"ferry-east-chain","name":"Kora Coastal Ferry Chain","mode":"ferry","tier":"coastal","from":"koral-port","to":"vaskora-hub","stops":["velmora-hub"],"weatherRisk":"storms_and_high_waves"},
+    {"corridorId":"ferry-island-ring","name":"Velmora Island Ferry Ring","mode":"ferry","tier":"island_local","from":"velmora-hub","to":"velmora-hub","stops":["Mira Coast and Islands"],"weatherRisk":"wind_and_tide"},
+    {"corridorId":"ferry-lake-route","name":"Miren Lake Water Route","mode":"ferry","tier":"lake_local","from":"miren-lake","to":"miren-lake","stops":["Nivor Lake villages"],"weatherRisk":"fog_and_wind"}
+  ],
+  "roadRules": {"primarySpeedClass":"high", "secondarySpeedClass":"medium", "localSpeedClass":"low", "emergencyPriority":true, "dynamicClosures":true},
+  "railRules": {"passengerSchedules":true, "cargoSchedules":true, "signalBlocks":true, "weatherDelays":true},
+  "loadStrategy": {"streamByCorridor":true, "highDetailRadius":"active city and adjacent route", "lowDetailRadius":"visible country map", "npcTrafficInterestManagement":true}
+}
