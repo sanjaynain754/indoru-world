@@ -2,6 +2,7 @@ import json
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
+CENTRAL_COUNTRY_ID = 'country-indoru'
 countries = json.loads((ROOT / 'data/countries.json').read_text(encoding='utf-8'))
 by_region = {}
 for c in countries:
@@ -51,7 +52,10 @@ villages = villages[:110]
 
 records = []
 for idx, row in enumerate(major + normal + villages, 1):
-    name, country_id, region, kind, status, note = row
+    name, _source_country_id, region, kind, _source_status, note = row
+    # Every settlement in this file belongs to the single central country: Indoru.
+    country_id = CENTRAL_COUNTRY_ID
+    status = 'playable'
     records.append({
         'settlementId': f'settlement-{idx:03d}',
         'name': name,
@@ -59,7 +63,7 @@ for idx, row in enumerate(major + normal + villages, 1):
         'region': region,
         'type': kind,
         'status': status,
-        'flagRef': f'country:{country_id}',
+        'flagRef': f'country:{CENTRAL_COUNTRY_ID}',
         'mapKey': f'{country_id}/{name.lower().replace(" ", "-")}',
         'populationTier': 'mega' if kind == 'capital' else ('large' if kind == 'major_city' else ('medium' if kind == 'normal_city' else 'small')),
         'description': note,
