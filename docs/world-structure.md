@@ -39,3 +39,11 @@ Global map केवल country names और flags का display registry प�
 ## Expansion workflow
 
 नई country को playable बनाने के लिए उसका terrain package, cities, villages, roads, weather profile, people profile, missions, flag asset, moderation rules और server configuration पूरा होना चाहिए। इसके बाद `status` को `playable` और `unlockOrder` को defined value में बदला जाएगा। इस workflow से नाम और flag पहले से मौजूद रह सकते हैं, जबकि game content सुरक्षित रूप से बाद में unlock होगा।
+
+## Settlement registry
+
+Indoru world में पहला settlement registry **15 major cities, 100 normal cities और 150 villages** रखता है। कुल 265 settlements में से Avenra से जुड़े settlements `playable` हैं और बाकी countries से जुड़े settlements `coming_soon` हैं। इस तरह city और village records अपने country के नाम और flag reference से जुड़े रहते हैं; temporary region codes का उपयोग नहीं होता।
+
+Major city tier में capitals और बड़े strategic hubs आते हैं। Normal city tier में regional commerce, industry, transport और services वाले cities आते हैं। Village tier में farming, fishing, crafts, forest, hill, desert-edge और highway communities आती हैं। प्रत्येक record में stable settlement ID, country ID, display name, type, population tier, map key, country flag reference और unlock label है।
+
+`data/settlements.json` को world-map table, country detail screen और future server-side streaming system पढ़ सकते हैं। Playable entries के लिए UI `Available Now` और entry action दिखाएगा। Unfinished entries के लिए official settlement name, country flag reference और **Coming Soon** label दिखेगा, लेकिन detailed terrain, NPC schedules और missions locked रहेंगे।
