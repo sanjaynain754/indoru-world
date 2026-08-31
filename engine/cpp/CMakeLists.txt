@@ -12,6 +12,7 @@ add_library(indoru_engine STATIC
     src/car_controller.cpp
     src/wheel_collision.cpp
     src/suspension_car_controller.cpp
+    src/tire_model.cpp
 )
 
 target_include_directories(indoru_engine PUBLIC include)
@@ -38,3 +39,8 @@ add_executable(indoru_suspension_car_test tests/suspension_car_controller_smoke.
 target_link_libraries(indoru_suspension_car_test PRIVATE indoru_engine)
 target_compile_options(indoru_suspension_car_test PRIVATE -Wall -Wextra -Wpedantic -Wconversion -Wshadow)
 add_test(NAME suspension_car_controller_smoke COMMAND indoru_suspension_car_test)
+
+add_executable(indoru_tire_model_test tests/tire_model_smoke.cpp)
+target_link_libraries(indoru_tire_model_test PRIVATE indoru_engine)
+target_compile_options(indoru_tire_model_test PRIVATE -Wall -Wextra -Wpedantic -Wconversion -Wshadow)
+add_test(NAME tire_model_smoke COMMAND indoru_tire_model_test)

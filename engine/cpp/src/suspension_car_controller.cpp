@@ -54,7 +54,7 @@ bool is_left(WheelPosition position) {
 } // namespace
 
 SuspensionCarController::SuspensionCarController(SuspensionCarTuning tuning)
-    : tuning_(tuning) {}
+    : tuning_(tuning), tire_({}) {}
 
 SuspensionCarStepResult SuspensionCarController::update(VehicleState& vehicle, WheelRig& rig,
                                                         const SuspensionCarInput& raw_input,
@@ -110,22 +110,30 @@ SuspensionCarStepResult SuspensionCarController::update(VehicleState& vehicle, W
         const float wheel_forward_speed = dot(vehicle.velocity, wheel_forward);
         const float wheel_lateral_speed = dot(vehicle.velocity, wheel_right);
         const float driven_factor = wheel.tuning.driven ? 1.0F : 0.0F;
-        const float drive_force = throttle * tuning_.engine_force_n * driven_factor / 4.0F;
-        const float brake_force = brake * tuning_.brake_force_n / 4.0F;
-        const float signed_brake = wheel_forward_speed >= 0.0F ? -brake_force : brake_force;
-        const float lateral_limit = std::max(wheel.normal_force_n * wheel.contact.friction * wheel.tuning.tire_grip, 0.0F);
-        const float requested_lateral = -wheel_lateral_speed * tuning_.lateral_grip_n_per_mps;
-        const float lateral_force = std::clamp(requested_lateral, -lateral_limit, lateral_limit);
-        const float rolling_force = std::abs(wheel_forward_speed) > kEpsilon
-            ? -std::copysign(tuning_.rolling_resistance_n / 4.0F, wheel_forward_speed)
-            : 0.0F;
+        const float wheel_radius = std::max(wheel.tuning.radius_m, 0.05F);
+        const float wheel_angular_speed = (throttle * tuning_.max_speed_mps / wheel_radius) * driven_factor;
+        const float contact_speed = std::max(std::abs(wheel_forward_speed), 0.5F);
+        const float longitudinal_slip = (wheel_angular_speed * wheel_radius - wheel_forward_speed) / contact_speed;
+        const float slip_angle = std::atan2(wheel_lateral_speed, std::abs(wheel_forward_speed) + 0.5F);
+        const float drive_brake_scale = throttle * tuning_.engine_force_n * driven_factor / std::max(wheel.normal_force_n, 1.0F);
+        const float brake_scale = brake * tuning_.brake_force_n / std::max(wheel.normal_force_n, 1.0F);
+        const float requested_longitudinal = longitudinal_slip + drive_brake_scale * 0.12F - brake_scale * 0.12F;
+        const TireForce tire_force = tire_.evaluate({requested_longitudinal, slip_angle, wheel.normal_force_n,
+                                                       wheel.contact.friction, wheel.tuning.tire_grip});
+        float longitudinal_force = tire_force.longitudinal_n;
+        if (std::abs(wheel_forward_speed) > kEpsilon) {
+            longitudinal_force -= std::copysign(tuning_.rolling_resistance_n / 4.0F, wheel_forward_speed);
+        }
+        float lateral_force = tire_force.lateral_n;
+        if (raw_input.handbrake) {
+            lateral_force *= 0.35F;
+        }
         float anti_roll_force = front_wheel ? front_anti_roll : rear_anti_roll;
         if (!left_wheel) {
             anti_roll_force = -anti_roll_force;
         }
         const world::Vec3 wheel_force = add(
-            add(scale(wheel_forward, drive_force + signed_brake + rolling_force),
-                scale(wheel_right, raw_input.handbrake ? lateral_force * 0.35F : lateral_force)),
+            add(scale(wheel_forward, longitudinal_force), scale(wheel_right, lateral_force)),
             scale(wheel.contact.normal, anti_roll_force));
         total_force = add(total_force, wheel_force);
         const world::Vec3 arm = rotate_y(wheel.local_anchor, vehicle.yaw_rad);

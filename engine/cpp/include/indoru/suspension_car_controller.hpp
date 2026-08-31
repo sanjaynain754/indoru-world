@@ -1,5 +1,6 @@
 #pragma once
 
+#include "indoru/tire_model.hpp"
 #include "indoru/wheel_collision.hpp"
 
 namespace indoru::vehicle {
@@ -53,6 +54,7 @@ public:
 
 private:
     SuspensionCarTuning tuning_;
+    PacejkaTire tire_;
 };
 
 } // namespace indoru::vehicle
