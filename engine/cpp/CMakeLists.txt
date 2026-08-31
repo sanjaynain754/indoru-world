@@ -10,6 +10,7 @@ add_library(indoru_engine STATIC
     src/world_state.cpp
     src/vehicle.cpp
     src/car_controller.cpp
+    src/wheel_collision.cpp
 )
 
 target_include_directories(indoru_engine PUBLIC include)
@@ -26,3 +27,8 @@ target_compile_options(indoru_vehicle_smoke_test PRIVATE -Wall -Wextra -Wpedanti
 enable_testing()
 add_test(NAME world_state_smoke COMMAND indoru_smoke_test)
 add_test(NAME vehicle_physics_smoke COMMAND indoru_vehicle_smoke_test)
+
+add_executable(indoru_wheel_collision_test tests/wheel_collision_smoke.cpp)
+target_link_libraries(indoru_wheel_collision_test PRIVATE indoru_engine)
+target_compile_options(indoru_wheel_collision_test PRIVATE -Wall -Wextra -Wpedantic -Wconversion -Wshadow)
+add_test(NAME wheel_collision_smoke COMMAND indoru_wheel_collision_test)
