@@ -32,7 +32,11 @@ struct VehicleState final {
     world::Vec3 position{};
     world::Vec3 velocity{};
     float yaw_rad{0.0F};
+    float roll_rad{0.0F};
+    float pitch_rad{0.0F};
     float angular_velocity{0.0F};
+    float roll_velocity{0.0F};
+    float pitch_velocity{0.0F};
     bool grounded{true};
 };
 

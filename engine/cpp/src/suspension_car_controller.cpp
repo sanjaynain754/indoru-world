@@ -43,6 +43,14 @@ world::Vec3 rotate_y(const world::Vec3& value, float yaw) {
     return {value.x * cosine + value.z * sine, value.y, -value.x * sine + value.z * cosine};
 }
 
+bool is_front(WheelPosition position) {
+    return position == WheelPosition::FrontLeft || position == WheelPosition::FrontRight;
+}
+
+bool is_left(WheelPosition position) {
+    return position == WheelPosition::FrontLeft || position == WheelPosition::RearLeft;
+}
+
 } // namespace
 
 SuspensionCarController::SuspensionCarController(SuspensionCarTuning tuning)
@@ -69,14 +77,33 @@ SuspensionCarStepResult SuspensionCarController::update(VehicleState& vehicle, W
     world::Vec3 total_force{};
     float yaw_torque = 0.0F;
     std::size_t grounded_count = 0;
+    float front_left_compression = 0.0F;
+    float front_right_compression = 0.0F;
+    float rear_left_compression = 0.0F;
+    float rear_right_compression = 0.0F;
+
+    for (const WheelState& wheel : rig.wheels) {
+        if (!wheel.grounded) {
+            continue;
+        }
+        ++grounded_count;
+        switch (wheel.position) {
+            case WheelPosition::FrontLeft: front_left_compression = wheel.compression; break;
+            case WheelPosition::FrontRight: front_right_compression = wheel.compression; break;
+            case WheelPosition::RearLeft: rear_left_compression = wheel.compression; break;
+            case WheelPosition::RearRight: rear_right_compression = wheel.compression; break;
+        }
+    }
+
+    const float front_anti_roll = (front_left_compression - front_right_compression) * tuning_.front_anti_roll_n_per_compression;
+    const float rear_anti_roll = (rear_left_compression - rear_right_compression) * tuning_.rear_anti_roll_n_per_compression;
 
     for (WheelState& wheel : rig.wheels) {
         if (!wheel.grounded) {
             continue;
         }
-        ++grounded_count;
-        const bool front_wheel = wheel.position == WheelPosition::FrontLeft || wheel.position == WheelPosition::FrontRight;
-        const bool left_wheel = wheel.position == WheelPosition::FrontLeft || wheel.position == WheelPosition::RearLeft;
+        const bool front_wheel = is_front(wheel.position);
+        const bool left_wheel = is_left(wheel.position);
         const float wheel_yaw = front_wheel ? vehicle.yaw_rad + steer_angle : vehicle.yaw_rad;
         const world::Vec3 wheel_forward = forward(wheel_yaw);
         const world::Vec3 wheel_right = right(wheel_yaw);
@@ -92,16 +119,17 @@ SuspensionCarStepResult SuspensionCarController::update(VehicleState& vehicle, W
         const float rolling_force = std::abs(wheel_forward_speed) > kEpsilon
             ? -std::copysign(tuning_.rolling_resistance_n / 4.0F, wheel_forward_speed)
             : 0.0F;
+        float anti_roll_force = front_wheel ? front_anti_roll : rear_anti_roll;
+        if (!left_wheel) {
+            anti_roll_force = -anti_roll_force;
+        }
         const world::Vec3 wheel_force = add(
-            scale(wheel_forward, drive_force + signed_brake + rolling_force),
-            scale(wheel_right, raw_input.handbrake ? lateral_force * 0.35F : lateral_force));
+            add(scale(wheel_forward, drive_force + signed_brake + rolling_force),
+                scale(wheel_right, raw_input.handbrake ? lateral_force * 0.35F : lateral_force)),
+            scale(wheel.contact.normal, anti_roll_force));
         total_force = add(total_force, wheel_force);
-
         const world::Vec3 arm = rotate_y(wheel.local_anchor, vehicle.yaw_rad);
         yaw_torque += arm.x * wheel_force.z - arm.z * wheel_force.x;
-        if (left_wheel) {
-            yaw_torque += 0.0F;
-        }
     }
 
     if (grounded_count > 0U) {
@@ -115,12 +143,26 @@ SuspensionCarStepResult SuspensionCarController::update(VehicleState& vehicle, W
     if (new_speed > tuning_.max_speed_mps) {
         vehicle.velocity = scale(vehicle.velocity, tuning_.max_speed_mps / new_speed);
     }
+
+    const float longitudinal_acceleration = dot(acceleration, base_forward);
+    const float lateral_acceleration = dot(acceleration, right(vehicle.yaw_rad));
+    const float target_roll_torque = lateral_acceleration * mass * 0.62F - vehicle.roll_rad * tuning_.roll_stiffness_n_m_per_rad - vehicle.roll_velocity * tuning_.roll_damping_n_m_s_per_rad;
+    const float target_pitch_torque = -longitudinal_acceleration * mass * 0.48F - vehicle.pitch_rad * tuning_.pitch_stiffness_n_m_per_rad - vehicle.pitch_velocity * tuning_.pitch_damping_n_m_s_per_rad;
+    const float roll_torque = target_roll_torque;
+    const float pitch_torque = target_pitch_torque;
+
+    vehicle.roll_velocity += roll_torque / std::max(tuning_.roll_inertia_kg_m2, 1.0F) * dt;
+    vehicle.pitch_velocity += pitch_torque / std::max(tuning_.pitch_inertia_kg_m2, 1.0F) * dt;
+    vehicle.roll_rad = std::clamp(vehicle.roll_rad + vehicle.roll_velocity * dt, -tuning_.max_roll_rad, tuning_.max_roll_rad);
+    vehicle.pitch_rad = std::clamp(vehicle.pitch_rad + vehicle.pitch_velocity * dt, -tuning_.max_pitch_rad, tuning_.max_pitch_rad);
     vehicle.position = add(vehicle.position, scale(vehicle.velocity, dt));
     vehicle.angular_velocity = yaw_torque / std::max(tuning_.yaw_inertia_kg_m2, 1.0F);
     vehicle.yaw_rad += vehicle.angular_velocity * dt;
 
     result.total_force = total_force;
     result.yaw_torque = yaw_torque;
+    result.roll_torque = roll_torque;
+    result.pitch_torque = pitch_torque;
     result.speed_mps = length(vehicle.velocity);
     return result;
 }

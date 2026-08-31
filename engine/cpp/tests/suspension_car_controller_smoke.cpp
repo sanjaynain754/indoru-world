@@ -49,6 +49,10 @@ int main() {
         controller.update(vehicle, rig, input, terrain, 1.0F / 60.0F);
     }
     assert(std::abs(vehicle.yaw_rad - yaw_before) > 0.001F);
+    assert(std::isfinite(vehicle.roll_rad));
+    assert(std::isfinite(vehicle.pitch_rad));
+    assert(std::abs(vehicle.roll_rad) <= 0.35F + 0.001F);
+    assert(std::abs(vehicle.pitch_rad) <= 0.25F + 0.001F);
 
     std::cout << "Indoru suspension car controller smoke test passed\n";
     return 0;
