@@ -44,4 +44,4 @@ The first detailed country package will be `country/avenra`, while the central i
 
 ## Playable game slice
 
-The repository now includes `game/`, a browser-playable Babylon.js vertical slice of Navaar. It includes a 3D procedural district, drivable vehicle, civilian traffic, pedestrian routines, a riverfront mission, wanted pressure, health, minimap and local save/load. See [`game/README.md`](game/README.md) for controls and build instructions. The GitHub Pages workflow at `.github/workflows/deploy-game.yml` builds and deploys the slice from `game/dist/public`.
+The repository now includes `game/`, a browser-playable Babylon.js vertical slice of Navaar. It includes a 3D procedural district, drivable vehicle, civilian traffic, pedestrian routines, a riverfront mission, wanted pressure, health, minimap and local save/load. See [`game/README.md`](game/README.md) for controls and build instructions. The GitHub Actions workflow at `.github/workflows/deploy-game.yml` validates the game and publishes a downloadable browser-build artifact from `game/dist/public`; private-repository Pages hosting is not assumed.
