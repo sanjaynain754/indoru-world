@@ -41,3 +41,7 @@ All names, map geography, symbols and flag compositions are original fictional c
 ## First playable target
 
 The first detailed country package will be `country/avenra`, while the central island country **Indoru** remains the primary world concept and application identity. Its later local map package can be connected to this registry when the country-level game design is finalized.
+
+## Playable game slice
+
+The repository now includes `game/`, a browser-playable Babylon.js vertical slice of Navaar. It includes a 3D procedural district, drivable vehicle, civilian traffic, pedestrian routines, a riverfront mission, wanted pressure, health, minimap and local save/load. See [`game/README.md`](game/README.md) for controls and build instructions. The GitHub Pages workflow at `.github/workflows/deploy-game.yml` builds and deploys the slice from `game/dist/public`.
