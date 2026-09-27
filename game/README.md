@@ -9,7 +9,7 @@ pnpm install
 pnpm dev
 ```
 
-Open the Vite URL and use **WASD** or the arrow keys to drive. Press `E` to save, `L` to load and `R` to reset. Add `?demo` to the URL for a deterministic showcase route.
+Open the Vite URL and use **WASD** or the arrow keys to drive; **Space** brakes. Touch devices show on-screen steering, brake and accelerator controls. The waypoint indicator shows the live direction and distance to the quay beacon. Press `M` for the world atlas, `E` to save, `L` to load and `R` to reset. Add `?demo` to the URL for a deterministic showcase route.
 
 ## Build
 

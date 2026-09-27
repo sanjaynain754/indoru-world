@@ -20,6 +20,12 @@ export class TrafficCar {
     this.label = route.label;
     const material = new StandardMaterial(`traffic-mat-${route.label}-${offset}`, scene);
     material.diffuseColor = Color3.FromHexString(route.color);
+    material.specularColor = Color3.FromHexString("#B9D1D5");
+    const glass = new StandardMaterial(`traffic-glass-${route.label}-${offset}`, scene);
+    glass.diffuseColor = Color3.FromHexString("#153443");
+    glass.specularColor = Color3.FromHexString("#75AEB4");
+    const tires = new StandardMaterial(`traffic-tires-${route.label}-${offset}`, scene);
+    tires.diffuseColor = Color3.FromHexString("#101820");
     const body = MeshBuilder.CreateBox(`traffic-body-${offset}`, { width: 1.7, height: 0.55, depth: 3.2 }, scene);
     body.parent = this.root;
     body.position.y = 0.55;
@@ -27,7 +33,20 @@ export class TrafficCar {
     const roof = MeshBuilder.CreateBox(`traffic-roof-${offset}`, { width: 1.35, height: 0.42, depth: 1.35 }, scene);
     roof.parent = this.root;
     roof.position.set(0, 0.98, -0.15);
-    roof.material = material;
+    roof.material = glass;
+    for (const x of [-0.86, 0.86]) {
+      const sideGlass = MeshBuilder.CreateBox(`traffic-side-glass-${offset}-${x}`, { width: 0.06, height: 0.27, depth: 0.88 }, scene);
+      sideGlass.parent = this.root;
+      sideGlass.position.set(x, 0.99, -0.12);
+      sideGlass.material = glass;
+      for (const z of [-1.05, 1.05]) {
+        const wheel = MeshBuilder.CreateCylinder(`traffic-wheel-${offset}-${x}-${z}`, { diameter: 0.42, height: 0.12, tessellation: 12 }, scene);
+        wheel.parent = this.root;
+        wheel.position.set(x, 0.3, z);
+        wheel.rotation.z = Math.PI / 2;
+        wheel.material = tires;
+      }
+    }
     this.syncPosition();
   }
 

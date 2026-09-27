@@ -76,3 +76,57 @@ body { letter-spacing: 0.02em; }
 .transport-facilities span { padding: 5px 7px; border: 1px solid rgba(137,189,196,.2); }
 .transport-facilities .facility-active { color: #e9b949; border-color: rgba(233,185,73,.5); }
 @media (max-width: 760px) { .hud-topline { left: 16px; right: 16px; top: 16px; } .hud-health { left: 16px; top: 80px; } .hud-mission { top: 80px; width: 200px; } .hud-wanted { right: 16px; top: 80px; width: 142px; } .save-help { display: none; } .hud-minimap { right: 16px; bottom: 16px; width: 132px; height: 132px; } .hud-speed { right: 164px; bottom: 26px; } .hud-speed strong { font-size: 50px; } .hud-bottom { left: 16px; right: 16px; bottom: 18px; } .agent-chip { display: none; } .world-map-screen { padding: 16px; } .world-map-card { padding: 20px; min-height: 0; } .world-map-header h2 { font-size: 29px; } .world-map-header > span { font-size: 7px; } .island-map-graphic { height: 350px; } .island-arvarra { width: 210px; height: 132px; left: 28%; } .island-khoruun, .island-velmora { width: 110px; } .island-orsik, .island-nembasa { width: 105px; } .island-dravik, .island-erynd { width: 95px; } .world-map-footer { display: block; } .transport-facilities { margin: 12px 0; flex-wrap: wrap; } .unlock-legend { margin-top: 12px; } }
+
+
+/* Wayfinding and accessible touch controls */
+.hud-waypoint { position: absolute; left: 50%; bottom: 112px; display: flex; align-items: center; gap: 11px; min-width: 132px; padding: 9px 13px; border: 1px solid rgba(137,189,196,.22); background: rgba(7,19,29,.64); transform: translateX(-50%); backdrop-filter: blur(8px); }
+.waypoint-arrow { display: grid; place-items: center; width: 31px; height: 31px; border: 1px solid rgba(233,185,73,.55); border-radius: 50%; color: #e9b949; font-size: 19px; line-height: 1; transition: transform .18s ease; }
+.hud-waypoint b { display: block; color: #f4f8f6; font-size: 11px; letter-spacing: .08em; white-space: nowrap; }
+.hud-waypoint small { display: block; margin-top: 3px; color: #8ba8b5; font-size: 7px; letter-spacing: .13em; }
+.hud-waypoint.complete .waypoint-arrow { border-color: rgba(85,224,190,.55); color: #55e0be; }
+.touch-controls { position: absolute; z-index: 2; right: 220px; bottom: 22px; left: 24px; display: none; align-items: end; justify-content: space-between; pointer-events: none; }
+.touch-steering, .touch-pedals { display: flex; align-items: end; gap: 9px; pointer-events: auto; }
+.touch-controls button { display: grid; place-items: center; width: 58px; height: 58px; padding: 0; border: 1px solid rgba(137,189,196,.45); border-radius: 14px; background: rgba(8,25,36,.72); color: #eaf5f7; font: 700 17px "Barlow Condensed", sans-serif; box-shadow: 0 6px 20px rgba(0,0,0,.24); backdrop-filter: blur(7px); touch-action: none; user-select: none; -webkit-user-select: none; }
+.touch-controls button:active { border-color: #72e3da; background: rgba(28,104,104,.8); transform: translateY(1px); }
+.touch-controls button[data-drive="brake"] { color: #e7c77f; font-size: 10px; letter-spacing: .08em; }
+.touch-controls button.accelerate { height: 68px; border-color: rgba(85,224,190,.65); background: rgba(14,84,77,.72); color: #9bf1d4; letter-spacing: .1em; }
+@media (pointer: coarse), (max-width: 760px) {
+  .touch-controls { display: flex; }
+  .hud-waypoint { display: none; }
+  .hud-speed { right: 228px; bottom: 102px; }
+}
+@media (max-width: 760px) {
+  .hud-topline { left: 16px; right: 16px; top: 14px; }
+  .hud-health { top: 75px; left: 16px; width: 142px; }
+  .hud-wanted { top: 75px; right: 16px; width: 142px; }
+  .hud-mission { top: 158px; width: min(240px, calc(100vw - 32px)); }
+  .hud-mission .mission-title { font-size: 21px; }
+  .hud-mission .mission-sub { font-size: 8px; }
+  .hud-bottom { left: 16px; right: 16px; bottom: 12px; }
+  .city-chip, .agent-chip { display: none; }
+  .touch-controls { right: 158px; bottom: 18px; left: 16px; }
+  .touch-steering, .touch-pedals { gap: 6px; }
+  .touch-controls button { width: 48px; height: 52px; border-radius: 12px; }
+  .touch-controls button.accelerate { height: 60px; }
+  .touch-controls button[data-drive="brake"] { font-size: 8px; }
+  .hud-minimap { right: 14px; bottom: 16px; width: 128px; height: 128px; }
+  .hud-speed { top: max(260px, 32vh); bottom: auto; left: 50%; right: auto; transform: translateX(-50%); }
+  .hud-speed strong { font-size: 45px; }
+  .world-map-screen { padding: 12px; }
+  .world-map-card { width: 100%; padding: 15px; }
+  .island-map-graphic { height: min(350px, 42vh); margin: 14px 0; }
+}
+@media (max-width: 420px) {
+  .brand-mark { width: 30px; height: 30px; font-size: 22px; }
+  .brand-lockup b { font-size: 19px; }
+  .brand-lockup small { font-size: 7px; }
+  .hud-health, .hud-wanted { width: 136px; padding: 9px 10px; }
+  .hud-mission { top: 151px; padding: 10px 13px 11px; }
+  .mission-title { margin-top: 5px; }
+  .hud-minimap { width: 112px; height: 112px; }
+  .touch-controls { right: 132px; left: 10px; bottom: 12px; }
+  .touch-controls button { width: 43px; height: 48px; }
+  .touch-controls button.accelerate { height: 56px; }
+  .hud-speed strong { font-size: 38px; }
+  .hud-speed span { font-size: 8px; }
+}

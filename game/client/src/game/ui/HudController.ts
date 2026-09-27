@@ -1,4 +1,5 @@
 import type { WorldSnapshot } from "../world/GameWorld";
+import type { InputManager, Action } from "../input/InputManager";
 
 export class HudController {
   private readonly root: HTMLDivElement;
@@ -11,18 +12,28 @@ export class HudController {
   private readonly minimap: HTMLCanvasElement;
   private readonly mapContext: CanvasRenderingContext2D;
   private readonly worldMap: HTMLDivElement;
+  private readonly waypoint: HTMLDivElement;
+  private readonly waypointArrow: HTMLSpanElement;
+  private readonly waypointDistance: HTMLSpanElement;
+  private readonly touchControls: HTMLDivElement;
+  private readonly touchListeners: Array<() => void> = [];
 
-  constructor() {
+  constructor(input: InputManager) {
     this.root = document.createElement("div");
     this.root.className = "game-hud";
     this.root.innerHTML = `
       <div class="hud-topline"><div class="brand-lockup"><span class="brand-mark">I</span><div><b>INDORU</b><small>NAVAAR / RIVERFRONT DISTRICT</small></div></div><div class="save-help">WASD / ARROWS DRIVE <span>•</span> M WORLD MAP <span>•</span> E SAVE <span>•</span> L LOAD</div></div>
       <div class="hud-health panel"><div class="hud-label"><span>VITALS</span><strong data-health>100%</strong></div><div class="health-track"><div data-health-fill></div></div></div>
-      <div class="hud-mission panel"><div class="mission-kicker">ACTIVE CONTRACT <span>01</span></div><div class="mission-title" data-mission>RIVERFRONT RUN</div><div class="mission-sub">Reach the beacon at Navaar Quay</div><div class="mission-track"><div data-mission-fill></div></div></div>
+      <div class="hud-mission panel"><div class="mission-kicker">ACTIVE CONTRACT <span>01</span></div><div class="mission-title" data-mission>RIVERFRONT RUN</div><div class="mission-sub" data-mission-sub>Reach the beacon at Navaar Quay</div><div class="mission-track"><div data-mission-fill></div></div></div>
       <div class="hud-wanted panel"><div class="hud-label"><span>ATTENTION</span><strong data-wanted>QUIET</strong></div><div data-stars class="stars"></div></div>
       <div class="hud-speed"><strong data-speed>0</strong><span>KM/H</span></div>
+      <div class="hud-waypoint"><span class="waypoint-arrow" data-waypoint-arrow>↑</span><div><b data-waypoint-distance>63 M</b><small>QUAY WAYPOINT</small></div></div>
       <div class="hud-bottom"><div class="city-chip"><span class="live-dot"></span><div><b>NAVAAR QUAY</b><small>AVENRA • INDORU WORLD</small></div></div><div class="agent-chip"><b data-agents>18 NPC / 15 TRAFFIC</b><small>SIMULATION ONLINE</small></div></div>
       <div class="hud-toast" data-status></div>
+      <div class="touch-controls" aria-label="Touch driving controls">
+        <div class="touch-steering"><button type="button" data-drive="left" aria-label="Steer left">◀</button><button type="button" data-drive="right" aria-label="Steer right">▶</button></div>
+        <div class="touch-pedals"><button type="button" data-drive="brake" aria-label="Brake">BRAKE</button><button type="button" class="accelerate" data-drive="forward" aria-label="Accelerate">GO</button></div>
+      </div>
       <canvas class="hud-minimap" width="168" height="168"></canvas>
       <div class="world-map-screen" data-world-map aria-hidden="true">
         <div class="world-map-card">
@@ -41,6 +52,30 @@ export class HudController {
     this.minimap = this.root.querySelector(".hud-minimap") as HTMLCanvasElement;
     this.mapContext = this.minimap.getContext("2d") as CanvasRenderingContext2D;
     this.worldMap = this.root.querySelector("[data-world-map]") as HTMLDivElement;
+    this.waypoint = this.root.querySelector(".hud-waypoint") as HTMLDivElement;
+    this.waypointArrow = this.root.querySelector("[data-waypoint-arrow]") as HTMLSpanElement;
+    this.waypointDistance = this.root.querySelector("[data-waypoint-distance]") as HTMLSpanElement;
+    this.touchControls = this.root.querySelector(".touch-controls") as HTMLDivElement;
+    this.touchControls.querySelectorAll<HTMLButtonElement>("[data-drive]").forEach((button) => {
+      const action = button.dataset.drive as Action;
+      const release = () => input.setHeld(action as "forward" | "back" | "left" | "right" | "brake", false);
+      const press = (event: PointerEvent) => {
+        event.preventDefault();
+        button.setPointerCapture(event.pointerId);
+        input.setHeld(action as "forward" | "back" | "left" | "right" | "brake", true);
+      };
+      button.addEventListener("pointerdown", press);
+      button.addEventListener("pointerup", release);
+      button.addEventListener("pointercancel", release);
+      button.addEventListener("lostpointercapture", release);
+      this.touchListeners.push(() => {
+        button.removeEventListener("pointerdown", press);
+        button.removeEventListener("pointerup", release);
+        button.removeEventListener("pointercancel", release);
+        button.removeEventListener("lostpointercapture", release);
+        release();
+      });
+    });
   }
 
   update(snapshot: WorldSnapshot): void {
@@ -48,6 +83,7 @@ export class HudController {
     this.healthFill.dataset.danger = snapshot.health < 35 ? "true" : "false";
     this.speed.textContent = String(snapshot.speed).padStart(3, "0");
     this.mission.textContent = snapshot.missionStatus === "complete" ? "CONTRACT COMPLETE" : "RIVERFRONT RUN";
+    (this.root.querySelector("[data-mission-sub]") as HTMLDivElement).textContent = snapshot.missionStatus === "complete" ? "Quay secured • Drive safe, Avenra" : "Reach the beacon at Navaar Quay";
     this.missionFill.style.width = `${Math.round(snapshot.missionProgress * 100)}%`;
     const stars = Math.ceil(snapshot.wanted);
     this.wanted.textContent = stars ? "PURSUIT ACTIVE" : "QUIET";
@@ -58,6 +94,12 @@ export class HudController {
     (this.root.querySelector("[data-agents]") as HTMLDivElement).textContent = `${snapshot.npcs} NPC / ${snapshot.traffic} TRAFFIC`;
     this.status.textContent = snapshot.savedFlash > 0 ? "LOCAL SAVE SYNCED" : "";
     this.status.classList.toggle("visible", snapshot.savedFlash > 0);
+    const dx = -snapshot.player.x;
+    const dz = -43 - snapshot.player.z;
+    this.waypointDistance.textContent = snapshot.missionStatus === "complete" ? "ROUTE CLEAR" : `${Math.round(Math.hypot(dx, dz))} M`;
+    const bearing = Math.atan2(dx, dz) * (180 / Math.PI);
+    this.waypointArrow.style.transform = `rotate(${bearing - snapshot.heading}deg)`;
+    this.waypoint.classList.toggle("complete", snapshot.missionStatus === "complete");
     this.worldMap.classList.toggle("open", snapshot.worldMapOpen);
     this.worldMap.setAttribute("aria-hidden", snapshot.worldMapOpen ? "false" : "true");
     this.drawMinimap(snapshot);
@@ -83,5 +125,8 @@ export class HudController {
     ctx.beginPath(); ctx.arc(84, 84 - 43 * 1.3, 4, 0, Math.PI * 2); ctx.stroke();
   }
 
-  dispose(): void { this.root.remove(); }
+  dispose(): void {
+    this.touchListeners.forEach((cleanup) => cleanup());
+    this.root.remove();
+  }
 }

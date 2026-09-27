@@ -41,6 +41,7 @@ function buildDistrict(scene: Scene): void {
   const sandstone = material(scene, "sandstone", "#7B675B");
   const glass = material(scene, "glass", "#2A7B85", "#103A4A");
   const amber = material(scene, "windows", "#E9B949", "#9F6B18");
+  const facadeGlass = material(scene, "facade-glass", "#76AEB0", "#31565A");
   const rail = material(scene, "rail", "#536C79");
   const ground = MeshBuilder.CreateGround("district-ground", { width: 120, height: 120 }, scene);
   ground.material = material(scene, "ground", "#0D1C26");
@@ -68,9 +69,12 @@ function buildDistrict(scene: Scene): void {
   lots.forEach(([x, z, width, height, depth], index) => {
     const mat = index % 3 === 0 ? glass : sandstone;
     box(scene, `building-${index}`, { width, height, depth }, new Vector3(x, height / 2, z), mat);
-    if (index % 2 === 0) {
-      for (let level = 1; level < Math.min(5, Math.floor(height / 4)); level += 1) {
-        box(scene, `window-${index}-${level}`, { width: Math.max(1, width * 0.5), height: 0.15, depth: 0.05 }, new Vector3(x, level * 3.4, z - depth / 2 - 0.04), amber);
+    for (let level = 2.8; level < height - 1.2; level += 3.4) {
+      for (let offset = -width / 2 + 1.5; offset < width / 2 - 0.5; offset += 2.8) {
+        const lit = (index + Math.round(level + offset)) % 4 === 0;
+        for (const side of [-1, 1]) {
+          box(scene, `facade-window-${index}-${level}-${offset}-${side}`, { width: 0.78, height: 0.92, depth: 0.06 }, new Vector3(x + offset, level, z + side * (depth / 2 + 0.04)), lit ? amber : facadeGlass);
+        }
       }
     }
   });
@@ -89,6 +93,59 @@ function buildDistrict(scene: Scene): void {
   ring.material = beaconMat;
 }
 
+function buildWaterfront(scene: Scene): void {
+  const stone = material(scene, "quay-stone", "#647681");
+  const timber = material(scene, "pier-timber", "#765D49");
+  const foliage = material(scene, "quay-foliage", "#28665E", "#0D302C");
+  const trunk = material(scene, "quay-tree-trunk", "#705746");
+  const warmLight = material(scene, "quay-lantern", "#F2C977", "#F6B948");
+
+  for (let x = -48; x <= 48; x += 8) {
+    box(scene, `quay-post-${x}`, { width: 0.16, height: 0.8, depth: 0.16 }, new Vector3(x, 0.55, -44.2), stone);
+  }
+  box(scene, "quay-handrail", { width: 97, height: 0.16, depth: 0.16 }, new Vector3(0, 0.91, -44.2), stone);
+
+  for (const x of [-39, -27, -15, 15, 27, 39]) {
+    const bench = box(scene, `quay-bench-seat-${x}`, { width: 2.5, height: 0.16, depth: 0.72 }, new Vector3(x, 0.65, -39.1), timber);
+    bench.rotation.y = Math.PI / 2;
+    const back = box(scene, `quay-bench-back-${x}`, { width: 2.5, height: 0.8, depth: 0.12 }, new Vector3(x, 1.08, -38.72), timber);
+    back.rotation.y = Math.PI / 2;
+    for (const legX of [x - 0.75, x + 0.75]) {
+      box(scene, `quay-bench-leg-${x}-${legX}`, { width: 0.12, height: 0.62, depth: 0.12 }, new Vector3(legX, 0.32, -39.1), stone);
+    }
+  }
+
+  for (const x of [-42, 42]) {
+    const stem = MeshBuilder.CreateCylinder(`quay-lamp-stem-${x}`, { height: 4.8, diameter: 0.16, tessellation: 8 }, scene);
+    stem.position.set(x, 2.4, -36.8);
+    stem.material = stone;
+    const head = MeshBuilder.CreateSphere(`quay-lamp-glow-${x}`, { diameter: 0.72, segments: 10 }, scene);
+    head.position.set(x, 4.8, -36.8);
+    head.material = warmLight;
+  }
+
+  const pier = box(scene, "river-pier-deck", { width: 13, height: 0.32, depth: 4 }, new Vector3(29, 0.3, -46.7), timber);
+  pier.rotation.y = -0.06;
+  for (const x of [24, 34]) {
+    for (const z of [-48, -45]) {
+      const pile = MeshBuilder.CreateCylinder(`pier-pile-${x}-${z}`, { height: 1.4, diameter: 0.24, tessellation: 8 }, scene);
+      pile.position.set(x, -0.35, z);
+      pile.material = timber;
+    }
+  }
+  box(scene, "harbor-launch-hull", { width: 8.5, height: 0.62, depth: 2.6 }, new Vector3(-24, 0.42, -50.5), material(scene, "launch-hull", "#C77A50"));
+  box(scene, "harbor-launch-cabin", { width: 3.2, height: 1.1, depth: 1.8 }, new Vector3(-24, 1.15, -50.5), material(scene, "launch-cabin", "#E1D5B9"));
+
+  for (const x of [-36, 36]) {
+    const treeTrunk = MeshBuilder.CreateCylinder(`quay-tree-trunk-${x}`, { height: 2.6, diameter: 0.34, tessellation: 8 }, scene);
+    treeTrunk.position.set(x, 1.3, -35.4);
+    treeTrunk.material = trunk;
+    const crown = MeshBuilder.CreateSphere(`quay-tree-crown-${x}`, { diameter: 3.6, segments: 8 }, scene);
+    crown.position.set(x, 3.1, -35.4);
+    crown.material = foliage;
+  }
+}
+
 export async function createGameScene(engine: Engine, canvas: HTMLCanvasElement): Promise<GameHandle> {
   const scene = new Scene(engine);
   scene.clearColor = new Color4(0.025, 0.055, 0.08, 1);
@@ -96,6 +153,7 @@ export async function createGameScene(engine: Engine, canvas: HTMLCanvasElement)
   scene.fogDensity = 0.006;
   scene.fogColor = new Color3(0.025, 0.055, 0.08);
   buildDistrict(scene);
+  buildWaterfront(scene);
   const skyMat = new StandardMaterial("skyline-backdrop", scene);
   skyMat.diffuseTexture = new Texture(SKYLINE_URL, scene);
   skyMat.emissiveTexture = skyMat.diffuseTexture;
@@ -104,16 +162,17 @@ export async function createGameScene(engine: Engine, canvas: HTMLCanvasElement)
   skyline.position.set(0, 28, 72);
   skyline.material = skyMat;
   const hemi = new HemisphericLight("navaar-sky", new Vector3(0.2, 1, 0.1), scene);
-  hemi.intensity = 0.75;
+  hemi.intensity = 1.05;
   hemi.diffuse = Color3.FromHexString("#C7D7E6");
   hemi.groundColor = Color3.FromHexString("#152431");
   const sun = new DirectionalLight("late-sun", new Vector3(-0.4, -1, 0.5), scene);
   sun.position = new Vector3(-40, 70, -30);
-  sun.intensity = 1.1;
+  sun.intensity = 1.28;
   sun.diffuse = Color3.FromHexString("#FFD6A1");
   const shadows = new ShadowGenerator(1024, sun);
   shadows.useBlurExponentialShadowMap = true;
   shadows.blurKernel = 24;
+  shadows.setDarkness(0.48);
   const camera = new FreeCamera("chase-camera", new Vector3(0, 7, 23), scene);
   camera.fov = 0.92;
   camera.minZ = 0.1;
@@ -124,9 +183,9 @@ export async function createGameScene(engine: Engine, canvas: HTMLCanvasElement)
   const world = new GameWorld(scene, input);
   scene.meshes.forEach((mesh) => {
     mesh.receiveShadows = true;
-    if (mesh.name !== "district-ground" && mesh.name !== "skyline-backdrop") shadows.addShadowCaster(mesh, true);
+    if (mesh.name !== "district-ground" && mesh.name !== "skyline-backdrop" && !mesh.name.startsWith("facade-window-")) shadows.addShadowCaster(mesh, true);
   });
-  const hud = new HudController();
+  const hud = new HudController(input);
   const demo = new URLSearchParams(window.location.search).has("demo");
   let cameraPosition = camera.position.clone();
   const observer = scene.onBeforeRenderObservable.add(() => {

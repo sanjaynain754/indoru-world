@@ -16,6 +16,7 @@ export interface WorldSnapshot {
   alertNpcs: number;
   savedFlash: number;
   worldMapOpen: boolean;
+  heading: number;
   player: { x: number; z: number };
 }
 
@@ -171,6 +172,7 @@ export class GameWorld {
       alertNpcs: this.npcs.filter((npc) => npc.reaction !== "calm").length,
       savedFlash: this.savedFlash,
       worldMapOpen: this.worldMapOpen,
+      heading: this.player.heading * (180 / Math.PI),
       player: { x: this.player.root.position.x, z: this.player.root.position.z },
     };
   }
