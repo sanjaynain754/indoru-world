@@ -26,3 +26,6 @@ This is a real playable foundation, not a claim that a full GTA-scale production
 ## Island and world navigation
 
 Press **M** during play to open the original **Indoru World Atlas**. It connects playable Navaar/Avenra to the wider seven-reach island world and marks future regions as coming soon. The current rendering pass adds real-time shadows, warmer directional lighting, a more detailed sedan body and a cinematic atlas overlay; 4K output remains device/display dependent in a browser.
+## World connectivity model
+
+The atlas now represents the canonical seven regions: **Avarra Crescent**, **Khoruun Reach**, **Velmora Isles**, **Orsik Plateau**, **Nembasa Greenbelt**, **Dravik Arc** and **Erynd Polar Ring**. The world layer visualizes three original transport systems: bridge grid (gold), rail corridors (teal) and air routes (dashed white). These are the strategic world map foundation; physical crossings and airports will be streamed into each country slice as it becomes playable.
