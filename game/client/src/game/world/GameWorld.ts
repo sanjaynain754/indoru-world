@@ -15,6 +15,7 @@ export interface WorldSnapshot {
   npcs: number;
   alertNpcs: number;
   savedFlash: number;
+  worldMapOpen: boolean;
   player: { x: number; z: number };
 }
 
@@ -42,6 +43,7 @@ export class GameWorld {
   private wanted = 0;
   private collisionCooldown = 0;
   private savedFlash = 0;
+  private worldMapOpen = new URLSearchParams(window.location.search).has("map");
   private elapsed = 0;
 
   constructor(private readonly scene: Scene, private readonly input: InputManager) {
@@ -84,6 +86,7 @@ export class GameWorld {
     if (this.input.consume("reset")) this.reset();
     if (this.input.consume("save")) this.save();
     if (this.input.consume("load")) this.load();
+    if (this.input.consume("worldMap")) this.worldMapOpen = !this.worldMapOpen;
     this.player.update(delta, this.input, demo);
     this.traffic.forEach((car) => car.update(delta));
     this.npcs.forEach((npc) => npc.update(delta, this.player.root.position, this.wanted));
@@ -167,6 +170,7 @@ export class GameWorld {
       npcs: this.npcs.length,
       alertNpcs: this.npcs.filter((npc) => npc.reaction !== "calm").length,
       savedFlash: this.savedFlash,
+      worldMapOpen: this.worldMapOpen,
       player: { x: this.player.root.position.x, z: this.player.root.position.z },
     };
   }

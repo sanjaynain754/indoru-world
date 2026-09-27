@@ -1,4 +1,4 @@
-export type Action = "forward" | "back" | "left" | "right" | "brake" | "save" | "load" | "reset";
+export type Action = "forward" | "back" | "left" | "right" | "brake" | "save" | "load" | "reset" | "worldMap";
 
 const bindings: Record<string, Action> = {
   KeyW: "forward",
@@ -26,6 +26,7 @@ export class InputManager {
     if (event.code === "KeyE") this.pressed.add("save");
     if (event.code === "KeyL") this.pressed.add("load");
     if (event.code === "KeyR") this.pressed.add("reset");
+    if (event.code === "KeyM") this.pressed.add("worldMap");
   };
   private readonly onKeyUp = (event: KeyboardEvent) => {
     const action = bindings[event.code];

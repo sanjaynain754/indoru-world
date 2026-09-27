@@ -41,4 +41,26 @@ body { letter-spacing: 0.02em; }
 .agent-chip { display: block; text-align: right; }
 .hud-toast { position: absolute; left: 50%; bottom: 19%; transform: translate(-50%, 12px); padding: 9px 17px; border: 1px solid rgba(85,224,190,.55); background: rgba(6,27,31,.9); color: #55e0be; font-size: 9px; letter-spacing: .15em; opacity: 0; transition: opacity .2s ease, transform .2s ease; }
 .hud-toast.visible { opacity: 1; transform: translate(-50%, 0); }
-@media (max-width: 760px) { .hud-topline { left: 16px; right: 16px; top: 16px; } .hud-health { left: 16px; top: 80px; } .hud-mission { top: 80px; width: 200px; } .hud-wanted { right: 16px; top: 80px; width: 142px; } .save-help { display: none; } .hud-minimap { right: 16px; bottom: 16px; width: 132px; height: 132px; } .hud-speed { right: 164px; bottom: 26px; } .hud-speed strong { font-size: 50px; } .hud-bottom { left: 16px; right: 16px; bottom: 18px; } .agent-chip { display: none; } }
+.world-map-screen { position: fixed; inset: 0; display: grid; place-items: center; padding: 32px; background: rgba(3,12,18,.78); backdrop-filter: blur(12px); opacity: 0; pointer-events: none; transform: scale(.98); transition: opacity .22s ease, transform .22s ease; z-index: 10; text-shadow: none; }
+.world-map-screen.open { opacity: 1; pointer-events: auto; transform: scale(1); }
+.world-map-card { width: min(920px, 92vw); min-height: min(620px, 82vh); padding: 30px; background: linear-gradient(145deg, rgba(13,35,47,.98), rgba(5,17,26,.98)); border: 1px solid rgba(116,224,215,.35); box-shadow: 0 25px 80px rgba(0,0,0,.5); }
+.world-map-header, .world-map-footer { display: flex; align-items: flex-start; justify-content: space-between; gap: 24px; }
+.world-map-header small { color: #72e3da; font-size: 9px; letter-spacing: .2em; }
+.world-map-header h2 { margin: 7px 0 0; color: #f5f4eb; font: 700 38px/1 "Barlow Condensed", sans-serif; letter-spacing: .08em; }
+.world-map-header > span { color: #8ba8b5; font-size: 9px; letter-spacing: .12em; padding-top: 6px; }
+.island-map-graphic { position: relative; height: 420px; margin: 22px 0; overflow: hidden; background: radial-gradient(ellipse at center, rgba(42,123,133,.18), transparent 60%), repeating-linear-gradient(0deg, transparent 0 38px, rgba(114,227,218,.06) 39px 40px), repeating-linear-gradient(90deg, transparent 0 38px, rgba(114,227,218,.06) 39px 40px); border: 1px solid rgba(137,189,196,.16); }
+.island-shape { position: absolute; display: grid; place-items: center; color: rgba(234,245,247,.72); font: 600 13px "Barlow Condensed", sans-serif; letter-spacing: .16em; background: linear-gradient(145deg, #41656b, #1e3c48); border: 1px solid rgba(157,222,209,.5); box-shadow: inset 0 0 32px rgba(7,19,29,.6), 0 14px 26px rgba(0,0,0,.22); transform: rotate(-12deg); }
+.island-north { width: 220px; height: 105px; left: 34%; top: 6%; border-radius: 48% 58% 42% 61%; }
+.island-center { width: 330px; height: 205px; left: 27%; top: 29%; border-radius: 52% 41% 58% 45%; transform: rotate(8deg); background: linear-gradient(145deg, #66846c, #274b4e); }
+.island-east { width: 170px; height: 125px; right: 5%; top: 35%; border-radius: 42% 64% 49% 37%; transform: rotate(24deg); }
+.island-south { width: 240px; height: 105px; left: 33%; bottom: 3%; border-radius: 65% 40% 52% 45%; transform: rotate(-18deg); }
+.map-pin { position: absolute; left: 47%; top: 48%; width: 13px; height: 13px; border: 3px solid #e9b949; border-radius: 50%; background: #07131d; box-shadow: 0 0 0 8px rgba(233,185,73,.16), 0 0 22px #e9b949; }
+.map-label { position: absolute; left: 50%; top: 44%; color: #f6e3a0; font: 700 17px "Barlow Condensed", sans-serif; letter-spacing: .12em; }
+.map-label small { color: #72e3da; font: 8px "DM Mono", monospace; letter-spacing: .16em; }
+.world-map-footer { align-items: end; border-top: 1px solid rgba(137,189,196,.18); padding-top: 18px; }
+.world-map-footer b { display: block; color: #f5f4eb; font: 600 17px "Barlow Condensed", sans-serif; letter-spacing: .12em; }
+.world-map-footer small { display: block; margin-top: 6px; color: #8ba8b5; font-size: 9px; }
+.unlock-legend { color: #8ba8b5; font-size: 8px; letter-spacing: .1em; white-space: nowrap; }
+.legend-live, .legend-soon { display: inline-block; width: 7px; height: 7px; margin: 0 5px 0 14px; border-radius: 50%; background: #72e3da; }
+.legend-soon { background: #667783; }
+@media (max-width: 760px) { .hud-topline { left: 16px; right: 16px; top: 16px; } .hud-health { left: 16px; top: 80px; } .hud-mission { top: 80px; width: 200px; } .hud-wanted { right: 16px; top: 80px; width: 142px; } .save-help { display: none; } .hud-minimap { right: 16px; bottom: 16px; width: 132px; height: 132px; } .hud-speed { right: 164px; bottom: 26px; } .hud-speed strong { font-size: 50px; } .hud-bottom { left: 16px; right: 16px; bottom: 18px; } .agent-chip { display: none; } .world-map-screen { padding: 16px; } .world-map-card { padding: 20px; min-height: 0; } .world-map-header h2 { font-size: 29px; } .world-map-header > span { font-size: 7px; } .island-map-graphic { height: 350px; } .island-center { width: 230px; height: 160px; left: 22%; } .island-north { width: 150px; } .island-east { width: 110px; } .island-south { width: 170px; } .world-map-footer { display: block; } .unlock-legend { margin-top: 12px; } }

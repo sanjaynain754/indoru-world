@@ -3,6 +3,7 @@ import { Scene } from "@babylonjs/core/scene";
 import { FreeCamera } from "@babylonjs/core/Cameras/freeCamera";
 import { HemisphericLight } from "@babylonjs/core/Lights/hemisphericLight";
 import { DirectionalLight } from "@babylonjs/core/Lights/directionalLight";
+import { ShadowGenerator } from "@babylonjs/core/Lights/Shadows/shadowGenerator";
 import { StandardMaterial } from "@babylonjs/core/Materials/standardMaterial";
 import { Texture } from "@babylonjs/core/Materials/Textures/texture";
 import { Color3, Color4 } from "@babylonjs/core/Maths/math.color";
@@ -110,6 +111,9 @@ export async function createGameScene(engine: Engine, canvas: HTMLCanvasElement)
   sun.position = new Vector3(-40, 70, -30);
   sun.intensity = 1.1;
   sun.diffuse = Color3.FromHexString("#FFD6A1");
+  const shadows = new ShadowGenerator(1024, sun);
+  shadows.useBlurExponentialShadowMap = true;
+  shadows.blurKernel = 24;
   const camera = new FreeCamera("chase-camera", new Vector3(0, 7, 23), scene);
   camera.fov = 0.92;
   camera.minZ = 0.1;
@@ -118,6 +122,10 @@ export async function createGameScene(engine: Engine, canvas: HTMLCanvasElement)
   camera.inputs.clear();
   const input = new InputManager();
   const world = new GameWorld(scene, input);
+  scene.meshes.forEach((mesh) => {
+    mesh.receiveShadows = true;
+    if (mesh.name !== "district-ground" && mesh.name !== "skyline-backdrop") shadows.addShadowCaster(mesh, true);
+  });
   const hud = new HudController();
   const demo = new URLSearchParams(window.location.search).has("demo");
   let cameraPosition = camera.position.clone();

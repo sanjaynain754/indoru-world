@@ -10,19 +10,27 @@ export class HudController {
   private readonly status: HTMLDivElement;
   private readonly minimap: HTMLCanvasElement;
   private readonly mapContext: CanvasRenderingContext2D;
+  private readonly worldMap: HTMLDivElement;
 
   constructor() {
     this.root = document.createElement("div");
     this.root.className = "game-hud";
     this.root.innerHTML = `
-      <div class="hud-topline"><div class="brand-lockup"><span class="brand-mark">I</span><div><b>INDORU</b><small>NAVAAR / RIVERFRONT DISTRICT</small></div></div><div class="save-help">WASD / ARROWS DRIVE <span>•</span> E SAVE <span>•</span> L LOAD</div></div>
+      <div class="hud-topline"><div class="brand-lockup"><span class="brand-mark">I</span><div><b>INDORU</b><small>NAVAAR / RIVERFRONT DISTRICT</small></div></div><div class="save-help">WASD / ARROWS DRIVE <span>•</span> M WORLD MAP <span>•</span> E SAVE <span>•</span> L LOAD</div></div>
       <div class="hud-health panel"><div class="hud-label"><span>VITALS</span><strong data-health>100%</strong></div><div class="health-track"><div data-health-fill></div></div></div>
       <div class="hud-mission panel"><div class="mission-kicker">ACTIVE CONTRACT <span>01</span></div><div class="mission-title" data-mission>RIVERFRONT RUN</div><div class="mission-sub">Reach the beacon at Navaar Quay</div><div class="mission-track"><div data-mission-fill></div></div></div>
       <div class="hud-wanted panel"><div class="hud-label"><span>ATTENTION</span><strong data-wanted>QUIET</strong></div><div data-stars class="stars"></div></div>
       <div class="hud-speed"><strong data-speed>0</strong><span>KM/H</span></div>
       <div class="hud-bottom"><div class="city-chip"><span class="live-dot"></span><div><b>NAVAAR QUAY</b><small>AVENRA • INDORU WORLD</small></div></div><div class="agent-chip"><b data-agents>18 NPC / 15 TRAFFIC</b><small>SIMULATION ONLINE</small></div></div>
       <div class="hud-toast" data-status></div>
-      <canvas class="hud-minimap" width="168" height="168"></canvas>`;
+      <canvas class="hud-minimap" width="168" height="168"></canvas>
+      <div class="world-map-screen" data-world-map aria-hidden="true">
+        <div class="world-map-card">
+          <div class="world-map-header"><div><small>INDORU WORLD ATLAS</small><h2>THE SEVEN REACHES</h2></div><span>PRESS M TO CLOSE</span></div>
+          <div class="island-map-graphic"><span class="island-shape island-north">FROSTLINE</span><span class="island-shape island-center">AVENRA</span><span class="island-shape island-east">VARYN SEA</span><span class="island-shape island-south">DUSKWARD</span><i class="map-pin pin-navaar"></i><b class="map-label label-navaar">NAVAAR<br><small>PLAYABLE NOW</small></b></div>
+          <div class="world-map-footer"><div><b>AVENRA / INDORU</b><small>Starter country • 6 major cities • 201 settlements</small></div><div class="unlock-legend"><span class="legend-live"></span> ACTIVE <span class="legend-soon"></span> COMING SOON</div></div>
+        </div>
+      </div>`;
     document.body.appendChild(this.root);
     this.healthFill = this.root.querySelector("[data-health-fill]") as HTMLDivElement;
     this.speed = this.root.querySelector("[data-speed]") as HTMLDivElement;
@@ -32,6 +40,7 @@ export class HudController {
     this.status = this.root.querySelector("[data-status]") as HTMLDivElement;
     this.minimap = this.root.querySelector(".hud-minimap") as HTMLCanvasElement;
     this.mapContext = this.minimap.getContext("2d") as CanvasRenderingContext2D;
+    this.worldMap = this.root.querySelector("[data-world-map]") as HTMLDivElement;
   }
 
   update(snapshot: WorldSnapshot): void {
@@ -49,6 +58,8 @@ export class HudController {
     (this.root.querySelector("[data-agents]") as HTMLDivElement).textContent = `${snapshot.npcs} NPC / ${snapshot.traffic} TRAFFIC`;
     this.status.textContent = snapshot.savedFlash > 0 ? "LOCAL SAVE SYNCED" : "";
     this.status.classList.toggle("visible", snapshot.savedFlash > 0);
+    this.worldMap.classList.toggle("open", snapshot.worldMapOpen);
+    this.worldMap.setAttribute("aria-hidden", snapshot.worldMapOpen ? "false" : "true");
     this.drawMinimap(snapshot);
   }
 

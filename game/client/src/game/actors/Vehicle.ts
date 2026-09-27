@@ -22,6 +22,9 @@ export class PlayerVehicle {
     bodyMat.specularColor = Color3.FromHexString("#8EE8E1");
     const darkMat = new StandardMaterial("player-dark", scene);
     darkMat.diffuseColor = Color3.FromHexString("#122337");
+    const lightMat = new StandardMaterial("player-lights", scene);
+    lightMat.diffuseColor = Color3.FromHexString("#F5D58A");
+    lightMat.emissiveColor = Color3.FromHexString("#B7832F");
     const body = MeshBuilder.CreateBox("player-body", { width: 2.25, height: 0.62, depth: 4.3 }, scene);
     body.parent = this.root;
     body.position.y = 0.62;
@@ -30,6 +33,20 @@ export class PlayerVehicle {
     cabin.parent = this.root;
     cabin.position.set(0, 1.12, -0.15);
     cabin.material = darkMat;
+    const hood = MeshBuilder.CreateBox("player-hood", { width: 1.9, height: 0.12, depth: 1.05 }, scene);
+    hood.parent = this.root;
+    hood.position.set(0, 0.96, 1.28);
+    hood.material = bodyMat;
+    const grille = MeshBuilder.CreateBox("player-grille", { width: 1.05, height: 0.16, depth: 0.06 }, scene);
+    grille.parent = this.root;
+    grille.position.set(0, 0.68, 2.17);
+    grille.material = darkMat;
+    for (const x of [-0.78, 0.78]) {
+      const lamp = MeshBuilder.CreateBox(`player-headlamp-${x}`, { width: 0.38, height: 0.16, depth: 0.06 }, scene);
+      lamp.parent = this.root;
+      lamp.position.set(x, 0.84, 2.17);
+      lamp.material = lightMat;
+    }
     for (const x of [-1.05, 1.05]) {
       for (const z of [-1.35, 1.35]) {
         const wheel = MeshBuilder.CreateCylinder(`player-wheel-${x}-${z}`, { diameter: 0.52, height: 0.22, tessellation: 16 }, scene);
