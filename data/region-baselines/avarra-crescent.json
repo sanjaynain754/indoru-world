@@ -1,0 +1,1337 @@
+{
+  "schemaVersion": 1,
+  "worldId": "indoru-world-001",
+  "regionId": "region-avarra-crescent",
+  "regionName": "Avarra Crescent",
+  "buildOrder": 1,
+  "contentState": "baseline-design",
+  "platformTarget": [
+    "desktop-gaming-pc",
+    "playstation-5"
+  ],
+  "runtimeIntegrated": false,
+  "mappingReview": {
+    "status": "proposed",
+    "note": "Avenra is the confirmed starter country. Existing Avarra city and village ownership beyond that is a proposed distribution by country identity; review before migrating this manifest into the canonical global settlement registry.",
+    "legacyAvarraSettlementCount": 32,
+    "newVillageCount": 4
+  },
+  "countries": [
+    {
+      "countryId": "country-001",
+      "name": "Avenra",
+      "regionCode": "AVR",
+      "identity": "Central river capital and trade hub",
+      "flagId": "flag-avenra",
+      "flagAsset": "assets/flags/flag-avenra.svg",
+      "settlementIds": [
+        "settlement-001",
+        "settlement-092"
+      ]
+    },
+    {
+      "countryId": "country-002",
+      "name": "Solvani",
+      "regionCode": "AVR",
+      "identity": "Sun-coast cities and dry hills",
+      "flagId": "flag-solvani",
+      "flagAsset": "assets/flags/flag-solvani.svg",
+      "settlementIds": [
+        "settlement-002",
+        "settlement-099"
+      ]
+    },
+    {
+      "countryId": "country-003",
+      "name": "Mirqara",
+      "regionCode": "AVR",
+      "identity": "Inland sea ports and markets",
+      "flagId": "flag-mirqara",
+      "flagAsset": "assets/flags/flag-mirqara.svg",
+      "settlementIds": [
+        "settlement-003",
+        "settlement-106"
+      ]
+    },
+    {
+      "countryId": "country-004",
+      "name": "Tavresh",
+      "regionCode": "AVR",
+      "identity": "Terraced farms and old fort towns",
+      "flagId": "flag-tavresh",
+      "flagAsset": "assets/flags/flag-tavresh.svg",
+      "settlementIds": [
+        "settlement-007",
+        "settlement-113"
+      ]
+    },
+    {
+      "countryId": "country-005",
+      "name": "Orvessa",
+      "regionCode": "AVR",
+      "identity": "Western coastal republic",
+      "flagId": "flag-orvessa",
+      "flagAsset": "assets/flags/flag-orvessa.svg",
+      "settlementIds": [
+        "settlement-014",
+        "settlement-120"
+      ]
+    },
+    {
+      "countryId": "country-006",
+      "name": "Narevia",
+      "regionCode": "AVR",
+      "identity": "Wide delta and canal cities",
+      "flagId": "flag-narevia",
+      "flagAsset": "assets/flags/flag-narevia.svg",
+      "settlementIds": [
+        "settlement-021",
+        "settlement-127"
+      ]
+    },
+    {
+      "countryId": "country-007",
+      "name": "Belqorin",
+      "regionCode": "AVR",
+      "identity": "Limestone highlands and quarries",
+      "flagId": "flag-belqorin",
+      "flagAsset": "assets/flags/flag-belqorin.svg",
+      "settlementIds": [
+        "settlement-028",
+        "settlement-134"
+      ]
+    },
+    {
+      "countryId": "country-008",
+      "name": "Yalmera",
+      "regionCode": "AVR",
+      "identity": "Southern grasslands and horse culture",
+      "flagId": "flag-yalmera",
+      "flagAsset": "assets/flags/flag-yalmera.svg",
+      "settlementIds": [
+        "settlement-035",
+        "settlement-141"
+      ]
+    },
+    {
+      "countryId": "country-009",
+      "name": "Kadrune",
+      "regionCode": "AVR",
+      "identity": "Industrial river corridor",
+      "flagId": "flag-kadrune",
+      "flagAsset": "assets/flags/flag-kadrune.svg",
+      "settlementIds": [
+        "settlement-042",
+        "settlement-148"
+      ]
+    },
+    {
+      "countryId": "country-010",
+      "name": "Eshvara",
+      "regionCode": "AVR",
+      "identity": "Temple valleys and dense urban districts",
+      "flagId": "flag-eshvara",
+      "flagAsset": "assets/flags/flag-eshvara.svg",
+      "settlementIds": [
+        "settlement-049",
+        "settlement-155"
+      ]
+    },
+    {
+      "countryId": "country-011",
+      "name": "Ruvessa",
+      "regionCode": "AVR",
+      "identity": "Rain-fed forests and hill roads",
+      "flagId": "flag-ruvessa",
+      "flagAsset": "assets/flags/flag-ruvessa.svg",
+      "settlementIds": [
+        "settlement-056",
+        "settlement-162"
+      ]
+    },
+    {
+      "countryId": "country-012",
+      "name": "Dalmor",
+      "regionCode": "AVR",
+      "identity": "Salt coast and fishing towns",
+      "flagId": "flag-dalmor",
+      "flagAsset": "assets/flags/flag-dalmor.svg",
+      "settlementIds": [
+        "settlement-063",
+        "settlement-169"
+      ]
+    },
+    {
+      "countryId": "country-013",
+      "name": "Virelune",
+      "regionCode": "AVR",
+      "identity": "Large lake basin and observatories",
+      "flagId": "flag-virelune",
+      "flagAsset": "assets/flags/flag-virelune.svg",
+      "settlementIds": [
+        "settlement-070",
+        "settlement-176"
+      ]
+    },
+    {
+      "countryId": "country-014",
+      "name": "Qamrith",
+      "regionCode": "AVR",
+      "identity": "Desert-edge caravan cities",
+      "flagId": "flag-qamrith",
+      "flagAsset": "assets/flags/flag-qamrith.svg",
+      "settlementIds": [
+        "settlement-077",
+        "settlement-183"
+      ]
+    },
+    {
+      "countryId": "country-015",
+      "name": "Senvara",
+      "regionCode": "AVR",
+      "identity": "Constitutional island-facing kingdom",
+      "flagId": "flag-senvara",
+      "flagAsset": "assets/flags/flag-senvara.svg",
+      "settlementIds": [
+        "settlement-084",
+        "settlement-190"
+      ]
+    },
+    {
+      "countryId": "country-016",
+      "name": "Torvane",
+      "regionCode": "AVR",
+      "identity": "Mountain pass and transport center",
+      "flagId": "flag-torvane",
+      "flagAsset": "assets/flags/flag-torvane.svg",
+      "settlementIds": [
+        "settlement-091",
+        "settlement-197"
+      ]
+    },
+    {
+      "countryId": "country-017",
+      "name": "Ilvarra",
+      "regionCode": "AVR",
+      "identity": "Olive-like groves and blue cliffs",
+      "flagId": "flag-ilvarra",
+      "flagAsset": "assets/flags/flag-ilvarra.svg",
+      "settlementIds": [
+        "settlement-202"
+      ]
+    },
+    {
+      "countryId": "country-018",
+      "name": "Meskora",
+      "regionCode": "AVR",
+      "identity": "Free-trade port federation",
+      "flagId": "flag-meskora",
+      "flagAsset": "assets/flags/flag-meskora.svg",
+      "settlementIds": [
+        "settlement-203"
+      ]
+    },
+    {
+      "countryId": "country-019",
+      "name": "Arqessa",
+      "regionCode": "AVR",
+      "identity": "Volcanic foothills and mineral fields",
+      "flagId": "flag-arqessa",
+      "flagAsset": "assets/flags/flag-arqessa.svg",
+      "settlementIds": [
+        "settlement-204"
+      ]
+    },
+    {
+      "countryId": "country-020",
+      "name": "Venqara",
+      "regionCode": "AVR",
+      "identity": "Southern bay and naval district",
+      "flagId": "flag-venqara",
+      "flagAsset": "assets/flags/flag-venqara.svg",
+      "settlementIds": [
+        "settlement-205"
+      ]
+    }
+  ],
+  "settlementCounts": {
+    "majorCities": 3,
+    "normalCities": 13,
+    "villages": 20,
+    "total": 36,
+    "countriesCovered": 20
+  },
+  "facilityProfiles": {
+    "capital": {
+      "inherits": "major_city",
+      "additional": [
+        "national_government_quarter",
+        "teaching_hospital",
+        "university",
+        "international_airport",
+        "central_rail_terminal",
+        "river_ferry_terminal",
+        "intercity_bus_terminal",
+        "freight_yard"
+      ]
+    },
+    "major_city": {
+      "inherits": "normal_city",
+      "additional": [
+        "regional_hospital",
+        "college_or_training_centre",
+        "rail_or_ferry_terminal",
+        "intercity_bus_terminal",
+        "freight_market"
+      ]
+    },
+    "normal_city": {
+      "inherits": null,
+      "additional": [
+        "housing_districts",
+        "public_market",
+        "grocery_and_general_stores",
+        "barber_shop",
+        "clothing_and_personal_care",
+        "restaurants_and_food_stalls",
+        "clinic",
+        "pharmacy",
+        "school",
+        "police_station",
+        "fire_station",
+        "vehicle_mechanic",
+        "fuel_or_charging",
+        "potable_water",
+        "electricity",
+        "sanitation_and_sewer",
+        "solid_waste_collection",
+        "storm_drainage",
+        "public_transit_stop",
+        "park_or_public_square",
+        "civic_service_counter"
+      ]
+    },
+    "village": {
+      "inherits": null,
+      "additional": [
+        "safe_housing",
+        "potable_water_point",
+        "electricity_or_microgrid",
+        "toilets_and_sanitation",
+        "waste_collection_point",
+        "primary_school",
+        "community_hall",
+        "clinic_outreach",
+        "emergency_response_access",
+        "all_weather_road",
+        "bus_or_shared_van_stop",
+        "weekly_market",
+        "mobile_barber_service",
+        "grocery_kiosk",
+        "small_repairs",
+        "drainage_and_flood_route"
+      ]
+    }
+  },
+  "settlements": [
+    {
+      "settlementId": "settlement-001",
+      "name": "Navaar",
+      "countryId": "country-001",
+      "countryName": "Avenra",
+      "regionId": "region-avarra-crescent",
+      "region": "Avarra Crescent",
+      "type": "capital",
+      "populationTier": "mega",
+      "role": "River capital, civic administration and national trade hub",
+      "flagRef": "country:country-001",
+      "mapKey": "country/avenra/settlements/navaar",
+      "facilityProfileId": "capital",
+      "districtArchetypes": [
+        "civic_core",
+        "riverfront",
+        "historic_market",
+        "mixed_residential",
+        "employment_district",
+        "transit_hub",
+        "parks_and_public_spaces"
+      ],
+      "assignmentReview": "proposed"
+    },
+    {
+      "settlementId": "settlement-002",
+      "name": "Solmera",
+      "countryId": "country-002",
+      "countryName": "Solvani",
+      "regionId": "region-avarra-crescent",
+      "region": "Avarra Crescent",
+      "type": "major_city",
+      "populationTier": "large",
+      "role": "Sun-coast finance, media and regional passenger gateway",
+      "flagRef": "country:country-002",
+      "mapKey": "country/solvani/settlements/solmera",
+      "facilityProfileId": "major_city",
+      "districtArchetypes": [
+        "commercial_core",
+        "working_waterfront_or_market",
+        "mixed_residential",
+        "employment_district",
+        "transit_hub",
+        "public_green"
+      ],
+      "assignmentReview": "proposed"
+    },
+    {
+      "settlementId": "settlement-003",
+      "name": "Mirqara Prime",
+      "countryId": "country-003",
+      "countryName": "Mirqara",
+      "regionId": "region-avarra-crescent",
+      "region": "Avarra Crescent",
+      "type": "major_city",
+      "populationTier": "large",
+      "role": "Inland-sea port, wholesale markets and freight exchange",
+      "flagRef": "country:country-003",
+      "mapKey": "country/mirqara/settlements/mirqara-prime",
+      "facilityProfileId": "major_city",
+      "districtArchetypes": [
+        "commercial_core",
+        "working_waterfront_or_market",
+        "mixed_residential",
+        "employment_district",
+        "transit_hub",
+        "public_green"
+      ],
+      "assignmentReview": "proposed"
+    },
+    {
+      "settlementId": "settlement-007",
+      "name": "Arela",
+      "countryId": "country-004",
+      "countryName": "Tavresh",
+      "regionId": "region-avarra-crescent",
+      "region": "Avarra Crescent",
+      "type": "normal_city",
+      "populationTier": "medium",
+      "role": "Terraced-farm service centre with a restored hill citadel",
+      "flagRef": "country:country-004",
+      "mapKey": "country/tavresh/settlements/arela",
+      "facilityProfileId": "normal_city",
+      "districtArchetypes": [
+        "town_centre",
+        "local_market",
+        "residential_neighbourhood",
+        "workshop_or_employment_row",
+        "school_and_clinic",
+        "public_green"
+      ],
+      "assignmentReview": "proposed"
+    },
+    {
+      "settlementId": "settlement-014",
+      "name": "Havora",
+      "countryId": "country-005",
+      "countryName": "Orvessa",
+      "regionId": "region-avarra-crescent",
+      "region": "Avarra Crescent",
+      "type": "normal_city",
+      "populationTier": "medium",
+      "role": "Western coastal city with a working harbor and beach districts",
+      "flagRef": "country:country-005",
+      "mapKey": "country/orvessa/settlements/havora",
+      "facilityProfileId": "normal_city",
+      "districtArchetypes": [
+        "town_centre",
+        "local_market",
+        "residential_neighbourhood",
+        "workshop_or_employment_row",
+        "school_and_clinic",
+        "public_green"
+      ],
+      "assignmentReview": "proposed"
+    },
+    {
+      "settlementId": "settlement-021",
+      "name": "Orela",
+      "countryId": "country-006",
+      "countryName": "Narevia",
+      "regionId": "region-avarra-crescent",
+      "region": "Avarra Crescent",
+      "type": "normal_city",
+      "populationTier": "medium",
+      "role": "Delta city shaped by canals, river freight and floodable parks",
+      "flagRef": "country:country-006",
+      "mapKey": "country/narevia/settlements/orela",
+      "facilityProfileId": "normal_city",
+      "districtArchetypes": [
+        "town_centre",
+        "local_market",
+        "residential_neighbourhood",
+        "workshop_or_employment_row",
+        "school_and_clinic",
+        "public_green"
+      ],
+      "assignmentReview": "proposed"
+    },
+    {
+      "settlementId": "settlement-028",
+      "name": "Vareka",
+      "countryId": "country-007",
+      "countryName": "Belqorin",
+      "regionId": "region-avarra-crescent",
+      "region": "Avarra Crescent",
+      "type": "normal_city",
+      "populationTier": "medium",
+      "role": "Limestone highland city with quarry, craft and construction trades",
+      "flagRef": "country:country-007",
+      "mapKey": "country/belqorin/settlements/vareka",
+      "facilityProfileId": "normal_city",
+      "districtArchetypes": [
+        "town_centre",
+        "local_market",
+        "residential_neighbourhood",
+        "workshop_or_employment_row",
+        "school_and_clinic",
+        "public_green"
+      ],
+      "assignmentReview": "proposed"
+    },
+    {
+      "settlementId": "settlement-035",
+      "name": "Cavoren",
+      "countryId": "country-008",
+      "countryName": "Yalmera",
+      "regionId": "region-avarra-crescent",
+      "region": "Avarra Crescent",
+      "type": "normal_city",
+      "populationTier": "medium",
+      "role": "Grassland market city serving horse, livestock and grain routes",
+      "flagRef": "country:country-008",
+      "mapKey": "country/yalmera/settlements/cavoren",
+      "facilityProfileId": "normal_city",
+      "districtArchetypes": [
+        "town_centre",
+        "local_market",
+        "residential_neighbourhood",
+        "workshop_or_employment_row",
+        "school_and_clinic",
+        "public_green"
+      ],
+      "assignmentReview": "proposed"
+    },
+    {
+      "settlementId": "settlement-042",
+      "name": "Jalenen",
+      "countryId": "country-009",
+      "countryName": "Kadrune",
+      "regionId": "region-avarra-crescent",
+      "region": "Avarra Crescent",
+      "type": "normal_city",
+      "populationTier": "medium",
+      "role": "Industrial river-corridor city with rail yards and worker districts",
+      "flagRef": "country:country-009",
+      "mapKey": "country/kadrune/settlements/jalenen",
+      "facilityProfileId": "normal_city",
+      "districtArchetypes": [
+        "town_centre",
+        "local_market",
+        "residential_neighbourhood",
+        "workshop_or_employment_row",
+        "school_and_clinic",
+        "public_green"
+      ],
+      "assignmentReview": "proposed"
+    },
+    {
+      "settlementId": "settlement-049",
+      "name": "Qorinen",
+      "countryId": "country-010",
+      "countryName": "Eshvara",
+      "regionId": "region-avarra-crescent",
+      "region": "Avarra Crescent",
+      "type": "normal_city",
+      "populationTier": "medium",
+      "role": "Temple-valley city balancing heritage streets and civic services",
+      "flagRef": "country:country-010",
+      "mapKey": "country/eshvara/settlements/qorinen",
+      "facilityProfileId": "normal_city",
+      "districtArchetypes": [
+        "town_centre",
+        "local_market",
+        "residential_neighbourhood",
+        "workshop_or_employment_row",
+        "school_and_clinic",
+        "public_green"
+      ],
+      "assignmentReview": "proposed"
+    },
+    {
+      "settlementId": "settlement-056",
+      "name": "Xarinen",
+      "countryId": "country-011",
+      "countryName": "Ruvessa",
+      "regionId": "region-avarra-crescent",
+      "region": "Avarra Crescent",
+      "type": "normal_city",
+      "populationTier": "medium",
+      "role": "Rain-fed forest gateway linked by hill roads and trail services",
+      "flagRef": "country:country-011",
+      "mapKey": "country/ruvessa/settlements/xarinen",
+      "facilityProfileId": "normal_city",
+      "districtArchetypes": [
+        "town_centre",
+        "local_market",
+        "residential_neighbourhood",
+        "workshop_or_employment_row",
+        "school_and_clinic",
+        "public_green"
+      ],
+      "assignmentReview": "proposed"
+    },
+    {
+      "settlementId": "settlement-063",
+      "name": "Evarais",
+      "countryId": "country-012",
+      "countryName": "Dalmor",
+      "regionId": "region-avarra-crescent",
+      "region": "Avarra Crescent",
+      "type": "normal_city",
+      "populationTier": "medium",
+      "role": "Salt-coast city with fishing markets, cold stores and storm shelters",
+      "flagRef": "country:country-012",
+      "mapKey": "country/dalmor/settlements/evarais",
+      "facilityProfileId": "normal_city",
+      "districtArchetypes": [
+        "town_centre",
+        "local_market",
+        "residential_neighbourhood",
+        "workshop_or_employment_row",
+        "school_and_clinic",
+        "public_green"
+      ],
+      "assignmentReview": "proposed"
+    },
+    {
+      "settlementId": "settlement-070",
+      "name": "Lurais",
+      "countryId": "country-013",
+      "countryName": "Virelune",
+      "regionId": "region-avarra-crescent",
+      "region": "Avarra Crescent",
+      "type": "normal_city",
+      "populationTier": "medium",
+      "role": "Lake-basin city with water management, education and observatories",
+      "flagRef": "country:country-013",
+      "mapKey": "country/virelune/settlements/lurais",
+      "facilityProfileId": "normal_city",
+      "districtArchetypes": [
+        "town_centre",
+        "local_market",
+        "residential_neighbourhood",
+        "workshop_or_employment_row",
+        "school_and_clinic",
+        "public_green"
+      ],
+      "assignmentReview": "proposed"
+    },
+    {
+      "settlementId": "settlement-077",
+      "name": "Sorenis",
+      "countryId": "country-014",
+      "countryName": "Qamrith",
+      "regionId": "region-avarra-crescent",
+      "region": "Avarra Crescent",
+      "type": "normal_city",
+      "populationTier": "medium",
+      "role": "Desert-edge caravan city with shaded markets and water depots",
+      "flagRef": "country:country-014",
+      "mapKey": "country/qamrith/settlements/sorenis",
+      "facilityProfileId": "normal_city",
+      "districtArchetypes": [
+        "town_centre",
+        "local_market",
+        "residential_neighbourhood",
+        "workshop_or_employment_row",
+        "school_and_clinic",
+        "public_green"
+      ],
+      "assignmentReview": "proposed"
+    },
+    {
+      "settlementId": "settlement-084",
+      "name": "Zavelis",
+      "countryId": "country-015",
+      "countryName": "Senvara",
+      "regionId": "region-avarra-crescent",
+      "region": "Avarra Crescent",
+      "type": "normal_city",
+      "populationTier": "medium",
+      "role": "Island-facing royal city with ferry piers and coastal promenades",
+      "flagRef": "country:country-015",
+      "mapKey": "country/senvara/settlements/zavelis",
+      "facilityProfileId": "normal_city",
+      "districtArchetypes": [
+        "town_centre",
+        "local_market",
+        "residential_neighbourhood",
+        "workshop_or_employment_row",
+        "school_and_clinic",
+        "public_green"
+      ],
+      "assignmentReview": "proposed"
+    },
+    {
+      "settlementId": "settlement-091",
+      "name": "Girelor",
+      "countryId": "country-016",
+      "countryName": "Torvane",
+      "regionId": "region-avarra-crescent",
+      "region": "Avarra Crescent",
+      "type": "normal_city",
+      "populationTier": "medium",
+      "role": "Mountain-pass logistics city connecting roads, rail and freight",
+      "flagRef": "country:country-016",
+      "mapKey": "country/torvane/settlements/girelor",
+      "facilityProfileId": "normal_city",
+      "districtArchetypes": [
+        "town_centre",
+        "local_market",
+        "residential_neighbourhood",
+        "workshop_or_employment_row",
+        "school_and_clinic",
+        "public_green"
+      ],
+      "assignmentReview": "proposed"
+    },
+    {
+      "settlementId": "settlement-092",
+      "name": "Ashagaon",
+      "countryId": "country-001",
+      "countryName": "Avenra",
+      "regionId": "region-avarra-crescent",
+      "region": "Avarra Crescent",
+      "type": "village",
+      "populationTier": "small",
+      "role": "Riverbank farming village with a market-day square",
+      "flagRef": "country:country-001",
+      "mapKey": "country/avenra/settlements/ashagaon",
+      "facilityProfileId": "village",
+      "districtArchetypes": [
+        "main_street",
+        "homes_and_yards",
+        "local_working_land",
+        "school_and_community_hall",
+        "market_or_landing",
+        "shared_green"
+      ],
+      "assignmentReview": "proposed"
+    },
+    {
+      "settlementId": "settlement-099",
+      "name": "Himagaon",
+      "countryId": "country-002",
+      "countryName": "Solvani",
+      "regionId": "region-avarra-crescent",
+      "region": "Avarra Crescent",
+      "type": "village",
+      "populationTier": "small",
+      "role": "Dry-hill village with a shared water tank and orchard plots",
+      "flagRef": "country:country-002",
+      "mapKey": "country/solvani/settlements/himagaon",
+      "facilityProfileId": "village",
+      "districtArchetypes": [
+        "main_street",
+        "homes_and_yards",
+        "local_working_land",
+        "school_and_community_hall",
+        "market_or_landing",
+        "shared_green"
+      ],
+      "assignmentReview": "proposed"
+    },
+    {
+      "settlementId": "settlement-106",
+      "name": "Oshagaon",
+      "countryId": "country-003",
+      "countryName": "Mirqara",
+      "regionId": "region-avarra-crescent",
+      "region": "Avarra Crescent",
+      "type": "village",
+      "populationTier": "small",
+      "role": "Canal-side village with boat landing and fish stalls",
+      "flagRef": "country:country-003",
+      "mapKey": "country/mirqara/settlements/oshagaon",
+      "facilityProfileId": "village",
+      "districtArchetypes": [
+        "main_street",
+        "homes_and_yards",
+        "local_working_land",
+        "school_and_community_hall",
+        "market_or_landing",
+        "shared_green"
+      ],
+      "assignmentReview": "proposed"
+    },
+    {
+      "settlementId": "settlement-113",
+      "name": "Vinagaon",
+      "countryId": "country-004",
+      "countryName": "Tavresh",
+      "regionId": "region-avarra-crescent",
+      "region": "Avarra Crescent",
+      "type": "village",
+      "populationTier": "small",
+      "role": "Terraced farming village with a hill-road service stop",
+      "flagRef": "country:country-004",
+      "mapKey": "country/tavresh/settlements/vinagaon",
+      "facilityProfileId": "village",
+      "districtArchetypes": [
+        "main_street",
+        "homes_and_yards",
+        "local_working_land",
+        "school_and_community_hall",
+        "market_or_landing",
+        "shared_green"
+      ],
+      "assignmentReview": "proposed"
+    },
+    {
+      "settlementId": "settlement-120",
+      "name": "Cirapur",
+      "countryId": "country-005",
+      "countryName": "Orvessa",
+      "regionId": "region-avarra-crescent",
+      "region": "Avarra Crescent",
+      "type": "village",
+      "populationTier": "small",
+      "role": "Coastal craft village with a storm-safe community hall",
+      "flagRef": "country:country-005",
+      "mapKey": "country/orvessa/settlements/cirapur",
+      "facilityProfileId": "village",
+      "districtArchetypes": [
+        "main_street",
+        "homes_and_yards",
+        "local_working_land",
+        "school_and_community_hall",
+        "market_or_landing",
+        "shared_green"
+      ],
+      "assignmentReview": "proposed"
+    },
+    {
+      "settlementId": "settlement-127",
+      "name": "Jorapur",
+      "countryId": "country-006",
+      "countryName": "Narevia",
+      "regionId": "region-avarra-crescent",
+      "region": "Avarra Crescent",
+      "type": "village",
+      "populationTier": "small",
+      "role": "Delta village connected by road, footbridge and local ferry",
+      "flagRef": "country:country-006",
+      "mapKey": "country/narevia/settlements/jorapur",
+      "facilityProfileId": "village",
+      "districtArchetypes": [
+        "main_street",
+        "homes_and_yards",
+        "local_working_land",
+        "school_and_community_hall",
+        "market_or_landing",
+        "shared_green"
+      ],
+      "assignmentReview": "proposed"
+    },
+    {
+      "settlementId": "settlement-134",
+      "name": "Qumapur",
+      "countryId": "country-007",
+      "countryName": "Belqorin",
+      "regionId": "region-avarra-crescent",
+      "region": "Avarra Crescent",
+      "type": "village",
+      "populationTier": "small",
+      "role": "Quarry foothill village with dust-control and worker safety services",
+      "flagRef": "country:country-007",
+      "mapKey": "country/belqorin/settlements/qumapur",
+      "facilityProfileId": "village",
+      "districtArchetypes": [
+        "main_street",
+        "homes_and_yards",
+        "local_working_land",
+        "school_and_community_hall",
+        "market_or_landing",
+        "shared_green"
+      ],
+      "assignmentReview": "proposed"
+    },
+    {
+      "settlementId": "settlement-141",
+      "name": "Xirapur",
+      "countryId": "country-008",
+      "countryName": "Yalmera",
+      "regionId": "region-avarra-crescent",
+      "region": "Avarra Crescent",
+      "type": "village",
+      "populationTier": "small",
+      "role": "Grassland village with a livestock market and veterinary access",
+      "flagRef": "country:country-008",
+      "mapKey": "country/yalmera/settlements/xirapur",
+      "facilityProfileId": "village",
+      "districtArchetypes": [
+        "main_street",
+        "homes_and_yards",
+        "local_working_land",
+        "school_and_community_hall",
+        "market_or_landing",
+        "shared_green"
+      ],
+      "assignmentReview": "proposed"
+    },
+    {
+      "settlementId": "settlement-148",
+      "name": "Eshavale",
+      "countryId": "country-009",
+      "countryName": "Kadrune",
+      "regionId": "region-avarra-crescent",
+      "region": "Avarra Crescent",
+      "type": "village",
+      "populationTier": "small",
+      "role": "River-corridor village with a bus stop and repair workshop",
+      "flagRef": "country:country-009",
+      "mapKey": "country/kadrune/settlements/eshavale",
+      "facilityProfileId": "village",
+      "districtArchetypes": [
+        "main_street",
+        "homes_and_yards",
+        "local_working_land",
+        "school_and_community_hall",
+        "market_or_landing",
+        "shared_green"
+      ],
+      "assignmentReview": "proposed"
+    },
+    {
+      "settlementId": "settlement-155",
+      "name": "Lumavale",
+      "countryId": "country-010",
+      "countryName": "Eshvara",
+      "regionId": "region-avarra-crescent",
+      "region": "Avarra Crescent",
+      "type": "village",
+      "populationTier": "small",
+      "role": "Temple-valley village with a heritage square and school",
+      "flagRef": "country:country-010",
+      "mapKey": "country/eshvara/settlements/lumavale",
+      "facilityProfileId": "village",
+      "districtArchetypes": [
+        "main_street",
+        "homes_and_yards",
+        "local_working_land",
+        "school_and_community_hall",
+        "market_or_landing",
+        "shared_green"
+      ],
+      "assignmentReview": "proposed"
+    },
+    {
+      "settlementId": "settlement-162",
+      "name": "Savavale",
+      "countryId": "country-011",
+      "countryName": "Ruvessa",
+      "regionId": "region-avarra-crescent",
+      "region": "Avarra Crescent",
+      "type": "village",
+      "populationTier": "small",
+      "role": "Forest-edge village with firebreaks and hill-road access",
+      "flagRef": "country:country-011",
+      "mapKey": "country/ruvessa/settlements/savavale",
+      "facilityProfileId": "village",
+      "districtArchetypes": [
+        "main_street",
+        "homes_and_yards",
+        "local_working_land",
+        "school_and_community_hall",
+        "market_or_landing",
+        "shared_green"
+      ],
+      "assignmentReview": "proposed"
+    },
+    {
+      "settlementId": "settlement-169",
+      "name": "Ziravale",
+      "countryId": "country-012",
+      "countryName": "Dalmor",
+      "regionId": "region-avarra-crescent",
+      "region": "Avarra Crescent",
+      "type": "village",
+      "populationTier": "small",
+      "role": "Fishing village with a salt-market shed and cyclone refuge",
+      "flagRef": "country:country-012",
+      "mapKey": "country/dalmor/settlements/ziravale",
+      "facilityProfileId": "village",
+      "districtArchetypes": [
+        "main_street",
+        "homes_and_yards",
+        "local_working_land",
+        "school_and_community_hall",
+        "market_or_landing",
+        "shared_green"
+      ],
+      "assignmentReview": "proposed"
+    },
+    {
+      "settlementId": "settlement-176",
+      "name": "Garonadi",
+      "countryId": "country-013",
+      "countryName": "Virelune",
+      "regionId": "region-avarra-crescent",
+      "region": "Avarra Crescent",
+      "type": "village",
+      "populationTier": "small",
+      "role": "Lake village with landing steps and water-quality monitoring",
+      "flagRef": "country:country-013",
+      "mapKey": "country/virelune/settlements/garonadi",
+      "facilityProfileId": "village",
+      "districtArchetypes": [
+        "main_street",
+        "homes_and_yards",
+        "local_working_land",
+        "school_and_community_hall",
+        "market_or_landing",
+        "shared_green"
+      ],
+      "assignmentReview": "proposed"
+    },
+    {
+      "settlementId": "settlement-183",
+      "name": "Nalanadi",
+      "countryId": "country-014",
+      "countryName": "Qamrith",
+      "regionId": "region-avarra-crescent",
+      "region": "Avarra Crescent",
+      "type": "village",
+      "populationTier": "small",
+      "role": "Caravan-route village with a shaded rest yard and water point",
+      "flagRef": "country:country-014",
+      "mapKey": "country/qamrith/settlements/nalanadi",
+      "facilityProfileId": "village",
+      "districtArchetypes": [
+        "main_street",
+        "homes_and_yards",
+        "local_working_land",
+        "school_and_community_hall",
+        "market_or_landing",
+        "shared_green"
+      ],
+      "assignmentReview": "proposed"
+    },
+    {
+      "settlementId": "settlement-190",
+      "name": "Ushanadi",
+      "countryId": "country-015",
+      "countryName": "Senvara",
+      "regionId": "region-avarra-crescent",
+      "region": "Avarra Crescent",
+      "type": "village",
+      "populationTier": "small",
+      "role": "Island-facing village with a ferry pier and boat-repair shed",
+      "flagRef": "country:country-015",
+      "mapKey": "country/senvara/settlements/ushanadi",
+      "facilityProfileId": "village",
+      "districtArchetypes": [
+        "main_street",
+        "homes_and_yards",
+        "local_working_land",
+        "school_and_community_hall",
+        "market_or_landing",
+        "shared_green"
+      ],
+      "assignmentReview": "proposed"
+    },
+    {
+      "settlementId": "settlement-197",
+      "name": "Belakhet",
+      "countryId": "country-016",
+      "countryName": "Torvane",
+      "regionId": "region-avarra-crescent",
+      "region": "Avarra Crescent",
+      "type": "village",
+      "populationTier": "small",
+      "role": "Mountain-pass village with a road-maintenance and rescue post",
+      "flagRef": "country:country-016",
+      "mapKey": "country/torvane/settlements/belakhet",
+      "facilityProfileId": "village",
+      "districtArchetypes": [
+        "main_street",
+        "homes_and_yards",
+        "local_working_land",
+        "school_and_community_hall",
+        "market_or_landing",
+        "shared_green"
+      ],
+      "assignmentReview": "proposed"
+    },
+    {
+      "settlementId": "settlement-202",
+      "name": "Marenvale",
+      "countryId": "country-017",
+      "countryName": "Ilvarra",
+      "type": "village",
+      "populationTier": "small",
+      "regionId": "region-avarra-crescent",
+      "region": "Avarra Crescent",
+      "role": "Blue-cliff grove village with slope-safe footpaths",
+      "flagRef": "country:country-017",
+      "mapKey": "country/ilvarra/settlements/marenvale",
+      "facilityProfileId": "village",
+      "districtArchetypes": [
+        "main_street",
+        "homes_and_yards",
+        "local_working_land",
+        "school_and_community_hall",
+        "market_or_landing",
+        "shared_green"
+      ],
+      "assignmentReview": "proposed"
+    },
+    {
+      "settlementId": "settlement-203",
+      "name": "Meskopur",
+      "countryId": "country-018",
+      "countryName": "Meskora",
+      "type": "village",
+      "populationTier": "small",
+      "regionId": "region-avarra-crescent",
+      "region": "Avarra Crescent",
+      "role": "Free-trade port village with a small customs and market quay",
+      "flagRef": "country:country-018",
+      "mapKey": "country/meskora/settlements/meskopur",
+      "facilityProfileId": "village",
+      "districtArchetypes": [
+        "main_street",
+        "homes_and_yards",
+        "local_working_land",
+        "school_and_community_hall",
+        "market_or_landing",
+        "shared_green"
+      ],
+      "assignmentReview": "proposed"
+    },
+    {
+      "settlementId": "settlement-204",
+      "name": "Arqakhet",
+      "countryId": "country-019",
+      "countryName": "Arqessa",
+      "type": "village",
+      "populationTier": "small",
+      "regionId": "region-avarra-crescent",
+      "region": "Avarra Crescent",
+      "role": "Volcanic-foothill village with hazard shelters and mineral-work safety",
+      "flagRef": "country:country-019",
+      "mapKey": "country/arqessa/settlements/arqakhet",
+      "facilityProfileId": "village",
+      "districtArchetypes": [
+        "main_street",
+        "homes_and_yards",
+        "local_working_land",
+        "school_and_community_hall",
+        "market_or_landing",
+        "shared_green"
+      ],
+      "assignmentReview": "proposed"
+    },
+    {
+      "settlementId": "settlement-205",
+      "name": "Vensarpara",
+      "countryId": "country-020",
+      "countryName": "Venqara",
+      "type": "village",
+      "populationTier": "small",
+      "regionId": "region-avarra-crescent",
+      "region": "Avarra Crescent",
+      "role": "Southern-bay village with a fishing pier and naval supply access",
+      "flagRef": "country:country-020",
+      "mapKey": "country/venqara/settlements/vensarpara",
+      "facilityProfileId": "village",
+      "districtArchetypes": [
+        "main_street",
+        "homes_and_yards",
+        "local_working_land",
+        "school_and_community_hall",
+        "market_or_landing",
+        "shared_green"
+      ],
+      "assignmentReview": "proposed"
+    }
+  ],
+  "connectivity": {
+    "roadAccessSettlementIds": [
+      "settlement-001",
+      "settlement-002",
+      "settlement-003",
+      "settlement-007",
+      "settlement-014",
+      "settlement-021",
+      "settlement-028",
+      "settlement-035",
+      "settlement-042",
+      "settlement-049",
+      "settlement-056",
+      "settlement-063",
+      "settlement-070",
+      "settlement-077",
+      "settlement-084",
+      "settlement-091",
+      "settlement-092",
+      "settlement-099",
+      "settlement-106",
+      "settlement-113",
+      "settlement-120",
+      "settlement-127",
+      "settlement-134",
+      "settlement-141",
+      "settlement-148",
+      "settlement-155",
+      "settlement-162",
+      "settlement-169",
+      "settlement-176",
+      "settlement-183",
+      "settlement-190",
+      "settlement-197",
+      "settlement-202",
+      "settlement-203",
+      "settlement-204",
+      "settlement-205"
+    ],
+    "railLines": [
+      {
+        "name": "Avarra Central Corridor",
+        "settlementIds": [
+          "settlement-001",
+          "settlement-002",
+          "settlement-003",
+          "settlement-091"
+        ]
+      }
+    ],
+    "waterRoutes": [
+      {
+        "name": "River-to-Inland-Sea Ferry",
+        "mode": "passenger-and-light-freight",
+        "settlementIds": [
+          "settlement-001",
+          "settlement-021",
+          "settlement-003"
+        ]
+      }
+    ],
+    "airLinks": [
+      {
+        "name": "Avarra Regional Air Loop",
+        "settlementIds": [
+          "settlement-001",
+          "settlement-002",
+          "settlement-003"
+        ]
+      }
+    ],
+    "airportRoles": [
+      {
+        "settlementId": "settlement-001",
+        "role": "international_gateway"
+      },
+      {
+        "settlementId": "settlement-002",
+        "role": "coastal_international_and_domestic"
+      },
+      {
+        "settlementId": "settlement-003",
+        "role": "regional_inland_sea_airport"
+      }
+    ]
+  },
+  "npcBaseline": {
+    "archetypes": [
+      "resident",
+      "shopkeeper",
+      "barber",
+      "food_vendor",
+      "commuter",
+      "student",
+      "teacher",
+      "medic",
+      "police",
+      "fire_responder",
+      "mechanic",
+      "transit_operator",
+      "road_maintenance",
+      "sanitation_worker",
+      "market_vendor",
+      "farmer",
+      "fisher",
+      "ferry_worker"
+    ],
+    "dailyRhythm": [
+      {
+        "window": "dawn",
+        "activities": [
+          "market_setup",
+          "farm_and_fish_departures",
+          "public_transport_start",
+          "street_cleaning"
+        ]
+      },
+      {
+        "window": "day",
+        "activities": [
+          "school_and_work",
+          "shops_and_barbers_open",
+          "civic_services",
+          "freight_and_ferry_operations"
+        ]
+      },
+      {
+        "window": "evening",
+        "activities": [
+          "return_commute",
+          "food_stalls",
+          "market_peak",
+          "parks_and_waterfront"
+        ]
+      },
+      {
+        "window": "night",
+        "activities": [
+          "reduced_transit",
+          "shift_work",
+          "emergency_services",
+          "residential_quiet_period"
+        ]
+      }
+    ],
+    "simulationRule": "Use authored schedules and bounded active-agent budgets; do not spawn one full-time NPC per resident."
+  },
+  "regionSystems": [
+    "river_and_inland_sea",
+    "warm_fertile_crescent",
+    "delta_flood_management",
+    "coastal_storm_shelters",
+    "regional_rail",
+    "intercity_roads",
+    "ferry_and_freight",
+    "airport_connectivity",
+    "water_and_sanitation",
+    "power_and_waste",
+    "shops_and_barber_services",
+    "schools_and_clinics",
+    "emergency_response"
+  ],
+  "acceptanceCriteria": [
+    "Every one of the 20 Avarra countries has at least one named settlement.",
+    "All cities expose the city baseline, including a barber shop and daily retail services.",
+    "Every village has safe water, sanitation, power access, a school/community hub, emergency access and a mobile barber service.",
+    "Every settlement has an explicit road-access entry; rail, ferry and air links have valid named endpoints.",
+    "Country ownership and flags are reviewable per settlement; no legacy single-country owner is used in this manifest.",
+    "This design manifest is not described as a playable PC/PS5 build until a native renderer and runtime loader exist."
+  ]
+}
