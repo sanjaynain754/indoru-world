@@ -21,3 +21,13 @@ python3 -m unittest scripts/test_avarra_baseline.py -v
 ```
 
 Current repository status still lacks a native renderer/runtime loader. Passing these checks validates data consistency only; it does not produce a playable desktop or PS5 build.
+
+## Native C++ content package
+
+The Avarra design data also has a dependency-free C++20 representation in `engine/cpp/src/avarra_region_content.cpp`. Regenerate it after manifest edits:
+
+```bash
+python3 scripts/generate_avarra_cpp.py
+```
+
+`engine/cpp/tests/avarra_region_content_smoke.cpp` checks the compiled country coverage, services and route endpoints. This package is linked into the native core for data validation, but `runtimeIntegrated` remains false until map coordinates, a runtime loader and a renderer are implemented.

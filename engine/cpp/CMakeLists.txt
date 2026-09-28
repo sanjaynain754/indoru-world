@@ -8,6 +8,7 @@ set(CMAKE_CXX_EXTENSIONS OFF)
 add_library(indoru_engine STATIC
     src/engine.cpp
     src/world_state.cpp
+    src/avarra_region_content.cpp
     src/vehicle.cpp
     src/car_controller.cpp
     src/wheel_collision.cpp
@@ -39,6 +40,11 @@ add_executable(indoru_suspension_car_test tests/suspension_car_controller_smoke.
 target_link_libraries(indoru_suspension_car_test PRIVATE indoru_engine)
 target_compile_options(indoru_suspension_car_test PRIVATE -Wall -Wextra -Wpedantic -Wconversion -Wshadow)
 add_test(NAME suspension_car_controller_smoke COMMAND indoru_suspension_car_test)
+
+add_executable(indoru_avarra_region_content_test tests/avarra_region_content_smoke.cpp)
+target_link_libraries(indoru_avarra_region_content_test PRIVATE indoru_engine)
+target_compile_options(indoru_avarra_region_content_test PRIVATE -Wall -Wextra -Wpedantic -Wconversion -Wshadow)
+add_test(NAME avarra_region_content_smoke COMMAND indoru_avarra_region_content_test)
 
 add_executable(indoru_tire_model_test tests/tire_model_smoke.cpp)
 target_link_libraries(indoru_tire_model_test PRIVATE indoru_engine)
