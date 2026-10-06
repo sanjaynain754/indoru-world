@@ -1,0 +1,506 @@
+{
+  "schemaVersion": 1,
+  "countryId": "country-039",
+  "name": "Velmora",
+  "status": "playable",
+  "completion": "template",
+  "templatePolicy": {
+    "generated": true,
+    "requiresReview": true,
+    "placeholderContentAllowed": true
+  },
+  "terrain": {
+    "asset": "data/country-content/velmora/terrain.json",
+    "mapKey": "country/velmora",
+    "biome": "coastal-island"
+  },
+  "spawn": {
+    "x": 0.0,
+    "y": 1.2,
+    "z": 0.0,
+    "headingRad": 0.0
+  },
+  "settlements": [
+    {
+      "id": "country-039-capital",
+      "name": "Velmora Central",
+      "type": "capital",
+      "populationTier": "large",
+      "x": 0.0,
+      "y": 25.76,
+      "z": 0.0
+    },
+    {
+      "id": "country-039-village-1",
+      "name": "Velmora Village 1",
+      "type": "village",
+      "populationTier": "medium",
+      "x": -56.84,
+      "y": 20.81,
+      "z": -72.4
+    },
+    {
+      "id": "country-039-village-2",
+      "name": "Velmora Village 2",
+      "type": "village",
+      "populationTier": "small",
+      "x": 23.7,
+      "y": 20.75,
+      "z": 73.42
+    },
+    {
+      "id": "country-039-village-3",
+      "name": "Velmora Village 3",
+      "type": "village",
+      "populationTier": "small",
+      "x": -4.38,
+      "y": 22.09,
+      "z": -61.73
+    },
+    {
+      "id": "country-039-village-4",
+      "name": "Velmora Village 4",
+      "type": "village",
+      "populationTier": "medium",
+      "x": 72.17,
+      "y": 15.94,
+      "z": -56.93
+    },
+    {
+      "id": "country-039-village-5",
+      "name": "Velmora Village 5",
+      "type": "village",
+      "populationTier": "small",
+      "x": 93.87,
+      "y": 11.09,
+      "z": -90.83
+    }
+  ],
+  "infrastructure": {
+    "rivers": [
+      {
+        "id": "country-039-river-1",
+        "name": "Velmora River 1",
+        "widthM": 12.3,
+        "points": [
+          {
+            "x": -128.0,
+            "y": 15.14,
+            "z": -48.96
+          },
+          {
+            "x": -86.81,
+            "y": 20.9,
+            "z": -45.26
+          },
+          {
+            "x": -42.75,
+            "y": 22.46,
+            "z": -43.13
+          },
+          {
+            "x": 3.35,
+            "y": 22.82,
+            "z": -42.13
+          },
+          {
+            "x": 45.67,
+            "y": 21.1,
+            "z": -39.05
+          },
+          {
+            "x": 88.09,
+            "y": 13.92,
+            "z": -36.02
+          },
+          {
+            "x": 128.0,
+            "y": 8.98,
+            "z": -31.61
+          }
+        ]
+      }
+    ],
+    "lakes": [
+      {
+        "id": "country-039-lake-1",
+        "name": "Velmora Lake 1",
+        "x": 21.74,
+        "y": 0.43,
+        "z": -24.26,
+        "radiusM": 25.5,
+        "type": "reservoir"
+      }
+    ],
+    "mountains": [
+      {
+        "id": "country-039-mountain-1",
+        "name": "Velmora Highland 1",
+        "x": 48.85,
+        "y": 18.15,
+        "z": 86.01,
+        "heightM": 56.89,
+        "radiusM": 24.7
+      },
+      {
+        "id": "country-039-mountain-2",
+        "name": "Velmora Highland 2",
+        "x": 45.51,
+        "y": 19.52,
+        "z": 50.26,
+        "heightM": 18.96,
+        "radiusM": 15.1
+      }
+    ],
+    "settlements": [
+      {
+        "id": "country-039-capital",
+        "name": "Velmora Central",
+        "type": "capital",
+        "populationTier": "large",
+        "x": 0.0,
+        "y": 25.76,
+        "z": 0.0
+      },
+      {
+        "id": "country-039-village-1",
+        "name": "Velmora Village 1",
+        "type": "village",
+        "populationTier": "medium",
+        "x": -56.84,
+        "y": 20.81,
+        "z": -72.4
+      },
+      {
+        "id": "country-039-village-2",
+        "name": "Velmora Village 2",
+        "type": "village",
+        "populationTier": "small",
+        "x": 23.7,
+        "y": 20.75,
+        "z": 73.42
+      },
+      {
+        "id": "country-039-village-3",
+        "name": "Velmora Village 3",
+        "type": "village",
+        "populationTier": "small",
+        "x": -4.38,
+        "y": 22.09,
+        "z": -61.73
+      },
+      {
+        "id": "country-039-village-4",
+        "name": "Velmora Village 4",
+        "type": "village",
+        "populationTier": "medium",
+        "x": 72.17,
+        "y": 15.94,
+        "z": -56.93
+      },
+      {
+        "id": "country-039-village-5",
+        "name": "Velmora Village 5",
+        "type": "village",
+        "populationTier": "small",
+        "x": 93.87,
+        "y": 11.09,
+        "z": -90.83
+      }
+    ],
+    "roads": [
+      {
+        "id": "country-039-road-1",
+        "class": "highway",
+        "points": [
+          {
+            "x": 0.0,
+            "y": 25.26,
+            "z": 0.0
+          },
+          {
+            "x": -13.46,
+            "y": 24.77,
+            "z": -18.51
+          },
+          {
+            "x": -23.9,
+            "y": 23.9,
+            "z": -38.69
+          },
+          {
+            "x": -45.1,
+            "y": 22.46,
+            "z": -52.94
+          },
+          {
+            "x": -56.84,
+            "y": 20.31,
+            "z": -72.4
+          }
+        ]
+      },
+      {
+        "id": "country-039-road-2",
+        "class": "regional",
+        "points": [
+          {
+            "x": 0.0,
+            "y": 25.26,
+            "z": 0.0
+          },
+          {
+            "x": 6.99,
+            "y": 25.19,
+            "z": 17.77
+          },
+          {
+            "x": 16.23,
+            "y": 23.46,
+            "z": 34.3
+          },
+          {
+            "x": 18.71,
+            "y": 22.46,
+            "z": 54.55
+          },
+          {
+            "x": 23.7,
+            "y": 20.25,
+            "z": 73.42
+          }
+        ]
+      },
+      {
+        "id": "country-039-road-3",
+        "class": "regional",
+        "points": [
+          {
+            "x": 0.0,
+            "y": 25.26,
+            "z": 0.0
+          },
+          {
+            "x": 8.92,
+            "y": 24.29,
+            "z": -20.94
+          },
+          {
+            "x": -13.0,
+            "y": 23.9,
+            "z": -24.92
+          },
+          {
+            "x": 1.76,
+            "y": 22.82,
+            "z": -49.07
+          },
+          {
+            "x": -4.38,
+            "y": 21.59,
+            "z": -61.73
+          }
+        ]
+      },
+      {
+        "id": "country-039-road-4",
+        "class": "regional",
+        "points": [
+          {
+            "x": 0.0,
+            "y": 25.26,
+            "z": 0.0
+          },
+          {
+            "x": 25.46,
+            "y": 23.12,
+            "z": -18.31
+          },
+          {
+            "x": 45.87,
+            "y": 21.1,
+            "z": -33.85
+          },
+          {
+            "x": 56.13,
+            "y": 18.51,
+            "z": -43.8
+          },
+          {
+            "x": 72.17,
+            "y": 15.44,
+            "z": -56.93
+          }
+        ]
+      },
+      {
+        "id": "country-039-road-5",
+        "class": "regional",
+        "points": [
+          {
+            "x": 0.0,
+            "y": 25.26,
+            "z": 0.0
+          },
+          {
+            "x": 20.79,
+            "y": 24.29,
+            "z": -21.23
+          },
+          {
+            "x": 53.13,
+            "y": 20.36,
+            "z": -48.82
+          },
+          {
+            "x": 72.74,
+            "y": 15.44,
+            "z": -69.41
+          },
+          {
+            "x": 93.87,
+            "y": 10.59,
+            "z": -90.83
+          }
+        ]
+      }
+    ],
+    "bridges": [
+      {
+        "id": "country-039-bridge-1",
+        "name": "Velmora Crossing 1",
+        "roadId": "country-039-road-1",
+        "riverId": "country-039-river-1",
+        "x": 3.35,
+        "y": 23.17,
+        "z": -42.13,
+        "lengthM": 24.3
+      }
+    ],
+    "railways": [
+      {
+        "id": "country-039-rail-1",
+        "class": "intercity",
+        "points": [
+          {
+            "x": 0.0,
+            "y": 25.26,
+            "z": 0.0
+          },
+          {
+            "x": 14.2,
+            "y": 24.29,
+            "z": -15.65
+          },
+          {
+            "x": 32.79,
+            "y": 22.64,
+            "z": -33.72
+          },
+          {
+            "x": 61.86,
+            "y": 17.52,
+            "z": -57.54
+          },
+          {
+            "x": 77.66,
+            "y": 14.23,
+            "z": -74.07
+          },
+          {
+            "x": 93.87,
+            "y": 10.59,
+            "z": -90.83
+          }
+        ]
+      }
+    ],
+    "airports": [
+      {
+        "id": "country-039-airport-1",
+        "name": "Velmora International",
+        "size": "regional",
+        "x": -45.32,
+        "y": 23.68,
+        "z": -9.83,
+        "runwayLengthM": 900
+      }
+    ],
+    "ports": [
+      {
+        "id": "country-039-port-1",
+        "name": "Velmora Maritime Port",
+        "x": -106.67,
+        "y": 0.72,
+        "z": 1.86,
+        "capacity": "small"
+      }
+    ],
+    "militaryBases": [
+      {
+        "id": "country-039-base-1",
+        "name": "Velmora Defense Station",
+        "type": "air-ground",
+        "x": -9.63,
+        "y": 25.82,
+        "z": 13.88
+      }
+    ],
+    "metroLines": [
+      {
+        "id": "country-039-metro-1",
+        "status": "planned",
+        "serves": [
+          "country-039-capital",
+          "country-039-village-1",
+          "country-039-village-2"
+        ]
+      }
+    ],
+    "airRoutes": [
+      {
+        "id": "country-039-air-route-1",
+        "status": "regional",
+        "airportId": "country-039-airport-1"
+      }
+    ],
+    "shipLanes": [
+      {
+        "id": "country-039-ship-lane-1",
+        "status": "regional",
+        "portId": "country-039-port-1"
+      }
+    ],
+    "submarineZones": [
+      {
+        "id": "country-039-submarine-zone-1",
+        "status": "charted",
+        "depthM": 150.2
+      }
+    ]
+  },
+  "missions": [
+    {
+      "id": "country-039-intro",
+      "title": "Welcome to Velmora",
+      "status": "template",
+      "placeholder": true
+    },
+    {
+      "id": "country-039-route",
+      "title": "Cross-Region Route",
+      "status": "template",
+      "placeholder": true
+    }
+  ],
+  "systems": {
+    "weatherProfile": "template",
+    "peopleProfile": "people-velmora",
+    "trafficProfile": "template"
+  },
+  "nextSteps": [
+    "replace placeholder settlements",
+    "author terrain landmarks",
+    "author missions and NPC schedules"
+  ]
+}

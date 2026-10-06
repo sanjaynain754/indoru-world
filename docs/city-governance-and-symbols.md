@@ -64,4 +64,4 @@ Player city council services, permits, elections, public hearings, local jobs, p
 
 ## Data files
 
-Machine-readable governance और symbol data `data/city-governance.json` में है। यह data city IDs को country ID, national flag reference, governance model, council size, agencies, local laws और symbol design से जोड़ता है। Coming Soon countries इस file में शामिल नहीं हैं और उनके governance records बाद के expansion में अलग जोड़े जाएँगे।
+Machine-readable governance और symbol data `data/city-governance.json` में है। यह data city IDs को country ID, national flag reference, governance model, council size, agencies, local laws और symbol design से जोड़ता है। सभी playable countries के governance records उनके respective country packages में जोड़े जाएँगे।

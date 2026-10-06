@@ -2,7 +2,7 @@
 
 ## 1. Design goal
 
-Indoru का main map एक fictional island-country होगा, जिसकी पहचान **एक देश, अनेक climates** है। Player को एक connected world मिलेगा जिसमें capital city, normal cities, villages, forests, rainy coast, desert, highlands, lake district और islands एक ही logical geography में जुड़े होंगे। Central global map पर मौजूद दूसरे countries और Coming Soon content इस design का हिस्सा नहीं हैं; यह document केवल playable Indoru country और उसकी capital Navaar पर केंद्रित है।
+Indoru का main map एक fictional island-country होगा, जिसकी पहचान **एक देश, अनेक climates** है। Player को एक connected world मिलेगा जिसमें capital city, normal cities, villages, forests, rainy coast, desert, highlands, lake district और islands एक ही logical geography में जुड़े होंगे। यह document playable Indoru country और उसकी capital Navaar के starter slice पर केंद्रित है; बाकी सभी countries भी इसी release policy के अनुसार playable हैं।
 
 ## 2. Indoru country layout
 
@@ -88,7 +88,7 @@ Player को शुरुआती roles में citizen, driver, shop worker
 
 ## 10. Data and server linkage
 
-हर district, city, village, road और landmark को stable IDs दिए जाएँगे। City और village records अपने parent country `country-001` से जुड़ेंगे और country का flag reference use करेंगे। Settlement IDs केवल map loading और gameplay identity के लिए होंगे; वे अलग country नहीं माने जाएँगे। Coming Soon countries और उनके future settlements इस playable central-map package से अलग रहेंगे।
+हर district, city, village, road और landmark को stable IDs दिए जाएँगे। City और village records अपने parent country `country-001` से जुड़ेंगे और country का flag reference use करेंगे। Settlement IDs केवल map loading और gameplay identity के लिए होंगे; वे अलग country नहीं माने जाएँगे। अन्य playable countries और उनके settlements अलग streamed map packages में जुड़ेंगे।
 
 ## Final design rule
 

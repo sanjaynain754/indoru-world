@@ -1,0 +1,296 @@
+{
+  "schemaVersion": 1,
+  "countryId": "country-015",
+  "mapKey": "country/senvara",
+  "seed": 12224973235899931678,
+  "sourceTerrain": "data/country-content/senvara/terrain.json",
+  "roadNetwork": {
+    "segments": [
+      {
+        "roadId": "country-015-road-1",
+        "class": "arterial",
+        "lanes": 4,
+        "speedLimitKph": 90,
+        "access": {
+          "vehicles": true,
+          "pedestrians": true,
+          "emergency": true
+        },
+        "points": [
+          {
+            "x": 0.0,
+            "y": 2.99,
+            "z": 0.0
+          },
+          {
+            "x": 15.15,
+            "y": 0.73,
+            "z": 14.5
+          },
+          {
+            "x": 41.18,
+            "y": -1.5,
+            "z": 23.02
+          },
+          {
+            "x": 70.26,
+            "y": -1.5,
+            "z": 29.87
+          },
+          {
+            "x": 89.06,
+            "y": -1.5,
+            "z": 42.36
+          }
+        ],
+        "connectedSettlementIds": [
+          "country-015-capital",
+          "country-015-village-1"
+        ]
+      },
+      {
+        "roadId": "country-015-road-2",
+        "class": "collector",
+        "lanes": 2,
+        "speedLimitKph": 55,
+        "access": {
+          "vehicles": true,
+          "pedestrians": true,
+          "emergency": true
+        },
+        "points": [
+          {
+            "x": 0.0,
+            "y": 2.99,
+            "z": 0.0
+          },
+          {
+            "x": -1.74,
+            "y": 2.77,
+            "z": -21.7
+          },
+          {
+            "x": -3.18,
+            "y": 2.61,
+            "z": -43.56
+          },
+          {
+            "x": 4.68,
+            "y": 2.96,
+            "z": -70.54
+          },
+          {
+            "x": 14.86,
+            "y": 2.87,
+            "z": -98.79
+          }
+        ],
+        "connectedSettlementIds": [
+          "country-015-capital",
+          "country-015-village-2"
+        ]
+      }
+    ],
+    "bridges": [
+      {
+        "bridgeId": "country-015-bridge-1",
+        "roadId": "country-015-road-1",
+        "riverId": "country-015-river-1",
+        "lengthM": 27.6,
+        "loadClass": "heavy-vehicle",
+        "supportsTrain": false,
+        "x": 1.27,
+        "y": 2.95,
+        "z": -26.58
+      },
+      {
+        "bridgeId": "country-015-bridge-2",
+        "roadId": "country-015-road-2",
+        "riverId": "country-015-river-2",
+        "lengthM": 18.0,
+        "loadClass": "heavy-vehicle",
+        "supportsTrain": false,
+        "x": -17.48,
+        "y": 5.0,
+        "z": -1.44
+      }
+    ]
+  },
+  "railNetwork": {
+    "lines": [
+      {
+        "lineId": "country-015-rail-1",
+        "mode": "intercity-rail",
+        "electrification": "future-ready",
+        "trackGaugeMm": 1435,
+        "maxSpeedKph": 180,
+        "points": [
+          {
+            "x": 0.0,
+            "y": 2.99,
+            "z": 0.0
+          },
+          {
+            "x": -3.19,
+            "y": 2.77,
+            "z": -16.37
+          },
+          {
+            "x": 8.85,
+            "y": 0.96,
+            "z": -41.11
+          },
+          {
+            "x": 11.4,
+            "y": 1.25,
+            "z": -60.64
+          },
+          {
+            "x": 5.67,
+            "y": 3.76,
+            "z": -75.61
+          },
+          {
+            "x": 14.86,
+            "y": 2.87,
+            "z": -98.79
+          }
+        ]
+      }
+    ],
+    "stations": [
+      {
+        "stationId": "country-015-country-015-capital-station",
+        "settlementId": "country-015-capital",
+        "name": "Senvara Central Central Station",
+        "service": "intercity",
+        "x": 0.0,
+        "y": 3.49,
+        "z": 0.0
+      },
+      {
+        "stationId": "country-015-country-015-village-1-station",
+        "settlementId": "country-015-village-1",
+        "name": "Senvara Village 1 Central Station",
+        "service": "intercity",
+        "x": 89.06,
+        "y": -1.0,
+        "z": 42.36
+      },
+      {
+        "stationId": "country-015-country-015-village-2-station",
+        "settlementId": "country-015-village-2",
+        "name": "Senvara Village 2 Central Station",
+        "service": "intercity",
+        "x": 14.86,
+        "y": 3.37,
+        "z": -98.79
+      }
+    ],
+    "trainService": {
+      "enabled": true,
+      "rollingStockProfile": "regional-electric-template"
+    }
+  },
+  "riverNetwork": {
+    "rivers": [
+      {
+        "riverId": "country-015-river-1",
+        "navigable": true,
+        "widthM": 15.6,
+        "transportMode": "river-freight",
+        "points": [
+          {
+            "x": -128.0,
+            "y": 3.39,
+            "z": 38.77
+          },
+          {
+            "x": -81.18,
+            "y": 6.25,
+            "z": 14.93
+          },
+          {
+            "x": -50.42,
+            "y": 6.04,
+            "z": -0.07
+          },
+          {
+            "x": 1.27,
+            "y": 2.6,
+            "z": -26.58
+          },
+          {
+            "x": 38.06,
+            "y": -1.09,
+            "z": -44.9
+          },
+          {
+            "x": 96.43,
+            "y": -1.5,
+            "z": -75.09
+          },
+          {
+            "x": 128.0,
+            "y": -1.5,
+            "z": -90.53
+          }
+        ]
+      },
+      {
+        "riverId": "country-015-river-2",
+        "navigable": false,
+        "widthM": 6.0,
+        "transportMode": "waterway",
+        "points": [
+          {
+            "x": -53.84,
+            "y": 13.25,
+            "z": -128.0
+          },
+          {
+            "x": -52.33,
+            "y": 8.56,
+            "z": -79.98
+          },
+          {
+            "x": -40.49,
+            "y": 5.49,
+            "z": -37.64
+          },
+          {
+            "x": -17.48,
+            "y": 4.65,
+            "z": -1.44
+          },
+          {
+            "x": -6.38,
+            "y": 4.05,
+            "z": 41.31
+          },
+          {
+            "x": -2.5,
+            "y": 7.92,
+            "z": 88.02
+          },
+          {
+            "x": 13.64,
+            "y": 10.38,
+            "z": 128.0
+          }
+        ]
+      }
+    ],
+    "riverBridges": [
+      "country-015-bridge-1",
+      "country-015-bridge-2"
+    ]
+  },
+  "simulationHooks": {
+    "cityInfrastructure": true,
+    "residentialAccess": true,
+    "trafficSimulation": true,
+    "massTransitSimulation": true,
+    "waterTrafficSimulation": true
+  }
+}

@@ -1,0 +1,394 @@
+{
+  "schemaVersion": 1,
+  "countryId": "country-021",
+  "mapKey": "country/khorava",
+  "seed": 15972824932485683152,
+  "sourceTerrain": "data/country-content/khorava/terrain.json",
+  "roadNetwork": {
+    "segments": [
+      {
+        "roadId": "country-021-road-1",
+        "class": "arterial",
+        "lanes": 4,
+        "speedLimitKph": 90,
+        "access": {
+          "vehicles": true,
+          "pedestrians": true,
+          "emergency": true
+        },
+        "points": [
+          {
+            "x": 0.0,
+            "y": -1.5,
+            "z": 0.0
+          },
+          {
+            "x": -22.34,
+            "y": -1.5,
+            "z": 15.63
+          },
+          {
+            "x": -33.23,
+            "y": -1.5,
+            "z": 24.96
+          },
+          {
+            "x": -58.78,
+            "y": -1.5,
+            "z": 42.34
+          },
+          {
+            "x": -73.61,
+            "y": -1.5,
+            "z": 53.84
+          }
+        ],
+        "connectedSettlementIds": [
+          "country-021-capital",
+          "country-021-village-1"
+        ]
+      },
+      {
+        "roadId": "country-021-road-2",
+        "class": "collector",
+        "lanes": 2,
+        "speedLimitKph": 55,
+        "access": {
+          "vehicles": true,
+          "pedestrians": true,
+          "emergency": true
+        },
+        "points": [
+          {
+            "x": 0.0,
+            "y": -1.5,
+            "z": 0.0
+          },
+          {
+            "x": -27.0,
+            "y": -1.5,
+            "z": -24.06
+          },
+          {
+            "x": -48.27,
+            "y": -1.5,
+            "z": -51.28
+          },
+          {
+            "x": -80.15,
+            "y": -1.5,
+            "z": -72.66
+          },
+          {
+            "x": -100.41,
+            "y": -0.57,
+            "z": -100.43
+          }
+        ],
+        "connectedSettlementIds": [
+          "country-021-capital",
+          "country-021-village-2"
+        ]
+      },
+      {
+        "roadId": "country-021-road-3",
+        "class": "collector",
+        "lanes": 2,
+        "speedLimitKph": 55,
+        "access": {
+          "vehicles": true,
+          "pedestrians": true,
+          "emergency": true
+        },
+        "points": [
+          {
+            "x": 0.0,
+            "y": -1.5,
+            "z": 0.0
+          },
+          {
+            "x": -17.68,
+            "y": -1.5,
+            "z": -3.84
+          },
+          {
+            "x": -32.62,
+            "y": -1.5,
+            "z": -9.18
+          },
+          {
+            "x": -71.95,
+            "y": -1.5,
+            "z": -1.11
+          },
+          {
+            "x": -80.72,
+            "y": -1.5,
+            "z": -9.85
+          }
+        ],
+        "connectedSettlementIds": [
+          "country-021-capital",
+          "country-021-village-3"
+        ]
+      },
+      {
+        "roadId": "country-021-road-4",
+        "class": "collector",
+        "lanes": 2,
+        "speedLimitKph": 55,
+        "access": {
+          "vehicles": true,
+          "pedestrians": true,
+          "emergency": true
+        },
+        "points": [
+          {
+            "x": 0.0,
+            "y": -1.5,
+            "z": 0.0
+          },
+          {
+            "x": -7.42,
+            "y": -1.5,
+            "z": 24.83
+          },
+          {
+            "x": -5.9,
+            "y": -1.5,
+            "z": 44.74
+          },
+          {
+            "x": -19.41,
+            "y": -1.5,
+            "z": 72.92
+          },
+          {
+            "x": -21.3,
+            "y": -1.5,
+            "z": 94.71
+          }
+        ],
+        "connectedSettlementIds": [
+          "country-021-capital",
+          "country-021-village-4"
+        ]
+      },
+      {
+        "roadId": "country-021-road-5",
+        "class": "collector",
+        "lanes": 2,
+        "speedLimitKph": 55,
+        "access": {
+          "vehicles": true,
+          "pedestrians": true,
+          "emergency": true
+        },
+        "points": [
+          {
+            "x": 0.0,
+            "y": -1.5,
+            "z": 0.0
+          },
+          {
+            "x": 20.77,
+            "y": -1.5,
+            "z": -11.95
+          },
+          {
+            "x": 34.4,
+            "y": -1.5,
+            "z": -19.98
+          },
+          {
+            "x": 69.08,
+            "y": -1.5,
+            "z": -39.59
+          },
+          {
+            "x": 79.46,
+            "y": -1.5,
+            "z": -45.83
+          }
+        ],
+        "connectedSettlementIds": [
+          "country-021-capital",
+          "country-021-village-5"
+        ]
+      }
+    ],
+    "bridges": [
+      {
+        "bridgeId": "country-021-bridge-1",
+        "roadId": "country-021-road-1",
+        "riverId": "country-021-river-1",
+        "lengthM": 19.1,
+        "loadClass": "heavy-vehicle",
+        "supportsTrain": false,
+        "x": -4.19,
+        "y": -1.15,
+        "z": 26.8
+      }
+    ]
+  },
+  "railNetwork": {
+    "lines": [
+      {
+        "lineId": "country-021-rail-1",
+        "mode": "intercity-rail",
+        "electrification": "future-ready",
+        "trackGaugeMm": 1435,
+        "maxSpeedKph": 180,
+        "points": [
+          {
+            "x": 0.0,
+            "y": -1.5,
+            "z": 0.0
+          },
+          {
+            "x": 11.45,
+            "y": -1.5,
+            "z": -6.72
+          },
+          {
+            "x": 35.71,
+            "y": -1.5,
+            "z": -20.49
+          },
+          {
+            "x": 49.07,
+            "y": -1.5,
+            "z": -28.27
+          },
+          {
+            "x": 74.53,
+            "y": -1.5,
+            "z": -42.69
+          },
+          {
+            "x": 79.46,
+            "y": -1.5,
+            "z": -45.83
+          }
+        ]
+      }
+    ],
+    "stations": [
+      {
+        "stationId": "country-021-country-021-capital-station",
+        "settlementId": "country-021-capital",
+        "name": "Khorava Central Central Station",
+        "service": "intercity",
+        "x": 0.0,
+        "y": -1.0,
+        "z": 0.0
+      },
+      {
+        "stationId": "country-021-country-021-village-1-station",
+        "settlementId": "country-021-village-1",
+        "name": "Khorava Village 1 Central Station",
+        "service": "intercity",
+        "x": -73.61,
+        "y": -1.0,
+        "z": 53.84
+      },
+      {
+        "stationId": "country-021-country-021-village-2-station",
+        "settlementId": "country-021-village-2",
+        "name": "Khorava Village 2 Central Station",
+        "service": "intercity",
+        "x": -100.41,
+        "y": -0.07,
+        "z": -100.43
+      },
+      {
+        "stationId": "country-021-country-021-village-3-station",
+        "settlementId": "country-021-village-3",
+        "name": "Khorava Village 3 Central Station",
+        "service": "intercity",
+        "x": -80.72,
+        "y": -1.0,
+        "z": -9.85
+      },
+      {
+        "stationId": "country-021-country-021-village-4-station",
+        "settlementId": "country-021-village-4",
+        "name": "Khorava Village 4 Central Station",
+        "service": "intercity",
+        "x": -21.3,
+        "y": -1.0,
+        "z": 94.71
+      },
+      {
+        "stationId": "country-021-country-021-village-5-station",
+        "settlementId": "country-021-village-5",
+        "name": "Khorava Village 5 Central Station",
+        "service": "intercity",
+        "x": 79.46,
+        "y": -1.0,
+        "z": -45.83
+      }
+    ],
+    "trainService": {
+      "enabled": true,
+      "rollingStockProfile": "regional-electric-template"
+    }
+  },
+  "riverNetwork": {
+    "rivers": [
+      {
+        "riverId": "country-021-river-1",
+        "navigable": false,
+        "widthM": 7.1,
+        "transportMode": "waterway",
+        "points": [
+          {
+            "x": -128.0,
+            "y": 2.71,
+            "z": -60.13
+          },
+          {
+            "x": -91.97,
+            "y": -1.5,
+            "z": -28.27
+          },
+          {
+            "x": -35.93,
+            "y": -1.5,
+            "z": -7.42
+          },
+          {
+            "x": -4.19,
+            "y": -1.5,
+            "z": 26.8
+          },
+          {
+            "x": 50.87,
+            "y": -1.5,
+            "z": 48.2
+          },
+          {
+            "x": 87.25,
+            "y": -1.5,
+            "z": 79.87
+          },
+          {
+            "x": 128.0,
+            "y": -1.5,
+            "z": 109.13
+          }
+        ]
+      }
+    ],
+    "riverBridges": [
+      "country-021-bridge-1"
+    ]
+  },
+  "simulationHooks": {
+    "cityInfrastructure": true,
+    "residentialAccess": true,
+    "trafficSimulation": true,
+    "massTransitSimulation": true,
+    "waterTrafficSimulation": false
+  }
+}

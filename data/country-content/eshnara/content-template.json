@@ -1,0 +1,610 @@
+{
+  "schemaVersion": 1,
+  "countryId": "country-104",
+  "name": "Eshnara",
+  "status": "playable",
+  "completion": "template",
+  "templatePolicy": {
+    "generated": true,
+    "requiresReview": true,
+    "placeholderContentAllowed": true
+  },
+  "terrain": {
+    "asset": "data/country-content/eshnara/terrain.json",
+    "mapKey": "country/eshnara",
+    "biome": "volcanic-ashland"
+  },
+  "spawn": {
+    "x": 0.0,
+    "y": 1.2,
+    "z": 0.0,
+    "headingRad": 0.0
+  },
+  "settlements": [
+    {
+      "id": "country-104-capital",
+      "name": "Eshnara Central",
+      "type": "capital",
+      "populationTier": "large",
+      "x": 0.0,
+      "y": -1.0,
+      "z": 0.0
+    },
+    {
+      "id": "country-104-village-1",
+      "name": "Eshnara Village 1",
+      "type": "village",
+      "populationTier": "medium",
+      "x": 25.41,
+      "y": -1.0,
+      "z": -39.13
+    },
+    {
+      "id": "country-104-village-2",
+      "name": "Eshnara Village 2",
+      "type": "village",
+      "populationTier": "small",
+      "x": 49.23,
+      "y": -1.0,
+      "z": 36.46
+    },
+    {
+      "id": "country-104-village-3",
+      "name": "Eshnara Village 3",
+      "type": "village",
+      "populationTier": "small",
+      "x": -99.35,
+      "y": -1.0,
+      "z": -33.35
+    },
+    {
+      "id": "country-104-village-4",
+      "name": "Eshnara Village 4",
+      "type": "village",
+      "populationTier": "medium",
+      "x": -30.32,
+      "y": -1.0,
+      "z": 13.6
+    },
+    {
+      "id": "country-104-village-5",
+      "name": "Eshnara Village 5",
+      "type": "village",
+      "populationTier": "small",
+      "x": 5.02,
+      "y": -1.0,
+      "z": -33.5
+    }
+  ],
+  "infrastructure": {
+    "rivers": [
+      {
+        "id": "country-104-river-1",
+        "name": "Eshnara River 1",
+        "widthM": 20.5,
+        "points": [
+          {
+            "x": -128.0,
+            "y": -1.5,
+            "z": -16.98
+          },
+          {
+            "x": -95.21,
+            "y": -1.5,
+            "z": 4.65
+          },
+          {
+            "x": -41.25,
+            "y": -1.5,
+            "z": 14.64
+          },
+          {
+            "x": -6.62,
+            "y": -1.5,
+            "z": 35.26
+          },
+          {
+            "x": 40.85,
+            "y": -1.5,
+            "z": 48.82
+          },
+          {
+            "x": 79.25,
+            "y": -1.5,
+            "z": 67.37
+          },
+          {
+            "x": 128.0,
+            "y": -1.5,
+            "z": 80.22
+          }
+        ]
+      },
+      {
+        "id": "country-104-river-2",
+        "name": "Eshnara River 2",
+        "widthM": 8.3,
+        "points": [
+          {
+            "x": -23.58,
+            "y": -1.5,
+            "z": -128.0
+          },
+          {
+            "x": -0.2,
+            "y": -1.5,
+            "z": -84.91
+          },
+          {
+            "x": 14.88,
+            "y": -1.5,
+            "z": -37.25
+          },
+          {
+            "x": 52.93,
+            "y": -1.5,
+            "z": -2.23
+          },
+          {
+            "x": 68.83,
+            "y": -1.5,
+            "z": 44.97
+          },
+          {
+            "x": 100.46,
+            "y": -1.5,
+            "z": 83.53
+          },
+          {
+            "x": 121.33,
+            "y": -1.5,
+            "z": 128.0
+          }
+        ]
+      },
+      {
+        "id": "country-104-river-3",
+        "name": "Eshnara River 3",
+        "widthM": 15.0,
+        "points": [
+          {
+            "x": -128.0,
+            "y": -1.5,
+            "z": -9.5
+          },
+          {
+            "x": -85.77,
+            "y": -1.5,
+            "z": -16.46
+          },
+          {
+            "x": -46.16,
+            "y": -1.5,
+            "z": -21.98
+          },
+          {
+            "x": -3.23,
+            "y": -1.5,
+            "z": -29.33
+          },
+          {
+            "x": 50.99,
+            "y": -0.87,
+            "z": -42.89
+          },
+          {
+            "x": 75.45,
+            "y": 5.63,
+            "z": -40.08
+          },
+          {
+            "x": 128.0,
+            "y": 18.18,
+            "z": -52.72
+          }
+        ]
+      }
+    ],
+    "lakes": [
+      {
+        "id": "country-104-lake-1",
+        "name": "Eshnara Lake 1",
+        "x": -25.79,
+        "y": 0.41,
+        "z": 50.71,
+        "radiusM": 15.6,
+        "type": "reservoir"
+      },
+      {
+        "id": "country-104-lake-2",
+        "name": "Eshnara Lake 2",
+        "x": -29.3,
+        "y": 0.41,
+        "z": -48.48,
+        "radiusM": 25.5,
+        "type": "natural"
+      },
+      {
+        "id": "country-104-lake-3",
+        "name": "Eshnara Lake 3",
+        "x": -38.89,
+        "y": 0.41,
+        "z": 49.34,
+        "radiusM": 16.9,
+        "type": "natural"
+      }
+    ],
+    "mountains": [
+      {
+        "id": "country-104-mountain-1",
+        "name": "Eshnara Highland 1",
+        "x": 53.17,
+        "y": 0.4,
+        "z": 51.16,
+        "heightM": 27.1,
+        "radiusM": 16.2
+      }
+    ],
+    "settlements": [
+      {
+        "id": "country-104-capital",
+        "name": "Eshnara Central",
+        "type": "capital",
+        "populationTier": "large",
+        "x": 0.0,
+        "y": -1.0,
+        "z": 0.0
+      },
+      {
+        "id": "country-104-village-1",
+        "name": "Eshnara Village 1",
+        "type": "village",
+        "populationTier": "medium",
+        "x": 25.41,
+        "y": -1.0,
+        "z": -39.13
+      },
+      {
+        "id": "country-104-village-2",
+        "name": "Eshnara Village 2",
+        "type": "village",
+        "populationTier": "small",
+        "x": 49.23,
+        "y": -1.0,
+        "z": 36.46
+      },
+      {
+        "id": "country-104-village-3",
+        "name": "Eshnara Village 3",
+        "type": "village",
+        "populationTier": "small",
+        "x": -99.35,
+        "y": -1.0,
+        "z": -33.35
+      },
+      {
+        "id": "country-104-village-4",
+        "name": "Eshnara Village 4",
+        "type": "village",
+        "populationTier": "medium",
+        "x": -30.32,
+        "y": -1.0,
+        "z": 13.6
+      },
+      {
+        "id": "country-104-village-5",
+        "name": "Eshnara Village 5",
+        "type": "village",
+        "populationTier": "small",
+        "x": 5.02,
+        "y": -1.0,
+        "z": -33.5
+      }
+    ],
+    "roads": [
+      {
+        "id": "country-104-road-1",
+        "class": "highway",
+        "points": [
+          {
+            "x": 0.0,
+            "y": -1.5,
+            "z": 0.0
+          },
+          {
+            "x": 17.6,
+            "y": -1.5,
+            "z": -15.97
+          },
+          {
+            "x": 20.47,
+            "y": -1.5,
+            "z": -23.84
+          },
+          {
+            "x": 14.58,
+            "y": -1.5,
+            "z": -26.88
+          },
+          {
+            "x": 25.41,
+            "y": -1.5,
+            "z": -39.13
+          }
+        ]
+      },
+      {
+        "id": "country-104-road-2",
+        "class": "regional",
+        "points": [
+          {
+            "x": 0.0,
+            "y": -1.5,
+            "z": 0.0
+          },
+          {
+            "x": 17.17,
+            "y": -1.5,
+            "z": 6.44
+          },
+          {
+            "x": 25.4,
+            "y": -1.5,
+            "z": 17.8
+          },
+          {
+            "x": 46.59,
+            "y": -1.5,
+            "z": 22.03
+          },
+          {
+            "x": 49.23,
+            "y": -1.5,
+            "z": 36.46
+          }
+        ]
+      },
+      {
+        "id": "country-104-road-3",
+        "class": "regional",
+        "points": [
+          {
+            "x": 0.0,
+            "y": -1.5,
+            "z": 0.0
+          },
+          {
+            "x": -32.35,
+            "y": -1.5,
+            "z": -4.21
+          },
+          {
+            "x": -38.49,
+            "y": -1.5,
+            "z": -22.83
+          },
+          {
+            "x": -74.8,
+            "y": -1.5,
+            "z": -24.85
+          },
+          {
+            "x": -99.35,
+            "y": -1.5,
+            "z": -33.35
+          }
+        ]
+      },
+      {
+        "id": "country-104-road-4",
+        "class": "regional",
+        "points": [
+          {
+            "x": 0.0,
+            "y": -1.5,
+            "z": 0.0
+          },
+          {
+            "x": -11.72,
+            "y": -1.5,
+            "z": 5.68
+          },
+          {
+            "x": -5.56,
+            "y": -1.5,
+            "z": 1.52
+          },
+          {
+            "x": -15.99,
+            "y": -1.5,
+            "z": 6.49
+          },
+          {
+            "x": -30.32,
+            "y": -1.5,
+            "z": 13.6
+          }
+        ]
+      },
+      {
+        "id": "country-104-road-5",
+        "class": "regional",
+        "points": [
+          {
+            "x": 0.0,
+            "y": -1.5,
+            "z": 0.0
+          },
+          {
+            "x": 10.33,
+            "y": -1.5,
+            "z": -13.37
+          },
+          {
+            "x": -6.25,
+            "y": -1.5,
+            "z": -11.93
+          },
+          {
+            "x": 9.96,
+            "y": -1.5,
+            "z": -28.53
+          },
+          {
+            "x": 5.02,
+            "y": -1.5,
+            "z": -33.5
+          }
+        ]
+      }
+    ],
+    "bridges": [
+      {
+        "id": "country-104-bridge-1",
+        "name": "Eshnara Crossing 1",
+        "roadId": "country-104-road-1",
+        "riverId": "country-104-river-1",
+        "x": -6.62,
+        "y": -1.15,
+        "z": 35.26,
+        "lengthM": 32.5
+      },
+      {
+        "id": "country-104-bridge-2",
+        "name": "Eshnara Crossing 2",
+        "roadId": "country-104-road-2",
+        "riverId": "country-104-river-2",
+        "x": 52.93,
+        "y": -1.15,
+        "z": -2.23,
+        "lengthM": 20.3
+      },
+      {
+        "id": "country-104-bridge-3",
+        "name": "Eshnara Crossing 3",
+        "roadId": "country-104-road-3",
+        "riverId": "country-104-river-3",
+        "x": -3.23,
+        "y": -1.15,
+        "z": -29.33,
+        "lengthM": 27.0
+      }
+    ],
+    "railways": [
+      {
+        "id": "country-104-rail-1",
+        "class": "intercity",
+        "points": [
+          {
+            "x": 0.0,
+            "y": -1.5,
+            "z": 0.0
+          },
+          {
+            "x": -7.14,
+            "y": -1.5,
+            "z": -2.22
+          },
+          {
+            "x": 6.25,
+            "y": -1.5,
+            "z": -15.73
+          },
+          {
+            "x": -3.2,
+            "y": -1.5,
+            "z": -16.68
+          },
+          {
+            "x": 13.27,
+            "y": -1.5,
+            "z": -31.89
+          },
+          {
+            "x": 5.02,
+            "y": -1.5,
+            "z": -33.5
+          }
+        ]
+      }
+    ],
+    "airports": [
+      {
+        "id": "country-104-airport-1",
+        "name": "Eshnara International",
+        "size": "large",
+        "x": -19.19,
+        "y": -1.3,
+        "z": -10.87,
+        "runwayLengthM": 900
+      }
+    ],
+    "ports": [],
+    "militaryBases": [
+      {
+        "id": "country-104-base-1",
+        "name": "Eshnara Defense Station",
+        "type": "air-ground",
+        "x": 44.28,
+        "y": 5.03,
+        "z": -74.02
+      }
+    ],
+    "metroLines": [
+      {
+        "id": "country-104-metro-1",
+        "status": "planned",
+        "serves": [
+          "country-104-capital",
+          "country-104-village-1",
+          "country-104-village-2"
+        ]
+      }
+    ],
+    "airRoutes": [
+      {
+        "id": "country-104-air-route-1",
+        "status": "regional",
+        "airportId": "country-104-airport-1"
+      }
+    ],
+    "shipLanes": [
+      {
+        "id": "country-104-ship-lane-1",
+        "status": "regional",
+        "portId": null
+      }
+    ],
+    "submarineZones": [
+      {
+        "id": "country-104-submarine-zone-1",
+        "status": "charted",
+        "depthM": 49.0
+      }
+    ]
+  },
+  "missions": [
+    {
+      "id": "country-104-intro",
+      "title": "Welcome to Eshnara",
+      "status": "template",
+      "placeholder": true
+    },
+    {
+      "id": "country-104-route",
+      "title": "Cross-Region Route",
+      "status": "template",
+      "placeholder": true
+    }
+  ],
+  "systems": {
+    "weatherProfile": "template",
+    "peopleProfile": "people-eshnara",
+    "trafficProfile": "template"
+  },
+  "nextSteps": [
+    "replace placeholder settlements",
+    "author terrain landmarks",
+    "author missions and NPC schedules"
+  ]
+}

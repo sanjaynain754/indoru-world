@@ -1,0 +1,508 @@
+{
+  "schemaVersion": 1,
+  "countryId": "country-051",
+  "name": "Vardessa",
+  "status": "playable",
+  "completion": "template",
+  "templatePolicy": {
+    "generated": true,
+    "requiresReview": true,
+    "placeholderContentAllowed": true
+  },
+  "terrain": {
+    "asset": "data/country-content/vardessa/terrain.json",
+    "mapKey": "country/vardessa",
+    "biome": "coastal-island"
+  },
+  "spawn": {
+    "x": 0.0,
+    "y": 1.2,
+    "z": 0.0,
+    "headingRad": 0.0
+  },
+  "settlements": [
+    {
+      "id": "country-051-capital",
+      "name": "Vardessa Central",
+      "type": "capital",
+      "populationTier": "large",
+      "x": 0.0,
+      "y": 5.05,
+      "z": 0.0
+    },
+    {
+      "id": "country-051-village-1",
+      "name": "Vardessa Village 1",
+      "type": "village",
+      "populationTier": "medium",
+      "x": -13.6,
+      "y": 4.61,
+      "z": -27.01
+    },
+    {
+      "id": "country-051-village-2",
+      "name": "Vardessa Village 2",
+      "type": "village",
+      "populationTier": "small",
+      "x": -62.51,
+      "y": 15.09,
+      "z": 17.69
+    },
+    {
+      "id": "country-051-village-3",
+      "name": "Vardessa Village 3",
+      "type": "village",
+      "populationTier": "small",
+      "x": 56.26,
+      "y": 2.53,
+      "z": 57.9
+    },
+    {
+      "id": "country-051-village-4",
+      "name": "Vardessa Village 4",
+      "type": "village",
+      "populationTier": "medium",
+      "x": 8.51,
+      "y": 3.46,
+      "z": 21.59
+    }
+  ],
+  "infrastructure": {
+    "rivers": [
+      {
+        "id": "country-051-river-1",
+        "name": "Vardessa River 1",
+        "widthM": 14.3,
+        "points": [
+          {
+            "x": -128.0,
+            "y": 19.29,
+            "z": -8.47
+          },
+          {
+            "x": -83.84,
+            "y": 12.06,
+            "z": -24.0
+          },
+          {
+            "x": -46.63,
+            "y": 7.88,
+            "z": -35.71
+          },
+          {
+            "x": -5.28,
+            "y": 0.51,
+            "z": -49.7
+          },
+          {
+            "x": 50.7,
+            "y": -1.5,
+            "z": -71.73
+          },
+          {
+            "x": 76.68,
+            "y": -1.5,
+            "z": -77.26
+          },
+          {
+            "x": 128.0,
+            "y": -1.5,
+            "z": -96.73
+          }
+        ]
+      },
+      {
+        "id": "country-051-river-2",
+        "name": "Vardessa River 2",
+        "widthM": 9.1,
+        "points": [
+          {
+            "x": -7.59,
+            "y": -1.5,
+            "z": -128.0
+          },
+          {
+            "x": -10.33,
+            "y": -1.5,
+            "z": -89.03
+          },
+          {
+            "x": -23.91,
+            "y": 2.22,
+            "z": -44.1
+          },
+          {
+            "x": -42.96,
+            "y": 11.27,
+            "z": 3.84
+          },
+          {
+            "x": -53.66,
+            "y": 13.52,
+            "z": 47.18
+          },
+          {
+            "x": -57.35,
+            "y": 15.69,
+            "z": 86.67
+          },
+          {
+            "x": -64.38,
+            "y": 13.48,
+            "z": 128.0
+          }
+        ]
+      }
+    ],
+    "lakes": [
+      {
+        "id": "country-051-lake-1",
+        "name": "Vardessa Lake 1",
+        "x": 66.78,
+        "y": 0.43,
+        "z": -46.71,
+        "radiusM": 12.5,
+        "type": "natural"
+      },
+      {
+        "id": "country-051-lake-2",
+        "name": "Vardessa Lake 2",
+        "x": -10.62,
+        "y": 0.43,
+        "z": 67.31,
+        "radiusM": 18.8,
+        "type": "natural"
+      }
+    ],
+    "mountains": [
+      {
+        "id": "country-051-mountain-1",
+        "name": "Vardessa Highland 1",
+        "x": 34.43,
+        "y": 2.83,
+        "z": 40.72,
+        "heightM": 36.29,
+        "radiusM": 35.8
+      },
+      {
+        "id": "country-051-mountain-2",
+        "name": "Vardessa Highland 2",
+        "x": -17.99,
+        "y": 2.22,
+        "z": -45.62,
+        "heightM": 53.5,
+        "radiusM": 38.1
+      }
+    ],
+    "settlements": [
+      {
+        "id": "country-051-capital",
+        "name": "Vardessa Central",
+        "type": "capital",
+        "populationTier": "large",
+        "x": 0.0,
+        "y": 5.05,
+        "z": 0.0
+      },
+      {
+        "id": "country-051-village-1",
+        "name": "Vardessa Village 1",
+        "type": "village",
+        "populationTier": "medium",
+        "x": -13.6,
+        "y": 4.61,
+        "z": -27.01
+      },
+      {
+        "id": "country-051-village-2",
+        "name": "Vardessa Village 2",
+        "type": "village",
+        "populationTier": "small",
+        "x": -62.51,
+        "y": 15.09,
+        "z": 17.69
+      },
+      {
+        "id": "country-051-village-3",
+        "name": "Vardessa Village 3",
+        "type": "village",
+        "populationTier": "small",
+        "x": 56.26,
+        "y": 2.53,
+        "z": 57.9
+      },
+      {
+        "id": "country-051-village-4",
+        "name": "Vardessa Village 4",
+        "type": "village",
+        "populationTier": "medium",
+        "x": 8.51,
+        "y": 3.46,
+        "z": 21.59
+      }
+    ],
+    "roads": [
+      {
+        "id": "country-051-road-1",
+        "class": "highway",
+        "points": [
+          {
+            "x": 0.0,
+            "y": 4.55,
+            "z": 0.0
+          },
+          {
+            "x": 3.45,
+            "y": 3.58,
+            "z": -10.52
+          },
+          {
+            "x": -8.64,
+            "y": 5.7,
+            "z": -12.49
+          },
+          {
+            "x": -13.59,
+            "y": 5.7,
+            "z": -18.39
+          },
+          {
+            "x": -13.6,
+            "y": 4.11,
+            "z": -27.01
+          }
+        ]
+      },
+      {
+        "id": "country-051-road-2",
+        "class": "regional",
+        "points": [
+          {
+            "x": 0.0,
+            "y": 4.55,
+            "z": 0.0
+          },
+          {
+            "x": -7.49,
+            "y": 4.55,
+            "z": -0.06
+          },
+          {
+            "x": -42.35,
+            "y": 12.49,
+            "z": 14.95
+          },
+          {
+            "x": -35.57,
+            "y": 9.16,
+            "z": 7.04
+          },
+          {
+            "x": -62.51,
+            "y": 14.59,
+            "z": 17.69
+          }
+        ]
+      },
+      {
+        "id": "country-051-road-3",
+        "class": "regional",
+        "points": [
+          {
+            "x": 0.0,
+            "y": 4.55,
+            "z": 0.0
+          },
+          {
+            "x": 3.57,
+            "y": 5.18,
+            "z": 20.25
+          },
+          {
+            "x": 22.61,
+            "y": 3.55,
+            "z": 31.98
+          },
+          {
+            "x": 34.1,
+            "y": 2.83,
+            "z": 47.88
+          },
+          {
+            "x": 56.26,
+            "y": 2.03,
+            "z": 57.9
+          }
+        ]
+      },
+      {
+        "id": "country-051-road-4",
+        "class": "regional",
+        "points": [
+          {
+            "x": 0.0,
+            "y": 4.55,
+            "z": 0.0
+          },
+          {
+            "x": 11.84,
+            "y": 2.3,
+            "z": 0.05
+          },
+          {
+            "x": 12.64,
+            "y": 2.3,
+            "z": 6.18
+          },
+          {
+            "x": 14.79,
+            "y": 2.96,
+            "z": 11.57
+          },
+          {
+            "x": 8.51,
+            "y": 2.96,
+            "z": 21.59
+          }
+        ]
+      }
+    ],
+    "bridges": [
+      {
+        "id": "country-051-bridge-1",
+        "name": "Vardessa Crossing 1",
+        "roadId": "country-051-road-1",
+        "riverId": "country-051-river-1",
+        "x": -5.28,
+        "y": 0.86,
+        "z": -49.7,
+        "lengthM": 26.3
+      },
+      {
+        "id": "country-051-bridge-2",
+        "name": "Vardessa Crossing 2",
+        "roadId": "country-051-road-2",
+        "riverId": "country-051-river-2",
+        "x": -42.96,
+        "y": 11.62,
+        "z": 3.84,
+        "lengthM": 21.1
+      }
+    ],
+    "railways": [
+      {
+        "id": "country-051-rail-1",
+        "class": "intercity",
+        "points": [
+          {
+            "x": 0.0,
+            "y": 4.55,
+            "z": 0.0
+          },
+          {
+            "x": -2.22,
+            "y": 4.55,
+            "z": 6.47
+          },
+          {
+            "x": 11.97,
+            "y": 2.3,
+            "z": 3.93
+          },
+          {
+            "x": 9.23,
+            "y": 2.96,
+            "z": 10.69
+          },
+          {
+            "x": 12.32,
+            "y": 2.96,
+            "z": 14.24
+          },
+          {
+            "x": 8.51,
+            "y": 2.96,
+            "z": 21.59
+          }
+        ]
+      }
+    ],
+    "airports": [],
+    "ports": [
+      {
+        "id": "country-051-port-1",
+        "name": "Vardessa Maritime Port",
+        "x": -63.04,
+        "y": 0.72,
+        "z": -41.08,
+        "capacity": "small"
+      }
+    ],
+    "militaryBases": [
+      {
+        "id": "country-051-base-1",
+        "name": "Vardessa Defense Station",
+        "type": "ground",
+        "x": -37.81,
+        "y": 2.48,
+        "z": -64.08
+      }
+    ],
+    "metroLines": [
+      {
+        "id": "country-051-metro-1",
+        "status": "planned",
+        "serves": [
+          "country-051-capital",
+          "country-051-village-1",
+          "country-051-village-2"
+        ]
+      }
+    ],
+    "airRoutes": [
+      {
+        "id": "country-051-air-route-1",
+        "status": "regional",
+        "airportId": null
+      }
+    ],
+    "shipLanes": [
+      {
+        "id": "country-051-ship-lane-1",
+        "status": "regional",
+        "portId": "country-051-port-1"
+      }
+    ],
+    "submarineZones": [
+      {
+        "id": "country-051-submarine-zone-1",
+        "status": "charted",
+        "depthM": 122.2
+      }
+    ]
+  },
+  "missions": [
+    {
+      "id": "country-051-intro",
+      "title": "Welcome to Vardessa",
+      "status": "template",
+      "placeholder": true
+    },
+    {
+      "id": "country-051-route",
+      "title": "Cross-Region Route",
+      "status": "template",
+      "placeholder": true
+    }
+  ],
+  "systems": {
+    "weatherProfile": "template",
+    "peopleProfile": "people-vardessa",
+    "trafficProfile": "template"
+  },
+  "nextSteps": [
+    "replace placeholder settlements",
+    "author terrain landmarks",
+    "author missions and NPC schedules"
+  ]
+}

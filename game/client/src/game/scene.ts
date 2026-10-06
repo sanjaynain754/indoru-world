@@ -10,9 +10,14 @@ import { Color3, Color4 } from "@babylonjs/core/Maths/math.color";
 import { Vector3 } from "@babylonjs/core/Maths/math.vector";
 import { MeshBuilder } from "@babylonjs/core/Meshes/meshBuilder";
 import type { AbstractMesh } from "@babylonjs/core/Meshes/abstractMesh";
+import { DefaultRenderingPipeline } from "@babylonjs/core/PostProcesses/RenderPipeline/Pipelines/defaultRenderingPipeline";
+import type { Material } from "@babylonjs/core/Materials/material";
 import { InputManager } from "./input/InputManager";
 import { GameWorld } from "./world/GameWorld";
 import { HudController } from "./ui/HudController";
+import { CountryTerrain } from "./world/CountryTerrain";
+import { AdvancedWaterMaterial, registerAdvancedWaterShader } from "./rendering/AdvancedWaterMaterial";
+import { pbrMaterial } from "./rendering/PbrMaterials";
 
 const SKYLINE_URL = import.meta.env.VITE_SKYLINE_URL ?? `${import.meta.env.BASE_URL}assets/navaar-skyline.png`;
 
@@ -26,7 +31,7 @@ function material(scene: Scene, name: string, color: string, emissive = "#000000
   return result;
 }
 
-function box(scene: Scene, name: string, size: { width: number; height: number; depth: number }, position: Vector3, mat: StandardMaterial): AbstractMesh {
+function box(scene: Scene, name: string, size: { width: number; height: number; depth: number }, position: Vector3, mat: Material): AbstractMesh {
   const mesh = MeshBuilder.CreateBox(name, size, scene);
   mesh.position.copyFrom(position);
   mesh.material = mat;
@@ -37,13 +42,14 @@ function buildDistrict(scene: Scene): void {
   const asphalt = material(scene, "asphalt", "#172735");
   const roadMark = material(scene, "road-mark", "#D6B665", "#6B5B2B");
   const sidewalk = material(scene, "sidewalk", "#314451");
-  const water = material(scene, "river", "#0B5261", "#06313C");
+  registerAdvancedWaterShader();
+  const water = new AdvancedWaterMaterial(scene, "navaar-river-water");
   const sandstone = material(scene, "sandstone", "#7B675B");
   const glass = material(scene, "glass", "#2A7B85", "#103A4A");
   const amber = material(scene, "windows", "#E9B949", "#9F6B18");
   const rail = material(scene, "rail", "#536C79");
   const ground = MeshBuilder.CreateGround("district-ground", { width: 120, height: 120 }, scene);
-  ground.material = material(scene, "ground", "#0D1C26");
+  ground.material = pbrMaterial(scene, "navaar-ground-pbr", "#243e43", { roughness: 0.92, metallic: 0.01, environmentIntensity: 0.8 });
   box(scene, "river", { width: 120, height: 0.08, depth: 11 }, new Vector3(0, 0.02, -50), water);
   for (const z of [-21, 0, 21]) {
     box(scene, `road-h-${z}`, { width: 100, height: 0.12, depth: 9.5 }, new Vector3(0, 0.06, z), asphalt);
@@ -120,13 +126,30 @@ export async function createGameScene(engine: Engine, canvas: HTMLCanvasElement)
   camera.maxZ = 300;
   camera.attachControl(canvas, false);
   camera.inputs.clear();
+  const pipeline = new DefaultRenderingPipeline("indoru-hdr-pipeline", true, scene, [camera]);
+  pipeline.fxaaEnabled = true;
+  pipeline.samples = 4;
+  pipeline.bloomEnabled = true;
+  pipeline.bloomThreshold = 0.78;
+  pipeline.bloomWeight = 0.16;
+  pipeline.bloomKernel = 64;
+  pipeline.imageProcessingEnabled = true;
+  pipeline.imageProcessing.contrast = 1.18;
+  pipeline.imageProcessing.exposure = 1.08;
+  pipeline.imageProcessing.vignetteEnabled = true;
+  pipeline.imageProcessing.vignetteWeight = 1.25;
+  pipeline.imageProcessing.vignetteStretch = 0.35;
+  pipeline.imageProcessing.vignetteColor = new Color4(0.027, 0.075, 0.114, 1);
   const input = new InputManager();
   const world = new GameWorld(scene, input);
   scene.meshes.forEach((mesh) => {
     mesh.receiveShadows = true;
     if (mesh.name !== "district-ground" && mesh.name !== "skyline-backdrop") shadows.addShadowCaster(mesh, true);
   });
-  const hud = new HudController();
+  const countryTerrain = new CountryTerrain(scene);
+  const hud = new HudController(async (country) => {
+    await countryTerrain.load(country);
+  });
   const demo = new URLSearchParams(window.location.search).has("demo");
   let cameraPosition = camera.position.clone();
   const observer = scene.onBeforeRenderObservable.add(() => {
@@ -144,6 +167,7 @@ export async function createGameScene(engine: Engine, canvas: HTMLCanvasElement)
     dispose: () => {
       scene.onBeforeRenderObservable.remove(observer);
       hud.dispose();
+      countryTerrain.dispose();
       input.dispose();
       world.dispose();
       scene.dispose();

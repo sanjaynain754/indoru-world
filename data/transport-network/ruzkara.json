@@ -1,0 +1,347 @@
+{
+  "schemaVersion": 1,
+  "countryId": "country-099",
+  "mapKey": "country/ruzkara",
+  "seed": 10757227270934204209,
+  "sourceTerrain": "data/country-content/ruzkara/terrain.json",
+  "roadNetwork": {
+    "segments": [
+      {
+        "roadId": "country-099-road-1",
+        "class": "arterial",
+        "lanes": 4,
+        "speedLimitKph": 90,
+        "access": {
+          "vehicles": true,
+          "pedestrians": true,
+          "emergency": true
+        },
+        "points": [
+          {
+            "x": 0.0,
+            "y": -1.5,
+            "z": 0.0
+          },
+          {
+            "x": 8.43,
+            "y": -1.5,
+            "z": 8.97
+          },
+          {
+            "x": 20.04,
+            "y": -1.5,
+            "z": 16.18
+          },
+          {
+            "x": 50.17,
+            "y": -1.5,
+            "z": 13.21
+          },
+          {
+            "x": 62.87,
+            "y": -1.5,
+            "z": 19.83
+          }
+        ],
+        "connectedSettlementIds": [
+          "country-099-capital",
+          "country-099-village-1"
+        ]
+      },
+      {
+        "roadId": "country-099-road-2",
+        "class": "collector",
+        "lanes": 2,
+        "speedLimitKph": 55,
+        "access": {
+          "vehicles": true,
+          "pedestrians": true,
+          "emergency": true
+        },
+        "points": [
+          {
+            "x": 0.0,
+            "y": -1.5,
+            "z": 0.0
+          },
+          {
+            "x": -21.13,
+            "y": -1.5,
+            "z": 31.49
+          },
+          {
+            "x": -7.33,
+            "y": -1.5,
+            "z": 43.76
+          },
+          {
+            "x": -28.2,
+            "y": -1.5,
+            "z": 75.11
+          },
+          {
+            "x": -37.54,
+            "y": -1.5,
+            "z": 100.11
+          }
+        ],
+        "connectedSettlementIds": [
+          "country-099-capital",
+          "country-099-village-2"
+        ]
+      },
+      {
+        "roadId": "country-099-road-3",
+        "class": "collector",
+        "lanes": 2,
+        "speedLimitKph": 55,
+        "access": {
+          "vehicles": true,
+          "pedestrians": true,
+          "emergency": true
+        },
+        "points": [
+          {
+            "x": 0.0,
+            "y": -1.5,
+            "z": 0.0
+          },
+          {
+            "x": -4.8,
+            "y": -1.5,
+            "z": -16.56
+          },
+          {
+            "x": -28.63,
+            "y": -1.5,
+            "z": -22.65
+          },
+          {
+            "x": -52.11,
+            "y": -1.5,
+            "z": -28.94
+          },
+          {
+            "x": -58.48,
+            "y": -1.5,
+            "z": -44.64
+          }
+        ],
+        "connectedSettlementIds": [
+          "country-099-capital",
+          "country-099-village-3"
+        ]
+      }
+    ],
+    "bridges": [
+      {
+        "bridgeId": "country-099-bridge-1",
+        "roadId": "country-099-road-1",
+        "riverId": "country-099-river-1",
+        "lengthM": 27.4,
+        "loadClass": "heavy-vehicle",
+        "supportsTrain": false,
+        "x": 3.6,
+        "y": -1.15,
+        "z": -92.63
+      },
+      {
+        "bridgeId": "country-099-bridge-2",
+        "roadId": "country-099-road-2",
+        "riverId": "country-099-river-2",
+        "lengthM": 17.8,
+        "loadClass": "heavy-vehicle",
+        "supportsTrain": false,
+        "x": 64.87,
+        "y": -1.15,
+        "z": -0.74
+      }
+    ]
+  },
+  "railNetwork": {
+    "lines": [
+      {
+        "lineId": "country-099-rail-1",
+        "mode": "intercity-rail",
+        "electrification": "future-ready",
+        "trackGaugeMm": 1435,
+        "maxSpeedKph": 180,
+        "points": [
+          {
+            "x": 0.0,
+            "y": -1.5,
+            "z": 0.0
+          },
+          {
+            "x": -18.95,
+            "y": -1.5,
+            "z": -4.94
+          },
+          {
+            "x": -15.4,
+            "y": -1.5,
+            "z": -22.25
+          },
+          {
+            "x": -28.05,
+            "y": -1.5,
+            "z": -30.65
+          },
+          {
+            "x": -45.54,
+            "y": -1.5,
+            "z": -36.39
+          },
+          {
+            "x": -58.48,
+            "y": -1.5,
+            "z": -44.64
+          }
+        ]
+      }
+    ],
+    "stations": [
+      {
+        "stationId": "country-099-country-099-capital-station",
+        "settlementId": "country-099-capital",
+        "name": "Ruzkara Central Central Station",
+        "service": "intercity",
+        "x": 0.0,
+        "y": -1.0,
+        "z": 0.0
+      },
+      {
+        "stationId": "country-099-country-099-village-1-station",
+        "settlementId": "country-099-village-1",
+        "name": "Ruzkara Village 1 Central Station",
+        "service": "intercity",
+        "x": 62.87,
+        "y": -1.0,
+        "z": 19.83
+      },
+      {
+        "stationId": "country-099-country-099-village-2-station",
+        "settlementId": "country-099-village-2",
+        "name": "Ruzkara Village 2 Central Station",
+        "service": "intercity",
+        "x": -37.54,
+        "y": -1.0,
+        "z": 100.11
+      },
+      {
+        "stationId": "country-099-country-099-village-3-station",
+        "settlementId": "country-099-village-3",
+        "name": "Ruzkara Village 3 Central Station",
+        "service": "intercity",
+        "x": -58.48,
+        "y": -1.0,
+        "z": -44.64
+      }
+    ],
+    "trainService": {
+      "enabled": true,
+      "rollingStockProfile": "regional-electric-template"
+    }
+  },
+  "riverNetwork": {
+    "rivers": [
+      {
+        "riverId": "country-099-river-1",
+        "navigable": true,
+        "widthM": 15.4,
+        "transportMode": "river-freight",
+        "points": [
+          {
+            "x": -128.0,
+            "y": -1.5,
+            "z": -55.65
+          },
+          {
+            "x": -96.24,
+            "y": -1.5,
+            "z": -61.31
+          },
+          {
+            "x": -51.61,
+            "y": -1.5,
+            "z": -74.06
+          },
+          {
+            "x": 3.6,
+            "y": -1.5,
+            "z": -92.63
+          },
+          {
+            "x": 48.81,
+            "y": -1.5,
+            "z": -105.69
+          },
+          {
+            "x": 77.99,
+            "y": -1.5,
+            "z": -109.94
+          },
+          {
+            "x": 128.0,
+            "y": -1.5,
+            "z": -125.64
+          }
+        ]
+      },
+      {
+        "riverId": "country-099-river-2",
+        "navigable": false,
+        "widthM": 5.8,
+        "transportMode": "waterway",
+        "points": [
+          {
+            "x": 26.99,
+            "y": -1.5,
+            "z": -128.0
+          },
+          {
+            "x": 47.25,
+            "y": -1.5,
+            "z": -89.78
+          },
+          {
+            "x": 52.14,
+            "y": -1.5,
+            "z": -43.1
+          },
+          {
+            "x": 64.87,
+            "y": -1.5,
+            "z": -0.74
+          },
+          {
+            "x": 69.33,
+            "y": -1.5,
+            "z": 46.17
+          },
+          {
+            "x": 89.05,
+            "y": 3.83,
+            "z": 84.69
+          },
+          {
+            "x": 100.06,
+            "y": 11.94,
+            "z": 128.0
+          }
+        ]
+      }
+    ],
+    "riverBridges": [
+      "country-099-bridge-1",
+      "country-099-bridge-2"
+    ]
+  },
+  "simulationHooks": {
+    "cityInfrastructure": true,
+    "residentialAccess": true,
+    "trafficSimulation": true,
+    "massTransitSimulation": true,
+    "waterTrafficSimulation": true
+  }
+}

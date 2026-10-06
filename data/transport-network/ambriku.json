@@ -1,0 +1,292 @@
+{
+  "schemaVersion": 1,
+  "countryId": "country-052",
+  "mapKey": "country/ambriku",
+  "seed": 17823602920179800940,
+  "sourceTerrain": "data/country-content/ambriku/terrain.json",
+  "roadNetwork": {
+    "segments": [
+      {
+        "roadId": "country-052-road-1",
+        "class": "arterial",
+        "lanes": 4,
+        "speedLimitKph": 90,
+        "access": {
+          "vehicles": true,
+          "pedestrians": true,
+          "emergency": true
+        },
+        "points": [
+          {
+            "x": 0.0,
+            "y": -1.5,
+            "z": 0.0
+          },
+          {
+            "x": 10.58,
+            "y": -1.5,
+            "z": -21.07
+          },
+          {
+            "x": 8.86,
+            "y": -1.5,
+            "z": -35.37
+          },
+          {
+            "x": 24.02,
+            "y": -1.5,
+            "z": -58.97
+          },
+          {
+            "x": 27.61,
+            "y": -1.5,
+            "z": -76.19
+          }
+        ],
+        "connectedSettlementIds": [
+          "country-052-capital",
+          "country-052-village-1"
+        ]
+      },
+      {
+        "roadId": "country-052-road-2",
+        "class": "collector",
+        "lanes": 2,
+        "speedLimitKph": 55,
+        "access": {
+          "vehicles": true,
+          "pedestrians": true,
+          "emergency": true
+        },
+        "points": [
+          {
+            "x": 0.0,
+            "y": -1.5,
+            "z": 0.0
+          },
+          {
+            "x": 18.68,
+            "y": -1.5,
+            "z": -3.32
+          },
+          {
+            "x": 33.65,
+            "y": -0.62,
+            "z": -4.61
+          },
+          {
+            "x": 45.87,
+            "y": 1.21,
+            "z": -4.38
+          },
+          {
+            "x": 75.08,
+            "y": 4.03,
+            "z": -13.5
+          }
+        ],
+        "connectedSettlementIds": [
+          "country-052-capital",
+          "country-052-village-2"
+        ]
+      },
+      {
+        "roadId": "country-052-road-3",
+        "class": "collector",
+        "lanes": 2,
+        "speedLimitKph": 55,
+        "access": {
+          "vehicles": true,
+          "pedestrians": true,
+          "emergency": true
+        },
+        "points": [
+          {
+            "x": 0.0,
+            "y": -1.5,
+            "z": 0.0
+          },
+          {
+            "x": -19.06,
+            "y": -1.5,
+            "z": 13.13
+          },
+          {
+            "x": -28.81,
+            "y": -1.5,
+            "z": 21.14
+          },
+          {
+            "x": -33.96,
+            "y": -0.96,
+            "z": 26.62
+          },
+          {
+            "x": -35.29,
+            "y": -0.96,
+            "z": 30.0
+          }
+        ],
+        "connectedSettlementIds": [
+          "country-052-capital",
+          "country-052-village-3"
+        ]
+      }
+    ],
+    "bridges": [
+      {
+        "bridgeId": "country-052-bridge-1",
+        "roadId": "country-052-road-1",
+        "riverId": "country-052-river-1",
+        "lengthM": 21.6,
+        "loadClass": "heavy-vehicle",
+        "supportsTrain": false,
+        "x": 7.26,
+        "y": 2.03,
+        "z": 68.94
+      }
+    ]
+  },
+  "railNetwork": {
+    "lines": [
+      {
+        "lineId": "country-052-rail-1",
+        "mode": "intercity-rail",
+        "electrification": "future-ready",
+        "trackGaugeMm": 1435,
+        "maxSpeedKph": 180,
+        "points": [
+          {
+            "x": 0.0,
+            "y": -1.5,
+            "z": 0.0
+          },
+          {
+            "x": -7.13,
+            "y": -1.5,
+            "z": 6.04
+          },
+          {
+            "x": -11.5,
+            "y": -1.5,
+            "z": 10.56
+          },
+          {
+            "x": -18.2,
+            "y": -1.5,
+            "z": 16.36
+          },
+          {
+            "x": -31.08,
+            "y": -0.96,
+            "z": 25.57
+          },
+          {
+            "x": -35.29,
+            "y": -0.96,
+            "z": 30.0
+          }
+        ]
+      }
+    ],
+    "stations": [
+      {
+        "stationId": "country-052-country-052-capital-station",
+        "settlementId": "country-052-capital",
+        "name": "Ambriku Central Central Station",
+        "service": "intercity",
+        "x": 0.0,
+        "y": -1.0,
+        "z": 0.0
+      },
+      {
+        "stationId": "country-052-country-052-village-1-station",
+        "settlementId": "country-052-village-1",
+        "name": "Ambriku Village 1 Central Station",
+        "service": "intercity",
+        "x": 27.61,
+        "y": -1.0,
+        "z": -76.19
+      },
+      {
+        "stationId": "country-052-country-052-village-2-station",
+        "settlementId": "country-052-village-2",
+        "name": "Ambriku Village 2 Central Station",
+        "service": "intercity",
+        "x": 75.08,
+        "y": 4.53,
+        "z": -13.5
+      },
+      {
+        "stationId": "country-052-country-052-village-3-station",
+        "settlementId": "country-052-village-3",
+        "name": "Ambriku Village 3 Central Station",
+        "service": "intercity",
+        "x": -35.29,
+        "y": -0.46,
+        "z": 30.0
+      }
+    ],
+    "trainService": {
+      "enabled": true,
+      "rollingStockProfile": "regional-electric-template"
+    }
+  },
+  "riverNetwork": {
+    "rivers": [
+      {
+        "riverId": "country-052-river-1",
+        "navigable": false,
+        "widthM": 9.6,
+        "transportMode": "waterway",
+        "points": [
+          {
+            "x": -128.0,
+            "y": 8.3,
+            "z": 115.86
+          },
+          {
+            "x": -78.21,
+            "y": 2.86,
+            "z": 97.64
+          },
+          {
+            "x": -43.65,
+            "y": 0.98,
+            "z": 87.78
+          },
+          {
+            "x": 7.26,
+            "y": 1.68,
+            "z": 68.94
+          },
+          {
+            "x": 52.06,
+            "y": 5.7,
+            "z": 53.45
+          },
+          {
+            "x": 89.99,
+            "y": 11.39,
+            "z": 41.75
+          },
+          {
+            "x": 128.0,
+            "y": 14.23,
+            "z": 30.0
+          }
+        ]
+      }
+    ],
+    "riverBridges": [
+      "country-052-bridge-1"
+    ]
+  },
+  "simulationHooks": {
+    "cityInfrastructure": true,
+    "residentialAccess": true,
+    "trafficSimulation": true,
+    "massTransitSimulation": true,
+    "waterTrafficSimulation": false
+  }
+}

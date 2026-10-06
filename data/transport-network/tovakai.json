@@ -1,0 +1,241 @@
+{
+  "schemaVersion": 1,
+  "countryId": "country-043",
+  "mapKey": "country/tovakai",
+  "seed": 14810506127918197855,
+  "sourceTerrain": "data/country-content/tovakai/terrain.json",
+  "roadNetwork": {
+    "segments": [
+      {
+        "roadId": "country-043-road-1",
+        "class": "arterial",
+        "lanes": 4,
+        "speedLimitKph": 90,
+        "access": {
+          "vehicles": true,
+          "pedestrians": true,
+          "emergency": true
+        },
+        "points": [
+          {
+            "x": 0.0,
+            "y": 7.37,
+            "z": 0.0
+          },
+          {
+            "x": 20.5,
+            "y": 8.46,
+            "z": -20.02
+          },
+          {
+            "x": 25.84,
+            "y": 9.39,
+            "z": -31.71
+          },
+          {
+            "x": 27.38,
+            "y": 8.31,
+            "z": -41.3
+          },
+          {
+            "x": 39.84,
+            "y": 7.2,
+            "z": -56.9
+          }
+        ],
+        "connectedSettlementIds": [
+          "country-043-capital",
+          "country-043-village-1"
+        ]
+      },
+      {
+        "roadId": "country-043-road-2",
+        "class": "collector",
+        "lanes": 2,
+        "speedLimitKph": 55,
+        "access": {
+          "vehicles": true,
+          "pedestrians": true,
+          "emergency": true
+        },
+        "points": [
+          {
+            "x": 0.0,
+            "y": 7.37,
+            "z": 0.0
+          },
+          {
+            "x": 7.07,
+            "y": 6.68,
+            "z": -17.95
+          },
+          {
+            "x": 1.63,
+            "y": 5.87,
+            "z": -29.02
+          },
+          {
+            "x": 4.86,
+            "y": 4.83,
+            "z": -44.85
+          },
+          {
+            "x": 16.09,
+            "y": 5.4,
+            "z": -65.09
+          }
+        ],
+        "connectedSettlementIds": [
+          "country-043-capital",
+          "country-043-village-2"
+        ]
+      }
+    ],
+    "bridges": [
+      {
+        "bridgeId": "country-043-bridge-1",
+        "roadId": "country-043-road-1",
+        "riverId": "country-043-river-1",
+        "lengthM": 21.8,
+        "loadClass": "heavy-vehicle",
+        "supportsTrain": false,
+        "x": -9.12,
+        "y": 1.7799999999999998,
+        "z": -60.13
+      }
+    ]
+  },
+  "railNetwork": {
+    "lines": [
+      {
+        "lineId": "country-043-rail-1",
+        "mode": "intercity-rail",
+        "electrification": "future-ready",
+        "trackGaugeMm": 1435,
+        "maxSpeedKph": 180,
+        "points": [
+          {
+            "x": 0.0,
+            "y": 7.37,
+            "z": 0.0
+          },
+          {
+            "x": 13.77,
+            "y": 8.46,
+            "z": -18.82
+          },
+          {
+            "x": 7.29,
+            "y": 5.87,
+            "z": -26.51
+          },
+          {
+            "x": 18.24,
+            "y": 6.58,
+            "z": -43.77
+          },
+          {
+            "x": 4.13,
+            "y": 4.83,
+            "z": -47.27
+          },
+          {
+            "x": 16.09,
+            "y": 5.4,
+            "z": -65.09
+          }
+        ]
+      }
+    ],
+    "stations": [
+      {
+        "stationId": "country-043-country-043-capital-station",
+        "settlementId": "country-043-capital",
+        "name": "Tovakai Central Central Station",
+        "service": "intercity",
+        "x": 0.0,
+        "y": 7.87,
+        "z": 0.0
+      },
+      {
+        "stationId": "country-043-country-043-village-1-station",
+        "settlementId": "country-043-village-1",
+        "name": "Tovakai Village 1 Central Station",
+        "service": "intercity",
+        "x": 39.84,
+        "y": 7.7,
+        "z": -56.9
+      },
+      {
+        "stationId": "country-043-country-043-village-2-station",
+        "settlementId": "country-043-village-2",
+        "name": "Tovakai Village 2 Central Station",
+        "service": "intercity",
+        "x": 16.09,
+        "y": 5.9,
+        "z": -65.09
+      }
+    ],
+    "trainService": {
+      "enabled": true,
+      "rollingStockProfile": "regional-electric-template"
+    }
+  },
+  "riverNetwork": {
+    "rivers": [
+      {
+        "riverId": "country-043-river-1",
+        "navigable": false,
+        "widthM": 9.8,
+        "transportMode": "waterway",
+        "points": [
+          {
+            "x": -128.0,
+            "y": -1.5,
+            "z": -97.46
+          },
+          {
+            "x": -89.11,
+            "y": -1.5,
+            "z": -84.61
+          },
+          {
+            "x": -36.5,
+            "y": -1.5,
+            "z": -79.31
+          },
+          {
+            "x": -9.12,
+            "y": 1.43,
+            "z": -60.13
+          },
+          {
+            "x": 41.72,
+            "y": 10.11,
+            "z": -53.86
+          },
+          {
+            "x": 89.25,
+            "y": 15.84,
+            "z": -45.77
+          },
+          {
+            "x": 128.0,
+            "y": 20.08,
+            "z": -32.84
+          }
+        ]
+      }
+    ],
+    "riverBridges": [
+      "country-043-bridge-1"
+    ]
+  },
+  "simulationHooks": {
+    "cityInfrastructure": true,
+    "residentialAccess": true,
+    "trafficSimulation": true,
+    "massTransitSimulation": true,
+    "waterTrafficSimulation": false
+  }
+}

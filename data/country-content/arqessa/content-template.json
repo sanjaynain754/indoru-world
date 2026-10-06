@@ -1,0 +1,527 @@
+{
+  "schemaVersion": 1,
+  "countryId": "country-019",
+  "name": "Arqessa",
+  "status": "playable",
+  "completion": "template",
+  "templatePolicy": {
+    "generated": true,
+    "requiresReview": true,
+    "placeholderContentAllowed": true
+  },
+  "terrain": {
+    "asset": "data/country-content/arqessa/terrain.json",
+    "mapKey": "country/arqessa",
+    "biome": "temperate-river"
+  },
+  "spawn": {
+    "x": 0.0,
+    "y": 1.2,
+    "z": 0.0,
+    "headingRad": 0.0
+  },
+  "settlements": [
+    {
+      "id": "country-019-capital",
+      "name": "Arqessa Central",
+      "type": "capital",
+      "populationTier": "large",
+      "x": 0.0,
+      "y": -1.0,
+      "z": 0.0
+    },
+    {
+      "id": "country-019-village-1",
+      "name": "Arqessa Village 1",
+      "type": "village",
+      "populationTier": "medium",
+      "x": -41.24,
+      "y": 0.66,
+      "z": -64.14
+    },
+    {
+      "id": "country-019-village-2",
+      "name": "Arqessa Village 2",
+      "type": "village",
+      "populationTier": "small",
+      "x": -93.33,
+      "y": -0.29,
+      "z": 24.87
+    },
+    {
+      "id": "country-019-village-3",
+      "name": "Arqessa Village 3",
+      "type": "village",
+      "populationTier": "small",
+      "x": 92.96,
+      "y": -1.0,
+      "z": 67.41
+    },
+    {
+      "id": "country-019-village-4",
+      "name": "Arqessa Village 4",
+      "type": "village",
+      "populationTier": "medium",
+      "x": -61.54,
+      "y": -1.0,
+      "z": 49.45
+    }
+  ],
+  "infrastructure": {
+    "rivers": [
+      {
+        "id": "country-019-river-1",
+        "name": "Arqessa River 1",
+        "widthM": 14.4,
+        "points": [
+          {
+            "x": -128.0,
+            "y": 1.92,
+            "z": 51.43
+          },
+          {
+            "x": -86.83,
+            "y": -1.5,
+            "z": 32.81
+          },
+          {
+            "x": -46.27,
+            "y": -1.5,
+            "z": 14.53
+          },
+          {
+            "x": 0.11,
+            "y": -1.5,
+            "z": -6.95
+          },
+          {
+            "x": 44.58,
+            "y": -1.5,
+            "z": -27.38
+          },
+          {
+            "x": 83.0,
+            "y": -1.5,
+            "z": -44.49
+          },
+          {
+            "x": 128.0,
+            "y": -1.5,
+            "z": -65.21
+          }
+        ]
+      },
+      {
+        "id": "country-019-river-2",
+        "name": "Arqessa River 2",
+        "widthM": 10.9,
+        "points": [
+          {
+            "x": -17.7,
+            "y": 2.61,
+            "z": -128.0
+          },
+          {
+            "x": -42.95,
+            "y": 2.11,
+            "z": -81.42
+          },
+          {
+            "x": -49.83,
+            "y": -1.5,
+            "z": -44.93
+          },
+          {
+            "x": -63.2,
+            "y": -1.5,
+            "z": -4.89
+          },
+          {
+            "x": -79.63,
+            "y": -1.5,
+            "z": 36.85
+          },
+          {
+            "x": -119.82,
+            "y": 0.02,
+            "z": 91.64
+          },
+          {
+            "x": -126.47,
+            "y": 2.4,
+            "z": 128.0
+          }
+        ]
+      }
+    ],
+    "lakes": [
+      {
+        "id": "country-019-lake-1",
+        "name": "Arqessa Lake 1",
+        "x": -52.84,
+        "y": 0.4,
+        "z": -20.98,
+        "radiusM": 18.6,
+        "type": "reservoir"
+      },
+      {
+        "id": "country-019-lake-2",
+        "name": "Arqessa Lake 2",
+        "x": 11.75,
+        "y": 0.4,
+        "z": 16.57,
+        "radiusM": 10.3,
+        "type": "natural"
+      }
+    ],
+    "mountains": [
+      {
+        "id": "country-019-mountain-1",
+        "name": "Arqessa Highland 1",
+        "x": -66.28,
+        "y": 0.39,
+        "z": -20.42,
+        "heightM": 40.88,
+        "radiusM": 39.8
+      },
+      {
+        "id": "country-019-mountain-2",
+        "name": "Arqessa Highland 2",
+        "x": 4.56,
+        "y": 0.39,
+        "z": -35.02,
+        "heightM": 28.1,
+        "radiusM": 26.2
+      },
+      {
+        "id": "country-019-mountain-3",
+        "name": "Arqessa Highland 3",
+        "x": -34.67,
+        "y": 0.39,
+        "z": -80.36,
+        "heightM": 22.87,
+        "radiusM": 31.9
+      }
+    ],
+    "settlements": [
+      {
+        "id": "country-019-capital",
+        "name": "Arqessa Central",
+        "type": "capital",
+        "populationTier": "large",
+        "x": 0.0,
+        "y": -1.0,
+        "z": 0.0
+      },
+      {
+        "id": "country-019-village-1",
+        "name": "Arqessa Village 1",
+        "type": "village",
+        "populationTier": "medium",
+        "x": -41.24,
+        "y": 0.66,
+        "z": -64.14
+      },
+      {
+        "id": "country-019-village-2",
+        "name": "Arqessa Village 2",
+        "type": "village",
+        "populationTier": "small",
+        "x": -93.33,
+        "y": -0.29,
+        "z": 24.87
+      },
+      {
+        "id": "country-019-village-3",
+        "name": "Arqessa Village 3",
+        "type": "village",
+        "populationTier": "small",
+        "x": 92.96,
+        "y": -1.0,
+        "z": 67.41
+      },
+      {
+        "id": "country-019-village-4",
+        "name": "Arqessa Village 4",
+        "type": "village",
+        "populationTier": "medium",
+        "x": -61.54,
+        "y": -1.0,
+        "z": 49.45
+      }
+    ],
+    "roads": [
+      {
+        "id": "country-019-road-1",
+        "class": "highway",
+        "points": [
+          {
+            "x": 0.0,
+            "y": -1.5,
+            "z": 0.0
+          },
+          {
+            "x": -13.0,
+            "y": -1.5,
+            "z": -14.56
+          },
+          {
+            "x": -23.53,
+            "y": -1.5,
+            "z": -30.47
+          },
+          {
+            "x": -39.28,
+            "y": -1.5,
+            "z": -43.51
+          },
+          {
+            "x": -41.24,
+            "y": 0.16,
+            "z": -64.14
+          }
+        ]
+      },
+      {
+        "id": "country-019-road-2",
+        "class": "regional",
+        "points": [
+          {
+            "x": 0.0,
+            "y": -1.5,
+            "z": 0.0
+          },
+          {
+            "x": -16.15,
+            "y": -1.5,
+            "z": 2.27
+          },
+          {
+            "x": -50.4,
+            "y": -1.5,
+            "z": 14.49
+          },
+          {
+            "x": -67.19,
+            "y": -1.5,
+            "z": 17.11
+          },
+          {
+            "x": -93.33,
+            "y": -0.79,
+            "z": 24.87
+          }
+        ]
+      },
+      {
+        "id": "country-019-road-3",
+        "class": "regional",
+        "points": [
+          {
+            "x": 0.0,
+            "y": -1.5,
+            "z": 0.0
+          },
+          {
+            "x": 15.23,
+            "y": -1.5,
+            "z": 21.26
+          },
+          {
+            "x": 41.28,
+            "y": -1.5,
+            "z": 36.56
+          },
+          {
+            "x": 67.67,
+            "y": -1.5,
+            "z": 51.69
+          },
+          {
+            "x": 92.96,
+            "y": -1.5,
+            "z": 67.41
+          }
+        ]
+      },
+      {
+        "id": "country-019-road-4",
+        "class": "regional",
+        "points": [
+          {
+            "x": 0.0,
+            "y": -1.5,
+            "z": 0.0
+          },
+          {
+            "x": -10.34,
+            "y": -1.5,
+            "z": 9.59
+          },
+          {
+            "x": -20.23,
+            "y": -1.5,
+            "z": 18.93
+          },
+          {
+            "x": -57.41,
+            "y": -1.5,
+            "z": 43.28
+          },
+          {
+            "x": -61.54,
+            "y": -1.5,
+            "z": 49.45
+          }
+        ]
+      }
+    ],
+    "bridges": [
+      {
+        "id": "country-019-bridge-1",
+        "name": "Arqessa Crossing 1",
+        "roadId": "country-019-road-1",
+        "riverId": "country-019-river-1",
+        "x": 0.11,
+        "y": -1.15,
+        "z": -6.95,
+        "lengthM": 26.4
+      },
+      {
+        "id": "country-019-bridge-2",
+        "name": "Arqessa Crossing 2",
+        "roadId": "country-019-road-2",
+        "riverId": "country-019-river-2",
+        "x": -63.2,
+        "y": -1.15,
+        "z": -4.89,
+        "lengthM": 22.9
+      }
+    ],
+    "railways": [
+      {
+        "id": "country-019-rail-1",
+        "class": "intercity",
+        "points": [
+          {
+            "x": 0.0,
+            "y": -1.5,
+            "z": 0.0
+          },
+          {
+            "x": -13.94,
+            "y": -1.5,
+            "z": 10.79
+          },
+          {
+            "x": -33.51,
+            "y": -1.5,
+            "z": 24.67
+          },
+          {
+            "x": -32.0,
+            "y": -1.5,
+            "z": 26.96
+          },
+          {
+            "x": -48.37,
+            "y": -1.5,
+            "z": 39.09
+          },
+          {
+            "x": -61.54,
+            "y": -1.5,
+            "z": 49.45
+          }
+        ]
+      }
+    ],
+    "airports": [
+      {
+        "id": "country-019-airport-1",
+        "name": "Arqessa International",
+        "size": "regional",
+        "x": -40.23,
+        "y": -1.3,
+        "z": 41.16,
+        "runwayLengthM": 1800
+      }
+    ],
+    "ports": [
+      {
+        "id": "country-019-port-1",
+        "name": "Arqessa Maritime Port",
+        "x": -104.95,
+        "y": 0.69,
+        "z": 61.35,
+        "capacity": "small"
+      }
+    ],
+    "militaryBases": [
+      {
+        "id": "country-019-base-1",
+        "name": "Arqessa Defense Station",
+        "type": "air-ground",
+        "x": -29.58,
+        "y": -1.2,
+        "z": 72.25
+      }
+    ],
+    "metroLines": [
+      {
+        "id": "country-019-metro-1",
+        "status": "planned",
+        "serves": [
+          "country-019-capital",
+          "country-019-village-1",
+          "country-019-village-2"
+        ]
+      }
+    ],
+    "airRoutes": [
+      {
+        "id": "country-019-air-route-1",
+        "status": "regional",
+        "airportId": "country-019-airport-1"
+      }
+    ],
+    "shipLanes": [
+      {
+        "id": "country-019-ship-lane-1",
+        "status": "regional",
+        "portId": "country-019-port-1"
+      }
+    ],
+    "submarineZones": [
+      {
+        "id": "country-019-submarine-zone-1",
+        "status": "charted",
+        "depthM": 124.9
+      }
+    ]
+  },
+  "missions": [
+    {
+      "id": "country-019-intro",
+      "title": "Welcome to Arqessa",
+      "status": "template",
+      "placeholder": true
+    },
+    {
+      "id": "country-019-route",
+      "title": "Cross-Region Route",
+      "status": "template",
+      "placeholder": true
+    }
+  ],
+  "systems": {
+    "weatherProfile": "template",
+    "peopleProfile": "people-arqessa",
+    "trafficProfile": "template"
+  },
+  "nextSteps": [
+    "replace placeholder settlements",
+    "author terrain landmarks",
+    "author missions and NPC schedules"
+  ]
+}

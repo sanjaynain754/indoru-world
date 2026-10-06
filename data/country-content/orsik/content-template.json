@@ -1,0 +1,677 @@
+{
+  "schemaVersion": 1,
+  "countryId": "country-055",
+  "name": "Orsik",
+  "status": "playable",
+  "completion": "template",
+  "templatePolicy": {
+    "generated": true,
+    "requiresReview": true,
+    "placeholderContentAllowed": true
+  },
+  "terrain": {
+    "asset": "data/country-content/orsik/terrain.json",
+    "mapKey": "country/orsik",
+    "biome": "highland-basin"
+  },
+  "spawn": {
+    "x": 0.0,
+    "y": 1.2,
+    "z": 0.0,
+    "headingRad": 0.0
+  },
+  "settlements": [
+    {
+      "id": "country-055-capital",
+      "name": "Orsik Central",
+      "type": "capital",
+      "populationTier": "large",
+      "x": 0.0,
+      "y": -1.0,
+      "z": 0.0
+    },
+    {
+      "id": "country-055-village-1",
+      "name": "Orsik Village 1",
+      "type": "village",
+      "populationTier": "medium",
+      "x": -77.65,
+      "y": 7.31,
+      "z": -9.66
+    },
+    {
+      "id": "country-055-village-2",
+      "name": "Orsik Village 2",
+      "type": "village",
+      "populationTier": "small",
+      "x": -85.91,
+      "y": 7.31,
+      "z": -18.67
+    },
+    {
+      "id": "country-055-village-3",
+      "name": "Orsik Village 3",
+      "type": "village",
+      "populationTier": "small",
+      "x": -99.35,
+      "y": 5.18,
+      "z": -50.83
+    },
+    {
+      "id": "country-055-village-4",
+      "name": "Orsik Village 4",
+      "type": "village",
+      "populationTier": "medium",
+      "x": -19.34,
+      "y": 4.14,
+      "z": 80.3
+    },
+    {
+      "id": "country-055-village-5",
+      "name": "Orsik Village 5",
+      "type": "village",
+      "populationTier": "small",
+      "x": -50.12,
+      "y": 7.04,
+      "z": 21.83
+    },
+    {
+      "id": "country-055-village-6",
+      "name": "Orsik Village 6",
+      "type": "village",
+      "populationTier": "small",
+      "x": -78.76,
+      "y": -1.0,
+      "z": -91.3
+    }
+  ],
+  "infrastructure": {
+    "rivers": [
+      {
+        "id": "country-055-river-1",
+        "name": "Orsik River 1",
+        "widthM": 8.9,
+        "points": [
+          {
+            "x": -128.0,
+            "y": -0.99,
+            "z": -115.17
+          },
+          {
+            "x": -96.77,
+            "y": 2.03,
+            "z": -71.21
+          },
+          {
+            "x": -35.85,
+            "y": -1.5,
+            "z": -43.59
+          },
+          {
+            "x": -2.65,
+            "y": -1.5,
+            "z": -0.71
+          },
+          {
+            "x": 48.97,
+            "y": -1.5,
+            "z": 32.04
+          },
+          {
+            "x": 95.09,
+            "y": 0.33,
+            "z": 67.81
+          },
+          {
+            "x": 128.0,
+            "y": 4.95,
+            "z": 110.84
+          }
+        ]
+      },
+      {
+        "id": "country-055-river-2",
+        "name": "Orsik River 2",
+        "widthM": 12.2,
+        "points": [
+          {
+            "x": -100.7,
+            "y": -1.5,
+            "z": -128.0
+          },
+          {
+            "x": -84.23,
+            "y": -1.5,
+            "z": -79.18
+          },
+          {
+            "x": -44.03,
+            "y": -1.5,
+            "z": -43.4
+          },
+          {
+            "x": -25.63,
+            "y": 0.38,
+            "z": 4.36
+          },
+          {
+            "x": 14.29,
+            "y": -1.5,
+            "z": 40.29
+          },
+          {
+            "x": 42.78,
+            "y": -0.88,
+            "z": 82.5
+          },
+          {
+            "x": 65.31,
+            "y": -1.5,
+            "z": 128.0
+          }
+        ]
+      },
+      {
+        "id": "country-055-river-3",
+        "name": "Orsik River 3",
+        "widthM": 18.8,
+        "points": [
+          {
+            "x": -128.0,
+            "y": 9.89,
+            "z": -59.85
+          },
+          {
+            "x": -86.91,
+            "y": -1.5,
+            "z": -58.28
+          },
+          {
+            "x": -50.83,
+            "y": -1.5,
+            "z": -53.96
+          },
+          {
+            "x": -10.85,
+            "y": -1.5,
+            "z": -51.78
+          },
+          {
+            "x": 36.0,
+            "y": -1.5,
+            "z": -53.38
+          },
+          {
+            "x": 83.75,
+            "y": -1.5,
+            "z": -55.48
+          },
+          {
+            "x": 128.0,
+            "y": -1.5,
+            "z": -55.65
+          }
+        ]
+      }
+    ],
+    "lakes": [
+      {
+        "id": "country-055-lake-1",
+        "name": "Orsik Lake 1",
+        "x": 36.95,
+        "y": 0.38,
+        "z": 36.73,
+        "radiusM": 12.2,
+        "type": "reservoir"
+      },
+      {
+        "id": "country-055-lake-2",
+        "name": "Orsik Lake 2",
+        "x": 22.0,
+        "y": 0.38,
+        "z": -19.95,
+        "radiusM": 16.9,
+        "type": "natural"
+      },
+      {
+        "id": "country-055-lake-3",
+        "name": "Orsik Lake 3",
+        "x": -52.14,
+        "y": 0.38,
+        "z": -61.07,
+        "radiusM": 20.1,
+        "type": "natural"
+      }
+    ],
+    "mountains": [
+      {
+        "id": "country-055-mountain-1",
+        "name": "Orsik Highland 1",
+        "x": 79.26,
+        "y": 0.37,
+        "z": 9.4,
+        "heightM": 59.99,
+        "radiusM": 30.9
+      },
+      {
+        "id": "country-055-mountain-2",
+        "name": "Orsik Highland 2",
+        "x": 19.08,
+        "y": 0.37,
+        "z": -68.34,
+        "heightM": 34.4,
+        "radiusM": 28.3
+      }
+    ],
+    "settlements": [
+      {
+        "id": "country-055-capital",
+        "name": "Orsik Central",
+        "type": "capital",
+        "populationTier": "large",
+        "x": 0.0,
+        "y": -1.0,
+        "z": 0.0
+      },
+      {
+        "id": "country-055-village-1",
+        "name": "Orsik Village 1",
+        "type": "village",
+        "populationTier": "medium",
+        "x": -77.65,
+        "y": 7.31,
+        "z": -9.66
+      },
+      {
+        "id": "country-055-village-2",
+        "name": "Orsik Village 2",
+        "type": "village",
+        "populationTier": "small",
+        "x": -85.91,
+        "y": 7.31,
+        "z": -18.67
+      },
+      {
+        "id": "country-055-village-3",
+        "name": "Orsik Village 3",
+        "type": "village",
+        "populationTier": "small",
+        "x": -99.35,
+        "y": 5.18,
+        "z": -50.83
+      },
+      {
+        "id": "country-055-village-4",
+        "name": "Orsik Village 4",
+        "type": "village",
+        "populationTier": "medium",
+        "x": -19.34,
+        "y": 4.14,
+        "z": 80.3
+      },
+      {
+        "id": "country-055-village-5",
+        "name": "Orsik Village 5",
+        "type": "village",
+        "populationTier": "small",
+        "x": -50.12,
+        "y": 7.04,
+        "z": 21.83
+      },
+      {
+        "id": "country-055-village-6",
+        "name": "Orsik Village 6",
+        "type": "village",
+        "populationTier": "small",
+        "x": -78.76,
+        "y": -1.0,
+        "z": -91.3
+      }
+    ],
+    "roads": [
+      {
+        "id": "country-055-road-1",
+        "class": "highway",
+        "points": [
+          {
+            "x": 0.0,
+            "y": -1.5,
+            "z": 0.0
+          },
+          {
+            "x": -14.78,
+            "y": -1.5,
+            "z": -4.97
+          },
+          {
+            "x": -34.01,
+            "y": 0.38,
+            "z": -7.48
+          },
+          {
+            "x": -52.91,
+            "y": 0.35,
+            "z": -10.17
+          },
+          {
+            "x": -77.65,
+            "y": 6.81,
+            "z": -9.66
+          }
+        ]
+      },
+      {
+        "id": "country-055-road-2",
+        "class": "regional",
+        "points": [
+          {
+            "x": 0.0,
+            "y": -1.5,
+            "z": 0.0
+          },
+          {
+            "x": -10.91,
+            "y": -1.5,
+            "z": -10.48
+          },
+          {
+            "x": -41.04,
+            "y": 0.35,
+            "z": -10.39
+          },
+          {
+            "x": -58.22,
+            "y": 3.48,
+            "z": -17.42
+          },
+          {
+            "x": -85.91,
+            "y": 6.81,
+            "z": -18.67
+          }
+        ]
+      },
+      {
+        "id": "country-055-road-3",
+        "class": "regional",
+        "points": [
+          {
+            "x": 0.0,
+            "y": -1.5,
+            "z": 0.0
+          },
+          {
+            "x": -14.62,
+            "y": -1.5,
+            "z": -18.33
+          },
+          {
+            "x": -52.38,
+            "y": 0.35,
+            "z": -23.93
+          },
+          {
+            "x": -69.74,
+            "y": -1.5,
+            "z": -40.75
+          },
+          {
+            "x": -99.35,
+            "y": 4.68,
+            "z": -50.83
+          }
+        ]
+      },
+      {
+        "id": "country-055-road-4",
+        "class": "regional",
+        "points": [
+          {
+            "x": 0.0,
+            "y": -1.5,
+            "z": 0.0
+          },
+          {
+            "x": -1.58,
+            "y": -1.5,
+            "z": 18.29
+          },
+          {
+            "x": -10.55,
+            "y": 1.65,
+            "z": 40.64
+          },
+          {
+            "x": -14.24,
+            "y": 2.71,
+            "z": 60.08
+          },
+          {
+            "x": -19.34,
+            "y": 3.64,
+            "z": 80.3
+          }
+        ]
+      },
+      {
+        "id": "country-055-road-5",
+        "class": "regional",
+        "points": [
+          {
+            "x": 0.0,
+            "y": -1.5,
+            "z": 0.0
+          },
+          {
+            "x": -7.08,
+            "y": -1.5,
+            "z": 2.46
+          },
+          {
+            "x": -36.72,
+            "y": 2.7,
+            "z": 17.33
+          },
+          {
+            "x": -37.66,
+            "y": 2.7,
+            "z": 16.41
+          },
+          {
+            "x": -50.12,
+            "y": 6.54,
+            "z": 21.83
+          }
+        ]
+      },
+      {
+        "id": "country-055-road-6",
+        "class": "regional",
+        "points": [
+          {
+            "x": 0.0,
+            "y": -1.5,
+            "z": 0.0
+          },
+          {
+            "x": -7.95,
+            "y": -1.5,
+            "z": -29.28
+          },
+          {
+            "x": -34.52,
+            "y": -1.5,
+            "z": -48.32
+          },
+          {
+            "x": -58.68,
+            "y": -1.5,
+            "z": -68.69
+          },
+          {
+            "x": -78.76,
+            "y": -1.5,
+            "z": -91.3
+          }
+        ]
+      }
+    ],
+    "bridges": [
+      {
+        "id": "country-055-bridge-1",
+        "name": "Orsik Crossing 1",
+        "roadId": "country-055-road-1",
+        "riverId": "country-055-river-1",
+        "x": -2.65,
+        "y": -1.15,
+        "z": -0.71,
+        "lengthM": 20.9
+      },
+      {
+        "id": "country-055-bridge-2",
+        "name": "Orsik Crossing 2",
+        "roadId": "country-055-road-2",
+        "riverId": "country-055-river-2",
+        "x": -25.63,
+        "y": 0.73,
+        "z": 4.36,
+        "lengthM": 24.2
+      },
+      {
+        "id": "country-055-bridge-3",
+        "name": "Orsik Crossing 3",
+        "roadId": "country-055-road-3",
+        "riverId": "country-055-river-3",
+        "x": -10.85,
+        "y": -1.15,
+        "z": -51.78,
+        "lengthM": 30.8
+      }
+    ],
+    "railways": [
+      {
+        "id": "country-055-rail-1",
+        "class": "intercity",
+        "points": [
+          {
+            "x": 0.0,
+            "y": -1.5,
+            "z": 0.0
+          },
+          {
+            "x": -18.75,
+            "y": -1.5,
+            "z": -16.61
+          },
+          {
+            "x": -38.66,
+            "y": -1.5,
+            "z": -32.59
+          },
+          {
+            "x": -38.67,
+            "y": -1.5,
+            "z": -59.5
+          },
+          {
+            "x": -63.31,
+            "y": -1.5,
+            "z": -72.88
+          },
+          {
+            "x": -78.76,
+            "y": -1.5,
+            "z": -91.3
+          }
+        ]
+      }
+    ],
+    "airports": [
+      {
+        "id": "country-055-airport-1",
+        "name": "Orsik International",
+        "size": "large",
+        "x": 31.06,
+        "y": -1.3,
+        "z": -9.9,
+        "runwayLengthM": 900
+      }
+    ],
+    "ports": [
+      {
+        "id": "country-055-port-1",
+        "name": "Orsik Maritime Port",
+        "x": 29.46,
+        "y": 0.67,
+        "z": 112.15,
+        "capacity": "small"
+      }
+    ],
+    "militaryBases": [
+      {
+        "id": "country-055-base-1",
+        "name": "Orsik Defense Station",
+        "type": "air-ground",
+        "x": 52.44,
+        "y": -1.2,
+        "z": -55.7
+      }
+    ],
+    "metroLines": [
+      {
+        "id": "country-055-metro-1",
+        "status": "planned",
+        "serves": [
+          "country-055-capital",
+          "country-055-village-1",
+          "country-055-village-2"
+        ]
+      }
+    ],
+    "airRoutes": [
+      {
+        "id": "country-055-air-route-1",
+        "status": "regional",
+        "airportId": "country-055-airport-1"
+      }
+    ],
+    "shipLanes": [
+      {
+        "id": "country-055-ship-lane-1",
+        "status": "regional",
+        "portId": "country-055-port-1"
+      }
+    ],
+    "submarineZones": [
+      {
+        "id": "country-055-submarine-zone-1",
+        "status": "charted",
+        "depthM": 139.3
+      }
+    ]
+  },
+  "missions": [
+    {
+      "id": "country-055-intro",
+      "title": "Welcome to Orsik",
+      "status": "template",
+      "placeholder": true
+    },
+    {
+      "id": "country-055-route",
+      "title": "Cross-Region Route",
+      "status": "template",
+      "placeholder": true
+    }
+  ],
+  "systems": {
+    "weatherProfile": "template",
+    "peopleProfile": "people-orsik",
+    "trafficProfile": "template"
+  },
+  "nextSteps": [
+    "replace placeholder settlements",
+    "author terrain landmarks",
+    "author missions and NPC schedules"
+  ]
+}

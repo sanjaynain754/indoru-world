@@ -1,0 +1,45 @@
+{
+  "schema": "indoru.residential-household-simulation.v1",
+  "populationTarget": 1000000,
+  "scaleReadyTargets": [
+    1000000,
+    5000000,
+    10000000
+  ],
+  "coreRule": "A home is assigned to a household, not one home per NPC.",
+  "householdMemberRange": {
+    "minimum": 1,
+    "typicalMaximum": 11,
+    "hardMaximum": 32
+  },
+  "nightResidentialShare": 0.9,
+  "nightNonResidentialShare": 0.1,
+  "hierarchy": [
+    "NPC",
+    "Household",
+    "ResidentialUnit",
+    "Building",
+    "Neighborhood",
+    "City",
+    "Country"
+  ],
+  "states": [
+    "Home",
+    "Work",
+    "School",
+    "Shopping",
+    "Leisure",
+    "NightShift",
+    "Emergency",
+    "Travelling"
+  ],
+  "requirements": [
+    "Every simulated NPC belongs to a household.",
+    "Every household has an assigned residential unit.",
+    "Residential units belong to physical buildings.",
+    "Household members can leave home independently during the day.",
+    "Evening/night schedules bias household members toward home.",
+    "Night-shift and emergency workers can remain outside.",
+    "Simulation must support data-oriented aggregation at distant LODs."
+  ]
+}

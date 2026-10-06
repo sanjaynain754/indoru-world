@@ -1,0 +1,607 @@
+{
+  "schemaVersion": 1,
+  "countryId": "country-117",
+  "name": "Oskaru",
+  "status": "playable",
+  "completion": "template",
+  "templatePolicy": {
+    "generated": true,
+    "requiresReview": true,
+    "placeholderContentAllowed": true
+  },
+  "terrain": {
+    "asset": "data/country-content/oskaru/terrain.json",
+    "mapKey": "country/oskaru",
+    "biome": "polar-tundra"
+  },
+  "spawn": {
+    "x": 0.0,
+    "y": 1.2,
+    "z": 0.0,
+    "headingRad": 0.0
+  },
+  "settlements": [
+    {
+      "id": "country-117-capital",
+      "name": "Oskaru Central",
+      "type": "capital",
+      "populationTier": "large",
+      "x": 0.0,
+      "y": -1.0,
+      "z": 0.0
+    },
+    {
+      "id": "country-117-village-1",
+      "name": "Oskaru Village 1",
+      "type": "village",
+      "populationTier": "medium",
+      "x": 57.77,
+      "y": -1.0,
+      "z": -77.25
+    },
+    {
+      "id": "country-117-village-2",
+      "name": "Oskaru Village 2",
+      "type": "village",
+      "populationTier": "small",
+      "x": -104.87,
+      "y": -1.0,
+      "z": -25.88
+    },
+    {
+      "id": "country-117-village-3",
+      "name": "Oskaru Village 3",
+      "type": "village",
+      "populationTier": "small",
+      "x": -82.53,
+      "y": -1.0,
+      "z": -96.29
+    },
+    {
+      "id": "country-117-village-4",
+      "name": "Oskaru Village 4",
+      "type": "village",
+      "populationTier": "medium",
+      "x": 87.49,
+      "y": -1.0,
+      "z": 29.57
+    },
+    {
+      "id": "country-117-village-5",
+      "name": "Oskaru Village 5",
+      "type": "village",
+      "populationTier": "small",
+      "x": 42.2,
+      "y": -1.0,
+      "z": 64.73
+    },
+    {
+      "id": "country-117-village-6",
+      "name": "Oskaru Village 6",
+      "type": "village",
+      "populationTier": "small",
+      "x": 97.59,
+      "y": -1.0,
+      "z": -32.94
+    }
+  ],
+  "infrastructure": {
+    "rivers": [
+      {
+        "id": "country-117-river-1",
+        "name": "Oskaru River 1",
+        "widthM": 18.0,
+        "points": [
+          {
+            "x": -128.0,
+            "y": 0.79,
+            "z": -90.9
+          },
+          {
+            "x": -92.37,
+            "y": -1.5,
+            "z": -55.57
+          },
+          {
+            "x": -54.59,
+            "y": -1.5,
+            "z": -21.42
+          },
+          {
+            "x": 11.65,
+            "y": -1.5,
+            "z": -2.93
+          },
+          {
+            "x": 52.05,
+            "y": -1.5,
+            "z": 29.78
+          },
+          {
+            "x": 94.22,
+            "y": -1.5,
+            "z": 61.5
+          },
+          {
+            "x": 128.0,
+            "y": -1.5,
+            "z": 97.85
+          }
+        ]
+      },
+      {
+        "id": "country-117-river-2",
+        "name": "Oskaru River 2",
+        "widthM": 13.3,
+        "points": [
+          {
+            "x": 43.33,
+            "y": -1.5,
+            "z": -128.0
+          },
+          {
+            "x": 50.91,
+            "y": -1.5,
+            "z": -90.8
+          },
+          {
+            "x": 34.2,
+            "y": -1.5,
+            "z": -40.24
+          },
+          {
+            "x": 40.53,
+            "y": -1.5,
+            "z": -2.35
+          },
+          {
+            "x": 43.19,
+            "y": -1.5,
+            "z": 37.55
+          },
+          {
+            "x": 43.09,
+            "y": -1.5,
+            "z": 78.98
+          },
+          {
+            "x": 29.17,
+            "y": -1.5,
+            "z": 128.0
+          }
+        ]
+      }
+    ],
+    "lakes": [
+      {
+        "id": "country-117-lake-1",
+        "name": "Oskaru Lake 1",
+        "x": 69.82,
+        "y": 0.37,
+        "z": 68.05,
+        "radiusM": 10.3,
+        "type": "natural"
+      }
+    ],
+    "mountains": [
+      {
+        "id": "country-117-mountain-1",
+        "name": "Oskaru Highland 1",
+        "x": -67.84,
+        "y": 0.36,
+        "z": 83.97,
+        "heightM": 34.59,
+        "radiusM": 21.0
+      },
+      {
+        "id": "country-117-mountain-2",
+        "name": "Oskaru Highland 2",
+        "x": 50.89,
+        "y": 0.36,
+        "z": -32.41,
+        "heightM": 30.32,
+        "radiusM": 28.1
+      },
+      {
+        "id": "country-117-mountain-3",
+        "name": "Oskaru Highland 3",
+        "x": -51.57,
+        "y": 0.36,
+        "z": 5.64,
+        "heightM": 32.14,
+        "radiusM": 33.2
+      }
+    ],
+    "settlements": [
+      {
+        "id": "country-117-capital",
+        "name": "Oskaru Central",
+        "type": "capital",
+        "populationTier": "large",
+        "x": 0.0,
+        "y": -1.0,
+        "z": 0.0
+      },
+      {
+        "id": "country-117-village-1",
+        "name": "Oskaru Village 1",
+        "type": "village",
+        "populationTier": "medium",
+        "x": 57.77,
+        "y": -1.0,
+        "z": -77.25
+      },
+      {
+        "id": "country-117-village-2",
+        "name": "Oskaru Village 2",
+        "type": "village",
+        "populationTier": "small",
+        "x": -104.87,
+        "y": -1.0,
+        "z": -25.88
+      },
+      {
+        "id": "country-117-village-3",
+        "name": "Oskaru Village 3",
+        "type": "village",
+        "populationTier": "small",
+        "x": -82.53,
+        "y": -1.0,
+        "z": -96.29
+      },
+      {
+        "id": "country-117-village-4",
+        "name": "Oskaru Village 4",
+        "type": "village",
+        "populationTier": "medium",
+        "x": 87.49,
+        "y": -1.0,
+        "z": 29.57
+      },
+      {
+        "id": "country-117-village-5",
+        "name": "Oskaru Village 5",
+        "type": "village",
+        "populationTier": "small",
+        "x": 42.2,
+        "y": -1.0,
+        "z": 64.73
+      },
+      {
+        "id": "country-117-village-6",
+        "name": "Oskaru Village 6",
+        "type": "village",
+        "populationTier": "small",
+        "x": 97.59,
+        "y": -1.0,
+        "z": -32.94
+      }
+    ],
+    "roads": [
+      {
+        "id": "country-117-road-1",
+        "class": "highway",
+        "points": [
+          {
+            "x": 0.0,
+            "y": -1.5,
+            "z": 0.0
+          },
+          {
+            "x": 22.99,
+            "y": -1.5,
+            "z": -24.02
+          },
+          {
+            "x": 35.08,
+            "y": -1.5,
+            "z": -42.03
+          },
+          {
+            "x": 43.31,
+            "y": -1.5,
+            "z": -57.93
+          },
+          {
+            "x": 57.77,
+            "y": -1.5,
+            "z": -77.25
+          }
+        ]
+      },
+      {
+        "id": "country-117-road-2",
+        "class": "regional",
+        "points": [
+          {
+            "x": 0.0,
+            "y": -1.5,
+            "z": 0.0
+          },
+          {
+            "x": -37.8,
+            "y": -1.5,
+            "z": -0.1
+          },
+          {
+            "x": -44.93,
+            "y": -1.5,
+            "z": -17.07
+          },
+          {
+            "x": -69.64,
+            "y": -1.5,
+            "z": -24.37
+          },
+          {
+            "x": -104.87,
+            "y": -1.5,
+            "z": -25.88
+          }
+        ]
+      },
+      {
+        "id": "country-117-road-3",
+        "class": "regional",
+        "points": [
+          {
+            "x": 0.0,
+            "y": -1.5,
+            "z": 0.0
+          },
+          {
+            "x": -24.39,
+            "y": -1.5,
+            "z": -22.01
+          },
+          {
+            "x": -50.4,
+            "y": -1.5,
+            "z": -43.12
+          },
+          {
+            "x": -61.73,
+            "y": -1.5,
+            "z": -72.31
+          },
+          {
+            "x": -82.53,
+            "y": -1.5,
+            "z": -96.29
+          }
+        ]
+      },
+      {
+        "id": "country-117-road-4",
+        "class": "regional",
+        "points": [
+          {
+            "x": 0.0,
+            "y": -1.5,
+            "z": 0.0
+          },
+          {
+            "x": 14.4,
+            "y": -1.5,
+            "z": 11.5
+          },
+          {
+            "x": 33.53,
+            "y": -1.5,
+            "z": 20.4
+          },
+          {
+            "x": 67.17,
+            "y": -1.5,
+            "z": 21.32
+          },
+          {
+            "x": 87.49,
+            "y": -1.5,
+            "z": 29.57
+          }
+        ]
+      },
+      {
+        "id": "country-117-road-5",
+        "class": "regional",
+        "points": [
+          {
+            "x": 0.0,
+            "y": -1.5,
+            "z": 0.0
+          },
+          {
+            "x": 3.78,
+            "y": -1.5,
+            "z": 19.91
+          },
+          {
+            "x": 25.94,
+            "y": -1.5,
+            "z": 29.71
+          },
+          {
+            "x": 24.39,
+            "y": -1.5,
+            "z": 52.54
+          },
+          {
+            "x": 42.2,
+            "y": -1.5,
+            "z": 64.73
+          }
+        ]
+      },
+      {
+        "id": "country-117-road-6",
+        "class": "regional",
+        "points": [
+          {
+            "x": 0.0,
+            "y": -1.5,
+            "z": 0.0
+          },
+          {
+            "x": 32.96,
+            "y": -1.5,
+            "z": -12.94
+          },
+          {
+            "x": 45.09,
+            "y": -1.5,
+            "z": -14.43
+          },
+          {
+            "x": 74.9,
+            "y": -1.5,
+            "z": -25.64
+          },
+          {
+            "x": 97.59,
+            "y": -1.5,
+            "z": -32.94
+          }
+        ]
+      }
+    ],
+    "bridges": [
+      {
+        "id": "country-117-bridge-1",
+        "name": "Oskaru Crossing 1",
+        "roadId": "country-117-road-1",
+        "riverId": "country-117-river-1",
+        "x": 11.65,
+        "y": -1.15,
+        "z": -2.93,
+        "lengthM": 30.0
+      },
+      {
+        "id": "country-117-bridge-2",
+        "name": "Oskaru Crossing 2",
+        "roadId": "country-117-road-2",
+        "riverId": "country-117-river-2",
+        "x": 40.53,
+        "y": -1.15,
+        "z": -2.35,
+        "lengthM": 25.3
+      }
+    ],
+    "railways": [
+      {
+        "id": "country-117-rail-1",
+        "class": "intercity",
+        "points": [
+          {
+            "x": 0.0,
+            "y": -1.5,
+            "z": 0.0
+          },
+          {
+            "x": 20.7,
+            "y": -1.5,
+            "z": -7.24
+          },
+          {
+            "x": 29.97,
+            "y": -1.5,
+            "z": -8.19
+          },
+          {
+            "x": 47.1,
+            "y": -1.5,
+            "z": -13.47
+          },
+          {
+            "x": 80.52,
+            "y": -1.5,
+            "z": -27.7
+          },
+          {
+            "x": 97.59,
+            "y": -1.5,
+            "z": -32.94
+          }
+        ]
+      }
+    ],
+    "airports": [
+      {
+        "id": "country-117-airport-1",
+        "name": "Oskaru International",
+        "size": "large",
+        "x": 61.54,
+        "y": -1.3,
+        "z": -25.66,
+        "runwayLengthM": 1800
+      }
+    ],
+    "ports": [],
+    "militaryBases": [
+      {
+        "id": "country-117-base-1",
+        "name": "Oskaru Defense Station",
+        "type": "air-ground",
+        "x": -35.08,
+        "y": -1.2,
+        "z": -18.73
+      }
+    ],
+    "metroLines": [
+      {
+        "id": "country-117-metro-1",
+        "status": "planned",
+        "serves": [
+          "country-117-capital",
+          "country-117-village-1",
+          "country-117-village-2"
+        ]
+      }
+    ],
+    "airRoutes": [
+      {
+        "id": "country-117-air-route-1",
+        "status": "regional",
+        "airportId": "country-117-airport-1"
+      }
+    ],
+    "shipLanes": [
+      {
+        "id": "country-117-ship-lane-1",
+        "status": "regional",
+        "portId": null
+      }
+    ],
+    "submarineZones": [
+      {
+        "id": "country-117-submarine-zone-1",
+        "status": "charted",
+        "depthM": 80.4
+      }
+    ]
+  },
+  "missions": [
+    {
+      "id": "country-117-intro",
+      "title": "Welcome to Oskaru",
+      "status": "template",
+      "placeholder": true
+    },
+    {
+      "id": "country-117-route",
+      "title": "Cross-Region Route",
+      "status": "template",
+      "placeholder": true
+    }
+  ],
+  "systems": {
+    "weatherProfile": "template",
+    "peopleProfile": "people-oskaru",
+    "trafficProfile": "template"
+  },
+  "nextSteps": [
+    "replace placeholder settlements",
+    "author terrain landmarks",
+    "author missions and NPC schedules"
+  ]
+}

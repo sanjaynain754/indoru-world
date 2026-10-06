@@ -1,0 +1,351 @@
+{
+  "schemaVersion": 1,
+  "countryId": "country-032",
+  "mapKey": "country/norsava",
+  "seed": 1789923833686402798,
+  "sourceTerrain": "data/country-content/norsava/terrain.json",
+  "roadNetwork": {
+    "segments": [
+      {
+        "roadId": "country-032-road-1",
+        "class": "arterial",
+        "lanes": 4,
+        "speedLimitKph": 90,
+        "access": {
+          "vehicles": true,
+          "pedestrians": true,
+          "emergency": true
+        },
+        "points": [
+          {
+            "x": 0.0,
+            "y": -1.5,
+            "z": 0.0
+          },
+          {
+            "x": -5.04,
+            "y": -1.5,
+            "z": -14.63
+          },
+          {
+            "x": -38.38,
+            "y": -1.5,
+            "z": -13.7
+          },
+          {
+            "x": -40.61,
+            "y": -1.5,
+            "z": -29.88
+          },
+          {
+            "x": -53.03,
+            "y": -1.5,
+            "z": -40.46
+          }
+        ],
+        "connectedSettlementIds": [
+          "country-032-capital",
+          "country-032-village-1"
+        ]
+      },
+      {
+        "roadId": "country-032-road-2",
+        "class": "collector",
+        "lanes": 2,
+        "speedLimitKph": 55,
+        "access": {
+          "vehicles": true,
+          "pedestrians": true,
+          "emergency": true
+        },
+        "points": [
+          {
+            "x": 0.0,
+            "y": -1.5,
+            "z": 0.0
+          },
+          {
+            "x": 2.85,
+            "y": -1.5,
+            "z": 28.08
+          },
+          {
+            "x": 23.89,
+            "y": -1.5,
+            "z": 46.15
+          },
+          {
+            "x": 31.26,
+            "y": -1.5,
+            "z": 71.74
+          },
+          {
+            "x": 49.44,
+            "y": 1.74,
+            "z": 91.39
+          }
+        ],
+        "connectedSettlementIds": [
+          "country-032-capital",
+          "country-032-village-2"
+        ]
+      }
+    ],
+    "bridges": [
+      {
+        "bridgeId": "country-032-bridge-1",
+        "roadId": "country-032-road-1",
+        "riverId": "country-032-river-1",
+        "lengthM": 30.2,
+        "loadClass": "heavy-vehicle",
+        "supportsTrain": false,
+        "x": -1.01,
+        "y": -1.15,
+        "z": -83.91
+      },
+      {
+        "bridgeId": "country-032-bridge-2",
+        "roadId": "country-032-road-2",
+        "riverId": "country-032-river-2",
+        "lengthM": 30.0,
+        "loadClass": "heavy-vehicle",
+        "supportsTrain": false,
+        "x": 76.92,
+        "y": -1.15,
+        "z": -3.68
+      },
+      {
+        "bridgeId": "country-032-bridge-3",
+        "roadId": "country-032-road-1",
+        "riverId": "country-032-river-3",
+        "lengthM": 23.9,
+        "loadClass": "heavy-vehicle",
+        "supportsTrain": false,
+        "x": -2.27,
+        "y": -1.15,
+        "z": -3.01
+      }
+    ]
+  },
+  "railNetwork": {
+    "lines": [
+      {
+        "lineId": "country-032-rail-1",
+        "mode": "intercity-rail",
+        "electrification": "future-ready",
+        "trackGaugeMm": 1435,
+        "maxSpeedKph": 180,
+        "points": [
+          {
+            "x": 0.0,
+            "y": -1.5,
+            "z": 0.0
+          },
+          {
+            "x": 8.27,
+            "y": -1.5,
+            "z": 19.17
+          },
+          {
+            "x": 19.66,
+            "y": -1.5,
+            "z": 36.62
+          },
+          {
+            "x": 19.2,
+            "y": -1.5,
+            "z": 60.59
+          },
+          {
+            "x": 50.7,
+            "y": -1.39,
+            "z": 66.98
+          },
+          {
+            "x": 49.44,
+            "y": 1.74,
+            "z": 91.39
+          }
+        ]
+      }
+    ],
+    "stations": [
+      {
+        "stationId": "country-032-country-032-capital-station",
+        "settlementId": "country-032-capital",
+        "name": "Norsava Central Central Station",
+        "service": "intercity",
+        "x": 0.0,
+        "y": -1.0,
+        "z": 0.0
+      },
+      {
+        "stationId": "country-032-country-032-village-1-station",
+        "settlementId": "country-032-village-1",
+        "name": "Norsava Village 1 Central Station",
+        "service": "intercity",
+        "x": -53.03,
+        "y": -1.0,
+        "z": -40.46
+      },
+      {
+        "stationId": "country-032-country-032-village-2-station",
+        "settlementId": "country-032-village-2",
+        "name": "Norsava Village 2 Central Station",
+        "service": "intercity",
+        "x": 49.44,
+        "y": 2.24,
+        "z": 91.39
+      }
+    ],
+    "trainService": {
+      "enabled": true,
+      "rollingStockProfile": "regional-electric-template"
+    }
+  },
+  "riverNetwork": {
+    "rivers": [
+      {
+        "riverId": "country-032-river-1",
+        "navigable": true,
+        "widthM": 18.2,
+        "transportMode": "river-freight",
+        "points": [
+          {
+            "x": -128.0,
+            "y": -1.5,
+            "z": -105.73
+          },
+          {
+            "x": -77.47,
+            "y": -1.5,
+            "z": -102.97
+          },
+          {
+            "x": -46.49,
+            "y": -1.5,
+            "z": -89.45
+          },
+          {
+            "x": -1.01,
+            "y": -1.5,
+            "z": -83.91
+          },
+          {
+            "x": 54.26,
+            "y": -1.5,
+            "z": -83.76
+          },
+          {
+            "x": 92.03,
+            "y": -1.5,
+            "z": -73.98
+          },
+          {
+            "x": 128.0,
+            "y": -1.5,
+            "z": -63.2
+          }
+        ]
+      },
+      {
+        "riverId": "country-032-river-2",
+        "navigable": true,
+        "widthM": 18.0,
+        "transportMode": "river-freight",
+        "points": [
+          {
+            "x": 17.06,
+            "y": -1.5,
+            "z": -128.0
+          },
+          {
+            "x": 39.13,
+            "y": -1.5,
+            "z": -87.73
+          },
+          {
+            "x": 43.29,
+            "y": -1.5,
+            "z": -37.6
+          },
+          {
+            "x": 76.92,
+            "y": -1.5,
+            "z": -3.68
+          },
+          {
+            "x": 92.3,
+            "y": 4.38,
+            "z": 40.27
+          },
+          {
+            "x": 106.91,
+            "y": 10.59,
+            "z": 84.65
+          },
+          {
+            "x": 123.39,
+            "y": 19.69,
+            "z": 128.0
+          }
+        ]
+      },
+      {
+        "riverId": "country-032-river-3",
+        "navigable": false,
+        "widthM": 11.9,
+        "transportMode": "waterway",
+        "points": [
+          {
+            "x": -128.0,
+            "y": -1.5,
+            "z": -25.8
+          },
+          {
+            "x": -91.4,
+            "y": -1.5,
+            "z": -15.28
+          },
+          {
+            "x": -41.93,
+            "y": -1.5,
+            "z": -11.84
+          },
+          {
+            "x": -2.27,
+            "y": -1.5,
+            "z": -3.01
+          },
+          {
+            "x": 41.58,
+            "y": -1.5,
+            "z": 3.52
+          },
+          {
+            "x": 78.22,
+            "y": -1.5,
+            "z": 14.01
+          },
+          {
+            "x": 128.0,
+            "y": 6.06,
+            "z": 17.28
+          }
+        ]
+      }
+    ],
+    "riverBridges": [
+      "country-032-bridge-1",
+      "country-032-bridge-2",
+      "country-032-bridge-3"
+    ]
+  },
+  "simulationHooks": {
+    "cityInfrastructure": true,
+    "residentialAccess": true,
+    "trafficSimulation": true,
+    "massTransitSimulation": true,
+    "waterTrafficSimulation": true
+  }
+}

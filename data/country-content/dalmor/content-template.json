@@ -1,0 +1,445 @@
+{
+  "schemaVersion": 1,
+  "countryId": "country-012",
+  "name": "Dalmor",
+  "status": "playable",
+  "completion": "template",
+  "templatePolicy": {
+    "generated": true,
+    "requiresReview": true,
+    "placeholderContentAllowed": true
+  },
+  "terrain": {
+    "asset": "data/country-content/dalmor/terrain.json",
+    "mapKey": "country/dalmor",
+    "biome": "temperate-river"
+  },
+  "spawn": {
+    "x": 0.0,
+    "y": 1.2,
+    "z": 0.0,
+    "headingRad": 0.0
+  },
+  "settlements": [
+    {
+      "id": "country-012-capital",
+      "name": "Dalmor Central",
+      "type": "capital",
+      "populationTier": "large",
+      "x": 0.0,
+      "y": 9.05,
+      "z": 0.0
+    },
+    {
+      "id": "country-012-village-1",
+      "name": "Dalmor Village 1",
+      "type": "village",
+      "populationTier": "medium",
+      "x": -66.14,
+      "y": 3.79,
+      "z": -99.51
+    },
+    {
+      "id": "country-012-village-2",
+      "name": "Dalmor Village 2",
+      "type": "village",
+      "populationTier": "small",
+      "x": 25.07,
+      "y": 7.16,
+      "z": -24.09
+    }
+  ],
+  "infrastructure": {
+    "rivers": [
+      {
+        "id": "country-012-river-1",
+        "name": "Dalmor River 1",
+        "widthM": 14.7,
+        "points": [
+          {
+            "x": -128.0,
+            "y": 5.75,
+            "z": 126.07
+          },
+          {
+            "x": -74.67,
+            "y": 10.44,
+            "z": 101.86
+          },
+          {
+            "x": -31.55,
+            "y": 13.68,
+            "z": 83.26
+          },
+          {
+            "x": 6.43,
+            "y": 13.0,
+            "z": 67.48
+          },
+          {
+            "x": 39.09,
+            "y": 10.47,
+            "z": 54.63
+          },
+          {
+            "x": 95.26,
+            "y": 2.91,
+            "z": 28.85
+          },
+          {
+            "x": 128.0,
+            "y": -1.5,
+            "z": 15.96
+          }
+        ]
+      },
+      {
+        "id": "country-012-river-2",
+        "name": "Dalmor River 2",
+        "widthM": 7.0,
+        "points": [
+          {
+            "x": 119.32,
+            "y": 0.22,
+            "z": -128.0
+          },
+          {
+            "x": 73.12,
+            "y": 2.48,
+            "z": -80.89
+          },
+          {
+            "x": 51.77,
+            "y": 5.4,
+            "z": -47.44
+          },
+          {
+            "x": 13.81,
+            "y": 8.6,
+            "z": -4.85
+          },
+          {
+            "x": -41.81,
+            "y": 9.4,
+            "z": 47.44
+          },
+          {
+            "x": -82.6,
+            "y": 10.44,
+            "z": 91.59
+          },
+          {
+            "x": -109.34,
+            "y": 8.65,
+            "z": 128.0
+          }
+        ]
+      },
+      {
+        "id": "country-012-river-3",
+        "name": "Dalmor River 3",
+        "widthM": 18.7,
+        "points": [
+          {
+            "x": -128.0,
+            "y": -1.5,
+            "z": -122.5
+          },
+          {
+            "x": -87.61,
+            "y": 0.4,
+            "z": -85.99
+          },
+          {
+            "x": -35.57,
+            "y": 4.24,
+            "z": -55.9
+          },
+          {
+            "x": -11.97,
+            "y": 6.49,
+            "z": -10.16
+          },
+          {
+            "x": 39.72,
+            "y": 8.52,
+            "z": 20.13
+          },
+          {
+            "x": 81.78,
+            "y": 6.56,
+            "z": 55.72
+          },
+          {
+            "x": 128.0,
+            "y": 4.32,
+            "z": 89.02
+          }
+        ]
+      }
+    ],
+    "lakes": [
+      {
+        "id": "country-012-lake-1",
+        "name": "Dalmor Lake 1",
+        "x": 46.42,
+        "y": 0.4,
+        "z": 24.55,
+        "radiusM": 14.1,
+        "type": "reservoir"
+      }
+    ],
+    "mountains": [
+      {
+        "id": "country-012-mountain-1",
+        "name": "Dalmor Highland 1",
+        "x": -7.08,
+        "y": 10.77,
+        "z": 35.27,
+        "heightM": 24.43,
+        "radiusM": 36.1
+      }
+    ],
+    "settlements": [
+      {
+        "id": "country-012-capital",
+        "name": "Dalmor Central",
+        "type": "capital",
+        "populationTier": "large",
+        "x": 0.0,
+        "y": 9.05,
+        "z": 0.0
+      },
+      {
+        "id": "country-012-village-1",
+        "name": "Dalmor Village 1",
+        "type": "village",
+        "populationTier": "medium",
+        "x": -66.14,
+        "y": 3.79,
+        "z": -99.51
+      },
+      {
+        "id": "country-012-village-2",
+        "name": "Dalmor Village 2",
+        "type": "village",
+        "populationTier": "small",
+        "x": 25.07,
+        "y": 7.16,
+        "z": -24.09
+      }
+    ],
+    "roads": [
+      {
+        "id": "country-012-road-1",
+        "class": "highway",
+        "points": [
+          {
+            "x": 0.0,
+            "y": 8.55,
+            "z": 0.0
+          },
+          {
+            "x": -19.65,
+            "y": 6.49,
+            "z": -23.16
+          },
+          {
+            "x": -23.54,
+            "y": 5.15,
+            "z": -55.0
+          },
+          {
+            "x": -46.31,
+            "y": 4.39,
+            "z": -76.44
+          },
+          {
+            "x": -66.14,
+            "y": 3.29,
+            "z": -99.51
+          }
+        ]
+      },
+      {
+        "id": "country-012-road-2",
+        "class": "regional",
+        "points": [
+          {
+            "x": 0.0,
+            "y": 8.55,
+            "z": 0.0
+          },
+          {
+            "x": -0.01,
+            "y": 8.55,
+            "z": -2.57
+          },
+          {
+            "x": 6.0,
+            "y": 7.42,
+            "z": -8.45
+          },
+          {
+            "x": 11.87,
+            "y": 7.72,
+            "z": -14.26
+          },
+          {
+            "x": 25.07,
+            "y": 6.66,
+            "z": -24.09
+          }
+        ]
+      }
+    ],
+    "bridges": [
+      {
+        "id": "country-012-bridge-1",
+        "name": "Dalmor Crossing 1",
+        "roadId": "country-012-road-1",
+        "riverId": "country-012-river-1",
+        "x": 6.43,
+        "y": 13.35,
+        "z": 67.48,
+        "lengthM": 26.7
+      },
+      {
+        "id": "country-012-bridge-2",
+        "name": "Dalmor Crossing 2",
+        "roadId": "country-012-road-2",
+        "riverId": "country-012-river-2",
+        "x": 13.81,
+        "y": 8.95,
+        "z": -4.85,
+        "lengthM": 19.0
+      },
+      {
+        "id": "country-012-bridge-3",
+        "name": "Dalmor Crossing 3",
+        "roadId": "country-012-road-1",
+        "riverId": "country-012-river-3",
+        "x": -11.97,
+        "y": 6.84,
+        "z": -10.16,
+        "lengthM": 30.7
+      }
+    ],
+    "railways": [
+      {
+        "id": "country-012-rail-1",
+        "class": "intercity",
+        "points": [
+          {
+            "x": 0.0,
+            "y": 8.55,
+            "z": 0.0
+          },
+          {
+            "x": 14.58,
+            "y": 7.72,
+            "z": -10.08
+          },
+          {
+            "x": 8.2,
+            "y": 7.72,
+            "z": -8.63
+          },
+          {
+            "x": 8.55,
+            "y": 7.72,
+            "z": -10.88
+          },
+          {
+            "x": 16.77,
+            "y": 7.72,
+            "z": -17.46
+          },
+          {
+            "x": 25.07,
+            "y": 6.66,
+            "z": -24.09
+          }
+        ]
+      }
+    ],
+    "airports": [
+      {
+        "id": "country-012-airport-1",
+        "name": "Dalmor International",
+        "size": "regional",
+        "x": 0.19,
+        "y": 9.88,
+        "z": 20.57,
+        "runwayLengthM": 900
+      }
+    ],
+    "ports": [
+      {
+        "id": "country-012-port-1",
+        "name": "Dalmor Maritime Port",
+        "x": -89.35,
+        "y": 0.69,
+        "z": 10.36,
+        "capacity": "small"
+      }
+    ],
+    "militaryBases": [],
+    "metroLines": [
+      {
+        "id": "country-012-metro-1",
+        "status": "planned",
+        "serves": [
+          "country-012-capital",
+          "country-012-village-1",
+          "country-012-village-2"
+        ]
+      }
+    ],
+    "airRoutes": [
+      {
+        "id": "country-012-air-route-1",
+        "status": "regional",
+        "airportId": "country-012-airport-1"
+      }
+    ],
+    "shipLanes": [
+      {
+        "id": "country-012-ship-lane-1",
+        "status": "regional",
+        "portId": "country-012-port-1"
+      }
+    ],
+    "submarineZones": [
+      {
+        "id": "country-012-submarine-zone-1",
+        "status": "charted",
+        "depthM": 194.9
+      }
+    ]
+  },
+  "missions": [
+    {
+      "id": "country-012-intro",
+      "title": "Welcome to Dalmor",
+      "status": "template",
+      "placeholder": true
+    },
+    {
+      "id": "country-012-route",
+      "title": "Cross-Region Route",
+      "status": "template",
+      "placeholder": true
+    }
+  ],
+  "systems": {
+    "weatherProfile": "template",
+    "peopleProfile": "people-dalmor",
+    "trafficProfile": "template"
+  },
+  "nextSteps": [
+    "replace placeholder settlements",
+    "author terrain landmarks",
+    "author missions and NPC schedules"
+  ]
+}

@@ -45,6 +45,23 @@ body { letter-spacing: 0.02em; }
 .world-map-screen.open { opacity: 1; pointer-events: auto; transform: scale(1); }
 .world-map-card { width: min(920px, 92vw); min-height: min(620px, 82vh); padding: 30px; background: linear-gradient(145deg, rgba(13,35,47,.98), rgba(5,17,26,.98)); border: 1px solid rgba(116,224,215,.35); box-shadow: 0 25px 80px rgba(0,0,0,.5); }
 .world-map-header, .world-map-footer { display: flex; align-items: flex-start; justify-content: space-between; gap: 24px; }
+.map-close { border: 0; background: transparent; color: #8ba8b5; cursor: pointer; font: inherit; font-size: 9px; letter-spacing: .12em; padding: 6px 0; }
+.map-close:hover, .map-close:focus-visible { color: #e9b949; }
+.world-map-layout { display: grid; grid-template-columns: minmax(0, 1fr) 250px; gap: 16px; align-items: stretch; }
+.world-map-layout .island-map-graphic { margin: 22px 0; }
+.country-selector { min-width: 0; margin: 22px 0; padding: 12px; border: 1px solid rgba(137,189,196,.2); background: rgba(4,15,23,.64); }
+.selector-kicker { display: flex; justify-content: space-between; color: #72e3da; font-size: 8px; letter-spacing: .14em; }
+.selector-kicker span { color: #e9b949; }
+.country-detail { min-height: 92px; margin: 11px 0; padding-bottom: 10px; border-bottom: 1px solid rgba(137,189,196,.18); }
+.country-detail strong { display: block; color: #f5f4eb; font: 700 22px "Barlow Condensed", sans-serif; letter-spacing: .08em; }
+.country-detail small { display: block; margin-top: 4px; color: #72e3da; font-size: 8px; letter-spacing: .08em; }
+.country-detail p { margin: 8px 0; color: #8ba8b5; font-size: 8px; line-height: 1.4; }
+.enter-country { border: 1px solid rgba(233,185,73,.6); background: rgba(233,185,73,.12); color: #f6e3a0; cursor: pointer; font: 8px "DM Mono", monospace; letter-spacing: .1em; padding: 6px 8px; }
+.enter-country:hover, .enter-country:focus-visible { background: rgba(233,185,73,.24); }
+.country-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 4px; max-height: 255px; overflow-y: auto; padding-right: 3px; }
+.country-option { display: flex; align-items: center; gap: 5px; min-width: 0; border: 1px solid transparent; background: rgba(114,227,218,.04); color: #a9c0c5; cursor: pointer; font: 8px "DM Mono", monospace; letter-spacing: .02em; overflow: hidden; padding: 5px 4px; text-align: left; text-overflow: ellipsis; white-space: nowrap; }
+.country-option span { color: #607e89; font-size: 7px; }
+.country-option:hover, .country-option:focus-visible, .country-option.selected { border-color: rgba(114,227,218,.55); background: rgba(114,227,218,.14); color: #f5f4eb; }
 .world-map-header small { color: #72e3da; font-size: 9px; letter-spacing: .2em; }
 .world-map-header h2 { margin: 7px 0 0; color: #f5f4eb; font: 700 38px/1 "Barlow Condensed", sans-serif; letter-spacing: .08em; }
 .world-map-header > span { color: #8ba8b5; font-size: 9px; letter-spacing: .12em; padding-top: 6px; }
@@ -75,4 +92,4 @@ body { letter-spacing: 0.02em; }
 .transport-facilities { display: flex; gap: 12px; color: #8ba8b5; font-size: 7px; letter-spacing: .1em; }
 .transport-facilities span { padding: 5px 7px; border: 1px solid rgba(137,189,196,.2); }
 .transport-facilities .facility-active { color: #e9b949; border-color: rgba(233,185,73,.5); }
-@media (max-width: 760px) { .hud-topline { left: 16px; right: 16px; top: 16px; } .hud-health { left: 16px; top: 80px; } .hud-mission { top: 80px; width: 200px; } .hud-wanted { right: 16px; top: 80px; width: 142px; } .save-help { display: none; } .hud-minimap { right: 16px; bottom: 16px; width: 132px; height: 132px; } .hud-speed { right: 164px; bottom: 26px; } .hud-speed strong { font-size: 50px; } .hud-bottom { left: 16px; right: 16px; bottom: 18px; } .agent-chip { display: none; } .world-map-screen { padding: 16px; } .world-map-card { padding: 20px; min-height: 0; } .world-map-header h2 { font-size: 29px; } .world-map-header > span { font-size: 7px; } .island-map-graphic { height: 350px; } .island-arvarra { width: 210px; height: 132px; left: 28%; } .island-khoruun, .island-velmora { width: 110px; } .island-orsik, .island-nembasa { width: 105px; } .island-dravik, .island-erynd { width: 95px; } .world-map-footer { display: block; } .transport-facilities { margin: 12px 0; flex-wrap: wrap; } .unlock-legend { margin-top: 12px; } }
+@media (max-width: 760px) { .hud-topline { left: 16px; right: 16px; top: 16px; } .hud-health { left: 16px; top: 80px; } .hud-mission { top: 80px; width: 200px; } .hud-wanted { right: 16px; top: 80px; width: 142px; } .save-help { display: none; } .hud-minimap { right: 16px; bottom: 16px; width: 132px; height: 132px; } .hud-speed { right: 164px; bottom: 26px; } .hud-speed strong { font-size: 50px; } .hud-bottom { left: 16px; right: 16px; bottom: 18px; } .agent-chip { display: none; } .world-map-screen { padding: 16px; } .world-map-card { padding: 20px; min-height: 0; } .world-map-header h2 { font-size: 29px; } .world-map-header > span { font-size: 7px; } .world-map-layout { display: block; } .island-map-graphic { height: 350px; } .island-arvarra { width: 210px; height: 132px; left: 28%; } .island-khoruun, .island-velmora { width: 110px; } .island-orsik, .island-nembasa { width: 105px; } .island-dravik, .island-erynd { width: 95px; } .country-selector { margin-top: 0; } .country-grid { max-height: 160px; } .world-map-footer { display: block; } .transport-facilities { margin: 12px 0; flex-wrap: wrap; } .unlock-legend { margin-top: 12px; } }

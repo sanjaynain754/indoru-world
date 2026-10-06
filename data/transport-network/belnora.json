@@ -1,0 +1,500 @@
+{
+  "schemaVersion": 1,
+  "countryId": "country-119",
+  "mapKey": "country/belnora",
+  "seed": 12507688389323279638,
+  "sourceTerrain": "data/country-content/belnora/terrain.json",
+  "roadNetwork": {
+    "segments": [
+      {
+        "roadId": "country-119-road-1",
+        "class": "arterial",
+        "lanes": 4,
+        "speedLimitKph": 90,
+        "access": {
+          "vehicles": true,
+          "pedestrians": true,
+          "emergency": true
+        },
+        "points": [
+          {
+            "x": 0.0,
+            "y": 25.06,
+            "z": 0.0
+          },
+          {
+            "x": -17.75,
+            "y": 23.03,
+            "z": -6.74
+          },
+          {
+            "x": -23.7,
+            "y": 24.18,
+            "z": -19.98
+          },
+          {
+            "x": -34.84,
+            "y": 23.11,
+            "z": -30.36
+          },
+          {
+            "x": -59.72,
+            "y": 18.68,
+            "z": -33.18
+          }
+        ],
+        "connectedSettlementIds": [
+          "country-119-capital",
+          "country-119-village-1"
+        ]
+      },
+      {
+        "roadId": "country-119-road-2",
+        "class": "collector",
+        "lanes": 2,
+        "speedLimitKph": 55,
+        "access": {
+          "vehicles": true,
+          "pedestrians": true,
+          "emergency": true
+        },
+        "points": [
+          {
+            "x": 0.0,
+            "y": 25.06,
+            "z": 0.0
+          },
+          {
+            "x": 34.65,
+            "y": 24.57,
+            "z": 9.07
+          },
+          {
+            "x": 51.24,
+            "y": 21.47,
+            "z": 28.06
+          },
+          {
+            "x": 63.12,
+            "y": 18.44,
+            "z": 49.65
+          },
+          {
+            "x": 95.02,
+            "y": 14.5,
+            "z": 60.23
+          }
+        ],
+        "connectedSettlementIds": [
+          "country-119-capital",
+          "country-119-village-2"
+        ]
+      },
+      {
+        "roadId": "country-119-road-3",
+        "class": "collector",
+        "lanes": 2,
+        "speedLimitKph": 55,
+        "access": {
+          "vehicles": true,
+          "pedestrians": true,
+          "emergency": true
+        },
+        "points": [
+          {
+            "x": 0.0,
+            "y": 25.06,
+            "z": 0.0
+          },
+          {
+            "x": -29.07,
+            "y": 23.11,
+            "z": -24.42
+          },
+          {
+            "x": -57.13,
+            "y": 20.26,
+            "z": -49.4
+          },
+          {
+            "x": -79.45,
+            "y": 18.71,
+            "z": -77.53
+          },
+          {
+            "x": -106.27,
+            "y": 11.49,
+            "z": -103.19
+          }
+        ],
+        "connectedSettlementIds": [
+          "country-119-capital",
+          "country-119-village-3"
+        ]
+      },
+      {
+        "roadId": "country-119-road-4",
+        "class": "collector",
+        "lanes": 2,
+        "speedLimitKph": 55,
+        "access": {
+          "vehicles": true,
+          "pedestrians": true,
+          "emergency": true
+        },
+        "points": [
+          {
+            "x": 0.0,
+            "y": 25.06,
+            "z": 0.0
+          },
+          {
+            "x": -14.31,
+            "y": 23.03,
+            "z": 3.08
+          },
+          {
+            "x": -13.74,
+            "y": 23.03,
+            "z": -2.03
+          },
+          {
+            "x": -23.92,
+            "y": 23.03,
+            "z": -1.22
+          },
+          {
+            "x": -36.77,
+            "y": 20.5,
+            "z": 1.05
+          }
+        ],
+        "connectedSettlementIds": [
+          "country-119-capital",
+          "country-119-village-4"
+        ]
+      },
+      {
+        "roadId": "country-119-road-5",
+        "class": "collector",
+        "lanes": 2,
+        "speedLimitKph": 55,
+        "access": {
+          "vehicles": true,
+          "pedestrians": true,
+          "emergency": true
+        },
+        "points": [
+          {
+            "x": 0.0,
+            "y": 25.06,
+            "z": 0.0
+          },
+          {
+            "x": -10.24,
+            "y": 21.63,
+            "z": 12.84
+          },
+          {
+            "x": 4.0,
+            "y": 23.44,
+            "z": 12.2
+          },
+          {
+            "x": -4.48,
+            "y": 21.36,
+            "z": 24.07
+          },
+          {
+            "x": -15.15,
+            "y": 19.85,
+            "z": 37.14
+          }
+        ],
+        "connectedSettlementIds": [
+          "country-119-capital",
+          "country-119-village-5"
+        ]
+      },
+      {
+        "roadId": "country-119-road-6",
+        "class": "collector",
+        "lanes": 2,
+        "speedLimitKph": 55,
+        "access": {
+          "vehicles": true,
+          "pedestrians": true,
+          "emergency": true
+        },
+        "points": [
+          {
+            "x": 0.0,
+            "y": 25.06,
+            "z": 0.0
+          },
+          {
+            "x": -30.64,
+            "y": 19.13,
+            "z": 11.45
+          },
+          {
+            "x": -42.88,
+            "y": 16.22,
+            "z": 12.78
+          },
+          {
+            "x": -66.03,
+            "y": 13.16,
+            "z": 20.12
+          },
+          {
+            "x": -98.35,
+            "y": 5.19,
+            "z": 32.49
+          }
+        ],
+        "connectedSettlementIds": [
+          "country-119-capital",
+          "country-119-village-6"
+        ]
+      }
+    ],
+    "bridges": [
+      {
+        "bridgeId": "country-119-bridge-1",
+        "roadId": "country-119-road-1",
+        "riverId": "country-119-river-1",
+        "lengthM": 23.5,
+        "loadClass": "heavy-vehicle",
+        "supportsTrain": false,
+        "x": 7.77,
+        "y": 26.6,
+        "z": -8.7
+      },
+      {
+        "bridgeId": "country-119-bridge-2",
+        "roadId": "country-119-road-2",
+        "riverId": "country-119-river-2",
+        "lengthM": 20.2,
+        "loadClass": "heavy-vehicle",
+        "supportsTrain": false,
+        "x": 9.02,
+        "y": 26.700000000000003,
+        "z": 1.33
+      }
+    ]
+  },
+  "railNetwork": {
+    "lines": [
+      {
+        "lineId": "country-119-rail-1",
+        "mode": "intercity-rail",
+        "electrification": "future-ready",
+        "trackGaugeMm": 1435,
+        "maxSpeedKph": 180,
+        "points": [
+          {
+            "x": 0.0,
+            "y": 25.06,
+            "z": 0.0
+          },
+          {
+            "x": -21.04,
+            "y": 23.03,
+            "z": 7.25
+          },
+          {
+            "x": -39.45,
+            "y": 19.13,
+            "z": 13.05
+          },
+          {
+            "x": -61.86,
+            "y": 13.16,
+            "z": 21.06
+          },
+          {
+            "x": -86.52,
+            "y": 8.24,
+            "z": 30.31
+          },
+          {
+            "x": -98.35,
+            "y": 5.19,
+            "z": 32.49
+          }
+        ]
+      }
+    ],
+    "stations": [
+      {
+        "stationId": "country-119-country-119-capital-station",
+        "settlementId": "country-119-capital",
+        "name": "Belnora Central Central Station",
+        "service": "intercity",
+        "x": 0.0,
+        "y": 25.56,
+        "z": 0.0
+      },
+      {
+        "stationId": "country-119-country-119-village-1-station",
+        "settlementId": "country-119-village-1",
+        "name": "Belnora Village 1 Central Station",
+        "service": "intercity",
+        "x": -59.72,
+        "y": 19.18,
+        "z": -33.18
+      },
+      {
+        "stationId": "country-119-country-119-village-2-station",
+        "settlementId": "country-119-village-2",
+        "name": "Belnora Village 2 Central Station",
+        "service": "intercity",
+        "x": 95.02,
+        "y": 15.0,
+        "z": 60.23
+      },
+      {
+        "stationId": "country-119-country-119-village-3-station",
+        "settlementId": "country-119-village-3",
+        "name": "Belnora Village 3 Central Station",
+        "service": "intercity",
+        "x": -106.27,
+        "y": 11.99,
+        "z": -103.19
+      },
+      {
+        "stationId": "country-119-country-119-village-4-station",
+        "settlementId": "country-119-village-4",
+        "name": "Belnora Village 4 Central Station",
+        "service": "intercity",
+        "x": -36.77,
+        "y": 21.0,
+        "z": 1.05
+      },
+      {
+        "stationId": "country-119-country-119-village-5-station",
+        "settlementId": "country-119-village-5",
+        "name": "Belnora Village 5 Central Station",
+        "service": "intercity",
+        "x": -15.15,
+        "y": 20.35,
+        "z": 37.14
+      },
+      {
+        "stationId": "country-119-country-119-village-6-station",
+        "settlementId": "country-119-village-6",
+        "name": "Belnora Village 6 Central Station",
+        "service": "intercity",
+        "x": -98.35,
+        "y": 5.69,
+        "z": 32.49
+      }
+    ],
+    "trainService": {
+      "enabled": true,
+      "rollingStockProfile": "regional-electric-template"
+    }
+  },
+  "riverNetwork": {
+    "rivers": [
+      {
+        "riverId": "country-119-river-1",
+        "navigable": false,
+        "widthM": 11.5,
+        "transportMode": "waterway",
+        "points": [
+          {
+            "x": -128.0,
+            "y": -1.5,
+            "z": 75.11
+          },
+          {
+            "x": -88.14,
+            "y": 3.13,
+            "z": 50.14
+          },
+          {
+            "x": -37.2,
+            "y": 19.13,
+            "z": 19.08
+          },
+          {
+            "x": 7.77,
+            "y": 26.25,
+            "z": -8.7
+          },
+          {
+            "x": 41.21,
+            "y": 29.76,
+            "z": -30.14
+          },
+          {
+            "x": 80.82,
+            "y": 28.82,
+            "z": -54.97
+          },
+          {
+            "x": 128.0,
+            "y": 22.9,
+            "z": -83.96
+          }
+        ]
+      },
+      {
+        "riverId": "country-119-river-2",
+        "navigable": false,
+        "widthM": 8.2,
+        "transportMode": "waterway",
+        "points": [
+          {
+            "x": 30.74,
+            "y": 30.1,
+            "z": -128.0
+          },
+          {
+            "x": 36.28,
+            "y": 30.49,
+            "z": -91.92
+          },
+          {
+            "x": 20.73,
+            "y": 29.27,
+            "z": -44.24
+          },
+          {
+            "x": 9.02,
+            "y": 26.35,
+            "z": 1.33
+          },
+          {
+            "x": -1.52,
+            "y": 18.88,
+            "z": 46.25
+          },
+          {
+            "x": 10.33,
+            "y": 14.37,
+            "z": 78.86
+          },
+          {
+            "x": -7.88,
+            "y": 7.88,
+            "z": 128.0
+          }
+        ]
+      }
+    ],
+    "riverBridges": [
+      "country-119-bridge-1",
+      "country-119-bridge-2"
+    ]
+  },
+  "simulationHooks": {
+    "cityInfrastructure": true,
+    "residentialAccess": true,
+    "trafficSimulation": true,
+    "massTransitSimulation": true,
+    "waterTrafficSimulation": false
+  }
+}

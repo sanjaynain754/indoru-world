@@ -16,6 +16,10 @@ world::Vec3 add(const world::Vec3& a, const world::Vec3& b) {
     return {a.x + b.x, a.y + b.y, a.z + b.z};
 }
 
+world::Vec3 subtract(const world::Vec3& a, const world::Vec3& b) {
+    return {a.x - b.x, a.y - b.y, a.z - b.z};
+}
+
 world::Vec3 scale(const world::Vec3& value, float amount) {
     return {value.x * amount, value.y * amount, value.z * amount};
 }
@@ -27,6 +31,10 @@ float length(const world::Vec3& value) {
 world::Vec3 normalize(const world::Vec3& value) {
     const float magnitude = length(value);
     return magnitude > kEpsilon ? scale(value, 1.0F / magnitude) : world::Vec3{};
+}
+
+world::Vec3 project_on_contact_plane(const world::Vec3& axis, const world::Vec3& normal) {
+    return normalize(subtract(axis, scale(normal, dot(axis, normal))));
 }
 
 world::Vec3 forward(float yaw) {
@@ -74,7 +82,8 @@ SuspensionCarStepResult SuspensionCarController::update(VehicleState& vehicle, W
     const float steer_angle = steering * tuning_.max_steer_angle_rad;
     const float speed = length(vehicle.velocity);
     const world::Vec3 base_forward = forward(vehicle.yaw_rad);
-    world::Vec3 total_force{};
+    world::Vec3 total_force{0.0F, -mass * tuning_.gravity_mps2, 0.0F};
+    total_force = add(total_force, result.suspension.total_contact_force);
     float yaw_torque = 0.0F;
     std::size_t grounded_count = 0;
     float front_left_compression = 0.0F;
@@ -105,8 +114,9 @@ SuspensionCarStepResult SuspensionCarController::update(VehicleState& vehicle, W
         const bool front_wheel = is_front(wheel.position);
         const bool left_wheel = is_left(wheel.position);
         const float wheel_yaw = front_wheel ? vehicle.yaw_rad + steer_angle : vehicle.yaw_rad;
-        const world::Vec3 wheel_forward = forward(wheel_yaw);
-        const world::Vec3 wheel_right = right(wheel_yaw);
+        const world::Vec3 contact_normal = normalize(wheel.contact.normal);
+        const world::Vec3 wheel_forward = project_on_contact_plane(forward(wheel_yaw), contact_normal);
+        const world::Vec3 wheel_right = project_on_contact_plane(right(wheel_yaw), contact_normal);
         const float wheel_forward_speed = dot(vehicle.velocity, wheel_forward);
         const float wheel_lateral_speed = dot(vehicle.velocity, wheel_right);
         const float driven_factor = wheel.tuning.driven ? 1.0F : 0.0F;

@@ -13,7 +13,7 @@ Indoru के C++ vehicle layer में अब four-wheel raycast collision �
 | `Ray` | wheel anchor से terrain query |
 | `RaycastHit` | contact, distance, normal और friction |
 | `TerrainCollider` | engine physics backend के लिए abstract query interface |
-| `HeightfieldTerrain` | flat-ground smoke-test और शुरुआती prototype implementation |
+| `HeightfieldTerrain` | flat ground या grid heightfield से interpolated terrain और slope normal |
 | `WheelTuning` | radius, travel, spring, damper, grip और driven/steering flags |
 | `WheelState` | compression, contact, normal force और grounded state |
 | `WheelRig` | four-wheel vehicle configuration |
@@ -22,11 +22,11 @@ Suspension force spring compression और compression velocity के आधा
 
 ## Current limits
 
-यह अभी terrain query और wheel suspension layer है। Production vehicle backend के लिए अगले चरण में sloped mesh/BVH raycasts, wheel lateral/longitudinal tire forces, body torque, chassis collision shape, anti-roll bars, suspension force application, curb/step handling और network replication जोड़े जाएँगे। `HeightfieldTerrain` को future physics engine adapter से replace किया जा सकता है क्योंकि game code केवल `TerrainCollider` interface पर निर्भर है।
+यह अभी terrain query और wheel suspension layer है। Grid heightfield से bilinear height और slope normal निकाले जाते हैं, और controller gravity के साथ summed suspension reaction force chassis पर लागू करता है। Production vehicle backend के लिए अगले चरण में sloped mesh/BVH raycasts, chassis collision shape, curb/step handling और network replication जोड़े जाएँगे। `HeightfieldTerrain` को future physics engine adapter से replace किया जा सकता है क्योंकि game code केवल `TerrainCollider` interface पर निर्भर है।
 
 ## Verification
 
-C++ CTest में तीन smoke tests pass हुए हैं: existing world state, existing vehicle physics और new wheel collision. New wheel test flat terrain पर चार contacts, positive settled spring force, surface normal/friction, ray distance और airborne detection verify करता है।
+C++ CTest में पाँच smoke tests pass होते हैं। Wheel test flat और sloped heightfield contacts, surface normal/friction, ray distance और airborne detection verify करता है; suspension-car test gravity, airborne fall और slope load reaction भी verify करता है।
 
 ## Files
 

@@ -1,0 +1,521 @@
+{
+  "schemaVersion": 1,
+  "countryId": "country-078",
+  "name": "Rombessa",
+  "status": "playable",
+  "completion": "template",
+  "templatePolicy": {
+    "generated": true,
+    "requiresReview": true,
+    "placeholderContentAllowed": true
+  },
+  "terrain": {
+    "asset": "data/country-content/rombessa/terrain.json",
+    "mapKey": "country/rombessa",
+    "biome": "rainforest-wetland"
+  },
+  "spawn": {
+    "x": 0.0,
+    "y": 1.2,
+    "z": 0.0,
+    "headingRad": 0.0
+  },
+  "settlements": [
+    {
+      "id": "country-078-capital",
+      "name": "Rombessa Central",
+      "type": "capital",
+      "populationTier": "large",
+      "x": 0.0,
+      "y": -1.0,
+      "z": 0.0
+    },
+    {
+      "id": "country-078-village-1",
+      "name": "Rombessa Village 1",
+      "type": "village",
+      "populationTier": "medium",
+      "x": -80.44,
+      "y": 6.7,
+      "z": 20.64
+    },
+    {
+      "id": "country-078-village-2",
+      "name": "Rombessa Village 2",
+      "type": "village",
+      "populationTier": "small",
+      "x": -6.13,
+      "y": 2.85,
+      "z": -55.65
+    },
+    {
+      "id": "country-078-village-3",
+      "name": "Rombessa Village 3",
+      "type": "village",
+      "populationTier": "small",
+      "x": -1.29,
+      "y": 3.56,
+      "z": -71.68
+    }
+  ],
+  "infrastructure": {
+    "rivers": [
+      {
+        "id": "country-078-river-1",
+        "name": "Rombessa River 1",
+        "widthM": 8.6,
+        "points": [
+          {
+            "x": -128.0,
+            "y": 3.02,
+            "z": 122.93
+          },
+          {
+            "x": -96.15,
+            "y": 0.01,
+            "z": 110.78
+          },
+          {
+            "x": -46.97,
+            "y": -1.5,
+            "z": 89.1
+          },
+          {
+            "x": 7.61,
+            "y": -1.5,
+            "z": 64.46
+          },
+          {
+            "x": 53.85,
+            "y": -1.5,
+            "z": 44.39
+          },
+          {
+            "x": 92.82,
+            "y": -1.5,
+            "z": 28.33
+          },
+          {
+            "x": 128.0,
+            "y": -1.5,
+            "z": 14.35
+          }
+        ]
+      },
+      {
+        "id": "country-078-river-2",
+        "name": "Rombessa River 2",
+        "widthM": 18.5,
+        "points": [
+          {
+            "x": 113.66,
+            "y": 3.35,
+            "z": -128.0
+          },
+          {
+            "x": 84.52,
+            "y": 0.66,
+            "z": -83.36
+          },
+          {
+            "x": 54.21,
+            "y": -1.5,
+            "z": -38.08
+          },
+          {
+            "x": 38.44,
+            "y": -1.5,
+            "z": -0.8
+          },
+          {
+            "x": 7.67,
+            "y": -1.5,
+            "z": 44.74
+          },
+          {
+            "x": -23.06,
+            "y": -1.5,
+            "z": 90.25
+          },
+          {
+            "x": -39.67,
+            "y": -1.5,
+            "z": 128.0
+          }
+        ]
+      },
+      {
+        "id": "country-078-river-3",
+        "name": "Rombessa River 3",
+        "widthM": 18.0,
+        "points": [
+          {
+            "x": -128.0,
+            "y": 10.83,
+            "z": 13.88
+          },
+          {
+            "x": -86.08,
+            "y": 5.01,
+            "z": 29.94
+          },
+          {
+            "x": -35.97,
+            "y": -1.5,
+            "z": 41.49
+          },
+          {
+            "x": -8.38,
+            "y": -1.5,
+            "z": 65.43
+          },
+          {
+            "x": 32.38,
+            "y": -1.5,
+            "z": 82.12
+          },
+          {
+            "x": 86.06,
+            "y": -1.5,
+            "z": 91.71
+          },
+          {
+            "x": 128.0,
+            "y": -1.5,
+            "z": 107.76
+          }
+        ]
+      }
+    ],
+    "lakes": [
+      {
+        "id": "country-078-lake-1",
+        "name": "Rombessa Lake 1",
+        "x": 14.43,
+        "y": 0.44,
+        "z": -7.01,
+        "radiusM": 13.5,
+        "type": "reservoir"
+      },
+      {
+        "id": "country-078-lake-2",
+        "name": "Rombessa Lake 2",
+        "x": -27.28,
+        "y": 0.44,
+        "z": 45.93,
+        "radiusM": 17.0,
+        "type": "natural"
+      }
+    ],
+    "mountains": [
+      {
+        "id": "country-078-mountain-1",
+        "name": "Rombessa Highland 1",
+        "x": 31.03,
+        "y": 0.43,
+        "z": 30.02,
+        "heightM": 36.56,
+        "radiusM": 19.4
+      },
+      {
+        "id": "country-078-mountain-2",
+        "name": "Rombessa Highland 2",
+        "x": -9.18,
+        "y": 0.43,
+        "z": 24.1,
+        "heightM": 54.35,
+        "radiusM": 17.0
+      },
+      {
+        "id": "country-078-mountain-3",
+        "name": "Rombessa Highland 3",
+        "x": 54.36,
+        "y": 0.43,
+        "z": 29.3,
+        "heightM": 46.46,
+        "radiusM": 31.3
+      }
+    ],
+    "settlements": [
+      {
+        "id": "country-078-capital",
+        "name": "Rombessa Central",
+        "type": "capital",
+        "populationTier": "large",
+        "x": 0.0,
+        "y": -1.0,
+        "z": 0.0
+      },
+      {
+        "id": "country-078-village-1",
+        "name": "Rombessa Village 1",
+        "type": "village",
+        "populationTier": "medium",
+        "x": -80.44,
+        "y": 6.7,
+        "z": 20.64
+      },
+      {
+        "id": "country-078-village-2",
+        "name": "Rombessa Village 2",
+        "type": "village",
+        "populationTier": "small",
+        "x": -6.13,
+        "y": 2.85,
+        "z": -55.65
+      },
+      {
+        "id": "country-078-village-3",
+        "name": "Rombessa Village 3",
+        "type": "village",
+        "populationTier": "small",
+        "x": -1.29,
+        "y": 3.56,
+        "z": -71.68
+      }
+    ],
+    "roads": [
+      {
+        "id": "country-078-road-1",
+        "class": "highway",
+        "points": [
+          {
+            "x": 0.0,
+            "y": -1.5,
+            "z": 0.0
+          },
+          {
+            "x": -11.93,
+            "y": 0.05,
+            "z": 0.66
+          },
+          {
+            "x": -47.08,
+            "y": 2.52,
+            "z": 14.09
+          },
+          {
+            "x": -72.15,
+            "y": 6.2,
+            "z": 21.98
+          },
+          {
+            "x": -80.44,
+            "y": 6.2,
+            "z": 20.64
+          }
+        ]
+      },
+      {
+        "id": "country-078-road-2",
+        "class": "regional",
+        "points": [
+          {
+            "x": 0.0,
+            "y": -1.5,
+            "z": 0.0
+          },
+          {
+            "x": 3.18,
+            "y": -0.16,
+            "z": -16.5
+          },
+          {
+            "x": -6.14,
+            "y": 1.28,
+            "z": -26.13
+          },
+          {
+            "x": -1.13,
+            "y": 2.35,
+            "z": -43.64
+          },
+          {
+            "x": -6.13,
+            "y": 2.35,
+            "z": -55.65
+          }
+        ]
+      },
+      {
+        "id": "country-078-road-3",
+        "class": "regional",
+        "points": [
+          {
+            "x": 0.0,
+            "y": -1.5,
+            "z": 0.0
+          },
+          {
+            "x": -7.1,
+            "y": -0.16,
+            "z": -14.19
+          },
+          {
+            "x": 0.26,
+            "y": 1.28,
+            "z": -36.34
+          },
+          {
+            "x": -11.0,
+            "y": 3.67,
+            "z": -48.24
+          },
+          {
+            "x": -1.29,
+            "y": 3.06,
+            "z": -71.68
+          }
+        ]
+      }
+    ],
+    "bridges": [
+      {
+        "id": "country-078-bridge-1",
+        "name": "Rombessa Crossing 1",
+        "roadId": "country-078-road-1",
+        "riverId": "country-078-river-1",
+        "x": 7.61,
+        "y": -1.15,
+        "z": 64.46,
+        "lengthM": 20.6
+      },
+      {
+        "id": "country-078-bridge-2",
+        "name": "Rombessa Crossing 2",
+        "roadId": "country-078-road-2",
+        "riverId": "country-078-river-2",
+        "x": 38.44,
+        "y": -1.15,
+        "z": -0.8,
+        "lengthM": 30.5
+      },
+      {
+        "id": "country-078-bridge-3",
+        "name": "Rombessa Crossing 3",
+        "roadId": "country-078-road-3",
+        "riverId": "country-078-river-3",
+        "x": -8.38,
+        "y": -1.15,
+        "z": 65.43,
+        "lengthM": 30.0
+      }
+    ],
+    "railways": [
+      {
+        "id": "country-078-rail-1",
+        "class": "intercity",
+        "points": [
+          {
+            "x": 0.0,
+            "y": -1.5,
+            "z": 0.0
+          },
+          {
+            "x": 8.16,
+            "y": -1.5,
+            "z": -18.96
+          },
+          {
+            "x": -12.19,
+            "y": 1.58,
+            "z": -22.25
+          },
+          {
+            "x": 3.76,
+            "y": 2.35,
+            "z": -45.5
+          },
+          {
+            "x": -7.26,
+            "y": 2.35,
+            "z": -53.92
+          },
+          {
+            "x": -1.29,
+            "y": 3.06,
+            "z": -71.68
+          }
+        ]
+      }
+    ],
+    "airports": [
+      {
+        "id": "country-078-airport-1",
+        "name": "Rombessa International",
+        "size": "large",
+        "x": -55.82,
+        "y": -0.67,
+        "z": 47.96,
+        "runwayLengthM": 1800
+      }
+    ],
+    "ports": [
+      {
+        "id": "country-078-port-1",
+        "name": "Rombessa Maritime Port",
+        "x": -93.74,
+        "y": 0.73,
+        "z": -21.03,
+        "capacity": "small"
+      }
+    ],
+    "militaryBases": [],
+    "metroLines": [
+      {
+        "id": "country-078-metro-1",
+        "status": "planned",
+        "serves": [
+          "country-078-capital",
+          "country-078-village-1",
+          "country-078-village-2"
+        ]
+      }
+    ],
+    "airRoutes": [
+      {
+        "id": "country-078-air-route-1",
+        "status": "regional",
+        "airportId": "country-078-airport-1"
+      }
+    ],
+    "shipLanes": [
+      {
+        "id": "country-078-ship-lane-1",
+        "status": "regional",
+        "portId": "country-078-port-1"
+      }
+    ],
+    "submarineZones": [
+      {
+        "id": "country-078-submarine-zone-1",
+        "status": "charted",
+        "depthM": 60.1
+      }
+    ]
+  },
+  "missions": [
+    {
+      "id": "country-078-intro",
+      "title": "Welcome to Rombessa",
+      "status": "template",
+      "placeholder": true
+    },
+    {
+      "id": "country-078-route",
+      "title": "Cross-Region Route",
+      "status": "template",
+      "placeholder": true
+    }
+  ],
+  "systems": {
+    "weatherProfile": "template",
+    "peopleProfile": "people-rombessa",
+    "trafficProfile": "template"
+  },
+  "nextSteps": [
+    "replace placeholder settlements",
+    "author terrain landmarks",
+    "author missions and NPC schedules"
+  ]
+}

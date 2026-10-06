@@ -1,0 +1,398 @@
+{
+  "schemaVersion": 1,
+  "countryId": "country-098",
+  "mapKey": "country/molvane",
+  "seed": 18093395927630466667,
+  "sourceTerrain": "data/country-content/molvane/terrain.json",
+  "roadNetwork": {
+    "segments": [
+      {
+        "roadId": "country-098-road-1",
+        "class": "arterial",
+        "lanes": 4,
+        "speedLimitKph": 90,
+        "access": {
+          "vehicles": true,
+          "pedestrians": true,
+          "emergency": true
+        },
+        "points": [
+          {
+            "x": 0.0,
+            "y": -1.5,
+            "z": 0.0
+          },
+          {
+            "x": 13.27,
+            "y": -1.5,
+            "z": -9.5
+          },
+          {
+            "x": 11.26,
+            "y": -1.5,
+            "z": -10.59
+          },
+          {
+            "x": 30.3,
+            "y": -1.5,
+            "z": -23.27
+          },
+          {
+            "x": 36.14,
+            "y": -1.5,
+            "z": -28.68
+          }
+        ],
+        "connectedSettlementIds": [
+          "country-098-capital",
+          "country-098-village-1"
+        ]
+      },
+      {
+        "roadId": "country-098-road-2",
+        "class": "collector",
+        "lanes": 2,
+        "speedLimitKph": 55,
+        "access": {
+          "vehicles": true,
+          "pedestrians": true,
+          "emergency": true
+        },
+        "points": [
+          {
+            "x": 0.0,
+            "y": -1.5,
+            "z": 0.0
+          },
+          {
+            "x": 14.17,
+            "y": -1.5,
+            "z": -26.99
+          },
+          {
+            "x": 21.17,
+            "y": -1.5,
+            "z": -50.04
+          },
+          {
+            "x": 20.48,
+            "y": -1.5,
+            "z": -68.85
+          },
+          {
+            "x": 39.26,
+            "y": -1.5,
+            "z": -98.38
+          }
+        ],
+        "connectedSettlementIds": [
+          "country-098-capital",
+          "country-098-village-2"
+        ]
+      },
+      {
+        "roadId": "country-098-road-3",
+        "class": "collector",
+        "lanes": 2,
+        "speedLimitKph": 55,
+        "access": {
+          "vehicles": true,
+          "pedestrians": true,
+          "emergency": true
+        },
+        "points": [
+          {
+            "x": 0.0,
+            "y": -1.5,
+            "z": 0.0
+          },
+          {
+            "x": 31.11,
+            "y": -1.5,
+            "z": -25.46
+          },
+          {
+            "x": 53.65,
+            "y": -1.5,
+            "z": -46.21
+          },
+          {
+            "x": 74.38,
+            "y": -1.5,
+            "z": -65.96
+          },
+          {
+            "x": 83.82,
+            "y": -1.5,
+            "z": -79.51
+          }
+        ],
+        "connectedSettlementIds": [
+          "country-098-capital",
+          "country-098-village-3"
+        ]
+      },
+      {
+        "roadId": "country-098-road-4",
+        "class": "collector",
+        "lanes": 2,
+        "speedLimitKph": 55,
+        "access": {
+          "vehicles": true,
+          "pedestrians": true,
+          "emergency": true
+        },
+        "points": [
+          {
+            "x": 0.0,
+            "y": -1.5,
+            "z": 0.0
+          },
+          {
+            "x": 12.64,
+            "y": -1.5,
+            "z": 12.84
+          },
+          {
+            "x": 8.88,
+            "y": -1.5,
+            "z": 34.69
+          },
+          {
+            "x": 29.79,
+            "y": -1.5,
+            "z": 42.98
+          },
+          {
+            "x": 31.94,
+            "y": -1.5,
+            "z": 61.59
+          }
+        ],
+        "connectedSettlementIds": [
+          "country-098-capital",
+          "country-098-village-4"
+        ]
+      }
+    ],
+    "bridges": [
+      {
+        "bridgeId": "country-098-bridge-1",
+        "roadId": "country-098-road-1",
+        "riverId": "country-098-river-1",
+        "lengthM": 26.3,
+        "loadClass": "heavy-vehicle",
+        "supportsTrain": false,
+        "x": 8.39,
+        "y": -1.15,
+        "z": -53.4
+      },
+      {
+        "bridgeId": "country-098-bridge-2",
+        "roadId": "country-098-road-2",
+        "riverId": "country-098-river-2",
+        "lengthM": 26.3,
+        "loadClass": "heavy-vehicle",
+        "supportsTrain": false,
+        "x": 92.39,
+        "y": -1.15,
+        "z": -5.19
+      }
+    ]
+  },
+  "railNetwork": {
+    "lines": [
+      {
+        "lineId": "country-098-rail-1",
+        "mode": "intercity-rail",
+        "electrification": "future-ready",
+        "trackGaugeMm": 1435,
+        "maxSpeedKph": 180,
+        "points": [
+          {
+            "x": 0.0,
+            "y": -1.5,
+            "z": 0.0
+          },
+          {
+            "x": 17.88,
+            "y": -1.5,
+            "z": 6.0
+          },
+          {
+            "x": 5.94,
+            "y": -1.5,
+            "z": 28.4
+          },
+          {
+            "x": 26.73,
+            "y": -1.5,
+            "z": 32.8
+          },
+          {
+            "x": 29.99,
+            "y": -1.5,
+            "z": 46.83
+          },
+          {
+            "x": 31.94,
+            "y": -1.5,
+            "z": 61.59
+          }
+        ]
+      }
+    ],
+    "stations": [
+      {
+        "stationId": "country-098-country-098-capital-station",
+        "settlementId": "country-098-capital",
+        "name": "Molvane Central Central Station",
+        "service": "intercity",
+        "x": 0.0,
+        "y": -1.0,
+        "z": 0.0
+      },
+      {
+        "stationId": "country-098-country-098-village-1-station",
+        "settlementId": "country-098-village-1",
+        "name": "Molvane Village 1 Central Station",
+        "service": "intercity",
+        "x": 36.14,
+        "y": -1.0,
+        "z": -28.68
+      },
+      {
+        "stationId": "country-098-country-098-village-2-station",
+        "settlementId": "country-098-village-2",
+        "name": "Molvane Village 2 Central Station",
+        "service": "intercity",
+        "x": 39.26,
+        "y": -1.0,
+        "z": -98.38
+      },
+      {
+        "stationId": "country-098-country-098-village-3-station",
+        "settlementId": "country-098-village-3",
+        "name": "Molvane Village 3 Central Station",
+        "service": "intercity",
+        "x": 83.82,
+        "y": -1.0,
+        "z": -79.51
+      },
+      {
+        "stationId": "country-098-country-098-village-4-station",
+        "settlementId": "country-098-village-4",
+        "name": "Molvane Village 4 Central Station",
+        "service": "intercity",
+        "x": 31.94,
+        "y": -1.0,
+        "z": 61.59
+      }
+    ],
+    "trainService": {
+      "enabled": true,
+      "rollingStockProfile": "regional-electric-template"
+    }
+  },
+  "riverNetwork": {
+    "rivers": [
+      {
+        "riverId": "country-098-river-1",
+        "navigable": true,
+        "widthM": 14.3,
+        "transportMode": "river-freight",
+        "points": [
+          {
+            "x": -128.0,
+            "y": -1.5,
+            "z": -60.34
+          },
+          {
+            "x": -89.05,
+            "y": -1.5,
+            "z": -54.44
+          },
+          {
+            "x": -43.64,
+            "y": -1.5,
+            "z": -52.1
+          },
+          {
+            "x": 8.39,
+            "y": -1.5,
+            "z": -53.4
+          },
+          {
+            "x": 45.09,
+            "y": -1.5,
+            "z": -46.26
+          },
+          {
+            "x": 94.46,
+            "y": -1.5,
+            "z": -46.1
+          },
+          {
+            "x": 128.0,
+            "y": -1.5,
+            "z": -37.22
+          }
+        ]
+      },
+      {
+        "riverId": "country-098-river-2",
+        "navigable": true,
+        "widthM": 14.3,
+        "transportMode": "river-freight",
+        "points": [
+          {
+            "x": 100.14,
+            "y": -1.27,
+            "z": -128.0
+          },
+          {
+            "x": 101.47,
+            "y": -1.5,
+            "z": -89.22
+          },
+          {
+            "x": 86.07,
+            "y": -1.5,
+            "z": -41.23
+          },
+          {
+            "x": 92.39,
+            "y": -1.5,
+            "z": -5.19
+          },
+          {
+            "x": 85.64,
+            "y": -1.5,
+            "z": 38.04
+          },
+          {
+            "x": 60.92,
+            "y": -1.5,
+            "z": 91.16
+          },
+          {
+            "x": 65.78,
+            "y": -1.5,
+            "z": 128.0
+          }
+        ]
+      }
+    ],
+    "riverBridges": [
+      "country-098-bridge-1",
+      "country-098-bridge-2"
+    ]
+  },
+  "simulationHooks": {
+    "cityInfrastructure": true,
+    "residentialAccess": true,
+    "trafficSimulation": true,
+    "massTransitSimulation": true,
+    "waterTrafficSimulation": true
+  }
+}

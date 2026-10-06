@@ -1,0 +1,573 @@
+{
+  "schemaVersion": 1,
+  "countryId": "country-070",
+  "name": "Nalmora",
+  "status": "playable",
+  "completion": "template",
+  "templatePolicy": {
+    "generated": true,
+    "requiresReview": true,
+    "placeholderContentAllowed": true
+  },
+  "terrain": {
+    "asset": "data/country-content/nalmora/terrain.json",
+    "mapKey": "country/nalmora",
+    "biome": "highland-basin"
+  },
+  "spawn": {
+    "x": 0.0,
+    "y": 1.2,
+    "z": 0.0,
+    "headingRad": 0.0
+  },
+  "settlements": [
+    {
+      "id": "country-070-capital",
+      "name": "Nalmora Central",
+      "type": "capital",
+      "populationTier": "large",
+      "x": 0.0,
+      "y": 23.65,
+      "z": 0.0
+    },
+    {
+      "id": "country-070-village-1",
+      "name": "Nalmora Village 1",
+      "type": "village",
+      "populationTier": "medium",
+      "x": 62.61,
+      "y": 10.33,
+      "z": 89.95
+    },
+    {
+      "id": "country-070-village-2",
+      "name": "Nalmora Village 2",
+      "type": "village",
+      "populationTier": "small",
+      "x": -75.3,
+      "y": -1.0,
+      "z": 68.9
+    },
+    {
+      "id": "country-070-village-3",
+      "name": "Nalmora Village 3",
+      "type": "village",
+      "populationTier": "small",
+      "x": 27.97,
+      "y": 28.01,
+      "z": -1.06
+    },
+    {
+      "id": "country-070-village-4",
+      "name": "Nalmora Village 4",
+      "type": "village",
+      "populationTier": "medium",
+      "x": 72.38,
+      "y": 35.6,
+      "z": -43.04
+    },
+    {
+      "id": "country-070-village-5",
+      "name": "Nalmora Village 5",
+      "type": "village",
+      "populationTier": "small",
+      "x": 63.54,
+      "y": 39.43,
+      "z": -78.16
+    }
+  ],
+  "infrastructure": {
+    "rivers": [
+      {
+        "id": "country-070-river-1",
+        "name": "Nalmora River 1",
+        "widthM": 8.5,
+        "points": [
+          {
+            "x": -128.0,
+            "y": -1.5,
+            "z": 60.65
+          },
+          {
+            "x": -89.53,
+            "y": -1.5,
+            "z": 55.14
+          },
+          {
+            "x": -36.17,
+            "y": 7.45,
+            "z": 41.44
+          },
+          {
+            "x": 6.14,
+            "y": 17.32,
+            "z": 33.82
+          },
+          {
+            "x": 45.03,
+            "y": 20.17,
+            "z": 28.08
+          },
+          {
+            "x": 96.89,
+            "y": 19.45,
+            "z": 15.2
+          },
+          {
+            "x": 128.0,
+            "y": 13.99,
+            "z": 13.74
+          }
+        ]
+      },
+      {
+        "id": "country-070-river-2",
+        "name": "Nalmora River 2",
+        "widthM": 14.5,
+        "points": [
+          {
+            "x": 27.13,
+            "y": 40.43,
+            "z": -128.0
+          },
+          {
+            "x": 13.04,
+            "y": 35.88,
+            "z": -84.69
+          },
+          {
+            "x": -7.15,
+            "y": 27.61,
+            "z": -38.03
+          },
+          {
+            "x": -13.98,
+            "y": 19.41,
+            "z": 1.28
+          },
+          {
+            "x": -29.88,
+            "y": 7.45,
+            "z": 45.59
+          },
+          {
+            "x": -41.09,
+            "y": -1.5,
+            "z": 87.31
+          },
+          {
+            "x": -50.43,
+            "y": -1.5,
+            "z": 128.0
+          }
+        ]
+      },
+      {
+        "id": "country-070-river-3",
+        "name": "Nalmora River 3",
+        "widthM": 17.8,
+        "points": [
+          {
+            "x": -128.0,
+            "y": -1.5,
+            "z": 28.88
+          },
+          {
+            "x": -73.41,
+            "y": -1.5,
+            "z": 24.21
+          },
+          {
+            "x": -54.54,
+            "y": 5.34,
+            "z": 39.18
+          },
+          {
+            "x": 0.38,
+            "y": 17.32,
+            "z": 34.33
+          },
+          {
+            "x": 35.13,
+            "y": 16.38,
+            "z": 40.56
+          },
+          {
+            "x": 76.65,
+            "y": 15.59,
+            "z": 43.08
+          },
+          {
+            "x": 128.0,
+            "y": 8.85,
+            "z": 40.19
+          }
+        ]
+      }
+    ],
+    "lakes": [
+      {
+        "id": "country-070-lake-1",
+        "name": "Nalmora Lake 1",
+        "x": 14.85,
+        "y": 0.38,
+        "z": -7.91,
+        "radiusM": 24.9,
+        "type": "reservoir"
+      }
+    ],
+    "mountains": [
+      {
+        "id": "country-070-mountain-1",
+        "name": "Nalmora Highland 1",
+        "x": -15.71,
+        "y": 14.23,
+        "z": 33.39,
+        "heightM": 28.8,
+        "radiusM": 22.4
+      }
+    ],
+    "settlements": [
+      {
+        "id": "country-070-capital",
+        "name": "Nalmora Central",
+        "type": "capital",
+        "populationTier": "large",
+        "x": 0.0,
+        "y": 23.65,
+        "z": 0.0
+      },
+      {
+        "id": "country-070-village-1",
+        "name": "Nalmora Village 1",
+        "type": "village",
+        "populationTier": "medium",
+        "x": 62.61,
+        "y": 10.33,
+        "z": 89.95
+      },
+      {
+        "id": "country-070-village-2",
+        "name": "Nalmora Village 2",
+        "type": "village",
+        "populationTier": "small",
+        "x": -75.3,
+        "y": -1.0,
+        "z": 68.9
+      },
+      {
+        "id": "country-070-village-3",
+        "name": "Nalmora Village 3",
+        "type": "village",
+        "populationTier": "small",
+        "x": 27.97,
+        "y": 28.01,
+        "z": -1.06
+      },
+      {
+        "id": "country-070-village-4",
+        "name": "Nalmora Village 4",
+        "type": "village",
+        "populationTier": "medium",
+        "x": 72.38,
+        "y": 35.6,
+        "z": -43.04
+      },
+      {
+        "id": "country-070-village-5",
+        "name": "Nalmora Village 5",
+        "type": "village",
+        "populationTier": "small",
+        "x": 63.54,
+        "y": 39.43,
+        "z": -78.16
+      }
+    ],
+    "roads": [
+      {
+        "id": "country-070-road-1",
+        "class": "highway",
+        "points": [
+          {
+            "x": 0.0,
+            "y": 23.15,
+            "z": 0.0
+          },
+          {
+            "x": 7.41,
+            "y": 17.32,
+            "z": 27.02
+          },
+          {
+            "x": 42.53,
+            "y": 20.17,
+            "z": 38.8
+          },
+          {
+            "x": 52.19,
+            "y": 13.61,
+            "z": 64.58
+          },
+          {
+            "x": 62.61,
+            "y": 9.83,
+            "z": 89.95
+          }
+        ]
+      },
+      {
+        "id": "country-070-road-2",
+        "class": "regional",
+        "points": [
+          {
+            "x": 0.0,
+            "y": 23.15,
+            "z": 0.0
+          },
+          {
+            "x": -22.42,
+            "y": 16.96,
+            "z": 19.2
+          },
+          {
+            "x": -31.2,
+            "y": 10.13,
+            "z": 30.9
+          },
+          {
+            "x": -63.54,
+            "y": -1.5,
+            "z": 55.56
+          },
+          {
+            "x": -75.3,
+            "y": -1.5,
+            "z": 68.9
+          }
+        ]
+      },
+      {
+        "id": "country-070-road-3",
+        "class": "regional",
+        "points": [
+          {
+            "x": 0.0,
+            "y": 23.15,
+            "z": 0.0
+          },
+          {
+            "x": -0.89,
+            "y": 23.15,
+            "z": 4.07
+          },
+          {
+            "x": 3.74,
+            "y": 23.15,
+            "z": 5.1
+          },
+          {
+            "x": 21.11,
+            "y": 25.94,
+            "z": -0.87
+          },
+          {
+            "x": 27.97,
+            "y": 27.51,
+            "z": -1.06
+          }
+        ]
+      },
+      {
+        "id": "country-070-road-4",
+        "class": "regional",
+        "points": [
+          {
+            "x": 0.0,
+            "y": 23.15,
+            "z": 0.0
+          },
+          {
+            "x": 24.25,
+            "y": 30.49,
+            "z": -14.14
+          },
+          {
+            "x": 31.6,
+            "y": 30.49,
+            "z": -19.0
+          },
+          {
+            "x": 45.67,
+            "y": 33.96,
+            "z": -27.54
+          },
+          {
+            "x": 72.38,
+            "y": 35.1,
+            "z": -43.04
+          }
+        ]
+      },
+      {
+        "id": "country-070-road-5",
+        "class": "regional",
+        "points": [
+          {
+            "x": 0.0,
+            "y": 23.15,
+            "z": 0.0
+          },
+          {
+            "x": 4.31,
+            "y": 25.48,
+            "z": -13.18
+          },
+          {
+            "x": 21.48,
+            "y": 30.62,
+            "z": -33.42
+          },
+          {
+            "x": 39.01,
+            "y": 34.67,
+            "z": -53.86
+          },
+          {
+            "x": 63.54,
+            "y": 38.93,
+            "z": -78.16
+          }
+        ]
+      }
+    ],
+    "bridges": [
+      {
+        "id": "country-070-bridge-1",
+        "name": "Nalmora Crossing 1",
+        "roadId": "country-070-road-1",
+        "riverId": "country-070-river-1",
+        "x": 6.14,
+        "y": 17.67,
+        "z": 33.82,
+        "lengthM": 20.5
+      },
+      {
+        "id": "country-070-bridge-2",
+        "name": "Nalmora Crossing 2",
+        "roadId": "country-070-road-2",
+        "riverId": "country-070-river-2",
+        "x": -13.98,
+        "y": 19.76,
+        "z": 1.28,
+        "lengthM": 26.5
+      },
+      {
+        "id": "country-070-bridge-3",
+        "name": "Nalmora Crossing 3",
+        "roadId": "country-070-road-3",
+        "riverId": "country-070-river-3",
+        "x": 0.38,
+        "y": 17.67,
+        "z": 34.33,
+        "lengthM": 29.8
+      }
+    ],
+    "railways": [
+      {
+        "id": "country-070-rail-1",
+        "class": "intercity",
+        "points": [
+          {
+            "x": 0.0,
+            "y": 23.15,
+            "z": 0.0
+          },
+          {
+            "x": 21.84,
+            "y": 28.51,
+            "z": -20.65
+          },
+          {
+            "x": 33.49,
+            "y": 32.85,
+            "z": -35.7
+          },
+          {
+            "x": 28.02,
+            "y": 34.67,
+            "z": -41.34
+          },
+          {
+            "x": 61.07,
+            "y": 37.92,
+            "z": -68.16
+          },
+          {
+            "x": 63.54,
+            "y": 38.93,
+            "z": -78.16
+          }
+        ]
+      }
+    ],
+    "airports": [],
+    "ports": [],
+    "militaryBases": [],
+    "metroLines": [
+      {
+        "id": "country-070-metro-1",
+        "status": "planned",
+        "serves": [
+          "country-070-capital",
+          "country-070-village-1",
+          "country-070-village-2"
+        ]
+      }
+    ],
+    "airRoutes": [
+      {
+        "id": "country-070-air-route-1",
+        "status": "regional",
+        "airportId": null
+      }
+    ],
+    "shipLanes": [
+      {
+        "id": "country-070-ship-lane-1",
+        "status": "regional",
+        "portId": null
+      }
+    ],
+    "submarineZones": [
+      {
+        "id": "country-070-submarine-zone-1",
+        "status": "charted",
+        "depthM": 209.4
+      }
+    ]
+  },
+  "missions": [
+    {
+      "id": "country-070-intro",
+      "title": "Welcome to Nalmora",
+      "status": "template",
+      "placeholder": true
+    },
+    {
+      "id": "country-070-route",
+      "title": "Cross-Region Route",
+      "status": "template",
+      "placeholder": true
+    }
+  ],
+  "systems": {
+    "weatherProfile": "template",
+    "peopleProfile": "people-nalmora",
+    "trafficProfile": "template"
+  },
+  "nextSteps": [
+    "replace placeholder settlements",
+    "author terrain landmarks",
+    "author missions and NPC schedules"
+  ]
+}

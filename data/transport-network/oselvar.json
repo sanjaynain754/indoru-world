@@ -1,0 +1,292 @@
+{
+  "schemaVersion": 1,
+  "countryId": "country-045",
+  "mapKey": "country/oselvar",
+  "seed": 15932065529989049008,
+  "sourceTerrain": "data/country-content/oselvar/terrain.json",
+  "roadNetwork": {
+    "segments": [
+      {
+        "roadId": "country-045-road-1",
+        "class": "arterial",
+        "lanes": 4,
+        "speedLimitKph": 90,
+        "access": {
+          "vehicles": true,
+          "pedestrians": true,
+          "emergency": true
+        },
+        "points": [
+          {
+            "x": 0.0,
+            "y": -1.5,
+            "z": 0.0
+          },
+          {
+            "x": -5.74,
+            "y": -1.5,
+            "z": -19.05
+          },
+          {
+            "x": 4.51,
+            "y": -1.5,
+            "z": -46.88
+          },
+          {
+            "x": 23.48,
+            "y": -1.5,
+            "z": -79.52
+          },
+          {
+            "x": 18.36,
+            "y": -1.5,
+            "z": -98.91
+          }
+        ],
+        "connectedSettlementIds": [
+          "country-045-capital",
+          "country-045-village-1"
+        ]
+      },
+      {
+        "roadId": "country-045-road-2",
+        "class": "collector",
+        "lanes": 2,
+        "speedLimitKph": 55,
+        "access": {
+          "vehicles": true,
+          "pedestrians": true,
+          "emergency": true
+        },
+        "points": [
+          {
+            "x": 0.0,
+            "y": -1.5,
+            "z": 0.0
+          },
+          {
+            "x": 14.29,
+            "y": -1.5,
+            "z": 11.89
+          },
+          {
+            "x": 31.03,
+            "y": -1.5,
+            "z": 22.43
+          },
+          {
+            "x": 44.79,
+            "y": -1.5,
+            "z": 34.6
+          },
+          {
+            "x": 48.48,
+            "y": -1.5,
+            "z": 52.32
+          }
+        ],
+        "connectedSettlementIds": [
+          "country-045-capital",
+          "country-045-village-2"
+        ]
+      },
+      {
+        "roadId": "country-045-road-3",
+        "class": "collector",
+        "lanes": 2,
+        "speedLimitKph": 55,
+        "access": {
+          "vehicles": true,
+          "pedestrians": true,
+          "emergency": true
+        },
+        "points": [
+          {
+            "x": 0.0,
+            "y": -1.5,
+            "z": 0.0
+          },
+          {
+            "x": -19.27,
+            "y": -1.5,
+            "z": -2.8
+          },
+          {
+            "x": -38.51,
+            "y": -1.5,
+            "z": -5.61
+          },
+          {
+            "x": -63.17,
+            "y": -1.5,
+            "z": -5.44
+          },
+          {
+            "x": -84.01,
+            "y": -1.5,
+            "z": -7.37
+          }
+        ],
+        "connectedSettlementIds": [
+          "country-045-capital",
+          "country-045-village-3"
+        ]
+      }
+    ],
+    "bridges": [
+      {
+        "bridgeId": "country-045-bridge-1",
+        "roadId": "country-045-road-1",
+        "riverId": "country-045-river-1",
+        "lengthM": 31.2,
+        "loadClass": "heavy-vehicle",
+        "supportsTrain": false,
+        "x": 10.45,
+        "y": -1.15,
+        "z": -26.28
+      }
+    ]
+  },
+  "railNetwork": {
+    "lines": [
+      {
+        "lineId": "country-045-rail-1",
+        "mode": "intercity-rail",
+        "electrification": "future-ready",
+        "trackGaugeMm": 1435,
+        "maxSpeedKph": 180,
+        "points": [
+          {
+            "x": 0.0,
+            "y": -1.5,
+            "z": 0.0
+          },
+          {
+            "x": -7.27,
+            "y": -1.5,
+            "z": -6.72
+          },
+          {
+            "x": -26.41,
+            "y": -1.5,
+            "z": -6.91
+          },
+          {
+            "x": -54.89,
+            "y": -1.5,
+            "z": -1.96
+          },
+          {
+            "x": -62.4,
+            "y": -1.5,
+            "z": -8.54
+          },
+          {
+            "x": -84.01,
+            "y": -1.5,
+            "z": -7.37
+          }
+        ]
+      }
+    ],
+    "stations": [
+      {
+        "stationId": "country-045-country-045-capital-station",
+        "settlementId": "country-045-capital",
+        "name": "Oselvar Central Central Station",
+        "service": "intercity",
+        "x": 0.0,
+        "y": -1.0,
+        "z": 0.0
+      },
+      {
+        "stationId": "country-045-country-045-village-1-station",
+        "settlementId": "country-045-village-1",
+        "name": "Oselvar Village 1 Central Station",
+        "service": "intercity",
+        "x": 18.36,
+        "y": -1.0,
+        "z": -98.91
+      },
+      {
+        "stationId": "country-045-country-045-village-2-station",
+        "settlementId": "country-045-village-2",
+        "name": "Oselvar Village 2 Central Station",
+        "service": "intercity",
+        "x": 48.48,
+        "y": -1.0,
+        "z": 52.32
+      },
+      {
+        "stationId": "country-045-country-045-village-3-station",
+        "settlementId": "country-045-village-3",
+        "name": "Oselvar Village 3 Central Station",
+        "service": "intercity",
+        "x": -84.01,
+        "y": -1.0,
+        "z": -7.37
+      }
+    ],
+    "trainService": {
+      "enabled": true,
+      "rollingStockProfile": "regional-electric-template"
+    }
+  },
+  "riverNetwork": {
+    "rivers": [
+      {
+        "riverId": "country-045-river-1",
+        "navigable": true,
+        "widthM": 19.2,
+        "transportMode": "river-freight",
+        "points": [
+          {
+            "x": -128.0,
+            "y": -1.12,
+            "z": 70.73
+          },
+          {
+            "x": -87.35,
+            "y": -1.5,
+            "z": 41.42
+          },
+          {
+            "x": -39.59,
+            "y": -1.5,
+            "z": 8.2
+          },
+          {
+            "x": 10.45,
+            "y": -1.5,
+            "z": -26.28
+          },
+          {
+            "x": 36.49,
+            "y": -1.5,
+            "z": -47.56
+          },
+          {
+            "x": 80.69,
+            "y": -1.5,
+            "z": -78.82
+          },
+          {
+            "x": 128.0,
+            "y": -1.5,
+            "z": -111.8
+          }
+        ]
+      }
+    ],
+    "riverBridges": [
+      "country-045-bridge-1"
+    ]
+  },
+  "simulationHooks": {
+    "cityInfrastructure": true,
+    "residentialAccess": true,
+    "trafficSimulation": true,
+    "massTransitSimulation": true,
+    "waterTrafficSimulation": true
+  }
+}

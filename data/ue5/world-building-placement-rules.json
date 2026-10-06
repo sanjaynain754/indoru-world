@@ -1,0 +1,113 @@
+{
+  "schema": "indoru.ue5.building-placement-rules.v1",
+  "goal": "Define what every playable location needs before it can pass the world-completion gate.",
+  "capital": {
+    "requiredZones": [
+      "GovernmentDistrict",
+      "PoliceDistrict",
+      "MedicalDistrict",
+      "EducationDistrict",
+      "CommercialDistrict",
+      "NightlifeDistrict",
+      "ResidentialDistrict",
+      "IndustrialDistrict",
+      "TransportDistrict",
+      "CultureDistrict",
+      "UtilityDistrict",
+      "GreenSpace"
+    ],
+    "minimumSystems": [
+      "government",
+      "justice",
+      "police",
+      "military",
+      "fire",
+      "ambulance",
+      "hospital",
+      "education",
+      "commerce",
+      "transport",
+      "industry",
+      "residential",
+      "culture",
+      "nightlife",
+      "utilities",
+      "traffic",
+      "crowd"
+    ]
+  },
+  "majorCity": {
+    "requiredZones": [
+      "GovernmentDistrict",
+      "PoliceDistrict",
+      "MedicalDistrict",
+      "EducationDistrict",
+      "CommercialDistrict",
+      "NightlifeDistrict",
+      "ResidentialDistrict",
+      "IndustrialDistrict",
+      "TransportDistrict",
+      "CultureDistrict",
+      "UtilityDistrict",
+      "GreenSpace"
+    ],
+    "minimumSystems": [
+      "city_government",
+      "police",
+      "fire",
+      "ambulance",
+      "medical",
+      "education",
+      "commerce",
+      "transport",
+      "residential",
+      "industry_or_logistics",
+      "culture",
+      "utilities",
+      "traffic",
+      "crowd"
+    ]
+  },
+  "village": {
+    "requiredZones": [
+      "VillageCenter",
+      "PoliceFireAccess",
+      "ClinicAccess",
+      "School",
+      "Market",
+      "Workshop",
+      "FuelOrCharging",
+      "Residential",
+      "UtilityNode",
+      "CommunitySpace",
+      "AgricultureOrLocalIndustry"
+    ],
+    "minimumSystems": [
+      "local_administration",
+      "police_or_rural_post",
+      "emergency_access",
+      "clinic_access",
+      "school",
+      "market",
+      "workshop",
+      "housing",
+      "utilities",
+      "local_transport",
+      "community"
+    ]
+  },
+  "buildingCategories": {
+    "government": "Government",
+    "security": "Security",
+    "military": "Military",
+    "medical": "Medical",
+    "education": "Education",
+    "commerce": "Commerce",
+    "food_nightlife": "FoodNightlife",
+    "transport": "Transport",
+    "industry": "Industry",
+    "residential": "Residential",
+    "culture": "Culture"
+  },
+  "completionRule": "A location passes only when required zones, services, flag protocol, weather binding and streaming profile are present."
+}

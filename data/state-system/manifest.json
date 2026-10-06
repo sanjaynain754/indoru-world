@@ -1,0 +1,6664 @@
+{
+  "schemaVersion": 1,
+  "worldId": "indoru-world-001",
+  "stateCount": 726,
+  "countryCount": 120,
+  "packages": [
+    "country-001",
+    "country-002",
+    "country-003",
+    "country-004",
+    "country-005",
+    "country-006",
+    "country-007",
+    "country-008",
+    "country-009",
+    "country-010",
+    "country-011",
+    "country-012",
+    "country-013",
+    "country-014",
+    "country-015",
+    "country-016",
+    "country-017",
+    "country-018",
+    "country-019",
+    "country-020",
+    "country-021",
+    "country-022",
+    "country-023",
+    "country-024",
+    "country-025",
+    "country-026",
+    "country-027",
+    "country-028",
+    "country-029",
+    "country-030",
+    "country-031",
+    "country-032",
+    "country-033",
+    "country-034",
+    "country-035",
+    "country-036",
+    "country-037",
+    "country-038",
+    "country-039",
+    "country-040",
+    "country-041",
+    "country-042",
+    "country-043",
+    "country-044",
+    "country-045",
+    "country-046",
+    "country-047",
+    "country-048",
+    "country-049",
+    "country-050",
+    "country-051",
+    "country-052",
+    "country-053",
+    "country-054",
+    "country-055",
+    "country-056",
+    "country-057",
+    "country-058",
+    "country-059",
+    "country-060",
+    "country-061",
+    "country-062",
+    "country-063",
+    "country-064",
+    "country-065",
+    "country-066",
+    "country-067",
+    "country-068",
+    "country-069",
+    "country-070",
+    "country-071",
+    "country-072",
+    "country-073",
+    "country-074",
+    "country-075",
+    "country-076",
+    "country-077",
+    "country-078",
+    "country-079",
+    "country-080",
+    "country-081",
+    "country-082",
+    "country-083",
+    "country-084",
+    "country-085",
+    "country-086",
+    "country-087",
+    "country-088",
+    "country-089",
+    "country-090",
+    "country-091",
+    "country-092",
+    "country-093",
+    "country-094",
+    "country-095",
+    "country-096",
+    "country-097",
+    "country-098",
+    "country-099",
+    "country-100",
+    "country-101",
+    "country-102",
+    "country-103",
+    "country-104",
+    "country-105",
+    "country-106",
+    "country-107",
+    "country-108",
+    "country-109",
+    "country-110",
+    "country-111",
+    "country-112",
+    "country-113",
+    "country-114",
+    "country-115",
+    "country-116",
+    "country-117",
+    "country-118",
+    "country-119",
+    "country-120"
+  ],
+  "states": [
+    {
+      "stateId": "indoru-world-001",
+      "parentStateId": "",
+      "countryId": "",
+      "name": "Indoru",
+      "level": "world",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "region-avr",
+      "parentStateId": "indoru-world-001",
+      "countryId": "",
+      "name": "Avarra Crescent",
+      "level": "region",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "region-khr",
+      "parentStateId": "indoru-world-001",
+      "countryId": "",
+      "name": "Khoruun Reach",
+      "level": "region",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "region-vlm",
+      "parentStateId": "indoru-world-001",
+      "countryId": "",
+      "name": "Velmora Isles",
+      "level": "region",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "region-ors",
+      "parentStateId": "indoru-world-001",
+      "countryId": "",
+      "name": "Orsik Plateau",
+      "level": "region",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "region-nem",
+      "parentStateId": "indoru-world-001",
+      "countryId": "",
+      "name": "Nembasa Greenbelt",
+      "level": "region",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "region-drv",
+      "parentStateId": "indoru-world-001",
+      "countryId": "",
+      "name": "Dravik Arc",
+      "level": "region",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "region-ery",
+      "parentStateId": "indoru-world-001",
+      "countryId": "",
+      "name": "Erynd Polar Ring",
+      "level": "region",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-001",
+      "parentStateId": "region-avr",
+      "countryId": "country-001",
+      "name": "Avenra",
+      "level": "country",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-001-capital",
+      "parentStateId": "state-country-001",
+      "countryId": "country-001",
+      "name": "Avenra Central",
+      "level": "city",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-001-village-1",
+      "parentStateId": "state-country-001",
+      "countryId": "country-001",
+      "name": "Avenra Village 1",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-001-village-2",
+      "parentStateId": "state-country-001",
+      "countryId": "country-001",
+      "name": "Avenra Village 2",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-001-village-3",
+      "parentStateId": "state-country-001",
+      "countryId": "country-001",
+      "name": "Avenra Village 3",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-001-village-4",
+      "parentStateId": "state-country-001",
+      "countryId": "country-001",
+      "name": "Avenra Village 4",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-002",
+      "parentStateId": "region-avr",
+      "countryId": "country-002",
+      "name": "Solvani",
+      "level": "country",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-002-capital",
+      "parentStateId": "state-country-002",
+      "countryId": "country-002",
+      "name": "Solvani Central",
+      "level": "city",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-002-village-1",
+      "parentStateId": "state-country-002",
+      "countryId": "country-002",
+      "name": "Solvani Village 1",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-002-village-2",
+      "parentStateId": "state-country-002",
+      "countryId": "country-002",
+      "name": "Solvani Village 2",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-003",
+      "parentStateId": "region-avr",
+      "countryId": "country-003",
+      "name": "Mirqara",
+      "level": "country",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-003-capital",
+      "parentStateId": "state-country-003",
+      "countryId": "country-003",
+      "name": "Mirqara Central",
+      "level": "city",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-003-village-1",
+      "parentStateId": "state-country-003",
+      "countryId": "country-003",
+      "name": "Mirqara Village 1",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-003-village-2",
+      "parentStateId": "state-country-003",
+      "countryId": "country-003",
+      "name": "Mirqara Village 2",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-003-village-3",
+      "parentStateId": "state-country-003",
+      "countryId": "country-003",
+      "name": "Mirqara Village 3",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-003-village-4",
+      "parentStateId": "state-country-003",
+      "countryId": "country-003",
+      "name": "Mirqara Village 4",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-003-village-5",
+      "parentStateId": "state-country-003",
+      "countryId": "country-003",
+      "name": "Mirqara Village 5",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-004",
+      "parentStateId": "region-avr",
+      "countryId": "country-004",
+      "name": "Tavresh",
+      "level": "country",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-004-capital",
+      "parentStateId": "state-country-004",
+      "countryId": "country-004",
+      "name": "Tavresh Central",
+      "level": "city",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-004-village-1",
+      "parentStateId": "state-country-004",
+      "countryId": "country-004",
+      "name": "Tavresh Village 1",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-004-village-2",
+      "parentStateId": "state-country-004",
+      "countryId": "country-004",
+      "name": "Tavresh Village 2",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-004-village-3",
+      "parentStateId": "state-country-004",
+      "countryId": "country-004",
+      "name": "Tavresh Village 3",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-004-village-4",
+      "parentStateId": "state-country-004",
+      "countryId": "country-004",
+      "name": "Tavresh Village 4",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-004-village-5",
+      "parentStateId": "state-country-004",
+      "countryId": "country-004",
+      "name": "Tavresh Village 5",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-005",
+      "parentStateId": "region-avr",
+      "countryId": "country-005",
+      "name": "Orvessa",
+      "level": "country",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-005-capital",
+      "parentStateId": "state-country-005",
+      "countryId": "country-005",
+      "name": "Orvessa Central",
+      "level": "city",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-005-village-1",
+      "parentStateId": "state-country-005",
+      "countryId": "country-005",
+      "name": "Orvessa Village 1",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-005-village-2",
+      "parentStateId": "state-country-005",
+      "countryId": "country-005",
+      "name": "Orvessa Village 2",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-005-village-3",
+      "parentStateId": "state-country-005",
+      "countryId": "country-005",
+      "name": "Orvessa Village 3",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-006",
+      "parentStateId": "region-avr",
+      "countryId": "country-006",
+      "name": "Narevia",
+      "level": "country",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-006-capital",
+      "parentStateId": "state-country-006",
+      "countryId": "country-006",
+      "name": "Narevia Central",
+      "level": "city",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-006-village-1",
+      "parentStateId": "state-country-006",
+      "countryId": "country-006",
+      "name": "Narevia Village 1",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-006-village-2",
+      "parentStateId": "state-country-006",
+      "countryId": "country-006",
+      "name": "Narevia Village 2",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-006-village-3",
+      "parentStateId": "state-country-006",
+      "countryId": "country-006",
+      "name": "Narevia Village 3",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-007",
+      "parentStateId": "region-avr",
+      "countryId": "country-007",
+      "name": "Belqorin",
+      "level": "country",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-007-capital",
+      "parentStateId": "state-country-007",
+      "countryId": "country-007",
+      "name": "Belqorin Central",
+      "level": "city",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-007-village-1",
+      "parentStateId": "state-country-007",
+      "countryId": "country-007",
+      "name": "Belqorin Village 1",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-007-village-2",
+      "parentStateId": "state-country-007",
+      "countryId": "country-007",
+      "name": "Belqorin Village 2",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-007-village-3",
+      "parentStateId": "state-country-007",
+      "countryId": "country-007",
+      "name": "Belqorin Village 3",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-007-village-4",
+      "parentStateId": "state-country-007",
+      "countryId": "country-007",
+      "name": "Belqorin Village 4",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-007-village-5",
+      "parentStateId": "state-country-007",
+      "countryId": "country-007",
+      "name": "Belqorin Village 5",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-008",
+      "parentStateId": "region-avr",
+      "countryId": "country-008",
+      "name": "Yalmera",
+      "level": "country",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-008-capital",
+      "parentStateId": "state-country-008",
+      "countryId": "country-008",
+      "name": "Yalmera Central",
+      "level": "city",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-008-village-1",
+      "parentStateId": "state-country-008",
+      "countryId": "country-008",
+      "name": "Yalmera Village 1",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-008-village-2",
+      "parentStateId": "state-country-008",
+      "countryId": "country-008",
+      "name": "Yalmera Village 2",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-008-village-3",
+      "parentStateId": "state-country-008",
+      "countryId": "country-008",
+      "name": "Yalmera Village 3",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-009",
+      "parentStateId": "region-avr",
+      "countryId": "country-009",
+      "name": "Kadrune",
+      "level": "country",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-009-capital",
+      "parentStateId": "state-country-009",
+      "countryId": "country-009",
+      "name": "Kadrune Central",
+      "level": "city",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-009-village-1",
+      "parentStateId": "state-country-009",
+      "countryId": "country-009",
+      "name": "Kadrune Village 1",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-009-village-2",
+      "parentStateId": "state-country-009",
+      "countryId": "country-009",
+      "name": "Kadrune Village 2",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-009-village-3",
+      "parentStateId": "state-country-009",
+      "countryId": "country-009",
+      "name": "Kadrune Village 3",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-009-village-4",
+      "parentStateId": "state-country-009",
+      "countryId": "country-009",
+      "name": "Kadrune Village 4",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-009-village-5",
+      "parentStateId": "state-country-009",
+      "countryId": "country-009",
+      "name": "Kadrune Village 5",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-009-village-6",
+      "parentStateId": "state-country-009",
+      "countryId": "country-009",
+      "name": "Kadrune Village 6",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-010",
+      "parentStateId": "region-avr",
+      "countryId": "country-010",
+      "name": "Eshvara",
+      "level": "country",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-010-capital",
+      "parentStateId": "state-country-010",
+      "countryId": "country-010",
+      "name": "Eshvara Central",
+      "level": "city",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-010-village-1",
+      "parentStateId": "state-country-010",
+      "countryId": "country-010",
+      "name": "Eshvara Village 1",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-010-village-2",
+      "parentStateId": "state-country-010",
+      "countryId": "country-010",
+      "name": "Eshvara Village 2",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-010-village-3",
+      "parentStateId": "state-country-010",
+      "countryId": "country-010",
+      "name": "Eshvara Village 3",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-010-village-4",
+      "parentStateId": "state-country-010",
+      "countryId": "country-010",
+      "name": "Eshvara Village 4",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-010-village-5",
+      "parentStateId": "state-country-010",
+      "countryId": "country-010",
+      "name": "Eshvara Village 5",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-010-village-6",
+      "parentStateId": "state-country-010",
+      "countryId": "country-010",
+      "name": "Eshvara Village 6",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-011",
+      "parentStateId": "region-avr",
+      "countryId": "country-011",
+      "name": "Ruvessa",
+      "level": "country",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-011-capital",
+      "parentStateId": "state-country-011",
+      "countryId": "country-011",
+      "name": "Ruvessa Central",
+      "level": "city",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-011-village-1",
+      "parentStateId": "state-country-011",
+      "countryId": "country-011",
+      "name": "Ruvessa Village 1",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-011-village-2",
+      "parentStateId": "state-country-011",
+      "countryId": "country-011",
+      "name": "Ruvessa Village 2",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-012",
+      "parentStateId": "region-avr",
+      "countryId": "country-012",
+      "name": "Dalmor",
+      "level": "country",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-012-capital",
+      "parentStateId": "state-country-012",
+      "countryId": "country-012",
+      "name": "Dalmor Central",
+      "level": "city",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-012-village-1",
+      "parentStateId": "state-country-012",
+      "countryId": "country-012",
+      "name": "Dalmor Village 1",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-012-village-2",
+      "parentStateId": "state-country-012",
+      "countryId": "country-012",
+      "name": "Dalmor Village 2",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-013",
+      "parentStateId": "region-avr",
+      "countryId": "country-013",
+      "name": "Virelune",
+      "level": "country",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-013-capital",
+      "parentStateId": "state-country-013",
+      "countryId": "country-013",
+      "name": "Virelune Central",
+      "level": "city",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-013-village-1",
+      "parentStateId": "state-country-013",
+      "countryId": "country-013",
+      "name": "Virelune Village 1",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-013-village-2",
+      "parentStateId": "state-country-013",
+      "countryId": "country-013",
+      "name": "Virelune Village 2",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-013-village-3",
+      "parentStateId": "state-country-013",
+      "countryId": "country-013",
+      "name": "Virelune Village 3",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-013-village-4",
+      "parentStateId": "state-country-013",
+      "countryId": "country-013",
+      "name": "Virelune Village 4",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-014",
+      "parentStateId": "region-avr",
+      "countryId": "country-014",
+      "name": "Qamrith",
+      "level": "country",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-014-capital",
+      "parentStateId": "state-country-014",
+      "countryId": "country-014",
+      "name": "Qamrith Central",
+      "level": "city",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-014-village-1",
+      "parentStateId": "state-country-014",
+      "countryId": "country-014",
+      "name": "Qamrith Village 1",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-014-village-2",
+      "parentStateId": "state-country-014",
+      "countryId": "country-014",
+      "name": "Qamrith Village 2",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-014-village-3",
+      "parentStateId": "state-country-014",
+      "countryId": "country-014",
+      "name": "Qamrith Village 3",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-015",
+      "parentStateId": "region-avr",
+      "countryId": "country-015",
+      "name": "Senvara",
+      "level": "country",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-015-capital",
+      "parentStateId": "state-country-015",
+      "countryId": "country-015",
+      "name": "Senvara Central",
+      "level": "city",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-015-village-1",
+      "parentStateId": "state-country-015",
+      "countryId": "country-015",
+      "name": "Senvara Village 1",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-015-village-2",
+      "parentStateId": "state-country-015",
+      "countryId": "country-015",
+      "name": "Senvara Village 2",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-016",
+      "parentStateId": "region-avr",
+      "countryId": "country-016",
+      "name": "Torvane",
+      "level": "country",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-016-capital",
+      "parentStateId": "state-country-016",
+      "countryId": "country-016",
+      "name": "Torvane Central",
+      "level": "city",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-016-village-1",
+      "parentStateId": "state-country-016",
+      "countryId": "country-016",
+      "name": "Torvane Village 1",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-016-village-2",
+      "parentStateId": "state-country-016",
+      "countryId": "country-016",
+      "name": "Torvane Village 2",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-016-village-3",
+      "parentStateId": "state-country-016",
+      "countryId": "country-016",
+      "name": "Torvane Village 3",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-016-village-4",
+      "parentStateId": "state-country-016",
+      "countryId": "country-016",
+      "name": "Torvane Village 4",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-017",
+      "parentStateId": "region-avr",
+      "countryId": "country-017",
+      "name": "Ilvarra",
+      "level": "country",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-017-capital",
+      "parentStateId": "state-country-017",
+      "countryId": "country-017",
+      "name": "Ilvarra Central",
+      "level": "city",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-017-village-1",
+      "parentStateId": "state-country-017",
+      "countryId": "country-017",
+      "name": "Ilvarra Village 1",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-017-village-2",
+      "parentStateId": "state-country-017",
+      "countryId": "country-017",
+      "name": "Ilvarra Village 2",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-017-village-3",
+      "parentStateId": "state-country-017",
+      "countryId": "country-017",
+      "name": "Ilvarra Village 3",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-017-village-4",
+      "parentStateId": "state-country-017",
+      "countryId": "country-017",
+      "name": "Ilvarra Village 4",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-017-village-5",
+      "parentStateId": "state-country-017",
+      "countryId": "country-017",
+      "name": "Ilvarra Village 5",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-017-village-6",
+      "parentStateId": "state-country-017",
+      "countryId": "country-017",
+      "name": "Ilvarra Village 6",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-018",
+      "parentStateId": "region-avr",
+      "countryId": "country-018",
+      "name": "Meskora",
+      "level": "country",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-018-capital",
+      "parentStateId": "state-country-018",
+      "countryId": "country-018",
+      "name": "Meskora Central",
+      "level": "city",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-018-village-1",
+      "parentStateId": "state-country-018",
+      "countryId": "country-018",
+      "name": "Meskora Village 1",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-018-village-2",
+      "parentStateId": "state-country-018",
+      "countryId": "country-018",
+      "name": "Meskora Village 2",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-018-village-3",
+      "parentStateId": "state-country-018",
+      "countryId": "country-018",
+      "name": "Meskora Village 3",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-018-village-4",
+      "parentStateId": "state-country-018",
+      "countryId": "country-018",
+      "name": "Meskora Village 4",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-018-village-5",
+      "parentStateId": "state-country-018",
+      "countryId": "country-018",
+      "name": "Meskora Village 5",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-018-village-6",
+      "parentStateId": "state-country-018",
+      "countryId": "country-018",
+      "name": "Meskora Village 6",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-019",
+      "parentStateId": "region-avr",
+      "countryId": "country-019",
+      "name": "Arqessa",
+      "level": "country",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-019-capital",
+      "parentStateId": "state-country-019",
+      "countryId": "country-019",
+      "name": "Arqessa Central",
+      "level": "city",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-019-village-1",
+      "parentStateId": "state-country-019",
+      "countryId": "country-019",
+      "name": "Arqessa Village 1",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-019-village-2",
+      "parentStateId": "state-country-019",
+      "countryId": "country-019",
+      "name": "Arqessa Village 2",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-019-village-3",
+      "parentStateId": "state-country-019",
+      "countryId": "country-019",
+      "name": "Arqessa Village 3",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-019-village-4",
+      "parentStateId": "state-country-019",
+      "countryId": "country-019",
+      "name": "Arqessa Village 4",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-020",
+      "parentStateId": "region-avr",
+      "countryId": "country-020",
+      "name": "Venqara",
+      "level": "country",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-020-capital",
+      "parentStateId": "state-country-020",
+      "countryId": "country-020",
+      "name": "Venqara Central",
+      "level": "city",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-020-village-1",
+      "parentStateId": "state-country-020",
+      "countryId": "country-020",
+      "name": "Venqara Village 1",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-020-village-2",
+      "parentStateId": "state-country-020",
+      "countryId": "country-020",
+      "name": "Venqara Village 2",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-020-village-3",
+      "parentStateId": "state-country-020",
+      "countryId": "country-020",
+      "name": "Venqara Village 3",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-020-village-4",
+      "parentStateId": "state-country-020",
+      "countryId": "country-020",
+      "name": "Venqara Village 4",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-020-village-5",
+      "parentStateId": "state-country-020",
+      "countryId": "country-020",
+      "name": "Venqara Village 5",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-020-village-6",
+      "parentStateId": "state-country-020",
+      "countryId": "country-020",
+      "name": "Venqara Village 6",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-021",
+      "parentStateId": "region-khr",
+      "countryId": "country-021",
+      "name": "Khorava",
+      "level": "country",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-021-capital",
+      "parentStateId": "state-country-021",
+      "countryId": "country-021",
+      "name": "Khorava Central",
+      "level": "city",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-021-village-1",
+      "parentStateId": "state-country-021",
+      "countryId": "country-021",
+      "name": "Khorava Village 1",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-021-village-2",
+      "parentStateId": "state-country-021",
+      "countryId": "country-021",
+      "name": "Khorava Village 2",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-021-village-3",
+      "parentStateId": "state-country-021",
+      "countryId": "country-021",
+      "name": "Khorava Village 3",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-021-village-4",
+      "parentStateId": "state-country-021",
+      "countryId": "country-021",
+      "name": "Khorava Village 4",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-021-village-5",
+      "parentStateId": "state-country-021",
+      "countryId": "country-021",
+      "name": "Khorava Village 5",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-022",
+      "parentStateId": "region-khr",
+      "countryId": "country-022",
+      "name": "Drensik",
+      "level": "country",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-022-capital",
+      "parentStateId": "state-country-022",
+      "countryId": "country-022",
+      "name": "Drensik Central",
+      "level": "city",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-022-village-1",
+      "parentStateId": "state-country-022",
+      "countryId": "country-022",
+      "name": "Drensik Village 1",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-022-village-2",
+      "parentStateId": "state-country-022",
+      "countryId": "country-022",
+      "name": "Drensik Village 2",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-022-village-3",
+      "parentStateId": "state-country-022",
+      "countryId": "country-022",
+      "name": "Drensik Village 3",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-022-village-4",
+      "parentStateId": "state-country-022",
+      "countryId": "country-022",
+      "name": "Drensik Village 4",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-022-village-5",
+      "parentStateId": "state-country-022",
+      "countryId": "country-022",
+      "name": "Drensik Village 5",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-023",
+      "parentStateId": "region-khr",
+      "countryId": "country-023",
+      "name": "Uldren",
+      "level": "country",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-023-capital",
+      "parentStateId": "state-country-023",
+      "countryId": "country-023",
+      "name": "Uldren Central",
+      "level": "city",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-023-village-1",
+      "parentStateId": "state-country-023",
+      "countryId": "country-023",
+      "name": "Uldren Village 1",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-023-village-2",
+      "parentStateId": "state-country-023",
+      "countryId": "country-023",
+      "name": "Uldren Village 2",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-023-village-3",
+      "parentStateId": "state-country-023",
+      "countryId": "country-023",
+      "name": "Uldren Village 3",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-024",
+      "parentStateId": "region-khr",
+      "countryId": "country-024",
+      "name": "Marqeshan",
+      "level": "country",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-024-capital",
+      "parentStateId": "state-country-024",
+      "countryId": "country-024",
+      "name": "Marqeshan Central",
+      "level": "city",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-024-village-1",
+      "parentStateId": "state-country-024",
+      "countryId": "country-024",
+      "name": "Marqeshan Village 1",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-024-village-2",
+      "parentStateId": "state-country-024",
+      "countryId": "country-024",
+      "name": "Marqeshan Village 2",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-025",
+      "parentStateId": "region-khr",
+      "countryId": "country-025",
+      "name": "Vaskora",
+      "level": "country",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-025-capital",
+      "parentStateId": "state-country-025",
+      "countryId": "country-025",
+      "name": "Vaskora Central",
+      "level": "city",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-025-village-1",
+      "parentStateId": "state-country-025",
+      "countryId": "country-025",
+      "name": "Vaskora Village 1",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-025-village-2",
+      "parentStateId": "state-country-025",
+      "countryId": "country-025",
+      "name": "Vaskora Village 2",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-026",
+      "parentStateId": "region-khr",
+      "countryId": "country-026",
+      "name": "Ternuva",
+      "level": "country",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-026-capital",
+      "parentStateId": "state-country-026",
+      "countryId": "country-026",
+      "name": "Ternuva Central",
+      "level": "city",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-026-village-1",
+      "parentStateId": "state-country-026",
+      "countryId": "country-026",
+      "name": "Ternuva Village 1",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-026-village-2",
+      "parentStateId": "state-country-026",
+      "countryId": "country-026",
+      "name": "Ternuva Village 2",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-026-village-3",
+      "parentStateId": "state-country-026",
+      "countryId": "country-026",
+      "name": "Ternuva Village 3",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-026-village-4",
+      "parentStateId": "state-country-026",
+      "countryId": "country-026",
+      "name": "Ternuva Village 4",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-026-village-5",
+      "parentStateId": "state-country-026",
+      "countryId": "country-026",
+      "name": "Ternuva Village 5",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-026-village-6",
+      "parentStateId": "state-country-026",
+      "countryId": "country-026",
+      "name": "Ternuva Village 6",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-027",
+      "parentStateId": "region-khr",
+      "countryId": "country-027",
+      "name": "Oqvar",
+      "level": "country",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-027-capital",
+      "parentStateId": "state-country-027",
+      "countryId": "country-027",
+      "name": "Oqvar Central",
+      "level": "city",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-027-village-1",
+      "parentStateId": "state-country-027",
+      "countryId": "country-027",
+      "name": "Oqvar Village 1",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-027-village-2",
+      "parentStateId": "state-country-027",
+      "countryId": "country-027",
+      "name": "Oqvar Village 2",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-027-village-3",
+      "parentStateId": "state-country-027",
+      "countryId": "country-027",
+      "name": "Oqvar Village 3",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-027-village-4",
+      "parentStateId": "state-country-027",
+      "countryId": "country-027",
+      "name": "Oqvar Village 4",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-027-village-5",
+      "parentStateId": "state-country-027",
+      "countryId": "country-027",
+      "name": "Oqvar Village 5",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-027-village-6",
+      "parentStateId": "state-country-027",
+      "countryId": "country-027",
+      "name": "Oqvar Village 6",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-028",
+      "parentStateId": "region-khr",
+      "countryId": "country-028",
+      "name": "Zarekh",
+      "level": "country",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-028-capital",
+      "parentStateId": "state-country-028",
+      "countryId": "country-028",
+      "name": "Zarekh Central",
+      "level": "city",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-028-village-1",
+      "parentStateId": "state-country-028",
+      "countryId": "country-028",
+      "name": "Zarekh Village 1",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-028-village-2",
+      "parentStateId": "state-country-028",
+      "countryId": "country-028",
+      "name": "Zarekh Village 2",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-028-village-3",
+      "parentStateId": "state-country-028",
+      "countryId": "country-028",
+      "name": "Zarekh Village 3",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-029",
+      "parentStateId": "region-khr",
+      "countryId": "country-029",
+      "name": "Bravosk",
+      "level": "country",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-029-capital",
+      "parentStateId": "state-country-029",
+      "countryId": "country-029",
+      "name": "Bravosk Central",
+      "level": "city",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-029-village-1",
+      "parentStateId": "state-country-029",
+      "countryId": "country-029",
+      "name": "Bravosk Village 1",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-029-village-2",
+      "parentStateId": "state-country-029",
+      "countryId": "country-029",
+      "name": "Bravosk Village 2",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-029-village-3",
+      "parentStateId": "state-country-029",
+      "countryId": "country-029",
+      "name": "Bravosk Village 3",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-030",
+      "parentStateId": "region-khr",
+      "countryId": "country-030",
+      "name": "Kelmora",
+      "level": "country",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-030-capital",
+      "parentStateId": "state-country-030",
+      "countryId": "country-030",
+      "name": "Kelmora Central",
+      "level": "city",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-030-village-1",
+      "parentStateId": "state-country-030",
+      "countryId": "country-030",
+      "name": "Kelmora Village 1",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-030-village-2",
+      "parentStateId": "state-country-030",
+      "countryId": "country-030",
+      "name": "Kelmora Village 2",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-031",
+      "parentStateId": "region-khr",
+      "countryId": "country-031",
+      "name": "Arvunik",
+      "level": "country",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-031-capital",
+      "parentStateId": "state-country-031",
+      "countryId": "country-031",
+      "name": "Arvunik Central",
+      "level": "city",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-031-village-1",
+      "parentStateId": "state-country-031",
+      "countryId": "country-031",
+      "name": "Arvunik Village 1",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-031-village-2",
+      "parentStateId": "state-country-031",
+      "countryId": "country-031",
+      "name": "Arvunik Village 2",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-031-village-3",
+      "parentStateId": "state-country-031",
+      "countryId": "country-031",
+      "name": "Arvunik Village 3",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-031-village-4",
+      "parentStateId": "state-country-031",
+      "countryId": "country-031",
+      "name": "Arvunik Village 4",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-031-village-5",
+      "parentStateId": "state-country-031",
+      "countryId": "country-031",
+      "name": "Arvunik Village 5",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-032",
+      "parentStateId": "region-khr",
+      "countryId": "country-032",
+      "name": "Norsava",
+      "level": "country",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-032-capital",
+      "parentStateId": "state-country-032",
+      "countryId": "country-032",
+      "name": "Norsava Central",
+      "level": "city",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-032-village-1",
+      "parentStateId": "state-country-032",
+      "countryId": "country-032",
+      "name": "Norsava Village 1",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-032-village-2",
+      "parentStateId": "state-country-032",
+      "countryId": "country-032",
+      "name": "Norsava Village 2",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-033",
+      "parentStateId": "region-khr",
+      "countryId": "country-033",
+      "name": "Dovrane",
+      "level": "country",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-033-capital",
+      "parentStateId": "state-country-033",
+      "countryId": "country-033",
+      "name": "Dovrane Central",
+      "level": "city",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-033-village-1",
+      "parentStateId": "state-country-033",
+      "countryId": "country-033",
+      "name": "Dovrane Village 1",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-033-village-2",
+      "parentStateId": "state-country-033",
+      "countryId": "country-033",
+      "name": "Dovrane Village 2",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-033-village-3",
+      "parentStateId": "state-country-033",
+      "countryId": "country-033",
+      "name": "Dovrane Village 3",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-033-village-4",
+      "parentStateId": "state-country-033",
+      "countryId": "country-033",
+      "name": "Dovrane Village 4",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-033-village-5",
+      "parentStateId": "state-country-033",
+      "countryId": "country-033",
+      "name": "Dovrane Village 5",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-033-village-6",
+      "parentStateId": "state-country-033",
+      "countryId": "country-033",
+      "name": "Dovrane Village 6",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-034",
+      "parentStateId": "region-khr",
+      "countryId": "country-034",
+      "name": "Raskel",
+      "level": "country",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-034-capital",
+      "parentStateId": "state-country-034",
+      "countryId": "country-034",
+      "name": "Raskel Central",
+      "level": "city",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-034-village-1",
+      "parentStateId": "state-country-034",
+      "countryId": "country-034",
+      "name": "Raskel Village 1",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-034-village-2",
+      "parentStateId": "state-country-034",
+      "countryId": "country-034",
+      "name": "Raskel Village 2",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-034-village-3",
+      "parentStateId": "state-country-034",
+      "countryId": "country-034",
+      "name": "Raskel Village 3",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-034-village-4",
+      "parentStateId": "state-country-034",
+      "countryId": "country-034",
+      "name": "Raskel Village 4",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-034-village-5",
+      "parentStateId": "state-country-034",
+      "countryId": "country-034",
+      "name": "Raskel Village 5",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-035",
+      "parentStateId": "region-khr",
+      "countryId": "country-035",
+      "name": "Yurnek",
+      "level": "country",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-035-capital",
+      "parentStateId": "state-country-035",
+      "countryId": "country-035",
+      "name": "Yurnek Central",
+      "level": "city",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-035-village-1",
+      "parentStateId": "state-country-035",
+      "countryId": "country-035",
+      "name": "Yurnek Village 1",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-035-village-2",
+      "parentStateId": "state-country-035",
+      "countryId": "country-035",
+      "name": "Yurnek Village 2",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-035-village-3",
+      "parentStateId": "state-country-035",
+      "countryId": "country-035",
+      "name": "Yurnek Village 3",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-035-village-4",
+      "parentStateId": "state-country-035",
+      "countryId": "country-035",
+      "name": "Yurnek Village 4",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-035-village-5",
+      "parentStateId": "state-country-035",
+      "countryId": "country-035",
+      "name": "Yurnek Village 5",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-035-village-6",
+      "parentStateId": "state-country-035",
+      "countryId": "country-035",
+      "name": "Yurnek Village 6",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-036",
+      "parentStateId": "region-khr",
+      "countryId": "country-036",
+      "name": "Sorevka",
+      "level": "country",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-036-capital",
+      "parentStateId": "state-country-036",
+      "countryId": "country-036",
+      "name": "Sorevka Central",
+      "level": "city",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-036-village-1",
+      "parentStateId": "state-country-036",
+      "countryId": "country-036",
+      "name": "Sorevka Village 1",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-036-village-2",
+      "parentStateId": "state-country-036",
+      "countryId": "country-036",
+      "name": "Sorevka Village 2",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-037",
+      "parentStateId": "region-khr",
+      "countryId": "country-037",
+      "name": "Kelvash",
+      "level": "country",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-037-capital",
+      "parentStateId": "state-country-037",
+      "countryId": "country-037",
+      "name": "Kelvash Central",
+      "level": "city",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-037-village-1",
+      "parentStateId": "state-country-037",
+      "countryId": "country-037",
+      "name": "Kelvash Village 1",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-037-village-2",
+      "parentStateId": "state-country-037",
+      "countryId": "country-037",
+      "name": "Kelvash Village 2",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-037-village-3",
+      "parentStateId": "state-country-037",
+      "countryId": "country-037",
+      "name": "Kelvash Village 3",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-037-village-4",
+      "parentStateId": "state-country-037",
+      "countryId": "country-037",
+      "name": "Kelvash Village 4",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-038",
+      "parentStateId": "region-khr",
+      "countryId": "country-038",
+      "name": "Ombrava",
+      "level": "country",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-038-capital",
+      "parentStateId": "state-country-038",
+      "countryId": "country-038",
+      "name": "Ombrava Central",
+      "level": "city",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-038-village-1",
+      "parentStateId": "state-country-038",
+      "countryId": "country-038",
+      "name": "Ombrava Village 1",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-038-village-2",
+      "parentStateId": "state-country-038",
+      "countryId": "country-038",
+      "name": "Ombrava Village 2",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-038-village-3",
+      "parentStateId": "state-country-038",
+      "countryId": "country-038",
+      "name": "Ombrava Village 3",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-038-village-4",
+      "parentStateId": "state-country-038",
+      "countryId": "country-038",
+      "name": "Ombrava Village 4",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-039",
+      "parentStateId": "region-vlm",
+      "countryId": "country-039",
+      "name": "Velmora",
+      "level": "country",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-039-capital",
+      "parentStateId": "state-country-039",
+      "countryId": "country-039",
+      "name": "Velmora Central",
+      "level": "city",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-039-village-1",
+      "parentStateId": "state-country-039",
+      "countryId": "country-039",
+      "name": "Velmora Village 1",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-039-village-2",
+      "parentStateId": "state-country-039",
+      "countryId": "country-039",
+      "name": "Velmora Village 2",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-039-village-3",
+      "parentStateId": "state-country-039",
+      "countryId": "country-039",
+      "name": "Velmora Village 3",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-039-village-4",
+      "parentStateId": "state-country-039",
+      "countryId": "country-039",
+      "name": "Velmora Village 4",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-039-village-5",
+      "parentStateId": "state-country-039",
+      "countryId": "country-039",
+      "name": "Velmora Village 5",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-040",
+      "parentStateId": "region-vlm",
+      "countryId": "country-040",
+      "name": "Iskava",
+      "level": "country",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-040-capital",
+      "parentStateId": "state-country-040",
+      "countryId": "country-040",
+      "name": "Iskava Central",
+      "level": "city",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-040-village-1",
+      "parentStateId": "state-country-040",
+      "countryId": "country-040",
+      "name": "Iskava Village 1",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-040-village-2",
+      "parentStateId": "state-country-040",
+      "countryId": "country-040",
+      "name": "Iskava Village 2",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-040-village-3",
+      "parentStateId": "state-country-040",
+      "countryId": "country-040",
+      "name": "Iskava Village 3",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-040-village-4",
+      "parentStateId": "state-country-040",
+      "countryId": "country-040",
+      "name": "Iskava Village 4",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-041",
+      "parentStateId": "region-vlm",
+      "countryId": "country-041",
+      "name": "Lunessa",
+      "level": "country",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-041-capital",
+      "parentStateId": "state-country-041",
+      "countryId": "country-041",
+      "name": "Lunessa Central",
+      "level": "city",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-041-village-1",
+      "parentStateId": "state-country-041",
+      "countryId": "country-041",
+      "name": "Lunessa Village 1",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-041-village-2",
+      "parentStateId": "state-country-041",
+      "countryId": "country-041",
+      "name": "Lunessa Village 2",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-042",
+      "parentStateId": "region-vlm",
+      "countryId": "country-042",
+      "name": "Parvello",
+      "level": "country",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-042-capital",
+      "parentStateId": "state-country-042",
+      "countryId": "country-042",
+      "name": "Parvello Central",
+      "level": "city",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-042-village-1",
+      "parentStateId": "state-country-042",
+      "countryId": "country-042",
+      "name": "Parvello Village 1",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-042-village-2",
+      "parentStateId": "state-country-042",
+      "countryId": "country-042",
+      "name": "Parvello Village 2",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-043",
+      "parentStateId": "region-vlm",
+      "countryId": "country-043",
+      "name": "Tovakai",
+      "level": "country",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-043-capital",
+      "parentStateId": "state-country-043",
+      "countryId": "country-043",
+      "name": "Tovakai Central",
+      "level": "city",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-043-village-1",
+      "parentStateId": "state-country-043",
+      "countryId": "country-043",
+      "name": "Tovakai Village 1",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-043-village-2",
+      "parentStateId": "state-country-043",
+      "countryId": "country-043",
+      "name": "Tovakai Village 2",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-044",
+      "parentStateId": "region-vlm",
+      "countryId": "country-044",
+      "name": "Mairune",
+      "level": "country",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-044-capital",
+      "parentStateId": "state-country-044",
+      "countryId": "country-044",
+      "name": "Mairune Central",
+      "level": "city",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-044-village-1",
+      "parentStateId": "state-country-044",
+      "countryId": "country-044",
+      "name": "Mairune Village 1",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-044-village-2",
+      "parentStateId": "state-country-044",
+      "countryId": "country-044",
+      "name": "Mairune Village 2",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-045",
+      "parentStateId": "region-vlm",
+      "countryId": "country-045",
+      "name": "Oselvar",
+      "level": "country",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-045-capital",
+      "parentStateId": "state-country-045",
+      "countryId": "country-045",
+      "name": "Oselvar Central",
+      "level": "city",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-045-village-1",
+      "parentStateId": "state-country-045",
+      "countryId": "country-045",
+      "name": "Oselvar Village 1",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-045-village-2",
+      "parentStateId": "state-country-045",
+      "countryId": "country-045",
+      "name": "Oselvar Village 2",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-045-village-3",
+      "parentStateId": "state-country-045",
+      "countryId": "country-045",
+      "name": "Oselvar Village 3",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-046",
+      "parentStateId": "region-vlm",
+      "countryId": "country-046",
+      "name": "Quenara",
+      "level": "country",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-046-capital",
+      "parentStateId": "state-country-046",
+      "countryId": "country-046",
+      "name": "Quenara Central",
+      "level": "city",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-046-village-1",
+      "parentStateId": "state-country-046",
+      "countryId": "country-046",
+      "name": "Quenara Village 1",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-046-village-2",
+      "parentStateId": "state-country-046",
+      "countryId": "country-046",
+      "name": "Quenara Village 2",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-046-village-3",
+      "parentStateId": "state-country-046",
+      "countryId": "country-046",
+      "name": "Quenara Village 3",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-047",
+      "parentStateId": "region-vlm",
+      "countryId": "country-047",
+      "name": "Brisanto",
+      "level": "country",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-047-capital",
+      "parentStateId": "state-country-047",
+      "countryId": "country-047",
+      "name": "Brisanto Central",
+      "level": "city",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-047-village-1",
+      "parentStateId": "state-country-047",
+      "countryId": "country-047",
+      "name": "Brisanto Village 1",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-047-village-2",
+      "parentStateId": "state-country-047",
+      "countryId": "country-047",
+      "name": "Brisanto Village 2",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-047-village-3",
+      "parentStateId": "state-country-047",
+      "countryId": "country-047",
+      "name": "Brisanto Village 3",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-047-village-4",
+      "parentStateId": "state-country-047",
+      "countryId": "country-047",
+      "name": "Brisanto Village 4",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-047-village-5",
+      "parentStateId": "state-country-047",
+      "countryId": "country-047",
+      "name": "Brisanto Village 5",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-048",
+      "parentStateId": "region-vlm",
+      "countryId": "country-048",
+      "name": "Nuvessa",
+      "level": "country",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-048-capital",
+      "parentStateId": "state-country-048",
+      "countryId": "country-048",
+      "name": "Nuvessa Central",
+      "level": "city",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-048-village-1",
+      "parentStateId": "state-country-048",
+      "countryId": "country-048",
+      "name": "Nuvessa Village 1",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-048-village-2",
+      "parentStateId": "state-country-048",
+      "countryId": "country-048",
+      "name": "Nuvessa Village 2",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-048-village-3",
+      "parentStateId": "state-country-048",
+      "countryId": "country-048",
+      "name": "Nuvessa Village 3",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-048-village-4",
+      "parentStateId": "state-country-048",
+      "countryId": "country-048",
+      "name": "Nuvessa Village 4",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-048-village-5",
+      "parentStateId": "state-country-048",
+      "countryId": "country-048",
+      "name": "Nuvessa Village 5",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-048-village-6",
+      "parentStateId": "state-country-048",
+      "countryId": "country-048",
+      "name": "Nuvessa Village 6",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-049",
+      "parentStateId": "region-vlm",
+      "countryId": "country-049",
+      "name": "Elaro",
+      "level": "country",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-049-capital",
+      "parentStateId": "state-country-049",
+      "countryId": "country-049",
+      "name": "Elaro Central",
+      "level": "city",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-049-village-1",
+      "parentStateId": "state-country-049",
+      "countryId": "country-049",
+      "name": "Elaro Village 1",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-049-village-2",
+      "parentStateId": "state-country-049",
+      "countryId": "country-049",
+      "name": "Elaro Village 2",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-049-village-3",
+      "parentStateId": "state-country-049",
+      "countryId": "country-049",
+      "name": "Elaro Village 3",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-049-village-4",
+      "parentStateId": "state-country-049",
+      "countryId": "country-049",
+      "name": "Elaro Village 4",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-050",
+      "parentStateId": "region-vlm",
+      "countryId": "country-050",
+      "name": "Sorikai",
+      "level": "country",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-050-capital",
+      "parentStateId": "state-country-050",
+      "countryId": "country-050",
+      "name": "Sorikai Central",
+      "level": "city",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-050-village-1",
+      "parentStateId": "state-country-050",
+      "countryId": "country-050",
+      "name": "Sorikai Village 1",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-050-village-2",
+      "parentStateId": "state-country-050",
+      "countryId": "country-050",
+      "name": "Sorikai Village 2",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-050-village-3",
+      "parentStateId": "state-country-050",
+      "countryId": "country-050",
+      "name": "Sorikai Village 3",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-051",
+      "parentStateId": "region-vlm",
+      "countryId": "country-051",
+      "name": "Vardessa",
+      "level": "country",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-051-capital",
+      "parentStateId": "state-country-051",
+      "countryId": "country-051",
+      "name": "Vardessa Central",
+      "level": "city",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-051-village-1",
+      "parentStateId": "state-country-051",
+      "countryId": "country-051",
+      "name": "Vardessa Village 1",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-051-village-2",
+      "parentStateId": "state-country-051",
+      "countryId": "country-051",
+      "name": "Vardessa Village 2",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-051-village-3",
+      "parentStateId": "state-country-051",
+      "countryId": "country-051",
+      "name": "Vardessa Village 3",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-051-village-4",
+      "parentStateId": "state-country-051",
+      "countryId": "country-051",
+      "name": "Vardessa Village 4",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-052",
+      "parentStateId": "region-vlm",
+      "countryId": "country-052",
+      "name": "Ambriku",
+      "level": "country",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-052-capital",
+      "parentStateId": "state-country-052",
+      "countryId": "country-052",
+      "name": "Ambriku Central",
+      "level": "city",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-052-village-1",
+      "parentStateId": "state-country-052",
+      "countryId": "country-052",
+      "name": "Ambriku Village 1",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-052-village-2",
+      "parentStateId": "state-country-052",
+      "countryId": "country-052",
+      "name": "Ambriku Village 2",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-052-village-3",
+      "parentStateId": "state-country-052",
+      "countryId": "country-052",
+      "name": "Ambriku Village 3",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-053",
+      "parentStateId": "region-vlm",
+      "countryId": "country-053",
+      "name": "Kelori",
+      "level": "country",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-053-capital",
+      "parentStateId": "state-country-053",
+      "countryId": "country-053",
+      "name": "Kelori Central",
+      "level": "city",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-053-village-1",
+      "parentStateId": "state-country-053",
+      "countryId": "country-053",
+      "name": "Kelori Village 1",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-053-village-2",
+      "parentStateId": "state-country-053",
+      "countryId": "country-053",
+      "name": "Kelori Village 2",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-053-village-3",
+      "parentStateId": "state-country-053",
+      "countryId": "country-053",
+      "name": "Kelori Village 3",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-053-village-4",
+      "parentStateId": "state-country-053",
+      "countryId": "country-053",
+      "name": "Kelori Village 4",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-054",
+      "parentStateId": "region-vlm",
+      "countryId": "country-054",
+      "name": "Yavena",
+      "level": "country",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-054-capital",
+      "parentStateId": "state-country-054",
+      "countryId": "country-054",
+      "name": "Yavena Central",
+      "level": "city",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-054-village-1",
+      "parentStateId": "state-country-054",
+      "countryId": "country-054",
+      "name": "Yavena Village 1",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-054-village-2",
+      "parentStateId": "state-country-054",
+      "countryId": "country-054",
+      "name": "Yavena Village 2",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-054-village-3",
+      "parentStateId": "state-country-054",
+      "countryId": "country-054",
+      "name": "Yavena Village 3",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-054-village-4",
+      "parentStateId": "state-country-054",
+      "countryId": "country-054",
+      "name": "Yavena Village 4",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-054-village-5",
+      "parentStateId": "state-country-054",
+      "countryId": "country-054",
+      "name": "Yavena Village 5",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-055",
+      "parentStateId": "region-ors",
+      "countryId": "country-055",
+      "name": "Orsik",
+      "level": "country",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-055-capital",
+      "parentStateId": "state-country-055",
+      "countryId": "country-055",
+      "name": "Orsik Central",
+      "level": "city",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-055-village-1",
+      "parentStateId": "state-country-055",
+      "countryId": "country-055",
+      "name": "Orsik Village 1",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-055-village-2",
+      "parentStateId": "state-country-055",
+      "countryId": "country-055",
+      "name": "Orsik Village 2",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-055-village-3",
+      "parentStateId": "state-country-055",
+      "countryId": "country-055",
+      "name": "Orsik Village 3",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-055-village-4",
+      "parentStateId": "state-country-055",
+      "countryId": "country-055",
+      "name": "Orsik Village 4",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-055-village-5",
+      "parentStateId": "state-country-055",
+      "countryId": "country-055",
+      "name": "Orsik Village 5",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-055-village-6",
+      "parentStateId": "state-country-055",
+      "countryId": "country-055",
+      "name": "Orsik Village 6",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-056",
+      "parentStateId": "region-ors",
+      "countryId": "country-056",
+      "name": "Karmuun",
+      "level": "country",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-056-capital",
+      "parentStateId": "state-country-056",
+      "countryId": "country-056",
+      "name": "Karmuun Central",
+      "level": "city",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-056-village-1",
+      "parentStateId": "state-country-056",
+      "countryId": "country-056",
+      "name": "Karmuun Village 1",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-056-village-2",
+      "parentStateId": "state-country-056",
+      "countryId": "country-056",
+      "name": "Karmuun Village 2",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-056-village-3",
+      "parentStateId": "state-country-056",
+      "countryId": "country-056",
+      "name": "Karmuun Village 3",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-056-village-4",
+      "parentStateId": "state-country-056",
+      "countryId": "country-056",
+      "name": "Karmuun Village 4",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-056-village-5",
+      "parentStateId": "state-country-056",
+      "countryId": "country-056",
+      "name": "Karmuun Village 5",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-057",
+      "parentStateId": "region-ors",
+      "countryId": "country-057",
+      "name": "Veydran",
+      "level": "country",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-057-capital",
+      "parentStateId": "state-country-057",
+      "countryId": "country-057",
+      "name": "Veydran Central",
+      "level": "city",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-057-village-1",
+      "parentStateId": "state-country-057",
+      "countryId": "country-057",
+      "name": "Veydran Village 1",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-057-village-2",
+      "parentStateId": "state-country-057",
+      "countryId": "country-057",
+      "name": "Veydran Village 2",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-057-village-3",
+      "parentStateId": "state-country-057",
+      "countryId": "country-057",
+      "name": "Veydran Village 3",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-057-village-4",
+      "parentStateId": "state-country-057",
+      "countryId": "country-057",
+      "name": "Veydran Village 4",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-058",
+      "parentStateId": "region-ors",
+      "countryId": "country-058",
+      "name": "Talgora",
+      "level": "country",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-058-capital",
+      "parentStateId": "state-country-058",
+      "countryId": "country-058",
+      "name": "Talgora Central",
+      "level": "city",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-058-village-1",
+      "parentStateId": "state-country-058",
+      "countryId": "country-058",
+      "name": "Talgora Village 1",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-058-village-2",
+      "parentStateId": "state-country-058",
+      "countryId": "country-058",
+      "name": "Talgora Village 2",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-059",
+      "parentStateId": "region-ors",
+      "countryId": "country-059",
+      "name": "Uvarnek",
+      "level": "country",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-059-capital",
+      "parentStateId": "state-country-059",
+      "countryId": "country-059",
+      "name": "Uvarnek Central",
+      "level": "city",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-059-village-1",
+      "parentStateId": "state-country-059",
+      "countryId": "country-059",
+      "name": "Uvarnek Village 1",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-059-village-2",
+      "parentStateId": "state-country-059",
+      "countryId": "country-059",
+      "name": "Uvarnek Village 2",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-059-village-3",
+      "parentStateId": "state-country-059",
+      "countryId": "country-059",
+      "name": "Uvarnek Village 3",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-060",
+      "parentStateId": "region-ors",
+      "countryId": "country-060",
+      "name": "Renvak",
+      "level": "country",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-060-capital",
+      "parentStateId": "state-country-060",
+      "countryId": "country-060",
+      "name": "Renvak Central",
+      "level": "city",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-060-village-1",
+      "parentStateId": "state-country-060",
+      "countryId": "country-060",
+      "name": "Renvak Village 1",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-060-village-2",
+      "parentStateId": "state-country-060",
+      "countryId": "country-060",
+      "name": "Renvak Village 2",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-061",
+      "parentStateId": "region-ors",
+      "countryId": "country-061",
+      "name": "Morvessa",
+      "level": "country",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-061-capital",
+      "parentStateId": "state-country-061",
+      "countryId": "country-061",
+      "name": "Morvessa Central",
+      "level": "city",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-061-village-1",
+      "parentStateId": "state-country-061",
+      "countryId": "country-061",
+      "name": "Morvessa Village 1",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-061-village-2",
+      "parentStateId": "state-country-061",
+      "countryId": "country-061",
+      "name": "Morvessa Village 2",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-061-village-3",
+      "parentStateId": "state-country-061",
+      "countryId": "country-061",
+      "name": "Morvessa Village 3",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-061-village-4",
+      "parentStateId": "state-country-061",
+      "countryId": "country-061",
+      "name": "Morvessa Village 4",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-061-village-5",
+      "parentStateId": "state-country-061",
+      "countryId": "country-061",
+      "name": "Morvessa Village 5",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-062",
+      "parentStateId": "region-ors",
+      "countryId": "country-062",
+      "name": "Darsuun",
+      "level": "country",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-062-capital",
+      "parentStateId": "state-country-062",
+      "countryId": "country-062",
+      "name": "Darsuun Central",
+      "level": "city",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-062-village-1",
+      "parentStateId": "state-country-062",
+      "countryId": "country-062",
+      "name": "Darsuun Village 1",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-062-village-2",
+      "parentStateId": "state-country-062",
+      "countryId": "country-062",
+      "name": "Darsuun Village 2",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-062-village-3",
+      "parentStateId": "state-country-062",
+      "countryId": "country-062",
+      "name": "Darsuun Village 3",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-062-village-4",
+      "parentStateId": "state-country-062",
+      "countryId": "country-062",
+      "name": "Darsuun Village 4",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-063",
+      "parentStateId": "region-ors",
+      "countryId": "country-063",
+      "name": "Qelvar",
+      "level": "country",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-063-capital",
+      "parentStateId": "state-country-063",
+      "countryId": "country-063",
+      "name": "Qelvar Central",
+      "level": "city",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-063-village-1",
+      "parentStateId": "state-country-063",
+      "countryId": "country-063",
+      "name": "Qelvar Village 1",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-063-village-2",
+      "parentStateId": "state-country-063",
+      "countryId": "country-063",
+      "name": "Qelvar Village 2",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-064",
+      "parentStateId": "region-ors",
+      "countryId": "country-064",
+      "name": "Amskara",
+      "level": "country",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-064-capital",
+      "parentStateId": "state-country-064",
+      "countryId": "country-064",
+      "name": "Amskara Central",
+      "level": "city",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-064-village-1",
+      "parentStateId": "state-country-064",
+      "countryId": "country-064",
+      "name": "Amskara Village 1",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-064-village-2",
+      "parentStateId": "state-country-064",
+      "countryId": "country-064",
+      "name": "Amskara Village 2",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-064-village-3",
+      "parentStateId": "state-country-064",
+      "countryId": "country-064",
+      "name": "Amskara Village 3",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-065",
+      "parentStateId": "region-ors",
+      "countryId": "country-065",
+      "name": "Jorvane",
+      "level": "country",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-065-capital",
+      "parentStateId": "state-country-065",
+      "countryId": "country-065",
+      "name": "Jorvane Central",
+      "level": "city",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-065-village-1",
+      "parentStateId": "state-country-065",
+      "countryId": "country-065",
+      "name": "Jorvane Village 1",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-065-village-2",
+      "parentStateId": "state-country-065",
+      "countryId": "country-065",
+      "name": "Jorvane Village 2",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-066",
+      "parentStateId": "region-ors",
+      "countryId": "country-066",
+      "name": "Belvarn",
+      "level": "country",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-066-capital",
+      "parentStateId": "state-country-066",
+      "countryId": "country-066",
+      "name": "Belvarn Central",
+      "level": "city",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-066-village-1",
+      "parentStateId": "state-country-066",
+      "countryId": "country-066",
+      "name": "Belvarn Village 1",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-066-village-2",
+      "parentStateId": "state-country-066",
+      "countryId": "country-066",
+      "name": "Belvarn Village 2",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-066-village-3",
+      "parentStateId": "state-country-066",
+      "countryId": "country-066",
+      "name": "Belvarn Village 3",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-066-village-4",
+      "parentStateId": "state-country-066",
+      "countryId": "country-066",
+      "name": "Belvarn Village 4",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-066-village-5",
+      "parentStateId": "state-country-066",
+      "countryId": "country-066",
+      "name": "Belvarn Village 5",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-066-village-6",
+      "parentStateId": "state-country-066",
+      "countryId": "country-066",
+      "name": "Belvarn Village 6",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-067",
+      "parentStateId": "region-ors",
+      "countryId": "country-067",
+      "name": "Hurnessa",
+      "level": "country",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-067-capital",
+      "parentStateId": "state-country-067",
+      "countryId": "country-067",
+      "name": "Hurnessa Central",
+      "level": "city",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-067-village-1",
+      "parentStateId": "state-country-067",
+      "countryId": "country-067",
+      "name": "Hurnessa Village 1",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-067-village-2",
+      "parentStateId": "state-country-067",
+      "countryId": "country-067",
+      "name": "Hurnessa Village 2",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-067-village-3",
+      "parentStateId": "state-country-067",
+      "countryId": "country-067",
+      "name": "Hurnessa Village 3",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-067-village-4",
+      "parentStateId": "state-country-067",
+      "countryId": "country-067",
+      "name": "Hurnessa Village 4",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-067-village-5",
+      "parentStateId": "state-country-067",
+      "countryId": "country-067",
+      "name": "Hurnessa Village 5",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-068",
+      "parentStateId": "region-ors",
+      "countryId": "country-068",
+      "name": "Salkor",
+      "level": "country",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-068-capital",
+      "parentStateId": "state-country-068",
+      "countryId": "country-068",
+      "name": "Salkor Central",
+      "level": "city",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-068-village-1",
+      "parentStateId": "state-country-068",
+      "countryId": "country-068",
+      "name": "Salkor Village 1",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-068-village-2",
+      "parentStateId": "state-country-068",
+      "countryId": "country-068",
+      "name": "Salkor Village 2",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-068-village-3",
+      "parentStateId": "state-country-068",
+      "countryId": "country-068",
+      "name": "Salkor Village 3",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-068-village-4",
+      "parentStateId": "state-country-068",
+      "countryId": "country-068",
+      "name": "Salkor Village 4",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-068-village-5",
+      "parentStateId": "state-country-068",
+      "countryId": "country-068",
+      "name": "Salkor Village 5",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-069",
+      "parentStateId": "region-ors",
+      "countryId": "country-069",
+      "name": "Eryvash",
+      "level": "country",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-069-capital",
+      "parentStateId": "state-country-069",
+      "countryId": "country-069",
+      "name": "Eryvash Central",
+      "level": "city",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-069-village-1",
+      "parentStateId": "state-country-069",
+      "countryId": "country-069",
+      "name": "Eryvash Village 1",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-069-village-2",
+      "parentStateId": "state-country-069",
+      "countryId": "country-069",
+      "name": "Eryvash Village 2",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-069-village-3",
+      "parentStateId": "state-country-069",
+      "countryId": "country-069",
+      "name": "Eryvash Village 3",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-069-village-4",
+      "parentStateId": "state-country-069",
+      "countryId": "country-069",
+      "name": "Eryvash Village 4",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-069-village-5",
+      "parentStateId": "state-country-069",
+      "countryId": "country-069",
+      "name": "Eryvash Village 5",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-069-village-6",
+      "parentStateId": "state-country-069",
+      "countryId": "country-069",
+      "name": "Eryvash Village 6",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-070",
+      "parentStateId": "region-ors",
+      "countryId": "country-070",
+      "name": "Nalmora",
+      "level": "country",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-070-capital",
+      "parentStateId": "state-country-070",
+      "countryId": "country-070",
+      "name": "Nalmora Central",
+      "level": "city",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-070-village-1",
+      "parentStateId": "state-country-070",
+      "countryId": "country-070",
+      "name": "Nalmora Village 1",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-070-village-2",
+      "parentStateId": "state-country-070",
+      "countryId": "country-070",
+      "name": "Nalmora Village 2",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-070-village-3",
+      "parentStateId": "state-country-070",
+      "countryId": "country-070",
+      "name": "Nalmora Village 3",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-070-village-4",
+      "parentStateId": "state-country-070",
+      "countryId": "country-070",
+      "name": "Nalmora Village 4",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-070-village-5",
+      "parentStateId": "state-country-070",
+      "countryId": "country-070",
+      "name": "Nalmora Village 5",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-071",
+      "parentStateId": "region-ors",
+      "countryId": "country-071",
+      "name": "Zuvarek",
+      "level": "country",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-071-capital",
+      "parentStateId": "state-country-071",
+      "countryId": "country-071",
+      "name": "Zuvarek Central",
+      "level": "city",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-071-village-1",
+      "parentStateId": "state-country-071",
+      "countryId": "country-071",
+      "name": "Zuvarek Village 1",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-071-village-2",
+      "parentStateId": "state-country-071",
+      "countryId": "country-071",
+      "name": "Zuvarek Village 2",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-071-village-3",
+      "parentStateId": "state-country-071",
+      "countryId": "country-071",
+      "name": "Zuvarek Village 3",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-072",
+      "parentStateId": "region-nem",
+      "countryId": "country-072",
+      "name": "Nembasa",
+      "level": "country",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-072-capital",
+      "parentStateId": "state-country-072",
+      "countryId": "country-072",
+      "name": "Nembasa Central",
+      "level": "city",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-072-village-1",
+      "parentStateId": "state-country-072",
+      "countryId": "country-072",
+      "name": "Nembasa Village 1",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-072-village-2",
+      "parentStateId": "state-country-072",
+      "countryId": "country-072",
+      "name": "Nembasa Village 2",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-072-village-3",
+      "parentStateId": "state-country-072",
+      "countryId": "country-072",
+      "name": "Nembasa Village 3",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-072-village-4",
+      "parentStateId": "state-country-072",
+      "countryId": "country-072",
+      "name": "Nembasa Village 4",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-073",
+      "parentStateId": "region-nem",
+      "countryId": "country-073",
+      "name": "Oruvani",
+      "level": "country",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-073-capital",
+      "parentStateId": "state-country-073",
+      "countryId": "country-073",
+      "name": "Oruvani Central",
+      "level": "city",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-073-village-1",
+      "parentStateId": "state-country-073",
+      "countryId": "country-073",
+      "name": "Oruvani Village 1",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-073-village-2",
+      "parentStateId": "state-country-073",
+      "countryId": "country-073",
+      "name": "Oruvani Village 2",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-073-village-3",
+      "parentStateId": "state-country-073",
+      "countryId": "country-073",
+      "name": "Oruvani Village 3",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-073-village-4",
+      "parentStateId": "state-country-073",
+      "countryId": "country-073",
+      "name": "Oruvani Village 4",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-073-village-5",
+      "parentStateId": "state-country-073",
+      "countryId": "country-073",
+      "name": "Oruvani Village 5",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-074",
+      "parentStateId": "region-nem",
+      "countryId": "country-074",
+      "name": "Kalemba",
+      "level": "country",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-074-capital",
+      "parentStateId": "state-country-074",
+      "countryId": "country-074",
+      "name": "Kalemba Central",
+      "level": "city",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-074-village-1",
+      "parentStateId": "state-country-074",
+      "countryId": "country-074",
+      "name": "Kalemba Village 1",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-074-village-2",
+      "parentStateId": "state-country-074",
+      "countryId": "country-074",
+      "name": "Kalemba Village 2",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-074-village-3",
+      "parentStateId": "state-country-074",
+      "countryId": "country-074",
+      "name": "Kalemba Village 3",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-074-village-4",
+      "parentStateId": "state-country-074",
+      "countryId": "country-074",
+      "name": "Kalemba Village 4",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-074-village-5",
+      "parentStateId": "state-country-074",
+      "countryId": "country-074",
+      "name": "Kalemba Village 5",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-074-village-6",
+      "parentStateId": "state-country-074",
+      "countryId": "country-074",
+      "name": "Kalemba Village 6",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-075",
+      "parentStateId": "region-nem",
+      "countryId": "country-075",
+      "name": "Senvoro",
+      "level": "country",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-075-capital",
+      "parentStateId": "state-country-075",
+      "countryId": "country-075",
+      "name": "Senvoro Central",
+      "level": "city",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-075-village-1",
+      "parentStateId": "state-country-075",
+      "countryId": "country-075",
+      "name": "Senvoro Village 1",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-075-village-2",
+      "parentStateId": "state-country-075",
+      "countryId": "country-075",
+      "name": "Senvoro Village 2",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-075-village-3",
+      "parentStateId": "state-country-075",
+      "countryId": "country-075",
+      "name": "Senvoro Village 3",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-076",
+      "parentStateId": "region-nem",
+      "countryId": "country-076",
+      "name": "Mavuru",
+      "level": "country",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-076-capital",
+      "parentStateId": "state-country-076",
+      "countryId": "country-076",
+      "name": "Mavuru Central",
+      "level": "city",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-076-village-1",
+      "parentStateId": "state-country-076",
+      "countryId": "country-076",
+      "name": "Mavuru Village 1",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-076-village-2",
+      "parentStateId": "state-country-076",
+      "countryId": "country-076",
+      "name": "Mavuru Village 2",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-076-village-3",
+      "parentStateId": "state-country-076",
+      "countryId": "country-076",
+      "name": "Mavuru Village 3",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-076-village-4",
+      "parentStateId": "state-country-076",
+      "countryId": "country-076",
+      "name": "Mavuru Village 4",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-076-village-5",
+      "parentStateId": "state-country-076",
+      "countryId": "country-076",
+      "name": "Mavuru Village 5",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-077",
+      "parentStateId": "region-nem",
+      "countryId": "country-077",
+      "name": "Tilanka",
+      "level": "country",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-077-capital",
+      "parentStateId": "state-country-077",
+      "countryId": "country-077",
+      "name": "Tilanka Central",
+      "level": "city",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-077-village-1",
+      "parentStateId": "state-country-077",
+      "countryId": "country-077",
+      "name": "Tilanka Village 1",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-077-village-2",
+      "parentStateId": "state-country-077",
+      "countryId": "country-077",
+      "name": "Tilanka Village 2",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-077-village-3",
+      "parentStateId": "state-country-077",
+      "countryId": "country-077",
+      "name": "Tilanka Village 3",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-077-village-4",
+      "parentStateId": "state-country-077",
+      "countryId": "country-077",
+      "name": "Tilanka Village 4",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-077-village-5",
+      "parentStateId": "state-country-077",
+      "countryId": "country-077",
+      "name": "Tilanka Village 5",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-077-village-6",
+      "parentStateId": "state-country-077",
+      "countryId": "country-077",
+      "name": "Tilanka Village 6",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-078",
+      "parentStateId": "region-nem",
+      "countryId": "country-078",
+      "name": "Rombessa",
+      "level": "country",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-078-capital",
+      "parentStateId": "state-country-078",
+      "countryId": "country-078",
+      "name": "Rombessa Central",
+      "level": "city",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-078-village-1",
+      "parentStateId": "state-country-078",
+      "countryId": "country-078",
+      "name": "Rombessa Village 1",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-078-village-2",
+      "parentStateId": "state-country-078",
+      "countryId": "country-078",
+      "name": "Rombessa Village 2",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-078-village-3",
+      "parentStateId": "state-country-078",
+      "countryId": "country-078",
+      "name": "Rombessa Village 3",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-079",
+      "parentStateId": "region-nem",
+      "countryId": "country-079",
+      "name": "Vunari",
+      "level": "country",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-079-capital",
+      "parentStateId": "state-country-079",
+      "countryId": "country-079",
+      "name": "Vunari Central",
+      "level": "city",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-079-village-1",
+      "parentStateId": "state-country-079",
+      "countryId": "country-079",
+      "name": "Vunari Village 1",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-079-village-2",
+      "parentStateId": "state-country-079",
+      "countryId": "country-079",
+      "name": "Vunari Village 2",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-079-village-3",
+      "parentStateId": "state-country-079",
+      "countryId": "country-079",
+      "name": "Vunari Village 3",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-079-village-4",
+      "parentStateId": "state-country-079",
+      "countryId": "country-079",
+      "name": "Vunari Village 4",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-080",
+      "parentStateId": "region-nem",
+      "countryId": "country-080",
+      "name": "Akarumo",
+      "level": "country",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-080-capital",
+      "parentStateId": "state-country-080",
+      "countryId": "country-080",
+      "name": "Akarumo Central",
+      "level": "city",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-080-village-1",
+      "parentStateId": "state-country-080",
+      "countryId": "country-080",
+      "name": "Akarumo Village 1",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-080-village-2",
+      "parentStateId": "state-country-080",
+      "countryId": "country-080",
+      "name": "Akarumo Village 2",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-080-village-3",
+      "parentStateId": "state-country-080",
+      "countryId": "country-080",
+      "name": "Akarumo Village 3",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-080-village-4",
+      "parentStateId": "state-country-080",
+      "countryId": "country-080",
+      "name": "Akarumo Village 4",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-080-village-5",
+      "parentStateId": "state-country-080",
+      "countryId": "country-080",
+      "name": "Akarumo Village 5",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-080-village-6",
+      "parentStateId": "state-country-080",
+      "countryId": "country-080",
+      "name": "Akarumo Village 6",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-081",
+      "parentStateId": "region-nem",
+      "countryId": "country-081",
+      "name": "Jelvani",
+      "level": "country",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-081-capital",
+      "parentStateId": "state-country-081",
+      "countryId": "country-081",
+      "name": "Jelvani Central",
+      "level": "city",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-081-village-1",
+      "parentStateId": "state-country-081",
+      "countryId": "country-081",
+      "name": "Jelvani Village 1",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-081-village-2",
+      "parentStateId": "state-country-081",
+      "countryId": "country-081",
+      "name": "Jelvani Village 2",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-081-village-3",
+      "parentStateId": "state-country-081",
+      "countryId": "country-081",
+      "name": "Jelvani Village 3",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-081-village-4",
+      "parentStateId": "state-country-081",
+      "countryId": "country-081",
+      "name": "Jelvani Village 4",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-082",
+      "parentStateId": "region-nem",
+      "countryId": "country-082",
+      "name": "Ombaku",
+      "level": "country",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-082-capital",
+      "parentStateId": "state-country-082",
+      "countryId": "country-082",
+      "name": "Ombaku Central",
+      "level": "city",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-082-village-1",
+      "parentStateId": "state-country-082",
+      "countryId": "country-082",
+      "name": "Ombaku Village 1",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-082-village-2",
+      "parentStateId": "state-country-082",
+      "countryId": "country-082",
+      "name": "Ombaku Village 2",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-082-village-3",
+      "parentStateId": "state-country-082",
+      "countryId": "country-082",
+      "name": "Ombaku Village 3",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-083",
+      "parentStateId": "region-nem",
+      "countryId": "country-083",
+      "name": "Qarumba",
+      "level": "country",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-083-capital",
+      "parentStateId": "state-country-083",
+      "countryId": "country-083",
+      "name": "Qarumba Central",
+      "level": "city",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-083-village-1",
+      "parentStateId": "state-country-083",
+      "countryId": "country-083",
+      "name": "Qarumba Village 1",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-083-village-2",
+      "parentStateId": "state-country-083",
+      "countryId": "country-083",
+      "name": "Qarumba Village 2",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-084",
+      "parentStateId": "region-nem",
+      "countryId": "country-084",
+      "name": "Luremba",
+      "level": "country",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-084-capital",
+      "parentStateId": "state-country-084",
+      "countryId": "country-084",
+      "name": "Luremba Central",
+      "level": "city",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-084-village-1",
+      "parentStateId": "state-country-084",
+      "countryId": "country-084",
+      "name": "Luremba Village 1",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-084-village-2",
+      "parentStateId": "state-country-084",
+      "countryId": "country-084",
+      "name": "Luremba Village 2",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-084-village-3",
+      "parentStateId": "state-country-084",
+      "countryId": "country-084",
+      "name": "Luremba Village 3",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-085",
+      "parentStateId": "region-nem",
+      "countryId": "country-085",
+      "name": "Navuru",
+      "level": "country",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-085-capital",
+      "parentStateId": "state-country-085",
+      "countryId": "country-085",
+      "name": "Navuru Central",
+      "level": "city",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-085-village-1",
+      "parentStateId": "state-country-085",
+      "countryId": "country-085",
+      "name": "Navuru Village 1",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-085-village-2",
+      "parentStateId": "state-country-085",
+      "countryId": "country-085",
+      "name": "Navuru Village 2",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-085-village-3",
+      "parentStateId": "state-country-085",
+      "countryId": "country-085",
+      "name": "Navuru Village 3",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-085-village-4",
+      "parentStateId": "state-country-085",
+      "countryId": "country-085",
+      "name": "Navuru Village 4",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-085-village-5",
+      "parentStateId": "state-country-085",
+      "countryId": "country-085",
+      "name": "Navuru Village 5",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-086",
+      "parentStateId": "region-nem",
+      "countryId": "country-086",
+      "name": "Tembara",
+      "level": "country",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-086-capital",
+      "parentStateId": "state-country-086",
+      "countryId": "country-086",
+      "name": "Tembara Central",
+      "level": "city",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-086-village-1",
+      "parentStateId": "state-country-086",
+      "countryId": "country-086",
+      "name": "Tembara Village 1",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-086-village-2",
+      "parentStateId": "state-country-086",
+      "countryId": "country-086",
+      "name": "Tembara Village 2",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-086-village-3",
+      "parentStateId": "state-country-086",
+      "countryId": "country-086",
+      "name": "Tembara Village 3",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-087",
+      "parentStateId": "region-nem",
+      "countryId": "country-087",
+      "name": "Isenko",
+      "level": "country",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-087-capital",
+      "parentStateId": "state-country-087",
+      "countryId": "country-087",
+      "name": "Isenko Central",
+      "level": "city",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-087-village-1",
+      "parentStateId": "state-country-087",
+      "countryId": "country-087",
+      "name": "Isenko Village 1",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-087-village-2",
+      "parentStateId": "state-country-087",
+      "countryId": "country-087",
+      "name": "Isenko Village 2",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-087-village-3",
+      "parentStateId": "state-country-087",
+      "countryId": "country-087",
+      "name": "Isenko Village 3",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-088",
+      "parentStateId": "region-nem",
+      "countryId": "country-088",
+      "name": "Barumo",
+      "level": "country",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-088-capital",
+      "parentStateId": "state-country-088",
+      "countryId": "country-088",
+      "name": "Barumo Central",
+      "level": "city",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-088-village-1",
+      "parentStateId": "state-country-088",
+      "countryId": "country-088",
+      "name": "Barumo Village 1",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-088-village-2",
+      "parentStateId": "state-country-088",
+      "countryId": "country-088",
+      "name": "Barumo Village 2",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-088-village-3",
+      "parentStateId": "state-country-088",
+      "countryId": "country-088",
+      "name": "Barumo Village 3",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-088-village-4",
+      "parentStateId": "state-country-088",
+      "countryId": "country-088",
+      "name": "Barumo Village 4",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-088-village-5",
+      "parentStateId": "state-country-088",
+      "countryId": "country-088",
+      "name": "Barumo Village 5",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-088-village-6",
+      "parentStateId": "state-country-088",
+      "countryId": "country-088",
+      "name": "Barumo Village 6",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-089",
+      "parentStateId": "region-nem",
+      "countryId": "country-089",
+      "name": "Yandessa",
+      "level": "country",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-089-capital",
+      "parentStateId": "state-country-089",
+      "countryId": "country-089",
+      "name": "Yandessa Central",
+      "level": "city",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-089-village-1",
+      "parentStateId": "state-country-089",
+      "countryId": "country-089",
+      "name": "Yandessa Village 1",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-089-village-2",
+      "parentStateId": "state-country-089",
+      "countryId": "country-089",
+      "name": "Yandessa Village 2",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-089-village-3",
+      "parentStateId": "state-country-089",
+      "countryId": "country-089",
+      "name": "Yandessa Village 3",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-089-village-4",
+      "parentStateId": "state-country-089",
+      "countryId": "country-089",
+      "name": "Yandessa Village 4",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-089-village-5",
+      "parentStateId": "state-country-089",
+      "countryId": "country-089",
+      "name": "Yandessa Village 5",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-089-village-6",
+      "parentStateId": "state-country-089",
+      "countryId": "country-089",
+      "name": "Yandessa Village 6",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-090",
+      "parentStateId": "region-drv",
+      "countryId": "country-090",
+      "name": "Dravik",
+      "level": "country",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-090-capital",
+      "parentStateId": "state-country-090",
+      "countryId": "country-090",
+      "name": "Dravik Central",
+      "level": "city",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-090-village-1",
+      "parentStateId": "state-country-090",
+      "countryId": "country-090",
+      "name": "Dravik Village 1",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-090-village-2",
+      "parentStateId": "state-country-090",
+      "countryId": "country-090",
+      "name": "Dravik Village 2",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-090-village-3",
+      "parentStateId": "state-country-090",
+      "countryId": "country-090",
+      "name": "Dravik Village 3",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-090-village-4",
+      "parentStateId": "state-country-090",
+      "countryId": "country-090",
+      "name": "Dravik Village 4",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-091",
+      "parentStateId": "region-drv",
+      "countryId": "country-091",
+      "name": "Ashkara",
+      "level": "country",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-091-capital",
+      "parentStateId": "state-country-091",
+      "countryId": "country-091",
+      "name": "Ashkara Central",
+      "level": "city",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-091-village-1",
+      "parentStateId": "state-country-091",
+      "countryId": "country-091",
+      "name": "Ashkara Village 1",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-091-village-2",
+      "parentStateId": "state-country-091",
+      "countryId": "country-091",
+      "name": "Ashkara Village 2",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-091-village-3",
+      "parentStateId": "state-country-091",
+      "countryId": "country-091",
+      "name": "Ashkara Village 3",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-091-village-4",
+      "parentStateId": "state-country-091",
+      "countryId": "country-091",
+      "name": "Ashkara Village 4",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-092",
+      "parentStateId": "region-drv",
+      "countryId": "country-092",
+      "name": "Volnari",
+      "level": "country",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-092-capital",
+      "parentStateId": "state-country-092",
+      "countryId": "country-092",
+      "name": "Volnari Central",
+      "level": "city",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-092-village-1",
+      "parentStateId": "state-country-092",
+      "countryId": "country-092",
+      "name": "Volnari Village 1",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-092-village-2",
+      "parentStateId": "state-country-092",
+      "countryId": "country-092",
+      "name": "Volnari Village 2",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-093",
+      "parentStateId": "region-drv",
+      "countryId": "country-093",
+      "name": "Kresuva",
+      "level": "country",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-093-capital",
+      "parentStateId": "state-country-093",
+      "countryId": "country-093",
+      "name": "Kresuva Central",
+      "level": "city",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-093-village-1",
+      "parentStateId": "state-country-093",
+      "countryId": "country-093",
+      "name": "Kresuva Village 1",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-093-village-2",
+      "parentStateId": "state-country-093",
+      "countryId": "country-093",
+      "name": "Kresuva Village 2",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-093-village-3",
+      "parentStateId": "state-country-093",
+      "countryId": "country-093",
+      "name": "Kresuva Village 3",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-094",
+      "parentStateId": "region-drv",
+      "countryId": "country-094",
+      "name": "Ignara",
+      "level": "country",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-094-capital",
+      "parentStateId": "state-country-094",
+      "countryId": "country-094",
+      "name": "Ignara Central",
+      "level": "city",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-094-village-1",
+      "parentStateId": "state-country-094",
+      "countryId": "country-094",
+      "name": "Ignara Village 1",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-094-village-2",
+      "parentStateId": "state-country-094",
+      "countryId": "country-094",
+      "name": "Ignara Village 2",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-095",
+      "parentStateId": "region-drv",
+      "countryId": "country-095",
+      "name": "Tervok",
+      "level": "country",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-095-capital",
+      "parentStateId": "state-country-095",
+      "countryId": "country-095",
+      "name": "Tervok Central",
+      "level": "city",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-095-village-1",
+      "parentStateId": "state-country-095",
+      "countryId": "country-095",
+      "name": "Tervok Village 1",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-095-village-2",
+      "parentStateId": "state-country-095",
+      "countryId": "country-095",
+      "name": "Tervok Village 2",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-095-village-3",
+      "parentStateId": "state-country-095",
+      "countryId": "country-095",
+      "name": "Tervok Village 3",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-095-village-4",
+      "parentStateId": "state-country-095",
+      "countryId": "country-095",
+      "name": "Tervok Village 4",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-096",
+      "parentStateId": "region-drv",
+      "countryId": "country-096",
+      "name": "Surnessa",
+      "level": "country",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-096-capital",
+      "parentStateId": "state-country-096",
+      "countryId": "country-096",
+      "name": "Surnessa Central",
+      "level": "city",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-096-village-1",
+      "parentStateId": "state-country-096",
+      "countryId": "country-096",
+      "name": "Surnessa Village 1",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-096-village-2",
+      "parentStateId": "state-country-096",
+      "countryId": "country-096",
+      "name": "Surnessa Village 2",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-096-village-3",
+      "parentStateId": "state-country-096",
+      "countryId": "country-096",
+      "name": "Surnessa Village 3",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-097",
+      "parentStateId": "region-drv",
+      "countryId": "country-097",
+      "name": "Qavrik",
+      "level": "country",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-097-capital",
+      "parentStateId": "state-country-097",
+      "countryId": "country-097",
+      "name": "Qavrik Central",
+      "level": "city",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-097-village-1",
+      "parentStateId": "state-country-097",
+      "countryId": "country-097",
+      "name": "Qavrik Village 1",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-097-village-2",
+      "parentStateId": "state-country-097",
+      "countryId": "country-097",
+      "name": "Qavrik Village 2",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-097-village-3",
+      "parentStateId": "state-country-097",
+      "countryId": "country-097",
+      "name": "Qavrik Village 3",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-097-village-4",
+      "parentStateId": "state-country-097",
+      "countryId": "country-097",
+      "name": "Qavrik Village 4",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-098",
+      "parentStateId": "region-drv",
+      "countryId": "country-098",
+      "name": "Molvane",
+      "level": "country",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-098-capital",
+      "parentStateId": "state-country-098",
+      "countryId": "country-098",
+      "name": "Molvane Central",
+      "level": "city",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-098-village-1",
+      "parentStateId": "state-country-098",
+      "countryId": "country-098",
+      "name": "Molvane Village 1",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-098-village-2",
+      "parentStateId": "state-country-098",
+      "countryId": "country-098",
+      "name": "Molvane Village 2",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-098-village-3",
+      "parentStateId": "state-country-098",
+      "countryId": "country-098",
+      "name": "Molvane Village 3",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-098-village-4",
+      "parentStateId": "state-country-098",
+      "countryId": "country-098",
+      "name": "Molvane Village 4",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-099",
+      "parentStateId": "region-drv",
+      "countryId": "country-099",
+      "name": "Ruzkara",
+      "level": "country",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-099-capital",
+      "parentStateId": "state-country-099",
+      "countryId": "country-099",
+      "name": "Ruzkara Central",
+      "level": "city",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-099-village-1",
+      "parentStateId": "state-country-099",
+      "countryId": "country-099",
+      "name": "Ruzkara Village 1",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-099-village-2",
+      "parentStateId": "state-country-099",
+      "countryId": "country-099",
+      "name": "Ruzkara Village 2",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-099-village-3",
+      "parentStateId": "state-country-099",
+      "countryId": "country-099",
+      "name": "Ruzkara Village 3",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-100",
+      "parentStateId": "region-drv",
+      "countryId": "country-100",
+      "name": "Denvora",
+      "level": "country",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-100-capital",
+      "parentStateId": "state-country-100",
+      "countryId": "country-100",
+      "name": "Denvora Central",
+      "level": "city",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-100-village-1",
+      "parentStateId": "state-country-100",
+      "countryId": "country-100",
+      "name": "Denvora Village 1",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-100-village-2",
+      "parentStateId": "state-country-100",
+      "countryId": "country-100",
+      "name": "Denvora Village 2",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-100-village-3",
+      "parentStateId": "state-country-100",
+      "countryId": "country-100",
+      "name": "Denvora Village 3",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-100-village-4",
+      "parentStateId": "state-country-100",
+      "countryId": "country-100",
+      "name": "Denvora Village 4",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-100-village-5",
+      "parentStateId": "state-country-100",
+      "countryId": "country-100",
+      "name": "Denvora Village 5",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-100-village-6",
+      "parentStateId": "state-country-100",
+      "countryId": "country-100",
+      "name": "Denvora Village 6",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-101",
+      "parentStateId": "region-drv",
+      "countryId": "country-101",
+      "name": "Kalvessa",
+      "level": "country",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-101-capital",
+      "parentStateId": "state-country-101",
+      "countryId": "country-101",
+      "name": "Kalvessa Central",
+      "level": "city",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-101-village-1",
+      "parentStateId": "state-country-101",
+      "countryId": "country-101",
+      "name": "Kalvessa Village 1",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-101-village-2",
+      "parentStateId": "state-country-101",
+      "countryId": "country-101",
+      "name": "Kalvessa Village 2",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-101-village-3",
+      "parentStateId": "state-country-101",
+      "countryId": "country-101",
+      "name": "Kalvessa Village 3",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-101-village-4",
+      "parentStateId": "state-country-101",
+      "countryId": "country-101",
+      "name": "Kalvessa Village 4",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-101-village-5",
+      "parentStateId": "state-country-101",
+      "countryId": "country-101",
+      "name": "Kalvessa Village 5",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-101-village-6",
+      "parentStateId": "state-country-101",
+      "countryId": "country-101",
+      "name": "Kalvessa Village 6",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-102",
+      "parentStateId": "region-drv",
+      "countryId": "country-102",
+      "name": "Ormiku",
+      "level": "country",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-102-capital",
+      "parentStateId": "state-country-102",
+      "countryId": "country-102",
+      "name": "Ormiku Central",
+      "level": "city",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-102-village-1",
+      "parentStateId": "state-country-102",
+      "countryId": "country-102",
+      "name": "Ormiku Village 1",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-102-village-2",
+      "parentStateId": "state-country-102",
+      "countryId": "country-102",
+      "name": "Ormiku Village 2",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-102-village-3",
+      "parentStateId": "state-country-102",
+      "countryId": "country-102",
+      "name": "Ormiku Village 3",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-103",
+      "parentStateId": "region-drv",
+      "countryId": "country-103",
+      "name": "Vaskari",
+      "level": "country",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-103-capital",
+      "parentStateId": "state-country-103",
+      "countryId": "country-103",
+      "name": "Vaskari Central",
+      "level": "city",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-103-village-1",
+      "parentStateId": "state-country-103",
+      "countryId": "country-103",
+      "name": "Vaskari Village 1",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-103-village-2",
+      "parentStateId": "state-country-103",
+      "countryId": "country-103",
+      "name": "Vaskari Village 2",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-104",
+      "parentStateId": "region-drv",
+      "countryId": "country-104",
+      "name": "Eshnara",
+      "level": "country",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-104-capital",
+      "parentStateId": "state-country-104",
+      "countryId": "country-104",
+      "name": "Eshnara Central",
+      "level": "city",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-104-village-1",
+      "parentStateId": "state-country-104",
+      "countryId": "country-104",
+      "name": "Eshnara Village 1",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-104-village-2",
+      "parentStateId": "state-country-104",
+      "countryId": "country-104",
+      "name": "Eshnara Village 2",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-104-village-3",
+      "parentStateId": "state-country-104",
+      "countryId": "country-104",
+      "name": "Eshnara Village 3",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-104-village-4",
+      "parentStateId": "state-country-104",
+      "countryId": "country-104",
+      "name": "Eshnara Village 4",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-104-village-5",
+      "parentStateId": "state-country-104",
+      "countryId": "country-104",
+      "name": "Eshnara Village 5",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-105",
+      "parentStateId": "region-drv",
+      "countryId": "country-105",
+      "name": "Brumora",
+      "level": "country",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-105-capital",
+      "parentStateId": "state-country-105",
+      "countryId": "country-105",
+      "name": "Brumora Central",
+      "level": "city",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-105-village-1",
+      "parentStateId": "state-country-105",
+      "countryId": "country-105",
+      "name": "Brumora Village 1",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-105-village-2",
+      "parentStateId": "state-country-105",
+      "countryId": "country-105",
+      "name": "Brumora Village 2",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-105-village-3",
+      "parentStateId": "state-country-105",
+      "countryId": "country-105",
+      "name": "Brumora Village 3",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-105-village-4",
+      "parentStateId": "state-country-105",
+      "countryId": "country-105",
+      "name": "Brumora Village 4",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-106",
+      "parentStateId": "region-ery",
+      "countryId": "country-106",
+      "name": "Erynd",
+      "level": "country",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-106-capital",
+      "parentStateId": "state-country-106",
+      "countryId": "country-106",
+      "name": "Erynd Central",
+      "level": "city",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-106-village-1",
+      "parentStateId": "state-country-106",
+      "countryId": "country-106",
+      "name": "Erynd Village 1",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-106-village-2",
+      "parentStateId": "state-country-106",
+      "countryId": "country-106",
+      "name": "Erynd Village 2",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-106-village-3",
+      "parentStateId": "state-country-106",
+      "countryId": "country-106",
+      "name": "Erynd Village 3",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-106-village-4",
+      "parentStateId": "state-country-106",
+      "countryId": "country-106",
+      "name": "Erynd Village 4",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-107",
+      "parentStateId": "region-ery",
+      "countryId": "country-107",
+      "name": "Skelvar",
+      "level": "country",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-107-capital",
+      "parentStateId": "state-country-107",
+      "countryId": "country-107",
+      "name": "Skelvar Central",
+      "level": "city",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-107-village-1",
+      "parentStateId": "state-country-107",
+      "countryId": "country-107",
+      "name": "Skelvar Village 1",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-107-village-2",
+      "parentStateId": "state-country-107",
+      "countryId": "country-107",
+      "name": "Skelvar Village 2",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-107-village-3",
+      "parentStateId": "state-country-107",
+      "countryId": "country-107",
+      "name": "Skelvar Village 3",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-107-village-4",
+      "parentStateId": "state-country-107",
+      "countryId": "country-107",
+      "name": "Skelvar Village 4",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-107-village-5",
+      "parentStateId": "state-country-107",
+      "countryId": "country-107",
+      "name": "Skelvar Village 5",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-107-village-6",
+      "parentStateId": "state-country-107",
+      "countryId": "country-107",
+      "name": "Skelvar Village 6",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-108",
+      "parentStateId": "region-ery",
+      "countryId": "country-108",
+      "name": "Norriku",
+      "level": "country",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-108-capital",
+      "parentStateId": "state-country-108",
+      "countryId": "country-108",
+      "name": "Norriku Central",
+      "level": "city",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-108-village-1",
+      "parentStateId": "state-country-108",
+      "countryId": "country-108",
+      "name": "Norriku Village 1",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-108-village-2",
+      "parentStateId": "state-country-108",
+      "countryId": "country-108",
+      "name": "Norriku Village 2",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-108-village-3",
+      "parentStateId": "state-country-108",
+      "countryId": "country-108",
+      "name": "Norriku Village 3",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-108-village-4",
+      "parentStateId": "state-country-108",
+      "countryId": "country-108",
+      "name": "Norriku Village 4",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-109",
+      "parentStateId": "region-ery",
+      "countryId": "country-109",
+      "name": "Veylossa",
+      "level": "country",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-109-capital",
+      "parentStateId": "state-country-109",
+      "countryId": "country-109",
+      "name": "Veylossa Central",
+      "level": "city",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-109-village-1",
+      "parentStateId": "state-country-109",
+      "countryId": "country-109",
+      "name": "Veylossa Village 1",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-109-village-2",
+      "parentStateId": "state-country-109",
+      "countryId": "country-109",
+      "name": "Veylossa Village 2",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-109-village-3",
+      "parentStateId": "state-country-109",
+      "countryId": "country-109",
+      "name": "Veylossa Village 3",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-109-village-4",
+      "parentStateId": "state-country-109",
+      "countryId": "country-109",
+      "name": "Veylossa Village 4",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-109-village-5",
+      "parentStateId": "state-country-109",
+      "countryId": "country-109",
+      "name": "Veylossa Village 5",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-109-village-6",
+      "parentStateId": "state-country-109",
+      "countryId": "country-109",
+      "name": "Veylossa Village 6",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-110",
+      "parentStateId": "region-ery",
+      "countryId": "country-110",
+      "name": "Harkuun",
+      "level": "country",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-110-capital",
+      "parentStateId": "state-country-110",
+      "countryId": "country-110",
+      "name": "Harkuun Central",
+      "level": "city",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-110-village-1",
+      "parentStateId": "state-country-110",
+      "countryId": "country-110",
+      "name": "Harkuun Village 1",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-110-village-2",
+      "parentStateId": "state-country-110",
+      "countryId": "country-110",
+      "name": "Harkuun Village 2",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-110-village-3",
+      "parentStateId": "state-country-110",
+      "countryId": "country-110",
+      "name": "Harkuun Village 3",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-110-village-4",
+      "parentStateId": "state-country-110",
+      "countryId": "country-110",
+      "name": "Harkuun Village 4",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-110-village-5",
+      "parentStateId": "state-country-110",
+      "countryId": "country-110",
+      "name": "Harkuun Village 5",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-111",
+      "parentStateId": "region-ery",
+      "countryId": "country-111",
+      "name": "Ildren",
+      "level": "country",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-111-capital",
+      "parentStateId": "state-country-111",
+      "countryId": "country-111",
+      "name": "Ildren Central",
+      "level": "city",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-111-village-1",
+      "parentStateId": "state-country-111",
+      "countryId": "country-111",
+      "name": "Ildren Village 1",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-111-village-2",
+      "parentStateId": "state-country-111",
+      "countryId": "country-111",
+      "name": "Ildren Village 2",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-111-village-3",
+      "parentStateId": "state-country-111",
+      "countryId": "country-111",
+      "name": "Ildren Village 3",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-112",
+      "parentStateId": "region-ery",
+      "countryId": "country-112",
+      "name": "Morqel",
+      "level": "country",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-112-capital",
+      "parentStateId": "state-country-112",
+      "countryId": "country-112",
+      "name": "Morqel Central",
+      "level": "city",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-112-village-1",
+      "parentStateId": "state-country-112",
+      "countryId": "country-112",
+      "name": "Morqel Village 1",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-112-village-2",
+      "parentStateId": "state-country-112",
+      "countryId": "country-112",
+      "name": "Morqel Village 2",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-113",
+      "parentStateId": "region-ery",
+      "countryId": "country-113",
+      "name": "Savax",
+      "level": "country",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-113-capital",
+      "parentStateId": "state-country-113",
+      "countryId": "country-113",
+      "name": "Savax Central",
+      "level": "city",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-113-village-1",
+      "parentStateId": "state-country-113",
+      "countryId": "country-113",
+      "name": "Savax Village 1",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-113-village-2",
+      "parentStateId": "state-country-113",
+      "countryId": "country-113",
+      "name": "Savax Village 2",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-114",
+      "parentStateId": "region-ery",
+      "countryId": "country-114",
+      "name": "Tundrava",
+      "level": "country",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-114-capital",
+      "parentStateId": "state-country-114",
+      "countryId": "country-114",
+      "name": "Tundrava Central",
+      "level": "city",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-114-village-1",
+      "parentStateId": "state-country-114",
+      "countryId": "country-114",
+      "name": "Tundrava Village 1",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-114-village-2",
+      "parentStateId": "state-country-114",
+      "countryId": "country-114",
+      "name": "Tundrava Village 2",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-114-village-3",
+      "parentStateId": "state-country-114",
+      "countryId": "country-114",
+      "name": "Tundrava Village 3",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-114-village-4",
+      "parentStateId": "state-country-114",
+      "countryId": "country-114",
+      "name": "Tundrava Village 4",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-114-village-5",
+      "parentStateId": "state-country-114",
+      "countryId": "country-114",
+      "name": "Tundrava Village 5",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-114-village-6",
+      "parentStateId": "state-country-114",
+      "countryId": "country-114",
+      "name": "Tundrava Village 6",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-115",
+      "parentStateId": "region-ery",
+      "countryId": "country-115",
+      "name": "Qorvane",
+      "level": "country",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-115-capital",
+      "parentStateId": "state-country-115",
+      "countryId": "country-115",
+      "name": "Qorvane Central",
+      "level": "city",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-115-village-1",
+      "parentStateId": "state-country-115",
+      "countryId": "country-115",
+      "name": "Qorvane Village 1",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-115-village-2",
+      "parentStateId": "state-country-115",
+      "countryId": "country-115",
+      "name": "Qorvane Village 2",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-116",
+      "parentStateId": "region-ery",
+      "countryId": "country-116",
+      "name": "Nivessa",
+      "level": "country",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-116-capital",
+      "parentStateId": "state-country-116",
+      "countryId": "country-116",
+      "name": "Nivessa Central",
+      "level": "city",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-116-village-1",
+      "parentStateId": "state-country-116",
+      "countryId": "country-116",
+      "name": "Nivessa Village 1",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-116-village-2",
+      "parentStateId": "state-country-116",
+      "countryId": "country-116",
+      "name": "Nivessa Village 2",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-116-village-3",
+      "parentStateId": "state-country-116",
+      "countryId": "country-116",
+      "name": "Nivessa Village 3",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-117",
+      "parentStateId": "region-ery",
+      "countryId": "country-117",
+      "name": "Oskaru",
+      "level": "country",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-117-capital",
+      "parentStateId": "state-country-117",
+      "countryId": "country-117",
+      "name": "Oskaru Central",
+      "level": "city",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-117-village-1",
+      "parentStateId": "state-country-117",
+      "countryId": "country-117",
+      "name": "Oskaru Village 1",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-117-village-2",
+      "parentStateId": "state-country-117",
+      "countryId": "country-117",
+      "name": "Oskaru Village 2",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-117-village-3",
+      "parentStateId": "state-country-117",
+      "countryId": "country-117",
+      "name": "Oskaru Village 3",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-117-village-4",
+      "parentStateId": "state-country-117",
+      "countryId": "country-117",
+      "name": "Oskaru Village 4",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-117-village-5",
+      "parentStateId": "state-country-117",
+      "countryId": "country-117",
+      "name": "Oskaru Village 5",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-117-village-6",
+      "parentStateId": "state-country-117",
+      "countryId": "country-117",
+      "name": "Oskaru Village 6",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-118",
+      "parentStateId": "region-ery",
+      "countryId": "country-118",
+      "name": "Yrvik",
+      "level": "country",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-118-capital",
+      "parentStateId": "state-country-118",
+      "countryId": "country-118",
+      "name": "Yrvik Central",
+      "level": "city",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-118-village-1",
+      "parentStateId": "state-country-118",
+      "countryId": "country-118",
+      "name": "Yrvik Village 1",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-118-village-2",
+      "parentStateId": "state-country-118",
+      "countryId": "country-118",
+      "name": "Yrvik Village 2",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-118-village-3",
+      "parentStateId": "state-country-118",
+      "countryId": "country-118",
+      "name": "Yrvik Village 3",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-118-village-4",
+      "parentStateId": "state-country-118",
+      "countryId": "country-118",
+      "name": "Yrvik Village 4",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-119",
+      "parentStateId": "region-ery",
+      "countryId": "country-119",
+      "name": "Belnora",
+      "level": "country",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-119-capital",
+      "parentStateId": "state-country-119",
+      "countryId": "country-119",
+      "name": "Belnora Central",
+      "level": "city",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-119-village-1",
+      "parentStateId": "state-country-119",
+      "countryId": "country-119",
+      "name": "Belnora Village 1",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-119-village-2",
+      "parentStateId": "state-country-119",
+      "countryId": "country-119",
+      "name": "Belnora Village 2",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-119-village-3",
+      "parentStateId": "state-country-119",
+      "countryId": "country-119",
+      "name": "Belnora Village 3",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-119-village-4",
+      "parentStateId": "state-country-119",
+      "countryId": "country-119",
+      "name": "Belnora Village 4",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-119-village-5",
+      "parentStateId": "state-country-119",
+      "countryId": "country-119",
+      "name": "Belnora Village 5",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-119-village-6",
+      "parentStateId": "state-country-119",
+      "countryId": "country-119",
+      "name": "Belnora Village 6",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-120",
+      "parentStateId": "region-ery",
+      "countryId": "country-120",
+      "name": "Arqynd",
+      "level": "country",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-120-capital",
+      "parentStateId": "state-country-120",
+      "countryId": "country-120",
+      "name": "Arqynd Central",
+      "level": "city",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-120-village-1",
+      "parentStateId": "state-country-120",
+      "countryId": "country-120",
+      "name": "Arqynd Village 1",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-120-village-2",
+      "parentStateId": "state-country-120",
+      "countryId": "country-120",
+      "name": "Arqynd Village 2",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-120-village-3",
+      "parentStateId": "state-country-120",
+      "countryId": "country-120",
+      "name": "Arqynd Village 3",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-120-village-4",
+      "parentStateId": "state-country-120",
+      "countryId": "country-120",
+      "name": "Arqynd Village 4",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-120-village-5",
+      "parentStateId": "state-country-120",
+      "countryId": "country-120",
+      "name": "Arqynd Village 5",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    },
+    {
+      "stateId": "state-country-120-village-6",
+      "parentStateId": "state-country-120",
+      "countryId": "country-120",
+      "name": "Arqynd Village 6",
+      "level": "settlement",
+      "population": 0,
+      "playable": true
+    }
+  ]
+}

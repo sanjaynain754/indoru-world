@@ -1,0 +1,241 @@
+{
+  "schemaVersion": 1,
+  "countryId": "country-060",
+  "mapKey": "country/renvak",
+  "seed": 14067197223653567884,
+  "sourceTerrain": "data/country-content/renvak/terrain.json",
+  "roadNetwork": {
+    "segments": [
+      {
+        "roadId": "country-060-road-1",
+        "class": "arterial",
+        "lanes": 4,
+        "speedLimitKph": 90,
+        "access": {
+          "vehicles": true,
+          "pedestrians": true,
+          "emergency": true
+        },
+        "points": [
+          {
+            "x": 0.0,
+            "y": 0.29,
+            "z": 0.0
+          },
+          {
+            "x": 33.43,
+            "y": 5.54,
+            "z": 15.83
+          },
+          {
+            "x": 52.1,
+            "y": 5.54,
+            "z": 39.77
+          },
+          {
+            "x": 71.88,
+            "y": 6.46,
+            "z": 63.1
+          },
+          {
+            "x": 93.16,
+            "y": 8.2,
+            "z": 85.61
+          }
+        ],
+        "connectedSettlementIds": [
+          "country-060-capital",
+          "country-060-village-1"
+        ]
+      },
+      {
+        "roadId": "country-060-road-2",
+        "class": "collector",
+        "lanes": 2,
+        "speedLimitKph": 55,
+        "access": {
+          "vehicles": true,
+          "pedestrians": true,
+          "emergency": true
+        },
+        "points": [
+          {
+            "x": 0.0,
+            "y": 0.29,
+            "z": 0.0
+          },
+          {
+            "x": 4.7,
+            "y": 0.88,
+            "z": -10.43
+          },
+          {
+            "x": 3.32,
+            "y": 0.88,
+            "z": -17.52
+          },
+          {
+            "x": 5.9,
+            "y": 1.91,
+            "z": -26.79
+          },
+          {
+            "x": 7.1,
+            "y": 1.91,
+            "z": -35.3
+          }
+        ],
+        "connectedSettlementIds": [
+          "country-060-capital",
+          "country-060-village-2"
+        ]
+      }
+    ],
+    "bridges": [
+      {
+        "bridgeId": "country-060-bridge-1",
+        "roadId": "country-060-road-1",
+        "riverId": "country-060-river-1",
+        "lengthM": 24.9,
+        "loadClass": "heavy-vehicle",
+        "supportsTrain": false,
+        "x": -7.84,
+        "y": 1.23,
+        "z": -13.89
+      }
+    ]
+  },
+  "railNetwork": {
+    "lines": [
+      {
+        "lineId": "country-060-rail-1",
+        "mode": "intercity-rail",
+        "electrification": "future-ready",
+        "trackGaugeMm": 1435,
+        "maxSpeedKph": 180,
+        "points": [
+          {
+            "x": 0.0,
+            "y": 0.29,
+            "z": 0.0
+          },
+          {
+            "x": 13.2,
+            "y": 4.8,
+            "z": -13.54
+          },
+          {
+            "x": -7.53,
+            "y": 0.88,
+            "z": -8.42
+          },
+          {
+            "x": -2.92,
+            "y": 0.88,
+            "z": -17.23
+          },
+          {
+            "x": 3.94,
+            "y": 1.91,
+            "z": -27.28
+          },
+          {
+            "x": 7.1,
+            "y": 1.91,
+            "z": -35.3
+          }
+        ]
+      }
+    ],
+    "stations": [
+      {
+        "stationId": "country-060-country-060-capital-station",
+        "settlementId": "country-060-capital",
+        "name": "Renvak Central Central Station",
+        "service": "intercity",
+        "x": 0.0,
+        "y": 0.79,
+        "z": 0.0
+      },
+      {
+        "stationId": "country-060-country-060-village-1-station",
+        "settlementId": "country-060-village-1",
+        "name": "Renvak Village 1 Central Station",
+        "service": "intercity",
+        "x": 93.16,
+        "y": 8.7,
+        "z": 85.61
+      },
+      {
+        "stationId": "country-060-country-060-village-2-station",
+        "settlementId": "country-060-village-2",
+        "name": "Renvak Village 2 Central Station",
+        "service": "intercity",
+        "x": 7.1,
+        "y": 2.41,
+        "z": -35.3
+      }
+    ],
+    "trainService": {
+      "enabled": true,
+      "rollingStockProfile": "regional-electric-template"
+    }
+  },
+  "riverNetwork": {
+    "rivers": [
+      {
+        "riverId": "country-060-river-1",
+        "navigable": true,
+        "widthM": 12.9,
+        "transportMode": "river-freight",
+        "points": [
+          {
+            "x": -128.0,
+            "y": -1.5,
+            "z": -103.9
+          },
+          {
+            "x": -80.63,
+            "y": -1.5,
+            "z": -77.92
+          },
+          {
+            "x": -49.32,
+            "y": -1.5,
+            "z": -43.11
+          },
+          {
+            "x": -7.84,
+            "y": 0.88,
+            "z": -13.89
+          },
+          {
+            "x": 47.41,
+            "y": 8.17,
+            "z": 7.76
+          },
+          {
+            "x": 86.26,
+            "y": 5.74,
+            "z": 38.43
+          },
+          {
+            "x": 128.0,
+            "y": 3.01,
+            "z": 67.5
+          }
+        ]
+      }
+    ],
+    "riverBridges": [
+      "country-060-bridge-1"
+    ]
+  },
+  "simulationHooks": {
+    "cityInfrastructure": true,
+    "residentialAccess": true,
+    "trafficSimulation": true,
+    "massTransitSimulation": true,
+    "waterTrafficSimulation": true
+  }
+}

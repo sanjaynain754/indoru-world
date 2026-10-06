@@ -1,0 +1,466 @@
+{
+  "schemaVersion": 1,
+  "countryId": "country-079",
+  "name": "Vunari",
+  "status": "playable",
+  "completion": "template",
+  "templatePolicy": {
+    "generated": true,
+    "requiresReview": true,
+    "placeholderContentAllowed": true
+  },
+  "terrain": {
+    "asset": "data/country-content/vunari/terrain.json",
+    "mapKey": "country/vunari",
+    "biome": "rainforest-wetland"
+  },
+  "spawn": {
+    "x": 0.0,
+    "y": 1.2,
+    "z": 0.0,
+    "headingRad": 0.0
+  },
+  "settlements": [
+    {
+      "id": "country-079-capital",
+      "name": "Vunari Central",
+      "type": "capital",
+      "populationTier": "large",
+      "x": 0.0,
+      "y": -1.0,
+      "z": 0.0
+    },
+    {
+      "id": "country-079-village-1",
+      "name": "Vunari Village 1",
+      "type": "village",
+      "populationTier": "medium",
+      "x": -93.21,
+      "y": -1.0,
+      "z": 2.78
+    },
+    {
+      "id": "country-079-village-2",
+      "name": "Vunari Village 2",
+      "type": "village",
+      "populationTier": "small",
+      "x": -104.16,
+      "y": -1.0,
+      "z": 93.2
+    },
+    {
+      "id": "country-079-village-3",
+      "name": "Vunari Village 3",
+      "type": "village",
+      "populationTier": "small",
+      "x": -86.96,
+      "y": 0.67,
+      "z": -55.96
+    },
+    {
+      "id": "country-079-village-4",
+      "name": "Vunari Village 4",
+      "type": "village",
+      "populationTier": "medium",
+      "x": -107.0,
+      "y": 5.36,
+      "z": -45.91
+    }
+  ],
+  "infrastructure": {
+    "rivers": [
+      {
+        "id": "country-079-river-1",
+        "name": "Vunari River 1",
+        "widthM": 6.7,
+        "points": [
+          {
+            "x": -128.0,
+            "y": 8.81,
+            "z": -56.15
+          },
+          {
+            "x": -94.14,
+            "y": 2.45,
+            "z": -55.19
+          },
+          {
+            "x": -43.1,
+            "y": -1.5,
+            "z": -63.67
+          },
+          {
+            "x": 9.94,
+            "y": -1.5,
+            "z": -73.26
+          },
+          {
+            "x": 40.45,
+            "y": -1.5,
+            "z": -70.45
+          },
+          {
+            "x": 79.9,
+            "y": -1.5,
+            "z": -72.56
+          },
+          {
+            "x": 128.0,
+            "y": 0.47,
+            "z": -79.43
+          }
+        ]
+      }
+    ],
+    "lakes": [
+      {
+        "id": "country-079-lake-1",
+        "name": "Vunari Lake 1",
+        "x": 41.18,
+        "y": 0.44,
+        "z": 45.73,
+        "radiusM": 20.2,
+        "type": "natural"
+      }
+    ],
+    "mountains": [
+      {
+        "id": "country-079-mountain-1",
+        "name": "Vunari Highland 1",
+        "x": 53.94,
+        "y": 0.43,
+        "z": -85.57,
+        "heightM": 18.43,
+        "radiusM": 14.5
+      },
+      {
+        "id": "country-079-mountain-2",
+        "name": "Vunari Highland 2",
+        "x": 62.96,
+        "y": 0.43,
+        "z": 50.9,
+        "heightM": 24.99,
+        "radiusM": 32.1
+      },
+      {
+        "id": "country-079-mountain-3",
+        "name": "Vunari Highland 3",
+        "x": 45.67,
+        "y": 0.43,
+        "z": 12.78,
+        "heightM": 24.17,
+        "radiusM": 23.3
+      }
+    ],
+    "settlements": [
+      {
+        "id": "country-079-capital",
+        "name": "Vunari Central",
+        "type": "capital",
+        "populationTier": "large",
+        "x": 0.0,
+        "y": -1.0,
+        "z": 0.0
+      },
+      {
+        "id": "country-079-village-1",
+        "name": "Vunari Village 1",
+        "type": "village",
+        "populationTier": "medium",
+        "x": -93.21,
+        "y": -1.0,
+        "z": 2.78
+      },
+      {
+        "id": "country-079-village-2",
+        "name": "Vunari Village 2",
+        "type": "village",
+        "populationTier": "small",
+        "x": -104.16,
+        "y": -1.0,
+        "z": 93.2
+      },
+      {
+        "id": "country-079-village-3",
+        "name": "Vunari Village 3",
+        "type": "village",
+        "populationTier": "small",
+        "x": -86.96,
+        "y": 0.67,
+        "z": -55.96
+      },
+      {
+        "id": "country-079-village-4",
+        "name": "Vunari Village 4",
+        "type": "village",
+        "populationTier": "medium",
+        "x": -107.0,
+        "y": 5.36,
+        "z": -45.91
+      }
+    ],
+    "roads": [
+      {
+        "id": "country-079-road-1",
+        "class": "highway",
+        "points": [
+          {
+            "x": 0.0,
+            "y": -1.5,
+            "z": 0.0
+          },
+          {
+            "x": -14.62,
+            "y": -1.5,
+            "z": -4.08
+          },
+          {
+            "x": -53.21,
+            "y": -1.5,
+            "z": 5.03
+          },
+          {
+            "x": -58.35,
+            "y": -1.5,
+            "z": -4.27
+          },
+          {
+            "x": -93.21,
+            "y": -1.5,
+            "z": 2.78
+          }
+        ]
+      },
+      {
+        "id": "country-079-road-2",
+        "class": "regional",
+        "points": [
+          {
+            "x": 0.0,
+            "y": -1.5,
+            "z": 0.0
+          },
+          {
+            "x": -29.34,
+            "y": -1.5,
+            "z": 25.12
+          },
+          {
+            "x": -45.76,
+            "y": -1.5,
+            "z": 43.12
+          },
+          {
+            "x": -76.1,
+            "y": -1.5,
+            "z": 68.79
+          },
+          {
+            "x": -104.16,
+            "y": -1.5,
+            "z": 93.2
+          }
+        ]
+      },
+      {
+        "id": "country-079-road-3",
+        "class": "regional",
+        "points": [
+          {
+            "x": 0.0,
+            "y": -1.5,
+            "z": 0.0
+          },
+          {
+            "x": -15.53,
+            "y": -1.5,
+            "z": -17.41
+          },
+          {
+            "x": -50.93,
+            "y": -1.5,
+            "z": -23.88
+          },
+          {
+            "x": -74.5,
+            "y": -1.32,
+            "z": -36.87
+          },
+          {
+            "x": -86.96,
+            "y": 0.17,
+            "z": -55.96
+          }
+        ]
+      },
+      {
+        "id": "country-079-road-4",
+        "class": "regional",
+        "points": [
+          {
+            "x": 0.0,
+            "y": -1.5,
+            "z": 0.0
+          },
+          {
+            "x": -29.52,
+            "y": -1.5,
+            "z": -9.95
+          },
+          {
+            "x": -48.89,
+            "y": -1.5,
+            "z": -25.49
+          },
+          {
+            "x": -81.27,
+            "y": -1.32,
+            "z": -33.87
+          },
+          {
+            "x": -107.0,
+            "y": 4.86,
+            "z": -45.91
+          }
+        ]
+      }
+    ],
+    "bridges": [
+      {
+        "id": "country-079-bridge-1",
+        "name": "Vunari Crossing 1",
+        "roadId": "country-079-road-1",
+        "riverId": "country-079-river-1",
+        "x": 9.94,
+        "y": -1.15,
+        "z": -73.26,
+        "lengthM": 18.7
+      }
+    ],
+    "railways": [
+      {
+        "id": "country-079-rail-1",
+        "class": "intercity",
+        "points": [
+          {
+            "x": 0.0,
+            "y": -1.5,
+            "z": 0.0
+          },
+          {
+            "x": -21.23,
+            "y": -1.5,
+            "z": -9.28
+          },
+          {
+            "x": -31.81,
+            "y": -1.5,
+            "z": -24.41
+          },
+          {
+            "x": -73.16,
+            "y": -1.5,
+            "z": -22.62
+          },
+          {
+            "x": -96.47,
+            "y": 0.76,
+            "z": -30.75
+          },
+          {
+            "x": -107.0,
+            "y": 4.86,
+            "z": -45.91
+          }
+        ]
+      }
+    ],
+    "airports": [
+      {
+        "id": "country-079-airport-1",
+        "name": "Vunari International",
+        "size": "regional",
+        "x": 43.98,
+        "y": -1.3,
+        "z": -6.04,
+        "runwayLengthM": 1800
+      }
+    ],
+    "ports": [
+      {
+        "id": "country-079-port-1",
+        "name": "Vunari Maritime Port",
+        "x": -15.62,
+        "y": 0.73,
+        "z": 16.45,
+        "capacity": "large"
+      }
+    ],
+    "militaryBases": [
+      {
+        "id": "country-079-base-1",
+        "name": "Vunari Defense Station",
+        "type": "air-ground",
+        "x": 65.84,
+        "y": -1.2,
+        "z": 54.14
+      }
+    ],
+    "metroLines": [
+      {
+        "id": "country-079-metro-1",
+        "status": "planned",
+        "serves": [
+          "country-079-capital",
+          "country-079-village-1",
+          "country-079-village-2"
+        ]
+      }
+    ],
+    "airRoutes": [
+      {
+        "id": "country-079-air-route-1",
+        "status": "regional",
+        "airportId": "country-079-airport-1"
+      }
+    ],
+    "shipLanes": [
+      {
+        "id": "country-079-ship-lane-1",
+        "status": "regional",
+        "portId": "country-079-port-1"
+      }
+    ],
+    "submarineZones": [
+      {
+        "id": "country-079-submarine-zone-1",
+        "status": "charted",
+        "depthM": 76.4
+      }
+    ]
+  },
+  "missions": [
+    {
+      "id": "country-079-intro",
+      "title": "Welcome to Vunari",
+      "status": "template",
+      "placeholder": true
+    },
+    {
+      "id": "country-079-route",
+      "title": "Cross-Region Route",
+      "status": "template",
+      "placeholder": true
+    }
+  ],
+  "systems": {
+    "weatherProfile": "template",
+    "peopleProfile": "people-vunari",
+    "trafficProfile": "template"
+  },
+  "nextSteps": [
+    "replace placeholder settlements",
+    "author terrain landmarks",
+    "author missions and NPC schedules"
+  ]
+}

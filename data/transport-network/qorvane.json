@@ -1,0 +1,241 @@
+{
+  "schemaVersion": 1,
+  "countryId": "country-115",
+  "mapKey": "country/qorvane",
+  "seed": 680564550999031521,
+  "sourceTerrain": "data/country-content/qorvane/terrain.json",
+  "roadNetwork": {
+    "segments": [
+      {
+        "roadId": "country-115-road-1",
+        "class": "arterial",
+        "lanes": 4,
+        "speedLimitKph": 90,
+        "access": {
+          "vehicles": true,
+          "pedestrians": true,
+          "emergency": true
+        },
+        "points": [
+          {
+            "x": 0.0,
+            "y": 24.85,
+            "z": 0.0
+          },
+          {
+            "x": -17.33,
+            "y": 22.21,
+            "z": 9.37
+          },
+          {
+            "x": -42.88,
+            "y": 15.52,
+            "z": 23.26
+          },
+          {
+            "x": -54.11,
+            "y": 15.54,
+            "z": 29.28
+          },
+          {
+            "x": -74.31,
+            "y": 8.6,
+            "z": 40.23
+          }
+        ],
+        "connectedSettlementIds": [
+          "country-115-capital",
+          "country-115-village-1"
+        ]
+      },
+      {
+        "roadId": "country-115-road-2",
+        "class": "collector",
+        "lanes": 2,
+        "speedLimitKph": 55,
+        "access": {
+          "vehicles": true,
+          "pedestrians": true,
+          "emergency": true
+        },
+        "points": [
+          {
+            "x": 0.0,
+            "y": 24.85,
+            "z": 0.0
+          },
+          {
+            "x": -27.98,
+            "y": 18.49,
+            "z": 6.26
+          },
+          {
+            "x": -46.59,
+            "y": 15.37,
+            "z": 7.37
+          },
+          {
+            "x": -60.57,
+            "y": 12.56,
+            "z": 5.92
+          },
+          {
+            "x": -83.71,
+            "y": 9.7,
+            "z": 9.52
+          }
+        ],
+        "connectedSettlementIds": [
+          "country-115-capital",
+          "country-115-village-2"
+        ]
+      }
+    ],
+    "bridges": [
+      {
+        "bridgeId": "country-115-bridge-1",
+        "roadId": "country-115-road-1",
+        "riverId": "country-115-river-1",
+        "lengthM": 26.2,
+        "loadClass": "heavy-vehicle",
+        "supportsTrain": false,
+        "x": 4.98,
+        "y": 16.5,
+        "z": -112.21
+      }
+    ]
+  },
+  "railNetwork": {
+    "lines": [
+      {
+        "lineId": "country-115-rail-1",
+        "mode": "intercity-rail",
+        "electrification": "future-ready",
+        "trackGaugeMm": 1435,
+        "maxSpeedKph": 180,
+        "points": [
+          {
+            "x": 0.0,
+            "y": 24.85,
+            "z": 0.0
+          },
+          {
+            "x": -25.92,
+            "y": 18.49,
+            "z": 6.95
+          },
+          {
+            "x": -22.17,
+            "y": 21.74,
+            "z": -2.41
+          },
+          {
+            "x": -47.97,
+            "y": 15.37,
+            "z": 4.47
+          },
+          {
+            "x": -73.49,
+            "y": 9.7,
+            "z": 11.2
+          },
+          {
+            "x": -83.71,
+            "y": 9.7,
+            "z": 9.52
+          }
+        ]
+      }
+    ],
+    "stations": [
+      {
+        "stationId": "country-115-country-115-capital-station",
+        "settlementId": "country-115-capital",
+        "name": "Qorvane Central Central Station",
+        "service": "intercity",
+        "x": 0.0,
+        "y": 25.35,
+        "z": 0.0
+      },
+      {
+        "stationId": "country-115-country-115-village-1-station",
+        "settlementId": "country-115-village-1",
+        "name": "Qorvane Village 1 Central Station",
+        "service": "intercity",
+        "x": -74.31,
+        "y": 9.1,
+        "z": 40.23
+      },
+      {
+        "stationId": "country-115-country-115-village-2-station",
+        "settlementId": "country-115-village-2",
+        "name": "Qorvane Village 2 Central Station",
+        "service": "intercity",
+        "x": -83.71,
+        "y": 10.2,
+        "z": 9.52
+      }
+    ],
+    "trainService": {
+      "enabled": true,
+      "rollingStockProfile": "regional-electric-template"
+    }
+  },
+  "riverNetwork": {
+    "rivers": [
+      {
+        "riverId": "country-115-river-1",
+        "navigable": true,
+        "widthM": 14.2,
+        "transportMode": "river-freight",
+        "points": [
+          {
+            "x": -128.0,
+            "y": -1.5,
+            "z": -117.22
+          },
+          {
+            "x": -77.73,
+            "y": 0.83,
+            "z": -118.81
+          },
+          {
+            "x": -52.14,
+            "y": 7.51,
+            "z": -106.85
+          },
+          {
+            "x": 4.98,
+            "y": 16.15,
+            "z": -112.21
+          },
+          {
+            "x": 36.68,
+            "y": 21.04,
+            "z": -103.6
+          },
+          {
+            "x": 74.86,
+            "y": 24.1,
+            "z": -98.55
+          },
+          {
+            "x": 128.0,
+            "y": 22.47,
+            "z": -101.73
+          }
+        ]
+      }
+    ],
+    "riverBridges": [
+      "country-115-bridge-1"
+    ]
+  },
+  "simulationHooks": {
+    "cityInfrastructure": true,
+    "residentialAccess": true,
+    "trafficSimulation": true,
+    "massTransitSimulation": true,
+    "waterTrafficSimulation": true
+  }
+}

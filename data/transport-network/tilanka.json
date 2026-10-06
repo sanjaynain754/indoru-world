@@ -1,0 +1,555 @@
+{
+  "schemaVersion": 1,
+  "countryId": "country-077",
+  "mapKey": "country/tilanka",
+  "seed": 17103041252577494072,
+  "sourceTerrain": "data/country-content/tilanka/terrain.json",
+  "roadNetwork": {
+    "segments": [
+      {
+        "roadId": "country-077-road-1",
+        "class": "arterial",
+        "lanes": 4,
+        "speedLimitKph": 90,
+        "access": {
+          "vehicles": true,
+          "pedestrians": true,
+          "emergency": true
+        },
+        "points": [
+          {
+            "x": 0.0,
+            "y": 10.58,
+            "z": 0.0
+          },
+          {
+            "x": -19.99,
+            "y": 13.95,
+            "z": 8.66
+          },
+          {
+            "x": -27.5,
+            "y": 15.82,
+            "z": 10.47
+          },
+          {
+            "x": -51.32,
+            "y": 17.2,
+            "z": 21.24
+          },
+          {
+            "x": -73.84,
+            "y": 20.19,
+            "z": 31.3
+          }
+        ],
+        "connectedSettlementIds": [
+          "country-077-capital",
+          "country-077-village-1"
+        ]
+      },
+      {
+        "roadId": "country-077-road-2",
+        "class": "collector",
+        "lanes": 2,
+        "speedLimitKph": 55,
+        "access": {
+          "vehicles": true,
+          "pedestrians": true,
+          "emergency": true
+        },
+        "points": [
+          {
+            "x": 0.0,
+            "y": 10.58,
+            "z": 0.0
+          },
+          {
+            "x": 24.43,
+            "y": 4.55,
+            "z": -18.77
+          },
+          {
+            "x": 23.31,
+            "y": 6.99,
+            "z": -23.5
+          },
+          {
+            "x": 47.8,
+            "y": -0.37,
+            "z": -42.3
+          },
+          {
+            "x": 59.19,
+            "y": -1.5,
+            "z": -53.9
+          }
+        ],
+        "connectedSettlementIds": [
+          "country-077-capital",
+          "country-077-village-2"
+        ]
+      },
+      {
+        "roadId": "country-077-road-3",
+        "class": "collector",
+        "lanes": 2,
+        "speedLimitKph": 55,
+        "access": {
+          "vehicles": true,
+          "pedestrians": true,
+          "emergency": true
+        },
+        "points": [
+          {
+            "x": 0.0,
+            "y": 10.58,
+            "z": 0.0
+          },
+          {
+            "x": 5.57,
+            "y": 10.58,
+            "z": 4.47
+          },
+          {
+            "x": -15.15,
+            "y": 13.95,
+            "z": 23.39
+          },
+          {
+            "x": -12.39,
+            "y": 14.9,
+            "z": 29.41
+          },
+          {
+            "x": -20.6,
+            "y": 15.56,
+            "z": 41.45
+          }
+        ],
+        "connectedSettlementIds": [
+          "country-077-capital",
+          "country-077-village-3"
+        ]
+      },
+      {
+        "roadId": "country-077-road-4",
+        "class": "collector",
+        "lanes": 2,
+        "speedLimitKph": 55,
+        "access": {
+          "vehicles": true,
+          "pedestrians": true,
+          "emergency": true
+        },
+        "points": [
+          {
+            "x": 0.0,
+            "y": 10.58,
+            "z": 0.0
+          },
+          {
+            "x": 0.58,
+            "y": 10.58,
+            "z": -7.04
+          },
+          {
+            "x": 2.14,
+            "y": 9.18,
+            "z": -14.63
+          },
+          {
+            "x": -6.67,
+            "y": 9.18,
+            "z": -16.5
+          },
+          {
+            "x": -19.32,
+            "y": 11.02,
+            "z": -16.27
+          }
+        ],
+        "connectedSettlementIds": [
+          "country-077-capital",
+          "country-077-village-4"
+        ]
+      },
+      {
+        "roadId": "country-077-road-5",
+        "class": "collector",
+        "lanes": 2,
+        "speedLimitKph": 55,
+        "access": {
+          "vehicles": true,
+          "pedestrians": true,
+          "emergency": true
+        },
+        "points": [
+          {
+            "x": 0.0,
+            "y": 10.58,
+            "z": 0.0
+          },
+          {
+            "x": -32.01,
+            "y": 16.98,
+            "z": 31.31
+          },
+          {
+            "x": -48.35,
+            "y": 19.58,
+            "z": 54.0
+          },
+          {
+            "x": -52.09,
+            "y": 20.15,
+            "z": 69.75
+          },
+          {
+            "x": -85.25,
+            "y": 23.22,
+            "z": 101.69
+          }
+        ],
+        "connectedSettlementIds": [
+          "country-077-capital",
+          "country-077-village-5"
+        ]
+      },
+      {
+        "roadId": "country-077-road-6",
+        "class": "collector",
+        "lanes": 2,
+        "speedLimitKph": 55,
+        "access": {
+          "vehicles": true,
+          "pedestrians": true,
+          "emergency": true
+        },
+        "points": [
+          {
+            "x": 0.0,
+            "y": 10.58,
+            "z": 0.0
+          },
+          {
+            "x": 28.85,
+            "y": 5.63,
+            "z": 5.93
+          },
+          {
+            "x": 47.33,
+            "y": 4.3,
+            "z": 17.56
+          },
+          {
+            "x": 80.45,
+            "y": 0.72,
+            "z": 21.14
+          },
+          {
+            "x": 103.4,
+            "y": 1.06,
+            "z": 30.31
+          }
+        ],
+        "connectedSettlementIds": [
+          "country-077-capital",
+          "country-077-village-6"
+        ]
+      }
+    ],
+    "bridges": [
+      {
+        "bridgeId": "country-077-bridge-1",
+        "roadId": "country-077-road-1",
+        "riverId": "country-077-river-1",
+        "lengthM": 31.0,
+        "loadClass": "heavy-vehicle",
+        "supportsTrain": false,
+        "x": 9.55,
+        "y": 8.53,
+        "z": 6.2
+      },
+      {
+        "bridgeId": "country-077-bridge-2",
+        "roadId": "country-077-road-2",
+        "riverId": "country-077-river-2",
+        "lengthM": 26.9,
+        "loadClass": "heavy-vehicle",
+        "supportsTrain": false,
+        "x": -39.06,
+        "y": 14.639999999999999,
+        "z": 6.07
+      },
+      {
+        "bridgeId": "country-077-bridge-3",
+        "roadId": "country-077-road-3",
+        "riverId": "country-077-river-3",
+        "lengthM": 29.6,
+        "loadClass": "heavy-vehicle",
+        "supportsTrain": false,
+        "x": 1.54,
+        "y": 9.53,
+        "z": -23.42
+      }
+    ]
+  },
+  "railNetwork": {
+    "lines": [
+      {
+        "lineId": "country-077-rail-1",
+        "mode": "intercity-rail",
+        "electrification": "future-ready",
+        "trackGaugeMm": 1435,
+        "maxSpeedKph": 180,
+        "points": [
+          {
+            "x": 0.0,
+            "y": 10.58,
+            "z": 0.0
+          },
+          {
+            "x": 29.38,
+            "y": 5.63,
+            "z": 1.28
+          },
+          {
+            "x": 52.79,
+            "y": 3.13,
+            "z": 5.84
+          },
+          {
+            "x": 66.71,
+            "y": 2.31,
+            "z": 15.62
+          },
+          {
+            "x": 84.25,
+            "y": 0.72,
+            "z": 23.41
+          },
+          {
+            "x": 103.4,
+            "y": 1.06,
+            "z": 30.31
+          }
+        ]
+      }
+    ],
+    "stations": [
+      {
+        "stationId": "country-077-country-077-capital-station",
+        "settlementId": "country-077-capital",
+        "name": "Tilanka Central Central Station",
+        "service": "intercity",
+        "x": 0.0,
+        "y": 11.08,
+        "z": 0.0
+      },
+      {
+        "stationId": "country-077-country-077-village-1-station",
+        "settlementId": "country-077-village-1",
+        "name": "Tilanka Village 1 Central Station",
+        "service": "intercity",
+        "x": -73.84,
+        "y": 20.69,
+        "z": 31.3
+      },
+      {
+        "stationId": "country-077-country-077-village-2-station",
+        "settlementId": "country-077-village-2",
+        "name": "Tilanka Village 2 Central Station",
+        "service": "intercity",
+        "x": 59.19,
+        "y": -1.0,
+        "z": -53.9
+      },
+      {
+        "stationId": "country-077-country-077-village-3-station",
+        "settlementId": "country-077-village-3",
+        "name": "Tilanka Village 3 Central Station",
+        "service": "intercity",
+        "x": -20.6,
+        "y": 16.06,
+        "z": 41.45
+      },
+      {
+        "stationId": "country-077-country-077-village-4-station",
+        "settlementId": "country-077-village-4",
+        "name": "Tilanka Village 4 Central Station",
+        "service": "intercity",
+        "x": -19.32,
+        "y": 11.52,
+        "z": -16.27
+      },
+      {
+        "stationId": "country-077-country-077-village-5-station",
+        "settlementId": "country-077-village-5",
+        "name": "Tilanka Village 5 Central Station",
+        "service": "intercity",
+        "x": -85.25,
+        "y": 23.72,
+        "z": 101.69
+      },
+      {
+        "stationId": "country-077-country-077-village-6-station",
+        "settlementId": "country-077-village-6",
+        "name": "Tilanka Village 6 Central Station",
+        "service": "intercity",
+        "x": 103.4,
+        "y": 1.56,
+        "z": 30.31
+      }
+    ],
+    "trainService": {
+      "enabled": true,
+      "rollingStockProfile": "regional-electric-template"
+    }
+  },
+  "riverNetwork": {
+    "rivers": [
+      {
+        "riverId": "country-077-river-1",
+        "navigable": true,
+        "widthM": 19.0,
+        "transportMode": "river-freight",
+        "points": [
+          {
+            "x": -128.0,
+            "y": 20.78,
+            "z": 41.92
+          },
+          {
+            "x": -83.41,
+            "y": 20.19,
+            "z": 30.71
+          },
+          {
+            "x": -36.56,
+            "y": 15.82,
+            "z": 18.25
+          },
+          {
+            "x": 9.55,
+            "y": 8.18,
+            "z": 6.2
+          },
+          {
+            "x": 31.39,
+            "y": 5.63,
+            "z": 7.5
+          },
+          {
+            "x": 95.1,
+            "y": -1.5,
+            "z": -14.23
+          },
+          {
+            "x": 128.0,
+            "y": -1.5,
+            "z": -19.02
+          }
+        ]
+      },
+      {
+        "riverId": "country-077-river-2",
+        "navigable": true,
+        "widthM": 14.9,
+        "transportMode": "river-freight",
+        "points": [
+          {
+            "x": 25.3,
+            "y": -1.5,
+            "z": -128.0
+          },
+          {
+            "x": 5.24,
+            "y": 2.02,
+            "z": -84.08
+          },
+          {
+            "x": -5.89,
+            "y": 5.61,
+            "z": -45.07
+          },
+          {
+            "x": -39.06,
+            "y": 14.29,
+            "z": 6.07
+          },
+          {
+            "x": -41.92,
+            "y": 19.58,
+            "z": 40.53
+          },
+          {
+            "x": -62.37,
+            "y": 21.99,
+            "z": 84.66
+          },
+          {
+            "x": -81.37,
+            "y": 22.41,
+            "z": 128.0
+          }
+        ]
+      },
+      {
+        "riverId": "country-077-river-3",
+        "navigable": true,
+        "widthM": 17.6,
+        "transportMode": "river-freight",
+        "points": [
+          {
+            "x": -128.0,
+            "y": 17.65,
+            "z": -7.83
+          },
+          {
+            "x": -89.73,
+            "y": 16.14,
+            "z": -10.33
+          },
+          {
+            "x": -33.9,
+            "y": 12.49,
+            "z": -22.48
+          },
+          {
+            "x": 1.54,
+            "y": 9.18,
+            "z": -23.42
+          },
+          {
+            "x": 43.64,
+            "y": 0.9,
+            "z": -28.02
+          },
+          {
+            "x": 80.98,
+            "y": -1.5,
+            "z": -30.01
+          },
+          {
+            "x": 128.0,
+            "y": -1.5,
+            "z": -37.32
+          }
+        ]
+      }
+    ],
+    "riverBridges": [
+      "country-077-bridge-1",
+      "country-077-bridge-2",
+      "country-077-bridge-3"
+    ]
+  },
+  "simulationHooks": {
+    "cityInfrastructure": true,
+    "residentialAccess": true,
+    "trafficSimulation": true,
+    "massTransitSimulation": true,
+    "waterTrafficSimulation": true
+  }
+}

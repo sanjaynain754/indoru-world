@@ -1,0 +1,398 @@
+{
+  "schemaVersion": 1,
+  "countryId": "country-051",
+  "mapKey": "country/vardessa",
+  "seed": 11290552415199595196,
+  "sourceTerrain": "data/country-content/vardessa/terrain.json",
+  "roadNetwork": {
+    "segments": [
+      {
+        "roadId": "country-051-road-1",
+        "class": "arterial",
+        "lanes": 4,
+        "speedLimitKph": 90,
+        "access": {
+          "vehicles": true,
+          "pedestrians": true,
+          "emergency": true
+        },
+        "points": [
+          {
+            "x": 0.0,
+            "y": 4.55,
+            "z": 0.0
+          },
+          {
+            "x": 3.45,
+            "y": 3.58,
+            "z": -10.52
+          },
+          {
+            "x": -8.64,
+            "y": 5.7,
+            "z": -12.49
+          },
+          {
+            "x": -13.59,
+            "y": 5.7,
+            "z": -18.39
+          },
+          {
+            "x": -13.6,
+            "y": 4.11,
+            "z": -27.01
+          }
+        ],
+        "connectedSettlementIds": [
+          "country-051-capital",
+          "country-051-village-1"
+        ]
+      },
+      {
+        "roadId": "country-051-road-2",
+        "class": "collector",
+        "lanes": 2,
+        "speedLimitKph": 55,
+        "access": {
+          "vehicles": true,
+          "pedestrians": true,
+          "emergency": true
+        },
+        "points": [
+          {
+            "x": 0.0,
+            "y": 4.55,
+            "z": 0.0
+          },
+          {
+            "x": -7.49,
+            "y": 4.55,
+            "z": -0.06
+          },
+          {
+            "x": -42.35,
+            "y": 12.49,
+            "z": 14.95
+          },
+          {
+            "x": -35.57,
+            "y": 9.16,
+            "z": 7.04
+          },
+          {
+            "x": -62.51,
+            "y": 14.59,
+            "z": 17.69
+          }
+        ],
+        "connectedSettlementIds": [
+          "country-051-capital",
+          "country-051-village-2"
+        ]
+      },
+      {
+        "roadId": "country-051-road-3",
+        "class": "collector",
+        "lanes": 2,
+        "speedLimitKph": 55,
+        "access": {
+          "vehicles": true,
+          "pedestrians": true,
+          "emergency": true
+        },
+        "points": [
+          {
+            "x": 0.0,
+            "y": 4.55,
+            "z": 0.0
+          },
+          {
+            "x": 3.57,
+            "y": 5.18,
+            "z": 20.25
+          },
+          {
+            "x": 22.61,
+            "y": 3.55,
+            "z": 31.98
+          },
+          {
+            "x": 34.1,
+            "y": 2.83,
+            "z": 47.88
+          },
+          {
+            "x": 56.26,
+            "y": 2.03,
+            "z": 57.9
+          }
+        ],
+        "connectedSettlementIds": [
+          "country-051-capital",
+          "country-051-village-3"
+        ]
+      },
+      {
+        "roadId": "country-051-road-4",
+        "class": "collector",
+        "lanes": 2,
+        "speedLimitKph": 55,
+        "access": {
+          "vehicles": true,
+          "pedestrians": true,
+          "emergency": true
+        },
+        "points": [
+          {
+            "x": 0.0,
+            "y": 4.55,
+            "z": 0.0
+          },
+          {
+            "x": 11.84,
+            "y": 2.3,
+            "z": 0.05
+          },
+          {
+            "x": 12.64,
+            "y": 2.3,
+            "z": 6.18
+          },
+          {
+            "x": 14.79,
+            "y": 2.96,
+            "z": 11.57
+          },
+          {
+            "x": 8.51,
+            "y": 2.96,
+            "z": 21.59
+          }
+        ],
+        "connectedSettlementIds": [
+          "country-051-capital",
+          "country-051-village-4"
+        ]
+      }
+    ],
+    "bridges": [
+      {
+        "bridgeId": "country-051-bridge-1",
+        "roadId": "country-051-road-1",
+        "riverId": "country-051-river-1",
+        "lengthM": 26.3,
+        "loadClass": "heavy-vehicle",
+        "supportsTrain": false,
+        "x": -5.28,
+        "y": 0.86,
+        "z": -49.7
+      },
+      {
+        "bridgeId": "country-051-bridge-2",
+        "roadId": "country-051-road-2",
+        "riverId": "country-051-river-2",
+        "lengthM": 21.1,
+        "loadClass": "heavy-vehicle",
+        "supportsTrain": false,
+        "x": -42.96,
+        "y": 11.62,
+        "z": 3.84
+      }
+    ]
+  },
+  "railNetwork": {
+    "lines": [
+      {
+        "lineId": "country-051-rail-1",
+        "mode": "intercity-rail",
+        "electrification": "future-ready",
+        "trackGaugeMm": 1435,
+        "maxSpeedKph": 180,
+        "points": [
+          {
+            "x": 0.0,
+            "y": 4.55,
+            "z": 0.0
+          },
+          {
+            "x": -2.22,
+            "y": 4.55,
+            "z": 6.47
+          },
+          {
+            "x": 11.97,
+            "y": 2.3,
+            "z": 3.93
+          },
+          {
+            "x": 9.23,
+            "y": 2.96,
+            "z": 10.69
+          },
+          {
+            "x": 12.32,
+            "y": 2.96,
+            "z": 14.24
+          },
+          {
+            "x": 8.51,
+            "y": 2.96,
+            "z": 21.59
+          }
+        ]
+      }
+    ],
+    "stations": [
+      {
+        "stationId": "country-051-country-051-capital-station",
+        "settlementId": "country-051-capital",
+        "name": "Vardessa Central Central Station",
+        "service": "intercity",
+        "x": 0.0,
+        "y": 5.05,
+        "z": 0.0
+      },
+      {
+        "stationId": "country-051-country-051-village-1-station",
+        "settlementId": "country-051-village-1",
+        "name": "Vardessa Village 1 Central Station",
+        "service": "intercity",
+        "x": -13.6,
+        "y": 4.61,
+        "z": -27.01
+      },
+      {
+        "stationId": "country-051-country-051-village-2-station",
+        "settlementId": "country-051-village-2",
+        "name": "Vardessa Village 2 Central Station",
+        "service": "intercity",
+        "x": -62.51,
+        "y": 15.09,
+        "z": 17.69
+      },
+      {
+        "stationId": "country-051-country-051-village-3-station",
+        "settlementId": "country-051-village-3",
+        "name": "Vardessa Village 3 Central Station",
+        "service": "intercity",
+        "x": 56.26,
+        "y": 2.53,
+        "z": 57.9
+      },
+      {
+        "stationId": "country-051-country-051-village-4-station",
+        "settlementId": "country-051-village-4",
+        "name": "Vardessa Village 4 Central Station",
+        "service": "intercity",
+        "x": 8.51,
+        "y": 3.46,
+        "z": 21.59
+      }
+    ],
+    "trainService": {
+      "enabled": true,
+      "rollingStockProfile": "regional-electric-template"
+    }
+  },
+  "riverNetwork": {
+    "rivers": [
+      {
+        "riverId": "country-051-river-1",
+        "navigable": true,
+        "widthM": 14.3,
+        "transportMode": "river-freight",
+        "points": [
+          {
+            "x": -128.0,
+            "y": 19.29,
+            "z": -8.47
+          },
+          {
+            "x": -83.84,
+            "y": 12.06,
+            "z": -24.0
+          },
+          {
+            "x": -46.63,
+            "y": 7.88,
+            "z": -35.71
+          },
+          {
+            "x": -5.28,
+            "y": 0.51,
+            "z": -49.7
+          },
+          {
+            "x": 50.7,
+            "y": -1.5,
+            "z": -71.73
+          },
+          {
+            "x": 76.68,
+            "y": -1.5,
+            "z": -77.26
+          },
+          {
+            "x": 128.0,
+            "y": -1.5,
+            "z": -96.73
+          }
+        ]
+      },
+      {
+        "riverId": "country-051-river-2",
+        "navigable": false,
+        "widthM": 9.1,
+        "transportMode": "waterway",
+        "points": [
+          {
+            "x": -7.59,
+            "y": -1.5,
+            "z": -128.0
+          },
+          {
+            "x": -10.33,
+            "y": -1.5,
+            "z": -89.03
+          },
+          {
+            "x": -23.91,
+            "y": 2.22,
+            "z": -44.1
+          },
+          {
+            "x": -42.96,
+            "y": 11.27,
+            "z": 3.84
+          },
+          {
+            "x": -53.66,
+            "y": 13.52,
+            "z": 47.18
+          },
+          {
+            "x": -57.35,
+            "y": 15.69,
+            "z": 86.67
+          },
+          {
+            "x": -64.38,
+            "y": 13.48,
+            "z": 128.0
+          }
+        ]
+      }
+    ],
+    "riverBridges": [
+      "country-051-bridge-1",
+      "country-051-bridge-2"
+    ]
+  },
+  "simulationHooks": {
+    "cityInfrastructure": true,
+    "residentialAccess": true,
+    "trafficSimulation": true,
+    "massTransitSimulation": true,
+    "waterTrafficSimulation": true
+  }
+}

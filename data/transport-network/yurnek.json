@@ -1,0 +1,445 @@
+{
+  "schemaVersion": 1,
+  "countryId": "country-035",
+  "mapKey": "country/yurnek",
+  "seed": 6453844434137183181,
+  "sourceTerrain": "data/country-content/yurnek/terrain.json",
+  "roadNetwork": {
+    "segments": [
+      {
+        "roadId": "country-035-road-1",
+        "class": "arterial",
+        "lanes": 4,
+        "speedLimitKph": 90,
+        "access": {
+          "vehicles": true,
+          "pedestrians": true,
+          "emergency": true
+        },
+        "points": [
+          {
+            "x": 0.0,
+            "y": 4.11,
+            "z": 0.0
+          },
+          {
+            "x": 8.92,
+            "y": 9.26,
+            "z": 10.65
+          },
+          {
+            "x": 8.19,
+            "y": 11.21,
+            "z": 26.62
+          },
+          {
+            "x": 8.88,
+            "y": 13.02,
+            "z": 41.81
+          },
+          {
+            "x": -1.54,
+            "y": 12.78,
+            "z": 63.1
+          }
+        ],
+        "connectedSettlementIds": [
+          "country-035-capital",
+          "country-035-village-1"
+        ]
+      },
+      {
+        "roadId": "country-035-road-2",
+        "class": "collector",
+        "lanes": 2,
+        "speedLimitKph": 55,
+        "access": {
+          "vehicles": true,
+          "pedestrians": true,
+          "emergency": true
+        },
+        "points": [
+          {
+            "x": 0.0,
+            "y": 4.11,
+            "z": 0.0
+          },
+          {
+            "x": -0.11,
+            "y": 6.51,
+            "z": 22.32
+          },
+          {
+            "x": -5.01,
+            "y": 10.89,
+            "z": 47.27
+          },
+          {
+            "x": -24.16,
+            "y": 9.41,
+            "z": 80.05
+          },
+          {
+            "x": -28.61,
+            "y": 12.82,
+            "z": 104.76
+          }
+        ],
+        "connectedSettlementIds": [
+          "country-035-capital",
+          "country-035-village-2"
+        ]
+      },
+      {
+        "roadId": "country-035-road-3",
+        "class": "collector",
+        "lanes": 2,
+        "speedLimitKph": 55,
+        "access": {
+          "vehicles": true,
+          "pedestrians": true,
+          "emergency": true
+        },
+        "points": [
+          {
+            "x": 0.0,
+            "y": 4.11,
+            "z": 0.0
+          },
+          {
+            "x": -30.39,
+            "y": -0.75,
+            "z": 13.32
+          },
+          {
+            "x": -44.99,
+            "y": -1.5,
+            "z": 17.97
+          },
+          {
+            "x": -73.56,
+            "y": -1.5,
+            "z": 30.29
+          },
+          {
+            "x": -87.98,
+            "y": -1.5,
+            "z": 34.83
+          }
+        ],
+        "connectedSettlementIds": [
+          "country-035-capital",
+          "country-035-village-3"
+        ]
+      },
+      {
+        "roadId": "country-035-road-4",
+        "class": "collector",
+        "lanes": 2,
+        "speedLimitKph": 55,
+        "access": {
+          "vehicles": true,
+          "pedestrians": true,
+          "emergency": true
+        },
+        "points": [
+          {
+            "x": 0.0,
+            "y": 4.11,
+            "z": 0.0
+          },
+          {
+            "x": -6.61,
+            "y": 4.11,
+            "z": -7.96
+          },
+          {
+            "x": -2.73,
+            "y": 1.83,
+            "z": -21.68
+          },
+          {
+            "x": 4.06,
+            "y": -0.07,
+            "z": -37.01
+          },
+          {
+            "x": 15.56,
+            "y": 1.49,
+            "z": -54.93
+          }
+        ],
+        "connectedSettlementIds": [
+          "country-035-capital",
+          "country-035-village-4"
+        ]
+      },
+      {
+        "roadId": "country-035-road-5",
+        "class": "collector",
+        "lanes": 2,
+        "speedLimitKph": 55,
+        "access": {
+          "vehicles": true,
+          "pedestrians": true,
+          "emergency": true
+        },
+        "points": [
+          {
+            "x": 0.0,
+            "y": 4.11,
+            "z": 0.0
+          },
+          {
+            "x": 22.53,
+            "y": 9.26,
+            "z": 18.77
+          },
+          {
+            "x": 55.51,
+            "y": 13.84,
+            "z": 31.79
+          },
+          {
+            "x": 77.52,
+            "y": 16.96,
+            "z": 50.85
+          },
+          {
+            "x": 103.37,
+            "y": 19.98,
+            "z": 67.79
+          }
+        ],
+        "connectedSettlementIds": [
+          "country-035-capital",
+          "country-035-village-5"
+        ]
+      },
+      {
+        "roadId": "country-035-road-6",
+        "class": "collector",
+        "lanes": 2,
+        "speedLimitKph": 55,
+        "access": {
+          "vehicles": true,
+          "pedestrians": true,
+          "emergency": true
+        },
+        "points": [
+          {
+            "x": 0.0,
+            "y": 4.11,
+            "z": 0.0
+          },
+          {
+            "x": 36.3,
+            "y": 5.75,
+            "z": -28.75
+          },
+          {
+            "x": 44.56,
+            "y": 6.27,
+            "z": -42.08
+          },
+          {
+            "x": 89.66,
+            "y": 6.52,
+            "z": -75.67
+          },
+          {
+            "x": 104.09,
+            "y": 5.52,
+            "z": -92.39
+          }
+        ],
+        "connectedSettlementIds": [
+          "country-035-capital",
+          "country-035-village-6"
+        ]
+      }
+    ],
+    "bridges": [
+      {
+        "bridgeId": "country-035-bridge-1",
+        "roadId": "country-035-road-1",
+        "riverId": "country-035-river-1",
+        "lengthM": 28.8,
+        "loadClass": "heavy-vehicle",
+        "supportsTrain": false,
+        "x": -0.78,
+        "y": 2.18,
+        "z": -8.19
+      }
+    ]
+  },
+  "railNetwork": {
+    "lines": [
+      {
+        "lineId": "country-035-rail-1",
+        "mode": "intercity-rail",
+        "electrification": "future-ready",
+        "trackGaugeMm": 1435,
+        "maxSpeedKph": 180,
+        "points": [
+          {
+            "x": 0.0,
+            "y": 4.11,
+            "z": 0.0
+          },
+          {
+            "x": 17.04,
+            "y": 5.02,
+            "z": -16.4
+          },
+          {
+            "x": 51.85,
+            "y": 6.27,
+            "z": -42.57
+          },
+          {
+            "x": 54.5,
+            "y": 6.27,
+            "z": -51.06
+          },
+          {
+            "x": 73.1,
+            "y": 7.23,
+            "z": -68.32
+          },
+          {
+            "x": 104.09,
+            "y": 5.52,
+            "z": -92.39
+          }
+        ]
+      }
+    ],
+    "stations": [
+      {
+        "stationId": "country-035-country-035-capital-station",
+        "settlementId": "country-035-capital",
+        "name": "Yurnek Central Central Station",
+        "service": "intercity",
+        "x": 0.0,
+        "y": 4.61,
+        "z": 0.0
+      },
+      {
+        "stationId": "country-035-country-035-village-1-station",
+        "settlementId": "country-035-village-1",
+        "name": "Yurnek Village 1 Central Station",
+        "service": "intercity",
+        "x": -1.54,
+        "y": 13.28,
+        "z": 63.1
+      },
+      {
+        "stationId": "country-035-country-035-village-2-station",
+        "settlementId": "country-035-village-2",
+        "name": "Yurnek Village 2 Central Station",
+        "service": "intercity",
+        "x": -28.61,
+        "y": 13.32,
+        "z": 104.76
+      },
+      {
+        "stationId": "country-035-country-035-village-3-station",
+        "settlementId": "country-035-village-3",
+        "name": "Yurnek Village 3 Central Station",
+        "service": "intercity",
+        "x": -87.98,
+        "y": -1.0,
+        "z": 34.83
+      },
+      {
+        "stationId": "country-035-country-035-village-4-station",
+        "settlementId": "country-035-village-4",
+        "name": "Yurnek Village 4 Central Station",
+        "service": "intercity",
+        "x": 15.56,
+        "y": 1.99,
+        "z": -54.93
+      },
+      {
+        "stationId": "country-035-country-035-village-5-station",
+        "settlementId": "country-035-village-5",
+        "name": "Yurnek Village 5 Central Station",
+        "service": "intercity",
+        "x": 103.37,
+        "y": 20.48,
+        "z": 67.79
+      },
+      {
+        "stationId": "country-035-country-035-village-6-station",
+        "settlementId": "country-035-village-6",
+        "name": "Yurnek Village 6 Central Station",
+        "service": "intercity",
+        "x": 104.09,
+        "y": 6.02,
+        "z": -92.39
+      }
+    ],
+    "trainService": {
+      "enabled": true,
+      "rollingStockProfile": "regional-electric-template"
+    }
+  },
+  "riverNetwork": {
+    "rivers": [
+      {
+        "riverId": "country-035-river-1",
+        "navigable": true,
+        "widthM": 16.8,
+        "transportMode": "river-freight",
+        "points": [
+          {
+            "x": -128.0,
+            "y": -1.5,
+            "z": -22.0
+          },
+          {
+            "x": -81.98,
+            "y": -1.5,
+            "z": -19.38
+          },
+          {
+            "x": -47.04,
+            "y": -1.5,
+            "z": -10.67
+          },
+          {
+            "x": -0.78,
+            "y": 1.83,
+            "z": -8.19
+          },
+          {
+            "x": 51.93,
+            "y": 9.3,
+            "z": -9.25
+          },
+          {
+            "x": 86.11,
+            "y": 10.92,
+            "z": -0.12
+          },
+          {
+            "x": 128.0,
+            "y": 7.25,
+            "z": 4.76
+          }
+        ]
+      }
+    ],
+    "riverBridges": [
+      "country-035-bridge-1"
+    ]
+  },
+  "simulationHooks": {
+    "cityInfrastructure": true,
+    "residentialAccess": true,
+    "trafficSimulation": true,
+    "massTransitSimulation": true,
+    "waterTrafficSimulation": true
+  }
+}

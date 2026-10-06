@@ -1,0 +1,552 @@
+{
+  "schemaVersion": 1,
+  "countryId": "country-072",
+  "name": "Nembasa",
+  "status": "playable",
+  "completion": "template",
+  "templatePolicy": {
+    "generated": true,
+    "requiresReview": true,
+    "placeholderContentAllowed": true
+  },
+  "terrain": {
+    "asset": "data/country-content/nembasa/terrain.json",
+    "mapKey": "country/nembasa",
+    "biome": "rainforest-wetland"
+  },
+  "spawn": {
+    "x": 0.0,
+    "y": 1.2,
+    "z": 0.0,
+    "headingRad": 0.0
+  },
+  "settlements": [
+    {
+      "id": "country-072-capital",
+      "name": "Nembasa Central",
+      "type": "capital",
+      "populationTier": "large",
+      "x": 0.0,
+      "y": 5.3,
+      "z": 0.0
+    },
+    {
+      "id": "country-072-village-1",
+      "name": "Nembasa Village 1",
+      "type": "village",
+      "populationTier": "medium",
+      "x": 16.8,
+      "y": -1.0,
+      "z": 56.48
+    },
+    {
+      "id": "country-072-village-2",
+      "name": "Nembasa Village 2",
+      "type": "village",
+      "populationTier": "small",
+      "x": -97.91,
+      "y": 20.9,
+      "z": -77.79
+    },
+    {
+      "id": "country-072-village-3",
+      "name": "Nembasa Village 3",
+      "type": "village",
+      "populationTier": "small",
+      "x": 16.35,
+      "y": -0.4,
+      "z": 39.78
+    },
+    {
+      "id": "country-072-village-4",
+      "name": "Nembasa Village 4",
+      "type": "village",
+      "populationTier": "medium",
+      "x": -71.18,
+      "y": 16.37,
+      "z": -66.27
+    }
+  ],
+  "infrastructure": {
+    "rivers": [
+      {
+        "id": "country-072-river-1",
+        "name": "Nembasa River 1",
+        "widthM": 10.5,
+        "points": [
+          {
+            "x": -128.0,
+            "y": 21.85,
+            "z": -71.73
+          },
+          {
+            "x": -96.39,
+            "y": 18.7,
+            "z": -54.5
+          },
+          {
+            "x": -31.47,
+            "y": 11.27,
+            "z": -55.58
+          },
+          {
+            "x": 10.42,
+            "y": 6.41,
+            "z": -44.0
+          },
+          {
+            "x": 34.19,
+            "y": 2.22,
+            "z": -22.46
+          },
+          {
+            "x": 74.62,
+            "y": -1.5,
+            "z": -10.07
+          },
+          {
+            "x": 128.0,
+            "y": -1.5,
+            "z": -4.82
+          }
+        ]
+      },
+      {
+        "id": "country-072-river-2",
+        "name": "Nembasa River 2",
+        "widthM": 6.9,
+        "points": [
+          {
+            "x": 39.78,
+            "y": 4.47,
+            "z": -128.0
+          },
+          {
+            "x": 11.82,
+            "y": 6.92,
+            "z": -80.73
+          },
+          {
+            "x": -0.72,
+            "y": 8.01,
+            "z": -41.94
+          },
+          {
+            "x": -15.43,
+            "y": 6.97,
+            "z": -1.95
+          },
+          {
+            "x": -28.36,
+            "y": 5.91,
+            "z": 37.05
+          },
+          {
+            "x": -49.29,
+            "y": 2.61,
+            "z": 80.46
+          },
+          {
+            "x": -77.74,
+            "y": 2.06,
+            "z": 128.0
+          }
+        ]
+      },
+      {
+        "id": "country-072-river-3",
+        "name": "Nembasa River 3",
+        "widthM": 7.3,
+        "points": [
+          {
+            "x": -128.0,
+            "y": 21.43,
+            "z": -110.21
+          },
+          {
+            "x": -84.29,
+            "y": 18.74,
+            "z": -79.95
+          },
+          {
+            "x": -47.65,
+            "y": 13.05,
+            "z": -45.81
+          },
+          {
+            "x": -7.4,
+            "y": 6.27,
+            "z": -13.65
+          },
+          {
+            "x": 36.42,
+            "y": -1.06,
+            "z": 16.55
+          },
+          {
+            "x": 84.1,
+            "y": -1.5,
+            "z": 44.62
+          },
+          {
+            "x": 128.0,
+            "y": -1.5,
+            "z": 74.77
+          }
+        ]
+      }
+    ],
+    "lakes": [
+      {
+        "id": "country-072-lake-1",
+        "name": "Nembasa Lake 1",
+        "x": 21.35,
+        "y": 0.44,
+        "z": 31.72,
+        "radiusM": 19.9,
+        "type": "reservoir"
+      }
+    ],
+    "mountains": [
+      {
+        "id": "country-072-mountain-1",
+        "name": "Nembasa Highland 1",
+        "x": -55.42,
+        "y": 12.35,
+        "z": -39.85,
+        "heightM": 52.91,
+        "radiusM": 18.9
+      },
+      {
+        "id": "country-072-mountain-2",
+        "name": "Nembasa Highland 2",
+        "x": -41.96,
+        "y": 13.75,
+        "z": -70.52,
+        "heightM": 46.77,
+        "radiusM": 42.7
+      }
+    ],
+    "settlements": [
+      {
+        "id": "country-072-capital",
+        "name": "Nembasa Central",
+        "type": "capital",
+        "populationTier": "large",
+        "x": 0.0,
+        "y": 5.3,
+        "z": 0.0
+      },
+      {
+        "id": "country-072-village-1",
+        "name": "Nembasa Village 1",
+        "type": "village",
+        "populationTier": "medium",
+        "x": 16.8,
+        "y": -1.0,
+        "z": 56.48
+      },
+      {
+        "id": "country-072-village-2",
+        "name": "Nembasa Village 2",
+        "type": "village",
+        "populationTier": "small",
+        "x": -97.91,
+        "y": 20.9,
+        "z": -77.79
+      },
+      {
+        "id": "country-072-village-3",
+        "name": "Nembasa Village 3",
+        "type": "village",
+        "populationTier": "small",
+        "x": 16.35,
+        "y": -0.4,
+        "z": 39.78
+      },
+      {
+        "id": "country-072-village-4",
+        "name": "Nembasa Village 4",
+        "type": "village",
+        "populationTier": "medium",
+        "x": -71.18,
+        "y": 16.37,
+        "z": -66.27
+      }
+    ],
+    "roads": [
+      {
+        "id": "country-072-road-1",
+        "class": "highway",
+        "points": [
+          {
+            "x": 0.0,
+            "y": 4.8,
+            "z": 0.0
+          },
+          {
+            "x": 3.23,
+            "y": 3.05,
+            "z": 14.66
+          },
+          {
+            "x": 10.8,
+            "y": -0.9,
+            "z": 26.92
+          },
+          {
+            "x": 7.83,
+            "y": -0.59,
+            "z": 44.98
+          },
+          {
+            "x": 16.8,
+            "y": -1.5,
+            "z": 56.48
+          }
+        ]
+      },
+      {
+        "id": "country-072-road-2",
+        "class": "regional",
+        "points": [
+          {
+            "x": 0.0,
+            "y": 4.8,
+            "z": 0.0
+          },
+          {
+            "x": -26.9,
+            "y": 9.99,
+            "z": -18.12
+          },
+          {
+            "x": -38.3,
+            "y": 11.27,
+            "z": -44.75
+          },
+          {
+            "x": -77.64,
+            "y": 17.94,
+            "z": -56.03
+          },
+          {
+            "x": -97.91,
+            "y": 20.4,
+            "z": -77.79
+          }
+        ]
+      },
+      {
+        "id": "country-072-road-3",
+        "class": "regional",
+        "points": [
+          {
+            "x": 0.0,
+            "y": 4.8,
+            "z": 0.0
+          },
+          {
+            "x": 12.47,
+            "y": 2.6,
+            "z": 5.34
+          },
+          {
+            "x": 3.57,
+            "y": 3.05,
+            "z": 22.42
+          },
+          {
+            "x": 9.64,
+            "y": -0.9,
+            "z": 31.28
+          },
+          {
+            "x": 16.35,
+            "y": -0.9,
+            "z": 39.78
+          }
+        ]
+      },
+      {
+        "id": "country-072-road-4",
+        "class": "regional",
+        "points": [
+          {
+            "x": 0.0,
+            "y": 4.8,
+            "z": 0.0
+          },
+          {
+            "x": -8.24,
+            "y": 8.21,
+            "z": -21.82
+          },
+          {
+            "x": -34.5,
+            "y": 10.72,
+            "z": -33.73
+          },
+          {
+            "x": -53.72,
+            "y": 13.05,
+            "z": -49.52
+          },
+          {
+            "x": -71.18,
+            "y": 15.87,
+            "z": -66.27
+          }
+        ]
+      }
+    ],
+    "bridges": [
+      {
+        "id": "country-072-bridge-1",
+        "name": "Nembasa Crossing 1",
+        "roadId": "country-072-road-1",
+        "riverId": "country-072-river-1",
+        "x": 10.42,
+        "y": 6.76,
+        "z": -44.0,
+        "lengthM": 22.5
+      },
+      {
+        "id": "country-072-bridge-2",
+        "name": "Nembasa Crossing 2",
+        "roadId": "country-072-road-2",
+        "riverId": "country-072-river-2",
+        "x": -15.43,
+        "y": 7.319999999999999,
+        "z": -1.95,
+        "lengthM": 18.9
+      },
+      {
+        "id": "country-072-bridge-3",
+        "name": "Nembasa Crossing 3",
+        "roadId": "country-072-road-3",
+        "riverId": "country-072-river-3",
+        "x": -7.4,
+        "y": 6.619999999999999,
+        "z": -13.65,
+        "lengthM": 19.3
+      }
+    ],
+    "railways": [
+      {
+        "id": "country-072-rail-1",
+        "class": "intercity",
+        "points": [
+          {
+            "x": 0.0,
+            "y": 4.8,
+            "z": 0.0
+          },
+          {
+            "x": -4.51,
+            "y": 6.27,
+            "z": -18.6
+          },
+          {
+            "x": -25.05,
+            "y": 10.72,
+            "z": -28.39
+          },
+          {
+            "x": -43.72,
+            "y": 12.35,
+            "z": -39.21
+          },
+          {
+            "x": -65.26,
+            "y": 14.95,
+            "z": -48.44
+          },
+          {
+            "x": -71.18,
+            "y": 15.87,
+            "z": -66.27
+          }
+        ]
+      }
+    ],
+    "airports": [
+      {
+        "id": "country-072-airport-1",
+        "name": "Nembasa International",
+        "size": "large",
+        "x": -57.53,
+        "y": 15.15,
+        "z": -46.62,
+        "runwayLengthM": 1800
+      }
+    ],
+    "ports": [
+      {
+        "id": "country-072-port-1",
+        "name": "Nembasa Maritime Port",
+        "x": 7.63,
+        "y": 0.73,
+        "z": 69.13,
+        "capacity": "large"
+      }
+    ],
+    "militaryBases": [],
+    "metroLines": [
+      {
+        "id": "country-072-metro-1",
+        "status": "planned",
+        "serves": [
+          "country-072-capital",
+          "country-072-village-1",
+          "country-072-village-2"
+        ]
+      }
+    ],
+    "airRoutes": [
+      {
+        "id": "country-072-air-route-1",
+        "status": "regional",
+        "airportId": "country-072-airport-1"
+      }
+    ],
+    "shipLanes": [
+      {
+        "id": "country-072-ship-lane-1",
+        "status": "regional",
+        "portId": "country-072-port-1"
+      }
+    ],
+    "submarineZones": [
+      {
+        "id": "country-072-submarine-zone-1",
+        "status": "charted",
+        "depthM": 85.5
+      }
+    ]
+  },
+  "missions": [
+    {
+      "id": "country-072-intro",
+      "title": "Welcome to Nembasa",
+      "status": "template",
+      "placeholder": true
+    },
+    {
+      "id": "country-072-route",
+      "title": "Cross-Region Route",
+      "status": "template",
+      "placeholder": true
+    }
+  ],
+  "systems": {
+    "weatherProfile": "template",
+    "peopleProfile": "people-nembasa",
+    "trafficProfile": "template"
+  },
+  "nextSteps": [
+    "replace placeholder settlements",
+    "author terrain landmarks",
+    "author missions and NPC schedules"
+  ]
+}

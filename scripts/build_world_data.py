@@ -1,9 +1,27 @@
 import json
 import re
+import argparse
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-source = Path('/home/ubuntu/indoru_countries_v1.md').read_text(encoding='utf-8')
+
+
+def parse_args() -> argparse.Namespace:
+    parser = argparse.ArgumentParser(description='Build the canonical Indoru world registries.')
+    parser.add_argument(
+        '--source',
+        type=Path,
+        default=ROOT / 'data' / 'countries-source.md',
+        help='approved country design Markdown file (repository-relative by default)',
+    )
+    return parser.parse_args()
+
+
+args = parse_args()
+source_path = args.source if args.source.is_absolute() else ROOT / args.source
+if not source_path.is_file():
+    raise SystemExit(f'country source not found: {source_path}')
+source = source_path.read_text(encoding='utf-8')
 regions = {
     'Avarra Crescent': ('AVR', 'warm fertile crescent, inland sea trade'),
     'Khoruun Reach': ('KHR', 'canyons, salt flats, plateaus and storm coast'),
@@ -25,7 +43,7 @@ for line in source.splitlines():
     if row and current_region in regions:
         number, name, identity = int(row.group(1)), row.group(2).strip(), row.group(3).strip()
         code, theme = regions[current_region]
-        status = 'playable' if name == 'Avenra' else 'coming_soon'
+        status = 'playable'
         countries.append({
             'countryId': f'country-{number:03d}',
             'name': name,
@@ -37,7 +55,7 @@ for line in source.splitlines():
             'identity': identity,
             'regionalTheme': theme,
             'status': status,
-            'unlockOrder': 1 if status == 'playable' else None,
+            'unlockOrder': number,
             'mapKey': f'country/{name.lower()}',
             'peopleProfileId': f'people-{name.lower()}',
         })
@@ -46,8 +64,8 @@ world = {
     'worldId': 'indoru-world-001',
     'name': 'Indoru',
     'version': '0.1.0',
-    'mapAsset': 'assets/maps/indoru-global-map.png',
-    'startingCountryId': 'country-001',
+    'mapAsset': 'assets/maps/indoru-transport-network.png',
+    'startingCountryId': next((c['countryId'] for c in countries if c['name'] == 'Avenra'), None),
     'countryCount': len(countries),
     'temporaryMapCodes': False,
     'countries': countries,
@@ -57,12 +75,19 @@ world = {
     ],
     'comingSoonPolicy': {
         'visibleOnWorldMap': True,
-        'playable': False,
-        'unlockByExpansion': True,
-        'label': 'Coming Soon',
+        'playable': True,
+        'unlockByExpansion': False,
+        'label': 'Available Now',
         'requiresCountryNameAndFlag': True,
     }
 }
+if world['startingCountryId'] is None:
+    raise SystemExit('approved source must contain Avenra as the starter country')
+if sum(c['status'] == 'playable' for c in countries) != len(countries):
+    raise SystemExit('approved source must produce playable records for every country')
+if countries[0]['name'] != 'Avenra' or world['startingCountryId'] != countries[0]['countryId']:
+    raise SystemExit('Avenra must remain the default startingCountryId')
+
 (ROOT / 'data/world.json').write_text(json.dumps(world, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
 (ROOT / 'data/countries.json').write_text(json.dumps(countries, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
 print(f'Wrote {len(countries)} countries; playable={sum(c["status"] == "playable" for c in countries)}; coming_soon={sum(c["status"] == "coming_soon" for c in countries)}')

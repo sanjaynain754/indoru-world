@@ -1,0 +1,448 @@
+{
+  "schemaVersion": 1,
+  "countryId": "country-013",
+  "name": "Virelune",
+  "status": "playable",
+  "completion": "template",
+  "templatePolicy": {
+    "generated": true,
+    "requiresReview": true,
+    "placeholderContentAllowed": true
+  },
+  "terrain": {
+    "asset": "data/country-content/virelune/terrain.json",
+    "mapKey": "country/virelune",
+    "biome": "temperate-river"
+  },
+  "spawn": {
+    "x": 0.0,
+    "y": 1.2,
+    "z": 0.0,
+    "headingRad": 0.0
+  },
+  "settlements": [
+    {
+      "id": "country-013-capital",
+      "name": "Virelune Central",
+      "type": "capital",
+      "populationTier": "large",
+      "x": 0.0,
+      "y": 1.55,
+      "z": 0.0
+    },
+    {
+      "id": "country-013-village-1",
+      "name": "Virelune Village 1",
+      "type": "village",
+      "populationTier": "medium",
+      "x": -104.27,
+      "y": 15.88,
+      "z": -5.83
+    },
+    {
+      "id": "country-013-village-2",
+      "name": "Virelune Village 2",
+      "type": "village",
+      "populationTier": "small",
+      "x": 100.42,
+      "y": 4.16,
+      "z": -36.57
+    },
+    {
+      "id": "country-013-village-3",
+      "name": "Virelune Village 3",
+      "type": "village",
+      "populationTier": "small",
+      "x": -17.33,
+      "y": 2.27,
+      "z": -89.64
+    },
+    {
+      "id": "country-013-village-4",
+      "name": "Virelune Village 4",
+      "type": "village",
+      "populationTier": "medium",
+      "x": 24.83,
+      "y": -1.0,
+      "z": 30.06
+    }
+  ],
+  "infrastructure": {
+    "rivers": [
+      {
+        "id": "country-013-river-1",
+        "name": "Virelune River 1",
+        "widthM": 14.3,
+        "points": [
+          {
+            "x": -128.0,
+            "y": 9.75,
+            "z": 89.04
+          },
+          {
+            "x": -88.35,
+            "y": 4.03,
+            "z": 93.77
+          },
+          {
+            "x": -35.75,
+            "y": -1.5,
+            "z": 91.38
+          },
+          {
+            "x": -7.33,
+            "y": -1.5,
+            "z": 102.29
+          },
+          {
+            "x": 41.39,
+            "y": -1.5,
+            "z": 102.04
+          },
+          {
+            "x": 74.19,
+            "y": -1.5,
+            "z": 110.54
+          },
+          {
+            "x": 128.0,
+            "y": -1.5,
+            "z": 107.48
+          }
+        ]
+      }
+    ],
+    "lakes": [
+      {
+        "id": "country-013-lake-1",
+        "name": "Virelune Lake 1",
+        "x": 15.64,
+        "y": 0.4,
+        "z": -74.72,
+        "radiusM": 17.6,
+        "type": "natural"
+      }
+    ],
+    "mountains": [
+      {
+        "id": "country-013-mountain-1",
+        "name": "Virelune Highland 1",
+        "x": -12.69,
+        "y": 4.31,
+        "z": -26.82,
+        "heightM": 39.28,
+        "radiusM": 16.7
+      }
+    ],
+    "settlements": [
+      {
+        "id": "country-013-capital",
+        "name": "Virelune Central",
+        "type": "capital",
+        "populationTier": "large",
+        "x": 0.0,
+        "y": 1.55,
+        "z": 0.0
+      },
+      {
+        "id": "country-013-village-1",
+        "name": "Virelune Village 1",
+        "type": "village",
+        "populationTier": "medium",
+        "x": -104.27,
+        "y": 15.88,
+        "z": -5.83
+      },
+      {
+        "id": "country-013-village-2",
+        "name": "Virelune Village 2",
+        "type": "village",
+        "populationTier": "small",
+        "x": 100.42,
+        "y": 4.16,
+        "z": -36.57
+      },
+      {
+        "id": "country-013-village-3",
+        "name": "Virelune Village 3",
+        "type": "village",
+        "populationTier": "small",
+        "x": -17.33,
+        "y": 2.27,
+        "z": -89.64
+      },
+      {
+        "id": "country-013-village-4",
+        "name": "Virelune Village 4",
+        "type": "village",
+        "populationTier": "medium",
+        "x": 24.83,
+        "y": -1.0,
+        "z": 30.06
+      }
+    ],
+    "roads": [
+      {
+        "id": "country-013-road-1",
+        "class": "highway",
+        "points": [
+          {
+            "x": 0.0,
+            "y": 1.05,
+            "z": 0.0
+          },
+          {
+            "x": -18.54,
+            "y": 2.78,
+            "z": -5.6
+          },
+          {
+            "x": -46.14,
+            "y": 6.74,
+            "z": -6.21
+          },
+          {
+            "x": -73.49,
+            "y": 10.84,
+            "z": -6.97
+          },
+          {
+            "x": -104.27,
+            "y": 15.38,
+            "z": -5.83
+          }
+        ]
+      },
+      {
+        "id": "country-013-road-2",
+        "class": "regional",
+        "points": [
+          {
+            "x": 0.0,
+            "y": 1.05,
+            "z": 0.0
+          },
+          {
+            "x": 17.72,
+            "y": -0.27,
+            "z": -5.08
+          },
+          {
+            "x": 52.87,
+            "y": -0.05,
+            "z": -19.75
+          },
+          {
+            "x": 75.97,
+            "y": 2.01,
+            "z": -27.79
+          },
+          {
+            "x": 100.42,
+            "y": 3.66,
+            "z": -36.57
+          }
+        ]
+      },
+      {
+        "id": "country-013-road-3",
+        "class": "regional",
+        "points": [
+          {
+            "x": 0.0,
+            "y": 1.05,
+            "z": 0.0
+          },
+          {
+            "x": -16.0,
+            "y": 3.83,
+            "z": -15.99
+          },
+          {
+            "x": -0.11,
+            "y": 3.19,
+            "z": -49.52
+          },
+          {
+            "x": -4.95,
+            "y": 2.76,
+            "z": -71.66
+          },
+          {
+            "x": -17.33,
+            "y": 1.77,
+            "z": -89.64
+          }
+        ]
+      },
+      {
+        "id": "country-013-road-4",
+        "class": "regional",
+        "points": [
+          {
+            "x": 0.0,
+            "y": 1.05,
+            "z": 0.0
+          },
+          {
+            "x": -2.7,
+            "y": -0.5,
+            "z": 12.41
+          },
+          {
+            "x": 2.5,
+            "y": -0.5,
+            "z": 20.49
+          },
+          {
+            "x": 9.67,
+            "y": -1.5,
+            "z": 27.47
+          },
+          {
+            "x": 24.83,
+            "y": -1.5,
+            "z": 30.06
+          }
+        ]
+      }
+    ],
+    "bridges": [
+      {
+        "id": "country-013-bridge-1",
+        "name": "Virelune Crossing 1",
+        "roadId": "country-013-road-1",
+        "riverId": "country-013-river-1",
+        "x": -7.33,
+        "y": -1.15,
+        "z": 102.29,
+        "lengthM": 26.3
+      }
+    ],
+    "railways": [
+      {
+        "id": "country-013-rail-1",
+        "class": "intercity",
+        "points": [
+          {
+            "x": 0.0,
+            "y": 1.05,
+            "z": 0.0
+          },
+          {
+            "x": 8.06,
+            "y": -0.27,
+            "z": 4.31
+          },
+          {
+            "x": 14.93,
+            "y": -1.5,
+            "z": 9.27
+          },
+          {
+            "x": 8.0,
+            "y": -1.5,
+            "z": 21.83
+          },
+          {
+            "x": 12.59,
+            "y": -1.5,
+            "z": 28.05
+          },
+          {
+            "x": 24.83,
+            "y": -1.5,
+            "z": 30.06
+          }
+        ]
+      }
+    ],
+    "airports": [
+      {
+        "id": "country-013-airport-1",
+        "name": "Virelune International",
+        "size": "regional",
+        "x": -51.95,
+        "y": 4.3,
+        "z": 24.25,
+        "runwayLengthM": 900
+      }
+    ],
+    "ports": [
+      {
+        "id": "country-013-port-1",
+        "name": "Virelune Maritime Port",
+        "x": -114.15,
+        "y": 0.69,
+        "z": -75.27,
+        "capacity": "large"
+      }
+    ],
+    "militaryBases": [
+      {
+        "id": "country-013-base-1",
+        "name": "Virelune Defense Station",
+        "type": "air-ground",
+        "x": 1.05,
+        "y": 3.49,
+        "z": -47.3
+      }
+    ],
+    "metroLines": [
+      {
+        "id": "country-013-metro-1",
+        "status": "planned",
+        "serves": [
+          "country-013-capital",
+          "country-013-village-1",
+          "country-013-village-2"
+        ]
+      }
+    ],
+    "airRoutes": [
+      {
+        "id": "country-013-air-route-1",
+        "status": "regional",
+        "airportId": "country-013-airport-1"
+      }
+    ],
+    "shipLanes": [
+      {
+        "id": "country-013-ship-lane-1",
+        "status": "regional",
+        "portId": "country-013-port-1"
+      }
+    ],
+    "submarineZones": [
+      {
+        "id": "country-013-submarine-zone-1",
+        "status": "charted",
+        "depthM": 78.8
+      }
+    ]
+  },
+  "missions": [
+    {
+      "id": "country-013-intro",
+      "title": "Welcome to Virelune",
+      "status": "template",
+      "placeholder": true
+    },
+    {
+      "id": "country-013-route",
+      "title": "Cross-Region Route",
+      "status": "template",
+      "placeholder": true
+    }
+  ],
+  "systems": {
+    "weatherProfile": "template",
+    "peopleProfile": "people-virelune",
+    "trafficProfile": "template"
+  },
+  "nextSteps": [
+    "replace placeholder settlements",
+    "author terrain landmarks",
+    "author missions and NPC schedules"
+  ]
+}

@@ -1,0 +1,610 @@
+{
+  "schemaVersion": 1,
+  "countryId": "country-007",
+  "name": "Belqorin",
+  "status": "playable",
+  "completion": "template",
+  "templatePolicy": {
+    "generated": true,
+    "requiresReview": true,
+    "placeholderContentAllowed": true
+  },
+  "terrain": {
+    "asset": "data/country-content/belqorin/terrain.json",
+    "mapKey": "country/belqorin",
+    "biome": "temperate-river"
+  },
+  "spawn": {
+    "x": 0.0,
+    "y": 1.2,
+    "z": 0.0,
+    "headingRad": 0.0
+  },
+  "settlements": [
+    {
+      "id": "country-007-capital",
+      "name": "Belqorin Central",
+      "type": "capital",
+      "populationTier": "large",
+      "x": 0.0,
+      "y": 9.57,
+      "z": 0.0
+    },
+    {
+      "id": "country-007-village-1",
+      "name": "Belqorin Village 1",
+      "type": "village",
+      "populationTier": "medium",
+      "x": -49.85,
+      "y": 7.23,
+      "z": 10.46
+    },
+    {
+      "id": "country-007-village-2",
+      "name": "Belqorin Village 2",
+      "type": "village",
+      "populationTier": "small",
+      "x": 20.49,
+      "y": 15.63,
+      "z": 76.45
+    },
+    {
+      "id": "country-007-village-3",
+      "name": "Belqorin Village 3",
+      "type": "village",
+      "populationTier": "small",
+      "x": -51.86,
+      "y": 5.52,
+      "z": -102.21
+    },
+    {
+      "id": "country-007-village-4",
+      "name": "Belqorin Village 4",
+      "type": "village",
+      "populationTier": "medium",
+      "x": -102.42,
+      "y": 9.72,
+      "z": 101.84
+    },
+    {
+      "id": "country-007-village-5",
+      "name": "Belqorin Village 5",
+      "type": "village",
+      "populationTier": "small",
+      "x": 42.5,
+      "y": 9.04,
+      "z": 29.31
+    }
+  ],
+  "infrastructure": {
+    "rivers": [
+      {
+        "id": "country-007-river-1",
+        "name": "Belqorin River 1",
+        "widthM": 11.5,
+        "points": [
+          {
+            "x": -128.0,
+            "y": -1.5,
+            "z": -45.61
+          },
+          {
+            "x": -85.71,
+            "y": 0.23,
+            "z": -45.65
+          },
+          {
+            "x": -36.05,
+            "y": 4.43,
+            "z": -49.73
+          },
+          {
+            "x": -5.62,
+            "y": 5.88,
+            "z": -43.24
+          },
+          {
+            "x": 50.35,
+            "y": 5.25,
+            "z": -50.8
+          },
+          {
+            "x": 94.11,
+            "y": -1.01,
+            "z": -51.64
+          },
+          {
+            "x": 128.0,
+            "y": -1.5,
+            "z": -47.06
+          }
+        ]
+      },
+      {
+        "id": "country-007-river-2",
+        "name": "Belqorin River 2",
+        "widthM": 7.7,
+        "points": [
+          {
+            "x": -13.81,
+            "y": 9.11,
+            "z": -128.0
+          },
+          {
+            "x": -14.51,
+            "y": 6.73,
+            "z": -91.15
+          },
+          {
+            "x": -43.48,
+            "y": 3.42,
+            "z": -38.75
+          },
+          {
+            "x": -48.24,
+            "y": 5.15,
+            "z": 0.33
+          },
+          {
+            "x": -60.17,
+            "y": 8.31,
+            "z": 43.37
+          },
+          {
+            "x": -61.7,
+            "y": 12.16,
+            "z": 80.67
+          },
+          {
+            "x": -81.45,
+            "y": 14.56,
+            "z": 128.0
+          }
+        ]
+      },
+      {
+        "id": "country-007-river-3",
+        "name": "Belqorin River 3",
+        "widthM": 13.5,
+        "points": [
+          {
+            "x": -128.0,
+            "y": 5.25,
+            "z": 114.34
+          },
+          {
+            "x": -81.41,
+            "y": 9.9,
+            "z": 79.24
+          },
+          {
+            "x": -41.91,
+            "y": 10.46,
+            "z": 48.03
+          },
+          {
+            "x": 9.03,
+            "y": 10.05,
+            "z": 10.54
+          },
+          {
+            "x": 32.55,
+            "y": 7.5,
+            "z": -11.88
+          },
+          {
+            "x": 95.13,
+            "y": -1.01,
+            "z": -55.78
+          },
+          {
+            "x": 128.0,
+            "y": -1.5,
+            "z": -83.33
+          }
+        ]
+      }
+    ],
+    "lakes": [
+      {
+        "id": "country-007-lake-1",
+        "name": "Belqorin Lake 1",
+        "x": 63.43,
+        "y": 0.4,
+        "z": 55.79,
+        "radiusM": 19.9,
+        "type": "reservoir"
+      },
+      {
+        "id": "country-007-lake-2",
+        "name": "Belqorin Lake 2",
+        "x": -44.45,
+        "y": 0.4,
+        "z": 71.64,
+        "radiusM": 24.8,
+        "type": "natural"
+      }
+    ],
+    "mountains": [
+      {
+        "id": "country-007-mountain-1",
+        "name": "Belqorin Highland 1",
+        "x": -64.28,
+        "y": 3.14,
+        "z": -7.92,
+        "heightM": 32.78,
+        "radiusM": 30.2
+      },
+      {
+        "id": "country-007-mountain-2",
+        "name": "Belqorin Highland 2",
+        "x": 18.13,
+        "y": 6.18,
+        "z": -48.12,
+        "heightM": 37.61,
+        "radiusM": 41.1
+      }
+    ],
+    "settlements": [
+      {
+        "id": "country-007-capital",
+        "name": "Belqorin Central",
+        "type": "capital",
+        "populationTier": "large",
+        "x": 0.0,
+        "y": 9.57,
+        "z": 0.0
+      },
+      {
+        "id": "country-007-village-1",
+        "name": "Belqorin Village 1",
+        "type": "village",
+        "populationTier": "medium",
+        "x": -49.85,
+        "y": 7.23,
+        "z": 10.46
+      },
+      {
+        "id": "country-007-village-2",
+        "name": "Belqorin Village 2",
+        "type": "village",
+        "populationTier": "small",
+        "x": 20.49,
+        "y": 15.63,
+        "z": 76.45
+      },
+      {
+        "id": "country-007-village-3",
+        "name": "Belqorin Village 3",
+        "type": "village",
+        "populationTier": "small",
+        "x": -51.86,
+        "y": 5.52,
+        "z": -102.21
+      },
+      {
+        "id": "country-007-village-4",
+        "name": "Belqorin Village 4",
+        "type": "village",
+        "populationTier": "medium",
+        "x": -102.42,
+        "y": 9.72,
+        "z": 101.84
+      },
+      {
+        "id": "country-007-village-5",
+        "name": "Belqorin Village 5",
+        "type": "village",
+        "populationTier": "small",
+        "x": 42.5,
+        "y": 9.04,
+        "z": 29.31
+      }
+    ],
+    "roads": [
+      {
+        "id": "country-007-road-1",
+        "class": "highway",
+        "points": [
+          {
+            "x": 0.0,
+            "y": 9.07,
+            "z": 0.0
+          },
+          {
+            "x": -12.13,
+            "y": 8.32,
+            "z": 2.43
+          },
+          {
+            "x": -14.61,
+            "y": 8.32,
+            "z": -0.44
+          },
+          {
+            "x": -29.04,
+            "y": 6.94,
+            "z": 3.25
+          },
+          {
+            "x": -49.85,
+            "y": 6.73,
+            "z": 10.46
+          }
+        ]
+      },
+      {
+        "id": "country-007-road-2",
+        "class": "regional",
+        "points": [
+          {
+            "x": 0.0,
+            "y": 9.07,
+            "z": 0.0
+          },
+          {
+            "x": -2.34,
+            "y": 10.34,
+            "z": 23.22
+          },
+          {
+            "x": 4.41,
+            "y": 12.69,
+            "z": 41.44
+          },
+          {
+            "x": 19.41,
+            "y": 12.14,
+            "z": 55.12
+          },
+          {
+            "x": 20.49,
+            "y": 15.13,
+            "z": 76.45
+          }
+        ]
+      },
+      {
+        "id": "country-007-road-3",
+        "class": "regional",
+        "points": [
+          {
+            "x": 0.0,
+            "y": 9.07,
+            "z": 0.0
+          },
+          {
+            "x": -10.36,
+            "y": 5.85,
+            "z": -26.99
+          },
+          {
+            "x": -28.23,
+            "y": 4.43,
+            "z": -49.84
+          },
+          {
+            "x": -45.59,
+            "y": 4.32,
+            "z": -72.98
+          },
+          {
+            "x": -51.86,
+            "y": 5.02,
+            "z": -102.21
+          }
+        ]
+      },
+      {
+        "id": "country-007-road-4",
+        "class": "regional",
+        "points": [
+          {
+            "x": 0.0,
+            "y": 9.07,
+            "z": 0.0
+          },
+          {
+            "x": -20.94,
+            "y": 9.83,
+            "z": 22.89
+          },
+          {
+            "x": -55.24,
+            "y": 10.46,
+            "z": 53.14
+          },
+          {
+            "x": -68.4,
+            "y": 10.32,
+            "z": 71.75
+          },
+          {
+            "x": -102.42,
+            "y": 9.22,
+            "z": 101.84
+          }
+        ]
+      },
+      {
+        "id": "country-007-road-5",
+        "class": "regional",
+        "points": [
+          {
+            "x": 0.0,
+            "y": 9.07,
+            "z": 0.0
+          },
+          {
+            "x": 0.99,
+            "y": 10.34,
+            "z": 12.63
+          },
+          {
+            "x": 19.87,
+            "y": 10.05,
+            "z": 15.41
+          },
+          {
+            "x": 43.45,
+            "y": 7.49,
+            "z": 15.61
+          },
+          {
+            "x": 42.5,
+            "y": 8.54,
+            "z": 29.31
+          }
+        ]
+      }
+    ],
+    "bridges": [
+      {
+        "id": "country-007-bridge-1",
+        "name": "Belqorin Crossing 1",
+        "roadId": "country-007-road-1",
+        "riverId": "country-007-river-1",
+        "x": -5.62,
+        "y": 6.2299999999999995,
+        "z": -43.24,
+        "lengthM": 23.5
+      },
+      {
+        "id": "country-007-bridge-2",
+        "name": "Belqorin Crossing 2",
+        "roadId": "country-007-road-2",
+        "riverId": "country-007-river-2",
+        "x": -48.24,
+        "y": 5.5,
+        "z": 0.33,
+        "lengthM": 19.7
+      },
+      {
+        "id": "country-007-bridge-3",
+        "name": "Belqorin Crossing 3",
+        "roadId": "country-007-road-3",
+        "riverId": "country-007-river-3",
+        "x": 9.03,
+        "y": 10.4,
+        "z": 10.54,
+        "lengthM": 25.5
+      }
+    ],
+    "railways": [
+      {
+        "id": "country-007-rail-1",
+        "class": "intercity",
+        "points": [
+          {
+            "x": 0.0,
+            "y": 9.07,
+            "z": 0.0
+          },
+          {
+            "x": 7.72,
+            "y": 9.07,
+            "z": 6.29
+          },
+          {
+            "x": 24.79,
+            "y": 8.25,
+            "z": 7.44
+          },
+          {
+            "x": 14.76,
+            "y": 10.05,
+            "z": 23.49
+          },
+          {
+            "x": 45.1,
+            "y": 7.49,
+            "z": 17.34
+          },
+          {
+            "x": 42.5,
+            "y": 8.54,
+            "z": 29.31
+          }
+        ]
+      }
+    ],
+    "airports": [
+      {
+        "id": "country-007-airport-1",
+        "name": "Belqorin International",
+        "size": "large",
+        "x": -23.03,
+        "y": 12.87,
+        "z": 49.25,
+        "runwayLengthM": 1800
+      }
+    ],
+    "ports": [
+      {
+        "id": "country-007-port-1",
+        "name": "Belqorin Maritime Port",
+        "x": -63.65,
+        "y": 0.69,
+        "z": -82.34,
+        "capacity": "small"
+      }
+    ],
+    "militaryBases": [],
+    "metroLines": [
+      {
+        "id": "country-007-metro-1",
+        "status": "planned",
+        "serves": [
+          "country-007-capital",
+          "country-007-village-1",
+          "country-007-village-2"
+        ]
+      }
+    ],
+    "airRoutes": [
+      {
+        "id": "country-007-air-route-1",
+        "status": "regional",
+        "airportId": "country-007-airport-1"
+      }
+    ],
+    "shipLanes": [
+      {
+        "id": "country-007-ship-lane-1",
+        "status": "regional",
+        "portId": "country-007-port-1"
+      }
+    ],
+    "submarineZones": [
+      {
+        "id": "country-007-submarine-zone-1",
+        "status": "charted",
+        "depthM": 204.7
+      }
+    ]
+  },
+  "missions": [
+    {
+      "id": "country-007-intro",
+      "title": "Welcome to Belqorin",
+      "status": "template",
+      "placeholder": true
+    },
+    {
+      "id": "country-007-route",
+      "title": "Cross-Region Route",
+      "status": "template",
+      "placeholder": true
+    }
+  ],
+  "systems": {
+    "weatherProfile": "template",
+    "peopleProfile": "people-belqorin",
+    "trafficProfile": "template"
+  },
+  "nextSteps": [
+    "replace placeholder settlements",
+    "author terrain landmarks",
+    "author missions and NPC schedules"
+  ]
+}

@@ -1,0 +1,442 @@
+{
+  "schemaVersion": 1,
+  "countryId": "country-086",
+  "name": "Tembara",
+  "status": "playable",
+  "completion": "template",
+  "templatePolicy": {
+    "generated": true,
+    "requiresReview": true,
+    "placeholderContentAllowed": true
+  },
+  "terrain": {
+    "asset": "data/country-content/tembara/terrain.json",
+    "mapKey": "country/tembara",
+    "biome": "rainforest-wetland"
+  },
+  "spawn": {
+    "x": 0.0,
+    "y": 1.2,
+    "z": 0.0,
+    "headingRad": 0.0
+  },
+  "settlements": [
+    {
+      "id": "country-086-capital",
+      "name": "Tembara Central",
+      "type": "capital",
+      "populationTier": "large",
+      "x": 0.0,
+      "y": 2.97,
+      "z": 0.0
+    },
+    {
+      "id": "country-086-village-1",
+      "name": "Tembara Village 1",
+      "type": "village",
+      "populationTier": "medium",
+      "x": 100.84,
+      "y": 5.13,
+      "z": 36.43
+    },
+    {
+      "id": "country-086-village-2",
+      "name": "Tembara Village 2",
+      "type": "village",
+      "populationTier": "small",
+      "x": -96.93,
+      "y": 11.53,
+      "z": -24.46
+    },
+    {
+      "id": "country-086-village-3",
+      "name": "Tembara Village 3",
+      "type": "village",
+      "populationTier": "small",
+      "x": -21.43,
+      "y": 3.21,
+      "z": -62.62
+    }
+  ],
+  "infrastructure": {
+    "rivers": [
+      {
+        "id": "country-086-river-1",
+        "name": "Tembara River 1",
+        "widthM": 20.4,
+        "points": [
+          {
+            "x": -128.0,
+            "y": 13.22,
+            "z": -99.49
+          },
+          {
+            "x": -76.95,
+            "y": 8.19,
+            "z": -86.82
+          },
+          {
+            "x": -47.54,
+            "y": 4.78,
+            "z": -62.24
+          },
+          {
+            "x": 5.55,
+            "y": 3.01,
+            "z": -50.69
+          },
+          {
+            "x": 31.89,
+            "y": 2.2,
+            "z": -24.43
+          },
+          {
+            "x": 77.96,
+            "y": 3.79,
+            "z": -9.01
+          },
+          {
+            "x": 128.0,
+            "y": 9.45,
+            "z": 4.21
+          }
+        ]
+      },
+      {
+        "id": "country-086-river-2",
+        "name": "Tembara River 2",
+        "widthM": 7.3,
+        "points": [
+          {
+            "x": 123.46,
+            "y": 4.14,
+            "z": -128.0
+          },
+          {
+            "x": 93.82,
+            "y": 3.76,
+            "z": -81.94
+          },
+          {
+            "x": 65.97,
+            "y": 2.59,
+            "z": -36.85
+          },
+          {
+            "x": 55.93,
+            "y": 1.56,
+            "z": -1.57
+          },
+          {
+            "x": 34.83,
+            "y": 0.13,
+            "z": 39.8
+          },
+          {
+            "x": 5.33,
+            "y": -1.5,
+            "z": 85.79
+          },
+          {
+            "x": -17.31,
+            "y": -1.5,
+            "z": 128.0
+          }
+        ]
+      }
+    ],
+    "lakes": [
+      {
+        "id": "country-086-lake-1",
+        "name": "Tembara Lake 1",
+        "x": -29.91,
+        "y": 0.44,
+        "z": -59.83,
+        "radiusM": 18.1,
+        "type": "reservoir"
+      }
+    ],
+    "mountains": [
+      {
+        "id": "country-086-mountain-1",
+        "name": "Tembara Highland 1",
+        "x": 65.32,
+        "y": 0.43,
+        "z": 85.37,
+        "heightM": 57.4,
+        "radiusM": 16.8
+      }
+    ],
+    "settlements": [
+      {
+        "id": "country-086-capital",
+        "name": "Tembara Central",
+        "type": "capital",
+        "populationTier": "large",
+        "x": 0.0,
+        "y": 2.97,
+        "z": 0.0
+      },
+      {
+        "id": "country-086-village-1",
+        "name": "Tembara Village 1",
+        "type": "village",
+        "populationTier": "medium",
+        "x": 100.84,
+        "y": 5.13,
+        "z": 36.43
+      },
+      {
+        "id": "country-086-village-2",
+        "name": "Tembara Village 2",
+        "type": "village",
+        "populationTier": "small",
+        "x": -96.93,
+        "y": 11.53,
+        "z": -24.46
+      },
+      {
+        "id": "country-086-village-3",
+        "name": "Tembara Village 3",
+        "type": "village",
+        "populationTier": "small",
+        "x": -21.43,
+        "y": 3.21,
+        "z": -62.62
+      }
+    ],
+    "roads": [
+      {
+        "id": "country-086-road-1",
+        "class": "highway",
+        "points": [
+          {
+            "x": 0.0,
+            "y": 2.47,
+            "z": 0.0
+          },
+          {
+            "x": 25.73,
+            "y": 0.71,
+            "z": 8.82
+          },
+          {
+            "x": 46.1,
+            "y": 1.22,
+            "z": 20.59
+          },
+          {
+            "x": 84.56,
+            "y": 3.71,
+            "z": 22.41
+          },
+          {
+            "x": 100.84,
+            "y": 4.63,
+            "z": 36.43
+          }
+        ]
+      },
+      {
+        "id": "country-086-road-2",
+        "class": "regional",
+        "points": [
+          {
+            "x": 0.0,
+            "y": 2.47,
+            "z": 0.0
+          },
+          {
+            "x": -31.01,
+            "y": 5.02,
+            "z": -2.39
+          },
+          {
+            "x": -44.84,
+            "y": 6.47,
+            "z": -14.22
+          },
+          {
+            "x": -77.56,
+            "y": 9.26,
+            "z": -15.67
+          },
+          {
+            "x": -96.93,
+            "y": 11.03,
+            "z": -24.46
+          }
+        ]
+      },
+      {
+        "id": "country-086-road-3",
+        "class": "regional",
+        "points": [
+          {
+            "x": 0.0,
+            "y": 2.47,
+            "z": 0.0
+          },
+          {
+            "x": -11.68,
+            "y": 4.13,
+            "z": -12.18
+          },
+          {
+            "x": -9.48,
+            "y": 4.1,
+            "z": -31.99
+          },
+          {
+            "x": -21.81,
+            "y": 3.6,
+            "z": -43.81
+          },
+          {
+            "x": -21.43,
+            "y": 2.71,
+            "z": -62.62
+          }
+        ]
+      }
+    ],
+    "bridges": [
+      {
+        "id": "country-086-bridge-1",
+        "name": "Tembara Crossing 1",
+        "roadId": "country-086-road-1",
+        "riverId": "country-086-river-1",
+        "x": 5.55,
+        "y": 3.36,
+        "z": -50.69,
+        "lengthM": 32.4
+      },
+      {
+        "id": "country-086-bridge-2",
+        "name": "Tembara Crossing 2",
+        "roadId": "country-086-road-2",
+        "riverId": "country-086-river-2",
+        "x": 55.93,
+        "y": 1.9100000000000001,
+        "z": -1.57,
+        "lengthM": 19.3
+      }
+    ],
+    "railways": [
+      {
+        "id": "country-086-rail-1",
+        "class": "intercity",
+        "points": [
+          {
+            "x": 0.0,
+            "y": 2.47,
+            "z": 0.0
+          },
+          {
+            "x": -10.42,
+            "y": 4.13,
+            "z": -9.15
+          },
+          {
+            "x": -0.26,
+            "y": 3.3,
+            "z": -29.62
+          },
+          {
+            "x": -19.9,
+            "y": 4.1,
+            "z": -33.7
+          },
+          {
+            "x": -10.12,
+            "y": 3.6,
+            "z": -53.96
+          },
+          {
+            "x": -21.43,
+            "y": 2.71,
+            "z": -62.62
+          }
+        ]
+      }
+    ],
+    "airports": [
+      {
+        "id": "country-086-airport-1",
+        "name": "Tembara International",
+        "size": "large",
+        "x": 21.52,
+        "y": 2.77,
+        "z": -53.5,
+        "runwayLengthM": 900
+      }
+    ],
+    "ports": [
+      {
+        "id": "country-086-port-1",
+        "name": "Tembara Maritime Port",
+        "x": 18.17,
+        "y": 0.73,
+        "z": 110.92,
+        "capacity": "small"
+      }
+    ],
+    "militaryBases": [],
+    "metroLines": [
+      {
+        "id": "country-086-metro-1",
+        "status": "planned",
+        "serves": [
+          "country-086-capital",
+          "country-086-village-1",
+          "country-086-village-2"
+        ]
+      }
+    ],
+    "airRoutes": [
+      {
+        "id": "country-086-air-route-1",
+        "status": "regional",
+        "airportId": "country-086-airport-1"
+      }
+    ],
+    "shipLanes": [
+      {
+        "id": "country-086-ship-lane-1",
+        "status": "regional",
+        "portId": "country-086-port-1"
+      }
+    ],
+    "submarineZones": [
+      {
+        "id": "country-086-submarine-zone-1",
+        "status": "charted",
+        "depthM": 87.9
+      }
+    ]
+  },
+  "missions": [
+    {
+      "id": "country-086-intro",
+      "title": "Welcome to Tembara",
+      "status": "template",
+      "placeholder": true
+    },
+    {
+      "id": "country-086-route",
+      "title": "Cross-Region Route",
+      "status": "template",
+      "placeholder": true
+    }
+  ],
+  "systems": {
+    "weatherProfile": "template",
+    "peopleProfile": "people-tembara",
+    "trafficProfile": "template"
+  },
+  "nextSteps": [
+    "replace placeholder settlements",
+    "author terrain landmarks",
+    "author missions and NPC schedules"
+  ]
+}

@@ -14,7 +14,7 @@
     "temporaryMapCodes": {"const": false},
     "countries": {"type": "array", "minItems": 100, "items": {"$ref": "#/$defs/country"}},
     "regions": {"type": "array", "minItems": 7},
-    "comingSoonPolicy": {"type": "object", "required": ["visibleOnWorldMap", "playable", "unlockByExpansion", "label"], "properties": {"visibleOnWorldMap": {"const": true}, "playable": {"const": false}, "unlockByExpansion": {"const": true}, "label": {"const": "Coming Soon"}}}
+    "comingSoonPolicy": {"type": "object", "required": ["visibleOnWorldMap", "playable", "unlockByExpansion", "label"], "properties": {"visibleOnWorldMap": {"const": true}, "playable": {"const": true}, "unlockByExpansion": {"const": false}, "label": {"const": "Available Now"}}}
   },
   "$defs": {
     "country": {

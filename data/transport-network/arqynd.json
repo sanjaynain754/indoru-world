@@ -1,0 +1,445 @@
+{
+  "schemaVersion": 1,
+  "countryId": "country-120",
+  "mapKey": "country/arqynd",
+  "seed": 7246477043349104689,
+  "sourceTerrain": "data/country-content/arqynd/terrain.json",
+  "roadNetwork": {
+    "segments": [
+      {
+        "roadId": "country-120-road-1",
+        "class": "arterial",
+        "lanes": 4,
+        "speedLimitKph": 90,
+        "access": {
+          "vehicles": true,
+          "pedestrians": true,
+          "emergency": true
+        },
+        "points": [
+          {
+            "x": 0.0,
+            "y": 19.35,
+            "z": 0.0
+          },
+          {
+            "x": 8.9,
+            "y": 23.17,
+            "z": 15.53
+          },
+          {
+            "x": 14.29,
+            "y": 24.74,
+            "z": 32.99
+          },
+          {
+            "x": 9.52,
+            "y": 26.88,
+            "z": 56.03
+          },
+          {
+            "x": 5.37,
+            "y": 26.49,
+            "z": 78.74
+          }
+        ],
+        "connectedSettlementIds": [
+          "country-120-capital",
+          "country-120-village-1"
+        ]
+      },
+      {
+        "roadId": "country-120-road-2",
+        "class": "collector",
+        "lanes": 2,
+        "speedLimitKph": 55,
+        "access": {
+          "vehicles": true,
+          "pedestrians": true,
+          "emergency": true
+        },
+        "points": [
+          {
+            "x": 0.0,
+            "y": 19.35,
+            "z": 0.0
+          },
+          {
+            "x": -12.2,
+            "y": 19.37,
+            "z": 9.65
+          },
+          {
+            "x": -43.71,
+            "y": 15.65,
+            "z": 29.92
+          },
+          {
+            "x": -76.62,
+            "y": 10.86,
+            "z": 50.97
+          },
+          {
+            "x": -95.95,
+            "y": 9.25,
+            "z": 64.54
+          }
+        ],
+        "connectedSettlementIds": [
+          "country-120-capital",
+          "country-120-village-2"
+        ]
+      },
+      {
+        "roadId": "country-120-road-3",
+        "class": "collector",
+        "lanes": 2,
+        "speedLimitKph": 55,
+        "access": {
+          "vehicles": true,
+          "pedestrians": true,
+          "emergency": true
+        },
+        "points": [
+          {
+            "x": 0.0,
+            "y": 19.35,
+            "z": 0.0
+          },
+          {
+            "x": 23.26,
+            "y": 23.17,
+            "z": 12.63
+          },
+          {
+            "x": 51.32,
+            "y": 23.77,
+            "z": 22.63
+          },
+          {
+            "x": 68.53,
+            "y": 24.69,
+            "z": 38.59
+          },
+          {
+            "x": 79.7,
+            "y": 27.81,
+            "z": 57.87
+          }
+        ],
+        "connectedSettlementIds": [
+          "country-120-capital",
+          "country-120-village-3"
+        ]
+      },
+      {
+        "roadId": "country-120-road-4",
+        "class": "collector",
+        "lanes": 2,
+        "speedLimitKph": 55,
+        "access": {
+          "vehicles": true,
+          "pedestrians": true,
+          "emergency": true
+        },
+        "points": [
+          {
+            "x": 0.0,
+            "y": 19.35,
+            "z": 0.0
+          },
+          {
+            "x": 1.33,
+            "y": 21.66,
+            "z": 15.18
+          },
+          {
+            "x": 15.77,
+            "y": 23.17,
+            "z": 23.14
+          },
+          {
+            "x": 28.36,
+            "y": 25.24,
+            "z": 32.12
+          },
+          {
+            "x": 41.69,
+            "y": 26.55,
+            "z": 40.69
+          }
+        ],
+        "connectedSettlementIds": [
+          "country-120-capital",
+          "country-120-village-4"
+        ]
+      },
+      {
+        "roadId": "country-120-road-5",
+        "class": "collector",
+        "lanes": 2,
+        "speedLimitKph": 55,
+        "access": {
+          "vehicles": true,
+          "pedestrians": true,
+          "emergency": true
+        },
+        "points": [
+          {
+            "x": 0.0,
+            "y": 19.35,
+            "z": 0.0
+          },
+          {
+            "x": -26.04,
+            "y": 11.56,
+            "z": -19.11
+          },
+          {
+            "x": -29.48,
+            "y": 7.57,
+            "z": -50.66
+          },
+          {
+            "x": -56.82,
+            "y": 1.18,
+            "z": -69.05
+          },
+          {
+            "x": -68.55,
+            "y": -1.5,
+            "z": -96.04
+          }
+        ],
+        "connectedSettlementIds": [
+          "country-120-capital",
+          "country-120-village-5"
+        ]
+      },
+      {
+        "roadId": "country-120-road-6",
+        "class": "collector",
+        "lanes": 2,
+        "speedLimitKph": 55,
+        "access": {
+          "vehicles": true,
+          "pedestrians": true,
+          "emergency": true
+        },
+        "points": [
+          {
+            "x": 0.0,
+            "y": 19.35,
+            "z": 0.0
+          },
+          {
+            "x": -15.48,
+            "y": 14.27,
+            "z": -11.59
+          },
+          {
+            "x": -52.75,
+            "y": 8.82,
+            "z": -11.2
+          },
+          {
+            "x": -62.05,
+            "y": 4.5,
+            "z": -26.2
+          },
+          {
+            "x": -90.76,
+            "y": -0.77,
+            "z": -30.52
+          }
+        ],
+        "connectedSettlementIds": [
+          "country-120-capital",
+          "country-120-village-6"
+        ]
+      }
+    ],
+    "bridges": [
+      {
+        "bridgeId": "country-120-bridge-1",
+        "roadId": "country-120-road-1",
+        "riverId": "country-120-river-1",
+        "lengthM": 25.8,
+        "loadClass": "heavy-vehicle",
+        "supportsTrain": false,
+        "x": -5.32,
+        "y": 8.43,
+        "z": -83.89
+      }
+    ]
+  },
+  "railNetwork": {
+    "lines": [
+      {
+        "lineId": "country-120-rail-1",
+        "mode": "intercity-rail",
+        "electrification": "future-ready",
+        "trackGaugeMm": 1435,
+        "maxSpeedKph": 180,
+        "points": [
+          {
+            "x": 0.0,
+            "y": 19.35,
+            "z": 0.0
+          },
+          {
+            "x": -20.37,
+            "y": 16.87,
+            "z": -4.88
+          },
+          {
+            "x": -24.87,
+            "y": 11.56,
+            "z": -18.5
+          },
+          {
+            "x": -64.64,
+            "y": 6.16,
+            "z": -12.71
+          },
+          {
+            "x": -78.9,
+            "y": 3.6,
+            "z": -20.95
+          },
+          {
+            "x": -90.76,
+            "y": -0.77,
+            "z": -30.52
+          }
+        ]
+      }
+    ],
+    "stations": [
+      {
+        "stationId": "country-120-country-120-capital-station",
+        "settlementId": "country-120-capital",
+        "name": "Arqynd Central Central Station",
+        "service": "intercity",
+        "x": 0.0,
+        "y": 19.85,
+        "z": 0.0
+      },
+      {
+        "stationId": "country-120-country-120-village-1-station",
+        "settlementId": "country-120-village-1",
+        "name": "Arqynd Village 1 Central Station",
+        "service": "intercity",
+        "x": 5.37,
+        "y": 26.99,
+        "z": 78.74
+      },
+      {
+        "stationId": "country-120-country-120-village-2-station",
+        "settlementId": "country-120-village-2",
+        "name": "Arqynd Village 2 Central Station",
+        "service": "intercity",
+        "x": -95.95,
+        "y": 9.75,
+        "z": 64.54
+      },
+      {
+        "stationId": "country-120-country-120-village-3-station",
+        "settlementId": "country-120-village-3",
+        "name": "Arqynd Village 3 Central Station",
+        "service": "intercity",
+        "x": 79.7,
+        "y": 28.31,
+        "z": 57.87
+      },
+      {
+        "stationId": "country-120-country-120-village-4-station",
+        "settlementId": "country-120-village-4",
+        "name": "Arqynd Village 4 Central Station",
+        "service": "intercity",
+        "x": 41.69,
+        "y": 27.05,
+        "z": 40.69
+      },
+      {
+        "stationId": "country-120-country-120-village-5-station",
+        "settlementId": "country-120-village-5",
+        "name": "Arqynd Village 5 Central Station",
+        "service": "intercity",
+        "x": -68.55,
+        "y": -1.0,
+        "z": -96.04
+      },
+      {
+        "stationId": "country-120-country-120-village-6-station",
+        "settlementId": "country-120-village-6",
+        "name": "Arqynd Village 6 Central Station",
+        "service": "intercity",
+        "x": -90.76,
+        "y": -0.27,
+        "z": -30.52
+      }
+    ],
+    "trainService": {
+      "enabled": true,
+      "rollingStockProfile": "regional-electric-template"
+    }
+  },
+  "riverNetwork": {
+    "rivers": [
+      {
+        "riverId": "country-120-river-1",
+        "navigable": true,
+        "widthM": 13.8,
+        "transportMode": "river-freight",
+        "points": [
+          {
+            "x": -128.0,
+            "y": -1.5,
+            "z": -56.06
+          },
+          {
+            "x": -95.04,
+            "y": -1.5,
+            "z": -60.97
+          },
+          {
+            "x": -54.17,
+            "y": 3.79,
+            "z": -70.24
+          },
+          {
+            "x": -5.32,
+            "y": 8.08,
+            "z": -83.89
+          },
+          {
+            "x": 47.01,
+            "y": 9.05,
+            "z": -99.46
+          },
+          {
+            "x": 86.65,
+            "y": 6.97,
+            "z": -108.05
+          },
+          {
+            "x": 128.0,
+            "y": 2.76,
+            "z": -117.58
+          }
+        ]
+      }
+    ],
+    "riverBridges": [
+      "country-120-bridge-1"
+    ]
+  },
+  "simulationHooks": {
+    "cityInfrastructure": true,
+    "residentialAccess": true,
+    "trafficSimulation": true,
+    "massTransitSimulation": true,
+    "waterTrafficSimulation": true
+  }
+}

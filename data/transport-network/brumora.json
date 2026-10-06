@@ -1,0 +1,398 @@
+{
+  "schemaVersion": 1,
+  "countryId": "country-105",
+  "mapKey": "country/brumora",
+  "seed": 8609414031591212794,
+  "sourceTerrain": "data/country-content/brumora/terrain.json",
+  "roadNetwork": {
+    "segments": [
+      {
+        "roadId": "country-105-road-1",
+        "class": "arterial",
+        "lanes": 4,
+        "speedLimitKph": 90,
+        "access": {
+          "vehicles": true,
+          "pedestrians": true,
+          "emergency": true
+        },
+        "points": [
+          {
+            "x": 0.0,
+            "y": 11.58,
+            "z": 0.0
+          },
+          {
+            "x": -16.88,
+            "y": 13.2,
+            "z": 17.79
+          },
+          {
+            "x": -42.42,
+            "y": 15.5,
+            "z": 40.34
+          },
+          {
+            "x": -66.48,
+            "y": 16.05,
+            "z": 62.08
+          },
+          {
+            "x": -90.95,
+            "y": 18.73,
+            "z": 84.04
+          }
+        ],
+        "connectedSettlementIds": [
+          "country-105-capital",
+          "country-105-village-1"
+        ]
+      },
+      {
+        "roadId": "country-105-road-2",
+        "class": "collector",
+        "lanes": 2,
+        "speedLimitKph": 55,
+        "access": {
+          "vehicles": true,
+          "pedestrians": true,
+          "emergency": true
+        },
+        "points": [
+          {
+            "x": 0.0,
+            "y": 11.58,
+            "z": 0.0
+          },
+          {
+            "x": 11.48,
+            "y": 7.21,
+            "z": 6.67
+          },
+          {
+            "x": 15.71,
+            "y": 4.29,
+            "z": 17.34
+          },
+          {
+            "x": 16.37,
+            "y": 1.28,
+            "z": 29.96
+          },
+          {
+            "x": 17.61,
+            "y": -1.5,
+            "z": 42.27
+          }
+        ],
+        "connectedSettlementIds": [
+          "country-105-capital",
+          "country-105-village-2"
+        ]
+      },
+      {
+        "roadId": "country-105-road-3",
+        "class": "collector",
+        "lanes": 2,
+        "speedLimitKph": 55,
+        "access": {
+          "vehicles": true,
+          "pedestrians": true,
+          "emergency": true
+        },
+        "points": [
+          {
+            "x": 0.0,
+            "y": 11.58,
+            "z": 0.0
+          },
+          {
+            "x": 10.45,
+            "y": 11.65,
+            "z": -26.44
+          },
+          {
+            "x": 11.11,
+            "y": 12.74,
+            "z": -47.5
+          },
+          {
+            "x": 10.23,
+            "y": 13.05,
+            "z": -67.72
+          },
+          {
+            "x": 3.43,
+            "y": 15.99,
+            "z": -84.68
+          }
+        ],
+        "connectedSettlementIds": [
+          "country-105-capital",
+          "country-105-village-3"
+        ]
+      },
+      {
+        "roadId": "country-105-road-4",
+        "class": "collector",
+        "lanes": 2,
+        "speedLimitKph": 55,
+        "access": {
+          "vehicles": true,
+          "pedestrians": true,
+          "emergency": true
+        },
+        "points": [
+          {
+            "x": 0.0,
+            "y": 11.58,
+            "z": 0.0
+          },
+          {
+            "x": -19.11,
+            "y": 18.79,
+            "z": -26.78
+          },
+          {
+            "x": -38.44,
+            "y": 22.7,
+            "z": -53.45
+          },
+          {
+            "x": -61.09,
+            "y": 31.72,
+            "z": -78.28
+          },
+          {
+            "x": -75.92,
+            "y": 34.52,
+            "z": -107.42
+          }
+        ],
+        "connectedSettlementIds": [
+          "country-105-capital",
+          "country-105-village-4"
+        ]
+      }
+    ],
+    "bridges": [
+      {
+        "bridgeId": "country-105-bridge-1",
+        "roadId": "country-105-road-1",
+        "riverId": "country-105-river-1",
+        "lengthM": 25.3,
+        "loadClass": "heavy-vehicle",
+        "supportsTrain": false,
+        "x": -0.83,
+        "y": 16.59,
+        "z": -57.11
+      },
+      {
+        "bridgeId": "country-105-bridge-2",
+        "roadId": "country-105-road-2",
+        "riverId": "country-105-river-2",
+        "lengthM": 28.7,
+        "loadClass": "heavy-vehicle",
+        "supportsTrain": false,
+        "x": 58.45,
+        "y": -1.15,
+        "z": 3.24
+      }
+    ]
+  },
+  "railNetwork": {
+    "lines": [
+      {
+        "lineId": "country-105-rail-1",
+        "mode": "intercity-rail",
+        "electrification": "future-ready",
+        "trackGaugeMm": 1435,
+        "maxSpeedKph": 180,
+        "points": [
+          {
+            "x": 0.0,
+            "y": 11.58,
+            "z": 0.0
+          },
+          {
+            "x": -21.68,
+            "y": 17.63,
+            "z": -17.91
+          },
+          {
+            "x": -37.04,
+            "y": 22.04,
+            "z": -39.3
+          },
+          {
+            "x": -38.67,
+            "y": 23.2,
+            "z": -68.24
+          },
+          {
+            "x": -61.14,
+            "y": 31.72,
+            "z": -85.72
+          },
+          {
+            "x": -75.92,
+            "y": 34.52,
+            "z": -107.42
+          }
+        ]
+      }
+    ],
+    "stations": [
+      {
+        "stationId": "country-105-country-105-capital-station",
+        "settlementId": "country-105-capital",
+        "name": "Brumora Central Central Station",
+        "service": "intercity",
+        "x": 0.0,
+        "y": 12.08,
+        "z": 0.0
+      },
+      {
+        "stationId": "country-105-country-105-village-1-station",
+        "settlementId": "country-105-village-1",
+        "name": "Brumora Village 1 Central Station",
+        "service": "intercity",
+        "x": -90.95,
+        "y": 19.23,
+        "z": 84.04
+      },
+      {
+        "stationId": "country-105-country-105-village-2-station",
+        "settlementId": "country-105-village-2",
+        "name": "Brumora Village 2 Central Station",
+        "service": "intercity",
+        "x": 17.61,
+        "y": -1.0,
+        "z": 42.27
+      },
+      {
+        "stationId": "country-105-country-105-village-3-station",
+        "settlementId": "country-105-village-3",
+        "name": "Brumora Village 3 Central Station",
+        "service": "intercity",
+        "x": 3.43,
+        "y": 16.49,
+        "z": -84.68
+      },
+      {
+        "stationId": "country-105-country-105-village-4-station",
+        "settlementId": "country-105-village-4",
+        "name": "Brumora Village 4 Central Station",
+        "service": "intercity",
+        "x": -75.92,
+        "y": 35.02,
+        "z": -107.42
+      }
+    ],
+    "trainService": {
+      "enabled": true,
+      "rollingStockProfile": "regional-electric-template"
+    }
+  },
+  "riverNetwork": {
+    "rivers": [
+      {
+        "riverId": "country-105-river-1",
+        "navigable": true,
+        "widthM": 13.3,
+        "transportMode": "river-freight",
+        "points": [
+          {
+            "x": -128.0,
+            "y": 33.12,
+            "z": -2.84
+          },
+          {
+            "x": -85.98,
+            "y": 29.52,
+            "z": -20.73
+          },
+          {
+            "x": -52.94,
+            "y": 25.16,
+            "z": -33.67
+          },
+          {
+            "x": -0.83,
+            "y": 16.24,
+            "z": -57.11
+          },
+          {
+            "x": 39.57,
+            "y": 9.76,
+            "z": -74.1
+          },
+          {
+            "x": 92.94,
+            "y": 0.26,
+            "z": -98.23
+          },
+          {
+            "x": 128.0,
+            "y": -1.5,
+            "z": -112.29
+          }
+        ]
+      },
+      {
+        "riverId": "country-105-river-2",
+        "navigable": true,
+        "widthM": 16.7,
+        "transportMode": "river-freight",
+        "points": [
+          {
+            "x": 90.53,
+            "y": -1.4,
+            "z": -128.0
+          },
+          {
+            "x": 89.16,
+            "y": 0.26,
+            "z": -89.38
+          },
+          {
+            "x": 81.45,
+            "y": -0.29,
+            "z": -47.28
+          },
+          {
+            "x": 58.45,
+            "y": -1.5,
+            "z": 3.24
+          },
+          {
+            "x": 53.46,
+            "y": -1.5,
+            "z": 43.86
+          },
+          {
+            "x": 42.18,
+            "y": -1.5,
+            "z": 87.93
+          },
+          {
+            "x": 38.17,
+            "y": -1.5,
+            "z": 128.0
+          }
+        ]
+      }
+    ],
+    "riverBridges": [
+      "country-105-bridge-1",
+      "country-105-bridge-2"
+    ]
+  },
+  "simulationHooks": {
+    "cityInfrastructure": true,
+    "residentialAccess": true,
+    "trafficSimulation": true,
+    "massTransitSimulation": true,
+    "waterTrafficSimulation": true
+  }
+}

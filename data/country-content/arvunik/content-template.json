@@ -1,0 +1,540 @@
+{
+  "schemaVersion": 1,
+  "countryId": "country-031",
+  "name": "Arvunik",
+  "status": "playable",
+  "completion": "template",
+  "templatePolicy": {
+    "generated": true,
+    "requiresReview": true,
+    "placeholderContentAllowed": true
+  },
+  "terrain": {
+    "asset": "data/country-content/arvunik/terrain.json",
+    "mapKey": "country/arvunik",
+    "biome": "canyon-steppe"
+  },
+  "spawn": {
+    "x": 0.0,
+    "y": 1.2,
+    "z": 0.0,
+    "headingRad": 0.0
+  },
+  "settlements": [
+    {
+      "id": "country-031-capital",
+      "name": "Arvunik Central",
+      "type": "capital",
+      "populationTier": "large",
+      "x": 0.0,
+      "y": 8.79,
+      "z": 0.0
+    },
+    {
+      "id": "country-031-village-1",
+      "name": "Arvunik Village 1",
+      "type": "village",
+      "populationTier": "medium",
+      "x": -62.04,
+      "y": 6.57,
+      "z": 26.36
+    },
+    {
+      "id": "country-031-village-2",
+      "name": "Arvunik Village 2",
+      "type": "village",
+      "populationTier": "small",
+      "x": -91.75,
+      "y": -0.53,
+      "z": 12.13
+    },
+    {
+      "id": "country-031-village-3",
+      "name": "Arvunik Village 3",
+      "type": "village",
+      "populationTier": "small",
+      "x": -4.47,
+      "y": 9.56,
+      "z": 19.9
+    },
+    {
+      "id": "country-031-village-4",
+      "name": "Arvunik Village 4",
+      "type": "village",
+      "populationTier": "medium",
+      "x": -19.52,
+      "y": 11.73,
+      "z": -92.47
+    },
+    {
+      "id": "country-031-village-5",
+      "name": "Arvunik Village 5",
+      "type": "village",
+      "populationTier": "small",
+      "x": 104.3,
+      "y": -1.0,
+      "z": -85.58
+    }
+  ],
+  "infrastructure": {
+    "rivers": [
+      {
+        "id": "country-031-river-1",
+        "name": "Arvunik River 1",
+        "widthM": 9.0,
+        "points": [
+          {
+            "x": -128.0,
+            "y": -0.78,
+            "z": -122.51
+          },
+          {
+            "x": -77.55,
+            "y": 6.05,
+            "z": -90.09
+          },
+          {
+            "x": -37.27,
+            "y": 6.4,
+            "z": -52.08
+          },
+          {
+            "x": 4.94,
+            "y": 7.57,
+            "z": -15.14
+          },
+          {
+            "x": 53.82,
+            "y": 3.03,
+            "z": 18.14
+          },
+          {
+            "x": 78.33,
+            "y": 2.54,
+            "z": 64.82
+          },
+          {
+            "x": 128.0,
+            "y": -1.5,
+            "z": 97.66
+          }
+        ]
+      },
+      {
+        "id": "country-031-river-2",
+        "name": "Arvunik River 2",
+        "widthM": 9.7,
+        "points": [
+          {
+            "x": -79.09,
+            "y": 8.69,
+            "z": -128.0
+          },
+          {
+            "x": -66.16,
+            "y": 7.26,
+            "z": -86.51
+          },
+          {
+            "x": -48.36,
+            "y": 5.61,
+            "z": -47.7
+          },
+          {
+            "x": -38.44,
+            "y": 7.13,
+            "z": -4.56
+          },
+          {
+            "x": -43.97,
+            "y": 10.2,
+            "z": 47.09
+          },
+          {
+            "x": -23.81,
+            "y": 14.11,
+            "z": 84.6
+          },
+          {
+            "x": -14.35,
+            "y": 20.72,
+            "z": 128.0
+          }
+        ]
+      }
+    ],
+    "lakes": [
+      {
+        "id": "country-031-lake-1",
+        "name": "Arvunik Lake 1",
+        "x": 7.09,
+        "y": 0.38,
+        "z": -46.93,
+        "radiusM": 21.2,
+        "type": "natural"
+      }
+    ],
+    "mountains": [
+      {
+        "id": "country-031-mountain-1",
+        "name": "Arvunik Highland 1",
+        "x": 23.6,
+        "y": 7.41,
+        "z": 0.4,
+        "heightM": 31.09,
+        "radiusM": 27.8
+      }
+    ],
+    "settlements": [
+      {
+        "id": "country-031-capital",
+        "name": "Arvunik Central",
+        "type": "capital",
+        "populationTier": "large",
+        "x": 0.0,
+        "y": 8.79,
+        "z": 0.0
+      },
+      {
+        "id": "country-031-village-1",
+        "name": "Arvunik Village 1",
+        "type": "village",
+        "populationTier": "medium",
+        "x": -62.04,
+        "y": 6.57,
+        "z": 26.36
+      },
+      {
+        "id": "country-031-village-2",
+        "name": "Arvunik Village 2",
+        "type": "village",
+        "populationTier": "small",
+        "x": -91.75,
+        "y": -0.53,
+        "z": 12.13
+      },
+      {
+        "id": "country-031-village-3",
+        "name": "Arvunik Village 3",
+        "type": "village",
+        "populationTier": "small",
+        "x": -4.47,
+        "y": 9.56,
+        "z": 19.9
+      },
+      {
+        "id": "country-031-village-4",
+        "name": "Arvunik Village 4",
+        "type": "village",
+        "populationTier": "medium",
+        "x": -19.52,
+        "y": 11.73,
+        "z": -92.47
+      },
+      {
+        "id": "country-031-village-5",
+        "name": "Arvunik Village 5",
+        "type": "village",
+        "populationTier": "small",
+        "x": 104.3,
+        "y": -1.0,
+        "z": -85.58
+      }
+    ],
+    "roads": [
+      {
+        "id": "country-031-road-1",
+        "class": "highway",
+        "points": [
+          {
+            "x": 0.0,
+            "y": 8.29,
+            "z": 0.0
+          },
+          {
+            "x": -25.45,
+            "y": 8.43,
+            "z": 12.06
+          },
+          {
+            "x": -24.88,
+            "y": 8.43,
+            "z": 9.8
+          },
+          {
+            "x": -49.53,
+            "y": 6.74,
+            "z": 21.42
+          },
+          {
+            "x": -62.04,
+            "y": 6.07,
+            "z": 26.36
+          }
+        ]
+      },
+      {
+        "id": "country-031-road-2",
+        "class": "regional",
+        "points": [
+          {
+            "x": 0.0,
+            "y": 8.29,
+            "z": 0.0
+          },
+          {
+            "x": -19.02,
+            "y": 8.15,
+            "z": 0.88
+          },
+          {
+            "x": -35.96,
+            "y": 7.13,
+            "z": 0.61
+          },
+          {
+            "x": -76.56,
+            "y": 1.77,
+            "z": 13.36
+          },
+          {
+            "x": -91.75,
+            "y": -1.03,
+            "z": 12.13
+          }
+        ]
+      },
+      {
+        "id": "country-031-road-3",
+        "class": "regional",
+        "points": [
+          {
+            "x": 0.0,
+            "y": 8.29,
+            "z": 0.0
+          },
+          {
+            "x": 7.88,
+            "y": 8.29,
+            "z": 0.03
+          },
+          {
+            "x": 6.37,
+            "y": 8.29,
+            "z": 5.22
+          },
+          {
+            "x": -0.58,
+            "y": 9.06,
+            "z": 13.4
+          },
+          {
+            "x": -4.47,
+            "y": 9.06,
+            "z": 19.9
+          }
+        ]
+      },
+      {
+        "id": "country-031-road-4",
+        "class": "regional",
+        "points": [
+          {
+            "x": 0.0,
+            "y": 8.29,
+            "z": 0.0
+          },
+          {
+            "x": -13.21,
+            "y": 7.24,
+            "z": -18.54
+          },
+          {
+            "x": -10.06,
+            "y": 6.84,
+            "z": -46.07
+          },
+          {
+            "x": -10.47,
+            "y": 7.67,
+            "z": -71.65
+          },
+          {
+            "x": -19.52,
+            "y": 11.23,
+            "z": -92.47
+          }
+        ]
+      },
+      {
+        "id": "country-031-road-5",
+        "class": "regional",
+        "points": [
+          {
+            "x": 0.0,
+            "y": 8.29,
+            "z": 0.0
+          },
+          {
+            "x": 15.23,
+            "y": 7.02,
+            "z": -15.43
+          },
+          {
+            "x": 54.46,
+            "y": 3.78,
+            "z": -44.06
+          },
+          {
+            "x": 75.51,
+            "y": -1.13,
+            "z": -62.69
+          },
+          {
+            "x": 104.3,
+            "y": -1.5,
+            "z": -85.58
+          }
+        ]
+      }
+    ],
+    "bridges": [
+      {
+        "id": "country-031-bridge-1",
+        "name": "Arvunik Crossing 1",
+        "roadId": "country-031-road-1",
+        "riverId": "country-031-river-1",
+        "x": 4.94,
+        "y": 7.92,
+        "z": -15.14,
+        "lengthM": 21.0
+      },
+      {
+        "id": "country-031-bridge-2",
+        "name": "Arvunik Crossing 2",
+        "roadId": "country-031-road-2",
+        "riverId": "country-031-river-2",
+        "x": -38.44,
+        "y": 7.4799999999999995,
+        "z": -4.56,
+        "lengthM": 21.7
+      }
+    ],
+    "railways": [
+      {
+        "id": "country-031-rail-1",
+        "class": "intercity",
+        "points": [
+          {
+            "x": 0.0,
+            "y": 8.29,
+            "z": 0.0
+          },
+          {
+            "x": 19.02,
+            "y": 7.02,
+            "z": -16.11
+          },
+          {
+            "x": 35.78,
+            "y": 5.5,
+            "z": -30.97
+          },
+          {
+            "x": 63.55,
+            "y": 1.15,
+            "z": -51.88
+          },
+          {
+            "x": 73.82,
+            "y": -1.13,
+            "z": -63.17
+          },
+          {
+            "x": 104.3,
+            "y": -1.5,
+            "z": -85.58
+          }
+        ]
+      }
+    ],
+    "airports": [
+      {
+        "id": "country-031-airport-1",
+        "name": "Arvunik International",
+        "size": "regional",
+        "x": -55.84,
+        "y": 6.94,
+        "z": 19.3,
+        "runwayLengthM": 1800
+      }
+    ],
+    "ports": [],
+    "militaryBases": [
+      {
+        "id": "country-031-base-1",
+        "name": "Arvunik Defense Station",
+        "type": "air-ground",
+        "x": -39.38,
+        "y": 7.43,
+        "z": 0.01
+      }
+    ],
+    "metroLines": [
+      {
+        "id": "country-031-metro-1",
+        "status": "planned",
+        "serves": [
+          "country-031-capital",
+          "country-031-village-1",
+          "country-031-village-2"
+        ]
+      }
+    ],
+    "airRoutes": [
+      {
+        "id": "country-031-air-route-1",
+        "status": "regional",
+        "airportId": "country-031-airport-1"
+      }
+    ],
+    "shipLanes": [
+      {
+        "id": "country-031-ship-lane-1",
+        "status": "regional",
+        "portId": null
+      }
+    ],
+    "submarineZones": [
+      {
+        "id": "country-031-submarine-zone-1",
+        "status": "charted",
+        "depthM": 122.1
+      }
+    ]
+  },
+  "missions": [
+    {
+      "id": "country-031-intro",
+      "title": "Welcome to Arvunik",
+      "status": "template",
+      "placeholder": true
+    },
+    {
+      "id": "country-031-route",
+      "title": "Cross-Region Route",
+      "status": "template",
+      "placeholder": true
+    }
+  ],
+  "systems": {
+    "weatherProfile": "template",
+    "peopleProfile": "people-arvunik",
+    "trafficProfile": "template"
+  },
+  "nextSteps": [
+    "replace placeholder settlements",
+    "author terrain landmarks",
+    "author missions and NPC schedules"
+  ]
+}

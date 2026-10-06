@@ -1,0 +1,448 @@
+{
+  "schemaVersion": 1,
+  "countryId": "country-091",
+  "name": "Ashkara",
+  "status": "playable",
+  "completion": "template",
+  "templatePolicy": {
+    "generated": true,
+    "requiresReview": true,
+    "placeholderContentAllowed": true
+  },
+  "terrain": {
+    "asset": "data/country-content/ashkara/terrain.json",
+    "mapKey": "country/ashkara",
+    "biome": "volcanic-ashland"
+  },
+  "spawn": {
+    "x": 0.0,
+    "y": 1.2,
+    "z": 0.0,
+    "headingRad": 0.0
+  },
+  "settlements": [
+    {
+      "id": "country-091-capital",
+      "name": "Ashkara Central",
+      "type": "capital",
+      "populationTier": "large",
+      "x": 0.0,
+      "y": 32.88,
+      "z": 0.0
+    },
+    {
+      "id": "country-091-village-1",
+      "name": "Ashkara Village 1",
+      "type": "village",
+      "populationTier": "medium",
+      "x": -68.67,
+      "y": 34.06,
+      "z": -85.8
+    },
+    {
+      "id": "country-091-village-2",
+      "name": "Ashkara Village 2",
+      "type": "village",
+      "populationTier": "small",
+      "x": 103.95,
+      "y": 29.89,
+      "z": -93.16
+    },
+    {
+      "id": "country-091-village-3",
+      "name": "Ashkara Village 3",
+      "type": "village",
+      "populationTier": "small",
+      "x": -21.23,
+      "y": 14.32,
+      "z": 101.98
+    },
+    {
+      "id": "country-091-village-4",
+      "name": "Ashkara Village 4",
+      "type": "village",
+      "populationTier": "medium",
+      "x": 99.51,
+      "y": 5.54,
+      "z": 94.82
+    }
+  ],
+  "infrastructure": {
+    "rivers": [
+      {
+        "id": "country-091-river-1",
+        "name": "Ashkara River 1",
+        "widthM": 20.1,
+        "points": [
+          {
+            "x": -128.0,
+            "y": 16.87,
+            "z": -114.16
+          },
+          {
+            "x": -79.8,
+            "y": 29.26,
+            "z": -112.17
+          },
+          {
+            "x": -44.72,
+            "y": 36.53,
+            "z": -102.96
+          },
+          {
+            "x": -5.8,
+            "y": 39.12,
+            "z": -95.87
+          },
+          {
+            "x": 31.0,
+            "y": 37.52,
+            "z": -87.61
+          },
+          {
+            "x": 84.04,
+            "y": 32.25,
+            "z": -88.27
+          },
+          {
+            "x": 128.0,
+            "y": 20.86,
+            "z": -83.95
+          }
+        ]
+      }
+    ],
+    "lakes": [
+      {
+        "id": "country-091-lake-1",
+        "name": "Ashkara Lake 1",
+        "x": 33.58,
+        "y": 0.41,
+        "z": 5.98,
+        "radiusM": 13.2,
+        "type": "reservoir"
+      },
+      {
+        "id": "country-091-lake-2",
+        "name": "Ashkara Lake 2",
+        "x": -53.48,
+        "y": 0.41,
+        "z": -5.65,
+        "radiusM": 20.3,
+        "type": "natural"
+      }
+    ],
+    "mountains": [
+      {
+        "id": "country-091-mountain-1",
+        "name": "Ashkara Highland 1",
+        "x": 58.41,
+        "y": 20.33,
+        "z": 36.5,
+        "heightM": 24.87,
+        "radiusM": 22.3
+      }
+    ],
+    "settlements": [
+      {
+        "id": "country-091-capital",
+        "name": "Ashkara Central",
+        "type": "capital",
+        "populationTier": "large",
+        "x": 0.0,
+        "y": 32.88,
+        "z": 0.0
+      },
+      {
+        "id": "country-091-village-1",
+        "name": "Ashkara Village 1",
+        "type": "village",
+        "populationTier": "medium",
+        "x": -68.67,
+        "y": 34.06,
+        "z": -85.8
+      },
+      {
+        "id": "country-091-village-2",
+        "name": "Ashkara Village 2",
+        "type": "village",
+        "populationTier": "small",
+        "x": 103.95,
+        "y": 29.89,
+        "z": -93.16
+      },
+      {
+        "id": "country-091-village-3",
+        "name": "Ashkara Village 3",
+        "type": "village",
+        "populationTier": "small",
+        "x": -21.23,
+        "y": 14.32,
+        "z": 101.98
+      },
+      {
+        "id": "country-091-village-4",
+        "name": "Ashkara Village 4",
+        "type": "village",
+        "populationTier": "medium",
+        "x": 99.51,
+        "y": 5.54,
+        "z": 94.82
+      }
+    ],
+    "roads": [
+      {
+        "id": "country-091-road-1",
+        "class": "highway",
+        "points": [
+          {
+            "x": 0.0,
+            "y": 32.38,
+            "z": 0.0
+          },
+          {
+            "x": -20.1,
+            "y": 32.94,
+            "z": -19.84
+          },
+          {
+            "x": -35.73,
+            "y": 34.43,
+            "z": -42.13
+          },
+          {
+            "x": -52.58,
+            "y": 34.65,
+            "z": -63.76
+          },
+          {
+            "x": -68.67,
+            "y": 33.56,
+            "z": -85.8
+          }
+        ]
+      },
+      {
+        "id": "country-091-road-2",
+        "class": "regional",
+        "points": [
+          {
+            "x": 0.0,
+            "y": 32.38,
+            "z": 0.0
+          },
+          {
+            "x": 15.46,
+            "y": 34.52,
+            "z": -17.5
+          },
+          {
+            "x": 47.76,
+            "y": 35.6,
+            "z": -44.26
+          },
+          {
+            "x": 81.62,
+            "y": 31.79,
+            "z": -71.88
+          },
+          {
+            "x": 103.95,
+            "y": 29.39,
+            "z": -93.16
+          }
+        ]
+      },
+      {
+        "id": "country-091-road-3",
+        "class": "regional",
+        "points": [
+          {
+            "x": 0.0,
+            "y": 32.38,
+            "z": 0.0
+          },
+          {
+            "x": -6.36,
+            "y": 27.02,
+            "z": 26.07
+          },
+          {
+            "x": 0.88,
+            "y": 23.69,
+            "z": 44.67
+          },
+          {
+            "x": -6.04,
+            "y": 20.26,
+            "z": 71.05
+          },
+          {
+            "x": -21.23,
+            "y": 13.82,
+            "z": 101.98
+          }
+        ]
+      },
+      {
+        "id": "country-091-road-4",
+        "class": "regional",
+        "points": [
+          {
+            "x": 0.0,
+            "y": 32.38,
+            "z": 0.0
+          },
+          {
+            "x": 20.54,
+            "y": 26.33,
+            "z": 26.09
+          },
+          {
+            "x": 39.04,
+            "y": 21.56,
+            "z": 53.31
+          },
+          {
+            "x": 72.22,
+            "y": 11.06,
+            "z": 72.44
+          },
+          {
+            "x": 99.51,
+            "y": 5.04,
+            "z": 94.82
+          }
+        ]
+      }
+    ],
+    "bridges": [
+      {
+        "id": "country-091-bridge-1",
+        "name": "Ashkara Crossing 1",
+        "roadId": "country-091-road-1",
+        "riverId": "country-091-river-1",
+        "x": -5.8,
+        "y": 39.47,
+        "z": -95.87,
+        "lengthM": 32.1
+      }
+    ],
+    "railways": [
+      {
+        "id": "country-091-rail-1",
+        "class": "intercity",
+        "points": [
+          {
+            "x": 0.0,
+            "y": 32.38,
+            "z": 0.0
+          },
+          {
+            "x": 13.75,
+            "y": 29.57,
+            "z": 22.35
+          },
+          {
+            "x": 41.11,
+            "y": 22.73,
+            "z": 37.21
+          },
+          {
+            "x": 60.5,
+            "y": 15.55,
+            "z": 56.46
+          },
+          {
+            "x": 78.49,
+            "y": 11.06,
+            "z": 76.47
+          },
+          {
+            "x": 99.51,
+            "y": 5.04,
+            "z": 94.82
+          }
+        ]
+      }
+    ],
+    "airports": [
+      {
+        "id": "country-091-airport-1",
+        "name": "Ashkara International",
+        "size": "regional",
+        "x": 62.17,
+        "y": 33.64,
+        "z": -51.74,
+        "runwayLengthM": 1800
+      }
+    ],
+    "ports": [],
+    "militaryBases": [
+      {
+        "id": "country-091-base-1",
+        "name": "Ashkara Defense Station",
+        "type": "air-ground",
+        "x": 14.6,
+        "y": 37.96,
+        "z": -70.91
+      }
+    ],
+    "metroLines": [
+      {
+        "id": "country-091-metro-1",
+        "status": "planned",
+        "serves": [
+          "country-091-capital",
+          "country-091-village-1",
+          "country-091-village-2"
+        ]
+      }
+    ],
+    "airRoutes": [
+      {
+        "id": "country-091-air-route-1",
+        "status": "regional",
+        "airportId": "country-091-airport-1"
+      }
+    ],
+    "shipLanes": [
+      {
+        "id": "country-091-ship-lane-1",
+        "status": "regional",
+        "portId": null
+      }
+    ],
+    "submarineZones": [
+      {
+        "id": "country-091-submarine-zone-1",
+        "status": "charted",
+        "depthM": 192.2
+      }
+    ]
+  },
+  "missions": [
+    {
+      "id": "country-091-intro",
+      "title": "Welcome to Ashkara",
+      "status": "template",
+      "placeholder": true
+    },
+    {
+      "id": "country-091-route",
+      "title": "Cross-Region Route",
+      "status": "template",
+      "placeholder": true
+    }
+  ],
+  "systems": {
+    "weatherProfile": "template",
+    "peopleProfile": "people-ashkara",
+    "trafficProfile": "template"
+  },
+  "nextSteps": [
+    "replace placeholder settlements",
+    "author terrain landmarks",
+    "author missions and NPC schedules"
+  ]
+}

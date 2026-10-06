@@ -1,0 +1,50 @@
+{
+  "schema": "indoru.residential-building-placement.v1",
+  "populationTarget": 1000000,
+  "scaleReadyPopulationTargets": [
+    1000000,
+    5000000,
+    10000000
+  ],
+  "rule": "Residential buildings are physical world objects that contain residential units; households occupy units.",
+  "buildingTypes": [
+    "DetachedHouse",
+    "RowHouse",
+    "ApartmentLowRise",
+    "ApartmentMidRise",
+    "ApartmentHighRise",
+    "MixedUseResidential",
+    "Hostel",
+    "Hotel",
+    "ResidentialTower"
+  ],
+  "requiredBuildingProperties": [
+    "buildingId",
+    "countryId",
+    "locationId",
+    "floors",
+    "residentialUnits",
+    "parkingSpaces",
+    "interior",
+    "utilityConnection"
+  ],
+  "placementRequirements": [
+    "Road access",
+    "Utility access",
+    "Residential zoning/data layer",
+    "Nav/traffic compatibility",
+    "World Partition cell ownership",
+    "HLOD representation",
+    "Household capacity"
+  ],
+  "populationToHousing": {
+    "targetAverageHouseholdSize": 4,
+    "note": "Average is a planning parameter, not a restriction. Household sizes can vary, including large joint families."
+  },
+  "ue5": {
+    "worldPartition": true,
+    "dataLayer": "Residential",
+    "nearPlayer": "Full building/interior fidelity",
+    "farWorld": "Aggregated housing simulation"
+  }
+}

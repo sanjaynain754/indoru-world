@@ -1,0 +1,343 @@
+{
+  "schemaVersion": 1,
+  "countryId": "country-091",
+  "mapKey": "country/ashkara",
+  "seed": 8188307197453646261,
+  "sourceTerrain": "data/country-content/ashkara/terrain.json",
+  "roadNetwork": {
+    "segments": [
+      {
+        "roadId": "country-091-road-1",
+        "class": "arterial",
+        "lanes": 4,
+        "speedLimitKph": 90,
+        "access": {
+          "vehicles": true,
+          "pedestrians": true,
+          "emergency": true
+        },
+        "points": [
+          {
+            "x": 0.0,
+            "y": 32.38,
+            "z": 0.0
+          },
+          {
+            "x": -20.1,
+            "y": 32.94,
+            "z": -19.84
+          },
+          {
+            "x": -35.73,
+            "y": 34.43,
+            "z": -42.13
+          },
+          {
+            "x": -52.58,
+            "y": 34.65,
+            "z": -63.76
+          },
+          {
+            "x": -68.67,
+            "y": 33.56,
+            "z": -85.8
+          }
+        ],
+        "connectedSettlementIds": [
+          "country-091-capital",
+          "country-091-village-1"
+        ]
+      },
+      {
+        "roadId": "country-091-road-2",
+        "class": "collector",
+        "lanes": 2,
+        "speedLimitKph": 55,
+        "access": {
+          "vehicles": true,
+          "pedestrians": true,
+          "emergency": true
+        },
+        "points": [
+          {
+            "x": 0.0,
+            "y": 32.38,
+            "z": 0.0
+          },
+          {
+            "x": 15.46,
+            "y": 34.52,
+            "z": -17.5
+          },
+          {
+            "x": 47.76,
+            "y": 35.6,
+            "z": -44.26
+          },
+          {
+            "x": 81.62,
+            "y": 31.79,
+            "z": -71.88
+          },
+          {
+            "x": 103.95,
+            "y": 29.39,
+            "z": -93.16
+          }
+        ],
+        "connectedSettlementIds": [
+          "country-091-capital",
+          "country-091-village-2"
+        ]
+      },
+      {
+        "roadId": "country-091-road-3",
+        "class": "collector",
+        "lanes": 2,
+        "speedLimitKph": 55,
+        "access": {
+          "vehicles": true,
+          "pedestrians": true,
+          "emergency": true
+        },
+        "points": [
+          {
+            "x": 0.0,
+            "y": 32.38,
+            "z": 0.0
+          },
+          {
+            "x": -6.36,
+            "y": 27.02,
+            "z": 26.07
+          },
+          {
+            "x": 0.88,
+            "y": 23.69,
+            "z": 44.67
+          },
+          {
+            "x": -6.04,
+            "y": 20.26,
+            "z": 71.05
+          },
+          {
+            "x": -21.23,
+            "y": 13.82,
+            "z": 101.98
+          }
+        ],
+        "connectedSettlementIds": [
+          "country-091-capital",
+          "country-091-village-3"
+        ]
+      },
+      {
+        "roadId": "country-091-road-4",
+        "class": "collector",
+        "lanes": 2,
+        "speedLimitKph": 55,
+        "access": {
+          "vehicles": true,
+          "pedestrians": true,
+          "emergency": true
+        },
+        "points": [
+          {
+            "x": 0.0,
+            "y": 32.38,
+            "z": 0.0
+          },
+          {
+            "x": 20.54,
+            "y": 26.33,
+            "z": 26.09
+          },
+          {
+            "x": 39.04,
+            "y": 21.56,
+            "z": 53.31
+          },
+          {
+            "x": 72.22,
+            "y": 11.06,
+            "z": 72.44
+          },
+          {
+            "x": 99.51,
+            "y": 5.04,
+            "z": 94.82
+          }
+        ],
+        "connectedSettlementIds": [
+          "country-091-capital",
+          "country-091-village-4"
+        ]
+      }
+    ],
+    "bridges": [
+      {
+        "bridgeId": "country-091-bridge-1",
+        "roadId": "country-091-road-1",
+        "riverId": "country-091-river-1",
+        "lengthM": 32.1,
+        "loadClass": "heavy-vehicle",
+        "supportsTrain": false,
+        "x": -5.8,
+        "y": 39.47,
+        "z": -95.87
+      }
+    ]
+  },
+  "railNetwork": {
+    "lines": [
+      {
+        "lineId": "country-091-rail-1",
+        "mode": "intercity-rail",
+        "electrification": "future-ready",
+        "trackGaugeMm": 1435,
+        "maxSpeedKph": 180,
+        "points": [
+          {
+            "x": 0.0,
+            "y": 32.38,
+            "z": 0.0
+          },
+          {
+            "x": 13.75,
+            "y": 29.57,
+            "z": 22.35
+          },
+          {
+            "x": 41.11,
+            "y": 22.73,
+            "z": 37.21
+          },
+          {
+            "x": 60.5,
+            "y": 15.55,
+            "z": 56.46
+          },
+          {
+            "x": 78.49,
+            "y": 11.06,
+            "z": 76.47
+          },
+          {
+            "x": 99.51,
+            "y": 5.04,
+            "z": 94.82
+          }
+        ]
+      }
+    ],
+    "stations": [
+      {
+        "stationId": "country-091-country-091-capital-station",
+        "settlementId": "country-091-capital",
+        "name": "Ashkara Central Central Station",
+        "service": "intercity",
+        "x": 0.0,
+        "y": 32.88,
+        "z": 0.0
+      },
+      {
+        "stationId": "country-091-country-091-village-1-station",
+        "settlementId": "country-091-village-1",
+        "name": "Ashkara Village 1 Central Station",
+        "service": "intercity",
+        "x": -68.67,
+        "y": 34.06,
+        "z": -85.8
+      },
+      {
+        "stationId": "country-091-country-091-village-2-station",
+        "settlementId": "country-091-village-2",
+        "name": "Ashkara Village 2 Central Station",
+        "service": "intercity",
+        "x": 103.95,
+        "y": 29.89,
+        "z": -93.16
+      },
+      {
+        "stationId": "country-091-country-091-village-3-station",
+        "settlementId": "country-091-village-3",
+        "name": "Ashkara Village 3 Central Station",
+        "service": "intercity",
+        "x": -21.23,
+        "y": 14.32,
+        "z": 101.98
+      },
+      {
+        "stationId": "country-091-country-091-village-4-station",
+        "settlementId": "country-091-village-4",
+        "name": "Ashkara Village 4 Central Station",
+        "service": "intercity",
+        "x": 99.51,
+        "y": 5.54,
+        "z": 94.82
+      }
+    ],
+    "trainService": {
+      "enabled": true,
+      "rollingStockProfile": "regional-electric-template"
+    }
+  },
+  "riverNetwork": {
+    "rivers": [
+      {
+        "riverId": "country-091-river-1",
+        "navigable": true,
+        "widthM": 20.1,
+        "transportMode": "river-freight",
+        "points": [
+          {
+            "x": -128.0,
+            "y": 16.87,
+            "z": -114.16
+          },
+          {
+            "x": -79.8,
+            "y": 29.26,
+            "z": -112.17
+          },
+          {
+            "x": -44.72,
+            "y": 36.53,
+            "z": -102.96
+          },
+          {
+            "x": -5.8,
+            "y": 39.12,
+            "z": -95.87
+          },
+          {
+            "x": 31.0,
+            "y": 37.52,
+            "z": -87.61
+          },
+          {
+            "x": 84.04,
+            "y": 32.25,
+            "z": -88.27
+          },
+          {
+            "x": 128.0,
+            "y": 20.86,
+            "z": -83.95
+          }
+        ]
+      }
+    ],
+    "riverBridges": [
+      "country-091-bridge-1"
+    ]
+  },
+  "simulationHooks": {
+    "cityInfrastructure": true,
+    "residentialAccess": true,
+    "trafficSimulation": true,
+    "massTransitSimulation": true,
+    "waterTrafficSimulation": true
+  }
+}

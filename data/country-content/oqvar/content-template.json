@@ -1,0 +1,625 @@
+{
+  "schemaVersion": 1,
+  "countryId": "country-027",
+  "name": "Oqvar",
+  "status": "playable",
+  "completion": "template",
+  "templatePolicy": {
+    "generated": true,
+    "requiresReview": true,
+    "placeholderContentAllowed": true
+  },
+  "terrain": {
+    "asset": "data/country-content/oqvar/terrain.json",
+    "mapKey": "country/oqvar",
+    "biome": "canyon-steppe"
+  },
+  "spawn": {
+    "x": 0.0,
+    "y": 1.2,
+    "z": 0.0,
+    "headingRad": 0.0
+  },
+  "settlements": [
+    {
+      "id": "country-027-capital",
+      "name": "Oqvar Central",
+      "type": "capital",
+      "populationTier": "large",
+      "x": 0.0,
+      "y": -1.0,
+      "z": 0.0
+    },
+    {
+      "id": "country-027-village-1",
+      "name": "Oqvar Village 1",
+      "type": "village",
+      "populationTier": "medium",
+      "x": 44.86,
+      "y": -1.0,
+      "z": -55.04
+    },
+    {
+      "id": "country-027-village-2",
+      "name": "Oqvar Village 2",
+      "type": "village",
+      "populationTier": "small",
+      "x": -52.87,
+      "y": -1.0,
+      "z": 19.39
+    },
+    {
+      "id": "country-027-village-3",
+      "name": "Oqvar Village 3",
+      "type": "village",
+      "populationTier": "small",
+      "x": 98.71,
+      "y": -1.0,
+      "z": -37.2
+    },
+    {
+      "id": "country-027-village-4",
+      "name": "Oqvar Village 4",
+      "type": "village",
+      "populationTier": "medium",
+      "x": -48.84,
+      "y": 1.87,
+      "z": 49.48
+    },
+    {
+      "id": "country-027-village-5",
+      "name": "Oqvar Village 5",
+      "type": "village",
+      "populationTier": "small",
+      "x": -71.84,
+      "y": -1.0,
+      "z": -49.55
+    },
+    {
+      "id": "country-027-village-6",
+      "name": "Oqvar Village 6",
+      "type": "village",
+      "populationTier": "small",
+      "x": -73.06,
+      "y": -1.0,
+      "z": -43.56
+    }
+  ],
+  "infrastructure": {
+    "rivers": [
+      {
+        "id": "country-027-river-1",
+        "name": "Oqvar River 1",
+        "widthM": 11.6,
+        "points": [
+          {
+            "x": -128.0,
+            "y": 4.04,
+            "z": -106.83
+          },
+          {
+            "x": -97.09,
+            "y": 0.64,
+            "z": -99.51
+          },
+          {
+            "x": -47.21,
+            "y": -1.5,
+            "z": -102.61
+          },
+          {
+            "x": 4.96,
+            "y": -1.5,
+            "z": -106.98
+          },
+          {
+            "x": 44.81,
+            "y": -1.5,
+            "z": -104.56
+          },
+          {
+            "x": 88.17,
+            "y": -1.5,
+            "z": -104.09
+          },
+          {
+            "x": 128.0,
+            "y": -1.5,
+            "z": -101.67
+          }
+        ]
+      },
+      {
+        "id": "country-027-river-2",
+        "name": "Oqvar River 2",
+        "widthM": 9.6,
+        "points": [
+          {
+            "x": -96.4,
+            "y": 1.49,
+            "z": -128.0
+          },
+          {
+            "x": -72.24,
+            "y": -1.5,
+            "z": -87.14
+          },
+          {
+            "x": -43.5,
+            "y": -1.5,
+            "z": -48.8
+          },
+          {
+            "x": -42.63,
+            "y": -1.5,
+            "z": 4.88
+          },
+          {
+            "x": -21.53,
+            "y": -1.5,
+            "z": 47.42
+          },
+          {
+            "x": 11.04,
+            "y": -1.5,
+            "z": 83.66
+          },
+          {
+            "x": 28.87,
+            "y": -1.5,
+            "z": 128.0
+          }
+        ]
+      }
+    ],
+    "lakes": [
+      {
+        "id": "country-027-lake-1",
+        "name": "Oqvar Lake 1",
+        "x": 46.22,
+        "y": 0.38,
+        "z": 66.58,
+        "radiusM": 16.0,
+        "type": "reservoir"
+      }
+    ],
+    "mountains": [
+      {
+        "id": "country-027-mountain-1",
+        "name": "Oqvar Highland 1",
+        "x": 45.72,
+        "y": 0.37,
+        "z": -32.89,
+        "heightM": 27.96,
+        "radiusM": 40.5
+      },
+      {
+        "id": "country-027-mountain-2",
+        "name": "Oqvar Highland 2",
+        "x": -1.0,
+        "y": 0.37,
+        "z": 13.45,
+        "heightM": 32.57,
+        "radiusM": 24.9
+      },
+      {
+        "id": "country-027-mountain-3",
+        "name": "Oqvar Highland 3",
+        "x": -41.08,
+        "y": 0.37,
+        "z": -15.79,
+        "heightM": 18.11,
+        "radiusM": 17.4
+      },
+      {
+        "id": "country-027-mountain-4",
+        "name": "Oqvar Highland 4",
+        "x": -25.59,
+        "y": 1.3,
+        "z": 84.36,
+        "heightM": 57.65,
+        "radiusM": 30.4
+      }
+    ],
+    "settlements": [
+      {
+        "id": "country-027-capital",
+        "name": "Oqvar Central",
+        "type": "capital",
+        "populationTier": "large",
+        "x": 0.0,
+        "y": -1.0,
+        "z": 0.0
+      },
+      {
+        "id": "country-027-village-1",
+        "name": "Oqvar Village 1",
+        "type": "village",
+        "populationTier": "medium",
+        "x": 44.86,
+        "y": -1.0,
+        "z": -55.04
+      },
+      {
+        "id": "country-027-village-2",
+        "name": "Oqvar Village 2",
+        "type": "village",
+        "populationTier": "small",
+        "x": -52.87,
+        "y": -1.0,
+        "z": 19.39
+      },
+      {
+        "id": "country-027-village-3",
+        "name": "Oqvar Village 3",
+        "type": "village",
+        "populationTier": "small",
+        "x": 98.71,
+        "y": -1.0,
+        "z": -37.2
+      },
+      {
+        "id": "country-027-village-4",
+        "name": "Oqvar Village 4",
+        "type": "village",
+        "populationTier": "medium",
+        "x": -48.84,
+        "y": 1.87,
+        "z": 49.48
+      },
+      {
+        "id": "country-027-village-5",
+        "name": "Oqvar Village 5",
+        "type": "village",
+        "populationTier": "small",
+        "x": -71.84,
+        "y": -1.0,
+        "z": -49.55
+      },
+      {
+        "id": "country-027-village-6",
+        "name": "Oqvar Village 6",
+        "type": "village",
+        "populationTier": "small",
+        "x": -73.06,
+        "y": -1.0,
+        "z": -43.56
+      }
+    ],
+    "roads": [
+      {
+        "id": "country-027-road-1",
+        "class": "highway",
+        "points": [
+          {
+            "x": 0.0,
+            "y": -1.5,
+            "z": 0.0
+          },
+          {
+            "x": 12.76,
+            "y": -1.5,
+            "z": -14.61
+          },
+          {
+            "x": 24.64,
+            "y": -1.5,
+            "z": -28.73
+          },
+          {
+            "x": 27.17,
+            "y": -1.5,
+            "z": -37.72
+          },
+          {
+            "x": 44.86,
+            "y": -1.5,
+            "z": -55.04
+          }
+        ]
+      },
+      {
+        "id": "country-027-road-2",
+        "class": "regional",
+        "points": [
+          {
+            "x": 0.0,
+            "y": -1.5,
+            "z": 0.0
+          },
+          {
+            "x": -23.77,
+            "y": -1.5,
+            "z": 10.65
+          },
+          {
+            "x": -37.33,
+            "y": -1.5,
+            "z": 15.69
+          },
+          {
+            "x": -34.67,
+            "y": -1.5,
+            "z": 11.8
+          },
+          {
+            "x": -52.87,
+            "y": -1.5,
+            "z": 19.39
+          }
+        ]
+      },
+      {
+        "id": "country-027-road-3",
+        "class": "regional",
+        "points": [
+          {
+            "x": 0.0,
+            "y": -1.5,
+            "z": 0.0
+          },
+          {
+            "x": 16.66,
+            "y": -1.5,
+            "z": -4.89
+          },
+          {
+            "x": 40.04,
+            "y": -1.5,
+            "z": -13.48
+          },
+          {
+            "x": 84.64,
+            "y": -1.5,
+            "z": -33.73
+          },
+          {
+            "x": 98.71,
+            "y": -1.5,
+            "z": -37.2
+          }
+        ]
+      },
+      {
+        "id": "country-027-road-4",
+        "class": "regional",
+        "points": [
+          {
+            "x": 0.0,
+            "y": -1.5,
+            "z": 0.0
+          },
+          {
+            "x": -13.5,
+            "y": -1.5,
+            "z": 13.08
+          },
+          {
+            "x": -26.26,
+            "y": -1.5,
+            "z": 25.75
+          },
+          {
+            "x": -40.4,
+            "y": -0.52,
+            "z": 39.18
+          },
+          {
+            "x": -48.84,
+            "y": 1.37,
+            "z": 49.48
+          }
+        ]
+      },
+      {
+        "id": "country-027-road-5",
+        "class": "regional",
+        "points": [
+          {
+            "x": 0.0,
+            "y": -1.5,
+            "z": 0.0
+          },
+          {
+            "x": -19.77,
+            "y": -1.5,
+            "z": -11.39
+          },
+          {
+            "x": -27.64,
+            "y": -1.5,
+            "z": -29.33
+          },
+          {
+            "x": -62.55,
+            "y": -1.5,
+            "z": -32.39
+          },
+          {
+            "x": -71.84,
+            "y": -1.5,
+            "z": -49.55
+          }
+        ]
+      },
+      {
+        "id": "country-027-road-6",
+        "class": "regional",
+        "points": [
+          {
+            "x": 0.0,
+            "y": -1.5,
+            "z": 0.0
+          },
+          {
+            "x": -17.48,
+            "y": -1.5,
+            "z": -11.32
+          },
+          {
+            "x": -41.15,
+            "y": -1.5,
+            "z": -19.24
+          },
+          {
+            "x": -46.64,
+            "y": -1.5,
+            "z": -37.16
+          },
+          {
+            "x": -73.06,
+            "y": -1.5,
+            "z": -43.56
+          }
+        ]
+      }
+    ],
+    "bridges": [
+      {
+        "id": "country-027-bridge-1",
+        "name": "Oqvar Crossing 1",
+        "roadId": "country-027-road-1",
+        "riverId": "country-027-river-1",
+        "x": 4.96,
+        "y": -1.15,
+        "z": -106.98,
+        "lengthM": 23.6
+      },
+      {
+        "id": "country-027-bridge-2",
+        "name": "Oqvar Crossing 2",
+        "roadId": "country-027-road-2",
+        "riverId": "country-027-river-2",
+        "x": -42.63,
+        "y": -1.15,
+        "z": 4.88,
+        "lengthM": 21.6
+      }
+    ],
+    "railways": [
+      {
+        "id": "country-027-rail-1",
+        "class": "intercity",
+        "points": [
+          {
+            "x": 0.0,
+            "y": -1.5,
+            "z": 0.0
+          },
+          {
+            "x": -22.67,
+            "y": -1.5,
+            "z": -4.28
+          },
+          {
+            "x": -36.71,
+            "y": -1.5,
+            "z": -13.31
+          },
+          {
+            "x": -55.81,
+            "y": -1.5,
+            "z": -19.55
+          },
+          {
+            "x": -62.51,
+            "y": -1.5,
+            "z": -32.61
+          },
+          {
+            "x": -73.06,
+            "y": -1.5,
+            "z": -43.56
+          }
+        ]
+      }
+    ],
+    "airports": [
+      {
+        "id": "country-027-airport-1",
+        "name": "Oqvar International",
+        "size": "regional",
+        "x": 54.22,
+        "y": -1.3,
+        "z": -55.67,
+        "runwayLengthM": 1800
+      }
+    ],
+    "ports": [
+      {
+        "id": "country-027-port-1",
+        "name": "Oqvar Maritime Port",
+        "x": -32.92,
+        "y": 0.67,
+        "z": -20.4,
+        "capacity": "small"
+      }
+    ],
+    "militaryBases": [
+      {
+        "id": "country-027-base-1",
+        "name": "Oqvar Defense Station",
+        "type": "air-ground",
+        "x": 18.96,
+        "y": -1.2,
+        "z": 4.25
+      }
+    ],
+    "metroLines": [
+      {
+        "id": "country-027-metro-1",
+        "status": "planned",
+        "serves": [
+          "country-027-capital",
+          "country-027-village-1",
+          "country-027-village-2"
+        ]
+      }
+    ],
+    "airRoutes": [
+      {
+        "id": "country-027-air-route-1",
+        "status": "regional",
+        "airportId": "country-027-airport-1"
+      }
+    ],
+    "shipLanes": [
+      {
+        "id": "country-027-ship-lane-1",
+        "status": "regional",
+        "portId": "country-027-port-1"
+      }
+    ],
+    "submarineZones": [
+      {
+        "id": "country-027-submarine-zone-1",
+        "status": "charted",
+        "depthM": 207.9
+      }
+    ]
+  },
+  "missions": [
+    {
+      "id": "country-027-intro",
+      "title": "Welcome to Oqvar",
+      "status": "template",
+      "placeholder": true
+    },
+    {
+      "id": "country-027-route",
+      "title": "Cross-Region Route",
+      "status": "template",
+      "placeholder": true
+    }
+  ],
+  "systems": {
+    "weatherProfile": "template",
+    "peopleProfile": "people-oqvar",
+    "trafficProfile": "template"
+  },
+  "nextSteps": [
+    "replace placeholder settlements",
+    "author terrain landmarks",
+    "author missions and NPC schedules"
+  ]
+}

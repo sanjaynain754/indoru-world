@@ -1,0 +1,241 @@
+{
+  "schemaVersion": 1,
+  "countryId": "country-083",
+  "mapKey": "country/qarumba",
+  "seed": 3092025238990218489,
+  "sourceTerrain": "data/country-content/qarumba/terrain.json",
+  "roadNetwork": {
+    "segments": [
+      {
+        "roadId": "country-083-road-1",
+        "class": "arterial",
+        "lanes": 4,
+        "speedLimitKph": 90,
+        "access": {
+          "vehicles": true,
+          "pedestrians": true,
+          "emergency": true
+        },
+        "points": [
+          {
+            "x": 0.0,
+            "y": 17.38,
+            "z": 0.0
+          },
+          {
+            "x": 22.76,
+            "y": 16.58,
+            "z": -9.23
+          },
+          {
+            "x": 29.24,
+            "y": 17.0,
+            "z": -9.51
+          },
+          {
+            "x": 45.71,
+            "y": 16.77,
+            "z": -15.28
+          },
+          {
+            "x": 65.66,
+            "y": 15.91,
+            "z": -22.97
+          }
+        ],
+        "connectedSettlementIds": [
+          "country-083-capital",
+          "country-083-village-1"
+        ]
+      },
+      {
+        "roadId": "country-083-road-2",
+        "class": "collector",
+        "lanes": 2,
+        "speedLimitKph": 55,
+        "access": {
+          "vehicles": true,
+          "pedestrians": true,
+          "emergency": true
+        },
+        "points": [
+          {
+            "x": 0.0,
+            "y": 17.38,
+            "z": 0.0
+          },
+          {
+            "x": -9.94,
+            "y": 14.18,
+            "z": -9.03
+          },
+          {
+            "x": -37.04,
+            "y": 12.55,
+            "z": -8.62
+          },
+          {
+            "x": -52.95,
+            "y": 10.84,
+            "z": -14.36
+          },
+          {
+            "x": -76.95,
+            "y": 7.49,
+            "z": -15.66
+          }
+        ],
+        "connectedSettlementIds": [
+          "country-083-capital",
+          "country-083-village-2"
+        ]
+      }
+    ],
+    "bridges": [
+      {
+        "bridgeId": "country-083-bridge-1",
+        "roadId": "country-083-road-1",
+        "riverId": "country-083-river-1",
+        "lengthM": 30.0,
+        "loadClass": "heavy-vehicle",
+        "supportsTrain": false,
+        "x": 6.63,
+        "y": 19.25,
+        "z": 10.55
+      }
+    ]
+  },
+  "railNetwork": {
+    "lines": [
+      {
+        "lineId": "country-083-rail-1",
+        "mode": "intercity-rail",
+        "electrification": "future-ready",
+        "trackGaugeMm": 1435,
+        "maxSpeedKph": 180,
+        "points": [
+          {
+            "x": 0.0,
+            "y": 17.38,
+            "z": 0.0
+          },
+          {
+            "x": -6.66,
+            "y": 17.38,
+            "z": -7.93
+          },
+          {
+            "x": -28.74,
+            "y": 14.27,
+            "z": -7.39
+          },
+          {
+            "x": -50.64,
+            "y": 12.35,
+            "z": -6.94
+          },
+          {
+            "x": -60.96,
+            "y": 9.15,
+            "z": -12.86
+          },
+          {
+            "x": -76.95,
+            "y": 7.49,
+            "z": -15.66
+          }
+        ]
+      }
+    ],
+    "stations": [
+      {
+        "stationId": "country-083-country-083-capital-station",
+        "settlementId": "country-083-capital",
+        "name": "Qarumba Central Central Station",
+        "service": "intercity",
+        "x": 0.0,
+        "y": 17.88,
+        "z": 0.0
+      },
+      {
+        "stationId": "country-083-country-083-village-1-station",
+        "settlementId": "country-083-village-1",
+        "name": "Qarumba Village 1 Central Station",
+        "service": "intercity",
+        "x": 65.66,
+        "y": 16.41,
+        "z": -22.97
+      },
+      {
+        "stationId": "country-083-country-083-village-2-station",
+        "settlementId": "country-083-village-2",
+        "name": "Qarumba Village 2 Central Station",
+        "service": "intercity",
+        "x": -76.95,
+        "y": 7.99,
+        "z": -15.66
+      }
+    ],
+    "trainService": {
+      "enabled": true,
+      "rollingStockProfile": "regional-electric-template"
+    }
+  },
+  "riverNetwork": {
+    "rivers": [
+      {
+        "riverId": "country-083-river-1",
+        "navigable": true,
+        "widthM": 18.0,
+        "transportMode": "river-freight",
+        "points": [
+          {
+            "x": -128.0,
+            "y": 7.35,
+            "z": 86.41
+          },
+          {
+            "x": -80.86,
+            "y": 13.53,
+            "z": 59.88
+          },
+          {
+            "x": -36.18,
+            "y": 17.54,
+            "z": 34.7
+          },
+          {
+            "x": 6.63,
+            "y": 18.9,
+            "z": 10.55
+          },
+          {
+            "x": 48.79,
+            "y": 16.77,
+            "z": -13.25
+          },
+          {
+            "x": 82.26,
+            "y": 13.41,
+            "z": -32.27
+          },
+          {
+            "x": 128.0,
+            "y": 5.0,
+            "z": -58.03
+          }
+        ]
+      }
+    ],
+    "riverBridges": [
+      "country-083-bridge-1"
+    ]
+  },
+  "simulationHooks": {
+    "cityInfrastructure": true,
+    "residentialAccess": true,
+    "trafficSimulation": true,
+    "massTransitSimulation": true,
+    "waterTrafficSimulation": true
+  }
+}

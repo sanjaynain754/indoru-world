@@ -1,0 +1,292 @@
+{
+  "schemaVersion": 1,
+  "countryId": "country-116",
+  "mapKey": "country/nivessa",
+  "seed": 14054535105279469064,
+  "sourceTerrain": "data/country-content/nivessa/terrain.json",
+  "roadNetwork": {
+    "segments": [
+      {
+        "roadId": "country-116-road-1",
+        "class": "arterial",
+        "lanes": 4,
+        "speedLimitKph": 90,
+        "access": {
+          "vehicles": true,
+          "pedestrians": true,
+          "emergency": true
+        },
+        "points": [
+          {
+            "x": 0.0,
+            "y": -1.5,
+            "z": 0.0
+          },
+          {
+            "x": 10.91,
+            "y": -1.5,
+            "z": -19.3
+          },
+          {
+            "x": 22.83,
+            "y": -1.5,
+            "z": -39.15
+          },
+          {
+            "x": 49.84,
+            "y": -1.5,
+            "z": -67.31
+          },
+          {
+            "x": 50.82,
+            "y": -1.5,
+            "z": -81.15
+          }
+        ],
+        "connectedSettlementIds": [
+          "country-116-capital",
+          "country-116-village-1"
+        ]
+      },
+      {
+        "roadId": "country-116-road-2",
+        "class": "collector",
+        "lanes": 2,
+        "speedLimitKph": 55,
+        "access": {
+          "vehicles": true,
+          "pedestrians": true,
+          "emergency": true
+        },
+        "points": [
+          {
+            "x": 0.0,
+            "y": -1.5,
+            "z": 0.0
+          },
+          {
+            "x": 15.46,
+            "y": -1.5,
+            "z": -19.49
+          },
+          {
+            "x": 17.25,
+            "y": -1.5,
+            "z": -31.47
+          },
+          {
+            "x": 18.92,
+            "y": -1.5,
+            "z": -43.37
+          },
+          {
+            "x": 20.37,
+            "y": -1.5,
+            "z": -55.16
+          }
+        ],
+        "connectedSettlementIds": [
+          "country-116-capital",
+          "country-116-village-2"
+        ]
+      },
+      {
+        "roadId": "country-116-road-3",
+        "class": "collector",
+        "lanes": 2,
+        "speedLimitKph": 55,
+        "access": {
+          "vehicles": true,
+          "pedestrians": true,
+          "emergency": true
+        },
+        "points": [
+          {
+            "x": 0.0,
+            "y": -1.5,
+            "z": 0.0
+          },
+          {
+            "x": -2.42,
+            "y": -1.5,
+            "z": -22.12
+          },
+          {
+            "x": 6.72,
+            "y": -1.5,
+            "z": -50.6
+          },
+          {
+            "x": 24.56,
+            "y": -1.5,
+            "z": -83.87
+          },
+          {
+            "x": 20.73,
+            "y": -1.5,
+            "z": -105.22
+          }
+        ],
+        "connectedSettlementIds": [
+          "country-116-capital",
+          "country-116-village-3"
+        ]
+      }
+    ],
+    "bridges": [
+      {
+        "bridgeId": "country-116-bridge-1",
+        "roadId": "country-116-road-1",
+        "riverId": "country-116-river-1",
+        "lengthM": 21.4,
+        "loadClass": "heavy-vehicle",
+        "supportsTrain": false,
+        "x": -7.69,
+        "y": -1.15,
+        "z": 64.24
+      }
+    ]
+  },
+  "railNetwork": {
+    "lines": [
+      {
+        "lineId": "country-116-rail-1",
+        "mode": "intercity-rail",
+        "electrification": "future-ready",
+        "trackGaugeMm": 1435,
+        "maxSpeedKph": 180,
+        "points": [
+          {
+            "x": 0.0,
+            "y": -1.5,
+            "z": 0.0
+          },
+          {
+            "x": -7.85,
+            "y": -1.5,
+            "z": -14.45
+          },
+          {
+            "x": 18.91,
+            "y": -1.5,
+            "z": -47.93
+          },
+          {
+            "x": 4.76,
+            "y": -1.5,
+            "z": -58.91
+          },
+          {
+            "x": 22.8,
+            "y": -1.5,
+            "z": -87.59
+          },
+          {
+            "x": 20.73,
+            "y": -1.5,
+            "z": -105.22
+          }
+        ]
+      }
+    ],
+    "stations": [
+      {
+        "stationId": "country-116-country-116-capital-station",
+        "settlementId": "country-116-capital",
+        "name": "Nivessa Central Central Station",
+        "service": "intercity",
+        "x": 0.0,
+        "y": -1.0,
+        "z": 0.0
+      },
+      {
+        "stationId": "country-116-country-116-village-1-station",
+        "settlementId": "country-116-village-1",
+        "name": "Nivessa Village 1 Central Station",
+        "service": "intercity",
+        "x": 50.82,
+        "y": -1.0,
+        "z": -81.15
+      },
+      {
+        "stationId": "country-116-country-116-village-2-station",
+        "settlementId": "country-116-village-2",
+        "name": "Nivessa Village 2 Central Station",
+        "service": "intercity",
+        "x": 20.37,
+        "y": -1.0,
+        "z": -55.16
+      },
+      {
+        "stationId": "country-116-country-116-village-3-station",
+        "settlementId": "country-116-village-3",
+        "name": "Nivessa Village 3 Central Station",
+        "service": "intercity",
+        "x": 20.73,
+        "y": -1.0,
+        "z": -105.22
+      }
+    ],
+    "trainService": {
+      "enabled": true,
+      "rollingStockProfile": "regional-electric-template"
+    }
+  },
+  "riverNetwork": {
+    "rivers": [
+      {
+        "riverId": "country-116-river-1",
+        "navigable": false,
+        "widthM": 9.4,
+        "transportMode": "waterway",
+        "points": [
+          {
+            "x": -128.0,
+            "y": -1.5,
+            "z": 111.0
+          },
+          {
+            "x": -89.08,
+            "y": -1.5,
+            "z": 96.07
+          },
+          {
+            "x": -53.16,
+            "y": -1.5,
+            "z": 82.78
+          },
+          {
+            "x": -7.69,
+            "y": -1.5,
+            "z": 64.24
+          },
+          {
+            "x": 43.81,
+            "y": -1.5,
+            "z": 42.39
+          },
+          {
+            "x": 92.74,
+            "y": -1.5,
+            "z": 21.95
+          },
+          {
+            "x": 128.0,
+            "y": -1.5,
+            "z": 9.03
+          }
+        ]
+      }
+    ],
+    "riverBridges": [
+      "country-116-bridge-1"
+    ]
+  },
+  "simulationHooks": {
+    "cityInfrastructure": true,
+    "residentialAccess": true,
+    "trafficSimulation": true,
+    "massTransitSimulation": true,
+    "waterTrafficSimulation": false
+  }
+}

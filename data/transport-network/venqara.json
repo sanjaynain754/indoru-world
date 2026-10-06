@@ -1,0 +1,500 @@
+{
+  "schemaVersion": 1,
+  "countryId": "country-020",
+  "mapKey": "country/venqara",
+  "seed": 5836465837077303299,
+  "sourceTerrain": "data/country-content/venqara/terrain.json",
+  "roadNetwork": {
+    "segments": [
+      {
+        "roadId": "country-020-road-1",
+        "class": "arterial",
+        "lanes": 4,
+        "speedLimitKph": 90,
+        "access": {
+          "vehicles": true,
+          "pedestrians": true,
+          "emergency": true
+        },
+        "points": [
+          {
+            "x": 0.0,
+            "y": -1.5,
+            "z": 0.0
+          },
+          {
+            "x": 22.13,
+            "y": -1.5,
+            "z": 10.95
+          },
+          {
+            "x": 53.06,
+            "y": -1.5,
+            "z": 17.06
+          },
+          {
+            "x": 72.63,
+            "y": -1.5,
+            "z": 29.42
+          },
+          {
+            "x": 101.39,
+            "y": -1.5,
+            "z": 36.73
+          }
+        ],
+        "connectedSettlementIds": [
+          "country-020-capital",
+          "country-020-village-1"
+        ]
+      },
+      {
+        "roadId": "country-020-road-2",
+        "class": "collector",
+        "lanes": 2,
+        "speedLimitKph": 55,
+        "access": {
+          "vehicles": true,
+          "pedestrians": true,
+          "emergency": true
+        },
+        "points": [
+          {
+            "x": 0.0,
+            "y": -1.5,
+            "z": 0.0
+          },
+          {
+            "x": -13.47,
+            "y": -1.5,
+            "z": -27.74
+          },
+          {
+            "x": -22.16,
+            "y": -1.5,
+            "z": -58.11
+          },
+          {
+            "x": -52.63,
+            "y": -0.02,
+            "z": -76.51
+          },
+          {
+            "x": -63.91,
+            "y": 3.69,
+            "z": -105.45
+          }
+        ],
+        "connectedSettlementIds": [
+          "country-020-capital",
+          "country-020-village-2"
+        ]
+      },
+      {
+        "roadId": "country-020-road-3",
+        "class": "collector",
+        "lanes": 2,
+        "speedLimitKph": 55,
+        "access": {
+          "vehicles": true,
+          "pedestrians": true,
+          "emergency": true
+        },
+        "points": [
+          {
+            "x": 0.0,
+            "y": -1.5,
+            "z": 0.0
+          },
+          {
+            "x": 0.82,
+            "y": -1.5,
+            "z": -29.9
+          },
+          {
+            "x": -13.31,
+            "y": -1.5,
+            "z": -51.58
+          },
+          {
+            "x": -11.21,
+            "y": -0.86,
+            "z": -82.18
+          },
+          {
+            "x": -20.76,
+            "y": 0.06,
+            "z": -106.37
+          }
+        ],
+        "connectedSettlementIds": [
+          "country-020-capital",
+          "country-020-village-3"
+        ]
+      },
+      {
+        "roadId": "country-020-road-4",
+        "class": "collector",
+        "lanes": 2,
+        "speedLimitKph": 55,
+        "access": {
+          "vehicles": true,
+          "pedestrians": true,
+          "emergency": true
+        },
+        "points": [
+          {
+            "x": 0.0,
+            "y": -1.5,
+            "z": 0.0
+          },
+          {
+            "x": -8.74,
+            "y": -1.5,
+            "z": -10.97
+          },
+          {
+            "x": -17.74,
+            "y": -1.5,
+            "z": -21.79
+          },
+          {
+            "x": -16.44,
+            "y": -1.5,
+            "z": -38.28
+          },
+          {
+            "x": -15.58,
+            "y": -1.5,
+            "z": -54.53
+          }
+        ],
+        "connectedSettlementIds": [
+          "country-020-capital",
+          "country-020-village-4"
+        ]
+      },
+      {
+        "roadId": "country-020-road-5",
+        "class": "collector",
+        "lanes": 2,
+        "speedLimitKph": 55,
+        "access": {
+          "vehicles": true,
+          "pedestrians": true,
+          "emergency": true
+        },
+        "points": [
+          {
+            "x": 0.0,
+            "y": -1.5,
+            "z": 0.0
+          },
+          {
+            "x": 8.93,
+            "y": -1.5,
+            "z": -28.9
+          },
+          {
+            "x": -4.97,
+            "y": -1.5,
+            "z": -45.24
+          },
+          {
+            "x": 11.61,
+            "y": 0.59,
+            "z": -78.35
+          },
+          {
+            "x": 8.54,
+            "y": 1.05,
+            "z": -100.65
+          }
+        ],
+        "connectedSettlementIds": [
+          "country-020-capital",
+          "country-020-village-5"
+        ]
+      },
+      {
+        "roadId": "country-020-road-6",
+        "class": "collector",
+        "lanes": 2,
+        "speedLimitKph": 55,
+        "access": {
+          "vehicles": true,
+          "pedestrians": true,
+          "emergency": true
+        },
+        "points": [
+          {
+            "x": 0.0,
+            "y": -1.5,
+            "z": 0.0
+          },
+          {
+            "x": 6.86,
+            "y": -1.5,
+            "z": -13.56
+          },
+          {
+            "x": 24.28,
+            "y": -1.5,
+            "z": -32.93
+          },
+          {
+            "x": 22.26,
+            "y": -1.5,
+            "z": -41.6
+          },
+          {
+            "x": 35.03,
+            "y": 0.55,
+            "z": -58.41
+          }
+        ],
+        "connectedSettlementIds": [
+          "country-020-capital",
+          "country-020-village-6"
+        ]
+      }
+    ],
+    "bridges": [
+      {
+        "bridgeId": "country-020-bridge-1",
+        "roadId": "country-020-road-1",
+        "riverId": "country-020-river-1",
+        "lengthM": 31.8,
+        "loadClass": "heavy-vehicle",
+        "supportsTrain": false,
+        "x": 7.54,
+        "y": -1.15,
+        "z": -5.06
+      },
+      {
+        "bridgeId": "country-020-bridge-2",
+        "roadId": "country-020-road-2",
+        "riverId": "country-020-river-2",
+        "lengthM": 32.1,
+        "loadClass": "heavy-vehicle",
+        "supportsTrain": false,
+        "x": -18.03,
+        "y": -1.15,
+        "z": -3.56
+      }
+    ]
+  },
+  "railNetwork": {
+    "lines": [
+      {
+        "lineId": "country-020-rail-1",
+        "mode": "intercity-rail",
+        "electrification": "future-ready",
+        "trackGaugeMm": 1435,
+        "maxSpeedKph": 180,
+        "points": [
+          {
+            "x": 0.0,
+            "y": -1.5,
+            "z": 0.0
+          },
+          {
+            "x": 9.14,
+            "y": -1.5,
+            "z": -12.86
+          },
+          {
+            "x": 5.73,
+            "y": -1.5,
+            "z": -18.81
+          },
+          {
+            "x": 20.14,
+            "y": -1.5,
+            "z": -34.56
+          },
+          {
+            "x": 34.39,
+            "y": -1.15,
+            "z": -50.23
+          },
+          {
+            "x": 35.03,
+            "y": 0.55,
+            "z": -58.41
+          }
+        ]
+      }
+    ],
+    "stations": [
+      {
+        "stationId": "country-020-country-020-capital-station",
+        "settlementId": "country-020-capital",
+        "name": "Venqara Central Central Station",
+        "service": "intercity",
+        "x": 0.0,
+        "y": -1.0,
+        "z": 0.0
+      },
+      {
+        "stationId": "country-020-country-020-village-1-station",
+        "settlementId": "country-020-village-1",
+        "name": "Venqara Village 1 Central Station",
+        "service": "intercity",
+        "x": 101.39,
+        "y": -1.0,
+        "z": 36.73
+      },
+      {
+        "stationId": "country-020-country-020-village-2-station",
+        "settlementId": "country-020-village-2",
+        "name": "Venqara Village 2 Central Station",
+        "service": "intercity",
+        "x": -63.91,
+        "y": 4.19,
+        "z": -105.45
+      },
+      {
+        "stationId": "country-020-country-020-village-3-station",
+        "settlementId": "country-020-village-3",
+        "name": "Venqara Village 3 Central Station",
+        "service": "intercity",
+        "x": -20.76,
+        "y": 0.56,
+        "z": -106.37
+      },
+      {
+        "stationId": "country-020-country-020-village-4-station",
+        "settlementId": "country-020-village-4",
+        "name": "Venqara Village 4 Central Station",
+        "service": "intercity",
+        "x": -15.58,
+        "y": -1.0,
+        "z": -54.53
+      },
+      {
+        "stationId": "country-020-country-020-village-5-station",
+        "settlementId": "country-020-village-5",
+        "name": "Venqara Village 5 Central Station",
+        "service": "intercity",
+        "x": 8.54,
+        "y": 1.55,
+        "z": -100.65
+      },
+      {
+        "stationId": "country-020-country-020-village-6-station",
+        "settlementId": "country-020-village-6",
+        "name": "Venqara Village 6 Central Station",
+        "service": "intercity",
+        "x": 35.03,
+        "y": 1.05,
+        "z": -58.41
+      }
+    ],
+    "trainService": {
+      "enabled": true,
+      "rollingStockProfile": "regional-electric-template"
+    }
+  },
+  "riverNetwork": {
+    "rivers": [
+      {
+        "riverId": "country-020-river-1",
+        "navigable": true,
+        "widthM": 19.8,
+        "transportMode": "river-freight",
+        "points": [
+          {
+            "x": -128.0,
+            "y": 11.13,
+            "z": -86.32
+          },
+          {
+            "x": -89.04,
+            "y": 2.71,
+            "z": -55.81
+          },
+          {
+            "x": -48.42,
+            "y": -1.5,
+            "z": -26.22
+          },
+          {
+            "x": 7.54,
+            "y": -1.5,
+            "z": -5.06
+          },
+          {
+            "x": 44.01,
+            "y": -1.5,
+            "z": 26.82
+          },
+          {
+            "x": 93.29,
+            "y": -1.5,
+            "z": 51.64
+          },
+          {
+            "x": 128.0,
+            "y": -1.5,
+            "z": 84.49
+          }
+        ]
+      },
+      {
+        "riverId": "country-020-river-2",
+        "navigable": true,
+        "widthM": 20.1,
+        "transportMode": "river-freight",
+        "points": [
+          {
+            "x": 58.48,
+            "y": 6.48,
+            "z": -128.0
+          },
+          {
+            "x": 34.65,
+            "y": 1.77,
+            "z": -87.44
+          },
+          {
+            "x": 12.79,
+            "y": -1.5,
+            "z": -47.96
+          },
+          {
+            "x": -18.03,
+            "y": -1.5,
+            "z": -3.56
+          },
+          {
+            "x": -63.49,
+            "y": -1.5,
+            "z": 48.9
+          },
+          {
+            "x": -85.19,
+            "y": -1.5,
+            "z": 88.29
+          },
+          {
+            "x": -107.47,
+            "y": -1.5,
+            "z": 128.0
+          }
+        ]
+      }
+    ],
+    "riverBridges": [
+      "country-020-bridge-1",
+      "country-020-bridge-2"
+    ]
+  },
+  "simulationHooks": {
+    "cityInfrastructure": true,
+    "residentialAccess": true,
+    "trafficSimulation": true,
+    "massTransitSimulation": true,
+    "waterTrafficSimulation": true
+  }
+}

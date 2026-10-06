@@ -1,0 +1,347 @@
+{
+  "schemaVersion": 1,
+  "countryId": "country-014",
+  "mapKey": "country/qamrith",
+  "seed": 4509257209120446363,
+  "sourceTerrain": "data/country-content/qamrith/terrain.json",
+  "roadNetwork": {
+    "segments": [
+      {
+        "roadId": "country-014-road-1",
+        "class": "arterial",
+        "lanes": 4,
+        "speedLimitKph": 90,
+        "access": {
+          "vehicles": true,
+          "pedestrians": true,
+          "emergency": true
+        },
+        "points": [
+          {
+            "x": 0.0,
+            "y": 28.12,
+            "z": 0.0
+          },
+          {
+            "x": -10.04,
+            "y": 28.07,
+            "z": -16.09
+          },
+          {
+            "x": 4.57,
+            "y": 25.83,
+            "z": -45.75
+          },
+          {
+            "x": 6.6,
+            "y": 24.5,
+            "z": -68.48
+          },
+          {
+            "x": -2.22,
+            "y": 23.15,
+            "z": -85.24
+          }
+        ],
+        "connectedSettlementIds": [
+          "country-014-capital",
+          "country-014-village-1"
+        ]
+      },
+      {
+        "roadId": "country-014-road-2",
+        "class": "collector",
+        "lanes": 2,
+        "speedLimitKph": 55,
+        "access": {
+          "vehicles": true,
+          "pedestrians": true,
+          "emergency": true
+        },
+        "points": [
+          {
+            "x": 0.0,
+            "y": 28.12,
+            "z": 0.0
+          },
+          {
+            "x": 14.81,
+            "y": 26.92,
+            "z": 3.59
+          },
+          {
+            "x": 33.5,
+            "y": 25.04,
+            "z": 5.03
+          },
+          {
+            "x": 74.91,
+            "y": 17.3,
+            "z": -6.01
+          },
+          {
+            "x": 90.05,
+            "y": 14.77,
+            "z": -2.61
+          }
+        ],
+        "connectedSettlementIds": [
+          "country-014-capital",
+          "country-014-village-2"
+        ]
+      },
+      {
+        "roadId": "country-014-road-3",
+        "class": "collector",
+        "lanes": 2,
+        "speedLimitKph": 55,
+        "access": {
+          "vehicles": true,
+          "pedestrians": true,
+          "emergency": true
+        },
+        "points": [
+          {
+            "x": 0.0,
+            "y": 28.12,
+            "z": 0.0
+          },
+          {
+            "x": -26.15,
+            "y": 28.47,
+            "z": 8.38
+          },
+          {
+            "x": -41.31,
+            "y": 27.69,
+            "z": 10.71
+          },
+          {
+            "x": -51.54,
+            "y": 27.69,
+            "z": 10.33
+          },
+          {
+            "x": -82.49,
+            "y": 24.71,
+            "z": 21.35
+          }
+        ],
+        "connectedSettlementIds": [
+          "country-014-capital",
+          "country-014-village-3"
+        ]
+      }
+    ],
+    "bridges": [
+      {
+        "bridgeId": "country-014-bridge-1",
+        "roadId": "country-014-road-1",
+        "riverId": "country-014-river-1",
+        "lengthM": 30.6,
+        "loadClass": "heavy-vehicle",
+        "supportsTrain": false,
+        "x": -6.28,
+        "y": 22.78,
+        "z": 79.92
+      },
+      {
+        "bridgeId": "country-014-bridge-2",
+        "roadId": "country-014-road-2",
+        "riverId": "country-014-river-2",
+        "lengthM": 28.1,
+        "loadClass": "heavy-vehicle",
+        "supportsTrain": false,
+        "x": -44.77,
+        "y": 27.84,
+        "z": 1.88
+      }
+    ]
+  },
+  "railNetwork": {
+    "lines": [
+      {
+        "lineId": "country-014-rail-1",
+        "mode": "intercity-rail",
+        "electrification": "future-ready",
+        "trackGaugeMm": 1435,
+        "maxSpeedKph": 180,
+        "points": [
+          {
+            "x": 0.0,
+            "y": 28.12,
+            "z": 0.0
+          },
+          {
+            "x": -16.96,
+            "y": 28.56,
+            "z": 4.53
+          },
+          {
+            "x": -35.69,
+            "y": 28.47,
+            "z": 10.02
+          },
+          {
+            "x": -39.34,
+            "y": 28.3,
+            "z": 7.22
+          },
+          {
+            "x": -71.63,
+            "y": 26.37,
+            "z": 20.18
+          },
+          {
+            "x": -82.49,
+            "y": 24.71,
+            "z": 21.35
+          }
+        ]
+      }
+    ],
+    "stations": [
+      {
+        "stationId": "country-014-country-014-capital-station",
+        "settlementId": "country-014-capital",
+        "name": "Qamrith Central Central Station",
+        "service": "intercity",
+        "x": 0.0,
+        "y": 28.62,
+        "z": 0.0
+      },
+      {
+        "stationId": "country-014-country-014-village-1-station",
+        "settlementId": "country-014-village-1",
+        "name": "Qamrith Village 1 Central Station",
+        "service": "intercity",
+        "x": -2.22,
+        "y": 23.65,
+        "z": -85.24
+      },
+      {
+        "stationId": "country-014-country-014-village-2-station",
+        "settlementId": "country-014-village-2",
+        "name": "Qamrith Village 2 Central Station",
+        "service": "intercity",
+        "x": 90.05,
+        "y": 15.27,
+        "z": -2.61
+      },
+      {
+        "stationId": "country-014-country-014-village-3-station",
+        "settlementId": "country-014-village-3",
+        "name": "Qamrith Village 3 Central Station",
+        "service": "intercity",
+        "x": -82.49,
+        "y": 25.21,
+        "z": 21.35
+      }
+    ],
+    "trainService": {
+      "enabled": true,
+      "rollingStockProfile": "regional-electric-template"
+    }
+  },
+  "riverNetwork": {
+    "rivers": [
+      {
+        "riverId": "country-014-river-1",
+        "navigable": true,
+        "widthM": 18.6,
+        "transportMode": "river-freight",
+        "points": [
+          {
+            "x": -128.0,
+            "y": 13.42,
+            "z": 92.37
+          },
+          {
+            "x": -79.92,
+            "y": 22.1,
+            "z": 84.09
+          },
+          {
+            "x": -39.14,
+            "y": 23.89,
+            "z": 79.82
+          },
+          {
+            "x": -6.28,
+            "y": 22.43,
+            "z": 79.92
+          },
+          {
+            "x": 49.46,
+            "y": 19.51,
+            "z": 67.43
+          },
+          {
+            "x": 83.48,
+            "y": 15.67,
+            "z": 66.88
+          },
+          {
+            "x": 128.0,
+            "y": 7.88,
+            "z": 60.55
+          }
+        ]
+      },
+      {
+        "riverId": "country-014-river-2",
+        "navigable": true,
+        "widthM": 16.1,
+        "transportMode": "river-freight",
+        "points": [
+          {
+            "x": -15.17,
+            "y": 20.12,
+            "z": -128.0
+          },
+          {
+            "x": -34.04,
+            "y": 24.59,
+            "z": -79.76
+          },
+          {
+            "x": -43.34,
+            "y": 26.63,
+            "z": -36.77
+          },
+          {
+            "x": -44.77,
+            "y": 27.49,
+            "z": 1.88
+          },
+          {
+            "x": -47.81,
+            "y": 26.89,
+            "z": 41.42
+          },
+          {
+            "x": -61.44,
+            "y": 23.41,
+            "z": 86.78
+          },
+          {
+            "x": -67.54,
+            "y": 16.93,
+            "z": 128.0
+          }
+        ]
+      }
+    ],
+    "riverBridges": [
+      "country-014-bridge-1",
+      "country-014-bridge-2"
+    ]
+  },
+  "simulationHooks": {
+    "cityInfrastructure": true,
+    "residentialAccess": true,
+    "trafficSimulation": true,
+    "massTransitSimulation": true,
+    "waterTrafficSimulation": true
+  }
+}

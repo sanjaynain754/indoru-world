@@ -1,0 +1,377 @@
+{
+  "schemaVersion": 1,
+  "countryId": "country-063",
+  "name": "Qelvar",
+  "status": "playable",
+  "completion": "template",
+  "templatePolicy": {
+    "generated": true,
+    "requiresReview": true,
+    "placeholderContentAllowed": true
+  },
+  "terrain": {
+    "asset": "data/country-content/qelvar/terrain.json",
+    "mapKey": "country/qelvar",
+    "biome": "highland-basin"
+  },
+  "spawn": {
+    "x": 0.0,
+    "y": 1.2,
+    "z": 0.0,
+    "headingRad": 0.0
+  },
+  "settlements": [
+    {
+      "id": "country-063-capital",
+      "name": "Qelvar Central",
+      "type": "capital",
+      "populationTier": "large",
+      "x": 0.0,
+      "y": 11.54,
+      "z": 0.0
+    },
+    {
+      "id": "country-063-village-1",
+      "name": "Qelvar Village 1",
+      "type": "village",
+      "populationTier": "medium",
+      "x": -48.05,
+      "y": 11.32,
+      "z": -18.51
+    },
+    {
+      "id": "country-063-village-2",
+      "name": "Qelvar Village 2",
+      "type": "village",
+      "populationTier": "small",
+      "x": -28.54,
+      "y": 7.16,
+      "z": -43.24
+    }
+  ],
+  "infrastructure": {
+    "rivers": [
+      {
+        "id": "country-063-river-1",
+        "name": "Qelvar River 1",
+        "widthM": 17.5,
+        "points": [
+          {
+            "x": -128.0,
+            "y": 5.34,
+            "z": 16.77
+          },
+          {
+            "x": -89.45,
+            "y": 9.07,
+            "z": 1.16
+          },
+          {
+            "x": -54.47,
+            "y": 10.82,
+            "z": -12.48
+          },
+          {
+            "x": -0.32,
+            "y": 6.11,
+            "z": -36.67
+          },
+          {
+            "x": 46.56,
+            "y": -1.5,
+            "z": -56.86
+          },
+          {
+            "x": 94.46,
+            "y": -1.5,
+            "z": -77.61
+          },
+          {
+            "x": 128.0,
+            "y": -1.5,
+            "z": -90.46
+          }
+        ]
+      }
+    ],
+    "lakes": [
+      {
+        "id": "country-063-lake-1",
+        "name": "Qelvar Lake 1",
+        "x": 20.19,
+        "y": 0.38,
+        "z": 28.33,
+        "radiusM": 19.6,
+        "type": "natural"
+      },
+      {
+        "id": "country-063-lake-2",
+        "name": "Qelvar Lake 2",
+        "x": 6.37,
+        "y": 0.38,
+        "z": 59.89,
+        "radiusM": 25.0,
+        "type": "natural"
+      }
+    ],
+    "mountains": [
+      {
+        "id": "country-063-mountain-1",
+        "name": "Qelvar Highland 1",
+        "x": -45.72,
+        "y": 6.79,
+        "z": -73.06,
+        "heightM": 34.98,
+        "radiusM": 25.4
+      },
+      {
+        "id": "country-063-mountain-2",
+        "name": "Qelvar Highland 2",
+        "x": 6.89,
+        "y": 6.11,
+        "z": -37.18,
+        "heightM": 59.31,
+        "radiusM": 17.2
+      },
+      {
+        "id": "country-063-mountain-3",
+        "name": "Qelvar Highland 3",
+        "x": 0.48,
+        "y": 15.41,
+        "z": 35.91,
+        "heightM": 48.93,
+        "radiusM": 22.9
+      }
+    ],
+    "settlements": [
+      {
+        "id": "country-063-capital",
+        "name": "Qelvar Central",
+        "type": "capital",
+        "populationTier": "large",
+        "x": 0.0,
+        "y": 11.54,
+        "z": 0.0
+      },
+      {
+        "id": "country-063-village-1",
+        "name": "Qelvar Village 1",
+        "type": "village",
+        "populationTier": "medium",
+        "x": -48.05,
+        "y": 11.32,
+        "z": -18.51
+      },
+      {
+        "id": "country-063-village-2",
+        "name": "Qelvar Village 2",
+        "type": "village",
+        "populationTier": "small",
+        "x": -28.54,
+        "y": 7.16,
+        "z": -43.24
+      }
+    ],
+    "roads": [
+      {
+        "id": "country-063-road-1",
+        "class": "highway",
+        "points": [
+          {
+            "x": 0.0,
+            "y": 11.04,
+            "z": 0.0
+          },
+          {
+            "x": -22.08,
+            "y": 13.02,
+            "z": 0.91
+          },
+          {
+            "x": -28.1,
+            "y": 13.83,
+            "z": -7.01
+          },
+          {
+            "x": -32.58,
+            "y": 10.9,
+            "z": -15.78
+          },
+          {
+            "x": -48.05,
+            "y": 10.82,
+            "z": -18.51
+          }
+        ]
+      },
+      {
+        "id": "country-063-road-2",
+        "class": "regional",
+        "points": [
+          {
+            "x": 0.0,
+            "y": 11.04,
+            "z": 0.0
+          },
+          {
+            "x": -1.88,
+            "y": 8.59,
+            "z": -13.7
+          },
+          {
+            "x": -5.93,
+            "y": 6.11,
+            "z": -26.21
+          },
+          {
+            "x": -23.41,
+            "y": 7.61,
+            "z": -31.33
+          },
+          {
+            "x": -28.54,
+            "y": 6.66,
+            "z": -43.24
+          }
+        ]
+      }
+    ],
+    "bridges": [
+      {
+        "id": "country-063-bridge-1",
+        "name": "Qelvar Crossing 1",
+        "roadId": "country-063-road-1",
+        "riverId": "country-063-river-1",
+        "x": -0.32,
+        "y": 6.46,
+        "z": -36.67,
+        "lengthM": 29.5
+      }
+    ],
+    "railways": [
+      {
+        "id": "country-063-rail-1",
+        "class": "intercity",
+        "points": [
+          {
+            "x": 0.0,
+            "y": 11.04,
+            "z": 0.0
+          },
+          {
+            "x": -14.69,
+            "y": 13.02,
+            "z": -3.71
+          },
+          {
+            "x": -9.71,
+            "y": 10.22,
+            "z": -18.23
+          },
+          {
+            "x": -5.59,
+            "y": 6.11,
+            "z": -32.29
+          },
+          {
+            "x": -22.7,
+            "y": 7.61,
+            "z": -34.67
+          },
+          {
+            "x": -28.54,
+            "y": 6.66,
+            "z": -43.24
+          }
+        ]
+      }
+    ],
+    "airports": [
+      {
+        "id": "country-063-airport-1",
+        "name": "Qelvar International",
+        "size": "regional",
+        "x": 8.61,
+        "y": 8.08,
+        "z": -5.41,
+        "runwayLengthM": 1800
+      }
+    ],
+    "ports": [
+      {
+        "id": "country-063-port-1",
+        "name": "Qelvar Maritime Port",
+        "x": 68.99,
+        "y": 0.67,
+        "z": 44.51,
+        "capacity": "small"
+      }
+    ],
+    "militaryBases": [
+      {
+        "id": "country-063-base-1",
+        "name": "Qelvar Defense Station",
+        "type": "air-ground",
+        "x": -54.04,
+        "y": 17.1,
+        "z": 21.63
+      }
+    ],
+    "metroLines": [
+      {
+        "id": "country-063-metro-1",
+        "status": "planned",
+        "serves": [
+          "country-063-capital",
+          "country-063-village-1",
+          "country-063-village-2"
+        ]
+      }
+    ],
+    "airRoutes": [
+      {
+        "id": "country-063-air-route-1",
+        "status": "regional",
+        "airportId": "country-063-airport-1"
+      }
+    ],
+    "shipLanes": [
+      {
+        "id": "country-063-ship-lane-1",
+        "status": "regional",
+        "portId": "country-063-port-1"
+      }
+    ],
+    "submarineZones": [
+      {
+        "id": "country-063-submarine-zone-1",
+        "status": "charted",
+        "depthM": 48.4
+      }
+    ]
+  },
+  "missions": [
+    {
+      "id": "country-063-intro",
+      "title": "Welcome to Qelvar",
+      "status": "template",
+      "placeholder": true
+    },
+    {
+      "id": "country-063-route",
+      "title": "Cross-Region Route",
+      "status": "template",
+      "placeholder": true
+    }
+  ],
+  "systems": {
+    "weatherProfile": "template",
+    "peopleProfile": "people-qelvar",
+    "trafficProfile": "template"
+  },
+  "nextSteps": [
+    "replace placeholder settlements",
+    "author terrain landmarks",
+    "author missions and NPC schedules"
+  ]
+}

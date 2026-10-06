@@ -1,0 +1,546 @@
+{
+  "schemaVersion": 1,
+  "countryId": "country-035",
+  "name": "Yurnek",
+  "status": "playable",
+  "completion": "template",
+  "templatePolicy": {
+    "generated": true,
+    "requiresReview": true,
+    "placeholderContentAllowed": true
+  },
+  "terrain": {
+    "asset": "data/country-content/yurnek/terrain.json",
+    "mapKey": "country/yurnek",
+    "biome": "canyon-steppe"
+  },
+  "spawn": {
+    "x": 0.0,
+    "y": 1.2,
+    "z": 0.0,
+    "headingRad": 0.0
+  },
+  "settlements": [
+    {
+      "id": "country-035-capital",
+      "name": "Yurnek Central",
+      "type": "capital",
+      "populationTier": "large",
+      "x": 0.0,
+      "y": 4.61,
+      "z": 0.0
+    },
+    {
+      "id": "country-035-village-1",
+      "name": "Yurnek Village 1",
+      "type": "village",
+      "populationTier": "medium",
+      "x": -1.54,
+      "y": 13.28,
+      "z": 63.1
+    },
+    {
+      "id": "country-035-village-2",
+      "name": "Yurnek Village 2",
+      "type": "village",
+      "populationTier": "small",
+      "x": -28.61,
+      "y": 13.32,
+      "z": 104.76
+    },
+    {
+      "id": "country-035-village-3",
+      "name": "Yurnek Village 3",
+      "type": "village",
+      "populationTier": "small",
+      "x": -87.98,
+      "y": -1.0,
+      "z": 34.83
+    },
+    {
+      "id": "country-035-village-4",
+      "name": "Yurnek Village 4",
+      "type": "village",
+      "populationTier": "medium",
+      "x": 15.56,
+      "y": 1.99,
+      "z": -54.93
+    },
+    {
+      "id": "country-035-village-5",
+      "name": "Yurnek Village 5",
+      "type": "village",
+      "populationTier": "small",
+      "x": 103.37,
+      "y": 20.48,
+      "z": 67.79
+    },
+    {
+      "id": "country-035-village-6",
+      "name": "Yurnek Village 6",
+      "type": "village",
+      "populationTier": "small",
+      "x": 104.09,
+      "y": 6.02,
+      "z": -92.39
+    }
+  ],
+  "infrastructure": {
+    "rivers": [
+      {
+        "id": "country-035-river-1",
+        "name": "Yurnek River 1",
+        "widthM": 16.8,
+        "points": [
+          {
+            "x": -128.0,
+            "y": -1.5,
+            "z": -22.0
+          },
+          {
+            "x": -81.98,
+            "y": -1.5,
+            "z": -19.38
+          },
+          {
+            "x": -47.04,
+            "y": -1.5,
+            "z": -10.67
+          },
+          {
+            "x": -0.78,
+            "y": 1.83,
+            "z": -8.19
+          },
+          {
+            "x": 51.93,
+            "y": 9.3,
+            "z": -9.25
+          },
+          {
+            "x": 86.11,
+            "y": 10.92,
+            "z": -0.12
+          },
+          {
+            "x": 128.0,
+            "y": 7.25,
+            "z": 4.76
+          }
+        ]
+      }
+    ],
+    "lakes": [
+      {
+        "id": "country-035-lake-1",
+        "name": "Yurnek Lake 1",
+        "x": 70.32,
+        "y": 0.38,
+        "z": -39.84,
+        "radiusM": 25.2,
+        "type": "natural"
+      }
+    ],
+    "mountains": [
+      {
+        "id": "country-035-mountain-1",
+        "name": "Yurnek Highland 1",
+        "x": 15.25,
+        "y": 5.02,
+        "z": -14.14,
+        "heightM": 30.24,
+        "radiusM": 39.7
+      },
+      {
+        "id": "country-035-mountain-2",
+        "name": "Yurnek Highland 2",
+        "x": -31.58,
+        "y": 7.25,
+        "z": 69.68,
+        "heightM": 27.91,
+        "radiusM": 34.1
+      }
+    ],
+    "settlements": [
+      {
+        "id": "country-035-capital",
+        "name": "Yurnek Central",
+        "type": "capital",
+        "populationTier": "large",
+        "x": 0.0,
+        "y": 4.61,
+        "z": 0.0
+      },
+      {
+        "id": "country-035-village-1",
+        "name": "Yurnek Village 1",
+        "type": "village",
+        "populationTier": "medium",
+        "x": -1.54,
+        "y": 13.28,
+        "z": 63.1
+      },
+      {
+        "id": "country-035-village-2",
+        "name": "Yurnek Village 2",
+        "type": "village",
+        "populationTier": "small",
+        "x": -28.61,
+        "y": 13.32,
+        "z": 104.76
+      },
+      {
+        "id": "country-035-village-3",
+        "name": "Yurnek Village 3",
+        "type": "village",
+        "populationTier": "small",
+        "x": -87.98,
+        "y": -1.0,
+        "z": 34.83
+      },
+      {
+        "id": "country-035-village-4",
+        "name": "Yurnek Village 4",
+        "type": "village",
+        "populationTier": "medium",
+        "x": 15.56,
+        "y": 1.99,
+        "z": -54.93
+      },
+      {
+        "id": "country-035-village-5",
+        "name": "Yurnek Village 5",
+        "type": "village",
+        "populationTier": "small",
+        "x": 103.37,
+        "y": 20.48,
+        "z": 67.79
+      },
+      {
+        "id": "country-035-village-6",
+        "name": "Yurnek Village 6",
+        "type": "village",
+        "populationTier": "small",
+        "x": 104.09,
+        "y": 6.02,
+        "z": -92.39
+      }
+    ],
+    "roads": [
+      {
+        "id": "country-035-road-1",
+        "class": "highway",
+        "points": [
+          {
+            "x": 0.0,
+            "y": 4.11,
+            "z": 0.0
+          },
+          {
+            "x": 8.92,
+            "y": 9.26,
+            "z": 10.65
+          },
+          {
+            "x": 8.19,
+            "y": 11.21,
+            "z": 26.62
+          },
+          {
+            "x": 8.88,
+            "y": 13.02,
+            "z": 41.81
+          },
+          {
+            "x": -1.54,
+            "y": 12.78,
+            "z": 63.1
+          }
+        ]
+      },
+      {
+        "id": "country-035-road-2",
+        "class": "regional",
+        "points": [
+          {
+            "x": 0.0,
+            "y": 4.11,
+            "z": 0.0
+          },
+          {
+            "x": -0.11,
+            "y": 6.51,
+            "z": 22.32
+          },
+          {
+            "x": -5.01,
+            "y": 10.89,
+            "z": 47.27
+          },
+          {
+            "x": -24.16,
+            "y": 9.41,
+            "z": 80.05
+          },
+          {
+            "x": -28.61,
+            "y": 12.82,
+            "z": 104.76
+          }
+        ]
+      },
+      {
+        "id": "country-035-road-3",
+        "class": "regional",
+        "points": [
+          {
+            "x": 0.0,
+            "y": 4.11,
+            "z": 0.0
+          },
+          {
+            "x": -30.39,
+            "y": -0.75,
+            "z": 13.32
+          },
+          {
+            "x": -44.99,
+            "y": -1.5,
+            "z": 17.97
+          },
+          {
+            "x": -73.56,
+            "y": -1.5,
+            "z": 30.29
+          },
+          {
+            "x": -87.98,
+            "y": -1.5,
+            "z": 34.83
+          }
+        ]
+      },
+      {
+        "id": "country-035-road-4",
+        "class": "regional",
+        "points": [
+          {
+            "x": 0.0,
+            "y": 4.11,
+            "z": 0.0
+          },
+          {
+            "x": -6.61,
+            "y": 4.11,
+            "z": -7.96
+          },
+          {
+            "x": -2.73,
+            "y": 1.83,
+            "z": -21.68
+          },
+          {
+            "x": 4.06,
+            "y": -0.07,
+            "z": -37.01
+          },
+          {
+            "x": 15.56,
+            "y": 1.49,
+            "z": -54.93
+          }
+        ]
+      },
+      {
+        "id": "country-035-road-5",
+        "class": "regional",
+        "points": [
+          {
+            "x": 0.0,
+            "y": 4.11,
+            "z": 0.0
+          },
+          {
+            "x": 22.53,
+            "y": 9.26,
+            "z": 18.77
+          },
+          {
+            "x": 55.51,
+            "y": 13.84,
+            "z": 31.79
+          },
+          {
+            "x": 77.52,
+            "y": 16.96,
+            "z": 50.85
+          },
+          {
+            "x": 103.37,
+            "y": 19.98,
+            "z": 67.79
+          }
+        ]
+      },
+      {
+        "id": "country-035-road-6",
+        "class": "regional",
+        "points": [
+          {
+            "x": 0.0,
+            "y": 4.11,
+            "z": 0.0
+          },
+          {
+            "x": 36.3,
+            "y": 5.75,
+            "z": -28.75
+          },
+          {
+            "x": 44.56,
+            "y": 6.27,
+            "z": -42.08
+          },
+          {
+            "x": 89.66,
+            "y": 6.52,
+            "z": -75.67
+          },
+          {
+            "x": 104.09,
+            "y": 5.52,
+            "z": -92.39
+          }
+        ]
+      }
+    ],
+    "bridges": [
+      {
+        "id": "country-035-bridge-1",
+        "name": "Yurnek Crossing 1",
+        "roadId": "country-035-road-1",
+        "riverId": "country-035-river-1",
+        "x": -0.78,
+        "y": 2.18,
+        "z": -8.19,
+        "lengthM": 28.8
+      }
+    ],
+    "railways": [
+      {
+        "id": "country-035-rail-1",
+        "class": "intercity",
+        "points": [
+          {
+            "x": 0.0,
+            "y": 4.11,
+            "z": 0.0
+          },
+          {
+            "x": 17.04,
+            "y": 5.02,
+            "z": -16.4
+          },
+          {
+            "x": 51.85,
+            "y": 6.27,
+            "z": -42.57
+          },
+          {
+            "x": 54.5,
+            "y": 6.27,
+            "z": -51.06
+          },
+          {
+            "x": 73.1,
+            "y": 7.23,
+            "z": -68.32
+          },
+          {
+            "x": 104.09,
+            "y": 5.52,
+            "z": -92.39
+          }
+        ]
+      }
+    ],
+    "airports": [
+      {
+        "id": "country-035-airport-1",
+        "name": "Yurnek International",
+        "size": "regional",
+        "x": 57.99,
+        "y": 12.82,
+        "z": 17.95,
+        "runwayLengthM": 1800
+      }
+    ],
+    "ports": [],
+    "militaryBases": [
+      {
+        "id": "country-035-base-1",
+        "name": "Yurnek Defense Station",
+        "type": "air-ground",
+        "x": 72.67,
+        "y": 12.74,
+        "z": 23.4
+      }
+    ],
+    "metroLines": [
+      {
+        "id": "country-035-metro-1",
+        "status": "planned",
+        "serves": [
+          "country-035-capital",
+          "country-035-village-1",
+          "country-035-village-2"
+        ]
+      }
+    ],
+    "airRoutes": [
+      {
+        "id": "country-035-air-route-1",
+        "status": "regional",
+        "airportId": "country-035-airport-1"
+      }
+    ],
+    "shipLanes": [
+      {
+        "id": "country-035-ship-lane-1",
+        "status": "regional",
+        "portId": null
+      }
+    ],
+    "submarineZones": [
+      {
+        "id": "country-035-submarine-zone-1",
+        "status": "charted",
+        "depthM": 192.9
+      }
+    ]
+  },
+  "missions": [
+    {
+      "id": "country-035-intro",
+      "title": "Welcome to Yurnek",
+      "status": "template",
+      "placeholder": true
+    },
+    {
+      "id": "country-035-route",
+      "title": "Cross-Region Route",
+      "status": "template",
+      "placeholder": true
+    }
+  ],
+  "systems": {
+    "weatherProfile": "template",
+    "peopleProfile": "people-yurnek",
+    "trafficProfile": "template"
+  },
+  "nextSteps": [
+    "replace placeholder settlements",
+    "author terrain landmarks",
+    "author missions and NPC schedules"
+  ]
+}

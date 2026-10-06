@@ -1,0 +1,677 @@
+{
+  "schemaVersion": 1,
+  "countryId": "country-017",
+  "name": "Ilvarra",
+  "status": "playable",
+  "completion": "template",
+  "templatePolicy": {
+    "generated": true,
+    "requiresReview": true,
+    "placeholderContentAllowed": true
+  },
+  "terrain": {
+    "asset": "data/country-content/ilvarra/terrain.json",
+    "mapKey": "country/ilvarra",
+    "biome": "temperate-river"
+  },
+  "spawn": {
+    "x": 0.0,
+    "y": 1.2,
+    "z": 0.0,
+    "headingRad": 0.0
+  },
+  "settlements": [
+    {
+      "id": "country-017-capital",
+      "name": "Ilvarra Central",
+      "type": "capital",
+      "populationTier": "large",
+      "x": 0.0,
+      "y": 11.84,
+      "z": 0.0
+    },
+    {
+      "id": "country-017-village-1",
+      "name": "Ilvarra Village 1",
+      "type": "village",
+      "populationTier": "medium",
+      "x": 68.44,
+      "y": -1.0,
+      "z": -42.92
+    },
+    {
+      "id": "country-017-village-2",
+      "name": "Ilvarra Village 2",
+      "type": "village",
+      "populationTier": "small",
+      "x": 59.17,
+      "y": 3.84,
+      "z": 29.79
+    },
+    {
+      "id": "country-017-village-3",
+      "name": "Ilvarra Village 3",
+      "type": "village",
+      "populationTier": "small",
+      "x": -95.57,
+      "y": 22.09,
+      "z": 48.76
+    },
+    {
+      "id": "country-017-village-4",
+      "name": "Ilvarra Village 4",
+      "type": "village",
+      "populationTier": "medium",
+      "x": 90.16,
+      "y": -1.0,
+      "z": 14.37
+    },
+    {
+      "id": "country-017-village-5",
+      "name": "Ilvarra Village 5",
+      "type": "village",
+      "populationTier": "small",
+      "x": 19.75,
+      "y": 3.9,
+      "z": -54.03
+    },
+    {
+      "id": "country-017-village-6",
+      "name": "Ilvarra Village 6",
+      "type": "village",
+      "populationTier": "small",
+      "x": 37.97,
+      "y": 9.16,
+      "z": 38.35
+    }
+  ],
+  "infrastructure": {
+    "rivers": [
+      {
+        "id": "country-017-river-1",
+        "name": "Ilvarra River 1",
+        "widthM": 16.2,
+        "points": [
+          {
+            "x": -128.0,
+            "y": 14.31,
+            "z": -2.73
+          },
+          {
+            "x": -73.48,
+            "y": 15.85,
+            "z": -0.13
+          },
+          {
+            "x": -52.45,
+            "y": 17.79,
+            "z": 20.89
+          },
+          {
+            "x": 6.48,
+            "y": 12.97,
+            "z": 21.07
+          },
+          {
+            "x": 50.05,
+            "y": 5.88,
+            "z": 29.69
+          },
+          {
+            "x": 88.13,
+            "y": 1.01,
+            "z": 41.33
+          },
+          {
+            "x": 128.0,
+            "y": -1.5,
+            "z": 51.99
+          }
+        ]
+      },
+      {
+        "id": "country-017-river-2",
+        "name": "Ilvarra River 2",
+        "widthM": 7.3,
+        "points": [
+          {
+            "x": -91.02,
+            "y": 5.59,
+            "z": -128.0
+          },
+          {
+            "x": -92.32,
+            "y": 9.01,
+            "z": -83.25
+          },
+          {
+            "x": -92.58,
+            "y": 12.77,
+            "z": -39.08
+          },
+          {
+            "x": -78.32,
+            "y": 15.85,
+            "z": -2.88
+          },
+          {
+            "x": -89.8,
+            "y": 21.59,
+            "z": 47.47
+          },
+          {
+            "x": -70.14,
+            "y": 25.21,
+            "z": 80.69
+          },
+          {
+            "x": -76.1,
+            "y": 27.33,
+            "z": 128.0
+          }
+        ]
+      },
+      {
+        "id": "country-017-river-3",
+        "name": "Ilvarra River 3",
+        "widthM": 17.6,
+        "points": [
+          {
+            "x": -128.0,
+            "y": 25.39,
+            "z": 118.27
+          },
+          {
+            "x": -96.61,
+            "y": 26.58,
+            "z": 97.07
+          },
+          {
+            "x": -37.4,
+            "y": 21.41,
+            "z": 60.56
+          },
+          {
+            "x": 5.36,
+            "y": 14.37,
+            "z": 33.1
+          },
+          {
+            "x": 45.4,
+            "y": 2.6,
+            "z": 7.13
+          },
+          {
+            "x": 76.23,
+            "y": -1.5,
+            "z": -13.76
+          },
+          {
+            "x": 128.0,
+            "y": -1.5,
+            "z": -46.18
+          }
+        ]
+      }
+    ],
+    "lakes": [
+      {
+        "id": "country-017-lake-1",
+        "name": "Ilvarra Lake 1",
+        "x": -13.11,
+        "y": 0.4,
+        "z": -70.2,
+        "radiusM": 14.7,
+        "type": "natural"
+      },
+      {
+        "id": "country-017-lake-2",
+        "name": "Ilvarra Lake 2",
+        "x": 26.25,
+        "y": 0.4,
+        "z": 11.06,
+        "radiusM": 21.7,
+        "type": "natural"
+      }
+    ],
+    "mountains": [
+      {
+        "id": "country-017-mountain-1",
+        "name": "Ilvarra Highland 1",
+        "x": 10.19,
+        "y": 8.76,
+        "z": 7.68,
+        "heightM": 18.09,
+        "radiusM": 40.6
+      },
+      {
+        "id": "country-017-mountain-2",
+        "name": "Ilvarra Highland 2",
+        "x": 46.21,
+        "y": 0.39,
+        "z": -31.03,
+        "heightM": 25.98,
+        "radiusM": 32.9
+      },
+      {
+        "id": "country-017-mountain-3",
+        "name": "Ilvarra Highland 3",
+        "x": -23.04,
+        "y": 20.39,
+        "z": 79.66,
+        "heightM": 35.68,
+        "radiusM": 31.9
+      }
+    ],
+    "settlements": [
+      {
+        "id": "country-017-capital",
+        "name": "Ilvarra Central",
+        "type": "capital",
+        "populationTier": "large",
+        "x": 0.0,
+        "y": 11.84,
+        "z": 0.0
+      },
+      {
+        "id": "country-017-village-1",
+        "name": "Ilvarra Village 1",
+        "type": "village",
+        "populationTier": "medium",
+        "x": 68.44,
+        "y": -1.0,
+        "z": -42.92
+      },
+      {
+        "id": "country-017-village-2",
+        "name": "Ilvarra Village 2",
+        "type": "village",
+        "populationTier": "small",
+        "x": 59.17,
+        "y": 3.84,
+        "z": 29.79
+      },
+      {
+        "id": "country-017-village-3",
+        "name": "Ilvarra Village 3",
+        "type": "village",
+        "populationTier": "small",
+        "x": -95.57,
+        "y": 22.09,
+        "z": 48.76
+      },
+      {
+        "id": "country-017-village-4",
+        "name": "Ilvarra Village 4",
+        "type": "village",
+        "populationTier": "medium",
+        "x": 90.16,
+        "y": -1.0,
+        "z": 14.37
+      },
+      {
+        "id": "country-017-village-5",
+        "name": "Ilvarra Village 5",
+        "type": "village",
+        "populationTier": "small",
+        "x": 19.75,
+        "y": 3.9,
+        "z": -54.03
+      },
+      {
+        "id": "country-017-village-6",
+        "name": "Ilvarra Village 6",
+        "type": "village",
+        "populationTier": "small",
+        "x": 37.97,
+        "y": 9.16,
+        "z": 38.35
+      }
+    ],
+    "roads": [
+      {
+        "id": "country-017-road-1",
+        "class": "highway",
+        "points": [
+          {
+            "x": 0.0,
+            "y": 11.34,
+            "z": 0.0
+          },
+          {
+            "x": 28.61,
+            "y": 4.35,
+            "z": -17.06
+          },
+          {
+            "x": 34.83,
+            "y": 4.35,
+            "z": -21.8
+          },
+          {
+            "x": 41.63,
+            "y": -0.13,
+            "z": -26.86
+          },
+          {
+            "x": 68.44,
+            "y": -1.5,
+            "z": -42.92
+          }
+        ]
+      },
+      {
+        "id": "country-017-road-2",
+        "class": "regional",
+        "points": [
+          {
+            "x": 0.0,
+            "y": 11.34,
+            "z": 0.0
+          },
+          {
+            "x": 20.0,
+            "y": 8.76,
+            "z": 4.58
+          },
+          {
+            "x": 37.14,
+            "y": 7.16,
+            "z": 10.74
+          },
+          {
+            "x": 40.82,
+            "y": 5.88,
+            "z": 24.3
+          },
+          {
+            "x": 59.17,
+            "y": 3.34,
+            "z": 29.79
+          }
+        ]
+      },
+      {
+        "id": "country-017-road-3",
+        "class": "regional",
+        "points": [
+          {
+            "x": 0.0,
+            "y": 11.34,
+            "z": 0.0
+          },
+          {
+            "x": -31.99,
+            "y": 16.86,
+            "z": 16.64
+          },
+          {
+            "x": -36.18,
+            "y": 16.86,
+            "z": 18.0
+          },
+          {
+            "x": -67.73,
+            "y": 20.35,
+            "z": 34.4
+          },
+          {
+            "x": -95.57,
+            "y": 21.59,
+            "z": 48.76
+          }
+        ]
+      },
+      {
+        "id": "country-017-road-4",
+        "class": "regional",
+        "points": [
+          {
+            "x": 0.0,
+            "y": 11.34,
+            "z": 0.0
+          },
+          {
+            "x": 11.09,
+            "y": 10.19,
+            "z": 9.89
+          },
+          {
+            "x": 53.69,
+            "y": 2.6,
+            "z": 2.45
+          },
+          {
+            "x": 63.21,
+            "y": 1.31,
+            "z": 13.2
+          },
+          {
+            "x": 90.16,
+            "y": -1.5,
+            "z": 14.37
+          }
+        ]
+      },
+      {
+        "id": "country-017-road-5",
+        "class": "regional",
+        "points": [
+          {
+            "x": 0.0,
+            "y": 11.34,
+            "z": 0.0
+          },
+          {
+            "x": -3.45,
+            "y": 9.46,
+            "z": -8.89
+          },
+          {
+            "x": 14.4,
+            "y": 5.34,
+            "z": -29.5
+          },
+          {
+            "x": 20.35,
+            "y": 3.4,
+            "z": -43.57
+          },
+          {
+            "x": 19.75,
+            "y": 3.4,
+            "z": -54.03
+          }
+        ]
+      },
+      {
+        "id": "country-017-road-6",
+        "class": "regional",
+        "points": [
+          {
+            "x": 0.0,
+            "y": 11.34,
+            "z": 0.0
+          },
+          {
+            "x": 9.44,
+            "y": 10.19,
+            "z": 9.61
+          },
+          {
+            "x": 27.72,
+            "y": 7.16,
+            "z": 14.37
+          },
+          {
+            "x": 27.22,
+            "y": 8.66,
+            "z": 29.45
+          },
+          {
+            "x": 37.97,
+            "y": 8.66,
+            "z": 38.35
+          }
+        ]
+      }
+    ],
+    "bridges": [
+      {
+        "id": "country-017-bridge-1",
+        "name": "Ilvarra Crossing 1",
+        "roadId": "country-017-road-1",
+        "riverId": "country-017-river-1",
+        "x": 6.48,
+        "y": 13.32,
+        "z": 21.07,
+        "lengthM": 28.2
+      },
+      {
+        "id": "country-017-bridge-2",
+        "name": "Ilvarra Crossing 2",
+        "roadId": "country-017-road-2",
+        "riverId": "country-017-river-2",
+        "x": -78.32,
+        "y": 16.2,
+        "z": -2.88,
+        "lengthM": 19.3
+      },
+      {
+        "id": "country-017-bridge-3",
+        "name": "Ilvarra Crossing 3",
+        "roadId": "country-017-road-3",
+        "riverId": "country-017-river-3",
+        "x": 5.36,
+        "y": 14.719999999999999,
+        "z": 33.1,
+        "lengthM": 29.6
+      }
+    ],
+    "railways": [
+      {
+        "id": "country-017-rail-1",
+        "class": "intercity",
+        "points": [
+          {
+            "x": 0.0,
+            "y": 11.34,
+            "z": 0.0
+          },
+          {
+            "x": 13.51,
+            "y": 8.76,
+            "z": 4.42
+          },
+          {
+            "x": 11.54,
+            "y": 10.19,
+            "z": 17.35
+          },
+          {
+            "x": 23.16,
+            "y": 10.19,
+            "z": 22.8
+          },
+          {
+            "x": 38.23,
+            "y": 8.66,
+            "z": 26.36
+          },
+          {
+            "x": 37.97,
+            "y": 8.66,
+            "z": 38.35
+          }
+        ]
+      }
+    ],
+    "airports": [
+      {
+        "id": "country-017-airport-1",
+        "name": "Ilvarra International",
+        "size": "large",
+        "x": -12.47,
+        "y": 17.04,
+        "z": 36.64,
+        "runwayLengthM": 1800
+      }
+    ],
+    "ports": [
+      {
+        "id": "country-017-port-1",
+        "name": "Ilvarra Maritime Port",
+        "x": 62.76,
+        "y": 0.69,
+        "z": 4.87,
+        "capacity": "large"
+      }
+    ],
+    "militaryBases": [
+      {
+        "id": "country-017-base-1",
+        "name": "Ilvarra Defense Station",
+        "type": "air-ground",
+        "x": -23.75,
+        "y": 19.59,
+        "z": 65.33
+      }
+    ],
+    "metroLines": [
+      {
+        "id": "country-017-metro-1",
+        "status": "planned",
+        "serves": [
+          "country-017-capital",
+          "country-017-village-1",
+          "country-017-village-2"
+        ]
+      }
+    ],
+    "airRoutes": [
+      {
+        "id": "country-017-air-route-1",
+        "status": "regional",
+        "airportId": "country-017-airport-1"
+      }
+    ],
+    "shipLanes": [
+      {
+        "id": "country-017-ship-lane-1",
+        "status": "regional",
+        "portId": "country-017-port-1"
+      }
+    ],
+    "submarineZones": [
+      {
+        "id": "country-017-submarine-zone-1",
+        "status": "charted",
+        "depthM": 89.7
+      }
+    ]
+  },
+  "missions": [
+    {
+      "id": "country-017-intro",
+      "title": "Welcome to Ilvarra",
+      "status": "template",
+      "placeholder": true
+    },
+    {
+      "id": "country-017-route",
+      "title": "Cross-Region Route",
+      "status": "template",
+      "placeholder": true
+    }
+  ],
+  "systems": {
+    "weatherProfile": "template",
+    "peopleProfile": "people-ilvarra",
+    "trafficProfile": "template"
+  },
+  "nextSteps": [
+    "replace placeholder settlements",
+    "author terrain landmarks",
+    "author missions and NPC schedules"
+  ]
+}

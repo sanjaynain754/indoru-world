@@ -1,0 +1,441 @@
+{
+  "schemaVersion": 1,
+  "countryId": "country-064",
+  "name": "Amskara",
+  "status": "playable",
+  "completion": "template",
+  "templatePolicy": {
+    "generated": true,
+    "requiresReview": true,
+    "placeholderContentAllowed": true
+  },
+  "terrain": {
+    "asset": "data/country-content/amskara/terrain.json",
+    "mapKey": "country/amskara",
+    "biome": "highland-basin"
+  },
+  "spawn": {
+    "x": 0.0,
+    "y": 1.2,
+    "z": 0.0,
+    "headingRad": 0.0
+  },
+  "settlements": [
+    {
+      "id": "country-064-capital",
+      "name": "Amskara Central",
+      "type": "capital",
+      "populationTier": "large",
+      "x": 0.0,
+      "y": -1.0,
+      "z": 0.0
+    },
+    {
+      "id": "country-064-village-1",
+      "name": "Amskara Village 1",
+      "type": "village",
+      "populationTier": "medium",
+      "x": 6.54,
+      "y": -1.0,
+      "z": 95.23
+    },
+    {
+      "id": "country-064-village-2",
+      "name": "Amskara Village 2",
+      "type": "village",
+      "populationTier": "small",
+      "x": 87.23,
+      "y": -1.0,
+      "z": -64.13
+    },
+    {
+      "id": "country-064-village-3",
+      "name": "Amskara Village 3",
+      "type": "village",
+      "populationTier": "small",
+      "x": -44.95,
+      "y": -1.0,
+      "z": -38.21
+    }
+  ],
+  "infrastructure": {
+    "rivers": [
+      {
+        "id": "country-064-river-1",
+        "name": "Amskara River 1",
+        "widthM": 6.0,
+        "points": [
+          {
+            "x": -128.0,
+            "y": -1.5,
+            "z": -35.75
+          },
+          {
+            "x": -78.82,
+            "y": -1.5,
+            "z": -40.75
+          },
+          {
+            "x": -42.61,
+            "y": -1.5,
+            "z": -38.61
+          },
+          {
+            "x": -1.49,
+            "y": -1.5,
+            "z": -39.17
+          },
+          {
+            "x": 37.1,
+            "y": -1.5,
+            "z": -38.35
+          },
+          {
+            "x": 92.54,
+            "y": -1.5,
+            "z": -46.79
+          },
+          {
+            "x": 128.0,
+            "y": -1.5,
+            "z": -44.24
+          }
+        ]
+      },
+      {
+        "id": "country-064-river-2",
+        "name": "Amskara River 2",
+        "widthM": 17.0,
+        "points": [
+          {
+            "x": 117.43,
+            "y": -1.5,
+            "z": -128.0
+          },
+          {
+            "x": 113.86,
+            "y": -1.5,
+            "z": -84.54
+          },
+          {
+            "x": 109.7,
+            "y": -1.5,
+            "z": -40.74
+          },
+          {
+            "x": 110.69,
+            "y": -0.48,
+            "z": 0.21
+          },
+          {
+            "x": 97.01,
+            "y": 3.85,
+            "z": 49.24
+          },
+          {
+            "x": 111.7,
+            "y": 10.62,
+            "z": 82.66
+          },
+          {
+            "x": 104.72,
+            "y": 15.73,
+            "z": 128.0
+          }
+        ]
+      }
+    ],
+    "lakes": [
+      {
+        "id": "country-064-lake-1",
+        "name": "Amskara Lake 1",
+        "x": -73.21,
+        "y": 0.38,
+        "z": 56.91,
+        "radiusM": 12.2,
+        "type": "reservoir"
+      },
+      {
+        "id": "country-064-lake-2",
+        "name": "Amskara Lake 2",
+        "x": -19.13,
+        "y": 0.38,
+        "z": -16.74,
+        "radiusM": 10.2,
+        "type": "natural"
+      }
+    ],
+    "mountains": [
+      {
+        "id": "country-064-mountain-1",
+        "name": "Amskara Highland 1",
+        "x": -3.04,
+        "y": 0.37,
+        "z": -57.34,
+        "heightM": 20.57,
+        "radiusM": 29.5
+      },
+      {
+        "id": "country-064-mountain-2",
+        "name": "Amskara Highland 2",
+        "x": 24.06,
+        "y": 0.37,
+        "z": 39.68,
+        "heightM": 29.45,
+        "radiusM": 15.6
+      }
+    ],
+    "settlements": [
+      {
+        "id": "country-064-capital",
+        "name": "Amskara Central",
+        "type": "capital",
+        "populationTier": "large",
+        "x": 0.0,
+        "y": -1.0,
+        "z": 0.0
+      },
+      {
+        "id": "country-064-village-1",
+        "name": "Amskara Village 1",
+        "type": "village",
+        "populationTier": "medium",
+        "x": 6.54,
+        "y": -1.0,
+        "z": 95.23
+      },
+      {
+        "id": "country-064-village-2",
+        "name": "Amskara Village 2",
+        "type": "village",
+        "populationTier": "small",
+        "x": 87.23,
+        "y": -1.0,
+        "z": -64.13
+      },
+      {
+        "id": "country-064-village-3",
+        "name": "Amskara Village 3",
+        "type": "village",
+        "populationTier": "small",
+        "x": -44.95,
+        "y": -1.0,
+        "z": -38.21
+      }
+    ],
+    "roads": [
+      {
+        "id": "country-064-road-1",
+        "class": "highway",
+        "points": [
+          {
+            "x": 0.0,
+            "y": -1.5,
+            "z": 0.0
+          },
+          {
+            "x": 5.93,
+            "y": -1.5,
+            "z": 21.44
+          },
+          {
+            "x": -1.16,
+            "y": -1.5,
+            "z": 50.05
+          },
+          {
+            "x": 5.15,
+            "y": -1.5,
+            "z": 71.29
+          },
+          {
+            "x": 6.54,
+            "y": -1.5,
+            "z": 95.23
+          }
+        ]
+      },
+      {
+        "id": "country-064-road-2",
+        "class": "regional",
+        "points": [
+          {
+            "x": 0.0,
+            "y": -1.5,
+            "z": 0.0
+          },
+          {
+            "x": 11.79,
+            "y": -1.5,
+            "z": -10.53
+          },
+          {
+            "x": 52.36,
+            "y": -1.5,
+            "z": -36.88
+          },
+          {
+            "x": 76.87,
+            "y": -1.5,
+            "z": -54.39
+          },
+          {
+            "x": 87.23,
+            "y": -1.5,
+            "z": -64.13
+          }
+        ]
+      },
+      {
+        "id": "country-064-road-3",
+        "class": "regional",
+        "points": [
+          {
+            "x": 0.0,
+            "y": -1.5,
+            "z": 0.0
+          },
+          {
+            "x": -5.38,
+            "y": -1.5,
+            "z": -12.78
+          },
+          {
+            "x": -13.9,
+            "y": -1.5,
+            "z": -23.82
+          },
+          {
+            "x": -33.1,
+            "y": -1.5,
+            "z": -28.99
+          },
+          {
+            "x": -44.95,
+            "y": -1.5,
+            "z": -38.21
+          }
+        ]
+      }
+    ],
+    "bridges": [
+      {
+        "id": "country-064-bridge-1",
+        "name": "Amskara Crossing 1",
+        "roadId": "country-064-road-1",
+        "riverId": "country-064-river-1",
+        "x": -1.49,
+        "y": -1.15,
+        "z": -39.17,
+        "lengthM": 18.0
+      },
+      {
+        "id": "country-064-bridge-2",
+        "name": "Amskara Crossing 2",
+        "roadId": "country-064-road-2",
+        "riverId": "country-064-river-2",
+        "x": 110.69,
+        "y": -0.13,
+        "z": 0.21,
+        "lengthM": 29.0
+      }
+    ],
+    "railways": [
+      {
+        "id": "country-064-rail-1",
+        "class": "intercity",
+        "points": [
+          {
+            "x": 0.0,
+            "y": -1.5,
+            "z": 0.0
+          },
+          {
+            "x": -10.47,
+            "y": -1.5,
+            "z": -6.83
+          },
+          {
+            "x": -25.85,
+            "y": -1.5,
+            "z": -10.95
+          },
+          {
+            "x": -15.88,
+            "y": -1.5,
+            "z": -29.03
+          },
+          {
+            "x": -39.63,
+            "y": -1.5,
+            "z": -28.55
+          },
+          {
+            "x": -44.95,
+            "y": -1.5,
+            "z": -38.21
+          }
+        ]
+      }
+    ],
+    "airports": [],
+    "ports": [],
+    "militaryBases": [],
+    "metroLines": [
+      {
+        "id": "country-064-metro-1",
+        "status": "planned",
+        "serves": [
+          "country-064-capital",
+          "country-064-village-1",
+          "country-064-village-2"
+        ]
+      }
+    ],
+    "airRoutes": [
+      {
+        "id": "country-064-air-route-1",
+        "status": "regional",
+        "airportId": null
+      }
+    ],
+    "shipLanes": [
+      {
+        "id": "country-064-ship-lane-1",
+        "status": "regional",
+        "portId": null
+      }
+    ],
+    "submarineZones": [
+      {
+        "id": "country-064-submarine-zone-1",
+        "status": "charted",
+        "depthM": 77.2
+      }
+    ]
+  },
+  "missions": [
+    {
+      "id": "country-064-intro",
+      "title": "Welcome to Amskara",
+      "status": "template",
+      "placeholder": true
+    },
+    {
+      "id": "country-064-route",
+      "title": "Cross-Region Route",
+      "status": "template",
+      "placeholder": true
+    }
+  ],
+  "systems": {
+    "weatherProfile": "template",
+    "peopleProfile": "people-amskara",
+    "trafficProfile": "template"
+  },
+  "nextSteps": [
+    "replace placeholder settlements",
+    "author terrain landmarks",
+    "author missions and NPC schedules"
+  ]
+}

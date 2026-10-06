@@ -1,0 +1,625 @@
+{
+  "schemaVersion": 1,
+  "countryId": "country-089",
+  "name": "Yandessa",
+  "status": "playable",
+  "completion": "template",
+  "templatePolicy": {
+    "generated": true,
+    "requiresReview": true,
+    "placeholderContentAllowed": true
+  },
+  "terrain": {
+    "asset": "data/country-content/yandessa/terrain.json",
+    "mapKey": "country/yandessa",
+    "biome": "rainforest-wetland"
+  },
+  "spawn": {
+    "x": 0.0,
+    "y": 1.2,
+    "z": 0.0,
+    "headingRad": 0.0
+  },
+  "settlements": [
+    {
+      "id": "country-089-capital",
+      "name": "Yandessa Central",
+      "type": "capital",
+      "populationTier": "large",
+      "x": 0.0,
+      "y": 13.8,
+      "z": 0.0
+    },
+    {
+      "id": "country-089-village-1",
+      "name": "Yandessa Village 1",
+      "type": "village",
+      "populationTier": "medium",
+      "x": -78.99,
+      "y": 5.85,
+      "z": 106.16
+    },
+    {
+      "id": "country-089-village-2",
+      "name": "Yandessa Village 2",
+      "type": "village",
+      "populationTier": "small",
+      "x": 24.35,
+      "y": 17.54,
+      "z": -104.16
+    },
+    {
+      "id": "country-089-village-3",
+      "name": "Yandessa Village 3",
+      "type": "village",
+      "populationTier": "small",
+      "x": -52.73,
+      "y": 11.26,
+      "z": 43.09
+    },
+    {
+      "id": "country-089-village-4",
+      "name": "Yandessa Village 4",
+      "type": "village",
+      "populationTier": "medium",
+      "x": 34.18,
+      "y": 16.52,
+      "z": -78.84
+    },
+    {
+      "id": "country-089-village-5",
+      "name": "Yandessa Village 5",
+      "type": "village",
+      "populationTier": "small",
+      "x": -72.77,
+      "y": 11.01,
+      "z": 30.81
+    },
+    {
+      "id": "country-089-village-6",
+      "name": "Yandessa Village 6",
+      "type": "village",
+      "populationTier": "small",
+      "x": -2.68,
+      "y": 5.74,
+      "z": 83.73
+    }
+  ],
+  "infrastructure": {
+    "rivers": [
+      {
+        "id": "country-089-river-1",
+        "name": "Yandessa River 1",
+        "widthM": 18.7,
+        "points": [
+          {
+            "x": -128.0,
+            "y": 6.09,
+            "z": 29.57
+          },
+          {
+            "x": -90.24,
+            "y": 12.16,
+            "z": 7.66
+          },
+          {
+            "x": -49.11,
+            "y": 15.49,
+            "z": -16.1
+          },
+          {
+            "x": 4.41,
+            "y": 16.74,
+            "z": -46.68
+          },
+          {
+            "x": 44.74,
+            "y": 13.84,
+            "z": -70.0
+          },
+          {
+            "x": 75.74,
+            "y": 11.66,
+            "z": -88.19
+          },
+          {
+            "x": 128.0,
+            "y": 6.43,
+            "z": -118.08
+          }
+        ]
+      },
+      {
+        "id": "country-089-river-2",
+        "name": "Yandessa River 2",
+        "widthM": 16.0,
+        "points": [
+          {
+            "x": 104.17,
+            "y": 8.59,
+            "z": -128.0
+          },
+          {
+            "x": 93.04,
+            "y": 8.78,
+            "z": -87.21
+          },
+          {
+            "x": 76.22,
+            "y": 8.29,
+            "z": -43.29
+          },
+          {
+            "x": 55.28,
+            "y": 7.69,
+            "z": 2.89
+          },
+          {
+            "x": 45.18,
+            "y": 2.98,
+            "z": 43.12
+          },
+          {
+            "x": 30.65,
+            "y": 2.69,
+            "z": 85.78
+          },
+          {
+            "x": 16.91,
+            "y": 2.74,
+            "z": 128.0
+          }
+        ]
+      }
+    ],
+    "lakes": [
+      {
+        "id": "country-089-lake-1",
+        "name": "Yandessa Lake 1",
+        "x": 34.49,
+        "y": 0.44,
+        "z": 38.62,
+        "radiusM": 17.4,
+        "type": "natural"
+      },
+      {
+        "id": "country-089-lake-2",
+        "name": "Yandessa Lake 2",
+        "x": -59.37,
+        "y": 0.44,
+        "z": -2.11,
+        "radiusM": 9.1,
+        "type": "natural"
+      }
+    ],
+    "mountains": [
+      {
+        "id": "country-089-mountain-1",
+        "name": "Yandessa Highland 1",
+        "x": 3.06,
+        "y": 8.12,
+        "z": 55.6,
+        "heightM": 31.62,
+        "radiusM": 34.3
+      },
+      {
+        "id": "country-089-mountain-2",
+        "name": "Yandessa Highland 2",
+        "x": 5.34,
+        "y": 13.3,
+        "z": -3.57,
+        "heightM": 53.09,
+        "radiusM": 42.1
+      },
+      {
+        "id": "country-089-mountain-3",
+        "name": "Yandessa Highland 3",
+        "x": -1.92,
+        "y": 18.55,
+        "z": -85.5,
+        "heightM": 41.04,
+        "radiusM": 38.3
+      },
+      {
+        "id": "country-089-mountain-4",
+        "name": "Yandessa Highland 4",
+        "x": 48.58,
+        "y": 9.57,
+        "z": -18.14,
+        "heightM": 28.51,
+        "radiusM": 41.3
+      }
+    ],
+    "settlements": [
+      {
+        "id": "country-089-capital",
+        "name": "Yandessa Central",
+        "type": "capital",
+        "populationTier": "large",
+        "x": 0.0,
+        "y": 13.8,
+        "z": 0.0
+      },
+      {
+        "id": "country-089-village-1",
+        "name": "Yandessa Village 1",
+        "type": "village",
+        "populationTier": "medium",
+        "x": -78.99,
+        "y": 5.85,
+        "z": 106.16
+      },
+      {
+        "id": "country-089-village-2",
+        "name": "Yandessa Village 2",
+        "type": "village",
+        "populationTier": "small",
+        "x": 24.35,
+        "y": 17.54,
+        "z": -104.16
+      },
+      {
+        "id": "country-089-village-3",
+        "name": "Yandessa Village 3",
+        "type": "village",
+        "populationTier": "small",
+        "x": -52.73,
+        "y": 11.26,
+        "z": 43.09
+      },
+      {
+        "id": "country-089-village-4",
+        "name": "Yandessa Village 4",
+        "type": "village",
+        "populationTier": "medium",
+        "x": 34.18,
+        "y": 16.52,
+        "z": -78.84
+      },
+      {
+        "id": "country-089-village-5",
+        "name": "Yandessa Village 5",
+        "type": "village",
+        "populationTier": "small",
+        "x": -72.77,
+        "y": 11.01,
+        "z": 30.81
+      },
+      {
+        "id": "country-089-village-6",
+        "name": "Yandessa Village 6",
+        "type": "village",
+        "populationTier": "small",
+        "x": -2.68,
+        "y": 5.74,
+        "z": 83.73
+      }
+    ],
+    "roads": [
+      {
+        "id": "country-089-road-1",
+        "class": "highway",
+        "points": [
+          {
+            "x": 0.0,
+            "y": 13.3,
+            "z": 0.0
+          },
+          {
+            "x": -31.02,
+            "y": 11.94,
+            "z": 32.74
+          },
+          {
+            "x": -34.06,
+            "y": 10.43,
+            "z": 50.09
+          },
+          {
+            "x": -65.52,
+            "y": 8.01,
+            "z": 83.07
+          },
+          {
+            "x": -78.99,
+            "y": 5.35,
+            "z": 106.16
+          }
+        ]
+      },
+      {
+        "id": "country-089-road-2",
+        "class": "regional",
+        "points": [
+          {
+            "x": 0.0,
+            "y": 13.3,
+            "z": 0.0
+          },
+          {
+            "x": -0.34,
+            "y": 14.66,
+            "z": -22.51
+          },
+          {
+            "x": 9.67,
+            "y": 15.79,
+            "z": -50.7
+          },
+          {
+            "x": 18.92,
+            "y": 17.33,
+            "z": -78.48
+          },
+          {
+            "x": 24.35,
+            "y": 17.04,
+            "z": -104.16
+          }
+        ]
+      },
+      {
+        "id": "country-089-road-3",
+        "class": "regional",
+        "points": [
+          {
+            "x": 0.0,
+            "y": 13.3,
+            "z": 0.0
+          },
+          {
+            "x": -13.97,
+            "y": 12.79,
+            "z": 11.2
+          },
+          {
+            "x": -28.43,
+            "y": 13.29,
+            "z": 22.68
+          },
+          {
+            "x": -29.26,
+            "y": 11.94,
+            "z": 26.66
+          },
+          {
+            "x": -52.73,
+            "y": 10.76,
+            "z": 43.09
+          }
+        ]
+      },
+      {
+        "id": "country-089-road-4",
+        "class": "regional",
+        "points": [
+          {
+            "x": 0.0,
+            "y": 13.3,
+            "z": 0.0
+          },
+          {
+            "x": 16.59,
+            "y": 14.76,
+            "z": -24.13
+          },
+          {
+            "x": 25.33,
+            "y": 14.48,
+            "z": -43.95
+          },
+          {
+            "x": 23.55,
+            "y": 16.61,
+            "z": -57.98
+          },
+          {
+            "x": 34.18,
+            "y": 16.02,
+            "z": -78.84
+          }
+        ]
+      },
+      {
+        "id": "country-089-road-5",
+        "class": "regional",
+        "points": [
+          {
+            "x": 0.0,
+            "y": 13.3,
+            "z": 0.0
+          },
+          {
+            "x": -28.57,
+            "y": 13.29,
+            "z": 13.41
+          },
+          {
+            "x": -33.65,
+            "y": 13.29,
+            "z": 13.9
+          },
+          {
+            "x": -51.98,
+            "y": 13.19,
+            "z": 21.68
+          },
+          {
+            "x": -72.77,
+            "y": 10.51,
+            "z": 30.81
+          }
+        ]
+      },
+      {
+        "id": "country-089-road-6",
+        "class": "regional",
+        "points": [
+          {
+            "x": 0.0,
+            "y": 13.3,
+            "z": 0.0
+          },
+          {
+            "x": -0.38,
+            "y": 11.68,
+            "z": 20.77
+          },
+          {
+            "x": -13.08,
+            "y": 9.5,
+            "z": 48.32
+          },
+          {
+            "x": -2.82,
+            "y": 6.51,
+            "z": 63.24
+          },
+          {
+            "x": -2.68,
+            "y": 5.24,
+            "z": 83.73
+          }
+        ]
+      }
+    ],
+    "bridges": [
+      {
+        "id": "country-089-bridge-1",
+        "name": "Yandessa Crossing 1",
+        "roadId": "country-089-road-1",
+        "riverId": "country-089-river-1",
+        "x": 4.41,
+        "y": 17.09,
+        "z": -46.68,
+        "lengthM": 30.7
+      },
+      {
+        "id": "country-089-bridge-2",
+        "name": "Yandessa Crossing 2",
+        "roadId": "country-089-road-2",
+        "riverId": "country-089-river-2",
+        "x": 55.28,
+        "y": 8.040000000000001,
+        "z": 2.89,
+        "lengthM": 28.0
+      }
+    ],
+    "railways": [
+      {
+        "id": "country-089-rail-1",
+        "class": "intercity",
+        "points": [
+          {
+            "x": 0.0,
+            "y": 13.3,
+            "z": 0.0
+          },
+          {
+            "x": 10.1,
+            "y": 10.04,
+            "z": 10.9
+          },
+          {
+            "x": -6.38,
+            "y": 9.9,
+            "z": 36.41
+          },
+          {
+            "x": -11.48,
+            "y": 9.5,
+            "z": 55.67
+          },
+          {
+            "x": -12.16,
+            "y": 6.37,
+            "z": 72.49
+          },
+          {
+            "x": -2.68,
+            "y": 5.24,
+            "z": 83.73
+          }
+        ]
+      }
+    ],
+    "airports": [
+      {
+        "id": "country-089-airport-1",
+        "name": "Yandessa International",
+        "size": "large",
+        "x": -18.34,
+        "y": 11.41,
+        "z": 27.54,
+        "runwayLengthM": 1800
+      }
+    ],
+    "ports": [
+      {
+        "id": "country-089-port-1",
+        "name": "Yandessa Maritime Port",
+        "x": -115.12,
+        "y": 0.73,
+        "z": 80.83,
+        "capacity": "small"
+      }
+    ],
+    "militaryBases": [],
+    "metroLines": [
+      {
+        "id": "country-089-metro-1",
+        "status": "planned",
+        "serves": [
+          "country-089-capital",
+          "country-089-village-1",
+          "country-089-village-2"
+        ]
+      }
+    ],
+    "airRoutes": [
+      {
+        "id": "country-089-air-route-1",
+        "status": "regional",
+        "airportId": "country-089-airport-1"
+      }
+    ],
+    "shipLanes": [
+      {
+        "id": "country-089-ship-lane-1",
+        "status": "regional",
+        "portId": "country-089-port-1"
+      }
+    ],
+    "submarineZones": [
+      {
+        "id": "country-089-submarine-zone-1",
+        "status": "charted",
+        "depthM": 157.9
+      }
+    ]
+  },
+  "missions": [
+    {
+      "id": "country-089-intro",
+      "title": "Welcome to Yandessa",
+      "status": "template",
+      "placeholder": true
+    },
+    {
+      "id": "country-089-route",
+      "title": "Cross-Region Route",
+      "status": "template",
+      "placeholder": true
+    }
+  ],
+  "systems": {
+    "weatherProfile": "template",
+    "peopleProfile": "people-yandessa",
+    "trafficProfile": "template"
+  },
+  "nextSteps": [
+    "replace placeholder settlements",
+    "author terrain landmarks",
+    "author missions and NPC schedules"
+  ]
+}

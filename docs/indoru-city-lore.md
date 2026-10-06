@@ -2,7 +2,7 @@
 
 ## Scope
 
-यह document केवल central playable country **Indoru** के शहरों के लिए है। इसमें 6 major cities और 12 representative normal cities का geography, urban layout, history, economy, culture और gameplay identity दी गई है। सभी cities Indoru country के अंदर हैं और Indoru का national flag use करती हैं। Coming Soon countries और उनके settlements इस document का हिस्सा नहीं हैं।
+यह document केवल central playable country **Indoru** के शहरों के लिए है। इसमें 6 major cities और 12 representative normal cities का geography, urban layout, history, economy, culture और gameplay identity दी गई है। सभी cities Indoru country के अंदर हैं और Indoru का national flag use करती हैं। अन्य playable countries और उनके settlements इस focused lore document का हिस्सा नहीं हैं।
 
 ## Indoru geographical logic
 

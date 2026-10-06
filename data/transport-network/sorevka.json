@@ -1,0 +1,241 @@
+{
+  "schemaVersion": 1,
+  "countryId": "country-036",
+  "mapKey": "country/sorevka",
+  "seed": 16155431913704903780,
+  "sourceTerrain": "data/country-content/sorevka/terrain.json",
+  "roadNetwork": {
+    "segments": [
+      {
+        "roadId": "country-036-road-1",
+        "class": "arterial",
+        "lanes": 4,
+        "speedLimitKph": 90,
+        "access": {
+          "vehicles": true,
+          "pedestrians": true,
+          "emergency": true
+        },
+        "points": [
+          {
+            "x": 0.0,
+            "y": 10.83,
+            "z": 0.0
+          },
+          {
+            "x": -6.32,
+            "y": 7.82,
+            "z": -17.15
+          },
+          {
+            "x": -5.32,
+            "y": 4.99,
+            "z": -38.33
+          },
+          {
+            "x": -11.41,
+            "y": -0.48,
+            "z": -55.61
+          },
+          {
+            "x": -28.36,
+            "y": -1.5,
+            "z": -66.92
+          }
+        ],
+        "connectedSettlementIds": [
+          "country-036-capital",
+          "country-036-village-1"
+        ]
+      },
+      {
+        "roadId": "country-036-road-2",
+        "class": "collector",
+        "lanes": 2,
+        "speedLimitKph": 55,
+        "access": {
+          "vehicles": true,
+          "pedestrians": true,
+          "emergency": true
+        },
+        "points": [
+          {
+            "x": 0.0,
+            "y": 10.83,
+            "z": 0.0
+          },
+          {
+            "x": -4.06,
+            "y": 13.76,
+            "z": 12.43
+          },
+          {
+            "x": 3.85,
+            "y": 13.76,
+            "z": 18.27
+          },
+          {
+            "x": 9.04,
+            "y": 19.11,
+            "z": 25.61
+          },
+          {
+            "x": 23.11,
+            "y": 19.11,
+            "z": 28.07
+          }
+        ],
+        "connectedSettlementIds": [
+          "country-036-capital",
+          "country-036-village-2"
+        ]
+      }
+    ],
+    "bridges": [
+      {
+        "bridgeId": "country-036-bridge-1",
+        "roadId": "country-036-road-1",
+        "riverId": "country-036-river-1",
+        "lengthM": 32.8,
+        "loadClass": "heavy-vehicle",
+        "supportsTrain": false,
+        "x": 2.48,
+        "y": 8.17,
+        "z": -12.66
+      }
+    ]
+  },
+  "railNetwork": {
+    "lines": [
+      {
+        "lineId": "country-036-rail-1",
+        "mode": "intercity-rail",
+        "electrification": "future-ready",
+        "trackGaugeMm": 1435,
+        "maxSpeedKph": 180,
+        "points": [
+          {
+            "x": 0.0,
+            "y": 10.83,
+            "z": 0.0
+          },
+          {
+            "x": 11.69,
+            "y": 14.24,
+            "z": 1.72
+          },
+          {
+            "x": 0.95,
+            "y": 13.76,
+            "z": 15.79
+          },
+          {
+            "x": 20.15,
+            "y": 16.88,
+            "z": 13.38
+          },
+          {
+            "x": 27.29,
+            "y": 19.21,
+            "z": 17.61
+          },
+          {
+            "x": 23.11,
+            "y": 19.11,
+            "z": 28.07
+          }
+        ]
+      }
+    ],
+    "stations": [
+      {
+        "stationId": "country-036-country-036-capital-station",
+        "settlementId": "country-036-capital",
+        "name": "Sorevka Central Central Station",
+        "service": "intercity",
+        "x": 0.0,
+        "y": 11.33,
+        "z": 0.0
+      },
+      {
+        "stationId": "country-036-country-036-village-1-station",
+        "settlementId": "country-036-village-1",
+        "name": "Sorevka Village 1 Central Station",
+        "service": "intercity",
+        "x": -28.36,
+        "y": -1.0,
+        "z": -66.92
+      },
+      {
+        "stationId": "country-036-country-036-village-2-station",
+        "settlementId": "country-036-village-2",
+        "name": "Sorevka Village 2 Central Station",
+        "service": "intercity",
+        "x": 23.11,
+        "y": 19.61,
+        "z": 28.07
+      }
+    ],
+    "trainService": {
+      "enabled": true,
+      "rollingStockProfile": "regional-electric-template"
+    }
+  },
+  "riverNetwork": {
+    "rivers": [
+      {
+        "riverId": "country-036-river-1",
+        "navigable": true,
+        "widthM": 20.8,
+        "transportMode": "river-freight",
+        "points": [
+          {
+            "x": -128.0,
+            "y": -1.5,
+            "z": 97.05
+          },
+          {
+            "x": -95.21,
+            "y": -0.89,
+            "z": 66.37
+          },
+          {
+            "x": -40.13,
+            "y": 2.01,
+            "z": 23.42
+          },
+          {
+            "x": 2.48,
+            "y": 7.82,
+            "z": -12.66
+          },
+          {
+            "x": 49.88,
+            "y": 11.29,
+            "z": -51.38
+          },
+          {
+            "x": 89.0,
+            "y": 10.24,
+            "z": -85.54
+          },
+          {
+            "x": 128.0,
+            "y": 5.86,
+            "z": -119.64
+          }
+        ]
+      }
+    ],
+    "riverBridges": [
+      "country-036-bridge-1"
+    ]
+  },
+  "simulationHooks": {
+    "cityInfrastructure": true,
+    "residentialAccess": true,
+    "trafficSimulation": true,
+    "massTransitSimulation": true,
+    "waterTrafficSimulation": true
+  }
+}

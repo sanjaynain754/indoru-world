@@ -1,0 +1,549 @@
+{
+  "schemaVersion": 1,
+  "countryId": "country-085",
+  "name": "Navuru",
+  "status": "playable",
+  "completion": "template",
+  "templatePolicy": {
+    "generated": true,
+    "requiresReview": true,
+    "placeholderContentAllowed": true
+  },
+  "terrain": {
+    "asset": "data/country-content/navuru/terrain.json",
+    "mapKey": "country/navuru",
+    "biome": "rainforest-wetland"
+  },
+  "spawn": {
+    "x": 0.0,
+    "y": 1.2,
+    "z": 0.0,
+    "headingRad": 0.0
+  },
+  "settlements": [
+    {
+      "id": "country-085-capital",
+      "name": "Navuru Central",
+      "type": "capital",
+      "populationTier": "large",
+      "x": 0.0,
+      "y": -1.0,
+      "z": 0.0
+    },
+    {
+      "id": "country-085-village-1",
+      "name": "Navuru Village 1",
+      "type": "village",
+      "populationTier": "medium",
+      "x": -56.21,
+      "y": -1.0,
+      "z": 60.01
+    },
+    {
+      "id": "country-085-village-2",
+      "name": "Navuru Village 2",
+      "type": "village",
+      "populationTier": "small",
+      "x": 15.05,
+      "y": -1.0,
+      "z": 24.94
+    },
+    {
+      "id": "country-085-village-3",
+      "name": "Navuru Village 3",
+      "type": "village",
+      "populationTier": "small",
+      "x": -36.72,
+      "y": -1.0,
+      "z": -102.72
+    },
+    {
+      "id": "country-085-village-4",
+      "name": "Navuru Village 4",
+      "type": "village",
+      "populationTier": "medium",
+      "x": 60.55,
+      "y": -1.0,
+      "z": 10.31
+    },
+    {
+      "id": "country-085-village-5",
+      "name": "Navuru Village 5",
+      "type": "village",
+      "populationTier": "small",
+      "x": 73.42,
+      "y": 7.88,
+      "z": -85.2
+    }
+  ],
+  "infrastructure": {
+    "rivers": [
+      {
+        "id": "country-085-river-1",
+        "name": "Navuru River 1",
+        "widthM": 10.8,
+        "points": [
+          {
+            "x": -128.0,
+            "y": -1.5,
+            "z": -51.08
+          },
+          {
+            "x": -90.25,
+            "y": -1.5,
+            "z": -37.28
+          },
+          {
+            "x": -35.86,
+            "y": -1.5,
+            "z": -32.63
+          },
+          {
+            "x": -9.18,
+            "y": -1.5,
+            "z": -12.74
+          },
+          {
+            "x": 54.12,
+            "y": -1.5,
+            "z": -12.99
+          },
+          {
+            "x": 86.6,
+            "y": 1.47,
+            "z": 3.71
+          },
+          {
+            "x": 128.0,
+            "y": 4.97,
+            "z": 15.5
+          }
+        ]
+      },
+      {
+        "id": "country-085-river-2",
+        "name": "Navuru River 2",
+        "widthM": 7.3,
+        "points": [
+          {
+            "x": 94.69,
+            "y": 13.94,
+            "z": -128.0
+          },
+          {
+            "x": 80.77,
+            "y": 9.13,
+            "z": -88.14
+          },
+          {
+            "x": 53.2,
+            "y": 0.38,
+            "z": -40.77
+          },
+          {
+            "x": 38.66,
+            "y": -1.5,
+            "z": -0.57
+          },
+          {
+            "x": 19.34,
+            "y": -1.5,
+            "z": 42.26
+          },
+          {
+            "x": -5.74,
+            "y": -1.5,
+            "z": 88.26
+          },
+          {
+            "x": -19.44,
+            "y": -1.5,
+            "z": 128.0
+          }
+        ]
+      }
+    ],
+    "lakes": [
+      {
+        "id": "country-085-lake-1",
+        "name": "Navuru Lake 1",
+        "x": 48.32,
+        "y": 0.44,
+        "z": -27.88,
+        "radiusM": 23.9,
+        "type": "natural"
+      }
+    ],
+    "mountains": [
+      {
+        "id": "country-085-mountain-1",
+        "name": "Navuru Highland 1",
+        "x": -82.42,
+        "y": 0.43,
+        "z": -24.58,
+        "heightM": 46.0,
+        "radiusM": 14.3
+      }
+    ],
+    "settlements": [
+      {
+        "id": "country-085-capital",
+        "name": "Navuru Central",
+        "type": "capital",
+        "populationTier": "large",
+        "x": 0.0,
+        "y": -1.0,
+        "z": 0.0
+      },
+      {
+        "id": "country-085-village-1",
+        "name": "Navuru Village 1",
+        "type": "village",
+        "populationTier": "medium",
+        "x": -56.21,
+        "y": -1.0,
+        "z": 60.01
+      },
+      {
+        "id": "country-085-village-2",
+        "name": "Navuru Village 2",
+        "type": "village",
+        "populationTier": "small",
+        "x": 15.05,
+        "y": -1.0,
+        "z": 24.94
+      },
+      {
+        "id": "country-085-village-3",
+        "name": "Navuru Village 3",
+        "type": "village",
+        "populationTier": "small",
+        "x": -36.72,
+        "y": -1.0,
+        "z": -102.72
+      },
+      {
+        "id": "country-085-village-4",
+        "name": "Navuru Village 4",
+        "type": "village",
+        "populationTier": "medium",
+        "x": 60.55,
+        "y": -1.0,
+        "z": 10.31
+      },
+      {
+        "id": "country-085-village-5",
+        "name": "Navuru Village 5",
+        "type": "village",
+        "populationTier": "small",
+        "x": 73.42,
+        "y": 7.88,
+        "z": -85.2
+      }
+    ],
+    "roads": [
+      {
+        "id": "country-085-road-1",
+        "class": "highway",
+        "points": [
+          {
+            "x": 0.0,
+            "y": -1.5,
+            "z": 0.0
+          },
+          {
+            "x": -15.39,
+            "y": -1.5,
+            "z": 15.74
+          },
+          {
+            "x": -21.25,
+            "y": -1.5,
+            "z": 26.23
+          },
+          {
+            "x": -47.1,
+            "y": -1.5,
+            "z": 47.72
+          },
+          {
+            "x": -56.21,
+            "y": -1.5,
+            "z": 60.01
+          }
+        ]
+      },
+      {
+        "id": "country-085-road-2",
+        "class": "regional",
+        "points": [
+          {
+            "x": 0.0,
+            "y": -1.5,
+            "z": 0.0
+          },
+          {
+            "x": 2.89,
+            "y": -1.5,
+            "z": 6.71
+          },
+          {
+            "x": 12.16,
+            "y": -1.5,
+            "z": 9.92
+          },
+          {
+            "x": 1.2,
+            "y": -1.5,
+            "z": 24.25
+          },
+          {
+            "x": 15.05,
+            "y": -1.5,
+            "z": 24.94
+          }
+        ]
+      },
+      {
+        "id": "country-085-road-3",
+        "class": "regional",
+        "points": [
+          {
+            "x": 0.0,
+            "y": -1.5,
+            "z": 0.0
+          },
+          {
+            "x": -17.46,
+            "y": -1.5,
+            "z": -21.13
+          },
+          {
+            "x": -7.65,
+            "y": -1.5,
+            "z": -57.25
+          },
+          {
+            "x": -32.96,
+            "y": -1.5,
+            "z": -74.06
+          },
+          {
+            "x": -36.72,
+            "y": -1.5,
+            "z": -102.72
+          }
+        ]
+      },
+      {
+        "id": "country-085-road-4",
+        "class": "regional",
+        "points": [
+          {
+            "x": 0.0,
+            "y": -1.5,
+            "z": 0.0
+          },
+          {
+            "x": 14.93,
+            "y": -1.5,
+            "z": 2.69
+          },
+          {
+            "x": 36.35,
+            "y": -1.5,
+            "z": 1.81
+          },
+          {
+            "x": 40.91,
+            "y": -1.5,
+            "z": 10.21
+          },
+          {
+            "x": 60.55,
+            "y": -1.5,
+            "z": 10.31
+          }
+        ]
+      },
+      {
+        "id": "country-085-road-5",
+        "class": "regional",
+        "points": [
+          {
+            "x": 0.0,
+            "y": -1.5,
+            "z": 0.0
+          },
+          {
+            "x": 23.19,
+            "y": -1.5,
+            "z": -23.96
+          },
+          {
+            "x": 44.87,
+            "y": 0.38,
+            "z": -47.09
+          },
+          {
+            "x": 48.37,
+            "y": 2.17,
+            "z": -60.22
+          },
+          {
+            "x": 73.42,
+            "y": 7.38,
+            "z": -85.2
+          }
+        ]
+      }
+    ],
+    "bridges": [
+      {
+        "id": "country-085-bridge-1",
+        "name": "Navuru Crossing 1",
+        "roadId": "country-085-road-1",
+        "riverId": "country-085-river-1",
+        "x": -9.18,
+        "y": -1.15,
+        "z": -12.74,
+        "lengthM": 22.8
+      },
+      {
+        "id": "country-085-bridge-2",
+        "name": "Navuru Crossing 2",
+        "roadId": "country-085-road-2",
+        "riverId": "country-085-river-2",
+        "x": 38.66,
+        "y": -1.15,
+        "z": -0.57,
+        "lengthM": 19.3
+      }
+    ],
+    "railways": [
+      {
+        "id": "country-085-rail-1",
+        "class": "intercity",
+        "points": [
+          {
+            "x": 0.0,
+            "y": -1.5,
+            "z": 0.0
+          },
+          {
+            "x": 4.43,
+            "y": -1.5,
+            "z": -11.4
+          },
+          {
+            "x": 39.38,
+            "y": -1.5,
+            "z": -39.58
+          },
+          {
+            "x": 49.11,
+            "y": 0.38,
+            "z": -53.9
+          },
+          {
+            "x": 68.99,
+            "y": 5.69,
+            "z": -73.8
+          },
+          {
+            "x": 73.42,
+            "y": 7.38,
+            "z": -85.2
+          }
+        ]
+      }
+    ],
+    "airports": [
+      {
+        "id": "country-085-airport-1",
+        "name": "Navuru International",
+        "size": "regional",
+        "x": -4.87,
+        "y": -1.3,
+        "z": -35.62,
+        "runwayLengthM": 900
+      }
+    ],
+    "ports": [
+      {
+        "id": "country-085-port-1",
+        "name": "Navuru Maritime Port",
+        "x": -101.1,
+        "y": 0.73,
+        "z": -55.29,
+        "capacity": "small"
+      }
+    ],
+    "militaryBases": [
+      {
+        "id": "country-085-base-1",
+        "name": "Navuru Defense Station",
+        "type": "air-ground",
+        "x": 13.48,
+        "y": -1.2,
+        "z": 68.87
+      }
+    ],
+    "metroLines": [
+      {
+        "id": "country-085-metro-1",
+        "status": "planned",
+        "serves": [
+          "country-085-capital",
+          "country-085-village-1",
+          "country-085-village-2"
+        ]
+      }
+    ],
+    "airRoutes": [
+      {
+        "id": "country-085-air-route-1",
+        "status": "regional",
+        "airportId": "country-085-airport-1"
+      }
+    ],
+    "shipLanes": [
+      {
+        "id": "country-085-ship-lane-1",
+        "status": "regional",
+        "portId": "country-085-port-1"
+      }
+    ],
+    "submarineZones": [
+      {
+        "id": "country-085-submarine-zone-1",
+        "status": "charted",
+        "depthM": 130.5
+      }
+    ]
+  },
+  "missions": [
+    {
+      "id": "country-085-intro",
+      "title": "Welcome to Navuru",
+      "status": "template",
+      "placeholder": true
+    },
+    {
+      "id": "country-085-route",
+      "title": "Cross-Region Route",
+      "status": "template",
+      "placeholder": true
+    }
+  ],
+  "systems": {
+    "weatherProfile": "template",
+    "peopleProfile": "people-navuru",
+    "trafficProfile": "template"
+  },
+  "nextSteps": [
+    "replace placeholder settlements",
+    "author terrain landmarks",
+    "author missions and NPC schedules"
+  ]
+}

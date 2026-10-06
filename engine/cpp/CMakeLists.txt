@@ -14,6 +14,11 @@ add_library(indoru_engine STATIC
     src/wheel_collision.cpp
     src/suspension_car_controller.cpp
     src/tire_model.cpp
+    src/city_building_framework.cpp
+    src/residential_building_placement.cpp
+    src/residential_simulation.cpp
+    src/world_simulation_bridge.cpp
+    src/state_system.cpp
 )
 
 target_include_directories(indoru_engine PUBLIC include)
@@ -46,7 +51,37 @@ target_link_libraries(indoru_avarra_region_content_test PRIVATE indoru_engine)
 target_compile_options(indoru_avarra_region_content_test PRIVATE -Wall -Wextra -Wpedantic -Wconversion -Wshadow)
 add_test(NAME avarra_region_content_smoke COMMAND indoru_avarra_region_content_test)
 
+add_executable(indoru_gravity_suspension_test tests/gravity_suspension_smoke.cpp)
+target_link_libraries(indoru_gravity_suspension_test PRIVATE indoru_engine)
+target_compile_options(indoru_gravity_suspension_test PRIVATE -Wall -Wextra -Wpedantic -Wconversion -Wshadow)
+add_test(NAME gravity_suspension_smoke COMMAND indoru_gravity_suspension_test)
+
 add_executable(indoru_tire_model_test tests/tire_model_smoke.cpp)
 target_link_libraries(indoru_tire_model_test PRIVATE indoru_engine)
 target_compile_options(indoru_tire_model_test PRIVATE -Wall -Wextra -Wpedantic -Wconversion -Wshadow)
 add_test(NAME tire_model_smoke COMMAND indoru_tire_model_test)
+
+add_executable(indoru_city_building_framework_test tests/p1_city_building_framework_smoke.cpp)
+target_link_libraries(indoru_city_building_framework_test PRIVATE indoru_engine)
+target_compile_options(indoru_city_building_framework_test PRIVATE -Wall -Wextra -Wpedantic -Wconversion -Wshadow)
+add_test(NAME city_building_framework_smoke COMMAND indoru_city_building_framework_test)
+
+add_executable(indoru_residential_building_placement_test tests/p1_residential_building_placement_smoke.cpp)
+target_link_libraries(indoru_residential_building_placement_test PRIVATE indoru_engine)
+target_compile_options(indoru_residential_building_placement_test PRIVATE -Wall -Wextra -Wpedantic -Wconversion -Wshadow)
+add_test(NAME residential_building_placement_smoke COMMAND indoru_residential_building_placement_test)
+
+add_executable(indoru_residential_household_test tests/p1_residential_household_smoke.cpp)
+target_link_libraries(indoru_residential_household_test PRIVATE indoru_engine)
+target_compile_options(indoru_residential_household_test PRIVATE -Wall -Wextra -Wpedantic -Wconversion -Wshadow)
+add_test(NAME residential_household_smoke COMMAND indoru_residential_household_test)
+
+add_executable(indoru_world_simulation_bridge_test tests/world_simulation_bridge_smoke.cpp)
+target_link_libraries(indoru_world_simulation_bridge_test PRIVATE indoru_engine)
+target_compile_options(indoru_world_simulation_bridge_test PRIVATE -Wall -Wextra -Wpedantic -Wconversion -Wshadow)
+add_test(NAME world_simulation_bridge_smoke COMMAND indoru_world_simulation_bridge_test)
+
+add_executable(indoru_state_system_test tests/state_system_smoke.cpp)
+target_link_libraries(indoru_state_system_test PRIVATE indoru_engine)
+target_compile_options(indoru_state_system_test PRIVATE -Wall -Wextra -Wpedantic -Wconversion -Wshadow)
+add_test(NAME state_system_smoke COMMAND indoru_state_system_test)

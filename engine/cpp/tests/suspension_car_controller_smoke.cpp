@@ -22,6 +22,10 @@ int main() {
     const indoru::vehicle::SuspensionCarController controller;
     indoru::vehicle::SuspensionCarInput input{};
 
+    const auto settled_step = controller.update(vehicle, rig, input, terrain, 1.0F / 60.0F);
+    assert(settled_step.suspension.total_contact_force.y > 0.0F);
+    assert(settled_step.total_force.y > -1500.0F * 9.81F);
+
     for (int i = 0; i < 10; ++i) {
         controller.update(vehicle, rig, input, terrain, 1.0F / 60.0F);
     }
@@ -53,6 +57,30 @@ int main() {
     assert(std::isfinite(vehicle.pitch_rad));
     assert(std::abs(vehicle.roll_rad) <= 0.35F + 0.001F);
     assert(std::abs(vehicle.pitch_rad) <= 0.25F + 0.001F);
+
+    indoru::vehicle::VehicleState airborne_vehicle{};
+    airborne_vehicle.position = {0.0F, 10.0F, 0.0F};
+    indoru::vehicle::WheelRig airborne_rig = rig;
+    const auto airborne_step = controller.update(airborne_vehicle, airborne_rig, {}, terrain,
+                                                  1.0F / 60.0F);
+    assert(airborne_step.suspension.grounded_wheels == 0);
+    assert(!airborne_vehicle.grounded);
+    assert(airborne_vehicle.velocity.y < 0.0F);
+    assert(std::abs(airborne_step.total_force.y + 1500.0F * 9.81F) < 0.01F);
+
+    const indoru::vehicle::HeightfieldTerrain slope({0.0F, 0.2F, 0.4F,
+                                                      0.0F, 0.2F, 0.4F,
+                                                      0.0F, 0.2F, 0.4F,
+                                                      0.0F, 0.2F, 0.4F,
+                                                      0.0F, 0.2F, 0.4F},
+                                                     3, 5, 1.0F, -1.0F, -2.0F, 1.0F);
+    indoru::vehicle::VehicleState slope_vehicle{};
+    slope_vehicle.position = {0.0F, 0.6F, 0.0F};
+    indoru::vehicle::WheelRig slope_rig = rig;
+    const auto slope_step = controller.update(slope_vehicle, slope_rig, {}, slope,
+                                              1.0F / 60.0F);
+    assert(slope_step.suspension.grounded_wheels == 4);
+    assert(slope_step.suspension.total_contact_force.x < 0.0F);
 
     std::cout << "Indoru suspension car controller smoke test passed\n";
     return 0;

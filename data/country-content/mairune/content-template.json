@@ -1,0 +1,411 @@
+{
+  "schemaVersion": 1,
+  "countryId": "country-044",
+  "name": "Mairune",
+  "status": "playable",
+  "completion": "template",
+  "templatePolicy": {
+    "generated": true,
+    "requiresReview": true,
+    "placeholderContentAllowed": true
+  },
+  "terrain": {
+    "asset": "data/country-content/mairune/terrain.json",
+    "mapKey": "country/mairune",
+    "biome": "coastal-island"
+  },
+  "spawn": {
+    "x": 0.0,
+    "y": 1.2,
+    "z": 0.0,
+    "headingRad": 0.0
+  },
+  "settlements": [
+    {
+      "id": "country-044-capital",
+      "name": "Mairune Central",
+      "type": "capital",
+      "populationTier": "large",
+      "x": 0.0,
+      "y": 10.09,
+      "z": 0.0
+    },
+    {
+      "id": "country-044-village-1",
+      "name": "Mairune Village 1",
+      "type": "village",
+      "populationTier": "medium",
+      "x": -79.68,
+      "y": 3.72,
+      "z": -43.23
+    },
+    {
+      "id": "country-044-village-2",
+      "name": "Mairune Village 2",
+      "type": "village",
+      "populationTier": "small",
+      "x": -22.72,
+      "y": 0.58,
+      "z": 78.5
+    }
+  ],
+  "infrastructure": {
+    "rivers": [
+      {
+        "id": "country-044-river-1",
+        "name": "Mairune River 1",
+        "widthM": 13.0,
+        "points": [
+          {
+            "x": -128.0,
+            "y": -1.5,
+            "z": 47.23
+          },
+          {
+            "x": -96.04,
+            "y": -1.5,
+            "z": 47.77
+          },
+          {
+            "x": -44.82,
+            "y": -0.8,
+            "z": 37.73
+          },
+          {
+            "x": 11.35,
+            "y": 8.73,
+            "z": 24.95
+          },
+          {
+            "x": 36.02,
+            "y": 10.12,
+            "z": 29.5
+          },
+          {
+            "x": 91.06,
+            "y": 13.91,
+            "z": 17.36
+          },
+          {
+            "x": 128.0,
+            "y": 13.29,
+            "z": 15.16
+          }
+        ]
+      },
+      {
+        "id": "country-044-river-2",
+        "name": "Mairune River 2",
+        "widthM": 17.0,
+        "points": [
+          {
+            "x": 109.57,
+            "y": 24.11,
+            "z": -128.0
+          },
+          {
+            "x": 86.63,
+            "y": 22.97,
+            "z": -80.38
+          },
+          {
+            "x": 72.69,
+            "y": 19.63,
+            "z": -37.71
+          },
+          {
+            "x": 78.2,
+            "y": 15.83,
+            "z": -5.74
+          },
+          {
+            "x": 44.36,
+            "y": 9.26,
+            "z": 47.88
+          },
+          {
+            "x": 34.45,
+            "y": 4.12,
+            "z": 88.33
+          },
+          {
+            "x": 25.97,
+            "y": 3.33,
+            "z": 128.0
+          }
+        ]
+      }
+    ],
+    "lakes": [
+      {
+        "id": "country-044-lake-1",
+        "name": "Mairune Lake 1",
+        "x": -76.73,
+        "y": 0.43,
+        "z": -32.76,
+        "radiusM": 14.9,
+        "type": "reservoir"
+      }
+    ],
+    "mountains": [
+      {
+        "id": "country-044-mountain-1",
+        "name": "Mairune Highland 1",
+        "x": -3.72,
+        "y": 11.94,
+        "z": -25.45,
+        "heightM": 55.1,
+        "radiusM": 24.5
+      },
+      {
+        "id": "country-044-mountain-2",
+        "name": "Mairune Highland 2",
+        "x": 2.83,
+        "y": 3.52,
+        "z": 65.89,
+        "heightM": 20.98,
+        "radiusM": 26.5
+      },
+      {
+        "id": "country-044-mountain-3",
+        "name": "Mairune Highland 3",
+        "x": 41.62,
+        "y": 19.95,
+        "z": -59.15,
+        "heightM": 34.5,
+        "radiusM": 40.6
+      }
+    ],
+    "settlements": [
+      {
+        "id": "country-044-capital",
+        "name": "Mairune Central",
+        "type": "capital",
+        "populationTier": "large",
+        "x": 0.0,
+        "y": 10.09,
+        "z": 0.0
+      },
+      {
+        "id": "country-044-village-1",
+        "name": "Mairune Village 1",
+        "type": "village",
+        "populationTier": "medium",
+        "x": -79.68,
+        "y": 3.72,
+        "z": -43.23
+      },
+      {
+        "id": "country-044-village-2",
+        "name": "Mairune Village 2",
+        "type": "village",
+        "populationTier": "small",
+        "x": -22.72,
+        "y": 0.58,
+        "z": 78.5
+      }
+    ],
+    "roads": [
+      {
+        "id": "country-044-road-1",
+        "class": "highway",
+        "points": [
+          {
+            "x": 0.0,
+            "y": 9.59,
+            "z": 0.0
+          },
+          {
+            "x": -18.49,
+            "y": 8.26,
+            "z": -11.59
+          },
+          {
+            "x": -48.95,
+            "y": 3.61,
+            "z": -16.61
+          },
+          {
+            "x": -51.26,
+            "y": 5.43,
+            "z": -37.1
+          },
+          {
+            "x": -79.68,
+            "y": 3.22,
+            "z": -43.23
+          }
+        ]
+      },
+      {
+        "id": "country-044-road-2",
+        "class": "regional",
+        "points": [
+          {
+            "x": 0.0,
+            "y": 9.59,
+            "z": 0.0
+          },
+          {
+            "x": 3.4,
+            "y": 8.32,
+            "z": 14.63
+          },
+          {
+            "x": 0.45,
+            "y": 6.87,
+            "z": 32.75
+          },
+          {
+            "x": -20.11,
+            "y": 1.66,
+            "z": 60.56
+          },
+          {
+            "x": -22.72,
+            "y": 0.08,
+            "z": 78.5
+          }
+        ]
+      }
+    ],
+    "bridges": [
+      {
+        "id": "country-044-bridge-1",
+        "name": "Mairune Crossing 1",
+        "roadId": "country-044-road-1",
+        "riverId": "country-044-river-1",
+        "x": 11.35,
+        "y": 9.08,
+        "z": 24.95,
+        "lengthM": 25.0
+      },
+      {
+        "id": "country-044-bridge-2",
+        "name": "Mairune Crossing 2",
+        "roadId": "country-044-road-2",
+        "riverId": "country-044-river-2",
+        "x": 78.2,
+        "y": 16.18,
+        "z": -5.74,
+        "lengthM": 29.0
+      }
+    ],
+    "railways": [
+      {
+        "id": "country-044-rail-1",
+        "class": "intercity",
+        "points": [
+          {
+            "x": 0.0,
+            "y": 9.59,
+            "z": 0.0
+          },
+          {
+            "x": -7.63,
+            "y": 8.32,
+            "z": 17.4
+          },
+          {
+            "x": -14.44,
+            "y": 4.57,
+            "z": 34.34
+          },
+          {
+            "x": -18.42,
+            "y": 3.19,
+            "z": 49.74
+          },
+          {
+            "x": -9.4,
+            "y": 1.66,
+            "z": 57.97
+          },
+          {
+            "x": -22.72,
+            "y": 0.08,
+            "z": 78.5
+          }
+        ]
+      }
+    ],
+    "airports": [
+      {
+        "id": "country-044-airport-1",
+        "name": "Mairune International",
+        "size": "regional",
+        "x": 34.99,
+        "y": 15.38,
+        "z": -21.1,
+        "runwayLengthM": 900
+      }
+    ],
+    "ports": [
+      {
+        "id": "country-044-port-1",
+        "name": "Mairune Maritime Port",
+        "x": 100.6,
+        "y": 0.72,
+        "z": 84.59,
+        "capacity": "large"
+      }
+    ],
+    "militaryBases": [],
+    "metroLines": [
+      {
+        "id": "country-044-metro-1",
+        "status": "planned",
+        "serves": [
+          "country-044-capital",
+          "country-044-village-1",
+          "country-044-village-2"
+        ]
+      }
+    ],
+    "airRoutes": [
+      {
+        "id": "country-044-air-route-1",
+        "status": "regional",
+        "airportId": "country-044-airport-1"
+      }
+    ],
+    "shipLanes": [
+      {
+        "id": "country-044-ship-lane-1",
+        "status": "regional",
+        "portId": "country-044-port-1"
+      }
+    ],
+    "submarineZones": [
+      {
+        "id": "country-044-submarine-zone-1",
+        "status": "charted",
+        "depthM": 95.9
+      }
+    ]
+  },
+  "missions": [
+    {
+      "id": "country-044-intro",
+      "title": "Welcome to Mairune",
+      "status": "template",
+      "placeholder": true
+    },
+    {
+      "id": "country-044-route",
+      "title": "Cross-Region Route",
+      "status": "template",
+      "placeholder": true
+    }
+  ],
+  "systems": {
+    "weatherProfile": "template",
+    "peopleProfile": "people-mairune",
+    "trafficProfile": "template"
+  },
+  "nextSteps": [
+    "replace placeholder settlements",
+    "author terrain landmarks",
+    "author missions and NPC schedules"
+  ]
+}

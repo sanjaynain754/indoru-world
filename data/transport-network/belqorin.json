@@ -1,0 +1,504 @@
+{
+  "schemaVersion": 1,
+  "countryId": "country-007",
+  "mapKey": "country/belqorin",
+  "seed": 11335151928627447144,
+  "sourceTerrain": "data/country-content/belqorin/terrain.json",
+  "roadNetwork": {
+    "segments": [
+      {
+        "roadId": "country-007-road-1",
+        "class": "arterial",
+        "lanes": 4,
+        "speedLimitKph": 90,
+        "access": {
+          "vehicles": true,
+          "pedestrians": true,
+          "emergency": true
+        },
+        "points": [
+          {
+            "x": 0.0,
+            "y": 9.07,
+            "z": 0.0
+          },
+          {
+            "x": -12.13,
+            "y": 8.32,
+            "z": 2.43
+          },
+          {
+            "x": -14.61,
+            "y": 8.32,
+            "z": -0.44
+          },
+          {
+            "x": -29.04,
+            "y": 6.94,
+            "z": 3.25
+          },
+          {
+            "x": -49.85,
+            "y": 6.73,
+            "z": 10.46
+          }
+        ],
+        "connectedSettlementIds": [
+          "country-007-capital",
+          "country-007-village-1"
+        ]
+      },
+      {
+        "roadId": "country-007-road-2",
+        "class": "collector",
+        "lanes": 2,
+        "speedLimitKph": 55,
+        "access": {
+          "vehicles": true,
+          "pedestrians": true,
+          "emergency": true
+        },
+        "points": [
+          {
+            "x": 0.0,
+            "y": 9.07,
+            "z": 0.0
+          },
+          {
+            "x": -2.34,
+            "y": 10.34,
+            "z": 23.22
+          },
+          {
+            "x": 4.41,
+            "y": 12.69,
+            "z": 41.44
+          },
+          {
+            "x": 19.41,
+            "y": 12.14,
+            "z": 55.12
+          },
+          {
+            "x": 20.49,
+            "y": 15.13,
+            "z": 76.45
+          }
+        ],
+        "connectedSettlementIds": [
+          "country-007-capital",
+          "country-007-village-2"
+        ]
+      },
+      {
+        "roadId": "country-007-road-3",
+        "class": "collector",
+        "lanes": 2,
+        "speedLimitKph": 55,
+        "access": {
+          "vehicles": true,
+          "pedestrians": true,
+          "emergency": true
+        },
+        "points": [
+          {
+            "x": 0.0,
+            "y": 9.07,
+            "z": 0.0
+          },
+          {
+            "x": -10.36,
+            "y": 5.85,
+            "z": -26.99
+          },
+          {
+            "x": -28.23,
+            "y": 4.43,
+            "z": -49.84
+          },
+          {
+            "x": -45.59,
+            "y": 4.32,
+            "z": -72.98
+          },
+          {
+            "x": -51.86,
+            "y": 5.02,
+            "z": -102.21
+          }
+        ],
+        "connectedSettlementIds": [
+          "country-007-capital",
+          "country-007-village-3"
+        ]
+      },
+      {
+        "roadId": "country-007-road-4",
+        "class": "collector",
+        "lanes": 2,
+        "speedLimitKph": 55,
+        "access": {
+          "vehicles": true,
+          "pedestrians": true,
+          "emergency": true
+        },
+        "points": [
+          {
+            "x": 0.0,
+            "y": 9.07,
+            "z": 0.0
+          },
+          {
+            "x": -20.94,
+            "y": 9.83,
+            "z": 22.89
+          },
+          {
+            "x": -55.24,
+            "y": 10.46,
+            "z": 53.14
+          },
+          {
+            "x": -68.4,
+            "y": 10.32,
+            "z": 71.75
+          },
+          {
+            "x": -102.42,
+            "y": 9.22,
+            "z": 101.84
+          }
+        ],
+        "connectedSettlementIds": [
+          "country-007-capital",
+          "country-007-village-4"
+        ]
+      },
+      {
+        "roadId": "country-007-road-5",
+        "class": "collector",
+        "lanes": 2,
+        "speedLimitKph": 55,
+        "access": {
+          "vehicles": true,
+          "pedestrians": true,
+          "emergency": true
+        },
+        "points": [
+          {
+            "x": 0.0,
+            "y": 9.07,
+            "z": 0.0
+          },
+          {
+            "x": 0.99,
+            "y": 10.34,
+            "z": 12.63
+          },
+          {
+            "x": 19.87,
+            "y": 10.05,
+            "z": 15.41
+          },
+          {
+            "x": 43.45,
+            "y": 7.49,
+            "z": 15.61
+          },
+          {
+            "x": 42.5,
+            "y": 8.54,
+            "z": 29.31
+          }
+        ],
+        "connectedSettlementIds": [
+          "country-007-capital",
+          "country-007-village-5"
+        ]
+      }
+    ],
+    "bridges": [
+      {
+        "bridgeId": "country-007-bridge-1",
+        "roadId": "country-007-road-1",
+        "riverId": "country-007-river-1",
+        "lengthM": 23.5,
+        "loadClass": "heavy-vehicle",
+        "supportsTrain": false,
+        "x": -5.62,
+        "y": 6.2299999999999995,
+        "z": -43.24
+      },
+      {
+        "bridgeId": "country-007-bridge-2",
+        "roadId": "country-007-road-2",
+        "riverId": "country-007-river-2",
+        "lengthM": 19.7,
+        "loadClass": "heavy-vehicle",
+        "supportsTrain": false,
+        "x": -48.24,
+        "y": 5.5,
+        "z": 0.33
+      },
+      {
+        "bridgeId": "country-007-bridge-3",
+        "roadId": "country-007-road-3",
+        "riverId": "country-007-river-3",
+        "lengthM": 25.5,
+        "loadClass": "heavy-vehicle",
+        "supportsTrain": false,
+        "x": 9.03,
+        "y": 10.4,
+        "z": 10.54
+      }
+    ]
+  },
+  "railNetwork": {
+    "lines": [
+      {
+        "lineId": "country-007-rail-1",
+        "mode": "intercity-rail",
+        "electrification": "future-ready",
+        "trackGaugeMm": 1435,
+        "maxSpeedKph": 180,
+        "points": [
+          {
+            "x": 0.0,
+            "y": 9.07,
+            "z": 0.0
+          },
+          {
+            "x": 7.72,
+            "y": 9.07,
+            "z": 6.29
+          },
+          {
+            "x": 24.79,
+            "y": 8.25,
+            "z": 7.44
+          },
+          {
+            "x": 14.76,
+            "y": 10.05,
+            "z": 23.49
+          },
+          {
+            "x": 45.1,
+            "y": 7.49,
+            "z": 17.34
+          },
+          {
+            "x": 42.5,
+            "y": 8.54,
+            "z": 29.31
+          }
+        ]
+      }
+    ],
+    "stations": [
+      {
+        "stationId": "country-007-country-007-capital-station",
+        "settlementId": "country-007-capital",
+        "name": "Belqorin Central Central Station",
+        "service": "intercity",
+        "x": 0.0,
+        "y": 9.57,
+        "z": 0.0
+      },
+      {
+        "stationId": "country-007-country-007-village-1-station",
+        "settlementId": "country-007-village-1",
+        "name": "Belqorin Village 1 Central Station",
+        "service": "intercity",
+        "x": -49.85,
+        "y": 7.23,
+        "z": 10.46
+      },
+      {
+        "stationId": "country-007-country-007-village-2-station",
+        "settlementId": "country-007-village-2",
+        "name": "Belqorin Village 2 Central Station",
+        "service": "intercity",
+        "x": 20.49,
+        "y": 15.63,
+        "z": 76.45
+      },
+      {
+        "stationId": "country-007-country-007-village-3-station",
+        "settlementId": "country-007-village-3",
+        "name": "Belqorin Village 3 Central Station",
+        "service": "intercity",
+        "x": -51.86,
+        "y": 5.52,
+        "z": -102.21
+      },
+      {
+        "stationId": "country-007-country-007-village-4-station",
+        "settlementId": "country-007-village-4",
+        "name": "Belqorin Village 4 Central Station",
+        "service": "intercity",
+        "x": -102.42,
+        "y": 9.72,
+        "z": 101.84
+      },
+      {
+        "stationId": "country-007-country-007-village-5-station",
+        "settlementId": "country-007-village-5",
+        "name": "Belqorin Village 5 Central Station",
+        "service": "intercity",
+        "x": 42.5,
+        "y": 9.04,
+        "z": 29.31
+      }
+    ],
+    "trainService": {
+      "enabled": true,
+      "rollingStockProfile": "regional-electric-template"
+    }
+  },
+  "riverNetwork": {
+    "rivers": [
+      {
+        "riverId": "country-007-river-1",
+        "navigable": false,
+        "widthM": 11.5,
+        "transportMode": "waterway",
+        "points": [
+          {
+            "x": -128.0,
+            "y": -1.5,
+            "z": -45.61
+          },
+          {
+            "x": -85.71,
+            "y": 0.23,
+            "z": -45.65
+          },
+          {
+            "x": -36.05,
+            "y": 4.43,
+            "z": -49.73
+          },
+          {
+            "x": -5.62,
+            "y": 5.88,
+            "z": -43.24
+          },
+          {
+            "x": 50.35,
+            "y": 5.25,
+            "z": -50.8
+          },
+          {
+            "x": 94.11,
+            "y": -1.01,
+            "z": -51.64
+          },
+          {
+            "x": 128.0,
+            "y": -1.5,
+            "z": -47.06
+          }
+        ]
+      },
+      {
+        "riverId": "country-007-river-2",
+        "navigable": false,
+        "widthM": 7.7,
+        "transportMode": "waterway",
+        "points": [
+          {
+            "x": -13.81,
+            "y": 9.11,
+            "z": -128.0
+          },
+          {
+            "x": -14.51,
+            "y": 6.73,
+            "z": -91.15
+          },
+          {
+            "x": -43.48,
+            "y": 3.42,
+            "z": -38.75
+          },
+          {
+            "x": -48.24,
+            "y": 5.15,
+            "z": 0.33
+          },
+          {
+            "x": -60.17,
+            "y": 8.31,
+            "z": 43.37
+          },
+          {
+            "x": -61.7,
+            "y": 12.16,
+            "z": 80.67
+          },
+          {
+            "x": -81.45,
+            "y": 14.56,
+            "z": 128.0
+          }
+        ]
+      },
+      {
+        "riverId": "country-007-river-3",
+        "navigable": true,
+        "widthM": 13.5,
+        "transportMode": "river-freight",
+        "points": [
+          {
+            "x": -128.0,
+            "y": 5.25,
+            "z": 114.34
+          },
+          {
+            "x": -81.41,
+            "y": 9.9,
+            "z": 79.24
+          },
+          {
+            "x": -41.91,
+            "y": 10.46,
+            "z": 48.03
+          },
+          {
+            "x": 9.03,
+            "y": 10.05,
+            "z": 10.54
+          },
+          {
+            "x": 32.55,
+            "y": 7.5,
+            "z": -11.88
+          },
+          {
+            "x": 95.13,
+            "y": -1.01,
+            "z": -55.78
+          },
+          {
+            "x": 128.0,
+            "y": -1.5,
+            "z": -83.33
+          }
+        ]
+      }
+    ],
+    "riverBridges": [
+      "country-007-bridge-1",
+      "country-007-bridge-2",
+      "country-007-bridge-3"
+    ]
+  },
+  "simulationHooks": {
+    "cityInfrastructure": true,
+    "residentialAccess": true,
+    "trafficSimulation": true,
+    "massTransitSimulation": true,
+    "waterTrafficSimulation": true
+  }
+}

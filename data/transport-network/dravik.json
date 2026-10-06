@@ -1,0 +1,343 @@
+{
+  "schemaVersion": 1,
+  "countryId": "country-090",
+  "mapKey": "country/dravik",
+  "seed": 5642298580251892923,
+  "sourceTerrain": "data/country-content/dravik/terrain.json",
+  "roadNetwork": {
+    "segments": [
+      {
+        "roadId": "country-090-road-1",
+        "class": "arterial",
+        "lanes": 4,
+        "speedLimitKph": 90,
+        "access": {
+          "vehicles": true,
+          "pedestrians": true,
+          "emergency": true
+        },
+        "points": [
+          {
+            "x": 0.0,
+            "y": 10.3,
+            "z": 0.0
+          },
+          {
+            "x": -5.35,
+            "y": 10.83,
+            "z": -13.81
+          },
+          {
+            "x": -16.06,
+            "y": 8.36,
+            "z": -24.66
+          },
+          {
+            "x": -22.49,
+            "y": 8.36,
+            "z": -37.87
+          },
+          {
+            "x": -15.32,
+            "y": 6.05,
+            "z": -58.56
+          }
+        ],
+        "connectedSettlementIds": [
+          "country-090-capital",
+          "country-090-village-1"
+        ]
+      },
+      {
+        "roadId": "country-090-road-2",
+        "class": "collector",
+        "lanes": 2,
+        "speedLimitKph": 55,
+        "access": {
+          "vehicles": true,
+          "pedestrians": true,
+          "emergency": true
+        },
+        "points": [
+          {
+            "x": 0.0,
+            "y": 10.3,
+            "z": 0.0
+          },
+          {
+            "x": 3.61,
+            "y": 10.3,
+            "z": -3.6
+          },
+          {
+            "x": -10.88,
+            "y": 7.67,
+            "z": 2.76
+          },
+          {
+            "x": -24.05,
+            "y": 4.46,
+            "z": 8.39
+          },
+          {
+            "x": -22.65,
+            "y": 7.67,
+            "z": 6.01
+          }
+        ],
+        "connectedSettlementIds": [
+          "country-090-capital",
+          "country-090-village-2"
+        ]
+      },
+      {
+        "roadId": "country-090-road-3",
+        "class": "collector",
+        "lanes": 2,
+        "speedLimitKph": 55,
+        "access": {
+          "vehicles": true,
+          "pedestrians": true,
+          "emergency": true
+        },
+        "points": [
+          {
+            "x": 0.0,
+            "y": 10.3,
+            "z": 0.0
+          },
+          {
+            "x": -10.49,
+            "y": 8.36,
+            "z": -29.43
+          },
+          {
+            "x": -41.85,
+            "y": 2.04,
+            "z": -47.38
+          },
+          {
+            "x": -56.24,
+            "y": -1.5,
+            "z": -74.67
+          },
+          {
+            "x": -71.7,
+            "y": -1.5,
+            "z": -101.36
+          }
+        ],
+        "connectedSettlementIds": [
+          "country-090-capital",
+          "country-090-village-3"
+        ]
+      },
+      {
+        "roadId": "country-090-road-4",
+        "class": "collector",
+        "lanes": 2,
+        "speedLimitKph": 55,
+        "access": {
+          "vehicles": true,
+          "pedestrians": true,
+          "emergency": true
+        },
+        "points": [
+          {
+            "x": 0.0,
+            "y": 10.3,
+            "z": 0.0
+          },
+          {
+            "x": 4.05,
+            "y": 10.3,
+            "z": -2.87
+          },
+          {
+            "x": 13.76,
+            "y": 13.78,
+            "z": -8.85
+          },
+          {
+            "x": 26.12,
+            "y": 17.21,
+            "z": -16.29
+          },
+          {
+            "x": 37.75,
+            "y": 17.21,
+            "z": -23.33
+          }
+        ],
+        "connectedSettlementIds": [
+          "country-090-capital",
+          "country-090-village-4"
+        ]
+      }
+    ],
+    "bridges": [
+      {
+        "bridgeId": "country-090-bridge-1",
+        "roadId": "country-090-road-1",
+        "riverId": "country-090-river-1",
+        "lengthM": 19.3,
+        "loadClass": "heavy-vehicle",
+        "supportsTrain": false,
+        "x": 5.8,
+        "y": 11.35,
+        "z": -26.92
+      }
+    ]
+  },
+  "railNetwork": {
+    "lines": [
+      {
+        "lineId": "country-090-rail-1",
+        "mode": "intercity-rail",
+        "electrification": "future-ready",
+        "trackGaugeMm": 1435,
+        "maxSpeedKph": 180,
+        "points": [
+          {
+            "x": 0.0,
+            "y": 10.3,
+            "z": 0.0
+          },
+          {
+            "x": 7.9,
+            "y": 10.3,
+            "z": -4.86
+          },
+          {
+            "x": 6.54,
+            "y": 10.3,
+            "z": -4.62
+          },
+          {
+            "x": 25.59,
+            "y": 17.21,
+            "z": -15.61
+          },
+          {
+            "x": 37.44,
+            "y": 17.21,
+            "z": -22.65
+          },
+          {
+            "x": 37.75,
+            "y": 17.21,
+            "z": -23.33
+          }
+        ]
+      }
+    ],
+    "stations": [
+      {
+        "stationId": "country-090-country-090-capital-station",
+        "settlementId": "country-090-capital",
+        "name": "Dravik Central Central Station",
+        "service": "intercity",
+        "x": 0.0,
+        "y": 10.8,
+        "z": 0.0
+      },
+      {
+        "stationId": "country-090-country-090-village-1-station",
+        "settlementId": "country-090-village-1",
+        "name": "Dravik Village 1 Central Station",
+        "service": "intercity",
+        "x": -15.32,
+        "y": 6.55,
+        "z": -58.56
+      },
+      {
+        "stationId": "country-090-country-090-village-2-station",
+        "settlementId": "country-090-village-2",
+        "name": "Dravik Village 2 Central Station",
+        "service": "intercity",
+        "x": -22.65,
+        "y": 8.17,
+        "z": 6.01
+      },
+      {
+        "stationId": "country-090-country-090-village-3-station",
+        "settlementId": "country-090-village-3",
+        "name": "Dravik Village 3 Central Station",
+        "service": "intercity",
+        "x": -71.7,
+        "y": -1.0,
+        "z": -101.36
+      },
+      {
+        "stationId": "country-090-country-090-village-4-station",
+        "settlementId": "country-090-village-4",
+        "name": "Dravik Village 4 Central Station",
+        "service": "intercity",
+        "x": 37.75,
+        "y": 17.71,
+        "z": -23.33
+      }
+    ],
+    "trainService": {
+      "enabled": true,
+      "rollingStockProfile": "regional-electric-template"
+    }
+  },
+  "riverNetwork": {
+    "rivers": [
+      {
+        "riverId": "country-090-river-1",
+        "navigable": false,
+        "widthM": 7.3,
+        "transportMode": "waterway",
+        "points": [
+          {
+            "x": -128.0,
+            "y": 1.54,
+            "z": 9.46
+          },
+          {
+            "x": -96.35,
+            "y": 0.85,
+            "z": 4.46
+          },
+          {
+            "x": -53.96,
+            "y": 3.93,
+            "z": -6.46
+          },
+          {
+            "x": 5.8,
+            "y": 11.0,
+            "z": -26.92
+          },
+          {
+            "x": 39.65,
+            "y": 16.96,
+            "z": -33.13
+          },
+          {
+            "x": 89.79,
+            "y": 30.06,
+            "z": -48.3
+          },
+          {
+            "x": 128.0,
+            "y": 33.65,
+            "z": -56.91
+          }
+        ]
+      }
+    ],
+    "riverBridges": [
+      "country-090-bridge-1"
+    ]
+  },
+  "simulationHooks": {
+    "cityInfrastructure": true,
+    "residentialAccess": true,
+    "trafficSimulation": true,
+    "massTransitSimulation": true,
+    "waterTrafficSimulation": false
+  }
+}

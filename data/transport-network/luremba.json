@@ -1,0 +1,292 @@
+{
+  "schemaVersion": 1,
+  "countryId": "country-084",
+  "mapKey": "country/luremba",
+  "seed": 12527939495555776348,
+  "sourceTerrain": "data/country-content/luremba/terrain.json",
+  "roadNetwork": {
+    "segments": [
+      {
+        "roadId": "country-084-road-1",
+        "class": "arterial",
+        "lanes": 4,
+        "speedLimitKph": 90,
+        "access": {
+          "vehicles": true,
+          "pedestrians": true,
+          "emergency": true
+        },
+        "points": [
+          {
+            "x": 0.0,
+            "y": -1.5,
+            "z": 0.0
+          },
+          {
+            "x": -17.16,
+            "y": -1.5,
+            "z": -21.21
+          },
+          {
+            "x": -40.39,
+            "y": -1.5,
+            "z": -39.09
+          },
+          {
+            "x": -63.52,
+            "y": -1.5,
+            "z": -57.02
+          },
+          {
+            "x": -76.88,
+            "y": 1.95,
+            "z": -80.33
+          }
+        ],
+        "connectedSettlementIds": [
+          "country-084-capital",
+          "country-084-village-1"
+        ]
+      },
+      {
+        "roadId": "country-084-road-2",
+        "class": "collector",
+        "lanes": 2,
+        "speedLimitKph": 55,
+        "access": {
+          "vehicles": true,
+          "pedestrians": true,
+          "emergency": true
+        },
+        "points": [
+          {
+            "x": 0.0,
+            "y": -1.5,
+            "z": 0.0
+          },
+          {
+            "x": 27.43,
+            "y": -1.5,
+            "z": 1.11
+          },
+          {
+            "x": 43.65,
+            "y": -1.5,
+            "z": 8.39
+          },
+          {
+            "x": 66.78,
+            "y": -1.5,
+            "z": 11.87
+          },
+          {
+            "x": 87.4,
+            "y": -1.5,
+            "z": 16.73
+          }
+        ],
+        "connectedSettlementIds": [
+          "country-084-capital",
+          "country-084-village-2"
+        ]
+      },
+      {
+        "roadId": "country-084-road-3",
+        "class": "collector",
+        "lanes": 2,
+        "speedLimitKph": 55,
+        "access": {
+          "vehicles": true,
+          "pedestrians": true,
+          "emergency": true
+        },
+        "points": [
+          {
+            "x": 0.0,
+            "y": -1.5,
+            "z": 0.0
+          },
+          {
+            "x": -16.51,
+            "y": -1.5,
+            "z": 31.76
+          },
+          {
+            "x": -20.13,
+            "y": -1.5,
+            "z": 56.42
+          },
+          {
+            "x": -3.16,
+            "y": -1.5,
+            "z": 69.76
+          },
+          {
+            "x": -18.11,
+            "y": -1.5,
+            "z": 100.66
+          }
+        ],
+        "connectedSettlementIds": [
+          "country-084-capital",
+          "country-084-village-3"
+        ]
+      }
+    ],
+    "bridges": [
+      {
+        "bridgeId": "country-084-bridge-1",
+        "roadId": "country-084-road-1",
+        "riverId": "country-084-river-1",
+        "lengthM": 19.5,
+        "loadClass": "heavy-vehicle",
+        "supportsTrain": false,
+        "x": 11.48,
+        "y": -1.15,
+        "z": -19.93
+      }
+    ]
+  },
+  "railNetwork": {
+    "lines": [
+      {
+        "lineId": "country-084-rail-1",
+        "mode": "intercity-rail",
+        "electrification": "future-ready",
+        "trackGaugeMm": 1435,
+        "maxSpeedKph": 180,
+        "points": [
+          {
+            "x": 0.0,
+            "y": -1.5,
+            "z": 0.0
+          },
+          {
+            "x": 2.38,
+            "y": -1.5,
+            "z": 16.83
+          },
+          {
+            "x": -13.58,
+            "y": -1.5,
+            "z": 43.75
+          },
+          {
+            "x": -22.47,
+            "y": -1.5,
+            "z": 66.78
+          },
+          {
+            "x": -20.01,
+            "y": -1.5,
+            "z": 83.56
+          },
+          {
+            "x": -18.11,
+            "y": -1.5,
+            "z": 100.66
+          }
+        ]
+      }
+    ],
+    "stations": [
+      {
+        "stationId": "country-084-country-084-capital-station",
+        "settlementId": "country-084-capital",
+        "name": "Luremba Central Central Station",
+        "service": "intercity",
+        "x": 0.0,
+        "y": -1.0,
+        "z": 0.0
+      },
+      {
+        "stationId": "country-084-country-084-village-1-station",
+        "settlementId": "country-084-village-1",
+        "name": "Luremba Village 1 Central Station",
+        "service": "intercity",
+        "x": -76.88,
+        "y": 2.45,
+        "z": -80.33
+      },
+      {
+        "stationId": "country-084-country-084-village-2-station",
+        "settlementId": "country-084-village-2",
+        "name": "Luremba Village 2 Central Station",
+        "service": "intercity",
+        "x": 87.4,
+        "y": -1.0,
+        "z": 16.73
+      },
+      {
+        "stationId": "country-084-country-084-village-3-station",
+        "settlementId": "country-084-village-3",
+        "name": "Luremba Village 3 Central Station",
+        "service": "intercity",
+        "x": -18.11,
+        "y": -1.0,
+        "z": 100.66
+      }
+    ],
+    "trainService": {
+      "enabled": true,
+      "rollingStockProfile": "regional-electric-template"
+    }
+  },
+  "riverNetwork": {
+    "rivers": [
+      {
+        "riverId": "country-084-river-1",
+        "navigable": false,
+        "widthM": 7.5,
+        "transportMode": "waterway",
+        "points": [
+          {
+            "x": -128.0,
+            "y": 5.52,
+            "z": -50.51
+          },
+          {
+            "x": -85.84,
+            "y": -1.5,
+            "z": -37.93
+          },
+          {
+            "x": -32.61,
+            "y": -1.5,
+            "z": -31.44
+          },
+          {
+            "x": 11.48,
+            "y": -1.5,
+            "z": -19.93
+          },
+          {
+            "x": 37.38,
+            "y": -1.5,
+            "z": 1.6
+          },
+          {
+            "x": 88.06,
+            "y": -1.5,
+            "z": 9.49
+          },
+          {
+            "x": 128.0,
+            "y": -1.5,
+            "z": 23.29
+          }
+        ]
+      }
+    ],
+    "riverBridges": [
+      "country-084-bridge-1"
+    ]
+  },
+  "simulationHooks": {
+    "cityInfrastructure": true,
+    "residentialAccess": true,
+    "trafficSimulation": true,
+    "massTransitSimulation": true,
+    "waterTrafficSimulation": false
+  }
+}

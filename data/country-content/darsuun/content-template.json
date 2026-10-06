@@ -1,0 +1,491 @@
+{
+  "schemaVersion": 1,
+  "countryId": "country-062",
+  "name": "Darsuun",
+  "status": "playable",
+  "completion": "template",
+  "templatePolicy": {
+    "generated": true,
+    "requiresReview": true,
+    "placeholderContentAllowed": true
+  },
+  "terrain": {
+    "asset": "data/country-content/darsuun/terrain.json",
+    "mapKey": "country/darsuun",
+    "biome": "highland-basin"
+  },
+  "spawn": {
+    "x": 0.0,
+    "y": 1.2,
+    "z": 0.0,
+    "headingRad": 0.0
+  },
+  "settlements": [
+    {
+      "id": "country-062-capital",
+      "name": "Darsuun Central",
+      "type": "capital",
+      "populationTier": "large",
+      "x": 0.0,
+      "y": 9.3,
+      "z": 0.0
+    },
+    {
+      "id": "country-062-village-1",
+      "name": "Darsuun Village 1",
+      "type": "village",
+      "populationTier": "medium",
+      "x": -62.94,
+      "y": 21.35,
+      "z": -1.35
+    },
+    {
+      "id": "country-062-village-2",
+      "name": "Darsuun Village 2",
+      "type": "village",
+      "populationTier": "small",
+      "x": -62.06,
+      "y": 21.35,
+      "z": -5.49
+    },
+    {
+      "id": "country-062-village-3",
+      "name": "Darsuun Village 3",
+      "type": "village",
+      "populationTier": "small",
+      "x": 16.31,
+      "y": 13.79,
+      "z": 69.09
+    },
+    {
+      "id": "country-062-village-4",
+      "name": "Darsuun Village 4",
+      "type": "village",
+      "populationTier": "medium",
+      "x": -71.99,
+      "y": 5.79,
+      "z": -101.37
+    }
+  ],
+  "infrastructure": {
+    "rivers": [
+      {
+        "id": "country-062-river-1",
+        "name": "Darsuun River 1",
+        "widthM": 11.6,
+        "points": [
+          {
+            "x": -128.0,
+            "y": 8.78,
+            "z": -79.21
+          },
+          {
+            "x": -88.86,
+            "y": 12.91,
+            "z": -70.06
+          },
+          {
+            "x": -43.28,
+            "y": 5.82,
+            "z": -64.46
+          },
+          {
+            "x": 11.95,
+            "y": -1.5,
+            "z": -64.16
+          },
+          {
+            "x": 54.43,
+            "y": -1.5,
+            "z": -56.86
+          },
+          {
+            "x": 82.16,
+            "y": -1.5,
+            "z": -41.43
+          },
+          {
+            "x": 128.0,
+            "y": -1.5,
+            "z": -35.97
+          }
+        ]
+      },
+      {
+        "id": "country-062-river-2",
+        "name": "Darsuun River 2",
+        "widthM": 20.0,
+        "points": [
+          {
+            "x": 45.83,
+            "y": -1.5,
+            "z": -128.0
+          },
+          {
+            "x": 16.26,
+            "y": -1.5,
+            "z": -82.31
+          },
+          {
+            "x": -11.23,
+            "y": 5.9,
+            "z": -37.78
+          },
+          {
+            "x": -36.79,
+            "y": 16.44,
+            "z": 5.7
+          },
+          {
+            "x": -44.76,
+            "y": 25.81,
+            "z": 39.51
+          },
+          {
+            "x": -86.42,
+            "y": 37.63,
+            "z": 91.84
+          },
+          {
+            "x": -98.68,
+            "y": 39.06,
+            "z": 128.0
+          }
+        ]
+      }
+    ],
+    "lakes": [
+      {
+        "id": "country-062-lake-1",
+        "name": "Darsuun Lake 1",
+        "x": -68.31,
+        "y": 0.38,
+        "z": -30.84,
+        "radiusM": 10.1,
+        "type": "reservoir"
+      }
+    ],
+    "mountains": [
+      {
+        "id": "country-062-mountain-1",
+        "name": "Darsuun Highland 1",
+        "x": 77.18,
+        "y": 0.37,
+        "z": -28.46,
+        "heightM": 23.87,
+        "radiusM": 27.0
+      }
+    ],
+    "settlements": [
+      {
+        "id": "country-062-capital",
+        "name": "Darsuun Central",
+        "type": "capital",
+        "populationTier": "large",
+        "x": 0.0,
+        "y": 9.3,
+        "z": 0.0
+      },
+      {
+        "id": "country-062-village-1",
+        "name": "Darsuun Village 1",
+        "type": "village",
+        "populationTier": "medium",
+        "x": -62.94,
+        "y": 21.35,
+        "z": -1.35
+      },
+      {
+        "id": "country-062-village-2",
+        "name": "Darsuun Village 2",
+        "type": "village",
+        "populationTier": "small",
+        "x": -62.06,
+        "y": 21.35,
+        "z": -5.49
+      },
+      {
+        "id": "country-062-village-3",
+        "name": "Darsuun Village 3",
+        "type": "village",
+        "populationTier": "small",
+        "x": 16.31,
+        "y": 13.79,
+        "z": 69.09
+      },
+      {
+        "id": "country-062-village-4",
+        "name": "Darsuun Village 4",
+        "type": "village",
+        "populationTier": "medium",
+        "x": -71.99,
+        "y": 5.79,
+        "z": -101.37
+      }
+    ],
+    "roads": [
+      {
+        "id": "country-062-road-1",
+        "class": "highway",
+        "points": [
+          {
+            "x": 0.0,
+            "y": 8.8,
+            "z": 0.0
+          },
+          {
+            "x": -16.73,
+            "y": 13.02,
+            "z": 0.21
+          },
+          {
+            "x": -27.25,
+            "y": 16.44,
+            "z": -2.99
+          },
+          {
+            "x": -40.16,
+            "y": 19.01,
+            "z": -4.89
+          },
+          {
+            "x": -62.94,
+            "y": 20.85,
+            "z": -1.35
+          }
+        ]
+      },
+      {
+        "id": "country-062-road-2",
+        "class": "regional",
+        "points": [
+          {
+            "x": 0.0,
+            "y": 8.8,
+            "z": 0.0
+          },
+          {
+            "x": -22.45,
+            "y": 13.02,
+            "z": 2.44
+          },
+          {
+            "x": -19.79,
+            "y": 9.62,
+            "z": -8.93
+          },
+          {
+            "x": -54.9,
+            "y": 19.01,
+            "z": 0.48
+          },
+          {
+            "x": -62.06,
+            "y": 20.85,
+            "z": -5.49
+          }
+        ]
+      },
+      {
+        "id": "country-062-road-3",
+        "class": "regional",
+        "points": [
+          {
+            "x": 0.0,
+            "y": 8.8,
+            "z": 0.0
+          },
+          {
+            "x": -3.88,
+            "y": 11.32,
+            "z": 21.65
+          },
+          {
+            "x": 6.67,
+            "y": 13.49,
+            "z": 35.36
+          },
+          {
+            "x": 15.98,
+            "y": 10.88,
+            "z": 49.76
+          },
+          {
+            "x": 16.31,
+            "y": 13.29,
+            "z": 69.09
+          }
+        ]
+      },
+      {
+        "id": "country-062-road-4",
+        "class": "regional",
+        "points": [
+          {
+            "x": 0.0,
+            "y": 8.8,
+            "z": 0.0
+          },
+          {
+            "x": -18.71,
+            "y": 5.9,
+            "z": -24.95
+          },
+          {
+            "x": -44.88,
+            "y": 8.39,
+            "z": -45.8
+          },
+          {
+            "x": -56.91,
+            "y": 7.06,
+            "z": -74.42
+          },
+          {
+            "x": -71.99,
+            "y": 5.29,
+            "z": -101.37
+          }
+        ]
+      }
+    ],
+    "bridges": [
+      {
+        "id": "country-062-bridge-1",
+        "name": "Darsuun Crossing 1",
+        "roadId": "country-062-road-1",
+        "riverId": "country-062-river-1",
+        "x": 11.95,
+        "y": -1.15,
+        "z": -64.16,
+        "lengthM": 23.6
+      },
+      {
+        "id": "country-062-bridge-2",
+        "name": "Darsuun Crossing 2",
+        "roadId": "country-062-road-2",
+        "riverId": "country-062-river-2",
+        "x": -36.79,
+        "y": 16.790000000000003,
+        "z": 5.7,
+        "lengthM": 32.0
+      }
+    ],
+    "railways": [
+      {
+        "id": "country-062-rail-1",
+        "class": "intercity",
+        "points": [
+          {
+            "x": 0.0,
+            "y": 8.8,
+            "z": 0.0
+          },
+          {
+            "x": -24.53,
+            "y": 12.71,
+            "z": -14.7
+          },
+          {
+            "x": -35.3,
+            "y": 8.9,
+            "z": -36.97
+          },
+          {
+            "x": -53.58,
+            "y": 8.39,
+            "z": -55.11
+          },
+          {
+            "x": -46.22,
+            "y": 3.82,
+            "z": -87.35
+          },
+          {
+            "x": -71.99,
+            "y": 5.29,
+            "z": -101.37
+          }
+        ]
+      }
+    ],
+    "airports": [
+      {
+        "id": "country-062-airport-1",
+        "name": "Darsuun International",
+        "size": "large",
+        "x": -38.68,
+        "y": 22.68,
+        "z": 29.56,
+        "runwayLengthM": 1800
+      }
+    ],
+    "ports": [],
+    "militaryBases": [
+      {
+        "id": "country-062-base-1",
+        "name": "Darsuun Defense Station",
+        "type": "air-ground",
+        "x": 62.09,
+        "y": -1.2,
+        "z": -40.64
+      }
+    ],
+    "metroLines": [
+      {
+        "id": "country-062-metro-1",
+        "status": "planned",
+        "serves": [
+          "country-062-capital",
+          "country-062-village-1",
+          "country-062-village-2"
+        ]
+      }
+    ],
+    "airRoutes": [
+      {
+        "id": "country-062-air-route-1",
+        "status": "regional",
+        "airportId": "country-062-airport-1"
+      }
+    ],
+    "shipLanes": [
+      {
+        "id": "country-062-ship-lane-1",
+        "status": "regional",
+        "portId": null
+      }
+    ],
+    "submarineZones": [
+      {
+        "id": "country-062-submarine-zone-1",
+        "status": "charted",
+        "depthM": 133.2
+      }
+    ]
+  },
+  "missions": [
+    {
+      "id": "country-062-intro",
+      "title": "Welcome to Darsuun",
+      "status": "template",
+      "placeholder": true
+    },
+    {
+      "id": "country-062-route",
+      "title": "Cross-Region Route",
+      "status": "template",
+      "placeholder": true
+    }
+  ],
+  "systems": {
+    "weatherProfile": "template",
+    "peopleProfile": "people-darsuun",
+    "trafficProfile": "template"
+  },
+  "nextSteps": [
+    "replace placeholder settlements",
+    "author terrain landmarks",
+    "author missions and NPC schedules"
+  ]
+}

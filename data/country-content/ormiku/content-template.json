@@ -1,0 +1,390 @@
+{
+  "schemaVersion": 1,
+  "countryId": "country-102",
+  "name": "Ormiku",
+  "status": "playable",
+  "completion": "template",
+  "templatePolicy": {
+    "generated": true,
+    "requiresReview": true,
+    "placeholderContentAllowed": true
+  },
+  "terrain": {
+    "asset": "data/country-content/ormiku/terrain.json",
+    "mapKey": "country/ormiku",
+    "biome": "volcanic-ashland"
+  },
+  "spawn": {
+    "x": 0.0,
+    "y": 1.2,
+    "z": 0.0,
+    "headingRad": 0.0
+  },
+  "settlements": [
+    {
+      "id": "country-102-capital",
+      "name": "Ormiku Central",
+      "type": "capital",
+      "populationTier": "large",
+      "x": 0.0,
+      "y": 0.8,
+      "z": 0.0
+    },
+    {
+      "id": "country-102-village-1",
+      "name": "Ormiku Village 1",
+      "type": "village",
+      "populationTier": "medium",
+      "x": 104.01,
+      "y": -1.0,
+      "z": -83.33
+    },
+    {
+      "id": "country-102-village-2",
+      "name": "Ormiku Village 2",
+      "type": "village",
+      "populationTier": "small",
+      "x": -3.81,
+      "y": 2.64,
+      "z": 13.41
+    },
+    {
+      "id": "country-102-village-3",
+      "name": "Ormiku Village 3",
+      "type": "village",
+      "populationTier": "small",
+      "x": 16.22,
+      "y": -1.0,
+      "z": -90.75
+    }
+  ],
+  "infrastructure": {
+    "rivers": [
+      {
+        "id": "country-102-river-1",
+        "name": "Ormiku River 1",
+        "widthM": 13.8,
+        "points": [
+          {
+            "x": -128.0,
+            "y": 27.82,
+            "z": 8.77
+          },
+          {
+            "x": -84.49,
+            "y": 20.69,
+            "z": 19.4
+          },
+          {
+            "x": -46.1,
+            "y": 16.43,
+            "z": 32.85
+          },
+          {
+            "x": 5.46,
+            "y": 3.74,
+            "z": 39.06
+          },
+          {
+            "x": 46.78,
+            "y": -1.5,
+            "z": 50.89
+          },
+          {
+            "x": 88.64,
+            "y": -1.5,
+            "z": 62.43
+          },
+          {
+            "x": 128.0,
+            "y": -0.52,
+            "z": 75.34
+          }
+        ]
+      }
+    ],
+    "lakes": [
+      {
+        "id": "country-102-lake-1",
+        "name": "Ormiku Lake 1",
+        "x": 50.35,
+        "y": 0.41,
+        "z": -71.12,
+        "radiusM": 22.3,
+        "type": "reservoir"
+      }
+    ],
+    "mountains": [
+      {
+        "id": "country-102-mountain-1",
+        "name": "Ormiku Highland 1",
+        "x": -46.91,
+        "y": 1.71,
+        "z": -55.97,
+        "heightM": 38.94,
+        "radiusM": 16.3
+      }
+    ],
+    "settlements": [
+      {
+        "id": "country-102-capital",
+        "name": "Ormiku Central",
+        "type": "capital",
+        "populationTier": "large",
+        "x": 0.0,
+        "y": 0.8,
+        "z": 0.0
+      },
+      {
+        "id": "country-102-village-1",
+        "name": "Ormiku Village 1",
+        "type": "village",
+        "populationTier": "medium",
+        "x": 104.01,
+        "y": -1.0,
+        "z": -83.33
+      },
+      {
+        "id": "country-102-village-2",
+        "name": "Ormiku Village 2",
+        "type": "village",
+        "populationTier": "small",
+        "x": -3.81,
+        "y": 2.64,
+        "z": 13.41
+      },
+      {
+        "id": "country-102-village-3",
+        "name": "Ormiku Village 3",
+        "type": "village",
+        "populationTier": "small",
+        "x": 16.22,
+        "y": -1.0,
+        "z": -90.75
+      }
+    ],
+    "roads": [
+      {
+        "id": "country-102-road-1",
+        "class": "highway",
+        "points": [
+          {
+            "x": 0.0,
+            "y": 0.3,
+            "z": 0.0
+          },
+          {
+            "x": 32.49,
+            "y": -1.5,
+            "z": -24.4
+          },
+          {
+            "x": 60.6,
+            "y": -1.5,
+            "z": -46.39
+          },
+          {
+            "x": 81.05,
+            "y": -1.5,
+            "z": -64.17
+          },
+          {
+            "x": 104.01,
+            "y": -1.5,
+            "z": -83.33
+          }
+        ]
+      },
+      {
+        "id": "country-102-road-2",
+        "class": "regional",
+        "points": [
+          {
+            "x": 0.0,
+            "y": 0.3,
+            "z": 0.0
+          },
+          {
+            "x": -8.85,
+            "y": 4.22,
+            "z": 7.7
+          },
+          {
+            "x": -0.35,
+            "y": 0.3,
+            "z": 5.85
+          },
+          {
+            "x": -4.73,
+            "y": 2.14,
+            "z": 11.09
+          },
+          {
+            "x": -3.81,
+            "y": 2.14,
+            "z": 13.41
+          }
+        ]
+      },
+      {
+        "id": "country-102-road-3",
+        "class": "regional",
+        "points": [
+          {
+            "x": 0.0,
+            "y": 0.3,
+            "z": 0.0
+          },
+          {
+            "x": -4.92,
+            "y": -1.5,
+            "z": -17.75
+          },
+          {
+            "x": 17.37,
+            "y": -1.5,
+            "z": -50.47
+          },
+          {
+            "x": 12.08,
+            "y": -1.5,
+            "z": -68.01
+          },
+          {
+            "x": 16.22,
+            "y": -1.5,
+            "z": -90.75
+          }
+        ]
+      }
+    ],
+    "bridges": [
+      {
+        "id": "country-102-bridge-1",
+        "name": "Ormiku Crossing 1",
+        "roadId": "country-102-road-1",
+        "riverId": "country-102-river-1",
+        "x": 5.46,
+        "y": 4.09,
+        "z": 39.06,
+        "lengthM": 25.8
+      }
+    ],
+    "railways": [
+      {
+        "id": "country-102-rail-1",
+        "class": "intercity",
+        "points": [
+          {
+            "x": 0.0,
+            "y": 0.3,
+            "z": 0.0
+          },
+          {
+            "x": 11.4,
+            "y": -1.5,
+            "z": -22.64
+          },
+          {
+            "x": 2.56,
+            "y": -1.5,
+            "z": -34.14
+          },
+          {
+            "x": 13.23,
+            "y": -1.5,
+            "z": -56.38
+          },
+          {
+            "x": 10.74,
+            "y": -1.5,
+            "z": -71.37
+          },
+          {
+            "x": 16.22,
+            "y": -1.5,
+            "z": -90.75
+          }
+        ]
+      }
+    ],
+    "airports": [
+      {
+        "id": "country-102-airport-1",
+        "name": "Ormiku International",
+        "size": "regional",
+        "x": 34.11,
+        "y": 2.13,
+        "z": 61.29,
+        "runwayLengthM": 1800
+      }
+    ],
+    "ports": [],
+    "militaryBases": [
+      {
+        "id": "country-102-base-1",
+        "name": "Ormiku Defense Station",
+        "type": "air-ground",
+        "x": 34.52,
+        "y": -1.2,
+        "z": -69.28
+      }
+    ],
+    "metroLines": [
+      {
+        "id": "country-102-metro-1",
+        "status": "planned",
+        "serves": [
+          "country-102-capital",
+          "country-102-village-1",
+          "country-102-village-2"
+        ]
+      }
+    ],
+    "airRoutes": [
+      {
+        "id": "country-102-air-route-1",
+        "status": "regional",
+        "airportId": "country-102-airport-1"
+      }
+    ],
+    "shipLanes": [
+      {
+        "id": "country-102-ship-lane-1",
+        "status": "regional",
+        "portId": null
+      }
+    ],
+    "submarineZones": [
+      {
+        "id": "country-102-submarine-zone-1",
+        "status": "charted",
+        "depthM": 44.0
+      }
+    ]
+  },
+  "missions": [
+    {
+      "id": "country-102-intro",
+      "title": "Welcome to Ormiku",
+      "status": "template",
+      "placeholder": true
+    },
+    {
+      "id": "country-102-route",
+      "title": "Cross-Region Route",
+      "status": "template",
+      "placeholder": true
+    }
+  ],
+  "systems": {
+    "weatherProfile": "template",
+    "peopleProfile": "people-ormiku",
+    "trafficProfile": "template"
+  },
+  "nextSteps": [
+    "replace placeholder settlements",
+    "author terrain landmarks",
+    "author missions and NPC schedules"
+  ]
+}

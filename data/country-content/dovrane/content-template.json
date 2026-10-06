@@ -1,0 +1,573 @@
+{
+  "schemaVersion": 1,
+  "countryId": "country-033",
+  "name": "Dovrane",
+  "status": "playable",
+  "completion": "template",
+  "templatePolicy": {
+    "generated": true,
+    "requiresReview": true,
+    "placeholderContentAllowed": true
+  },
+  "terrain": {
+    "asset": "data/country-content/dovrane/terrain.json",
+    "mapKey": "country/dovrane",
+    "biome": "canyon-steppe"
+  },
+  "spawn": {
+    "x": 0.0,
+    "y": 1.2,
+    "z": 0.0,
+    "headingRad": 0.0
+  },
+  "settlements": [
+    {
+      "id": "country-033-capital",
+      "name": "Dovrane Central",
+      "type": "capital",
+      "populationTier": "large",
+      "x": 0.0,
+      "y": 34.13,
+      "z": 0.0
+    },
+    {
+      "id": "country-033-village-1",
+      "name": "Dovrane Village 1",
+      "type": "village",
+      "populationTier": "medium",
+      "x": 53.15,
+      "y": 17.87,
+      "z": -91.63
+    },
+    {
+      "id": "country-033-village-2",
+      "name": "Dovrane Village 2",
+      "type": "village",
+      "populationTier": "small",
+      "x": 59.1,
+      "y": 25.39,
+      "z": -53.63
+    },
+    {
+      "id": "country-033-village-3",
+      "name": "Dovrane Village 3",
+      "type": "village",
+      "populationTier": "small",
+      "x": 44.57,
+      "y": 20.92,
+      "z": -80.36
+    },
+    {
+      "id": "country-033-village-4",
+      "name": "Dovrane Village 4",
+      "type": "village",
+      "populationTier": "medium",
+      "x": -47.7,
+      "y": 25.94,
+      "z": -8.3
+    },
+    {
+      "id": "country-033-village-5",
+      "name": "Dovrane Village 5",
+      "type": "village",
+      "populationTier": "small",
+      "x": 93.05,
+      "y": 28.27,
+      "z": 96.64
+    },
+    {
+      "id": "country-033-village-6",
+      "name": "Dovrane Village 6",
+      "type": "village",
+      "populationTier": "small",
+      "x": -89.23,
+      "y": 11.88,
+      "z": -64.63
+    }
+  ],
+  "infrastructure": {
+    "rivers": [
+      {
+        "id": "country-033-river-1",
+        "name": "Dovrane River 1",
+        "widthM": 13.3,
+        "points": [
+          {
+            "x": -128.0,
+            "y": -1.5,
+            "z": -124.36
+          },
+          {
+            "x": -90.74,
+            "y": 2.19,
+            "z": -116.55
+          },
+          {
+            "x": -34.64,
+            "y": 15.12,
+            "z": -119.12
+          },
+          {
+            "x": 1.5,
+            "y": 17.02,
+            "z": -110.7
+          },
+          {
+            "x": 39.33,
+            "y": 18.26,
+            "z": -103.21
+          },
+          {
+            "x": 83.11,
+            "y": 14.39,
+            "z": -98.99
+          },
+          {
+            "x": 128.0,
+            "y": 5.29,
+            "z": -95.39
+          }
+        ]
+      }
+    ],
+    "lakes": [
+      {
+        "id": "country-033-lake-1",
+        "name": "Dovrane Lake 1",
+        "x": 45.2,
+        "y": 0.38,
+        "z": 60.64,
+        "radiusM": 8.9,
+        "type": "natural"
+      },
+      {
+        "id": "country-033-lake-2",
+        "name": "Dovrane Lake 2",
+        "x": 33.99,
+        "y": 0.38,
+        "z": 58.92,
+        "radiusM": 9.6,
+        "type": "natural"
+      },
+      {
+        "id": "country-033-lake-3",
+        "name": "Dovrane Lake 3",
+        "x": 10.05,
+        "y": 0.38,
+        "z": 41.54,
+        "radiusM": 20.3,
+        "type": "natural"
+      }
+    ],
+    "mountains": [
+      {
+        "id": "country-033-mountain-1",
+        "name": "Dovrane Highland 1",
+        "x": -27.07,
+        "y": 27.81,
+        "z": -9.4,
+        "heightM": 24.05,
+        "radiusM": 29.3
+      },
+      {
+        "id": "country-033-mountain-2",
+        "name": "Dovrane Highland 2",
+        "x": 50.09,
+        "y": 20.42,
+        "z": -75.65,
+        "heightM": 39.81,
+        "radiusM": 22.7
+      },
+      {
+        "id": "country-033-mountain-3",
+        "name": "Dovrane Highland 3",
+        "x": 2.88,
+        "y": 28.84,
+        "z": -36.72,
+        "heightM": 44.21,
+        "radiusM": 29.7
+      }
+    ],
+    "settlements": [
+      {
+        "id": "country-033-capital",
+        "name": "Dovrane Central",
+        "type": "capital",
+        "populationTier": "large",
+        "x": 0.0,
+        "y": 34.13,
+        "z": 0.0
+      },
+      {
+        "id": "country-033-village-1",
+        "name": "Dovrane Village 1",
+        "type": "village",
+        "populationTier": "medium",
+        "x": 53.15,
+        "y": 17.87,
+        "z": -91.63
+      },
+      {
+        "id": "country-033-village-2",
+        "name": "Dovrane Village 2",
+        "type": "village",
+        "populationTier": "small",
+        "x": 59.1,
+        "y": 25.39,
+        "z": -53.63
+      },
+      {
+        "id": "country-033-village-3",
+        "name": "Dovrane Village 3",
+        "type": "village",
+        "populationTier": "small",
+        "x": 44.57,
+        "y": 20.92,
+        "z": -80.36
+      },
+      {
+        "id": "country-033-village-4",
+        "name": "Dovrane Village 4",
+        "type": "village",
+        "populationTier": "medium",
+        "x": -47.7,
+        "y": 25.94,
+        "z": -8.3
+      },
+      {
+        "id": "country-033-village-5",
+        "name": "Dovrane Village 5",
+        "type": "village",
+        "populationTier": "small",
+        "x": 93.05,
+        "y": 28.27,
+        "z": 96.64
+      },
+      {
+        "id": "country-033-village-6",
+        "name": "Dovrane Village 6",
+        "type": "village",
+        "populationTier": "small",
+        "x": -89.23,
+        "y": 11.88,
+        "z": -64.63
+      }
+    ],
+    "roads": [
+      {
+        "id": "country-033-road-1",
+        "class": "highway",
+        "points": [
+          {
+            "x": 0.0,
+            "y": 33.63,
+            "z": 0.0
+          },
+          {
+            "x": 13.29,
+            "y": 32.2,
+            "z": -22.91
+          },
+          {
+            "x": 19.09,
+            "y": 26.87,
+            "z": -41.7
+          },
+          {
+            "x": 33.02,
+            "y": 24.04,
+            "z": -64.96
+          },
+          {
+            "x": 53.15,
+            "y": 17.37,
+            "z": -91.63
+          }
+        ]
+      },
+      {
+        "id": "country-033-road-2",
+        "class": "regional",
+        "points": [
+          {
+            "x": 0.0,
+            "y": 33.63,
+            "z": 0.0
+          },
+          {
+            "x": 6.69,
+            "y": 31.44,
+            "z": -8.96
+          },
+          {
+            "x": 22.7,
+            "y": 32.2,
+            "z": -23.05
+          },
+          {
+            "x": 44.76,
+            "y": 26.44,
+            "z": -40.46
+          },
+          {
+            "x": 59.1,
+            "y": 24.89,
+            "z": -53.63
+          }
+        ]
+      },
+      {
+        "id": "country-033-road-3",
+        "class": "regional",
+        "points": [
+          {
+            "x": 0.0,
+            "y": 33.63,
+            "z": 0.0
+          },
+          {
+            "x": 0.2,
+            "y": 31.44,
+            "z": -14.07
+          },
+          {
+            "x": 17.73,
+            "y": 29.71,
+            "z": -37.67
+          },
+          {
+            "x": 45.1,
+            "y": 23.54,
+            "z": -66.69
+          },
+          {
+            "x": 44.57,
+            "y": 20.42,
+            "z": -80.36
+          }
+        ]
+      },
+      {
+        "id": "country-033-road-4",
+        "class": "regional",
+        "points": [
+          {
+            "x": 0.0,
+            "y": 33.63,
+            "z": 0.0
+          },
+          {
+            "x": -13.16,
+            "y": 32.2,
+            "z": -1.4
+          },
+          {
+            "x": -27.28,
+            "y": 30.02,
+            "z": -2.26
+          },
+          {
+            "x": -30.87,
+            "y": 27.81,
+            "z": -8.92
+          },
+          {
+            "x": -47.7,
+            "y": 25.44,
+            "z": -8.3
+          }
+        ]
+      },
+      {
+        "id": "country-033-road-5",
+        "class": "regional",
+        "points": [
+          {
+            "x": 0.0,
+            "y": 33.63,
+            "z": 0.0
+          },
+          {
+            "x": 29.27,
+            "y": 34.44,
+            "z": 20.85
+          },
+          {
+            "x": 41.31,
+            "y": 33.72,
+            "z": 51.19
+          },
+          {
+            "x": 61.48,
+            "y": 33.1,
+            "z": 77.05
+          },
+          {
+            "x": 93.05,
+            "y": 27.77,
+            "z": 96.64
+          }
+        ]
+      },
+      {
+        "id": "country-033-road-6",
+        "class": "regional",
+        "points": [
+          {
+            "x": 0.0,
+            "y": 33.63,
+            "z": 0.0
+          },
+          {
+            "x": -30.49,
+            "y": 27.81,
+            "z": -11.65
+          },
+          {
+            "x": -47.38,
+            "y": 23.59,
+            "z": -30.8
+          },
+          {
+            "x": -67.91,
+            "y": 19.69,
+            "z": -47.93
+          },
+          {
+            "x": -89.23,
+            "y": 11.38,
+            "z": -64.63
+          }
+        ]
+      }
+    ],
+    "bridges": [
+      {
+        "id": "country-033-bridge-1",
+        "name": "Dovrane Crossing 1",
+        "roadId": "country-033-road-1",
+        "riverId": "country-033-river-1",
+        "x": 1.5,
+        "y": 17.37,
+        "z": -110.7,
+        "lengthM": 25.3
+      }
+    ],
+    "railways": [
+      {
+        "id": "country-033-rail-1",
+        "class": "intercity",
+        "points": [
+          {
+            "x": 0.0,
+            "y": 33.63,
+            "z": 0.0
+          },
+          {
+            "x": -7.59,
+            "y": 31.44,
+            "z": -18.57
+          },
+          {
+            "x": -30.43,
+            "y": 25.6,
+            "z": -28.75
+          },
+          {
+            "x": -47.86,
+            "y": 21.78,
+            "z": -41.9
+          },
+          {
+            "x": -61.02,
+            "y": 17.74,
+            "z": -57.4
+          },
+          {
+            "x": -89.23,
+            "y": 11.38,
+            "z": -64.63
+          }
+        ]
+      }
+    ],
+    "airports": [
+      {
+        "id": "country-033-airport-1",
+        "name": "Dovrane International",
+        "size": "regional",
+        "x": -0.17,
+        "y": 26.31,
+        "z": -47.63,
+        "runwayLengthM": 1800
+      }
+    ],
+    "ports": [],
+    "militaryBases": [
+      {
+        "id": "country-033-base-1",
+        "name": "Dovrane Defense Station",
+        "type": "air-ground",
+        "x": 48.46,
+        "y": 26.74,
+        "z": -43.58
+      }
+    ],
+    "metroLines": [
+      {
+        "id": "country-033-metro-1",
+        "status": "planned",
+        "serves": [
+          "country-033-capital",
+          "country-033-village-1",
+          "country-033-village-2"
+        ]
+      }
+    ],
+    "airRoutes": [
+      {
+        "id": "country-033-air-route-1",
+        "status": "regional",
+        "airportId": "country-033-airport-1"
+      }
+    ],
+    "shipLanes": [
+      {
+        "id": "country-033-ship-lane-1",
+        "status": "regional",
+        "portId": null
+      }
+    ],
+    "submarineZones": [
+      {
+        "id": "country-033-submarine-zone-1",
+        "status": "charted",
+        "depthM": 51.9
+      }
+    ]
+  },
+  "missions": [
+    {
+      "id": "country-033-intro",
+      "title": "Welcome to Dovrane",
+      "status": "template",
+      "placeholder": true
+    },
+    {
+      "id": "country-033-route",
+      "title": "Cross-Region Route",
+      "status": "template",
+      "placeholder": true
+    }
+  ],
+  "systems": {
+    "weatherProfile": "template",
+    "peopleProfile": "people-dovrane",
+    "trafficProfile": "template"
+  },
+  "nextSteps": [
+    "replace placeholder settlements",
+    "author terrain landmarks",
+    "author missions and NPC schedules"
+  ]
+}

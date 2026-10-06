@@ -1,0 +1,398 @@
+{
+  "schemaVersion": 1,
+  "countryId": "country-118",
+  "mapKey": "country/yrvik",
+  "seed": 17084045875154980576,
+  "sourceTerrain": "data/country-content/yrvik/terrain.json",
+  "roadNetwork": {
+    "segments": [
+      {
+        "roadId": "country-118-road-1",
+        "class": "arterial",
+        "lanes": 4,
+        "speedLimitKph": 90,
+        "access": {
+          "vehicles": true,
+          "pedestrians": true,
+          "emergency": true
+        },
+        "points": [
+          {
+            "x": 0.0,
+            "y": 29.52,
+            "z": 0.0
+          },
+          {
+            "x": 24.86,
+            "y": 32.24,
+            "z": -23.06
+          },
+          {
+            "x": 28.47,
+            "y": 32.36,
+            "z": -34.43
+          },
+          {
+            "x": 55.44,
+            "y": 31.51,
+            "z": -58.65
+          },
+          {
+            "x": 71.36,
+            "y": 30.18,
+            "z": -76.79
+          }
+        ],
+        "connectedSettlementIds": [
+          "country-118-capital",
+          "country-118-village-1"
+        ]
+      },
+      {
+        "roadId": "country-118-road-2",
+        "class": "collector",
+        "lanes": 2,
+        "speedLimitKph": 55,
+        "access": {
+          "vehicles": true,
+          "pedestrians": true,
+          "emergency": true
+        },
+        "points": [
+          {
+            "x": 0.0,
+            "y": 29.52,
+            "z": 0.0
+          },
+          {
+            "x": -11.68,
+            "y": 25.64,
+            "z": 26.53
+          },
+          {
+            "x": -6.69,
+            "y": 25.27,
+            "z": 43.88
+          },
+          {
+            "x": -11.71,
+            "y": 21.71,
+            "z": 66.74
+          },
+          {
+            "x": -17.9,
+            "y": 16.53,
+            "z": 90.25
+          }
+        ],
+        "connectedSettlementIds": [
+          "country-118-capital",
+          "country-118-village-2"
+        ]
+      },
+      {
+        "roadId": "country-118-road-3",
+        "class": "collector",
+        "lanes": 2,
+        "speedLimitKph": 55,
+        "access": {
+          "vehicles": true,
+          "pedestrians": true,
+          "emergency": true
+        },
+        "points": [
+          {
+            "x": 0.0,
+            "y": 29.52,
+            "z": 0.0
+          },
+          {
+            "x": 12.13,
+            "y": 29.8,
+            "z": 9.32
+          },
+          {
+            "x": 29.16,
+            "y": 30.04,
+            "z": 15.95
+          },
+          {
+            "x": 22.18,
+            "y": 28.08,
+            "z": 35.78
+          },
+          {
+            "x": 41.61,
+            "y": 25.82,
+            "z": 41.08
+          }
+        ],
+        "connectedSettlementIds": [
+          "country-118-capital",
+          "country-118-village-3"
+        ]
+      },
+      {
+        "roadId": "country-118-road-4",
+        "class": "collector",
+        "lanes": 2,
+        "speedLimitKph": 55,
+        "access": {
+          "vehicles": true,
+          "pedestrians": true,
+          "emergency": true
+        },
+        "points": [
+          {
+            "x": 0.0,
+            "y": 29.52,
+            "z": 0.0
+          },
+          {
+            "x": -27.31,
+            "y": 25.1,
+            "z": -12.08
+          },
+          {
+            "x": -44.87,
+            "y": 23.09,
+            "z": -29.52
+          },
+          {
+            "x": -59.22,
+            "y": 21.2,
+            "z": -48.72
+          },
+          {
+            "x": -94.35,
+            "y": 14.9,
+            "z": -56.5
+          }
+        ],
+        "connectedSettlementIds": [
+          "country-118-capital",
+          "country-118-village-4"
+        ]
+      }
+    ],
+    "bridges": [
+      {
+        "bridgeId": "country-118-bridge-1",
+        "roadId": "country-118-road-1",
+        "riverId": "country-118-river-1",
+        "lengthM": 18.2,
+        "loadClass": "heavy-vehicle",
+        "supportsTrain": false,
+        "x": 7.1,
+        "y": 27.12,
+        "z": -112.69
+      },
+      {
+        "bridgeId": "country-118-bridge-2",
+        "roadId": "country-118-road-2",
+        "riverId": "country-118-river-2",
+        "lengthM": 30.7,
+        "loadClass": "heavy-vehicle",
+        "supportsTrain": false,
+        "x": -70.85,
+        "y": 19.28,
+        "z": 6.07
+      }
+    ]
+  },
+  "railNetwork": {
+    "lines": [
+      {
+        "lineId": "country-118-rail-1",
+        "mode": "intercity-rail",
+        "electrification": "future-ready",
+        "trackGaugeMm": 1435,
+        "maxSpeedKph": 180,
+        "points": [
+          {
+            "x": 0.0,
+            "y": 29.52,
+            "z": 0.0
+          },
+          {
+            "x": -22.9,
+            "y": 27.6,
+            "z": -9.08
+          },
+          {
+            "x": -33.87,
+            "y": 25.39,
+            "z": -24.73
+          },
+          {
+            "x": -65.86,
+            "y": 20.71,
+            "z": -28.81
+          },
+          {
+            "x": -78.71,
+            "y": 18.54,
+            "z": -43.42
+          },
+          {
+            "x": -94.35,
+            "y": 14.9,
+            "z": -56.5
+          }
+        ]
+      }
+    ],
+    "stations": [
+      {
+        "stationId": "country-118-country-118-capital-station",
+        "settlementId": "country-118-capital",
+        "name": "Yrvik Central Central Station",
+        "service": "intercity",
+        "x": 0.0,
+        "y": 30.02,
+        "z": 0.0
+      },
+      {
+        "stationId": "country-118-country-118-village-1-station",
+        "settlementId": "country-118-village-1",
+        "name": "Yrvik Village 1 Central Station",
+        "service": "intercity",
+        "x": 71.36,
+        "y": 30.68,
+        "z": -76.79
+      },
+      {
+        "stationId": "country-118-country-118-village-2-station",
+        "settlementId": "country-118-village-2",
+        "name": "Yrvik Village 2 Central Station",
+        "service": "intercity",
+        "x": -17.9,
+        "y": 17.03,
+        "z": 90.25
+      },
+      {
+        "stationId": "country-118-country-118-village-3-station",
+        "settlementId": "country-118-village-3",
+        "name": "Yrvik Village 3 Central Station",
+        "service": "intercity",
+        "x": 41.61,
+        "y": 26.32,
+        "z": 41.08
+      },
+      {
+        "stationId": "country-118-country-118-village-4-station",
+        "settlementId": "country-118-village-4",
+        "name": "Yrvik Village 4 Central Station",
+        "service": "intercity",
+        "x": -94.35,
+        "y": 15.4,
+        "z": -56.5
+      }
+    ],
+    "trainService": {
+      "enabled": true,
+      "rollingStockProfile": "regional-electric-template"
+    }
+  },
+  "riverNetwork": {
+    "rivers": [
+      {
+        "riverId": "country-118-river-1",
+        "navigable": false,
+        "widthM": 6.2,
+        "transportMode": "waterway",
+        "points": [
+          {
+            "x": -128.0,
+            "y": 4.44,
+            "z": -104.45
+          },
+          {
+            "x": -80.23,
+            "y": 13.8,
+            "z": -108.7
+          },
+          {
+            "x": -44.7,
+            "y": 20.6,
+            "z": -106.22
+          },
+          {
+            "x": 7.1,
+            "y": 26.77,
+            "z": -112.69
+          },
+          {
+            "x": 52.58,
+            "y": 27.34,
+            "z": -115.68
+          },
+          {
+            "x": 80.47,
+            "y": 26.02,
+            "z": -109.0
+          },
+          {
+            "x": 128.0,
+            "y": 20.86,
+            "z": -113.12
+          }
+        ]
+      },
+      {
+        "riverId": "country-118-river-2",
+        "navigable": true,
+        "widthM": 18.7,
+        "transportMode": "river-freight",
+        "points": [
+          {
+            "x": -121.43,
+            "y": 3.19,
+            "z": -128.0
+          },
+          {
+            "x": -107.75,
+            "y": 10.12,
+            "z": -81.56
+          },
+          {
+            "x": -80.8,
+            "y": 18.54,
+            "z": -42.42
+          },
+          {
+            "x": -70.85,
+            "y": 18.93,
+            "z": 6.07
+          },
+          {
+            "x": -30.07,
+            "y": 23.24,
+            "z": 37.61
+          },
+          {
+            "x": -10.24,
+            "y": 19.16,
+            "z": 80.67
+          },
+          {
+            "x": 1.82,
+            "y": 13.9,
+            "z": 128.0
+          }
+        ]
+      }
+    ],
+    "riverBridges": [
+      "country-118-bridge-1",
+      "country-118-bridge-2"
+    ]
+  },
+  "simulationHooks": {
+    "cityInfrastructure": true,
+    "residentialAccess": true,
+    "trafficSimulation": true,
+    "massTransitSimulation": true,
+    "waterTrafficSimulation": true
+  }
+}

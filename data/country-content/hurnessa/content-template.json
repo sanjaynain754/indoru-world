@@ -1,0 +1,505 @@
+{
+  "schemaVersion": 1,
+  "countryId": "country-067",
+  "name": "Hurnessa",
+  "status": "playable",
+  "completion": "template",
+  "templatePolicy": {
+    "generated": true,
+    "requiresReview": true,
+    "placeholderContentAllowed": true
+  },
+  "terrain": {
+    "asset": "data/country-content/hurnessa/terrain.json",
+    "mapKey": "country/hurnessa",
+    "biome": "highland-basin"
+  },
+  "spawn": {
+    "x": 0.0,
+    "y": 1.2,
+    "z": 0.0,
+    "headingRad": 0.0
+  },
+  "settlements": [
+    {
+      "id": "country-067-capital",
+      "name": "Hurnessa Central",
+      "type": "capital",
+      "populationTier": "large",
+      "x": 0.0,
+      "y": -1.0,
+      "z": 0.0
+    },
+    {
+      "id": "country-067-village-1",
+      "name": "Hurnessa Village 1",
+      "type": "village",
+      "populationTier": "medium",
+      "x": 65.22,
+      "y": -1.0,
+      "z": -43.54
+    },
+    {
+      "id": "country-067-village-2",
+      "name": "Hurnessa Village 2",
+      "type": "village",
+      "populationTier": "small",
+      "x": -8.55,
+      "y": -1.0,
+      "z": -85.02
+    },
+    {
+      "id": "country-067-village-3",
+      "name": "Hurnessa Village 3",
+      "type": "village",
+      "populationTier": "small",
+      "x": 58.07,
+      "y": -1.0,
+      "z": -99.05
+    },
+    {
+      "id": "country-067-village-4",
+      "name": "Hurnessa Village 4",
+      "type": "village",
+      "populationTier": "medium",
+      "x": 51.81,
+      "y": -1.0,
+      "z": 104.9
+    },
+    {
+      "id": "country-067-village-5",
+      "name": "Hurnessa Village 5",
+      "type": "village",
+      "populationTier": "small",
+      "x": 97.66,
+      "y": -1.0,
+      "z": -68.65
+    }
+  ],
+  "infrastructure": {
+    "rivers": [
+      {
+        "id": "country-067-river-1",
+        "name": "Hurnessa River 1",
+        "widthM": 9.6,
+        "points": [
+          {
+            "x": -128.0,
+            "y": -1.5,
+            "z": -52.26
+          },
+          {
+            "x": -81.97,
+            "y": -1.5,
+            "z": -36.59
+          },
+          {
+            "x": -37.99,
+            "y": -1.5,
+            "z": -19.8
+          },
+          {
+            "x": -5.3,
+            "y": -1.5,
+            "z": 3.2
+          },
+          {
+            "x": 31.98,
+            "y": -1.5,
+            "z": 23.68
+          },
+          {
+            "x": 77.27,
+            "y": -1.5,
+            "z": 39.76
+          },
+          {
+            "x": 128.0,
+            "y": -1.5,
+            "z": 52.84
+          }
+        ]
+      }
+    ],
+    "lakes": [
+      {
+        "id": "country-067-lake-1",
+        "name": "Hurnessa Lake 1",
+        "x": -9.41,
+        "y": 0.38,
+        "z": -69.22,
+        "radiusM": 18.3,
+        "type": "reservoir"
+      }
+    ],
+    "mountains": [
+      {
+        "id": "country-067-mountain-1",
+        "name": "Hurnessa Highland 1",
+        "x": -29.08,
+        "y": 0.37,
+        "z": 52.9,
+        "heightM": 40.88,
+        "radiusM": 28.8
+      },
+      {
+        "id": "country-067-mountain-2",
+        "name": "Hurnessa Highland 2",
+        "x": -58.17,
+        "y": 0.37,
+        "z": -1.94,
+        "heightM": 29.81,
+        "radiusM": 26.9
+      },
+      {
+        "id": "country-067-mountain-3",
+        "name": "Hurnessa Highland 3",
+        "x": -67.04,
+        "y": 0.37,
+        "z": 53.38,
+        "heightM": 51.18,
+        "radiusM": 30.5
+      }
+    ],
+    "settlements": [
+      {
+        "id": "country-067-capital",
+        "name": "Hurnessa Central",
+        "type": "capital",
+        "populationTier": "large",
+        "x": 0.0,
+        "y": -1.0,
+        "z": 0.0
+      },
+      {
+        "id": "country-067-village-1",
+        "name": "Hurnessa Village 1",
+        "type": "village",
+        "populationTier": "medium",
+        "x": 65.22,
+        "y": -1.0,
+        "z": -43.54
+      },
+      {
+        "id": "country-067-village-2",
+        "name": "Hurnessa Village 2",
+        "type": "village",
+        "populationTier": "small",
+        "x": -8.55,
+        "y": -1.0,
+        "z": -85.02
+      },
+      {
+        "id": "country-067-village-3",
+        "name": "Hurnessa Village 3",
+        "type": "village",
+        "populationTier": "small",
+        "x": 58.07,
+        "y": -1.0,
+        "z": -99.05
+      },
+      {
+        "id": "country-067-village-4",
+        "name": "Hurnessa Village 4",
+        "type": "village",
+        "populationTier": "medium",
+        "x": 51.81,
+        "y": -1.0,
+        "z": 104.9
+      },
+      {
+        "id": "country-067-village-5",
+        "name": "Hurnessa Village 5",
+        "type": "village",
+        "populationTier": "small",
+        "x": 97.66,
+        "y": -1.0,
+        "z": -68.65
+      }
+    ],
+    "roads": [
+      {
+        "id": "country-067-road-1",
+        "class": "highway",
+        "points": [
+          {
+            "x": 0.0,
+            "y": -1.5,
+            "z": 0.0
+          },
+          {
+            "x": 13.09,
+            "y": -1.5,
+            "z": -9.12
+          },
+          {
+            "x": 35.63,
+            "y": -1.5,
+            "z": -23.43
+          },
+          {
+            "x": 40.39,
+            "y": -1.5,
+            "z": -27.97
+          },
+          {
+            "x": 65.22,
+            "y": -1.5,
+            "z": -43.54
+          }
+        ]
+      },
+      {
+        "id": "country-067-road-2",
+        "class": "regional",
+        "points": [
+          {
+            "x": 0.0,
+            "y": -1.5,
+            "z": 0.0
+          },
+          {
+            "x": -11.03,
+            "y": -1.5,
+            "z": -16.36
+          },
+          {
+            "x": -9.19,
+            "y": -1.5,
+            "z": -39.81
+          },
+          {
+            "x": -14.15,
+            "y": -1.5,
+            "z": -59.51
+          },
+          {
+            "x": -8.55,
+            "y": -1.5,
+            "z": -85.02
+          }
+        ]
+      },
+      {
+        "id": "country-067-road-3",
+        "class": "regional",
+        "points": [
+          {
+            "x": 0.0,
+            "y": -1.5,
+            "z": 0.0
+          },
+          {
+            "x": 17.39,
+            "y": -1.5,
+            "z": -26.34
+          },
+          {
+            "x": 20.38,
+            "y": -1.5,
+            "z": -44.76
+          },
+          {
+            "x": 33.83,
+            "y": -1.5,
+            "z": -68.94
+          },
+          {
+            "x": 58.07,
+            "y": -1.5,
+            "z": -99.05
+          }
+        ]
+      },
+      {
+        "id": "country-067-road-4",
+        "class": "regional",
+        "points": [
+          {
+            "x": 0.0,
+            "y": -1.5,
+            "z": 0.0
+          },
+          {
+            "x": 1.64,
+            "y": -1.5,
+            "z": 32.45
+          },
+          {
+            "x": 33.6,
+            "y": -1.5,
+            "z": 48.22
+          },
+          {
+            "x": 38.62,
+            "y": -1.5,
+            "z": 78.81
+          },
+          {
+            "x": 51.81,
+            "y": -1.5,
+            "z": 104.9
+          }
+        ]
+      },
+      {
+        "id": "country-067-road-5",
+        "class": "regional",
+        "points": [
+          {
+            "x": 0.0,
+            "y": -1.5,
+            "z": 0.0
+          },
+          {
+            "x": 14.27,
+            "y": -1.5,
+            "z": -11.58
+          },
+          {
+            "x": 41.39,
+            "y": -1.5,
+            "z": -30.23
+          },
+          {
+            "x": 73.26,
+            "y": -1.5,
+            "z": -51.49
+          },
+          {
+            "x": 97.66,
+            "y": -1.5,
+            "z": -68.65
+          }
+        ]
+      }
+    ],
+    "bridges": [
+      {
+        "id": "country-067-bridge-1",
+        "name": "Hurnessa Crossing 1",
+        "roadId": "country-067-road-1",
+        "riverId": "country-067-river-1",
+        "x": -5.3,
+        "y": -1.15,
+        "z": 3.2,
+        "lengthM": 21.6
+      }
+    ],
+    "railways": [
+      {
+        "id": "country-067-rail-1",
+        "class": "intercity",
+        "points": [
+          {
+            "x": 0.0,
+            "y": -1.5,
+            "z": 0.0
+          },
+          {
+            "x": 19.77,
+            "y": -1.5,
+            "z": -13.86
+          },
+          {
+            "x": 39.08,
+            "y": -1.5,
+            "z": -27.47
+          },
+          {
+            "x": 70.45,
+            "y": -1.5,
+            "z": -47.71
+          },
+          {
+            "x": 79.45,
+            "y": -1.5,
+            "z": -55.65
+          },
+          {
+            "x": 97.66,
+            "y": -1.5,
+            "z": -68.65
+          }
+        ]
+      }
+    ],
+    "airports": [],
+    "ports": [
+      {
+        "id": "country-067-port-1",
+        "name": "Hurnessa Maritime Port",
+        "x": -75.44,
+        "y": 0.67,
+        "z": 81.18,
+        "capacity": "small"
+      }
+    ],
+    "militaryBases": [
+      {
+        "id": "country-067-base-1",
+        "name": "Hurnessa Defense Station",
+        "type": "ground",
+        "x": -26.2,
+        "y": -1.2,
+        "z": 23.98
+      }
+    ],
+    "metroLines": [
+      {
+        "id": "country-067-metro-1",
+        "status": "planned",
+        "serves": [
+          "country-067-capital",
+          "country-067-village-1",
+          "country-067-village-2"
+        ]
+      }
+    ],
+    "airRoutes": [
+      {
+        "id": "country-067-air-route-1",
+        "status": "regional",
+        "airportId": null
+      }
+    ],
+    "shipLanes": [
+      {
+        "id": "country-067-ship-lane-1",
+        "status": "regional",
+        "portId": "country-067-port-1"
+      }
+    ],
+    "submarineZones": [
+      {
+        "id": "country-067-submarine-zone-1",
+        "status": "charted",
+        "depthM": 138.2
+      }
+    ]
+  },
+  "missions": [
+    {
+      "id": "country-067-intro",
+      "title": "Welcome to Hurnessa",
+      "status": "template",
+      "placeholder": true
+    },
+    {
+      "id": "country-067-route",
+      "title": "Cross-Region Route",
+      "status": "template",
+      "placeholder": true
+    }
+  ],
+  "systems": {
+    "weatherProfile": "template",
+    "peopleProfile": "people-hurnessa",
+    "trafficProfile": "template"
+  },
+  "nextSteps": [
+    "replace placeholder settlements",
+    "author terrain landmarks",
+    "author missions and NPC schedules"
+  ]
+}

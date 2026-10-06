@@ -1,0 +1,359 @@
+{
+  "schemaVersion": 1,
+  "countryId": "country-115",
+  "name": "Qorvane",
+  "status": "playable",
+  "completion": "template",
+  "templatePolicy": {
+    "generated": true,
+    "requiresReview": true,
+    "placeholderContentAllowed": true
+  },
+  "terrain": {
+    "asset": "data/country-content/qorvane/terrain.json",
+    "mapKey": "country/qorvane",
+    "biome": "polar-tundra"
+  },
+  "spawn": {
+    "x": 0.0,
+    "y": 1.2,
+    "z": 0.0,
+    "headingRad": 0.0
+  },
+  "settlements": [
+    {
+      "id": "country-115-capital",
+      "name": "Qorvane Central",
+      "type": "capital",
+      "populationTier": "large",
+      "x": 0.0,
+      "y": 25.35,
+      "z": 0.0
+    },
+    {
+      "id": "country-115-village-1",
+      "name": "Qorvane Village 1",
+      "type": "village",
+      "populationTier": "medium",
+      "x": -74.31,
+      "y": 9.1,
+      "z": 40.23
+    },
+    {
+      "id": "country-115-village-2",
+      "name": "Qorvane Village 2",
+      "type": "village",
+      "populationTier": "small",
+      "x": -83.71,
+      "y": 10.2,
+      "z": 9.52
+    }
+  ],
+  "infrastructure": {
+    "rivers": [
+      {
+        "id": "country-115-river-1",
+        "name": "Qorvane River 1",
+        "widthM": 14.2,
+        "points": [
+          {
+            "x": -128.0,
+            "y": -1.5,
+            "z": -117.22
+          },
+          {
+            "x": -77.73,
+            "y": 0.83,
+            "z": -118.81
+          },
+          {
+            "x": -52.14,
+            "y": 7.51,
+            "z": -106.85
+          },
+          {
+            "x": 4.98,
+            "y": 16.15,
+            "z": -112.21
+          },
+          {
+            "x": 36.68,
+            "y": 21.04,
+            "z": -103.6
+          },
+          {
+            "x": 74.86,
+            "y": 24.1,
+            "z": -98.55
+          },
+          {
+            "x": 128.0,
+            "y": 22.47,
+            "z": -101.73
+          }
+        ]
+      }
+    ],
+    "lakes": [
+      {
+        "id": "country-115-lake-1",
+        "name": "Qorvane Lake 1",
+        "x": -22.67,
+        "y": 0.37,
+        "z": 5.31,
+        "radiusM": 25.3,
+        "type": "reservoir"
+      },
+      {
+        "id": "country-115-lake-2",
+        "name": "Qorvane Lake 2",
+        "x": -55.83,
+        "y": 0.37,
+        "z": 30.74,
+        "radiusM": 11.3,
+        "type": "natural"
+      }
+    ],
+    "mountains": [
+      {
+        "id": "country-115-mountain-1",
+        "name": "Qorvane Highland 1",
+        "x": 62.05,
+        "y": 25.69,
+        "z": -74.06,
+        "heightM": 43.72,
+        "radiusM": 34.1
+      },
+      {
+        "id": "country-115-mountain-2",
+        "name": "Qorvane Highland 2",
+        "x": 45.26,
+        "y": 30.74,
+        "z": 3.69,
+        "heightM": 43.0,
+        "radiusM": 36.1
+      }
+    ],
+    "settlements": [
+      {
+        "id": "country-115-capital",
+        "name": "Qorvane Central",
+        "type": "capital",
+        "populationTier": "large",
+        "x": 0.0,
+        "y": 25.35,
+        "z": 0.0
+      },
+      {
+        "id": "country-115-village-1",
+        "name": "Qorvane Village 1",
+        "type": "village",
+        "populationTier": "medium",
+        "x": -74.31,
+        "y": 9.1,
+        "z": 40.23
+      },
+      {
+        "id": "country-115-village-2",
+        "name": "Qorvane Village 2",
+        "type": "village",
+        "populationTier": "small",
+        "x": -83.71,
+        "y": 10.2,
+        "z": 9.52
+      }
+    ],
+    "roads": [
+      {
+        "id": "country-115-road-1",
+        "class": "highway",
+        "points": [
+          {
+            "x": 0.0,
+            "y": 24.85,
+            "z": 0.0
+          },
+          {
+            "x": -17.33,
+            "y": 22.21,
+            "z": 9.37
+          },
+          {
+            "x": -42.88,
+            "y": 15.52,
+            "z": 23.26
+          },
+          {
+            "x": -54.11,
+            "y": 15.54,
+            "z": 29.28
+          },
+          {
+            "x": -74.31,
+            "y": 8.6,
+            "z": 40.23
+          }
+        ]
+      },
+      {
+        "id": "country-115-road-2",
+        "class": "regional",
+        "points": [
+          {
+            "x": 0.0,
+            "y": 24.85,
+            "z": 0.0
+          },
+          {
+            "x": -27.98,
+            "y": 18.49,
+            "z": 6.26
+          },
+          {
+            "x": -46.59,
+            "y": 15.37,
+            "z": 7.37
+          },
+          {
+            "x": -60.57,
+            "y": 12.56,
+            "z": 5.92
+          },
+          {
+            "x": -83.71,
+            "y": 9.7,
+            "z": 9.52
+          }
+        ]
+      }
+    ],
+    "bridges": [
+      {
+        "id": "country-115-bridge-1",
+        "name": "Qorvane Crossing 1",
+        "roadId": "country-115-road-1",
+        "riverId": "country-115-river-1",
+        "x": 4.98,
+        "y": 16.5,
+        "z": -112.21,
+        "lengthM": 26.2
+      }
+    ],
+    "railways": [
+      {
+        "id": "country-115-rail-1",
+        "class": "intercity",
+        "points": [
+          {
+            "x": 0.0,
+            "y": 24.85,
+            "z": 0.0
+          },
+          {
+            "x": -25.92,
+            "y": 18.49,
+            "z": 6.95
+          },
+          {
+            "x": -22.17,
+            "y": 21.74,
+            "z": -2.41
+          },
+          {
+            "x": -47.97,
+            "y": 15.37,
+            "z": 4.47
+          },
+          {
+            "x": -73.49,
+            "y": 9.7,
+            "z": 11.2
+          },
+          {
+            "x": -83.71,
+            "y": 9.7,
+            "z": 9.52
+          }
+        ]
+      }
+    ],
+    "airports": [
+      {
+        "id": "country-115-airport-1",
+        "name": "Qorvane International",
+        "size": "regional",
+        "x": -8.55,
+        "y": 21.94,
+        "z": -3.41,
+        "runwayLengthM": 900
+      }
+    ],
+    "ports": [],
+    "militaryBases": [
+      {
+        "id": "country-115-base-1",
+        "name": "Qorvane Defense Station",
+        "type": "air-ground",
+        "x": -50.78,
+        "y": 15.14,
+        "z": -36.82
+      }
+    ],
+    "metroLines": [
+      {
+        "id": "country-115-metro-1",
+        "status": "planned",
+        "serves": [
+          "country-115-capital",
+          "country-115-village-1",
+          "country-115-village-2"
+        ]
+      }
+    ],
+    "airRoutes": [
+      {
+        "id": "country-115-air-route-1",
+        "status": "regional",
+        "airportId": "country-115-airport-1"
+      }
+    ],
+    "shipLanes": [
+      {
+        "id": "country-115-ship-lane-1",
+        "status": "regional",
+        "portId": null
+      }
+    ],
+    "submarineZones": [
+      {
+        "id": "country-115-submarine-zone-1",
+        "status": "charted",
+        "depthM": 145.1
+      }
+    ]
+  },
+  "missions": [
+    {
+      "id": "country-115-intro",
+      "title": "Welcome to Qorvane",
+      "status": "template",
+      "placeholder": true
+    },
+    {
+      "id": "country-115-route",
+      "title": "Cross-Region Route",
+      "status": "template",
+      "placeholder": true
+    }
+  ],
+  "systems": {
+    "weatherProfile": "template",
+    "peopleProfile": "people-qorvane",
+    "trafficProfile": "template"
+  },
+  "nextSteps": [
+    "replace placeholder settlements",
+    "author terrain landmarks",
+    "author missions and NPC schedules"
+  ]
+}

@@ -1,0 +1,589 @@
+{
+  "schemaVersion": 1,
+  "countryId": "country-119",
+  "name": "Belnora",
+  "status": "playable",
+  "completion": "template",
+  "templatePolicy": {
+    "generated": true,
+    "requiresReview": true,
+    "placeholderContentAllowed": true
+  },
+  "terrain": {
+    "asset": "data/country-content/belnora/terrain.json",
+    "mapKey": "country/belnora",
+    "biome": "polar-tundra"
+  },
+  "spawn": {
+    "x": 0.0,
+    "y": 1.2,
+    "z": 0.0,
+    "headingRad": 0.0
+  },
+  "settlements": [
+    {
+      "id": "country-119-capital",
+      "name": "Belnora Central",
+      "type": "capital",
+      "populationTier": "large",
+      "x": 0.0,
+      "y": 25.56,
+      "z": 0.0
+    },
+    {
+      "id": "country-119-village-1",
+      "name": "Belnora Village 1",
+      "type": "village",
+      "populationTier": "medium",
+      "x": -59.72,
+      "y": 19.18,
+      "z": -33.18
+    },
+    {
+      "id": "country-119-village-2",
+      "name": "Belnora Village 2",
+      "type": "village",
+      "populationTier": "small",
+      "x": 95.02,
+      "y": 15.0,
+      "z": 60.23
+    },
+    {
+      "id": "country-119-village-3",
+      "name": "Belnora Village 3",
+      "type": "village",
+      "populationTier": "small",
+      "x": -106.27,
+      "y": 11.99,
+      "z": -103.19
+    },
+    {
+      "id": "country-119-village-4",
+      "name": "Belnora Village 4",
+      "type": "village",
+      "populationTier": "medium",
+      "x": -36.77,
+      "y": 21.0,
+      "z": 1.05
+    },
+    {
+      "id": "country-119-village-5",
+      "name": "Belnora Village 5",
+      "type": "village",
+      "populationTier": "small",
+      "x": -15.15,
+      "y": 20.35,
+      "z": 37.14
+    },
+    {
+      "id": "country-119-village-6",
+      "name": "Belnora Village 6",
+      "type": "village",
+      "populationTier": "small",
+      "x": -98.35,
+      "y": 5.69,
+      "z": 32.49
+    }
+  ],
+  "infrastructure": {
+    "rivers": [
+      {
+        "id": "country-119-river-1",
+        "name": "Belnora River 1",
+        "widthM": 11.5,
+        "points": [
+          {
+            "x": -128.0,
+            "y": -1.5,
+            "z": 75.11
+          },
+          {
+            "x": -88.14,
+            "y": 3.13,
+            "z": 50.14
+          },
+          {
+            "x": -37.2,
+            "y": 19.13,
+            "z": 19.08
+          },
+          {
+            "x": 7.77,
+            "y": 26.25,
+            "z": -8.7
+          },
+          {
+            "x": 41.21,
+            "y": 29.76,
+            "z": -30.14
+          },
+          {
+            "x": 80.82,
+            "y": 28.82,
+            "z": -54.97
+          },
+          {
+            "x": 128.0,
+            "y": 22.9,
+            "z": -83.96
+          }
+        ]
+      },
+      {
+        "id": "country-119-river-2",
+        "name": "Belnora River 2",
+        "widthM": 8.2,
+        "points": [
+          {
+            "x": 30.74,
+            "y": 30.1,
+            "z": -128.0
+          },
+          {
+            "x": 36.28,
+            "y": 30.49,
+            "z": -91.92
+          },
+          {
+            "x": 20.73,
+            "y": 29.27,
+            "z": -44.24
+          },
+          {
+            "x": 9.02,
+            "y": 26.35,
+            "z": 1.33
+          },
+          {
+            "x": -1.52,
+            "y": 18.88,
+            "z": 46.25
+          },
+          {
+            "x": 10.33,
+            "y": 14.37,
+            "z": 78.86
+          },
+          {
+            "x": -7.88,
+            "y": 7.88,
+            "z": 128.0
+          }
+        ]
+      }
+    ],
+    "lakes": [
+      {
+        "id": "country-119-lake-1",
+        "name": "Belnora Lake 1",
+        "x": 69.66,
+        "y": 0.37,
+        "z": -60.9,
+        "radiusM": 9.1,
+        "type": "reservoir"
+      }
+    ],
+    "mountains": [
+      {
+        "id": "country-119-mountain-1",
+        "name": "Belnora Highland 1",
+        "x": 65.05,
+        "y": 25.13,
+        "z": -6.07,
+        "heightM": 21.21,
+        "radiusM": 41.1
+      }
+    ],
+    "settlements": [
+      {
+        "id": "country-119-capital",
+        "name": "Belnora Central",
+        "type": "capital",
+        "populationTier": "large",
+        "x": 0.0,
+        "y": 25.56,
+        "z": 0.0
+      },
+      {
+        "id": "country-119-village-1",
+        "name": "Belnora Village 1",
+        "type": "village",
+        "populationTier": "medium",
+        "x": -59.72,
+        "y": 19.18,
+        "z": -33.18
+      },
+      {
+        "id": "country-119-village-2",
+        "name": "Belnora Village 2",
+        "type": "village",
+        "populationTier": "small",
+        "x": 95.02,
+        "y": 15.0,
+        "z": 60.23
+      },
+      {
+        "id": "country-119-village-3",
+        "name": "Belnora Village 3",
+        "type": "village",
+        "populationTier": "small",
+        "x": -106.27,
+        "y": 11.99,
+        "z": -103.19
+      },
+      {
+        "id": "country-119-village-4",
+        "name": "Belnora Village 4",
+        "type": "village",
+        "populationTier": "medium",
+        "x": -36.77,
+        "y": 21.0,
+        "z": 1.05
+      },
+      {
+        "id": "country-119-village-5",
+        "name": "Belnora Village 5",
+        "type": "village",
+        "populationTier": "small",
+        "x": -15.15,
+        "y": 20.35,
+        "z": 37.14
+      },
+      {
+        "id": "country-119-village-6",
+        "name": "Belnora Village 6",
+        "type": "village",
+        "populationTier": "small",
+        "x": -98.35,
+        "y": 5.69,
+        "z": 32.49
+      }
+    ],
+    "roads": [
+      {
+        "id": "country-119-road-1",
+        "class": "highway",
+        "points": [
+          {
+            "x": 0.0,
+            "y": 25.06,
+            "z": 0.0
+          },
+          {
+            "x": -17.75,
+            "y": 23.03,
+            "z": -6.74
+          },
+          {
+            "x": -23.7,
+            "y": 24.18,
+            "z": -19.98
+          },
+          {
+            "x": -34.84,
+            "y": 23.11,
+            "z": -30.36
+          },
+          {
+            "x": -59.72,
+            "y": 18.68,
+            "z": -33.18
+          }
+        ]
+      },
+      {
+        "id": "country-119-road-2",
+        "class": "regional",
+        "points": [
+          {
+            "x": 0.0,
+            "y": 25.06,
+            "z": 0.0
+          },
+          {
+            "x": 34.65,
+            "y": 24.57,
+            "z": 9.07
+          },
+          {
+            "x": 51.24,
+            "y": 21.47,
+            "z": 28.06
+          },
+          {
+            "x": 63.12,
+            "y": 18.44,
+            "z": 49.65
+          },
+          {
+            "x": 95.02,
+            "y": 14.5,
+            "z": 60.23
+          }
+        ]
+      },
+      {
+        "id": "country-119-road-3",
+        "class": "regional",
+        "points": [
+          {
+            "x": 0.0,
+            "y": 25.06,
+            "z": 0.0
+          },
+          {
+            "x": -29.07,
+            "y": 23.11,
+            "z": -24.42
+          },
+          {
+            "x": -57.13,
+            "y": 20.26,
+            "z": -49.4
+          },
+          {
+            "x": -79.45,
+            "y": 18.71,
+            "z": -77.53
+          },
+          {
+            "x": -106.27,
+            "y": 11.49,
+            "z": -103.19
+          }
+        ]
+      },
+      {
+        "id": "country-119-road-4",
+        "class": "regional",
+        "points": [
+          {
+            "x": 0.0,
+            "y": 25.06,
+            "z": 0.0
+          },
+          {
+            "x": -14.31,
+            "y": 23.03,
+            "z": 3.08
+          },
+          {
+            "x": -13.74,
+            "y": 23.03,
+            "z": -2.03
+          },
+          {
+            "x": -23.92,
+            "y": 23.03,
+            "z": -1.22
+          },
+          {
+            "x": -36.77,
+            "y": 20.5,
+            "z": 1.05
+          }
+        ]
+      },
+      {
+        "id": "country-119-road-5",
+        "class": "regional",
+        "points": [
+          {
+            "x": 0.0,
+            "y": 25.06,
+            "z": 0.0
+          },
+          {
+            "x": -10.24,
+            "y": 21.63,
+            "z": 12.84
+          },
+          {
+            "x": 4.0,
+            "y": 23.44,
+            "z": 12.2
+          },
+          {
+            "x": -4.48,
+            "y": 21.36,
+            "z": 24.07
+          },
+          {
+            "x": -15.15,
+            "y": 19.85,
+            "z": 37.14
+          }
+        ]
+      },
+      {
+        "id": "country-119-road-6",
+        "class": "regional",
+        "points": [
+          {
+            "x": 0.0,
+            "y": 25.06,
+            "z": 0.0
+          },
+          {
+            "x": -30.64,
+            "y": 19.13,
+            "z": 11.45
+          },
+          {
+            "x": -42.88,
+            "y": 16.22,
+            "z": 12.78
+          },
+          {
+            "x": -66.03,
+            "y": 13.16,
+            "z": 20.12
+          },
+          {
+            "x": -98.35,
+            "y": 5.19,
+            "z": 32.49
+          }
+        ]
+      }
+    ],
+    "bridges": [
+      {
+        "id": "country-119-bridge-1",
+        "name": "Belnora Crossing 1",
+        "roadId": "country-119-road-1",
+        "riverId": "country-119-river-1",
+        "x": 7.77,
+        "y": 26.6,
+        "z": -8.7,
+        "lengthM": 23.5
+      },
+      {
+        "id": "country-119-bridge-2",
+        "name": "Belnora Crossing 2",
+        "roadId": "country-119-road-2",
+        "riverId": "country-119-river-2",
+        "x": 9.02,
+        "y": 26.700000000000003,
+        "z": 1.33,
+        "lengthM": 20.2
+      }
+    ],
+    "railways": [
+      {
+        "id": "country-119-rail-1",
+        "class": "intercity",
+        "points": [
+          {
+            "x": 0.0,
+            "y": 25.06,
+            "z": 0.0
+          },
+          {
+            "x": -21.04,
+            "y": 23.03,
+            "z": 7.25
+          },
+          {
+            "x": -39.45,
+            "y": 19.13,
+            "z": 13.05
+          },
+          {
+            "x": -61.86,
+            "y": 13.16,
+            "z": 21.06
+          },
+          {
+            "x": -86.52,
+            "y": 8.24,
+            "z": 30.31
+          },
+          {
+            "x": -98.35,
+            "y": 5.19,
+            "z": 32.49
+          }
+        ]
+      }
+    ],
+    "airports": [
+      {
+        "id": "country-119-airport-1",
+        "name": "Belnora International",
+        "size": "regional",
+        "x": 0.13,
+        "y": 25.26,
+        "z": -7.1,
+        "runwayLengthM": 900
+      }
+    ],
+    "ports": [
+      {
+        "id": "country-119-port-1",
+        "name": "Belnora Maritime Port",
+        "x": 14.19,
+        "y": 0.66,
+        "z": -60.06,
+        "capacity": "small"
+      }
+    ],
+    "militaryBases": [],
+    "metroLines": [
+      {
+        "id": "country-119-metro-1",
+        "status": "planned",
+        "serves": [
+          "country-119-capital",
+          "country-119-village-1",
+          "country-119-village-2"
+        ]
+      }
+    ],
+    "airRoutes": [
+      {
+        "id": "country-119-air-route-1",
+        "status": "regional",
+        "airportId": "country-119-airport-1"
+      }
+    ],
+    "shipLanes": [
+      {
+        "id": "country-119-ship-lane-1",
+        "status": "regional",
+        "portId": "country-119-port-1"
+      }
+    ],
+    "submarineZones": [
+      {
+        "id": "country-119-submarine-zone-1",
+        "status": "charted",
+        "depthM": 40.8
+      }
+    ]
+  },
+  "missions": [
+    {
+      "id": "country-119-intro",
+      "title": "Welcome to Belnora",
+      "status": "template",
+      "placeholder": true
+    },
+    {
+      "id": "country-119-route",
+      "title": "Cross-Region Route",
+      "status": "template",
+      "placeholder": true
+    }
+  ],
+  "systems": {
+    "weatherProfile": "template",
+    "peopleProfile": "people-belnora",
+    "trafficProfile": "template"
+  },
+  "nextSteps": [
+    "replace placeholder settlements",
+    "author terrain landmarks",
+    "author missions and NPC schedules"
+  ]
+}

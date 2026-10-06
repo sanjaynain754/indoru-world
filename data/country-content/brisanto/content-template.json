@@ -1,0 +1,558 @@
+{
+  "schemaVersion": 1,
+  "countryId": "country-047",
+  "name": "Brisanto",
+  "status": "playable",
+  "completion": "template",
+  "templatePolicy": {
+    "generated": true,
+    "requiresReview": true,
+    "placeholderContentAllowed": true
+  },
+  "terrain": {
+    "asset": "data/country-content/brisanto/terrain.json",
+    "mapKey": "country/brisanto",
+    "biome": "coastal-island"
+  },
+  "spawn": {
+    "x": 0.0,
+    "y": 1.2,
+    "z": 0.0,
+    "headingRad": 0.0
+  },
+  "settlements": [
+    {
+      "id": "country-047-capital",
+      "name": "Brisanto Central",
+      "type": "capital",
+      "populationTier": "large",
+      "x": 0.0,
+      "y": 4.83,
+      "z": 0.0
+    },
+    {
+      "id": "country-047-village-1",
+      "name": "Brisanto Village 1",
+      "type": "village",
+      "populationTier": "medium",
+      "x": -50.2,
+      "y": -1.0,
+      "z": 89.35
+    },
+    {
+      "id": "country-047-village-2",
+      "name": "Brisanto Village 2",
+      "type": "village",
+      "populationTier": "small",
+      "x": 100.75,
+      "y": 13.89,
+      "z": 44.51
+    },
+    {
+      "id": "country-047-village-3",
+      "name": "Brisanto Village 3",
+      "type": "village",
+      "populationTier": "small",
+      "x": 35.76,
+      "y": 2.87,
+      "z": 73.17
+    },
+    {
+      "id": "country-047-village-4",
+      "name": "Brisanto Village 4",
+      "type": "village",
+      "populationTier": "medium",
+      "x": 7.52,
+      "y": 7.94,
+      "z": -75.74
+    },
+    {
+      "id": "country-047-village-5",
+      "name": "Brisanto Village 5",
+      "type": "village",
+      "populationTier": "small",
+      "x": 7.33,
+      "y": 6.11,
+      "z": -10.86
+    }
+  ],
+  "infrastructure": {
+    "rivers": [
+      {
+        "id": "country-047-river-1",
+        "name": "Brisanto River 1",
+        "widthM": 7.6,
+        "points": [
+          {
+            "x": -128.0,
+            "y": -1.5,
+            "z": 115.81
+          },
+          {
+            "x": -89.88,
+            "y": -1.5,
+            "z": 90.9
+          },
+          {
+            "x": -48.76,
+            "y": -1.5,
+            "z": 64.33
+          },
+          {
+            "x": 10.62,
+            "y": 4.08,
+            "z": 27.73
+          },
+          {
+            "x": 31.47,
+            "y": 7.58,
+            "z": 12.32
+          },
+          {
+            "x": 76.76,
+            "y": 16.63,
+            "z": -16.54
+          },
+          {
+            "x": 128.0,
+            "y": 23.1,
+            "z": -48.67
+          }
+        ]
+      },
+      {
+        "id": "country-047-river-2",
+        "name": "Brisanto River 2",
+        "widthM": 11.0,
+        "points": [
+          {
+            "x": 37.96,
+            "y": 9.3,
+            "z": -128.0
+          },
+          {
+            "x": 48.43,
+            "y": 13.6,
+            "z": -83.02
+          },
+          {
+            "x": 64.3,
+            "y": 14.87,
+            "z": -41.01
+          },
+          {
+            "x": 83.65,
+            "y": 16.04,
+            "z": -0.91
+          },
+          {
+            "x": 91.99,
+            "y": 13.39,
+            "z": 45.25
+          },
+          {
+            "x": 120.17,
+            "y": 13.06,
+            "z": 80.49
+          },
+          {
+            "x": 126.04,
+            "y": 9.15,
+            "z": 128.0
+          }
+        ]
+      }
+    ],
+    "lakes": [
+      {
+        "id": "country-047-lake-1",
+        "name": "Brisanto Lake 1",
+        "x": 31.59,
+        "y": 0.43,
+        "z": 76.53,
+        "radiusM": 8.5,
+        "type": "reservoir"
+      }
+    ],
+    "mountains": [
+      {
+        "id": "country-047-mountain-1",
+        "name": "Brisanto Highland 1",
+        "x": 20.48,
+        "y": 4.08,
+        "z": 25.4,
+        "heightM": 20.36,
+        "radiusM": 21.7
+      },
+      {
+        "id": "country-047-mountain-2",
+        "name": "Brisanto Highland 2",
+        "x": -9.06,
+        "y": 5.22,
+        "z": -31.12,
+        "heightM": 43.58,
+        "radiusM": 25.3
+      }
+    ],
+    "settlements": [
+      {
+        "id": "country-047-capital",
+        "name": "Brisanto Central",
+        "type": "capital",
+        "populationTier": "large",
+        "x": 0.0,
+        "y": 4.83,
+        "z": 0.0
+      },
+      {
+        "id": "country-047-village-1",
+        "name": "Brisanto Village 1",
+        "type": "village",
+        "populationTier": "medium",
+        "x": -50.2,
+        "y": -1.0,
+        "z": 89.35
+      },
+      {
+        "id": "country-047-village-2",
+        "name": "Brisanto Village 2",
+        "type": "village",
+        "populationTier": "small",
+        "x": 100.75,
+        "y": 13.89,
+        "z": 44.51
+      },
+      {
+        "id": "country-047-village-3",
+        "name": "Brisanto Village 3",
+        "type": "village",
+        "populationTier": "small",
+        "x": 35.76,
+        "y": 2.87,
+        "z": 73.17
+      },
+      {
+        "id": "country-047-village-4",
+        "name": "Brisanto Village 4",
+        "type": "village",
+        "populationTier": "medium",
+        "x": 7.52,
+        "y": 7.94,
+        "z": -75.74
+      },
+      {
+        "id": "country-047-village-5",
+        "name": "Brisanto Village 5",
+        "type": "village",
+        "populationTier": "small",
+        "x": 7.33,
+        "y": 6.11,
+        "z": -10.86
+      }
+    ],
+    "roads": [
+      {
+        "id": "country-047-road-1",
+        "class": "highway",
+        "points": [
+          {
+            "x": 0.0,
+            "y": 4.33,
+            "z": 0.0
+          },
+          {
+            "x": -4.49,
+            "y": 3.01,
+            "z": 17.91
+          },
+          {
+            "x": -25.94,
+            "y": -1.5,
+            "z": 45.14
+          },
+          {
+            "x": -34.07,
+            "y": -1.5,
+            "z": 65.04
+          },
+          {
+            "x": -50.2,
+            "y": -1.5,
+            "z": 89.35
+          }
+        ]
+      },
+      {
+        "id": "country-047-road-2",
+        "class": "regional",
+        "points": [
+          {
+            "x": 0.0,
+            "y": 4.33,
+            "z": 0.0
+          },
+          {
+            "x": 31.1,
+            "y": 8.44,
+            "z": 7.87
+          },
+          {
+            "x": 53.14,
+            "y": 10.21,
+            "z": 20.74
+          },
+          {
+            "x": 75.69,
+            "y": 13.63,
+            "z": 33.31
+          },
+          {
+            "x": 100.75,
+            "y": 13.39,
+            "z": 44.51
+          }
+        ]
+      },
+      {
+        "id": "country-047-road-3",
+        "class": "regional",
+        "points": [
+          {
+            "x": 0.0,
+            "y": 4.33,
+            "z": 0.0
+          },
+          {
+            "x": 11.06,
+            "y": 5.12,
+            "z": 17.12
+          },
+          {
+            "x": 29.67,
+            "y": 6.64,
+            "z": 30.1
+          },
+          {
+            "x": 37.7,
+            "y": 5.51,
+            "z": 48.89
+          },
+          {
+            "x": 35.76,
+            "y": 2.37,
+            "z": 73.17
+          }
+        ]
+      },
+      {
+        "id": "country-047-road-4",
+        "class": "regional",
+        "points": [
+          {
+            "x": 0.0,
+            "y": 4.33,
+            "z": 0.0
+          },
+          {
+            "x": 11.03,
+            "y": 7.28,
+            "z": -23.97
+          },
+          {
+            "x": -4.64,
+            "y": 6.71,
+            "z": -33.25
+          },
+          {
+            "x": 8.75,
+            "y": 9.63,
+            "z": -58.51
+          },
+          {
+            "x": 7.52,
+            "y": 7.44,
+            "z": -75.74
+          }
+        ]
+      },
+      {
+        "id": "country-047-road-5",
+        "class": "regional",
+        "points": [
+          {
+            "x": 0.0,
+            "y": 4.33,
+            "z": 0.0
+          },
+          {
+            "x": 13.59,
+            "y": 7.28,
+            "z": -9.18
+          },
+          {
+            "x": -5.01,
+            "y": 4.33,
+            "z": -0.66
+          },
+          {
+            "x": 17.28,
+            "y": 7.28,
+            "z": -14.63
+          },
+          {
+            "x": 7.33,
+            "y": 5.61,
+            "z": -10.86
+          }
+        ]
+      }
+    ],
+    "bridges": [
+      {
+        "id": "country-047-bridge-1",
+        "name": "Brisanto Crossing 1",
+        "roadId": "country-047-road-1",
+        "riverId": "country-047-river-1",
+        "x": 10.62,
+        "y": 4.43,
+        "z": 27.73,
+        "lengthM": 19.6
+      },
+      {
+        "id": "country-047-bridge-2",
+        "name": "Brisanto Crossing 2",
+        "roadId": "country-047-road-2",
+        "riverId": "country-047-river-2",
+        "x": 83.65,
+        "y": 16.39,
+        "z": -0.91,
+        "lengthM": 23.0
+      }
+    ],
+    "railways": [
+      {
+        "id": "country-047-rail-1",
+        "class": "intercity",
+        "points": [
+          {
+            "x": 0.0,
+            "y": 4.33,
+            "z": 0.0
+          },
+          {
+            "x": 7.68,
+            "y": 4.33,
+            "z": -5.59
+          },
+          {
+            "x": 0.96,
+            "y": 4.33,
+            "z": -3.26
+          },
+          {
+            "x": 5.25,
+            "y": 4.33,
+            "z": -6.99
+          },
+          {
+            "x": 17.07,
+            "y": 7.28,
+            "z": -14.85
+          },
+          {
+            "x": 7.33,
+            "y": 5.61,
+            "z": -10.86
+          }
+        ]
+      }
+    ],
+    "airports": [
+      {
+        "id": "country-047-airport-1",
+        "name": "Brisanto International",
+        "size": "regional",
+        "x": 27.28,
+        "y": 9.49,
+        "z": -10.19,
+        "runwayLengthM": 900
+      }
+    ],
+    "ports": [
+      {
+        "id": "country-047-port-1",
+        "name": "Brisanto Maritime Port",
+        "x": 72.41,
+        "y": 0.72,
+        "z": 56.76,
+        "capacity": "large"
+      }
+    ],
+    "militaryBases": [
+      {
+        "id": "country-047-base-1",
+        "name": "Brisanto Defense Station",
+        "type": "air-ground",
+        "x": 1.44,
+        "y": -1.2,
+        "z": 72.59
+      }
+    ],
+    "metroLines": [
+      {
+        "id": "country-047-metro-1",
+        "status": "planned",
+        "serves": [
+          "country-047-capital",
+          "country-047-village-1",
+          "country-047-village-2"
+        ]
+      }
+    ],
+    "airRoutes": [
+      {
+        "id": "country-047-air-route-1",
+        "status": "regional",
+        "airportId": "country-047-airport-1"
+      }
+    ],
+    "shipLanes": [
+      {
+        "id": "country-047-ship-lane-1",
+        "status": "regional",
+        "portId": "country-047-port-1"
+      }
+    ],
+    "submarineZones": [
+      {
+        "id": "country-047-submarine-zone-1",
+        "status": "charted",
+        "depthM": 186.4
+      }
+    ]
+  },
+  "missions": [
+    {
+      "id": "country-047-intro",
+      "title": "Welcome to Brisanto",
+      "status": "template",
+      "placeholder": true
+    },
+    {
+      "id": "country-047-route",
+      "title": "Cross-Region Route",
+      "status": "template",
+      "placeholder": true
+    }
+  ],
+  "systems": {
+    "weatherProfile": "template",
+    "peopleProfile": "people-brisanto",
+    "trafficProfile": "template"
+  },
+  "nextSteps": [
+    "replace placeholder settlements",
+    "author terrain landmarks",
+    "author missions and NPC schedules"
+  ]
+}

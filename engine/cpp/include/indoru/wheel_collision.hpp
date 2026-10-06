@@ -5,6 +5,7 @@
 #include <array>
 #include <cstddef>
 #include <limits>
+#include <vector>
 
 namespace indoru::vehicle {
 
@@ -31,11 +32,20 @@ public:
 class HeightfieldTerrain final : public TerrainCollider {
 public:
     explicit HeightfieldTerrain(float ground_height = 0.0F, float friction = 1.0F);
+    HeightfieldTerrain(std::vector<float> heights, std::size_t columns, std::size_t rows,
+                       float cell_size_m = 1.0F, float origin_x_m = 0.0F,
+                       float origin_z_m = 0.0F, float friction = 1.0F);
     [[nodiscard]] RaycastHit raycast(const Ray& ray) const override;
 
 private:
     float ground_height_;
     float friction_;
+    std::vector<float> heights_;
+    std::size_t columns_{0};
+    std::size_t rows_{0};
+    float cell_size_m_{1.0F};
+    float origin_x_m_{0.0F};
+    float origin_z_m_{0.0F};
 };
 
 enum class WheelPosition : std::uint8_t { FrontLeft, FrontRight, RearLeft, RearRight };
@@ -71,6 +81,7 @@ struct SuspensionResult final {
     float total_normal_force_n{0.0F};
     std::size_t grounded_wheels{0};
     world::Vec3 average_contact_normal{0.0F, 1.0F, 0.0F};
+    world::Vec3 total_contact_force{};
 };
 
 class WheelColliderSystem final {

@@ -1,0 +1,59 @@
+{
+  "schema": "indoru.city-building-framework.v1",
+  "firstVerticalSlice": {
+    "countryId": "country-001",
+    "country": "Avenra",
+    "capital": "Navaar"
+  },
+  "pipeline": [
+    "Terrain",
+    "RoadNetwork",
+    "CityBlocks",
+    "Plots",
+    "Utilities",
+    "Buildings",
+    "Interiors",
+    "NPCAccess",
+    "Traffic",
+    "WorldPartition"
+  ],
+  "roadClasses": [
+    "Local",
+    "Collector",
+    "Arterial",
+    "Highway"
+  ],
+  "zones": [
+    "Government",
+    "Police",
+    "Medical",
+    "Education",
+    "Commerce",
+    "Nightlife",
+    "Residential",
+    "Industrial",
+    "Transport",
+    "Culture",
+    "Utility",
+    "GreenSpace"
+  ],
+  "plotRequirements": [
+    "roadFrontage",
+    "utilityReady",
+    "zoneAssignment"
+  ],
+  "buildingRule": "Every functional building is represented as a physical world asset or an explicitly simulated distant-world representation.",
+  "ue5": {
+    "worldPartition": true,
+    "dataLayers": [
+      "Residential",
+      "Commerce",
+      "Government",
+      "Transport",
+      "Utility",
+      "Traffic",
+      "Crowd",
+      "Weather"
+    ]
+  }
+}

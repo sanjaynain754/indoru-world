@@ -14,6 +14,7 @@ struct SuspensionCarInput final {
 
 struct SuspensionCarTuning final {
     float mass_kg{1500.0F};
+    float gravity_mps2{9.81F};
     float engine_force_n{8500.0F};
     float brake_force_n{12000.0F};
     float lateral_grip_n_per_mps{4200.0F};

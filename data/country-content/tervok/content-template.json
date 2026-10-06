@@ -1,0 +1,509 @@
+{
+  "schemaVersion": 1,
+  "countryId": "country-095",
+  "name": "Tervok",
+  "status": "playable",
+  "completion": "template",
+  "templatePolicy": {
+    "generated": true,
+    "requiresReview": true,
+    "placeholderContentAllowed": true
+  },
+  "terrain": {
+    "asset": "data/country-content/tervok/terrain.json",
+    "mapKey": "country/tervok",
+    "biome": "volcanic-ashland"
+  },
+  "spawn": {
+    "x": 0.0,
+    "y": 1.2,
+    "z": 0.0,
+    "headingRad": 0.0
+  },
+  "settlements": [
+    {
+      "id": "country-095-capital",
+      "name": "Tervok Central",
+      "type": "capital",
+      "populationTier": "large",
+      "x": 0.0,
+      "y": 30.37,
+      "z": 0.0
+    },
+    {
+      "id": "country-095-village-1",
+      "name": "Tervok Village 1",
+      "type": "village",
+      "populationTier": "medium",
+      "x": 50.76,
+      "y": 28.86,
+      "z": 96.14
+    },
+    {
+      "id": "country-095-village-2",
+      "name": "Tervok Village 2",
+      "type": "village",
+      "populationTier": "small",
+      "x": -19.13,
+      "y": 21.92,
+      "z": -76.67
+    },
+    {
+      "id": "country-095-village-3",
+      "name": "Tervok Village 3",
+      "type": "village",
+      "populationTier": "small",
+      "x": 3.92,
+      "y": 23.41,
+      "z": -102.82
+    },
+    {
+      "id": "country-095-village-4",
+      "name": "Tervok Village 4",
+      "type": "village",
+      "populationTier": "medium",
+      "x": 20.77,
+      "y": 33.87,
+      "z": 14.67
+    }
+  ],
+  "infrastructure": {
+    "rivers": [
+      {
+        "id": "country-095-river-1",
+        "name": "Tervok River 1",
+        "widthM": 12.9,
+        "points": [
+          {
+            "x": -128.0,
+            "y": -0.47,
+            "z": -41.89
+          },
+          {
+            "x": -77.64,
+            "y": 9.76,
+            "z": -43.58
+          },
+          {
+            "x": -50.04,
+            "y": 17.07,
+            "z": -32.76
+          },
+          {
+            "x": -3.96,
+            "y": 28.2,
+            "z": -32.09
+          },
+          {
+            "x": 36.73,
+            "y": 35.44,
+            "z": -28.47
+          },
+          {
+            "x": 75.36,
+            "y": 40.43,
+            "z": -23.7
+          },
+          {
+            "x": 128.0,
+            "y": 36.66,
+            "z": -26.65
+          }
+        ]
+      },
+      {
+        "id": "country-095-river-2",
+        "name": "Tervok River 2",
+        "widthM": 19.8,
+        "points": [
+          {
+            "x": -9.63,
+            "y": 14.68,
+            "z": -128.0
+          },
+          {
+            "x": -12.47,
+            "y": 19.78,
+            "z": -91.78
+          },
+          {
+            "x": -50.59,
+            "y": 17.07,
+            "z": -36.15
+          },
+          {
+            "x": -56.46,
+            "y": 13.13,
+            "z": 1.74
+          },
+          {
+            "x": -74.25,
+            "y": 6.63,
+            "z": 46.18
+          },
+          {
+            "x": -72.67,
+            "y": 3.86,
+            "z": 79.97
+          },
+          {
+            "x": -96.98,
+            "y": -1.5,
+            "z": 128.0
+          }
+        ]
+      }
+    ],
+    "lakes": [
+      {
+        "id": "country-095-lake-1",
+        "name": "Tervok Lake 1",
+        "x": 65.63,
+        "y": 0.41,
+        "z": 32.99,
+        "radiusM": 24.9,
+        "type": "natural"
+      },
+      {
+        "id": "country-095-lake-2",
+        "name": "Tervok Lake 2",
+        "x": -9.13,
+        "y": 0.41,
+        "z": 71.19,
+        "radiusM": 24.8,
+        "type": "natural"
+      },
+      {
+        "id": "country-095-lake-3",
+        "name": "Tervok Lake 3",
+        "x": 36.98,
+        "y": 0.41,
+        "z": 21.7,
+        "radiusM": 21.4,
+        "type": "natural"
+      }
+    ],
+    "mountains": [
+      {
+        "id": "country-095-mountain-1",
+        "name": "Tervok Highland 1",
+        "x": -77.4,
+        "y": 5.37,
+        "z": 60.43,
+        "heightM": 39.13,
+        "radiusM": 14.1
+      },
+      {
+        "id": "country-095-mountain-2",
+        "name": "Tervok Highland 2",
+        "x": -38.92,
+        "y": 20.11,
+        "z": -53.75,
+        "heightM": 26.96,
+        "radiusM": 36.5
+      }
+    ],
+    "settlements": [
+      {
+        "id": "country-095-capital",
+        "name": "Tervok Central",
+        "type": "capital",
+        "populationTier": "large",
+        "x": 0.0,
+        "y": 30.37,
+        "z": 0.0
+      },
+      {
+        "id": "country-095-village-1",
+        "name": "Tervok Village 1",
+        "type": "village",
+        "populationTier": "medium",
+        "x": 50.76,
+        "y": 28.86,
+        "z": 96.14
+      },
+      {
+        "id": "country-095-village-2",
+        "name": "Tervok Village 2",
+        "type": "village",
+        "populationTier": "small",
+        "x": -19.13,
+        "y": 21.92,
+        "z": -76.67
+      },
+      {
+        "id": "country-095-village-3",
+        "name": "Tervok Village 3",
+        "type": "village",
+        "populationTier": "small",
+        "x": 3.92,
+        "y": 23.41,
+        "z": -102.82
+      },
+      {
+        "id": "country-095-village-4",
+        "name": "Tervok Village 4",
+        "type": "village",
+        "populationTier": "medium",
+        "x": 20.77,
+        "y": 33.87,
+        "z": 14.67
+      }
+    ],
+    "roads": [
+      {
+        "id": "country-095-road-1",
+        "class": "highway",
+        "points": [
+          {
+            "x": 0.0,
+            "y": 29.87,
+            "z": 0.0
+          },
+          {
+            "x": 24.52,
+            "y": 35.96,
+            "z": 17.53
+          },
+          {
+            "x": 34.64,
+            "y": 32.5,
+            "z": 42.98
+          },
+          {
+            "x": 46.7,
+            "y": 32.23,
+            "z": 67.36
+          },
+          {
+            "x": 50.76,
+            "y": 28.36,
+            "z": 96.14
+          }
+        ]
+      },
+      {
+        "id": "country-095-road-2",
+        "class": "regional",
+        "points": [
+          {
+            "x": 0.0,
+            "y": 29.87,
+            "z": 0.0
+          },
+          {
+            "x": -5.86,
+            "y": 29.22,
+            "z": -18.57
+          },
+          {
+            "x": -0.23,
+            "y": 27.01,
+            "z": -43.47
+          },
+          {
+            "x": -23.26,
+            "y": 23.52,
+            "z": -52.6
+          },
+          {
+            "x": -19.13,
+            "y": 21.42,
+            "z": -76.67
+          }
+        ]
+      },
+      {
+        "id": "country-095-road-3",
+        "class": "regional",
+        "points": [
+          {
+            "x": 0.0,
+            "y": 29.87,
+            "z": 0.0
+          },
+          {
+            "x": 7.05,
+            "y": 28.2,
+            "z": -29.05
+          },
+          {
+            "x": 0.4,
+            "y": 27.01,
+            "z": -50.55
+          },
+          {
+            "x": 11.8,
+            "y": 27.25,
+            "z": -81.99
+          },
+          {
+            "x": 3.92,
+            "y": 22.91,
+            "z": -102.82
+          }
+        ]
+      },
+      {
+        "id": "country-095-road-4",
+        "class": "regional",
+        "points": [
+          {
+            "x": 0.0,
+            "y": 29.87,
+            "z": 0.0
+          },
+          {
+            "x": -2.03,
+            "y": 29.87,
+            "z": 7.64
+          },
+          {
+            "x": 2.11,
+            "y": 29.9,
+            "z": 11.89
+          },
+          {
+            "x": 18.07,
+            "y": 33.37,
+            "z": 9.63
+          },
+          {
+            "x": 20.77,
+            "y": 33.37,
+            "z": 14.67
+          }
+        ]
+      }
+    ],
+    "bridges": [
+      {
+        "id": "country-095-bridge-1",
+        "name": "Tervok Crossing 1",
+        "roadId": "country-095-road-1",
+        "riverId": "country-095-river-1",
+        "x": -3.96,
+        "y": 28.55,
+        "z": -32.09,
+        "lengthM": 24.9
+      },
+      {
+        "id": "country-095-bridge-2",
+        "name": "Tervok Crossing 2",
+        "roadId": "country-095-road-2",
+        "riverId": "country-095-river-2",
+        "x": -56.46,
+        "y": 13.48,
+        "z": 1.74,
+        "lengthM": 31.8
+      }
+    ],
+    "railways": [
+      {
+        "id": "country-095-rail-1",
+        "class": "intercity",
+        "points": [
+          {
+            "x": 0.0,
+            "y": 29.87,
+            "z": 0.0
+          },
+          {
+            "x": 1.74,
+            "y": 29.87,
+            "z": 4.26
+          },
+          {
+            "x": -2.21,
+            "y": 29.9,
+            "z": 11.65
+          },
+          {
+            "x": 11.36,
+            "y": 33.37,
+            "z": 9.41
+          },
+          {
+            "x": 11.6,
+            "y": 33.37,
+            "z": 14.49
+          },
+          {
+            "x": 20.77,
+            "y": 33.37,
+            "z": 14.67
+          }
+        ]
+      }
+    ],
+    "airports": [
+      {
+        "id": "country-095-airport-1",
+        "name": "Tervok International",
+        "size": "regional",
+        "x": -43.32,
+        "y": 15.72,
+        "z": 47.43,
+        "runwayLengthM": 1800
+      }
+    ],
+    "ports": [],
+    "militaryBases": [],
+    "metroLines": [
+      {
+        "id": "country-095-metro-1",
+        "status": "planned",
+        "serves": [
+          "country-095-capital",
+          "country-095-village-1",
+          "country-095-village-2"
+        ]
+      }
+    ],
+    "airRoutes": [
+      {
+        "id": "country-095-air-route-1",
+        "status": "regional",
+        "airportId": "country-095-airport-1"
+      }
+    ],
+    "shipLanes": [
+      {
+        "id": "country-095-ship-lane-1",
+        "status": "regional",
+        "portId": null
+      }
+    ],
+    "submarineZones": [
+      {
+        "id": "country-095-submarine-zone-1",
+        "status": "charted",
+        "depthM": 77.9
+      }
+    ]
+  },
+  "missions": [
+    {
+      "id": "country-095-intro",
+      "title": "Welcome to Tervok",
+      "status": "template",
+      "placeholder": true
+    },
+    {
+      "id": "country-095-route",
+      "title": "Cross-Region Route",
+      "status": "template",
+      "placeholder": true
+    }
+  ],
+  "systems": {
+    "weatherProfile": "template",
+    "peopleProfile": "people-tervok",
+    "trafficProfile": "template"
+  },
+  "nextSteps": [
+    "replace placeholder settlements",
+    "author terrain landmarks",
+    "author missions and NPC schedules"
+  ]
+}

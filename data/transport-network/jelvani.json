@@ -1,0 +1,398 @@
+{
+  "schemaVersion": 1,
+  "countryId": "country-081",
+  "mapKey": "country/jelvani",
+  "seed": 3933273505035601801,
+  "sourceTerrain": "data/country-content/jelvani/terrain.json",
+  "roadNetwork": {
+    "segments": [
+      {
+        "roadId": "country-081-road-1",
+        "class": "arterial",
+        "lanes": 4,
+        "speedLimitKph": 90,
+        "access": {
+          "vehicles": true,
+          "pedestrians": true,
+          "emergency": true
+        },
+        "points": [
+          {
+            "x": 0.0,
+            "y": 15.83,
+            "z": 0.0
+          },
+          {
+            "x": -16.34,
+            "y": 19.41,
+            "z": 25.99
+          },
+          {
+            "x": -12.12,
+            "y": 20.05,
+            "z": 40.68
+          },
+          {
+            "x": -38.4,
+            "y": 21.86,
+            "z": 72.14
+          },
+          {
+            "x": -46.6,
+            "y": 22.66,
+            "z": 93.66
+          }
+        ],
+        "connectedSettlementIds": [
+          "country-081-capital",
+          "country-081-village-1"
+        ]
+      },
+      {
+        "roadId": "country-081-road-2",
+        "class": "collector",
+        "lanes": 2,
+        "speedLimitKph": 55,
+        "access": {
+          "vehicles": true,
+          "pedestrians": true,
+          "emergency": true
+        },
+        "points": [
+          {
+            "x": 0.0,
+            "y": 15.83,
+            "z": 0.0
+          },
+          {
+            "x": 2.26,
+            "y": 15.83,
+            "z": -5.12
+          },
+          {
+            "x": 4.8,
+            "y": 14.32,
+            "z": -10.39
+          },
+          {
+            "x": 11.49,
+            "y": 12.84,
+            "z": -17.94
+          },
+          {
+            "x": 4.03,
+            "y": 14.32,
+            "z": -17.71
+          }
+        ],
+        "connectedSettlementIds": [
+          "country-081-capital",
+          "country-081-village-2"
+        ]
+      },
+      {
+        "roadId": "country-081-road-3",
+        "class": "collector",
+        "lanes": 2,
+        "speedLimitKph": 55,
+        "access": {
+          "vehicles": true,
+          "pedestrians": true,
+          "emergency": true
+        },
+        "points": [
+          {
+            "x": 0.0,
+            "y": 15.83,
+            "z": 0.0
+          },
+          {
+            "x": -13.81,
+            "y": 18.41,
+            "z": 19.0
+          },
+          {
+            "x": -26.05,
+            "y": 20.49,
+            "z": 37.13
+          },
+          {
+            "x": -52.55,
+            "y": 22.6,
+            "z": 63.11
+          },
+          {
+            "x": -75.91,
+            "y": 23.11,
+            "z": 87.36
+          }
+        ],
+        "connectedSettlementIds": [
+          "country-081-capital",
+          "country-081-village-3"
+        ]
+      },
+      {
+        "roadId": "country-081-road-4",
+        "class": "collector",
+        "lanes": 2,
+        "speedLimitKph": 55,
+        "access": {
+          "vehicles": true,
+          "pedestrians": true,
+          "emergency": true
+        },
+        "points": [
+          {
+            "x": 0.0,
+            "y": 15.83,
+            "z": 0.0
+          },
+          {
+            "x": 28.75,
+            "y": 12.9,
+            "z": 17.44
+          },
+          {
+            "x": 50.35,
+            "y": 11.71,
+            "z": 38.82
+          },
+          {
+            "x": 88.4,
+            "y": 7.72,
+            "z": 51.14
+          },
+          {
+            "x": 103.13,
+            "y": 8.94,
+            "z": 76.29
+          }
+        ],
+        "connectedSettlementIds": [
+          "country-081-capital",
+          "country-081-village-4"
+        ]
+      }
+    ],
+    "bridges": [
+      {
+        "bridgeId": "country-081-bridge-1",
+        "roadId": "country-081-road-1",
+        "riverId": "country-081-river-1",
+        "lengthM": 19.1,
+        "loadClass": "heavy-vehicle",
+        "supportsTrain": false,
+        "x": -6.03,
+        "y": 14.67,
+        "z": -15.32
+      },
+      {
+        "bridgeId": "country-081-bridge-2",
+        "roadId": "country-081-road-2",
+        "riverId": "country-081-river-2",
+        "lengthM": 17.6,
+        "loadClass": "heavy-vehicle",
+        "supportsTrain": false,
+        "x": -77.9,
+        "y": 17.53,
+        "z": -4.68
+      }
+    ]
+  },
+  "railNetwork": {
+    "lines": [
+      {
+        "lineId": "country-081-rail-1",
+        "mode": "intercity-rail",
+        "electrification": "future-ready",
+        "trackGaugeMm": 1435,
+        "maxSpeedKph": 180,
+        "points": [
+          {
+            "x": 0.0,
+            "y": 15.83,
+            "z": 0.0
+          },
+          {
+            "x": 10.21,
+            "y": 15.08,
+            "z": 20.99
+          },
+          {
+            "x": 41.83,
+            "y": 11.71,
+            "z": 30.2
+          },
+          {
+            "x": 53.96,
+            "y": 12.82,
+            "z": 50.13
+          },
+          {
+            "x": 82.16,
+            "y": 10.46,
+            "z": 61.22
+          },
+          {
+            "x": 103.13,
+            "y": 8.94,
+            "z": 76.29
+          }
+        ]
+      }
+    ],
+    "stations": [
+      {
+        "stationId": "country-081-country-081-capital-station",
+        "settlementId": "country-081-capital",
+        "name": "Jelvani Central Central Station",
+        "service": "intercity",
+        "x": 0.0,
+        "y": 16.33,
+        "z": 0.0
+      },
+      {
+        "stationId": "country-081-country-081-village-1-station",
+        "settlementId": "country-081-village-1",
+        "name": "Jelvani Village 1 Central Station",
+        "service": "intercity",
+        "x": -46.6,
+        "y": 23.16,
+        "z": 93.66
+      },
+      {
+        "stationId": "country-081-country-081-village-2-station",
+        "settlementId": "country-081-village-2",
+        "name": "Jelvani Village 2 Central Station",
+        "service": "intercity",
+        "x": 4.03,
+        "y": 14.82,
+        "z": -17.71
+      },
+      {
+        "stationId": "country-081-country-081-village-3-station",
+        "settlementId": "country-081-village-3",
+        "name": "Jelvani Village 3 Central Station",
+        "service": "intercity",
+        "x": -75.91,
+        "y": 23.61,
+        "z": 87.36
+      },
+      {
+        "stationId": "country-081-country-081-village-4-station",
+        "settlementId": "country-081-village-4",
+        "name": "Jelvani Village 4 Central Station",
+        "service": "intercity",
+        "x": 103.13,
+        "y": 9.44,
+        "z": 76.29
+      }
+    ],
+    "trainService": {
+      "enabled": true,
+      "rollingStockProfile": "regional-electric-template"
+    }
+  },
+  "riverNetwork": {
+    "rivers": [
+      {
+        "riverId": "country-081-river-1",
+        "navigable": false,
+        "widthM": 7.1,
+        "transportMode": "waterway",
+        "points": [
+          {
+            "x": -128.0,
+            "y": 5.27,
+            "z": -92.12
+          },
+          {
+            "x": -76.75,
+            "y": 10.97,
+            "z": -72.35
+          },
+          {
+            "x": -34.05,
+            "y": 12.34,
+            "z": -47.87
+          },
+          {
+            "x": -6.03,
+            "y": 14.32,
+            "z": -15.32
+          },
+          {
+            "x": 37.56,
+            "y": 12.9,
+            "z": 8.66
+          },
+          {
+            "x": 75.86,
+            "y": 8.06,
+            "z": 35.55
+          },
+          {
+            "x": 128.0,
+            "y": 4.19,
+            "z": 54.84
+          }
+        ]
+      },
+      {
+        "riverId": "country-081-river-2",
+        "navigable": false,
+        "widthM": 5.6,
+        "transportMode": "waterway",
+        "points": [
+          {
+            "x": -91.86,
+            "y": 5.47,
+            "z": -128.0
+          },
+          {
+            "x": -86.91,
+            "y": 10.97,
+            "z": -87.06
+          },
+          {
+            "x": -98.79,
+            "y": 14.3,
+            "z": -36.86
+          },
+          {
+            "x": -77.9,
+            "y": 17.18,
+            "z": -4.68
+          },
+          {
+            "x": -76.01,
+            "y": 20.13,
+            "z": 37.95
+          },
+          {
+            "x": -88.77,
+            "y": 22.67,
+            "z": 88.64
+          },
+          {
+            "x": -80.94,
+            "y": 22.23,
+            "z": 128.0
+          }
+        ]
+      }
+    ],
+    "riverBridges": [
+      "country-081-bridge-1",
+      "country-081-bridge-2"
+    ]
+  },
+  "simulationHooks": {
+    "cityInfrastructure": true,
+    "residentialAccess": true,
+    "trafficSimulation": true,
+    "massTransitSimulation": true,
+    "waterTrafficSimulation": false
+  }
+}

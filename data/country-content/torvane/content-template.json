@@ -1,0 +1,475 @@
+{
+  "schemaVersion": 1,
+  "countryId": "country-016",
+  "name": "Torvane",
+  "status": "playable",
+  "completion": "template",
+  "templatePolicy": {
+    "generated": true,
+    "requiresReview": true,
+    "placeholderContentAllowed": true
+  },
+  "terrain": {
+    "asset": "data/country-content/torvane/terrain.json",
+    "mapKey": "country/torvane",
+    "biome": "temperate-river"
+  },
+  "spawn": {
+    "x": 0.0,
+    "y": 1.2,
+    "z": 0.0,
+    "headingRad": 0.0
+  },
+  "settlements": [
+    {
+      "id": "country-016-capital",
+      "name": "Torvane Central",
+      "type": "capital",
+      "populationTier": "large",
+      "x": 0.0,
+      "y": -1.0,
+      "z": 0.0
+    },
+    {
+      "id": "country-016-village-1",
+      "name": "Torvane Village 1",
+      "type": "village",
+      "populationTier": "medium",
+      "x": 83.68,
+      "y": -1.0,
+      "z": 42.98
+    },
+    {
+      "id": "country-016-village-2",
+      "name": "Torvane Village 2",
+      "type": "village",
+      "populationTier": "small",
+      "x": -93.66,
+      "y": 2.33,
+      "z": 25.85
+    },
+    {
+      "id": "country-016-village-3",
+      "name": "Torvane Village 3",
+      "type": "village",
+      "populationTier": "small",
+      "x": 70.64,
+      "y": -1.0,
+      "z": -32.23
+    },
+    {
+      "id": "country-016-village-4",
+      "name": "Torvane Village 4",
+      "type": "village",
+      "populationTier": "medium",
+      "x": -16.57,
+      "y": -1.0,
+      "z": -73.51
+    }
+  ],
+  "infrastructure": {
+    "rivers": [
+      {
+        "id": "country-016-river-1",
+        "name": "Torvane River 1",
+        "widthM": 19.3,
+        "points": [
+          {
+            "x": -128.0,
+            "y": 3.9,
+            "z": 13.48
+          },
+          {
+            "x": -83.41,
+            "y": -1.5,
+            "z": 2.86
+          },
+          {
+            "x": -37.25,
+            "y": -1.5,
+            "z": -8.62
+          },
+          {
+            "x": -1.24,
+            "y": -1.5,
+            "z": -14.51
+          },
+          {
+            "x": 33.0,
+            "y": -1.5,
+            "z": -19.44
+          },
+          {
+            "x": 88.38,
+            "y": -1.5,
+            "z": -35.99
+          },
+          {
+            "x": 128.0,
+            "y": -1.5,
+            "z": -43.87
+          }
+        ]
+      }
+    ],
+    "lakes": [
+      {
+        "id": "country-016-lake-1",
+        "name": "Torvane Lake 1",
+        "x": 18.24,
+        "y": 0.4,
+        "z": 18.43,
+        "radiusM": 22.0,
+        "type": "reservoir"
+      },
+      {
+        "id": "country-016-lake-2",
+        "name": "Torvane Lake 2",
+        "x": -70.15,
+        "y": 0.4,
+        "z": -70.3,
+        "radiusM": 15.9,
+        "type": "natural"
+      },
+      {
+        "id": "country-016-lake-3",
+        "name": "Torvane Lake 3",
+        "x": -3.36,
+        "y": 0.4,
+        "z": -17.58,
+        "radiusM": 9.6,
+        "type": "natural"
+      }
+    ],
+    "mountains": [
+      {
+        "id": "country-016-mountain-1",
+        "name": "Torvane Highland 1",
+        "x": -45.1,
+        "y": 0.39,
+        "z": 75.29,
+        "heightM": 39.92,
+        "radiusM": 19.5
+      },
+      {
+        "id": "country-016-mountain-2",
+        "name": "Torvane Highland 2",
+        "x": 28.76,
+        "y": 0.39,
+        "z": 51.37,
+        "heightM": 50.58,
+        "radiusM": 30.8
+      },
+      {
+        "id": "country-016-mountain-3",
+        "name": "Torvane Highland 3",
+        "x": -49.85,
+        "y": 0.39,
+        "z": 4.71,
+        "heightM": 57.0,
+        "radiusM": 20.9
+      }
+    ],
+    "settlements": [
+      {
+        "id": "country-016-capital",
+        "name": "Torvane Central",
+        "type": "capital",
+        "populationTier": "large",
+        "x": 0.0,
+        "y": -1.0,
+        "z": 0.0
+      },
+      {
+        "id": "country-016-village-1",
+        "name": "Torvane Village 1",
+        "type": "village",
+        "populationTier": "medium",
+        "x": 83.68,
+        "y": -1.0,
+        "z": 42.98
+      },
+      {
+        "id": "country-016-village-2",
+        "name": "Torvane Village 2",
+        "type": "village",
+        "populationTier": "small",
+        "x": -93.66,
+        "y": 2.33,
+        "z": 25.85
+      },
+      {
+        "id": "country-016-village-3",
+        "name": "Torvane Village 3",
+        "type": "village",
+        "populationTier": "small",
+        "x": 70.64,
+        "y": -1.0,
+        "z": -32.23
+      },
+      {
+        "id": "country-016-village-4",
+        "name": "Torvane Village 4",
+        "type": "village",
+        "populationTier": "medium",
+        "x": -16.57,
+        "y": -1.0,
+        "z": -73.51
+      }
+    ],
+    "roads": [
+      {
+        "id": "country-016-road-1",
+        "class": "highway",
+        "points": [
+          {
+            "x": 0.0,
+            "y": -1.5,
+            "z": 0.0
+          },
+          {
+            "x": 15.15,
+            "y": -1.5,
+            "z": 13.92
+          },
+          {
+            "x": 42.71,
+            "y": -1.5,
+            "z": 21.01
+          },
+          {
+            "x": 66.43,
+            "y": -1.5,
+            "z": 30.22
+          },
+          {
+            "x": 83.68,
+            "y": -1.5,
+            "z": 42.98
+          }
+        ]
+      },
+      {
+        "id": "country-016-road-2",
+        "class": "regional",
+        "points": [
+          {
+            "x": 0.0,
+            "y": -1.5,
+            "z": 0.0
+          },
+          {
+            "x": -25.47,
+            "y": -1.5,
+            "z": 7.59
+          },
+          {
+            "x": -41.67,
+            "y": -1.5,
+            "z": 10.09
+          },
+          {
+            "x": -79.93,
+            "y": -0.39,
+            "z": 24.71
+          },
+          {
+            "x": -93.66,
+            "y": 1.83,
+            "z": 25.85
+          }
+        ]
+      },
+      {
+        "id": "country-016-road-3",
+        "class": "regional",
+        "points": [
+          {
+            "x": 0.0,
+            "y": -1.5,
+            "z": 0.0
+          },
+          {
+            "x": 9.52,
+            "y": -1.5,
+            "z": -3.58
+          },
+          {
+            "x": 37.67,
+            "y": -1.5,
+            "z": -17.41
+          },
+          {
+            "x": 53.77,
+            "y": -1.5,
+            "z": -24.61
+          },
+          {
+            "x": 70.64,
+            "y": -1.5,
+            "z": -32.23
+          }
+        ]
+      },
+      {
+        "id": "country-016-road-4",
+        "class": "regional",
+        "points": [
+          {
+            "x": 0.0,
+            "y": -1.5,
+            "z": 0.0
+          },
+          {
+            "x": 4.87,
+            "y": -1.5,
+            "z": -23.34
+          },
+          {
+            "x": -1.89,
+            "y": -1.5,
+            "z": -40.27
+          },
+          {
+            "x": -16.46,
+            "y": -1.5,
+            "z": -52.91
+          },
+          {
+            "x": -16.57,
+            "y": -1.5,
+            "z": -73.51
+          }
+        ]
+      }
+    ],
+    "bridges": [
+      {
+        "id": "country-016-bridge-1",
+        "name": "Torvane Crossing 1",
+        "roadId": "country-016-road-1",
+        "riverId": "country-016-river-1",
+        "x": -1.24,
+        "y": -1.15,
+        "z": -14.51,
+        "lengthM": 31.3
+      }
+    ],
+    "railways": [
+      {
+        "id": "country-016-rail-1",
+        "class": "intercity",
+        "points": [
+          {
+            "x": 0.0,
+            "y": -1.5,
+            "z": 0.0
+          },
+          {
+            "x": 1.46,
+            "y": -1.5,
+            "z": -17.33
+          },
+          {
+            "x": 0.89,
+            "y": -1.5,
+            "z": -33.54
+          },
+          {
+            "x": -5.77,
+            "y": -1.5,
+            "z": -46.4
+          },
+          {
+            "x": -3.26,
+            "y": -1.5,
+            "z": -64.31
+          },
+          {
+            "x": -16.57,
+            "y": -1.5,
+            "z": -73.51
+          }
+        ]
+      }
+    ],
+    "airports": [
+      {
+        "id": "country-016-airport-1",
+        "name": "Torvane International",
+        "size": "regional",
+        "x": -31.36,
+        "y": -1.3,
+        "z": -51.04,
+        "runwayLengthM": 1800
+      }
+    ],
+    "ports": [
+      {
+        "id": "country-016-port-1",
+        "name": "Torvane Maritime Port",
+        "x": 85.8,
+        "y": 0.69,
+        "z": -46.25,
+        "capacity": "large"
+      }
+    ],
+    "militaryBases": [],
+    "metroLines": [
+      {
+        "id": "country-016-metro-1",
+        "status": "planned",
+        "serves": [
+          "country-016-capital",
+          "country-016-village-1",
+          "country-016-village-2"
+        ]
+      }
+    ],
+    "airRoutes": [
+      {
+        "id": "country-016-air-route-1",
+        "status": "regional",
+        "airportId": "country-016-airport-1"
+      }
+    ],
+    "shipLanes": [
+      {
+        "id": "country-016-ship-lane-1",
+        "status": "regional",
+        "portId": "country-016-port-1"
+      }
+    ],
+    "submarineZones": [
+      {
+        "id": "country-016-submarine-zone-1",
+        "status": "charted",
+        "depthM": 45.7
+      }
+    ]
+  },
+  "missions": [
+    {
+      "id": "country-016-intro",
+      "title": "Welcome to Torvane",
+      "status": "template",
+      "placeholder": true
+    },
+    {
+      "id": "country-016-route",
+      "title": "Cross-Region Route",
+      "status": "template",
+      "placeholder": true
+    }
+  ],
+  "systems": {
+    "weatherProfile": "template",
+    "peopleProfile": "people-torvane",
+    "trafficProfile": "template"
+  },
+  "nextSteps": [
+    "replace placeholder settlements",
+    "author terrain landmarks",
+    "author missions and NPC schedules"
+  ]
+}

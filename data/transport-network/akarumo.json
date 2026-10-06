@@ -1,0 +1,555 @@
+{
+  "schemaVersion": 1,
+  "countryId": "country-080",
+  "mapKey": "country/akarumo",
+  "seed": 12412582996044527833,
+  "sourceTerrain": "data/country-content/akarumo/terrain.json",
+  "roadNetwork": {
+    "segments": [
+      {
+        "roadId": "country-080-road-1",
+        "class": "arterial",
+        "lanes": 4,
+        "speedLimitKph": 90,
+        "access": {
+          "vehicles": true,
+          "pedestrians": true,
+          "emergency": true
+        },
+        "points": [
+          {
+            "x": 0.0,
+            "y": 24.18,
+            "z": 0.0
+          },
+          {
+            "x": -9.04,
+            "y": 24.02,
+            "z": -0.58
+          },
+          {
+            "x": -41.89,
+            "y": 22.72,
+            "z": 11.93
+          },
+          {
+            "x": -42.28,
+            "y": 22.24,
+            "z": 6.6
+          },
+          {
+            "x": -64.89,
+            "y": 21.25,
+            "z": 13.48
+          }
+        ],
+        "connectedSettlementIds": [
+          "country-080-capital",
+          "country-080-village-1"
+        ]
+      },
+      {
+        "roadId": "country-080-road-2",
+        "class": "collector",
+        "lanes": 2,
+        "speedLimitKph": 55,
+        "access": {
+          "vehicles": true,
+          "pedestrians": true,
+          "emergency": true
+        },
+        "points": [
+          {
+            "x": 0.0,
+            "y": 24.18,
+            "z": 0.0
+          },
+          {
+            "x": -8.4,
+            "y": 24.4,
+            "z": 11.39
+          },
+          {
+            "x": 1.68,
+            "y": 24.34,
+            "z": 12.61
+          },
+          {
+            "x": -2.61,
+            "y": 24.34,
+            "z": 21.74
+          },
+          {
+            "x": 7.96,
+            "y": 24.34,
+            "z": 22.69
+          }
+        ],
+        "connectedSettlementIds": [
+          "country-080-capital",
+          "country-080-village-2"
+        ]
+      },
+      {
+        "roadId": "country-080-road-3",
+        "class": "collector",
+        "lanes": 2,
+        "speedLimitKph": 55,
+        "access": {
+          "vehicles": true,
+          "pedestrians": true,
+          "emergency": true
+        },
+        "points": [
+          {
+            "x": 0.0,
+            "y": 24.18,
+            "z": 0.0
+          },
+          {
+            "x": -24.97,
+            "y": 23.82,
+            "z": 18.25
+          },
+          {
+            "x": -49.61,
+            "y": 22.95,
+            "z": 36.32
+          },
+          {
+            "x": -60.79,
+            "y": 21.44,
+            "z": 46.98
+          },
+          {
+            "x": -96.49,
+            "y": 17.25,
+            "z": 71.13
+          }
+        ],
+        "connectedSettlementIds": [
+          "country-080-capital",
+          "country-080-village-3"
+        ]
+      },
+      {
+        "roadId": "country-080-road-4",
+        "class": "collector",
+        "lanes": 2,
+        "speedLimitKph": 55,
+        "access": {
+          "vehicles": true,
+          "pedestrians": true,
+          "emergency": true
+        },
+        "points": [
+          {
+            "x": 0.0,
+            "y": 24.18,
+            "z": 0.0
+          },
+          {
+            "x": -0.35,
+            "y": 23.55,
+            "z": -19.0
+          },
+          {
+            "x": -8.91,
+            "y": 22.27,
+            "z": -33.48
+          },
+          {
+            "x": -6.98,
+            "y": 21.31,
+            "z": -53.73
+          },
+          {
+            "x": -5.36,
+            "y": 18.8,
+            "z": -73.81
+          }
+        ],
+        "connectedSettlementIds": [
+          "country-080-capital",
+          "country-080-village-4"
+        ]
+      },
+      {
+        "roadId": "country-080-road-5",
+        "class": "collector",
+        "lanes": 2,
+        "speedLimitKph": 55,
+        "access": {
+          "vehicles": true,
+          "pedestrians": true,
+          "emergency": true
+        },
+        "points": [
+          {
+            "x": 0.0,
+            "y": 24.18,
+            "z": 0.0
+          },
+          {
+            "x": 7.89,
+            "y": 23.55,
+            "z": -8.71
+          },
+          {
+            "x": 4.45,
+            "y": 23.55,
+            "z": -11.19
+          },
+          {
+            "x": 25.79,
+            "y": 21.74,
+            "z": -27.3
+          },
+          {
+            "x": 18.91,
+            "y": 22.4,
+            "z": -27.89
+          }
+        ],
+        "connectedSettlementIds": [
+          "country-080-capital",
+          "country-080-village-5"
+        ]
+      },
+      {
+        "roadId": "country-080-road-6",
+        "class": "collector",
+        "lanes": 2,
+        "speedLimitKph": 55,
+        "access": {
+          "vehicles": true,
+          "pedestrians": true,
+          "emergency": true
+        },
+        "points": [
+          {
+            "x": 0.0,
+            "y": 24.18,
+            "z": 0.0
+          },
+          {
+            "x": -25.89,
+            "y": 23.32,
+            "z": -0.12
+          },
+          {
+            "x": -34.8,
+            "y": 22.58,
+            "z": -9.58
+          },
+          {
+            "x": -62.38,
+            "y": 20.57,
+            "z": -8.77
+          },
+          {
+            "x": -79.8,
+            "y": 19.37,
+            "z": -13.54
+          }
+        ],
+        "connectedSettlementIds": [
+          "country-080-capital",
+          "country-080-village-6"
+        ]
+      }
+    ],
+    "bridges": [
+      {
+        "bridgeId": "country-080-bridge-1",
+        "roadId": "country-080-road-1",
+        "riverId": "country-080-river-1",
+        "lengthM": 18.3,
+        "loadClass": "heavy-vehicle",
+        "supportsTrain": false,
+        "x": -10.53,
+        "y": 24.75,
+        "z": 15.17
+      },
+      {
+        "bridgeId": "country-080-bridge-2",
+        "roadId": "country-080-road-2",
+        "riverId": "country-080-river-2",
+        "lengthM": 20.7,
+        "loadClass": "heavy-vehicle",
+        "supportsTrain": false,
+        "x": 27.3,
+        "y": 22.950000000000003,
+        "z": -0.35
+      },
+      {
+        "bridgeId": "country-080-bridge-3",
+        "roadId": "country-080-road-3",
+        "riverId": "country-080-river-3",
+        "lengthM": 30.4,
+        "loadClass": "heavy-vehicle",
+        "supportsTrain": false,
+        "x": -10.19,
+        "y": 24.75,
+        "z": 16.53
+      }
+    ]
+  },
+  "railNetwork": {
+    "lines": [
+      {
+        "lineId": "country-080-rail-1",
+        "mode": "intercity-rail",
+        "electrification": "future-ready",
+        "trackGaugeMm": 1435,
+        "maxSpeedKph": 180,
+        "points": [
+          {
+            "x": 0.0,
+            "y": 24.18,
+            "z": 0.0
+          },
+          {
+            "x": -12.2,
+            "y": 24.02,
+            "z": -4.78
+          },
+          {
+            "x": -24.14,
+            "y": 22.58,
+            "z": -9.7
+          },
+          {
+            "x": -39.82,
+            "y": 22.58,
+            "z": -12.55
+          },
+          {
+            "x": -71.38,
+            "y": 20.93,
+            "z": -6.69
+          },
+          {
+            "x": -79.8,
+            "y": 19.37,
+            "z": -13.54
+          }
+        ]
+      }
+    ],
+    "stations": [
+      {
+        "stationId": "country-080-country-080-capital-station",
+        "settlementId": "country-080-capital",
+        "name": "Akarumo Central Central Station",
+        "service": "intercity",
+        "x": 0.0,
+        "y": 24.68,
+        "z": 0.0
+      },
+      {
+        "stationId": "country-080-country-080-village-1-station",
+        "settlementId": "country-080-village-1",
+        "name": "Akarumo Village 1 Central Station",
+        "service": "intercity",
+        "x": -64.89,
+        "y": 21.75,
+        "z": 13.48
+      },
+      {
+        "stationId": "country-080-country-080-village-2-station",
+        "settlementId": "country-080-village-2",
+        "name": "Akarumo Village 2 Central Station",
+        "service": "intercity",
+        "x": 7.96,
+        "y": 24.84,
+        "z": 22.69
+      },
+      {
+        "stationId": "country-080-country-080-village-3-station",
+        "settlementId": "country-080-village-3",
+        "name": "Akarumo Village 3 Central Station",
+        "service": "intercity",
+        "x": -96.49,
+        "y": 17.75,
+        "z": 71.13
+      },
+      {
+        "stationId": "country-080-country-080-village-4-station",
+        "settlementId": "country-080-village-4",
+        "name": "Akarumo Village 4 Central Station",
+        "service": "intercity",
+        "x": -5.36,
+        "y": 19.3,
+        "z": -73.81
+      },
+      {
+        "stationId": "country-080-country-080-village-5-station",
+        "settlementId": "country-080-village-5",
+        "name": "Akarumo Village 5 Central Station",
+        "service": "intercity",
+        "x": 18.91,
+        "y": 22.9,
+        "z": -27.89
+      },
+      {
+        "stationId": "country-080-country-080-village-6-station",
+        "settlementId": "country-080-village-6",
+        "name": "Akarumo Village 6 Central Station",
+        "service": "intercity",
+        "x": -79.8,
+        "y": 19.87,
+        "z": -13.54
+      }
+    ],
+    "trainService": {
+      "enabled": true,
+      "rollingStockProfile": "regional-electric-template"
+    }
+  },
+  "riverNetwork": {
+    "rivers": [
+      {
+        "riverId": "country-080-river-1",
+        "navigable": false,
+        "widthM": 6.3,
+        "transportMode": "waterway",
+        "points": [
+          {
+            "x": -128.0,
+            "y": 12.7,
+            "z": 67.5
+          },
+          {
+            "x": -77.51,
+            "y": 19.63,
+            "z": 43.82
+          },
+          {
+            "x": -39.34,
+            "y": 23.93,
+            "z": 26.92
+          },
+          {
+            "x": -10.53,
+            "y": 24.4,
+            "z": 15.17
+          },
+          {
+            "x": 37.73,
+            "y": 22.6,
+            "z": -7.29
+          },
+          {
+            "x": 85.54,
+            "y": 16.46,
+            "z": -29.49
+          },
+          {
+            "x": 128.0,
+            "y": 8.37,
+            "z": -48.75
+          }
+        ]
+      },
+      {
+        "riverId": "country-080-river-2",
+        "navigable": false,
+        "widthM": 8.7,
+        "transportMode": "waterway",
+        "points": [
+          {
+            "x": -46.98,
+            "y": 14.25,
+            "z": -128.0
+          },
+          {
+            "x": -19.99,
+            "y": 19.13,
+            "z": -86.68
+          },
+          {
+            "x": 0.06,
+            "y": 21.31,
+            "z": -41.53
+          },
+          {
+            "x": 27.3,
+            "y": 22.6,
+            "z": -0.35
+          },
+          {
+            "x": 45.71,
+            "y": 19.88,
+            "z": 45.7
+          },
+          {
+            "x": 74.6,
+            "y": 16.02,
+            "z": 85.98
+          },
+          {
+            "x": 100.33,
+            "y": 9.26,
+            "z": 128.0
+          }
+        ]
+      },
+      {
+        "riverId": "country-080-river-3",
+        "navigable": true,
+        "widthM": 18.4,
+        "transportMode": "river-freight",
+        "points": [
+          {
+            "x": -128.0,
+            "y": 14.78,
+            "z": -5.86
+          },
+          {
+            "x": -87.05,
+            "y": 19.52,
+            "z": 0.68
+          },
+          {
+            "x": -30.8,
+            "y": 23.32,
+            "z": -1.2
+          },
+          {
+            "x": -10.19,
+            "y": 24.4,
+            "z": 16.53
+          },
+          {
+            "x": 48.46,
+            "y": 20.72,
+            "z": 13.34
+          },
+          {
+            "x": 84.08,
+            "y": 16.94,
+            "z": 22.81
+          },
+          {
+            "x": 128.0,
+            "y": 11.39,
+            "z": 27.71
+          }
+        ]
+      }
+    ],
+    "riverBridges": [
+      "country-080-bridge-1",
+      "country-080-bridge-2",
+      "country-080-bridge-3"
+    ]
+  },
+  "simulationHooks": {
+    "cityInfrastructure": true,
+    "residentialAccess": true,
+    "trafficSimulation": true,
+    "massTransitSimulation": true,
+    "waterTrafficSimulation": true
+  }
+}

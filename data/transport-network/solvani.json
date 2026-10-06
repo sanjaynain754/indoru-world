@@ -1,0 +1,241 @@
+{
+  "schemaVersion": 1,
+  "countryId": "country-002",
+  "mapKey": "country/solvani",
+  "seed": 15554267112641692916,
+  "sourceTerrain": "data/country-content/solvani/terrain.json",
+  "roadNetwork": {
+    "segments": [
+      {
+        "roadId": "country-002-road-1",
+        "class": "arterial",
+        "lanes": 4,
+        "speedLimitKph": 90,
+        "access": {
+          "vehicles": true,
+          "pedestrians": true,
+          "emergency": true
+        },
+        "points": [
+          {
+            "x": 0.0,
+            "y": 10.62,
+            "z": 0.0
+          },
+          {
+            "x": -4.81,
+            "y": 8.67,
+            "z": 15.19
+          },
+          {
+            "x": -4.22,
+            "y": 6.48,
+            "z": 27.4
+          },
+          {
+            "x": -5.08,
+            "y": 4.28,
+            "z": 40.42
+          },
+          {
+            "x": -21.95,
+            "y": 4.97,
+            "z": 62.24
+          }
+        ],
+        "connectedSettlementIds": [
+          "country-002-capital",
+          "country-002-village-1"
+        ]
+      },
+      {
+        "roadId": "country-002-road-2",
+        "class": "collector",
+        "lanes": 2,
+        "speedLimitKph": 55,
+        "access": {
+          "vehicles": true,
+          "pedestrians": true,
+          "emergency": true
+        },
+        "points": [
+          {
+            "x": 0.0,
+            "y": 10.62,
+            "z": 0.0
+          },
+          {
+            "x": 12.5,
+            "y": 10.67,
+            "z": -25.47
+          },
+          {
+            "x": 7.49,
+            "y": 13.63,
+            "z": -41.32
+          },
+          {
+            "x": 13.53,
+            "y": 11.59,
+            "z": -63.24
+          },
+          {
+            "x": 17.3,
+            "y": 11.36,
+            "z": -83.92
+          }
+        ],
+        "connectedSettlementIds": [
+          "country-002-capital",
+          "country-002-village-2"
+        ]
+      }
+    ],
+    "bridges": [
+      {
+        "bridgeId": "country-002-bridge-1",
+        "roadId": "country-002-road-1",
+        "riverId": "country-002-river-1",
+        "lengthM": 32.3,
+        "loadClass": "heavy-vehicle",
+        "supportsTrain": false,
+        "x": -1.69,
+        "y": -0.66,
+        "z": 93.35
+      }
+    ]
+  },
+  "railNetwork": {
+    "lines": [
+      {
+        "lineId": "country-002-rail-1",
+        "mode": "intercity-rail",
+        "electrification": "future-ready",
+        "trackGaugeMm": 1435,
+        "maxSpeedKph": 180,
+        "points": [
+          {
+            "x": 0.0,
+            "y": 10.62,
+            "z": 0.0
+          },
+          {
+            "x": 8.39,
+            "y": 9.4,
+            "z": -19.5
+          },
+          {
+            "x": 4.28,
+            "y": 13.14,
+            "z": -32.11
+          },
+          {
+            "x": -0.41,
+            "y": 13.63,
+            "z": -44.42
+          },
+          {
+            "x": 11.23,
+            "y": 11.59,
+            "z": -65.7
+          },
+          {
+            "x": 17.3,
+            "y": 11.36,
+            "z": -83.92
+          }
+        ]
+      }
+    ],
+    "stations": [
+      {
+        "stationId": "country-002-country-002-capital-station",
+        "settlementId": "country-002-capital",
+        "name": "Solvani Central Central Station",
+        "service": "intercity",
+        "x": 0.0,
+        "y": 11.12,
+        "z": 0.0
+      },
+      {
+        "stationId": "country-002-country-002-village-1-station",
+        "settlementId": "country-002-village-1",
+        "name": "Solvani Village 1 Central Station",
+        "service": "intercity",
+        "x": -21.95,
+        "y": 5.47,
+        "z": 62.24
+      },
+      {
+        "stationId": "country-002-country-002-village-2-station",
+        "settlementId": "country-002-village-2",
+        "name": "Solvani Village 2 Central Station",
+        "service": "intercity",
+        "x": 17.3,
+        "y": 11.86,
+        "z": -83.92
+      }
+    ],
+    "trainService": {
+      "enabled": true,
+      "rollingStockProfile": "regional-electric-template"
+    }
+  },
+  "riverNetwork": {
+    "rivers": [
+      {
+        "riverId": "country-002-river-1",
+        "navigable": true,
+        "widthM": 20.3,
+        "transportMode": "river-freight",
+        "points": [
+          {
+            "x": -128.0,
+            "y": 16.4,
+            "z": 60.94
+          },
+          {
+            "x": -74.26,
+            "y": 14.91,
+            "z": 65.34
+          },
+          {
+            "x": -44.7,
+            "y": 8.25,
+            "z": 83.04
+          },
+          {
+            "x": -1.69,
+            "y": -1.01,
+            "z": 93.35
+          },
+          {
+            "x": 53.53,
+            "y": -1.5,
+            "z": 96.93
+          },
+          {
+            "x": 93.15,
+            "y": -1.5,
+            "z": 109.1
+          },
+          {
+            "x": 128.0,
+            "y": -1.5,
+            "z": 123.89
+          }
+        ]
+      }
+    ],
+    "riverBridges": [
+      "country-002-bridge-1"
+    ]
+  },
+  "simulationHooks": {
+    "cityInfrastructure": true,
+    "residentialAccess": true,
+    "trafficSimulation": true,
+    "massTransitSimulation": true,
+    "waterTrafficSimulation": true
+  }
+}

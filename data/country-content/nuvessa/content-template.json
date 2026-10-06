@@ -1,0 +1,537 @@
+{
+  "schemaVersion": 1,
+  "countryId": "country-048",
+  "name": "Nuvessa",
+  "status": "playable",
+  "completion": "template",
+  "templatePolicy": {
+    "generated": true,
+    "requiresReview": true,
+    "placeholderContentAllowed": true
+  },
+  "terrain": {
+    "asset": "data/country-content/nuvessa/terrain.json",
+    "mapKey": "country/nuvessa",
+    "biome": "coastal-island"
+  },
+  "spawn": {
+    "x": 0.0,
+    "y": 1.2,
+    "z": 0.0,
+    "headingRad": 0.0
+  },
+  "settlements": [
+    {
+      "id": "country-048-capital",
+      "name": "Nuvessa Central",
+      "type": "capital",
+      "populationTier": "large",
+      "x": 0.0,
+      "y": 10.89,
+      "z": 0.0
+    },
+    {
+      "id": "country-048-village-1",
+      "name": "Nuvessa Village 1",
+      "type": "village",
+      "populationTier": "medium",
+      "x": -28.22,
+      "y": -1.0,
+      "z": -98.32
+    },
+    {
+      "id": "country-048-village-2",
+      "name": "Nuvessa Village 2",
+      "type": "village",
+      "populationTier": "small",
+      "x": 3.77,
+      "y": 1.82,
+      "z": -103.89
+    },
+    {
+      "id": "country-048-village-3",
+      "name": "Nuvessa Village 3",
+      "type": "village",
+      "populationTier": "small",
+      "x": -30.97,
+      "y": 0.43,
+      "z": -70.65
+    },
+    {
+      "id": "country-048-village-4",
+      "name": "Nuvessa Village 4",
+      "type": "village",
+      "populationTier": "medium",
+      "x": -36.01,
+      "y": 7.16,
+      "z": 21.13
+    },
+    {
+      "id": "country-048-village-5",
+      "name": "Nuvessa Village 5",
+      "type": "village",
+      "populationTier": "small",
+      "x": 72.88,
+      "y": 20.81,
+      "z": 19.02
+    },
+    {
+      "id": "country-048-village-6",
+      "name": "Nuvessa Village 6",
+      "type": "village",
+      "populationTier": "small",
+      "x": 14.27,
+      "y": 2.6,
+      "z": -104.07
+    }
+  ],
+  "infrastructure": {
+    "rivers": [
+      {
+        "id": "country-048-river-1",
+        "name": "Nuvessa River 1",
+        "widthM": 13.4,
+        "points": [
+          {
+            "x": -128.0,
+            "y": 0.18,
+            "z": 104.6
+          },
+          {
+            "x": -74.16,
+            "y": 3.22,
+            "z": 67.15
+          },
+          {
+            "x": -53.09,
+            "y": 6.75,
+            "z": 47.71
+          },
+          {
+            "x": -4.53,
+            "y": 12.0,
+            "z": 13.17
+          },
+          {
+            "x": 40.8,
+            "y": 15.83,
+            "z": -19.61
+          },
+          {
+            "x": 87.44,
+            "y": 15.58,
+            "z": -53.11
+          },
+          {
+            "x": 128.0,
+            "y": 13.62,
+            "z": -83.26
+          }
+        ]
+      }
+    ],
+    "lakes": [
+      {
+        "id": "country-048-lake-1",
+        "name": "Nuvessa Lake 1",
+        "x": -40.47,
+        "y": 0.43,
+        "z": 76.68,
+        "radiusM": 24.5,
+        "type": "natural"
+      }
+    ],
+    "mountains": [
+      {
+        "id": "country-048-mountain-1",
+        "name": "Nuvessa Highland 1",
+        "x": -80.43,
+        "y": 3.22,
+        "z": 63.16,
+        "heightM": 43.31,
+        "radiusM": 18.9
+      }
+    ],
+    "settlements": [
+      {
+        "id": "country-048-capital",
+        "name": "Nuvessa Central",
+        "type": "capital",
+        "populationTier": "large",
+        "x": 0.0,
+        "y": 10.89,
+        "z": 0.0
+      },
+      {
+        "id": "country-048-village-1",
+        "name": "Nuvessa Village 1",
+        "type": "village",
+        "populationTier": "medium",
+        "x": -28.22,
+        "y": -1.0,
+        "z": -98.32
+      },
+      {
+        "id": "country-048-village-2",
+        "name": "Nuvessa Village 2",
+        "type": "village",
+        "populationTier": "small",
+        "x": 3.77,
+        "y": 1.82,
+        "z": -103.89
+      },
+      {
+        "id": "country-048-village-3",
+        "name": "Nuvessa Village 3",
+        "type": "village",
+        "populationTier": "small",
+        "x": -30.97,
+        "y": 0.43,
+        "z": -70.65
+      },
+      {
+        "id": "country-048-village-4",
+        "name": "Nuvessa Village 4",
+        "type": "village",
+        "populationTier": "medium",
+        "x": -36.01,
+        "y": 7.16,
+        "z": 21.13
+      },
+      {
+        "id": "country-048-village-5",
+        "name": "Nuvessa Village 5",
+        "type": "village",
+        "populationTier": "small",
+        "x": 72.88,
+        "y": 20.81,
+        "z": 19.02
+      },
+      {
+        "id": "country-048-village-6",
+        "name": "Nuvessa Village 6",
+        "type": "village",
+        "populationTier": "small",
+        "x": 14.27,
+        "y": 2.6,
+        "z": -104.07
+      }
+    ],
+    "roads": [
+      {
+        "id": "country-048-road-1",
+        "class": "highway",
+        "points": [
+          {
+            "x": 0.0,
+            "y": 10.39,
+            "z": 0.0
+          },
+          {
+            "x": -12.16,
+            "y": 6.03,
+            "z": -21.77
+          },
+          {
+            "x": -17.74,
+            "y": 3.08,
+            "z": -47.16
+          },
+          {
+            "x": -18.77,
+            "y": 0.58,
+            "z": -75.06
+          },
+          {
+            "x": -28.22,
+            "y": -1.5,
+            "z": -98.32
+          }
+        ]
+      },
+      {
+        "id": "country-048-road-2",
+        "class": "regional",
+        "points": [
+          {
+            "x": 0.0,
+            "y": 10.39,
+            "z": 0.0
+          },
+          {
+            "x": -4.42,
+            "y": 8.6,
+            "z": -23.02
+          },
+          {
+            "x": 10.58,
+            "y": 5.79,
+            "z": -56.73
+          },
+          {
+            "x": 13.53,
+            "y": 4.38,
+            "z": -83.81
+          },
+          {
+            "x": 3.77,
+            "y": 1.32,
+            "z": -103.89
+          }
+        ]
+      },
+      {
+        "id": "country-048-road-3",
+        "class": "regional",
+        "points": [
+          {
+            "x": 0.0,
+            "y": 10.39,
+            "z": 0.0
+          },
+          {
+            "x": 3.9,
+            "y": 6.81,
+            "z": -24.07
+          },
+          {
+            "x": -18.99,
+            "y": 4.47,
+            "z": -33.4
+          },
+          {
+            "x": -19.81,
+            "y": 3.08,
+            "z": -54.87
+          },
+          {
+            "x": -30.97,
+            "y": -0.07,
+            "z": -70.65
+          }
+        ]
+      },
+      {
+        "id": "country-048-road-4",
+        "class": "regional",
+        "points": [
+          {
+            "x": 0.0,
+            "y": 10.39,
+            "z": 0.0
+          },
+          {
+            "x": -11.42,
+            "y": 7.69,
+            "z": 6.61
+          },
+          {
+            "x": -7.19,
+            "y": 10.39,
+            "z": 4.62
+          },
+          {
+            "x": -32.13,
+            "y": 6.66,
+            "z": 18.66
+          },
+          {
+            "x": -36.01,
+            "y": 6.66,
+            "z": 21.13
+          }
+        ]
+      },
+      {
+        "id": "country-048-road-5",
+        "class": "regional",
+        "points": [
+          {
+            "x": 0.0,
+            "y": 10.39,
+            "z": 0.0
+          },
+          {
+            "x": 8.5,
+            "y": 14.47,
+            "z": 10.1
+          },
+          {
+            "x": 27.26,
+            "y": 16.55,
+            "z": 14.56
+          },
+          {
+            "x": 57.6,
+            "y": 19.42,
+            "z": 12.65
+          },
+          {
+            "x": 72.88,
+            "y": 20.31,
+            "z": 19.02
+          }
+        ]
+      },
+      {
+        "id": "country-048-road-6",
+        "class": "regional",
+        "points": [
+          {
+            "x": 0.0,
+            "y": 10.39,
+            "z": 0.0
+          },
+          {
+            "x": -4.06,
+            "y": 8.6,
+            "z": -21.82
+          },
+          {
+            "x": 16.66,
+            "y": 5.79,
+            "z": -57.27
+          },
+          {
+            "x": 10.37,
+            "y": 4.38,
+            "z": -77.87
+          },
+          {
+            "x": 14.27,
+            "y": 2.1,
+            "z": -104.07
+          }
+        ]
+      }
+    ],
+    "bridges": [
+      {
+        "id": "country-048-bridge-1",
+        "name": "Nuvessa Crossing 1",
+        "roadId": "country-048-road-1",
+        "riverId": "country-048-river-1",
+        "x": -4.53,
+        "y": 12.35,
+        "z": 13.17,
+        "lengthM": 25.4
+      }
+    ],
+    "railways": [
+      {
+        "id": "country-048-rail-1",
+        "class": "intercity",
+        "points": [
+          {
+            "x": 0.0,
+            "y": 10.39,
+            "z": 0.0
+          },
+          {
+            "x": 11.96,
+            "y": 9.32,
+            "z": -25.82
+          },
+          {
+            "x": 10.05,
+            "y": 7.46,
+            "z": -44.02
+          },
+          {
+            "x": -3.24,
+            "y": 5.18,
+            "z": -55.95
+          },
+          {
+            "x": 2.22,
+            "y": 2.5,
+            "z": -78.2
+          },
+          {
+            "x": 14.27,
+            "y": 2.1,
+            "z": -104.07
+          }
+        ]
+      }
+    ],
+    "airports": [
+      {
+        "id": "country-048-airport-1",
+        "name": "Nuvessa International",
+        "size": "regional",
+        "x": 5.33,
+        "y": 14.26,
+        "z": 52.28,
+        "runwayLengthM": 900
+      }
+    ],
+    "ports": [
+      {
+        "id": "country-048-port-1",
+        "name": "Nuvessa Maritime Port",
+        "x": 20.76,
+        "y": 0.72,
+        "z": 35.62,
+        "capacity": "large"
+      }
+    ],
+    "militaryBases": [],
+    "metroLines": [
+      {
+        "id": "country-048-metro-1",
+        "status": "planned",
+        "serves": [
+          "country-048-capital",
+          "country-048-village-1",
+          "country-048-village-2"
+        ]
+      }
+    ],
+    "airRoutes": [
+      {
+        "id": "country-048-air-route-1",
+        "status": "regional",
+        "airportId": "country-048-airport-1"
+      }
+    ],
+    "shipLanes": [
+      {
+        "id": "country-048-ship-lane-1",
+        "status": "regional",
+        "portId": "country-048-port-1"
+      }
+    ],
+    "submarineZones": [
+      {
+        "id": "country-048-submarine-zone-1",
+        "status": "charted",
+        "depthM": 118.5
+      }
+    ]
+  },
+  "missions": [
+    {
+      "id": "country-048-intro",
+      "title": "Welcome to Nuvessa",
+      "status": "template",
+      "placeholder": true
+    },
+    {
+      "id": "country-048-route",
+      "title": "Cross-Region Route",
+      "status": "template",
+      "placeholder": true
+    }
+  ],
+  "systems": {
+    "weatherProfile": "template",
+    "peopleProfile": "people-nuvessa",
+    "trafficProfile": "template"
+  },
+  "nextSteps": [
+    "replace placeholder settlements",
+    "author terrain landmarks",
+    "author missions and NPC schedules"
+  ]
+}

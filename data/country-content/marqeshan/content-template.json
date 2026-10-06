@@ -1,0 +1,435 @@
+{
+  "schemaVersion": 1,
+  "countryId": "country-024",
+  "name": "Marqeshan",
+  "status": "playable",
+  "completion": "template",
+  "templatePolicy": {
+    "generated": true,
+    "requiresReview": true,
+    "placeholderContentAllowed": true
+  },
+  "terrain": {
+    "asset": "data/country-content/marqeshan/terrain.json",
+    "mapKey": "country/marqeshan",
+    "biome": "canyon-steppe"
+  },
+  "spawn": {
+    "x": 0.0,
+    "y": 1.2,
+    "z": 0.0,
+    "headingRad": 0.0
+  },
+  "settlements": [
+    {
+      "id": "country-024-capital",
+      "name": "Marqeshan Central",
+      "type": "capital",
+      "populationTier": "large",
+      "x": 0.0,
+      "y": 7.91,
+      "z": 0.0
+    },
+    {
+      "id": "country-024-village-1",
+      "name": "Marqeshan Village 1",
+      "type": "village",
+      "populationTier": "medium",
+      "x": -60.25,
+      "y": -1.0,
+      "z": 103.18
+    },
+    {
+      "id": "country-024-village-2",
+      "name": "Marqeshan Village 2",
+      "type": "village",
+      "populationTier": "small",
+      "x": 58.68,
+      "y": 22.04,
+      "z": 6.68
+    }
+  ],
+  "infrastructure": {
+    "rivers": [
+      {
+        "id": "country-024-river-1",
+        "name": "Marqeshan River 1",
+        "widthM": 14.9,
+        "points": [
+          {
+            "x": -128.0,
+            "y": -1.5,
+            "z": -45.93
+          },
+          {
+            "x": -91.43,
+            "y": -1.5,
+            "z": -33.9
+          },
+          {
+            "x": -53.46,
+            "y": 0.94,
+            "z": -22.64
+          },
+          {
+            "x": -3.04,
+            "y": 6.72,
+            "z": -18.22
+          },
+          {
+            "x": 54.22,
+            "y": 15.99,
+            "z": -17.57
+          },
+          {
+            "x": 94.23,
+            "y": 28.36,
+            "z": -7.43
+          },
+          {
+            "x": 128.0,
+            "y": 32.28,
+            "z": 6.14
+          }
+        ]
+      },
+      {
+        "id": "country-024-river-2",
+        "name": "Marqeshan River 2",
+        "widthM": 20.5,
+        "points": [
+          {
+            "x": 36.27,
+            "y": -1.5,
+            "z": -128.0
+          },
+          {
+            "x": 3.63,
+            "y": -0.23,
+            "z": -79.17
+          },
+          {
+            "x": 3.83,
+            "y": 4.34,
+            "z": -48.39
+          },
+          {
+            "x": -28.89,
+            "y": 3.35,
+            "z": 0.48
+          },
+          {
+            "x": -57.05,
+            "y": 0.73,
+            "z": 46.85
+          },
+          {
+            "x": -61.44,
+            "y": -1.45,
+            "z": 80.15
+          },
+          {
+            "x": -92.29,
+            "y": -1.5,
+            "z": 128.0
+          }
+        ]
+      },
+      {
+        "id": "country-024-river-3",
+        "name": "Marqeshan River 3",
+        "widthM": 16.4,
+        "points": [
+          {
+            "x": -128.0,
+            "y": -0.12,
+            "z": 89.65
+          },
+          {
+            "x": -82.4,
+            "y": -1.5,
+            "z": 85.48
+          },
+          {
+            "x": -32.29,
+            "y": 2.19,
+            "z": 78.83
+          },
+          {
+            "x": 5.55,
+            "y": 8.39,
+            "z": 78.93
+          },
+          {
+            "x": 33.5,
+            "y": 14.92,
+            "z": 84.47
+          },
+          {
+            "x": 91.15,
+            "y": 26.04,
+            "z": 73.68
+          },
+          {
+            "x": 128.0,
+            "y": 31.07,
+            "z": 74.32
+          }
+        ]
+      }
+    ],
+    "lakes": [
+      {
+        "id": "country-024-lake-1",
+        "name": "Marqeshan Lake 1",
+        "x": 67.34,
+        "y": 0.38,
+        "z": -57.35,
+        "radiusM": 19.4,
+        "type": "reservoir"
+      }
+    ],
+    "mountains": [
+      {
+        "id": "country-024-mountain-1",
+        "name": "Marqeshan Highland 1",
+        "x": -60.01,
+        "y": 0.87,
+        "z": 0.54,
+        "heightM": 24.35,
+        "radiusM": 23.4
+      }
+    ],
+    "settlements": [
+      {
+        "id": "country-024-capital",
+        "name": "Marqeshan Central",
+        "type": "capital",
+        "populationTier": "large",
+        "x": 0.0,
+        "y": 7.91,
+        "z": 0.0
+      },
+      {
+        "id": "country-024-village-1",
+        "name": "Marqeshan Village 1",
+        "type": "village",
+        "populationTier": "medium",
+        "x": -60.25,
+        "y": -1.0,
+        "z": 103.18
+      },
+      {
+        "id": "country-024-village-2",
+        "name": "Marqeshan Village 2",
+        "type": "village",
+        "populationTier": "small",
+        "x": 58.68,
+        "y": 22.04,
+        "z": 6.68
+      }
+    ],
+    "roads": [
+      {
+        "id": "country-024-road-1",
+        "class": "highway",
+        "points": [
+          {
+            "x": 0.0,
+            "y": 7.41,
+            "z": 0.0
+          },
+          {
+            "x": -10.78,
+            "y": 5.4,
+            "z": 23.44
+          },
+          {
+            "x": -27.49,
+            "y": 3.09,
+            "z": 50.14
+          },
+          {
+            "x": -55.23,
+            "y": -0.07,
+            "z": 82.91
+          },
+          {
+            "x": -60.25,
+            "y": -1.5,
+            "z": 103.18
+          }
+        ]
+      },
+      {
+        "id": "country-024-road-2",
+        "class": "regional",
+        "points": [
+          {
+            "x": 0.0,
+            "y": 7.41,
+            "z": 0.0
+          },
+          {
+            "x": 8.23,
+            "y": 10.3,
+            "z": 5.21
+          },
+          {
+            "x": 32.0,
+            "y": 13.76,
+            "z": 1.87
+          },
+          {
+            "x": 38.35,
+            "y": 14.97,
+            "z": 8.13
+          },
+          {
+            "x": 58.68,
+            "y": 21.54,
+            "z": 6.68
+          }
+        ]
+      }
+    ],
+    "bridges": [
+      {
+        "id": "country-024-bridge-1",
+        "name": "Marqeshan Crossing 1",
+        "roadId": "country-024-road-1",
+        "riverId": "country-024-river-1",
+        "x": -3.04,
+        "y": 7.069999999999999,
+        "z": -18.22,
+        "lengthM": 26.9
+      },
+      {
+        "id": "country-024-bridge-2",
+        "name": "Marqeshan Crossing 2",
+        "roadId": "country-024-road-2",
+        "riverId": "country-024-river-2",
+        "x": -28.89,
+        "y": 3.7,
+        "z": 0.48,
+        "lengthM": 32.5
+      },
+      {
+        "id": "country-024-bridge-3",
+        "name": "Marqeshan Crossing 3",
+        "roadId": "country-024-road-1",
+        "riverId": "country-024-river-3",
+        "x": 5.55,
+        "y": 8.74,
+        "z": 78.93,
+        "lengthM": 28.4
+      }
+    ],
+    "railways": [
+      {
+        "id": "country-024-rail-1",
+        "class": "intercity",
+        "points": [
+          {
+            "x": 0.0,
+            "y": 7.41,
+            "z": 0.0
+          },
+          {
+            "x": 2.75,
+            "y": 7.41,
+            "z": 6.28
+          },
+          {
+            "x": 19.07,
+            "y": 10.3,
+            "z": 5.09
+          },
+          {
+            "x": 33.76,
+            "y": 13.76,
+            "z": 4.81
+          },
+          {
+            "x": 56.0,
+            "y": 21.54,
+            "z": 0.36
+          },
+          {
+            "x": 58.68,
+            "y": 21.54,
+            "z": 6.68
+          }
+        ]
+      }
+    ],
+    "airports": [],
+    "ports": [],
+    "militaryBases": [
+      {
+        "id": "country-024-base-1",
+        "name": "Marqeshan Defense Station",
+        "type": "ground",
+        "x": -24.16,
+        "y": 3.84,
+        "z": 15.46
+      }
+    ],
+    "metroLines": [
+      {
+        "id": "country-024-metro-1",
+        "status": "planned",
+        "serves": [
+          "country-024-capital",
+          "country-024-village-1",
+          "country-024-village-2"
+        ]
+      }
+    ],
+    "airRoutes": [
+      {
+        "id": "country-024-air-route-1",
+        "status": "regional",
+        "airportId": null
+      }
+    ],
+    "shipLanes": [
+      {
+        "id": "country-024-ship-lane-1",
+        "status": "regional",
+        "portId": null
+      }
+    ],
+    "submarineZones": [
+      {
+        "id": "country-024-submarine-zone-1",
+        "status": "charted",
+        "depthM": 43.6
+      }
+    ]
+  },
+  "missions": [
+    {
+      "id": "country-024-intro",
+      "title": "Welcome to Marqeshan",
+      "status": "template",
+      "placeholder": true
+    },
+    {
+      "id": "country-024-route",
+      "title": "Cross-Region Route",
+      "status": "template",
+      "placeholder": true
+    }
+  ],
+  "systems": {
+    "weatherProfile": "template",
+    "peopleProfile": "people-marqeshan",
+    "trafficProfile": "template"
+  },
+  "nextSteps": [
+    "replace placeholder settlements",
+    "author terrain landmarks",
+    "author missions and NPC schedules"
+  ]
+}

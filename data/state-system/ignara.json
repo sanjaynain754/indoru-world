@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "worldId": "indoru-world-001",
+  "countryId": "country-094",
+  "stateIds": [
+    "state-country-094",
+    "state-country-094-capital",
+    "state-country-094-village-1",
+    "state-country-094-village-2"
+  ]
+}

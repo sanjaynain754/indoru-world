@@ -1,0 +1,410 @@
+{
+  "schemaVersion": 1,
+  "countryId": "country-103",
+  "name": "Vaskari",
+  "status": "playable",
+  "completion": "template",
+  "templatePolicy": {
+    "generated": true,
+    "requiresReview": true,
+    "placeholderContentAllowed": true
+  },
+  "terrain": {
+    "asset": "data/country-content/vaskari/terrain.json",
+    "mapKey": "country/vaskari",
+    "biome": "volcanic-ashland"
+  },
+  "spawn": {
+    "x": 0.0,
+    "y": 1.2,
+    "z": 0.0,
+    "headingRad": 0.0
+  },
+  "settlements": [
+    {
+      "id": "country-103-capital",
+      "name": "Vaskari Central",
+      "type": "capital",
+      "populationTier": "large",
+      "x": 0.0,
+      "y": -1.0,
+      "z": 0.0
+    },
+    {
+      "id": "country-103-village-1",
+      "name": "Vaskari Village 1",
+      "type": "village",
+      "populationTier": "medium",
+      "x": 14.26,
+      "y": 8.94,
+      "z": 102.05
+    },
+    {
+      "id": "country-103-village-2",
+      "name": "Vaskari Village 2",
+      "type": "village",
+      "populationTier": "small",
+      "x": -2.25,
+      "y": -1.0,
+      "z": -68.71
+    }
+  ],
+  "infrastructure": {
+    "rivers": [
+      {
+        "id": "country-103-river-1",
+        "name": "Vaskari River 1",
+        "widthM": 14.7,
+        "points": [
+          {
+            "x": -128.0,
+            "y": 30.3,
+            "z": 79.88
+          },
+          {
+            "x": -90.47,
+            "y": 23.45,
+            "z": 52.37
+          },
+          {
+            "x": -40.88,
+            "y": 10.97,
+            "z": 18.22
+          },
+          {
+            "x": -11.68,
+            "y": 1.43,
+            "z": -4.71
+          },
+          {
+            "x": 53.27,
+            "y": -1.5,
+            "z": -47.3
+          },
+          {
+            "x": 87.1,
+            "y": -1.5,
+            "z": -72.78
+          },
+          {
+            "x": 128.0,
+            "y": -1.5,
+            "z": -102.14
+          }
+        ]
+      },
+      {
+        "id": "country-103-river-2",
+        "name": "Vaskari River 2",
+        "widthM": 11.8,
+        "points": [
+          {
+            "x": -25.76,
+            "y": -1.5,
+            "z": -128.0
+          },
+          {
+            "x": -37.7,
+            "y": -1.5,
+            "z": -82.79
+          },
+          {
+            "x": -48.31,
+            "y": 1.86,
+            "z": -38.31
+          },
+          {
+            "x": -58.1,
+            "y": 10.28,
+            "z": 5.72
+          },
+          {
+            "x": -48.82,
+            "y": 13.81,
+            "z": 39.26
+          },
+          {
+            "x": -65.72,
+            "y": 23.7,
+            "z": 87.2
+          },
+          {
+            "x": -69.64,
+            "y": 27.85,
+            "z": 128.0
+          }
+        ]
+      }
+    ],
+    "lakes": [
+      {
+        "id": "country-103-lake-1",
+        "name": "Vaskari Lake 1",
+        "x": 1.72,
+        "y": 0.41,
+        "z": 17.63,
+        "radiusM": 19.6,
+        "type": "reservoir"
+      },
+      {
+        "id": "country-103-lake-2",
+        "name": "Vaskari Lake 2",
+        "x": -25.66,
+        "y": 0.41,
+        "z": -72.13,
+        "radiusM": 15.2,
+        "type": "natural"
+      }
+    ],
+    "mountains": [
+      {
+        "id": "country-103-mountain-1",
+        "name": "Vaskari Highland 1",
+        "x": -74.88,
+        "y": 15.48,
+        "z": 17.87,
+        "heightM": 48.8,
+        "radiusM": 39.0
+      },
+      {
+        "id": "country-103-mountain-2",
+        "name": "Vaskari Highland 2",
+        "x": -31.74,
+        "y": 0.4,
+        "z": -36.48,
+        "heightM": 24.51,
+        "radiusM": 37.6
+      },
+      {
+        "id": "country-103-mountain-3",
+        "name": "Vaskari Highland 3",
+        "x": -61.43,
+        "y": 4.66,
+        "z": -28.25,
+        "heightM": 49.43,
+        "radiusM": 41.4
+      }
+    ],
+    "settlements": [
+      {
+        "id": "country-103-capital",
+        "name": "Vaskari Central",
+        "type": "capital",
+        "populationTier": "large",
+        "x": 0.0,
+        "y": -1.0,
+        "z": 0.0
+      },
+      {
+        "id": "country-103-village-1",
+        "name": "Vaskari Village 1",
+        "type": "village",
+        "populationTier": "medium",
+        "x": 14.26,
+        "y": 8.94,
+        "z": 102.05
+      },
+      {
+        "id": "country-103-village-2",
+        "name": "Vaskari Village 2",
+        "type": "village",
+        "populationTier": "small",
+        "x": -2.25,
+        "y": -1.0,
+        "z": -68.71
+      }
+    ],
+    "roads": [
+      {
+        "id": "country-103-road-1",
+        "class": "highway",
+        "points": [
+          {
+            "x": 0.0,
+            "y": -1.5,
+            "z": 0.0
+          },
+          {
+            "x": 13.42,
+            "y": -1.5,
+            "z": 20.09
+          },
+          {
+            "x": -4.87,
+            "y": 6.2,
+            "z": 57.62
+          },
+          {
+            "x": 15.96,
+            "y": 5.67,
+            "z": 73.64
+          },
+          {
+            "x": 14.26,
+            "y": 8.44,
+            "z": 102.05
+          }
+        ]
+      },
+      {
+        "id": "country-103-road-2",
+        "class": "regional",
+        "points": [
+          {
+            "x": 0.0,
+            "y": -1.5,
+            "z": 0.0
+          },
+          {
+            "x": 2.5,
+            "y": -1.5,
+            "z": -18.86
+          },
+          {
+            "x": 10.16,
+            "y": -1.5,
+            "z": -40.56
+          },
+          {
+            "x": -11.89,
+            "y": -1.5,
+            "z": -45.92
+          },
+          {
+            "x": -2.25,
+            "y": -1.5,
+            "z": -68.71
+          }
+        ]
+      }
+    ],
+    "bridges": [
+      {
+        "id": "country-103-bridge-1",
+        "name": "Vaskari Crossing 1",
+        "roadId": "country-103-road-1",
+        "riverId": "country-103-river-1",
+        "x": -11.68,
+        "y": 1.7799999999999998,
+        "z": -4.71,
+        "lengthM": 26.7
+      },
+      {
+        "id": "country-103-bridge-2",
+        "name": "Vaskari Crossing 2",
+        "roadId": "country-103-road-2",
+        "riverId": "country-103-river-2",
+        "x": -58.1,
+        "y": 10.629999999999999,
+        "z": 5.72,
+        "lengthM": 23.8
+      }
+    ],
+    "railways": [
+      {
+        "id": "country-103-rail-1",
+        "class": "intercity",
+        "points": [
+          {
+            "x": 0.0,
+            "y": -1.5,
+            "z": 0.0
+          },
+          {
+            "x": -7.67,
+            "y": -1.5,
+            "z": -9.77
+          },
+          {
+            "x": -6.13,
+            "y": -1.5,
+            "z": -24.61
+          },
+          {
+            "x": -7.9,
+            "y": -1.5,
+            "z": -37.62
+          },
+          {
+            "x": -5.38,
+            "y": -1.5,
+            "z": -53.0
+          },
+          {
+            "x": -2.25,
+            "y": -1.5,
+            "z": -68.71
+          }
+        ]
+      }
+    ],
+    "airports": [],
+    "ports": [
+      {
+        "id": "country-103-port-1",
+        "name": "Vaskari Maritime Port",
+        "x": 42.39,
+        "y": 0.7,
+        "z": 95.09,
+        "capacity": "small"
+      }
+    ],
+    "militaryBases": [],
+    "metroLines": [
+      {
+        "id": "country-103-metro-1",
+        "status": "planned",
+        "serves": [
+          "country-103-capital",
+          "country-103-village-1",
+          "country-103-village-2"
+        ]
+      }
+    ],
+    "airRoutes": [
+      {
+        "id": "country-103-air-route-1",
+        "status": "regional",
+        "airportId": null
+      }
+    ],
+    "shipLanes": [
+      {
+        "id": "country-103-ship-lane-1",
+        "status": "regional",
+        "portId": "country-103-port-1"
+      }
+    ],
+    "submarineZones": [
+      {
+        "id": "country-103-submarine-zone-1",
+        "status": "charted",
+        "depthM": 133.7
+      }
+    ]
+  },
+  "missions": [
+    {
+      "id": "country-103-intro",
+      "title": "Welcome to Vaskari",
+      "status": "template",
+      "placeholder": true
+    },
+    {
+      "id": "country-103-route",
+      "title": "Cross-Region Route",
+      "status": "template",
+      "placeholder": true
+    }
+  ],
+  "systems": {
+    "weatherProfile": "template",
+    "peopleProfile": "people-vaskari",
+    "trafficProfile": "template"
+  },
+  "nextSteps": [
+    "replace placeholder settlements",
+    "author terrain landmarks",
+    "author missions and NPC schedules"
+  ]
+}

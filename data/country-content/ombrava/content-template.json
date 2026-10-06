@@ -1,0 +1,509 @@
+{
+  "schemaVersion": 1,
+  "countryId": "country-038",
+  "name": "Ombrava",
+  "status": "playable",
+  "completion": "template",
+  "templatePolicy": {
+    "generated": true,
+    "requiresReview": true,
+    "placeholderContentAllowed": true
+  },
+  "terrain": {
+    "asset": "data/country-content/ombrava/terrain.json",
+    "mapKey": "country/ombrava",
+    "biome": "canyon-steppe"
+  },
+  "spawn": {
+    "x": 0.0,
+    "y": 1.2,
+    "z": 0.0,
+    "headingRad": 0.0
+  },
+  "settlements": [
+    {
+      "id": "country-038-capital",
+      "name": "Ombrava Central",
+      "type": "capital",
+      "populationTier": "large",
+      "x": 0.0,
+      "y": -1.0,
+      "z": 0.0
+    },
+    {
+      "id": "country-038-village-1",
+      "name": "Ombrava Village 1",
+      "type": "village",
+      "populationTier": "medium",
+      "x": 5.87,
+      "y": 1.09,
+      "z": 72.75
+    },
+    {
+      "id": "country-038-village-2",
+      "name": "Ombrava Village 2",
+      "type": "village",
+      "populationTier": "small",
+      "x": 60.07,
+      "y": 5.42,
+      "z": 88.12
+    },
+    {
+      "id": "country-038-village-3",
+      "name": "Ombrava Village 3",
+      "type": "village",
+      "populationTier": "small",
+      "x": 20.29,
+      "y": -1.0,
+      "z": -93.93
+    },
+    {
+      "id": "country-038-village-4",
+      "name": "Ombrava Village 4",
+      "type": "village",
+      "populationTier": "medium",
+      "x": 101.32,
+      "y": 10.15,
+      "z": 102.64
+    }
+  ],
+  "infrastructure": {
+    "rivers": [
+      {
+        "id": "country-038-river-1",
+        "name": "Ombrava River 1",
+        "widthM": 8.7,
+        "points": [
+          {
+            "x": -128.0,
+            "y": 14.34,
+            "z": 123.12
+          },
+          {
+            "x": -88.14,
+            "y": 10.16,
+            "z": 91.01
+          },
+          {
+            "x": -41.72,
+            "y": 2.74,
+            "z": 55.31
+          },
+          {
+            "x": -10.77,
+            "y": -1.09,
+            "z": 28.11
+          },
+          {
+            "x": 52.45,
+            "y": -1.5,
+            "z": -16.83
+          },
+          {
+            "x": 83.77,
+            "y": -1.5,
+            "z": -44.24
+          },
+          {
+            "x": 128.0,
+            "y": 1.24,
+            "z": -78.74
+          }
+        ]
+      },
+      {
+        "id": "country-038-river-2",
+        "name": "Ombrava River 2",
+        "widthM": 13.8,
+        "points": [
+          {
+            "x": -96.21,
+            "y": -1.5,
+            "z": -128.0
+          },
+          {
+            "x": -86.71,
+            "y": -1.5,
+            "z": -91.49
+          },
+          {
+            "x": -91.2,
+            "y": -0.36,
+            "z": -47.28
+          },
+          {
+            "x": -101.27,
+            "y": 6.32,
+            "z": -0.0
+          },
+          {
+            "x": -97.46,
+            "y": 10.22,
+            "z": 39.63
+          },
+          {
+            "x": -110.03,
+            "y": 13.85,
+            "z": 88.28
+          },
+          {
+            "x": -106.36,
+            "y": 10.58,
+            "z": 128.0
+          }
+        ]
+      }
+    ],
+    "lakes": [
+      {
+        "id": "country-038-lake-1",
+        "name": "Ombrava Lake 1",
+        "x": 61.94,
+        "y": 0.38,
+        "z": 56.28,
+        "radiusM": 24.3,
+        "type": "reservoir"
+      }
+    ],
+    "mountains": [
+      {
+        "id": "country-038-mountain-1",
+        "name": "Ombrava Highland 1",
+        "x": -20.59,
+        "y": 0.37,
+        "z": 2.11,
+        "heightM": 56.97,
+        "radiusM": 14.7
+      },
+      {
+        "id": "country-038-mountain-2",
+        "name": "Ombrava Highland 2",
+        "x": -60.29,
+        "y": 4.68,
+        "z": 83.57,
+        "heightM": 23.34,
+        "radiusM": 34.4
+      },
+      {
+        "id": "country-038-mountain-3",
+        "name": "Ombrava Highland 3",
+        "x": -61.16,
+        "y": 1.99,
+        "z": 4.48,
+        "heightM": 18.23,
+        "radiusM": 18.7
+      }
+    ],
+    "settlements": [
+      {
+        "id": "country-038-capital",
+        "name": "Ombrava Central",
+        "type": "capital",
+        "populationTier": "large",
+        "x": 0.0,
+        "y": -1.0,
+        "z": 0.0
+      },
+      {
+        "id": "country-038-village-1",
+        "name": "Ombrava Village 1",
+        "type": "village",
+        "populationTier": "medium",
+        "x": 5.87,
+        "y": 1.09,
+        "z": 72.75
+      },
+      {
+        "id": "country-038-village-2",
+        "name": "Ombrava Village 2",
+        "type": "village",
+        "populationTier": "small",
+        "x": 60.07,
+        "y": 5.42,
+        "z": 88.12
+      },
+      {
+        "id": "country-038-village-3",
+        "name": "Ombrava Village 3",
+        "type": "village",
+        "populationTier": "small",
+        "x": 20.29,
+        "y": -1.0,
+        "z": -93.93
+      },
+      {
+        "id": "country-038-village-4",
+        "name": "Ombrava Village 4",
+        "type": "village",
+        "populationTier": "medium",
+        "x": 101.32,
+        "y": 10.15,
+        "z": 102.64
+      }
+    ],
+    "roads": [
+      {
+        "id": "country-038-road-1",
+        "class": "highway",
+        "points": [
+          {
+            "x": 0.0,
+            "y": -1.5,
+            "z": 0.0
+          },
+          {
+            "x": 10.88,
+            "y": -1.5,
+            "z": 13.01
+          },
+          {
+            "x": 8.97,
+            "y": -1.25,
+            "z": 33.06
+          },
+          {
+            "x": -2.62,
+            "y": 0.05,
+            "z": 58.42
+          },
+          {
+            "x": 5.87,
+            "y": 0.59,
+            "z": 72.75
+          }
+        ]
+      },
+      {
+        "id": "country-038-road-2",
+        "class": "regional",
+        "points": [
+          {
+            "x": 0.0,
+            "y": -1.5,
+            "z": 0.0
+          },
+          {
+            "x": 25.21,
+            "y": -1.5,
+            "z": 16.42
+          },
+          {
+            "x": 38.4,
+            "y": 0.13,
+            "z": 39.46
+          },
+          {
+            "x": 47.97,
+            "y": 4.32,
+            "z": 64.48
+          },
+          {
+            "x": 60.07,
+            "y": 4.92,
+            "z": 88.12
+          }
+        ]
+      },
+      {
+        "id": "country-038-road-3",
+        "class": "regional",
+        "points": [
+          {
+            "x": 0.0,
+            "y": -1.5,
+            "z": 0.0
+          },
+          {
+            "x": -6.82,
+            "y": -1.5,
+            "z": -16.94
+          },
+          {
+            "x": 7.38,
+            "y": -1.5,
+            "z": -45.45
+          },
+          {
+            "x": 9.38,
+            "y": -1.5,
+            "z": -67.24
+          },
+          {
+            "x": 20.29,
+            "y": -1.5,
+            "z": -93.93
+          }
+        ]
+      },
+      {
+        "id": "country-038-road-4",
+        "class": "regional",
+        "points": [
+          {
+            "x": 0.0,
+            "y": -1.5,
+            "z": 0.0
+          },
+          {
+            "x": 34.89,
+            "y": -1.5,
+            "z": 20.4
+          },
+          {
+            "x": 52.38,
+            "y": 3.63,
+            "z": 50.38
+          },
+          {
+            "x": 78.47,
+            "y": 7.97,
+            "z": 75.61
+          },
+          {
+            "x": 101.32,
+            "y": 9.65,
+            "z": 102.64
+          }
+        ]
+      }
+    ],
+    "bridges": [
+      {
+        "id": "country-038-bridge-1",
+        "name": "Ombrava Crossing 1",
+        "roadId": "country-038-road-1",
+        "riverId": "country-038-river-1",
+        "x": -10.77,
+        "y": -0.7400000000000001,
+        "z": 28.11,
+        "lengthM": 20.7
+      },
+      {
+        "id": "country-038-bridge-2",
+        "name": "Ombrava Crossing 2",
+        "roadId": "country-038-road-2",
+        "riverId": "country-038-river-2",
+        "x": -101.27,
+        "y": 6.67,
+        "z": -0.0,
+        "lengthM": 25.8
+      }
+    ],
+    "railways": [
+      {
+        "id": "country-038-rail-1",
+        "class": "intercity",
+        "points": [
+          {
+            "x": 0.0,
+            "y": -1.5,
+            "z": 0.0
+          },
+          {
+            "x": 27.02,
+            "y": -1.5,
+            "z": 16.81
+          },
+          {
+            "x": 44.32,
+            "y": 2.28,
+            "z": 38.97
+          },
+          {
+            "x": 50.16,
+            "y": 4.32,
+            "z": 67.43
+          },
+          {
+            "x": 78.36,
+            "y": 7.97,
+            "z": 83.6
+          },
+          {
+            "x": 101.32,
+            "y": 9.65,
+            "z": 102.64
+          }
+        ]
+      }
+    ],
+    "airports": [
+      {
+        "id": "country-038-airport-1",
+        "name": "Ombrava International",
+        "size": "regional",
+        "x": 52.34,
+        "y": 4.52,
+        "z": 61.56,
+        "runwayLengthM": 900
+      }
+    ],
+    "ports": [],
+    "militaryBases": [
+      {
+        "id": "country-038-base-1",
+        "name": "Ombrava Defense Station",
+        "type": "air-ground",
+        "x": -79.87,
+        "y": 4.31,
+        "z": -6.75
+      }
+    ],
+    "metroLines": [
+      {
+        "id": "country-038-metro-1",
+        "status": "planned",
+        "serves": [
+          "country-038-capital",
+          "country-038-village-1",
+          "country-038-village-2"
+        ]
+      }
+    ],
+    "airRoutes": [
+      {
+        "id": "country-038-air-route-1",
+        "status": "regional",
+        "airportId": "country-038-airport-1"
+      }
+    ],
+    "shipLanes": [
+      {
+        "id": "country-038-ship-lane-1",
+        "status": "regional",
+        "portId": null
+      }
+    ],
+    "submarineZones": [
+      {
+        "id": "country-038-submarine-zone-1",
+        "status": "charted",
+        "depthM": 219.4
+      }
+    ]
+  },
+  "missions": [
+    {
+      "id": "country-038-intro",
+      "title": "Welcome to Ombrava",
+      "status": "template",
+      "placeholder": true
+    },
+    {
+      "id": "country-038-route",
+      "title": "Cross-Region Route",
+      "status": "template",
+      "placeholder": true
+    }
+  ],
+  "systems": {
+    "weatherProfile": "template",
+    "peopleProfile": "people-ombrava",
+    "trafficProfile": "template"
+  },
+  "nextSteps": [
+    "replace placeholder settlements",
+    "author terrain landmarks",
+    "author missions and NPC schedules"
+  ]
+}

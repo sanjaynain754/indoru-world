@@ -1,0 +1,358 @@
+{
+  "schemaVersion": 1,
+  "countryId": "country-042",
+  "name": "Parvello",
+  "status": "playable",
+  "completion": "template",
+  "templatePolicy": {
+    "generated": true,
+    "requiresReview": true,
+    "placeholderContentAllowed": true
+  },
+  "terrain": {
+    "asset": "data/country-content/parvello/terrain.json",
+    "mapKey": "country/parvello",
+    "biome": "coastal-island"
+  },
+  "spawn": {
+    "x": 0.0,
+    "y": 1.2,
+    "z": 0.0,
+    "headingRad": 0.0
+  },
+  "settlements": [
+    {
+      "id": "country-042-capital",
+      "name": "Parvello Central",
+      "type": "capital",
+      "populationTier": "large",
+      "x": 0.0,
+      "y": 11.39,
+      "z": 0.0
+    },
+    {
+      "id": "country-042-village-1",
+      "name": "Parvello Village 1",
+      "type": "village",
+      "populationTier": "medium",
+      "x": 69.95,
+      "y": 12.66,
+      "z": -68.73
+    },
+    {
+      "id": "country-042-village-2",
+      "name": "Parvello Village 2",
+      "type": "village",
+      "populationTier": "small",
+      "x": 78.51,
+      "y": 23.42,
+      "z": 60.91
+    }
+  ],
+  "infrastructure": {
+    "rivers": [
+      {
+        "id": "country-042-river-1",
+        "name": "Parvello River 1",
+        "widthM": 8.5,
+        "points": [
+          {
+            "x": -128.0,
+            "y": -1.5,
+            "z": -100.6
+          },
+          {
+            "x": -93.91,
+            "y": -1.5,
+            "z": -91.91
+          },
+          {
+            "x": -44.86,
+            "y": -1.5,
+            "z": -91.44
+          },
+          {
+            "x": 8.67,
+            "y": 3.54,
+            "z": -93.44
+          },
+          {
+            "x": 42.04,
+            "y": 8.4,
+            "z": -84.36
+          },
+          {
+            "x": 85.7,
+            "y": 11.67,
+            "z": -80.93
+          },
+          {
+            "x": 128.0,
+            "y": 13.04,
+            "z": -76.75
+          }
+        ]
+      }
+    ],
+    "lakes": [
+      {
+        "id": "country-042-lake-1",
+        "name": "Parvello Lake 1",
+        "x": 48.79,
+        "y": 0.43,
+        "z": -49.88,
+        "radiusM": 22.3,
+        "type": "natural"
+      },
+      {
+        "id": "country-042-lake-2",
+        "name": "Parvello Lake 2",
+        "x": 0.75,
+        "y": 0.43,
+        "z": -10.01,
+        "radiusM": 9.1,
+        "type": "natural"
+      }
+    ],
+    "mountains": [
+      {
+        "id": "country-042-mountain-1",
+        "name": "Parvello Highland 1",
+        "x": 33.41,
+        "y": 18.19,
+        "z": 41.84,
+        "heightM": 47.24,
+        "radiusM": 41.3
+      },
+      {
+        "id": "country-042-mountain-2",
+        "name": "Parvello Highland 2",
+        "x": 22.74,
+        "y": 7.83,
+        "z": -40.38,
+        "heightM": 43.51,
+        "radiusM": 41.5
+      }
+    ],
+    "settlements": [
+      {
+        "id": "country-042-capital",
+        "name": "Parvello Central",
+        "type": "capital",
+        "populationTier": "large",
+        "x": 0.0,
+        "y": 11.39,
+        "z": 0.0
+      },
+      {
+        "id": "country-042-village-1",
+        "name": "Parvello Village 1",
+        "type": "village",
+        "populationTier": "medium",
+        "x": 69.95,
+        "y": 12.66,
+        "z": -68.73
+      },
+      {
+        "id": "country-042-village-2",
+        "name": "Parvello Village 2",
+        "type": "village",
+        "populationTier": "small",
+        "x": 78.51,
+        "y": 23.42,
+        "z": 60.91
+      }
+    ],
+    "roads": [
+      {
+        "id": "country-042-road-1",
+        "class": "highway",
+        "points": [
+          {
+            "x": 0.0,
+            "y": 10.89,
+            "z": 0.0
+          },
+          {
+            "x": 27.09,
+            "y": 14.04,
+            "z": -22.46
+          },
+          {
+            "x": 27.61,
+            "y": 12.14,
+            "z": -30.31
+          },
+          {
+            "x": 45.66,
+            "y": 12.32,
+            "z": -47.8
+          },
+          {
+            "x": 69.95,
+            "y": 12.16,
+            "z": -68.73
+          }
+        ]
+      },
+      {
+        "id": "country-042-road-2",
+        "class": "regional",
+        "points": [
+          {
+            "x": 0.0,
+            "y": 10.89,
+            "z": 0.0
+          },
+          {
+            "x": 12.0,
+            "y": 14.91,
+            "z": 19.42
+          },
+          {
+            "x": 33.69,
+            "y": 17.72,
+            "z": 33.51
+          },
+          {
+            "x": 63.39,
+            "y": 20.89,
+            "z": 43.21
+          },
+          {
+            "x": 78.51,
+            "y": 22.92,
+            "z": 60.91
+          }
+        ]
+      }
+    ],
+    "bridges": [
+      {
+        "id": "country-042-bridge-1",
+        "name": "Parvello Crossing 1",
+        "roadId": "country-042-road-1",
+        "riverId": "country-042-river-1",
+        "x": 8.67,
+        "y": 3.89,
+        "z": -93.44,
+        "lengthM": 20.5
+      }
+    ],
+    "railways": [
+      {
+        "id": "country-042-rail-1",
+        "class": "intercity",
+        "points": [
+          {
+            "x": 0.0,
+            "y": 10.89,
+            "z": 0.0
+          },
+          {
+            "x": 22.12,
+            "y": 14.91,
+            "z": 8.65
+          },
+          {
+            "x": 38.55,
+            "y": 16.9,
+            "z": 20.44
+          },
+          {
+            "x": 54.92,
+            "y": 19.11,
+            "z": 32.25
+          },
+          {
+            "x": 65.08,
+            "y": 20.89,
+            "z": 47.48
+          },
+          {
+            "x": 78.51,
+            "y": 22.92,
+            "z": 60.91
+          }
+        ]
+      }
+    ],
+    "airports": [],
+    "ports": [
+      {
+        "id": "country-042-port-1",
+        "name": "Parvello Maritime Port",
+        "x": 111.19,
+        "y": 0.72,
+        "z": 110.69,
+        "capacity": "small"
+      }
+    ],
+    "militaryBases": [
+      {
+        "id": "country-042-base-1",
+        "name": "Parvello Defense Station",
+        "type": "ground",
+        "x": -81.35,
+        "y": 2.26,
+        "z": 36.11
+      }
+    ],
+    "metroLines": [
+      {
+        "id": "country-042-metro-1",
+        "status": "planned",
+        "serves": [
+          "country-042-capital",
+          "country-042-village-1",
+          "country-042-village-2"
+        ]
+      }
+    ],
+    "airRoutes": [
+      {
+        "id": "country-042-air-route-1",
+        "status": "regional",
+        "airportId": null
+      }
+    ],
+    "shipLanes": [
+      {
+        "id": "country-042-ship-lane-1",
+        "status": "regional",
+        "portId": "country-042-port-1"
+      }
+    ],
+    "submarineZones": [
+      {
+        "id": "country-042-submarine-zone-1",
+        "status": "charted",
+        "depthM": 148.7
+      }
+    ]
+  },
+  "missions": [
+    {
+      "id": "country-042-intro",
+      "title": "Welcome to Parvello",
+      "status": "template",
+      "placeholder": true
+    },
+    {
+      "id": "country-042-route",
+      "title": "Cross-Region Route",
+      "status": "template",
+      "placeholder": true
+    }
+  ],
+  "systems": {
+    "weatherProfile": "template",
+    "peopleProfile": "people-parvello",
+    "trafficProfile": "template"
+  },
+  "nextSteps": [
+    "replace placeholder settlements",
+    "author terrain landmarks",
+    "author missions and NPC schedules"
+  ]
+}

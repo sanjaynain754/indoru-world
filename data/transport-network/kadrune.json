@@ -1,0 +1,555 @@
+{
+  "schemaVersion": 1,
+  "countryId": "country-009",
+  "mapKey": "country/kadrune",
+  "seed": 17031182737762197492,
+  "sourceTerrain": "data/country-content/kadrune/terrain.json",
+  "roadNetwork": {
+    "segments": [
+      {
+        "roadId": "country-009-road-1",
+        "class": "arterial",
+        "lanes": 4,
+        "speedLimitKph": 90,
+        "access": {
+          "vehicles": true,
+          "pedestrians": true,
+          "emergency": true
+        },
+        "points": [
+          {
+            "x": 0.0,
+            "y": -1.5,
+            "z": 0.0
+          },
+          {
+            "x": 1.64,
+            "y": -1.5,
+            "z": -5.64
+          },
+          {
+            "x": 36.61,
+            "y": -1.5,
+            "z": -29.61
+          },
+          {
+            "x": 33.42,
+            "y": -1.5,
+            "z": -32.6
+          },
+          {
+            "x": 52.33,
+            "y": -1.5,
+            "z": -47.73
+          }
+        ],
+        "connectedSettlementIds": [
+          "country-009-capital",
+          "country-009-village-1"
+        ]
+      },
+      {
+        "roadId": "country-009-road-2",
+        "class": "collector",
+        "lanes": 2,
+        "speedLimitKph": 55,
+        "access": {
+          "vehicles": true,
+          "pedestrians": true,
+          "emergency": true
+        },
+        "points": [
+          {
+            "x": 0.0,
+            "y": -1.5,
+            "z": 0.0
+          },
+          {
+            "x": -1.3,
+            "y": -1.5,
+            "z": 9.89
+          },
+          {
+            "x": -18.22,
+            "y": -1.5,
+            "z": 28.36
+          },
+          {
+            "x": -15.82,
+            "y": -1.5,
+            "z": 36.22
+          },
+          {
+            "x": -15.04,
+            "y": -1.5,
+            "z": 44.96
+          }
+        ],
+        "connectedSettlementIds": [
+          "country-009-capital",
+          "country-009-village-2"
+        ]
+      },
+      {
+        "roadId": "country-009-road-3",
+        "class": "collector",
+        "lanes": 2,
+        "speedLimitKph": 55,
+        "access": {
+          "vehicles": true,
+          "pedestrians": true,
+          "emergency": true
+        },
+        "points": [
+          {
+            "x": 0.0,
+            "y": -1.5,
+            "z": 0.0
+          },
+          {
+            "x": 13.88,
+            "y": -1.5,
+            "z": -7.74
+          },
+          {
+            "x": 38.02,
+            "y": -1.5,
+            "z": -21.12
+          },
+          {
+            "x": 48.8,
+            "y": -1.5,
+            "z": -27.16
+          },
+          {
+            "x": 70.23,
+            "y": -1.5,
+            "z": -39.05
+          }
+        ],
+        "connectedSettlementIds": [
+          "country-009-capital",
+          "country-009-village-3"
+        ]
+      },
+      {
+        "roadId": "country-009-road-4",
+        "class": "collector",
+        "lanes": 2,
+        "speedLimitKph": 55,
+        "access": {
+          "vehicles": true,
+          "pedestrians": true,
+          "emergency": true
+        },
+        "points": [
+          {
+            "x": 0.0,
+            "y": -1.5,
+            "z": 0.0
+          },
+          {
+            "x": -6.37,
+            "y": -1.5,
+            "z": -0.45
+          },
+          {
+            "x": 11.44,
+            "y": -1.5,
+            "z": -14.2
+          },
+          {
+            "x": 7.64,
+            "y": -1.5,
+            "z": -16.06
+          },
+          {
+            "x": 17.38,
+            "y": -1.5,
+            "z": -25.37
+          }
+        ],
+        "connectedSettlementIds": [
+          "country-009-capital",
+          "country-009-village-4"
+        ]
+      },
+      {
+        "roadId": "country-009-road-5",
+        "class": "collector",
+        "lanes": 2,
+        "speedLimitKph": 55,
+        "access": {
+          "vehicles": true,
+          "pedestrians": true,
+          "emergency": true
+        },
+        "points": [
+          {
+            "x": 0.0,
+            "y": -1.5,
+            "z": 0.0
+          },
+          {
+            "x": 31.6,
+            "y": -1.5,
+            "z": 11.88
+          },
+          {
+            "x": 44.3,
+            "y": -1.5,
+            "z": 34.15
+          },
+          {
+            "x": 65.07,
+            "y": -1.5,
+            "z": 51.98
+          },
+          {
+            "x": 94.83,
+            "y": -1.5,
+            "z": 64.87
+          }
+        ],
+        "connectedSettlementIds": [
+          "country-009-capital",
+          "country-009-village-5"
+        ]
+      },
+      {
+        "roadId": "country-009-road-6",
+        "class": "collector",
+        "lanes": 2,
+        "speedLimitKph": 55,
+        "access": {
+          "vehicles": true,
+          "pedestrians": true,
+          "emergency": true
+        },
+        "points": [
+          {
+            "x": 0.0,
+            "y": -1.5,
+            "z": 0.0
+          },
+          {
+            "x": 2.7,
+            "y": -1.5,
+            "z": 23.16
+          },
+          {
+            "x": 7.58,
+            "y": -1.5,
+            "z": 45.13
+          },
+          {
+            "x": 11.0,
+            "y": -1.5,
+            "z": 67.89
+          },
+          {
+            "x": 12.45,
+            "y": -1.5,
+            "z": 91.74
+          }
+        ],
+        "connectedSettlementIds": [
+          "country-009-capital",
+          "country-009-village-6"
+        ]
+      }
+    ],
+    "bridges": [
+      {
+        "bridgeId": "country-009-bridge-1",
+        "roadId": "country-009-road-1",
+        "riverId": "country-009-river-1",
+        "lengthM": 20.8,
+        "loadClass": "heavy-vehicle",
+        "supportsTrain": false,
+        "x": 10.31,
+        "y": -1.15,
+        "z": -26.01
+      },
+      {
+        "bridgeId": "country-009-bridge-2",
+        "roadId": "country-009-road-2",
+        "riverId": "country-009-river-2",
+        "lengthM": 31.9,
+        "loadClass": "heavy-vehicle",
+        "supportsTrain": false,
+        "x": -12.68,
+        "y": -1.15,
+        "z": -5.81
+      },
+      {
+        "bridgeId": "country-009-bridge-3",
+        "roadId": "country-009-road-3",
+        "riverId": "country-009-river-3",
+        "lengthM": 20.5,
+        "loadClass": "heavy-vehicle",
+        "supportsTrain": false,
+        "x": -9.84,
+        "y": -1.15,
+        "z": 56.84
+      }
+    ]
+  },
+  "railNetwork": {
+    "lines": [
+      {
+        "lineId": "country-009-rail-1",
+        "mode": "intercity-rail",
+        "electrification": "future-ready",
+        "trackGaugeMm": 1435,
+        "maxSpeedKph": 180,
+        "points": [
+          {
+            "x": 0.0,
+            "y": -1.5,
+            "z": 0.0
+          },
+          {
+            "x": -7.06,
+            "y": -1.5,
+            "z": 23.6
+          },
+          {
+            "x": 14.58,
+            "y": -1.5,
+            "z": 31.41
+          },
+          {
+            "x": 5.76,
+            "y": -1.5,
+            "z": 55.98
+          },
+          {
+            "x": -1.51,
+            "y": -1.5,
+            "z": 79.7
+          },
+          {
+            "x": 12.45,
+            "y": -1.5,
+            "z": 91.74
+          }
+        ]
+      }
+    ],
+    "stations": [
+      {
+        "stationId": "country-009-country-009-capital-station",
+        "settlementId": "country-009-capital",
+        "name": "Kadrune Central Central Station",
+        "service": "intercity",
+        "x": 0.0,
+        "y": -1.0,
+        "z": 0.0
+      },
+      {
+        "stationId": "country-009-country-009-village-1-station",
+        "settlementId": "country-009-village-1",
+        "name": "Kadrune Village 1 Central Station",
+        "service": "intercity",
+        "x": 52.33,
+        "y": -1.0,
+        "z": -47.73
+      },
+      {
+        "stationId": "country-009-country-009-village-2-station",
+        "settlementId": "country-009-village-2",
+        "name": "Kadrune Village 2 Central Station",
+        "service": "intercity",
+        "x": -15.04,
+        "y": -1.0,
+        "z": 44.96
+      },
+      {
+        "stationId": "country-009-country-009-village-3-station",
+        "settlementId": "country-009-village-3",
+        "name": "Kadrune Village 3 Central Station",
+        "service": "intercity",
+        "x": 70.23,
+        "y": -1.0,
+        "z": -39.05
+      },
+      {
+        "stationId": "country-009-country-009-village-4-station",
+        "settlementId": "country-009-village-4",
+        "name": "Kadrune Village 4 Central Station",
+        "service": "intercity",
+        "x": 17.38,
+        "y": -1.0,
+        "z": -25.37
+      },
+      {
+        "stationId": "country-009-country-009-village-5-station",
+        "settlementId": "country-009-village-5",
+        "name": "Kadrune Village 5 Central Station",
+        "service": "intercity",
+        "x": 94.83,
+        "y": -1.0,
+        "z": 64.87
+      },
+      {
+        "stationId": "country-009-country-009-village-6-station",
+        "settlementId": "country-009-village-6",
+        "name": "Kadrune Village 6 Central Station",
+        "service": "intercity",
+        "x": 12.45,
+        "y": -1.0,
+        "z": 91.74
+      }
+    ],
+    "trainService": {
+      "enabled": true,
+      "rollingStockProfile": "regional-electric-template"
+    }
+  },
+  "riverNetwork": {
+    "rivers": [
+      {
+        "riverId": "country-009-river-1",
+        "navigable": false,
+        "widthM": 8.8,
+        "transportMode": "waterway",
+        "points": [
+          {
+            "x": -128.0,
+            "y": 0.06,
+            "z": -40.28
+          },
+          {
+            "x": -93.82,
+            "y": -1.5,
+            "z": -28.96
+          },
+          {
+            "x": -38.71,
+            "y": -1.5,
+            "z": -29.16
+          },
+          {
+            "x": 10.31,
+            "y": -1.5,
+            "z": -26.01
+          },
+          {
+            "x": 37.51,
+            "y": -1.5,
+            "z": -10.85
+          },
+          {
+            "x": 94.18,
+            "y": -1.5,
+            "z": -11.91
+          },
+          {
+            "x": 128.0,
+            "y": -1.5,
+            "z": -0.4
+          }
+        ]
+      },
+      {
+        "riverId": "country-009-river-2",
+        "navigable": true,
+        "widthM": 19.9,
+        "transportMode": "river-freight",
+        "points": [
+          {
+            "x": -83.02,
+            "y": 0.24,
+            "z": -128.0
+          },
+          {
+            "x": -54.01,
+            "y": -1.5,
+            "z": -90.33
+          },
+          {
+            "x": -38.46,
+            "y": -1.5,
+            "z": -45.26
+          },
+          {
+            "x": -12.68,
+            "y": -1.5,
+            "z": -5.81
+          },
+          {
+            "x": -1.76,
+            "y": -1.5,
+            "z": 41.8
+          },
+          {
+            "x": 19.68,
+            "y": -1.5,
+            "z": 83.63
+          },
+          {
+            "x": 36.52,
+            "y": -1.5,
+            "z": 128.0
+          }
+        ]
+      },
+      {
+        "riverId": "country-009-river-3",
+        "navigable": false,
+        "widthM": 8.5,
+        "transportMode": "waterway",
+        "points": [
+          {
+            "x": -128.0,
+            "y": -1.5,
+            "z": 47.91
+          },
+          {
+            "x": -87.39,
+            "y": -1.5,
+            "z": 50.22
+          },
+          {
+            "x": -47.69,
+            "y": -1.5,
+            "z": 53.02
+          },
+          {
+            "x": -9.84,
+            "y": -1.5,
+            "z": 56.84
+          },
+          {
+            "x": 48.21,
+            "y": -1.5,
+            "z": 49.55
+          },
+          {
+            "x": 77.46,
+            "y": -1.5,
+            "z": 58.1
+          },
+          {
+            "x": 128.0,
+            "y": -1.5,
+            "z": 54.95
+          }
+        ]
+      }
+    ],
+    "riverBridges": [
+      "country-009-bridge-1",
+      "country-009-bridge-2",
+      "country-009-bridge-3"
+    ]
+  },
+  "simulationHooks": {
+    "cityInfrastructure": true,
+    "residentialAccess": true,
+    "trafficSimulation": true,
+    "massTransitSimulation": true,
+    "waterTrafficSimulation": true
+  }
+}

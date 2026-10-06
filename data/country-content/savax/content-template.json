@@ -1,0 +1,368 @@
+{
+  "schemaVersion": 1,
+  "countryId": "country-113",
+  "name": "Savax",
+  "status": "playable",
+  "completion": "template",
+  "templatePolicy": {
+    "generated": true,
+    "requiresReview": true,
+    "placeholderContentAllowed": true
+  },
+  "terrain": {
+    "asset": "data/country-content/savax/terrain.json",
+    "mapKey": "country/savax",
+    "biome": "polar-tundra"
+  },
+  "spawn": {
+    "x": 0.0,
+    "y": 1.2,
+    "z": 0.0,
+    "headingRad": 0.0
+  },
+  "settlements": [
+    {
+      "id": "country-113-capital",
+      "name": "Savax Central",
+      "type": "capital",
+      "populationTier": "large",
+      "x": 0.0,
+      "y": -1.0,
+      "z": 0.0
+    },
+    {
+      "id": "country-113-village-1",
+      "name": "Savax Village 1",
+      "type": "village",
+      "populationTier": "medium",
+      "x": -70.06,
+      "y": 11.63,
+      "z": 75.56
+    },
+    {
+      "id": "country-113-village-2",
+      "name": "Savax Village 2",
+      "type": "village",
+      "populationTier": "small",
+      "x": 69.61,
+      "y": -1.0,
+      "z": 37.81
+    }
+  ],
+  "infrastructure": {
+    "rivers": [
+      {
+        "id": "country-113-river-1",
+        "name": "Savax River 1",
+        "widthM": 9.4,
+        "points": [
+          {
+            "x": -128.0,
+            "y": 8.32,
+            "z": -8.06
+          },
+          {
+            "x": -74.32,
+            "y": 3.58,
+            "z": -6.42
+          },
+          {
+            "x": -34.8,
+            "y": -1.5,
+            "z": 3.01
+          },
+          {
+            "x": 1.7,
+            "y": -1.5,
+            "z": 14.1
+          },
+          {
+            "x": 36.0,
+            "y": -1.5,
+            "z": 26.39
+          },
+          {
+            "x": 82.05,
+            "y": -1.5,
+            "z": 32.23
+          },
+          {
+            "x": 128.0,
+            "y": -1.5,
+            "z": 38.12
+          }
+        ]
+      }
+    ],
+    "lakes": [
+      {
+        "id": "country-113-lake-1",
+        "name": "Savax Lake 1",
+        "x": -37.97,
+        "y": 0.37,
+        "z": -60.2,
+        "radiusM": 25.4,
+        "type": "natural"
+      },
+      {
+        "id": "country-113-lake-2",
+        "name": "Savax Lake 2",
+        "x": 19.46,
+        "y": 0.37,
+        "z": -49.98,
+        "radiusM": 22.1,
+        "type": "natural"
+      }
+    ],
+    "mountains": [
+      {
+        "id": "country-113-mountain-1",
+        "name": "Savax Highland 1",
+        "x": -63.8,
+        "y": 11.13,
+        "z": 80.6,
+        "heightM": 18.87,
+        "radiusM": 37.3
+      },
+      {
+        "id": "country-113-mountain-2",
+        "name": "Savax Highland 2",
+        "x": -72.64,
+        "y": 12.55,
+        "z": 57.93,
+        "heightM": 57.13,
+        "radiusM": 23.3
+      }
+    ],
+    "settlements": [
+      {
+        "id": "country-113-capital",
+        "name": "Savax Central",
+        "type": "capital",
+        "populationTier": "large",
+        "x": 0.0,
+        "y": -1.0,
+        "z": 0.0
+      },
+      {
+        "id": "country-113-village-1",
+        "name": "Savax Village 1",
+        "type": "village",
+        "populationTier": "medium",
+        "x": -70.06,
+        "y": 11.63,
+        "z": 75.56
+      },
+      {
+        "id": "country-113-village-2",
+        "name": "Savax Village 2",
+        "type": "village",
+        "populationTier": "small",
+        "x": 69.61,
+        "y": -1.0,
+        "z": 37.81
+      }
+    ],
+    "roads": [
+      {
+        "id": "country-113-road-1",
+        "class": "highway",
+        "points": [
+          {
+            "x": 0.0,
+            "y": -1.5,
+            "z": 0.0
+          },
+          {
+            "x": -28.37,
+            "y": -0.34,
+            "z": 24.86
+          },
+          {
+            "x": -44.45,
+            "y": 4.65,
+            "z": 42.96
+          },
+          {
+            "x": -45.02,
+            "y": 4.65,
+            "z": 52.53
+          },
+          {
+            "x": -70.06,
+            "y": 11.13,
+            "z": 75.56
+          }
+        ]
+      },
+      {
+        "id": "country-113-road-2",
+        "class": "regional",
+        "points": [
+          {
+            "x": 0.0,
+            "y": -1.5,
+            "z": 0.0
+          },
+          {
+            "x": 22.53,
+            "y": -1.5,
+            "z": 6.63
+          },
+          {
+            "x": 39.38,
+            "y": -1.5,
+            "z": 16.39
+          },
+          {
+            "x": 58.49,
+            "y": -1.5,
+            "z": 24.9
+          },
+          {
+            "x": 69.61,
+            "y": -1.5,
+            "z": 37.81
+          }
+        ]
+      }
+    ],
+    "bridges": [
+      {
+        "id": "country-113-bridge-1",
+        "name": "Savax Crossing 1",
+        "roadId": "country-113-road-1",
+        "riverId": "country-113-river-1",
+        "x": 1.7,
+        "y": -1.15,
+        "z": 14.1,
+        "lengthM": 21.4
+      }
+    ],
+    "railways": [
+      {
+        "id": "country-113-rail-1",
+        "class": "intercity",
+        "points": [
+          {
+            "x": 0.0,
+            "y": -1.5,
+            "z": 0.0
+          },
+          {
+            "x": 21.34,
+            "y": -1.5,
+            "z": 3.48
+          },
+          {
+            "x": 21.78,
+            "y": -1.5,
+            "z": 18.46
+          },
+          {
+            "x": 30.0,
+            "y": -1.5,
+            "z": 29.16
+          },
+          {
+            "x": 59.38,
+            "y": -1.5,
+            "z": 28.22
+          },
+          {
+            "x": 69.61,
+            "y": -1.5,
+            "z": 37.81
+          }
+        ]
+      }
+    ],
+    "airports": [
+      {
+        "id": "country-113-airport-1",
+        "name": "Savax International",
+        "size": "large",
+        "x": -50.74,
+        "y": -1.3,
+        "z": -14.94,
+        "runwayLengthM": 900
+      }
+    ],
+    "ports": [
+      {
+        "id": "country-113-port-1",
+        "name": "Savax Maritime Port",
+        "x": 16.59,
+        "y": 0.66,
+        "z": 100.01,
+        "capacity": "large"
+      }
+    ],
+    "militaryBases": [
+      {
+        "id": "country-113-base-1",
+        "name": "Savax Defense Station",
+        "type": "air-ground",
+        "x": 50.71,
+        "y": -1.2,
+        "z": -17.74
+      }
+    ],
+    "metroLines": [
+      {
+        "id": "country-113-metro-1",
+        "status": "planned",
+        "serves": [
+          "country-113-capital",
+          "country-113-village-1",
+          "country-113-village-2"
+        ]
+      }
+    ],
+    "airRoutes": [
+      {
+        "id": "country-113-air-route-1",
+        "status": "regional",
+        "airportId": "country-113-airport-1"
+      }
+    ],
+    "shipLanes": [
+      {
+        "id": "country-113-ship-lane-1",
+        "status": "regional",
+        "portId": "country-113-port-1"
+      }
+    ],
+    "submarineZones": [
+      {
+        "id": "country-113-submarine-zone-1",
+        "status": "charted",
+        "depthM": 118.6
+      }
+    ]
+  },
+  "missions": [
+    {
+      "id": "country-113-intro",
+      "title": "Welcome to Savax",
+      "status": "template",
+      "placeholder": true
+    },
+    {
+      "id": "country-113-route",
+      "title": "Cross-Region Route",
+      "status": "template",
+      "placeholder": true
+    }
+  ],
+  "systems": {
+    "weatherProfile": "template",
+    "peopleProfile": "people-savax",
+    "trafficProfile": "template"
+  },
+  "nextSteps": [
+    "replace placeholder settlements",
+    "author terrain landmarks",
+    "author missions and NPC schedules"
+  ]
+}

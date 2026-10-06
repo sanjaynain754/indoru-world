@@ -1,0 +1,649 @@
+{
+  "schemaVersion": 1,
+  "countryId": "country-080",
+  "name": "Akarumo",
+  "status": "playable",
+  "completion": "template",
+  "templatePolicy": {
+    "generated": true,
+    "requiresReview": true,
+    "placeholderContentAllowed": true
+  },
+  "terrain": {
+    "asset": "data/country-content/akarumo/terrain.json",
+    "mapKey": "country/akarumo",
+    "biome": "rainforest-wetland"
+  },
+  "spawn": {
+    "x": 0.0,
+    "y": 1.2,
+    "z": 0.0,
+    "headingRad": 0.0
+  },
+  "settlements": [
+    {
+      "id": "country-080-capital",
+      "name": "Akarumo Central",
+      "type": "capital",
+      "populationTier": "large",
+      "x": 0.0,
+      "y": 24.68,
+      "z": 0.0
+    },
+    {
+      "id": "country-080-village-1",
+      "name": "Akarumo Village 1",
+      "type": "village",
+      "populationTier": "medium",
+      "x": -64.89,
+      "y": 21.75,
+      "z": 13.48
+    },
+    {
+      "id": "country-080-village-2",
+      "name": "Akarumo Village 2",
+      "type": "village",
+      "populationTier": "small",
+      "x": 7.96,
+      "y": 24.84,
+      "z": 22.69
+    },
+    {
+      "id": "country-080-village-3",
+      "name": "Akarumo Village 3",
+      "type": "village",
+      "populationTier": "small",
+      "x": -96.49,
+      "y": 17.75,
+      "z": 71.13
+    },
+    {
+      "id": "country-080-village-4",
+      "name": "Akarumo Village 4",
+      "type": "village",
+      "populationTier": "medium",
+      "x": -5.36,
+      "y": 19.3,
+      "z": -73.81
+    },
+    {
+      "id": "country-080-village-5",
+      "name": "Akarumo Village 5",
+      "type": "village",
+      "populationTier": "small",
+      "x": 18.91,
+      "y": 22.9,
+      "z": -27.89
+    },
+    {
+      "id": "country-080-village-6",
+      "name": "Akarumo Village 6",
+      "type": "village",
+      "populationTier": "small",
+      "x": -79.8,
+      "y": 19.87,
+      "z": -13.54
+    }
+  ],
+  "infrastructure": {
+    "rivers": [
+      {
+        "id": "country-080-river-1",
+        "name": "Akarumo River 1",
+        "widthM": 6.3,
+        "points": [
+          {
+            "x": -128.0,
+            "y": 12.7,
+            "z": 67.5
+          },
+          {
+            "x": -77.51,
+            "y": 19.63,
+            "z": 43.82
+          },
+          {
+            "x": -39.34,
+            "y": 23.93,
+            "z": 26.92
+          },
+          {
+            "x": -10.53,
+            "y": 24.4,
+            "z": 15.17
+          },
+          {
+            "x": 37.73,
+            "y": 22.6,
+            "z": -7.29
+          },
+          {
+            "x": 85.54,
+            "y": 16.46,
+            "z": -29.49
+          },
+          {
+            "x": 128.0,
+            "y": 8.37,
+            "z": -48.75
+          }
+        ]
+      },
+      {
+        "id": "country-080-river-2",
+        "name": "Akarumo River 2",
+        "widthM": 8.7,
+        "points": [
+          {
+            "x": -46.98,
+            "y": 14.25,
+            "z": -128.0
+          },
+          {
+            "x": -19.99,
+            "y": 19.13,
+            "z": -86.68
+          },
+          {
+            "x": 0.06,
+            "y": 21.31,
+            "z": -41.53
+          },
+          {
+            "x": 27.3,
+            "y": 22.6,
+            "z": -0.35
+          },
+          {
+            "x": 45.71,
+            "y": 19.88,
+            "z": 45.7
+          },
+          {
+            "x": 74.6,
+            "y": 16.02,
+            "z": 85.98
+          },
+          {
+            "x": 100.33,
+            "y": 9.26,
+            "z": 128.0
+          }
+        ]
+      },
+      {
+        "id": "country-080-river-3",
+        "name": "Akarumo River 3",
+        "widthM": 18.4,
+        "points": [
+          {
+            "x": -128.0,
+            "y": 14.78,
+            "z": -5.86
+          },
+          {
+            "x": -87.05,
+            "y": 19.52,
+            "z": 0.68
+          },
+          {
+            "x": -30.8,
+            "y": 23.32,
+            "z": -1.2
+          },
+          {
+            "x": -10.19,
+            "y": 24.4,
+            "z": 16.53
+          },
+          {
+            "x": 48.46,
+            "y": 20.72,
+            "z": 13.34
+          },
+          {
+            "x": 84.08,
+            "y": 16.94,
+            "z": 22.81
+          },
+          {
+            "x": 128.0,
+            "y": 11.39,
+            "z": 27.71
+          }
+        ]
+      }
+    ],
+    "lakes": [
+      {
+        "id": "country-080-lake-1",
+        "name": "Akarumo Lake 1",
+        "x": 2.99,
+        "y": 0.44,
+        "z": -43.66,
+        "radiusM": 17.4,
+        "type": "reservoir"
+      }
+    ],
+    "mountains": [
+      {
+        "id": "country-080-mountain-1",
+        "name": "Akarumo Highland 1",
+        "x": 46.88,
+        "y": 16.63,
+        "z": -84.47,
+        "heightM": 43.7,
+        "radiusM": 34.2
+      },
+      {
+        "id": "country-080-mountain-2",
+        "name": "Akarumo Highland 2",
+        "x": -56.43,
+        "y": 17.9,
+        "z": -76.53,
+        "heightM": 31.25,
+        "radiusM": 36.5
+      },
+      {
+        "id": "country-080-mountain-3",
+        "name": "Akarumo Highland 3",
+        "x": 53.43,
+        "y": 20.72,
+        "z": 15.26,
+        "heightM": 44.82,
+        "radiusM": 42.8
+      }
+    ],
+    "settlements": [
+      {
+        "id": "country-080-capital",
+        "name": "Akarumo Central",
+        "type": "capital",
+        "populationTier": "large",
+        "x": 0.0,
+        "y": 24.68,
+        "z": 0.0
+      },
+      {
+        "id": "country-080-village-1",
+        "name": "Akarumo Village 1",
+        "type": "village",
+        "populationTier": "medium",
+        "x": -64.89,
+        "y": 21.75,
+        "z": 13.48
+      },
+      {
+        "id": "country-080-village-2",
+        "name": "Akarumo Village 2",
+        "type": "village",
+        "populationTier": "small",
+        "x": 7.96,
+        "y": 24.84,
+        "z": 22.69
+      },
+      {
+        "id": "country-080-village-3",
+        "name": "Akarumo Village 3",
+        "type": "village",
+        "populationTier": "small",
+        "x": -96.49,
+        "y": 17.75,
+        "z": 71.13
+      },
+      {
+        "id": "country-080-village-4",
+        "name": "Akarumo Village 4",
+        "type": "village",
+        "populationTier": "medium",
+        "x": -5.36,
+        "y": 19.3,
+        "z": -73.81
+      },
+      {
+        "id": "country-080-village-5",
+        "name": "Akarumo Village 5",
+        "type": "village",
+        "populationTier": "small",
+        "x": 18.91,
+        "y": 22.9,
+        "z": -27.89
+      },
+      {
+        "id": "country-080-village-6",
+        "name": "Akarumo Village 6",
+        "type": "village",
+        "populationTier": "small",
+        "x": -79.8,
+        "y": 19.87,
+        "z": -13.54
+      }
+    ],
+    "roads": [
+      {
+        "id": "country-080-road-1",
+        "class": "highway",
+        "points": [
+          {
+            "x": 0.0,
+            "y": 24.18,
+            "z": 0.0
+          },
+          {
+            "x": -9.04,
+            "y": 24.02,
+            "z": -0.58
+          },
+          {
+            "x": -41.89,
+            "y": 22.72,
+            "z": 11.93
+          },
+          {
+            "x": -42.28,
+            "y": 22.24,
+            "z": 6.6
+          },
+          {
+            "x": -64.89,
+            "y": 21.25,
+            "z": 13.48
+          }
+        ]
+      },
+      {
+        "id": "country-080-road-2",
+        "class": "regional",
+        "points": [
+          {
+            "x": 0.0,
+            "y": 24.18,
+            "z": 0.0
+          },
+          {
+            "x": -8.4,
+            "y": 24.4,
+            "z": 11.39
+          },
+          {
+            "x": 1.68,
+            "y": 24.34,
+            "z": 12.61
+          },
+          {
+            "x": -2.61,
+            "y": 24.34,
+            "z": 21.74
+          },
+          {
+            "x": 7.96,
+            "y": 24.34,
+            "z": 22.69
+          }
+        ]
+      },
+      {
+        "id": "country-080-road-3",
+        "class": "regional",
+        "points": [
+          {
+            "x": 0.0,
+            "y": 24.18,
+            "z": 0.0
+          },
+          {
+            "x": -24.97,
+            "y": 23.82,
+            "z": 18.25
+          },
+          {
+            "x": -49.61,
+            "y": 22.95,
+            "z": 36.32
+          },
+          {
+            "x": -60.79,
+            "y": 21.44,
+            "z": 46.98
+          },
+          {
+            "x": -96.49,
+            "y": 17.25,
+            "z": 71.13
+          }
+        ]
+      },
+      {
+        "id": "country-080-road-4",
+        "class": "regional",
+        "points": [
+          {
+            "x": 0.0,
+            "y": 24.18,
+            "z": 0.0
+          },
+          {
+            "x": -0.35,
+            "y": 23.55,
+            "z": -19.0
+          },
+          {
+            "x": -8.91,
+            "y": 22.27,
+            "z": -33.48
+          },
+          {
+            "x": -6.98,
+            "y": 21.31,
+            "z": -53.73
+          },
+          {
+            "x": -5.36,
+            "y": 18.8,
+            "z": -73.81
+          }
+        ]
+      },
+      {
+        "id": "country-080-road-5",
+        "class": "regional",
+        "points": [
+          {
+            "x": 0.0,
+            "y": 24.18,
+            "z": 0.0
+          },
+          {
+            "x": 7.89,
+            "y": 23.55,
+            "z": -8.71
+          },
+          {
+            "x": 4.45,
+            "y": 23.55,
+            "z": -11.19
+          },
+          {
+            "x": 25.79,
+            "y": 21.74,
+            "z": -27.3
+          },
+          {
+            "x": 18.91,
+            "y": 22.4,
+            "z": -27.89
+          }
+        ]
+      },
+      {
+        "id": "country-080-road-6",
+        "class": "regional",
+        "points": [
+          {
+            "x": 0.0,
+            "y": 24.18,
+            "z": 0.0
+          },
+          {
+            "x": -25.89,
+            "y": 23.32,
+            "z": -0.12
+          },
+          {
+            "x": -34.8,
+            "y": 22.58,
+            "z": -9.58
+          },
+          {
+            "x": -62.38,
+            "y": 20.57,
+            "z": -8.77
+          },
+          {
+            "x": -79.8,
+            "y": 19.37,
+            "z": -13.54
+          }
+        ]
+      }
+    ],
+    "bridges": [
+      {
+        "id": "country-080-bridge-1",
+        "name": "Akarumo Crossing 1",
+        "roadId": "country-080-road-1",
+        "riverId": "country-080-river-1",
+        "x": -10.53,
+        "y": 24.75,
+        "z": 15.17,
+        "lengthM": 18.3
+      },
+      {
+        "id": "country-080-bridge-2",
+        "name": "Akarumo Crossing 2",
+        "roadId": "country-080-road-2",
+        "riverId": "country-080-river-2",
+        "x": 27.3,
+        "y": 22.950000000000003,
+        "z": -0.35,
+        "lengthM": 20.7
+      },
+      {
+        "id": "country-080-bridge-3",
+        "name": "Akarumo Crossing 3",
+        "roadId": "country-080-road-3",
+        "riverId": "country-080-river-3",
+        "x": -10.19,
+        "y": 24.75,
+        "z": 16.53,
+        "lengthM": 30.4
+      }
+    ],
+    "railways": [
+      {
+        "id": "country-080-rail-1",
+        "class": "intercity",
+        "points": [
+          {
+            "x": 0.0,
+            "y": 24.18,
+            "z": 0.0
+          },
+          {
+            "x": -12.2,
+            "y": 24.02,
+            "z": -4.78
+          },
+          {
+            "x": -24.14,
+            "y": 22.58,
+            "z": -9.7
+          },
+          {
+            "x": -39.82,
+            "y": 22.58,
+            "z": -12.55
+          },
+          {
+            "x": -71.38,
+            "y": 20.93,
+            "z": -6.69
+          },
+          {
+            "x": -79.8,
+            "y": 19.37,
+            "z": -13.54
+          }
+        ]
+      }
+    ],
+    "airports": [],
+    "ports": [
+      {
+        "id": "country-080-port-1",
+        "name": "Akarumo Maritime Port",
+        "x": 90.69,
+        "y": 0.73,
+        "z": -94.87,
+        "capacity": "large"
+      }
+    ],
+    "militaryBases": [],
+    "metroLines": [
+      {
+        "id": "country-080-metro-1",
+        "status": "planned",
+        "serves": [
+          "country-080-capital",
+          "country-080-village-1",
+          "country-080-village-2"
+        ]
+      }
+    ],
+    "airRoutes": [
+      {
+        "id": "country-080-air-route-1",
+        "status": "regional",
+        "airportId": null
+      }
+    ],
+    "shipLanes": [
+      {
+        "id": "country-080-ship-lane-1",
+        "status": "regional",
+        "portId": "country-080-port-1"
+      }
+    ],
+    "submarineZones": [
+      {
+        "id": "country-080-submarine-zone-1",
+        "status": "charted",
+        "depthM": 215.8
+      }
+    ]
+  },
+  "missions": [
+    {
+      "id": "country-080-intro",
+      "title": "Welcome to Akarumo",
+      "status": "template",
+      "placeholder": true
+    },
+    {
+      "id": "country-080-route",
+      "title": "Cross-Region Route",
+      "status": "template",
+      "placeholder": true
+    }
+  ],
+  "systems": {
+    "weatherProfile": "template",
+    "peopleProfile": "people-akarumo",
+    "trafficProfile": "template"
+  },
+  "nextSteps": [
+    "replace placeholder settlements",
+    "author terrain landmarks",
+    "author missions and NPC schedules"
+  ]
+}

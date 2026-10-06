@@ -4,17 +4,24 @@ use thiserror::Error;
 
 #[derive(Debug, Deserialize)]
 struct WorldDocument {
+    #[serde(rename = "worldId")]
     world_id: String,
     name: String,
+    #[serde(rename = "startingCountryId")]
+    starting_country_id: String,
+    #[serde(rename = "countryCount")]
     country_count: usize,
+    #[serde(rename = "temporaryMapCodes")]
     temporary_map_codes: bool,
     countries: Vec<CountryDocument>,
 }
 
 #[derive(Debug, Deserialize)]
 struct CountryDocument {
+    #[serde(rename = "countryId")]
     country_id: String,
     name: String,
+    #[serde(rename = "flagId")]
     flag_id: String,
     status: String,
 }
@@ -33,6 +40,10 @@ pub enum ValidationError {
     CountryIdentity(String),
     #[error("country {0} has invalid status")]
     CountryStatus(String),
+    #[error("country IDs must be unique")]
+    DuplicateCountryId,
+    #[error("every country must be playable and Avenra must remain the default starter")]
+    InvalidStarter,
 }
 
 pub fn validate_world_json(input: &str) -> Result<(), ValidationError> {
@@ -46,13 +57,23 @@ pub fn validate_world_json(input: &str) -> Result<(), ValidationError> {
     if world.country_count != world.countries.len() {
         return Err(ValidationError::CountryCount);
     }
-    for country in world.countries {
+    let mut ids = std::collections::HashSet::new();
+    for country in &world.countries {
+        if !ids.insert(country.country_id.clone()) {
+            return Err(ValidationError::DuplicateCountryId);
+        }
         if country.name.trim().is_empty() || !country.flag_id.starts_with("flag-") {
-            return Err(ValidationError::CountryIdentity(country.country_id));
+            return Err(ValidationError::CountryIdentity(country.country_id.clone()));
         }
         if country.status != "playable" && country.status != "coming_soon" {
-            return Err(ValidationError::CountryStatus(country.country_id));
+            return Err(ValidationError::CountryStatus(country.country_id.clone()));
         }
+        if country.status != "playable" {
+            return Err(ValidationError::InvalidStarter);
+        }
+    }
+    if world.countries.is_empty() || world.starting_country_id != "country-001" {
+        return Err(ValidationError::InvalidStarter);
     }
     Ok(())
 }
@@ -88,13 +109,13 @@ mod tests {
 
     #[test]
     fn accepts_valid_world_shape() {
-        let json = r#"{"world_id":"indoru-world-001","name":"Indoru","country_count":1,"temporary_map_codes":false,"countries":[{"country_id":"country-indoru","name":"Indoru","flag_id":"flag-indoru","status":"playable"}]}"#;
+        let json = r#"{"worldId":"indoru-world-001","name":"Indoru","startingCountryId":"country-001","countryCount":1,"temporaryMapCodes":false,"countries":[{"countryId":"country-001","name":"Avenra","flagId":"flag-avenra","status":"playable"}]}"#;
         assert!(validate_world_json(json).is_ok());
     }
 
     #[test]
     fn rejects_temporary_codes() {
-        let json = r#"{"world_id":"indoru-world-001","name":"Indoru","country_count":0,"temporary_map_codes":true,"countries":[]}"#;
+        let json = r#"{"worldId":"indoru-world-001","name":"Indoru","startingCountryId":"country-001","countryCount":0,"temporaryMapCodes":true,"countries":[]}"#;
         assert!(validate_world_json(json).is_err());
     }
 }

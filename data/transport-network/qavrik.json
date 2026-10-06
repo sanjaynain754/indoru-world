@@ -1,0 +1,343 @@
+{
+  "schemaVersion": 1,
+  "countryId": "country-097",
+  "mapKey": "country/qavrik",
+  "seed": 5648555933136862558,
+  "sourceTerrain": "data/country-content/qavrik/terrain.json",
+  "roadNetwork": {
+    "segments": [
+      {
+        "roadId": "country-097-road-1",
+        "class": "arterial",
+        "lanes": 4,
+        "speedLimitKph": 90,
+        "access": {
+          "vehicles": true,
+          "pedestrians": true,
+          "emergency": true
+        },
+        "points": [
+          {
+            "x": 0.0,
+            "y": 37.58,
+            "z": 0.0
+          },
+          {
+            "x": 27.29,
+            "y": 32.08,
+            "z": 5.18
+          },
+          {
+            "x": 63.76,
+            "y": 24.09,
+            "z": 5.32
+          },
+          {
+            "x": 67.82,
+            "y": 24.49,
+            "z": 23.28
+          },
+          {
+            "x": 104.98,
+            "y": 14.12,
+            "z": 23.04
+          }
+        ],
+        "connectedSettlementIds": [
+          "country-097-capital",
+          "country-097-village-1"
+        ]
+      },
+      {
+        "roadId": "country-097-road-2",
+        "class": "collector",
+        "lanes": 2,
+        "speedLimitKph": 55,
+        "access": {
+          "vehicles": true,
+          "pedestrians": true,
+          "emergency": true
+        },
+        "points": [
+          {
+            "x": 0.0,
+            "y": 37.58,
+            "z": 0.0
+          },
+          {
+            "x": 8.33,
+            "y": 35.5,
+            "z": 12.37
+          },
+          {
+            "x": 38.62,
+            "y": 32.13,
+            "z": 12.67
+          },
+          {
+            "x": 54.96,
+            "y": 28.35,
+            "z": 20.63
+          },
+          {
+            "x": 59.45,
+            "y": 24.8,
+            "z": 35.12
+          }
+        ],
+        "connectedSettlementIds": [
+          "country-097-capital",
+          "country-097-village-2"
+        ]
+      },
+      {
+        "roadId": "country-097-road-3",
+        "class": "collector",
+        "lanes": 2,
+        "speedLimitKph": 55,
+        "access": {
+          "vehicles": true,
+          "pedestrians": true,
+          "emergency": true
+        },
+        "points": [
+          {
+            "x": 0.0,
+            "y": 37.58,
+            "z": 0.0
+          },
+          {
+            "x": -14.89,
+            "y": 38.81,
+            "z": -5.57
+          },
+          {
+            "x": -34.22,
+            "y": 37.28,
+            "z": -8.71
+          },
+          {
+            "x": -54.17,
+            "y": 36.81,
+            "z": -11.5
+          },
+          {
+            "x": -78.88,
+            "y": 34.68,
+            "z": -11.67
+          }
+        ],
+        "connectedSettlementIds": [
+          "country-097-capital",
+          "country-097-village-3"
+        ]
+      },
+      {
+        "roadId": "country-097-road-4",
+        "class": "collector",
+        "lanes": 2,
+        "speedLimitKph": 55,
+        "access": {
+          "vehicles": true,
+          "pedestrians": true,
+          "emergency": true
+        },
+        "points": [
+          {
+            "x": 0.0,
+            "y": 37.58,
+            "z": 0.0
+          },
+          {
+            "x": -12.56,
+            "y": 38.81,
+            "z": 7.3
+          },
+          {
+            "x": -17.29,
+            "y": 39.74,
+            "z": 10.3
+          },
+          {
+            "x": -19.25,
+            "y": 39.74,
+            "z": 11.77
+          },
+          {
+            "x": -30.49,
+            "y": 40.25,
+            "z": 18.34
+          }
+        ],
+        "connectedSettlementIds": [
+          "country-097-capital",
+          "country-097-village-4"
+        ]
+      }
+    ],
+    "bridges": [
+      {
+        "bridgeId": "country-097-bridge-1",
+        "roadId": "country-097-road-1",
+        "riverId": "country-097-river-1",
+        "lengthM": 22.2,
+        "loadClass": "heavy-vehicle",
+        "supportsTrain": false,
+        "x": 7.97,
+        "y": 34.440000000000005,
+        "z": -27.49
+      }
+    ]
+  },
+  "railNetwork": {
+    "lines": [
+      {
+        "lineId": "country-097-rail-1",
+        "mode": "intercity-rail",
+        "electrification": "future-ready",
+        "trackGaugeMm": 1435,
+        "maxSpeedKph": 180,
+        "points": [
+          {
+            "x": 0.0,
+            "y": 37.58,
+            "z": 0.0
+          },
+          {
+            "x": -17.92,
+            "y": 39.74,
+            "z": 10.17
+          },
+          {
+            "x": -5.63,
+            "y": 37.58,
+            "z": 3.73
+          },
+          {
+            "x": -20.58,
+            "y": 39.74,
+            "z": 12.26
+          },
+          {
+            "x": -18.05,
+            "y": 39.74,
+            "z": 11.18
+          },
+          {
+            "x": -30.49,
+            "y": 40.25,
+            "z": 18.34
+          }
+        ]
+      }
+    ],
+    "stations": [
+      {
+        "stationId": "country-097-country-097-capital-station",
+        "settlementId": "country-097-capital",
+        "name": "Qavrik Central Central Station",
+        "service": "intercity",
+        "x": 0.0,
+        "y": 38.08,
+        "z": 0.0
+      },
+      {
+        "stationId": "country-097-country-097-village-1-station",
+        "settlementId": "country-097-village-1",
+        "name": "Qavrik Village 1 Central Station",
+        "service": "intercity",
+        "x": 104.98,
+        "y": 14.62,
+        "z": 23.04
+      },
+      {
+        "stationId": "country-097-country-097-village-2-station",
+        "settlementId": "country-097-village-2",
+        "name": "Qavrik Village 2 Central Station",
+        "service": "intercity",
+        "x": 59.45,
+        "y": 25.3,
+        "z": 35.12
+      },
+      {
+        "stationId": "country-097-country-097-village-3-station",
+        "settlementId": "country-097-village-3",
+        "name": "Qavrik Village 3 Central Station",
+        "service": "intercity",
+        "x": -78.88,
+        "y": 35.18,
+        "z": -11.67
+      },
+      {
+        "stationId": "country-097-country-097-village-4-station",
+        "settlementId": "country-097-village-4",
+        "name": "Qavrik Village 4 Central Station",
+        "service": "intercity",
+        "x": -30.49,
+        "y": 40.75,
+        "z": 18.34
+      }
+    ],
+    "trainService": {
+      "enabled": true,
+      "rollingStockProfile": "regional-electric-template"
+    }
+  },
+  "riverNetwork": {
+    "rivers": [
+      {
+        "riverId": "country-097-river-1",
+        "navigable": false,
+        "widthM": 10.2,
+        "transportMode": "waterway",
+        "points": [
+          {
+            "x": -128.0,
+            "y": 26.62,
+            "z": -26.7
+          },
+          {
+            "x": -92.09,
+            "y": 33.03,
+            "z": -21.79
+          },
+          {
+            "x": -52.26,
+            "y": 36.81,
+            "z": -19.03
+          },
+          {
+            "x": 7.97,
+            "y": 34.09,
+            "z": -27.49
+          },
+          {
+            "x": 45.93,
+            "y": 27.73,
+            "z": -23.7
+          },
+          {
+            "x": 89.75,
+            "y": 14.97,
+            "z": -23.14
+          },
+          {
+            "x": 128.0,
+            "y": 8.05,
+            "z": -19.51
+          }
+        ]
+      }
+    ],
+    "riverBridges": [
+      "country-097-bridge-1"
+    ]
+  },
+  "simulationHooks": {
+    "cityInfrastructure": true,
+    "residentialAccess": true,
+    "trafficSimulation": true,
+    "massTransitSimulation": true,
+    "waterTrafficSimulation": false
+  }
+}

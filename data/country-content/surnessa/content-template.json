@@ -1,0 +1,417 @@
+{
+  "schemaVersion": 1,
+  "countryId": "country-096",
+  "name": "Surnessa",
+  "status": "playable",
+  "completion": "template",
+  "templatePolicy": {
+    "generated": true,
+    "requiresReview": true,
+    "placeholderContentAllowed": true
+  },
+  "terrain": {
+    "asset": "data/country-content/surnessa/terrain.json",
+    "mapKey": "country/surnessa",
+    "biome": "volcanic-ashland"
+  },
+  "spawn": {
+    "x": 0.0,
+    "y": 1.2,
+    "z": 0.0,
+    "headingRad": 0.0
+  },
+  "settlements": [
+    {
+      "id": "country-096-capital",
+      "name": "Surnessa Central",
+      "type": "capital",
+      "populationTier": "large",
+      "x": 0.0,
+      "y": 38.58,
+      "z": 0.0
+    },
+    {
+      "id": "country-096-village-1",
+      "name": "Surnessa Village 1",
+      "type": "village",
+      "populationTier": "medium",
+      "x": 91.36,
+      "y": 20.29,
+      "z": 22.82
+    },
+    {
+      "id": "country-096-village-2",
+      "name": "Surnessa Village 2",
+      "type": "village",
+      "populationTier": "small",
+      "x": -33.64,
+      "y": 32.19,
+      "z": 53.08
+    },
+    {
+      "id": "country-096-village-3",
+      "name": "Surnessa Village 3",
+      "type": "village",
+      "populationTier": "small",
+      "x": -49.98,
+      "y": 34.3,
+      "z": 14.76
+    }
+  ],
+  "infrastructure": {
+    "rivers": [
+      {
+        "id": "country-096-river-1",
+        "name": "Surnessa River 1",
+        "widthM": 11.2,
+        "points": [
+          {
+            "x": -128.0,
+            "y": 22.62,
+            "z": -63.48
+          },
+          {
+            "x": -91.24,
+            "y": 30.47,
+            "z": -32.42
+          },
+          {
+            "x": -33.84,
+            "y": 37.46,
+            "z": -12.71
+          },
+          {
+            "x": 10.6,
+            "y": 35.08,
+            "z": 14.13
+          },
+          {
+            "x": 32.82,
+            "y": 27.38,
+            "z": 53.2
+          },
+          {
+            "x": 83.92,
+            "y": 15.33,
+            "z": 76.37
+          },
+          {
+            "x": 128.0,
+            "y": -0.52,
+            "z": 103.41
+          }
+        ]
+      }
+    ],
+    "lakes": [
+      {
+        "id": "country-096-lake-1",
+        "name": "Surnessa Lake 1",
+        "x": -40.82,
+        "y": 0.41,
+        "z": 51.57,
+        "radiusM": 9.3,
+        "type": "natural"
+      },
+      {
+        "id": "country-096-lake-2",
+        "name": "Surnessa Lake 2",
+        "x": -75.79,
+        "y": 0.41,
+        "z": 53.89,
+        "radiusM": 8.6,
+        "type": "natural"
+      }
+    ],
+    "mountains": [
+      {
+        "id": "country-096-mountain-1",
+        "name": "Surnessa Highland 1",
+        "x": -14.88,
+        "y": 38.52,
+        "z": -73.41,
+        "heightM": 27.52,
+        "radiusM": 32.2
+      },
+      {
+        "id": "country-096-mountain-2",
+        "name": "Surnessa Highland 2",
+        "x": 45.01,
+        "y": 35.04,
+        "z": -66.18,
+        "heightM": 20.79,
+        "radiusM": 30.2
+      },
+      {
+        "id": "country-096-mountain-3",
+        "name": "Surnessa Highland 3",
+        "x": 35.3,
+        "y": 35.08,
+        "z": -3.96,
+        "heightM": 25.52,
+        "radiusM": 35.0
+      }
+    ],
+    "settlements": [
+      {
+        "id": "country-096-capital",
+        "name": "Surnessa Central",
+        "type": "capital",
+        "populationTier": "large",
+        "x": 0.0,
+        "y": 38.58,
+        "z": 0.0
+      },
+      {
+        "id": "country-096-village-1",
+        "name": "Surnessa Village 1",
+        "type": "village",
+        "populationTier": "medium",
+        "x": 91.36,
+        "y": 20.29,
+        "z": 22.82
+      },
+      {
+        "id": "country-096-village-2",
+        "name": "Surnessa Village 2",
+        "type": "village",
+        "populationTier": "small",
+        "x": -33.64,
+        "y": 32.19,
+        "z": 53.08
+      },
+      {
+        "id": "country-096-village-3",
+        "name": "Surnessa Village 3",
+        "type": "village",
+        "populationTier": "small",
+        "x": -49.98,
+        "y": 34.3,
+        "z": 14.76
+      }
+    ],
+    "roads": [
+      {
+        "id": "country-096-road-1",
+        "class": "highway",
+        "points": [
+          {
+            "x": 0.0,
+            "y": 38.08,
+            "z": 0.0
+          },
+          {
+            "x": 16.1,
+            "y": 35.08,
+            "z": 9.41
+          },
+          {
+            "x": 41.76,
+            "y": 29.84,
+            "z": 13.57
+          },
+          {
+            "x": 80.34,
+            "y": 23.14,
+            "z": 10.62
+          },
+          {
+            "x": 91.36,
+            "y": 19.79,
+            "z": 22.82
+          }
+        ]
+      },
+      {
+        "id": "country-096-road-2",
+        "class": "regional",
+        "points": [
+          {
+            "x": 0.0,
+            "y": 38.08,
+            "z": 0.0
+          },
+          {
+            "x": -3.72,
+            "y": 36.41,
+            "z": 10.69
+          },
+          {
+            "x": -11.11,
+            "y": 36.61,
+            "z": 23.4
+          },
+          {
+            "x": -14.74,
+            "y": 34.59,
+            "z": 34.04
+          },
+          {
+            "x": -33.64,
+            "y": 31.69,
+            "z": 53.08
+          }
+        ]
+      },
+      {
+        "id": "country-096-road-3",
+        "class": "regional",
+        "points": [
+          {
+            "x": 0.0,
+            "y": 38.08,
+            "z": 0.0
+          },
+          {
+            "x": -14.01,
+            "y": 37.92,
+            "z": 4.52
+          },
+          {
+            "x": -16.28,
+            "y": 37.92,
+            "z": 2.59
+          },
+          {
+            "x": -41.56,
+            "y": 33.8,
+            "z": 13.31
+          },
+          {
+            "x": -49.98,
+            "y": 33.8,
+            "z": 14.76
+          }
+        ]
+      }
+    ],
+    "bridges": [
+      {
+        "id": "country-096-bridge-1",
+        "name": "Surnessa Crossing 1",
+        "roadId": "country-096-road-1",
+        "riverId": "country-096-river-1",
+        "x": 10.6,
+        "y": 35.43,
+        "z": 14.13,
+        "lengthM": 23.2
+      }
+    ],
+    "railways": [
+      {
+        "id": "country-096-rail-1",
+        "class": "intercity",
+        "points": [
+          {
+            "x": 0.0,
+            "y": 38.08,
+            "z": 0.0
+          },
+          {
+            "x": 0.72,
+            "y": 38.08,
+            "z": -2.94
+          },
+          {
+            "x": -19.54,
+            "y": 37.92,
+            "z": 5.66
+          },
+          {
+            "x": -34.36,
+            "y": 35.69,
+            "z": 11.26
+          },
+          {
+            "x": -49.77,
+            "y": 33.8,
+            "z": 17.19
+          },
+          {
+            "x": -49.98,
+            "y": 33.8,
+            "z": 14.76
+          }
+        ]
+      }
+    ],
+    "airports": [
+      {
+        "id": "country-096-airport-1",
+        "name": "Surnessa International",
+        "size": "regional",
+        "x": 15.66,
+        "y": 38.79,
+        "z": -40.81,
+        "runwayLengthM": 900
+      }
+    ],
+    "ports": [
+      {
+        "id": "country-096-port-1",
+        "name": "Surnessa Maritime Port",
+        "x": 2.77,
+        "y": 0.7,
+        "z": 107.37,
+        "capacity": "large"
+      }
+    ],
+    "militaryBases": [],
+    "metroLines": [
+      {
+        "id": "country-096-metro-1",
+        "status": "planned",
+        "serves": [
+          "country-096-capital",
+          "country-096-village-1",
+          "country-096-village-2"
+        ]
+      }
+    ],
+    "airRoutes": [
+      {
+        "id": "country-096-air-route-1",
+        "status": "regional",
+        "airportId": "country-096-airport-1"
+      }
+    ],
+    "shipLanes": [
+      {
+        "id": "country-096-ship-lane-1",
+        "status": "regional",
+        "portId": "country-096-port-1"
+      }
+    ],
+    "submarineZones": [
+      {
+        "id": "country-096-submarine-zone-1",
+        "status": "charted",
+        "depthM": 156.0
+      }
+    ]
+  },
+  "missions": [
+    {
+      "id": "country-096-intro",
+      "title": "Welcome to Surnessa",
+      "status": "template",
+      "placeholder": true
+    },
+    {
+      "id": "country-096-route",
+      "title": "Cross-Region Route",
+      "status": "template",
+      "placeholder": true
+    }
+  ],
+  "systems": {
+    "weatherProfile": "template",
+    "peopleProfile": "people-surnessa",
+    "trafficProfile": "template"
+  },
+  "nextSteps": [
+    "replace placeholder settlements",
+    "author terrain landmarks",
+    "author missions and NPC schedules"
+  ]
+}

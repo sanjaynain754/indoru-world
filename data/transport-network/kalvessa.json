@@ -1,0 +1,500 @@
+{
+  "schemaVersion": 1,
+  "countryId": "country-101",
+  "mapKey": "country/kalvessa",
+  "seed": 6108413372709119249,
+  "sourceTerrain": "data/country-content/kalvessa/terrain.json",
+  "roadNetwork": {
+    "segments": [
+      {
+        "roadId": "country-101-road-1",
+        "class": "arterial",
+        "lanes": 4,
+        "speedLimitKph": 90,
+        "access": {
+          "vehicles": true,
+          "pedestrians": true,
+          "emergency": true
+        },
+        "points": [
+          {
+            "x": 0.0,
+            "y": 34.77,
+            "z": 0.0
+          },
+          {
+            "x": 16.47,
+            "y": 32.88,
+            "z": 23.6
+          },
+          {
+            "x": 32.38,
+            "y": 29.69,
+            "z": 47.5
+          },
+          {
+            "x": 35.11,
+            "y": 29.71,
+            "z": 78.66
+          },
+          {
+            "x": 46.16,
+            "y": 25.12,
+            "z": 105.24
+          }
+        ],
+        "connectedSettlementIds": [
+          "country-101-capital",
+          "country-101-village-1"
+        ]
+      },
+      {
+        "roadId": "country-101-road-2",
+        "class": "collector",
+        "lanes": 2,
+        "speedLimitKph": 55,
+        "access": {
+          "vehicles": true,
+          "pedestrians": true,
+          "emergency": true
+        },
+        "points": [
+          {
+            "x": 0.0,
+            "y": 34.77,
+            "z": 0.0
+          },
+          {
+            "x": 16.17,
+            "y": 30.48,
+            "z": -13.66
+          },
+          {
+            "x": 20.06,
+            "y": 30.48,
+            "z": -20.57
+          },
+          {
+            "x": 33.61,
+            "y": 25.29,
+            "z": -32.8
+          },
+          {
+            "x": 50.0,
+            "y": 19.38,
+            "z": -46.58
+          }
+        ],
+        "connectedSettlementIds": [
+          "country-101-capital",
+          "country-101-village-2"
+        ]
+      },
+      {
+        "roadId": "country-101-road-3",
+        "class": "collector",
+        "lanes": 2,
+        "speedLimitKph": 55,
+        "access": {
+          "vehicles": true,
+          "pedestrians": true,
+          "emergency": true
+        },
+        "points": [
+          {
+            "x": 0.0,
+            "y": 34.77,
+            "z": 0.0
+          },
+          {
+            "x": -2.28,
+            "y": 35.93,
+            "z": 13.22
+          },
+          {
+            "x": -0.68,
+            "y": 36.33,
+            "z": 24.29
+          },
+          {
+            "x": 16.96,
+            "y": 33.14,
+            "z": 26.56
+          },
+          {
+            "x": 19.7,
+            "y": 33.14,
+            "z": 37.01
+          }
+        ],
+        "connectedSettlementIds": [
+          "country-101-capital",
+          "country-101-village-3"
+        ]
+      },
+      {
+        "roadId": "country-101-road-4",
+        "class": "collector",
+        "lanes": 2,
+        "speedLimitKph": 55,
+        "access": {
+          "vehicles": true,
+          "pedestrians": true,
+          "emergency": true
+        },
+        "points": [
+          {
+            "x": 0.0,
+            "y": 34.77,
+            "z": 0.0
+          },
+          {
+            "x": -11.5,
+            "y": 38.74,
+            "z": 24.15
+          },
+          {
+            "x": -24.78,
+            "y": 40.39,
+            "z": 49.29
+          },
+          {
+            "x": -44.85,
+            "y": 39.76,
+            "z": 78.16
+          },
+          {
+            "x": -43.92,
+            "y": 38.12,
+            "z": 95.48
+          }
+        ],
+        "connectedSettlementIds": [
+          "country-101-capital",
+          "country-101-village-4"
+        ]
+      },
+      {
+        "roadId": "country-101-road-5",
+        "class": "collector",
+        "lanes": 2,
+        "speedLimitKph": 55,
+        "access": {
+          "vehicles": true,
+          "pedestrians": true,
+          "emergency": true
+        },
+        "points": [
+          {
+            "x": 0.0,
+            "y": 34.77,
+            "z": 0.0
+          },
+          {
+            "x": -3.43,
+            "y": 35.93,
+            "z": 9.53
+          },
+          {
+            "x": -9.35,
+            "y": 38.02,
+            "z": 20.43
+          },
+          {
+            "x": -26.91,
+            "y": 40.13,
+            "z": 37.73
+          },
+          {
+            "x": -36.92,
+            "y": 40.39,
+            "z": 50.87
+          }
+        ],
+        "connectedSettlementIds": [
+          "country-101-capital",
+          "country-101-village-5"
+        ]
+      },
+      {
+        "roadId": "country-101-road-6",
+        "class": "collector",
+        "lanes": 2,
+        "speedLimitKph": 55,
+        "access": {
+          "vehicles": true,
+          "pedestrians": true,
+          "emergency": true
+        },
+        "points": [
+          {
+            "x": 0.0,
+            "y": 34.77,
+            "z": 0.0
+          },
+          {
+            "x": 0.27,
+            "y": 36.33,
+            "z": 28.69
+          },
+          {
+            "x": 2.39,
+            "y": 35.52,
+            "z": 56.36
+          },
+          {
+            "x": 17.6,
+            "y": 32.33,
+            "z": 76.84
+          },
+          {
+            "x": 27.4,
+            "y": 29.33,
+            "z": 100.29
+          }
+        ],
+        "connectedSettlementIds": [
+          "country-101-capital",
+          "country-101-village-6"
+        ]
+      }
+    ],
+    "bridges": [
+      {
+        "bridgeId": "country-101-bridge-1",
+        "roadId": "country-101-road-1",
+        "riverId": "country-101-river-1",
+        "lengthM": 22.0,
+        "loadClass": "heavy-vehicle",
+        "supportsTrain": false,
+        "x": 0.36,
+        "y": 33.17,
+        "z": -12.78
+      },
+      {
+        "bridgeId": "country-101-bridge-2",
+        "roadId": "country-101-road-2",
+        "riverId": "country-101-river-2",
+        "lengthM": 25.1,
+        "loadClass": "heavy-vehicle",
+        "supportsTrain": false,
+        "x": -3.86,
+        "y": 35.120000000000005,
+        "z": -3.64
+      }
+    ]
+  },
+  "railNetwork": {
+    "lines": [
+      {
+        "lineId": "country-101-rail-1",
+        "mode": "intercity-rail",
+        "electrification": "future-ready",
+        "trackGaugeMm": 1435,
+        "maxSpeedKph": 180,
+        "points": [
+          {
+            "x": 0.0,
+            "y": 34.77,
+            "z": 0.0
+          },
+          {
+            "x": -5.0,
+            "y": 36.33,
+            "z": 25.82
+          },
+          {
+            "x": 13.07,
+            "y": 33.14,
+            "z": 38.96
+          },
+          {
+            "x": 5.96,
+            "y": 35.52,
+            "z": 65.94
+          },
+          {
+            "x": 10.06,
+            "y": 32.33,
+            "z": 86.76
+          },
+          {
+            "x": 27.4,
+            "y": 29.33,
+            "z": 100.29
+          }
+        ]
+      }
+    ],
+    "stations": [
+      {
+        "stationId": "country-101-country-101-capital-station",
+        "settlementId": "country-101-capital",
+        "name": "Kalvessa Central Central Station",
+        "service": "intercity",
+        "x": 0.0,
+        "y": 35.27,
+        "z": 0.0
+      },
+      {
+        "stationId": "country-101-country-101-village-1-station",
+        "settlementId": "country-101-village-1",
+        "name": "Kalvessa Village 1 Central Station",
+        "service": "intercity",
+        "x": 46.16,
+        "y": 25.62,
+        "z": 105.24
+      },
+      {
+        "stationId": "country-101-country-101-village-2-station",
+        "settlementId": "country-101-village-2",
+        "name": "Kalvessa Village 2 Central Station",
+        "service": "intercity",
+        "x": 50.0,
+        "y": 19.88,
+        "z": -46.58
+      },
+      {
+        "stationId": "country-101-country-101-village-3-station",
+        "settlementId": "country-101-village-3",
+        "name": "Kalvessa Village 3 Central Station",
+        "service": "intercity",
+        "x": 19.7,
+        "y": 33.64,
+        "z": 37.01
+      },
+      {
+        "stationId": "country-101-country-101-village-4-station",
+        "settlementId": "country-101-village-4",
+        "name": "Kalvessa Village 4 Central Station",
+        "service": "intercity",
+        "x": -43.92,
+        "y": 38.62,
+        "z": 95.48
+      },
+      {
+        "stationId": "country-101-country-101-village-5-station",
+        "settlementId": "country-101-village-5",
+        "name": "Kalvessa Village 5 Central Station",
+        "service": "intercity",
+        "x": -36.92,
+        "y": 40.89,
+        "z": 50.87
+      },
+      {
+        "stationId": "country-101-country-101-village-6-station",
+        "settlementId": "country-101-village-6",
+        "name": "Kalvessa Village 6 Central Station",
+        "service": "intercity",
+        "x": 27.4,
+        "y": 29.83,
+        "z": 100.29
+      }
+    ],
+    "trainService": {
+      "enabled": true,
+      "rollingStockProfile": "regional-electric-template"
+    }
+  },
+  "riverNetwork": {
+    "rivers": [
+      {
+        "riverId": "country-101-river-1",
+        "navigable": false,
+        "widthM": 10.0,
+        "transportMode": "waterway",
+        "points": [
+          {
+            "x": -128.0,
+            "y": 30.19,
+            "z": 94.03
+          },
+          {
+            "x": -79.25,
+            "y": 38.95,
+            "z": 55.15
+          },
+          {
+            "x": -49.04,
+            "y": 40.39,
+            "z": 26.46
+          },
+          {
+            "x": 0.36,
+            "y": 32.82,
+            "z": -12.78
+          },
+          {
+            "x": 42.57,
+            "y": 19.38,
+            "z": -48.07
+          },
+          {
+            "x": 79.17,
+            "y": 6.17,
+            "z": -80.28
+          },
+          {
+            "x": 128.0,
+            "y": -1.5,
+            "z": -119.2
+          }
+        ]
+      },
+      {
+        "riverId": "country-101-river-2",
+        "navigable": true,
+        "widthM": 13.1,
+        "transportMode": "river-freight",
+        "points": [
+          {
+            "x": -27.65,
+            "y": 17.84,
+            "z": -128.0
+          },
+          {
+            "x": -28.55,
+            "y": 25.02,
+            "z": -81.69
+          },
+          {
+            "x": -22.66,
+            "y": 31.5,
+            "z": -39.11
+          },
+          {
+            "x": -3.86,
+            "y": 34.77,
+            "z": -3.64
+          },
+          {
+            "x": -1.32,
+            "y": 36.11,
+            "z": 40.77
+          },
+          {
+            "x": 2.45,
+            "y": 34.74,
+            "z": 84.51
+          },
+          {
+            "x": 6.67,
+            "y": 31.67,
+            "z": 128.0
+          }
+        ]
+      }
+    ],
+    "riverBridges": [
+      "country-101-bridge-1",
+      "country-101-bridge-2"
+    ]
+  },
+  "simulationHooks": {
+    "cityInfrastructure": true,
+    "residentialAccess": true,
+    "trafficSimulation": true,
+    "massTransitSimulation": true,
+    "waterTrafficSimulation": true
+  }
+}

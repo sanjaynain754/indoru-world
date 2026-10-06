@@ -1,0 +1,347 @@
+{
+  "schemaVersion": 1,
+  "countryId": "country-029",
+  "mapKey": "country/bravosk",
+  "seed": 6684677753868421478,
+  "sourceTerrain": "data/country-content/bravosk/terrain.json",
+  "roadNetwork": {
+    "segments": [
+      {
+        "roadId": "country-029-road-1",
+        "class": "arterial",
+        "lanes": 4,
+        "speedLimitKph": 90,
+        "access": {
+          "vehicles": true,
+          "pedestrians": true,
+          "emergency": true
+        },
+        "points": [
+          {
+            "x": 0.0,
+            "y": 20.82,
+            "z": 0.0
+          },
+          {
+            "x": 1.1,
+            "y": 18.09,
+            "z": -12.85
+          },
+          {
+            "x": 16.58,
+            "y": 18.62,
+            "z": -33.62
+          },
+          {
+            "x": 16.19,
+            "y": 15.67,
+            "z": -45.65
+          },
+          {
+            "x": 26.23,
+            "y": 15.57,
+            "z": -63.42
+          }
+        ],
+        "connectedSettlementIds": [
+          "country-029-capital",
+          "country-029-village-1"
+        ]
+      },
+      {
+        "roadId": "country-029-road-2",
+        "class": "collector",
+        "lanes": 2,
+        "speedLimitKph": 55,
+        "access": {
+          "vehicles": true,
+          "pedestrians": true,
+          "emergency": true
+        },
+        "points": [
+          {
+            "x": 0.0,
+            "y": 20.82,
+            "z": 0.0
+          },
+          {
+            "x": 16.28,
+            "y": 21.55,
+            "z": -14.52
+          },
+          {
+            "x": 36.44,
+            "y": 21.64,
+            "z": -31.18
+          },
+          {
+            "x": 64.28,
+            "y": 22.86,
+            "z": -52.06
+          },
+          {
+            "x": 81.48,
+            "y": 20.97,
+            "z": -67.09
+          }
+        ],
+        "connectedSettlementIds": [
+          "country-029-capital",
+          "country-029-village-2"
+        ]
+      },
+      {
+        "roadId": "country-029-road-3",
+        "class": "collector",
+        "lanes": 2,
+        "speedLimitKph": 55,
+        "access": {
+          "vehicles": true,
+          "pedestrians": true,
+          "emergency": true
+        },
+        "points": [
+          {
+            "x": 0.0,
+            "y": 20.82,
+            "z": 0.0
+          },
+          {
+            "x": -28.87,
+            "y": 13.15,
+            "z": 4.2
+          },
+          {
+            "x": -45.26,
+            "y": 9.47,
+            "z": 1.54
+          },
+          {
+            "x": -67.8,
+            "y": 6.2,
+            "z": 2.25
+          },
+          {
+            "x": -92.77,
+            "y": 1.02,
+            "z": 4.31
+          }
+        ],
+        "connectedSettlementIds": [
+          "country-029-capital",
+          "country-029-village-3"
+        ]
+      }
+    ],
+    "bridges": [
+      {
+        "bridgeId": "country-029-bridge-1",
+        "roadId": "country-029-road-1",
+        "riverId": "country-029-river-1",
+        "lengthM": 18.8,
+        "loadClass": "heavy-vehicle",
+        "supportsTrain": false,
+        "x": 0.16,
+        "y": 26.01,
+        "z": 95.96
+      },
+      {
+        "bridgeId": "country-029-bridge-2",
+        "roadId": "country-029-road-2",
+        "riverId": "country-029-river-2",
+        "lengthM": 32.9,
+        "loadClass": "heavy-vehicle",
+        "supportsTrain": false,
+        "x": -65.49,
+        "y": 6.55,
+        "z": -0.09
+      }
+    ]
+  },
+  "railNetwork": {
+    "lines": [
+      {
+        "lineId": "country-029-rail-1",
+        "mode": "intercity-rail",
+        "electrification": "future-ready",
+        "trackGaugeMm": 1435,
+        "maxSpeedKph": 180,
+        "points": [
+          {
+            "x": 0.0,
+            "y": 20.82,
+            "z": 0.0
+          },
+          {
+            "x": -17.25,
+            "y": 17.03,
+            "z": 0.14
+          },
+          {
+            "x": -29.91,
+            "y": 13.15,
+            "z": -2.24
+          },
+          {
+            "x": -51.73,
+            "y": 9.47,
+            "z": 0.42
+          },
+          {
+            "x": -78.94,
+            "y": 3.4,
+            "z": 6.05
+          },
+          {
+            "x": -92.77,
+            "y": 1.02,
+            "z": 4.31
+          }
+        ]
+      }
+    ],
+    "stations": [
+      {
+        "stationId": "country-029-country-029-capital-station",
+        "settlementId": "country-029-capital",
+        "name": "Bravosk Central Central Station",
+        "service": "intercity",
+        "x": 0.0,
+        "y": 21.32,
+        "z": 0.0
+      },
+      {
+        "stationId": "country-029-country-029-village-1-station",
+        "settlementId": "country-029-village-1",
+        "name": "Bravosk Village 1 Central Station",
+        "service": "intercity",
+        "x": 26.23,
+        "y": 16.07,
+        "z": -63.42
+      },
+      {
+        "stationId": "country-029-country-029-village-2-station",
+        "settlementId": "country-029-village-2",
+        "name": "Bravosk Village 2 Central Station",
+        "service": "intercity",
+        "x": 81.48,
+        "y": 21.47,
+        "z": -67.09
+      },
+      {
+        "stationId": "country-029-country-029-village-3-station",
+        "settlementId": "country-029-village-3",
+        "name": "Bravosk Village 3 Central Station",
+        "service": "intercity",
+        "x": -92.77,
+        "y": 1.52,
+        "z": 4.31
+      }
+    ],
+    "trainService": {
+      "enabled": true,
+      "rollingStockProfile": "regional-electric-template"
+    }
+  },
+  "riverNetwork": {
+    "rivers": [
+      {
+        "riverId": "country-029-river-1",
+        "navigable": false,
+        "widthM": 6.8,
+        "transportMode": "waterway",
+        "points": [
+          {
+            "x": -128.0,
+            "y": 1.16,
+            "z": 85.38
+          },
+          {
+            "x": -74.65,
+            "y": 9.96,
+            "z": 83.06
+          },
+          {
+            "x": -41.1,
+            "y": 17.08,
+            "z": 91.63
+          },
+          {
+            "x": 0.16,
+            "y": 25.66,
+            "z": 95.96
+          },
+          {
+            "x": 41.19,
+            "y": 33.36,
+            "z": 100.43
+          },
+          {
+            "x": 83.76,
+            "y": 36.11,
+            "z": 104.03
+          },
+          {
+            "x": 128.0,
+            "y": 32.78,
+            "z": 106.73
+          }
+        ]
+      },
+      {
+        "riverId": "country-029-river-2",
+        "navigable": true,
+        "widthM": 20.9,
+        "transportMode": "river-freight",
+        "points": [
+          {
+            "x": -32.24,
+            "y": -1.5,
+            "z": -128.0
+          },
+          {
+            "x": -37.04,
+            "y": 0.33,
+            "z": -88.82
+          },
+          {
+            "x": -49.01,
+            "y": 3.69,
+            "z": -45.69
+          },
+          {
+            "x": -65.49,
+            "y": 6.2,
+            "z": -0.09
+          },
+          {
+            "x": -84.62,
+            "y": 7.67,
+            "z": 46.98
+          },
+          {
+            "x": -96.17,
+            "y": 6.98,
+            "z": 89.87
+          },
+          {
+            "x": -99.05,
+            "y": 6.27,
+            "z": 128.0
+          }
+        ]
+      }
+    ],
+    "riverBridges": [
+      "country-029-bridge-1",
+      "country-029-bridge-2"
+    ]
+  },
+  "simulationHooks": {
+    "cityInfrastructure": true,
+    "residentialAccess": true,
+    "trafficSimulation": true,
+    "massTransitSimulation": true,
+    "waterTrafficSimulation": true
+  }
+}

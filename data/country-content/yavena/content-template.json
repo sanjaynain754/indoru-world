@@ -1,0 +1,506 @@
+{
+  "schemaVersion": 1,
+  "countryId": "country-054",
+  "name": "Yavena",
+  "status": "playable",
+  "completion": "template",
+  "templatePolicy": {
+    "generated": true,
+    "requiresReview": true,
+    "placeholderContentAllowed": true
+  },
+  "terrain": {
+    "asset": "data/country-content/yavena/terrain.json",
+    "mapKey": "country/yavena",
+    "biome": "coastal-island"
+  },
+  "spawn": {
+    "x": 0.0,
+    "y": 1.2,
+    "z": 0.0,
+    "headingRad": 0.0
+  },
+  "settlements": [
+    {
+      "id": "country-054-capital",
+      "name": "Yavena Central",
+      "type": "capital",
+      "populationTier": "large",
+      "x": 0.0,
+      "y": -1.0,
+      "z": 0.0
+    },
+    {
+      "id": "country-054-village-1",
+      "name": "Yavena Village 1",
+      "type": "village",
+      "populationTier": "medium",
+      "x": 53.47,
+      "y": -1.0,
+      "z": 26.33
+    },
+    {
+      "id": "country-054-village-2",
+      "name": "Yavena Village 2",
+      "type": "village",
+      "populationTier": "small",
+      "x": -61.71,
+      "y": -1.0,
+      "z": -45.06
+    },
+    {
+      "id": "country-054-village-3",
+      "name": "Yavena Village 3",
+      "type": "village",
+      "populationTier": "small",
+      "x": 40.79,
+      "y": -1.0,
+      "z": 38.95
+    },
+    {
+      "id": "country-054-village-4",
+      "name": "Yavena Village 4",
+      "type": "village",
+      "populationTier": "medium",
+      "x": -82.37,
+      "y": -1.0,
+      "z": 52.97
+    },
+    {
+      "id": "country-054-village-5",
+      "name": "Yavena Village 5",
+      "type": "village",
+      "populationTier": "small",
+      "x": 92.41,
+      "y": 6.88,
+      "z": -98.15
+    }
+  ],
+  "infrastructure": {
+    "rivers": [
+      {
+        "id": "country-054-river-1",
+        "name": "Yavena River 1",
+        "widthM": 19.9,
+        "points": [
+          {
+            "x": -128.0,
+            "y": -1.5,
+            "z": 107.72
+          },
+          {
+            "x": -82.68,
+            "y": -1.5,
+            "z": 77.64
+          },
+          {
+            "x": -54.34,
+            "y": -1.5,
+            "z": 56.89
+          },
+          {
+            "x": -8.18,
+            "y": -1.5,
+            "z": 26.35
+          },
+          {
+            "x": 54.56,
+            "y": -1.5,
+            "z": -13.32
+          },
+          {
+            "x": 91.67,
+            "y": 1.27,
+            "z": -38.89
+          },
+          {
+            "x": 128.0,
+            "y": 7.71,
+            "z": -64.02
+          }
+        ]
+      }
+    ],
+    "lakes": [
+      {
+        "id": "country-054-lake-1",
+        "name": "Yavena Lake 1",
+        "x": -5.13,
+        "y": 0.43,
+        "z": -51.43,
+        "radiusM": 16.2,
+        "type": "natural"
+      }
+    ],
+    "mountains": [
+      {
+        "id": "country-054-mountain-1",
+        "name": "Yavena Highland 1",
+        "x": -66.12,
+        "y": 0.42,
+        "z": 70.4,
+        "heightM": 40.46,
+        "radiusM": 40.1
+      },
+      {
+        "id": "country-054-mountain-2",
+        "name": "Yavena Highland 2",
+        "x": 9.77,
+        "y": 0.42,
+        "z": 7.96,
+        "heightM": 50.05,
+        "radiusM": 40.0
+      }
+    ],
+    "settlements": [
+      {
+        "id": "country-054-capital",
+        "name": "Yavena Central",
+        "type": "capital",
+        "populationTier": "large",
+        "x": 0.0,
+        "y": -1.0,
+        "z": 0.0
+      },
+      {
+        "id": "country-054-village-1",
+        "name": "Yavena Village 1",
+        "type": "village",
+        "populationTier": "medium",
+        "x": 53.47,
+        "y": -1.0,
+        "z": 26.33
+      },
+      {
+        "id": "country-054-village-2",
+        "name": "Yavena Village 2",
+        "type": "village",
+        "populationTier": "small",
+        "x": -61.71,
+        "y": -1.0,
+        "z": -45.06
+      },
+      {
+        "id": "country-054-village-3",
+        "name": "Yavena Village 3",
+        "type": "village",
+        "populationTier": "small",
+        "x": 40.79,
+        "y": -1.0,
+        "z": 38.95
+      },
+      {
+        "id": "country-054-village-4",
+        "name": "Yavena Village 4",
+        "type": "village",
+        "populationTier": "medium",
+        "x": -82.37,
+        "y": -1.0,
+        "z": 52.97
+      },
+      {
+        "id": "country-054-village-5",
+        "name": "Yavena Village 5",
+        "type": "village",
+        "populationTier": "small",
+        "x": 92.41,
+        "y": 6.88,
+        "z": -98.15
+      }
+    ],
+    "roads": [
+      {
+        "id": "country-054-road-1",
+        "class": "highway",
+        "points": [
+          {
+            "x": 0.0,
+            "y": -1.5,
+            "z": 0.0
+          },
+          {
+            "x": 19.09,
+            "y": -1.5,
+            "z": 3.43
+          },
+          {
+            "x": 37.04,
+            "y": -1.5,
+            "z": 7.5
+          },
+          {
+            "x": 46.87,
+            "y": -1.5,
+            "z": 16.03
+          },
+          {
+            "x": 53.47,
+            "y": -1.5,
+            "z": 26.33
+          }
+        ]
+      },
+      {
+        "id": "country-054-road-2",
+        "class": "regional",
+        "points": [
+          {
+            "x": 0.0,
+            "y": -1.5,
+            "z": 0.0
+          },
+          {
+            "x": -23.17,
+            "y": -1.5,
+            "z": -7.0
+          },
+          {
+            "x": -34.03,
+            "y": -1.5,
+            "z": -20.78
+          },
+          {
+            "x": -49.28,
+            "y": -1.5,
+            "z": -32.15
+          },
+          {
+            "x": -61.71,
+            "y": -1.5,
+            "z": -45.06
+          }
+        ]
+      },
+      {
+        "id": "country-054-road-3",
+        "class": "regional",
+        "points": [
+          {
+            "x": 0.0,
+            "y": -1.5,
+            "z": 0.0
+          },
+          {
+            "x": 12.77,
+            "y": -1.5,
+            "z": 8.33
+          },
+          {
+            "x": 29.94,
+            "y": -1.5,
+            "z": 14.23
+          },
+          {
+            "x": 36.32,
+            "y": -1.5,
+            "z": 26.06
+          },
+          {
+            "x": 40.79,
+            "y": -1.5,
+            "z": 38.95
+          }
+        ]
+      },
+      {
+        "id": "country-054-road-4",
+        "class": "regional",
+        "points": [
+          {
+            "x": 0.0,
+            "y": -1.5,
+            "z": 0.0
+          },
+          {
+            "x": -17.37,
+            "y": -1.5,
+            "z": 11.47
+          },
+          {
+            "x": -52.13,
+            "y": -1.5,
+            "z": 32.5
+          },
+          {
+            "x": -65.21,
+            "y": -1.5,
+            "z": 41.61
+          },
+          {
+            "x": -82.37,
+            "y": -1.5,
+            "z": 52.97
+          }
+        ]
+      },
+      {
+        "id": "country-054-road-5",
+        "class": "regional",
+        "points": [
+          {
+            "x": 0.0,
+            "y": -1.5,
+            "z": 0.0
+          },
+          {
+            "x": 13.36,
+            "y": -1.5,
+            "z": -19.18
+          },
+          {
+            "x": 38.44,
+            "y": -1.5,
+            "z": -44.8
+          },
+          {
+            "x": 74.88,
+            "y": 2.69,
+            "z": -76.68
+          },
+          {
+            "x": 92.41,
+            "y": 6.38,
+            "z": -98.15
+          }
+        ]
+      }
+    ],
+    "bridges": [
+      {
+        "id": "country-054-bridge-1",
+        "name": "Yavena Crossing 1",
+        "roadId": "country-054-road-1",
+        "riverId": "country-054-river-1",
+        "x": -8.18,
+        "y": -1.15,
+        "z": 26.35,
+        "lengthM": 31.9
+      }
+    ],
+    "railways": [
+      {
+        "id": "country-054-rail-1",
+        "class": "intercity",
+        "points": [
+          {
+            "x": 0.0,
+            "y": -1.5,
+            "z": 0.0
+          },
+          {
+            "x": 7.64,
+            "y": -1.5,
+            "z": -13.67
+          },
+          {
+            "x": 29.77,
+            "y": -1.5,
+            "z": -35.3
+          },
+          {
+            "x": 47.54,
+            "y": -1.5,
+            "z": -54.54
+          },
+          {
+            "x": 62.93,
+            "y": 0.82,
+            "z": -72.47
+          },
+          {
+            "x": 92.41,
+            "y": 6.38,
+            "z": -98.15
+          }
+        ]
+      }
+    ],
+    "airports": [
+      {
+        "id": "country-054-airport-1",
+        "name": "Yavena International",
+        "size": "regional",
+        "x": 10.21,
+        "y": -1.3,
+        "z": -62.26,
+        "runwayLengthM": 900
+      }
+    ],
+    "ports": [
+      {
+        "id": "country-054-port-1",
+        "name": "Yavena Maritime Port",
+        "x": 77.7,
+        "y": 0.72,
+        "z": -64.92,
+        "capacity": "small"
+      }
+    ],
+    "militaryBases": [
+      {
+        "id": "country-054-base-1",
+        "name": "Yavena Defense Station",
+        "type": "air-ground",
+        "x": 55.09,
+        "y": -1.2,
+        "z": 25.5
+      }
+    ],
+    "metroLines": [
+      {
+        "id": "country-054-metro-1",
+        "status": "planned",
+        "serves": [
+          "country-054-capital",
+          "country-054-village-1",
+          "country-054-village-2"
+        ]
+      }
+    ],
+    "airRoutes": [
+      {
+        "id": "country-054-air-route-1",
+        "status": "regional",
+        "airportId": "country-054-airport-1"
+      }
+    ],
+    "shipLanes": [
+      {
+        "id": "country-054-ship-lane-1",
+        "status": "regional",
+        "portId": "country-054-port-1"
+      }
+    ],
+    "submarineZones": [
+      {
+        "id": "country-054-submarine-zone-1",
+        "status": "charted",
+        "depthM": 187.7
+      }
+    ]
+  },
+  "missions": [
+    {
+      "id": "country-054-intro",
+      "title": "Welcome to Yavena",
+      "status": "template",
+      "placeholder": true
+    },
+    {
+      "id": "country-054-route",
+      "title": "Cross-Region Route",
+      "status": "template",
+      "placeholder": true
+    }
+  ],
+  "systems": {
+    "weatherProfile": "template",
+    "peopleProfile": "people-yavena",
+    "trafficProfile": "template"
+  },
+  "nextSteps": [
+    "replace placeholder settlements",
+    "author terrain landmarks",
+    "author missions and NPC schedules"
+  ]
+}

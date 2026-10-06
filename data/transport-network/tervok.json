@@ -1,0 +1,398 @@
+{
+  "schemaVersion": 1,
+  "countryId": "country-095",
+  "mapKey": "country/tervok",
+  "seed": 5515859447717629640,
+  "sourceTerrain": "data/country-content/tervok/terrain.json",
+  "roadNetwork": {
+    "segments": [
+      {
+        "roadId": "country-095-road-1",
+        "class": "arterial",
+        "lanes": 4,
+        "speedLimitKph": 90,
+        "access": {
+          "vehicles": true,
+          "pedestrians": true,
+          "emergency": true
+        },
+        "points": [
+          {
+            "x": 0.0,
+            "y": 29.87,
+            "z": 0.0
+          },
+          {
+            "x": 24.52,
+            "y": 35.96,
+            "z": 17.53
+          },
+          {
+            "x": 34.64,
+            "y": 32.5,
+            "z": 42.98
+          },
+          {
+            "x": 46.7,
+            "y": 32.23,
+            "z": 67.36
+          },
+          {
+            "x": 50.76,
+            "y": 28.36,
+            "z": 96.14
+          }
+        ],
+        "connectedSettlementIds": [
+          "country-095-capital",
+          "country-095-village-1"
+        ]
+      },
+      {
+        "roadId": "country-095-road-2",
+        "class": "collector",
+        "lanes": 2,
+        "speedLimitKph": 55,
+        "access": {
+          "vehicles": true,
+          "pedestrians": true,
+          "emergency": true
+        },
+        "points": [
+          {
+            "x": 0.0,
+            "y": 29.87,
+            "z": 0.0
+          },
+          {
+            "x": -5.86,
+            "y": 29.22,
+            "z": -18.57
+          },
+          {
+            "x": -0.23,
+            "y": 27.01,
+            "z": -43.47
+          },
+          {
+            "x": -23.26,
+            "y": 23.52,
+            "z": -52.6
+          },
+          {
+            "x": -19.13,
+            "y": 21.42,
+            "z": -76.67
+          }
+        ],
+        "connectedSettlementIds": [
+          "country-095-capital",
+          "country-095-village-2"
+        ]
+      },
+      {
+        "roadId": "country-095-road-3",
+        "class": "collector",
+        "lanes": 2,
+        "speedLimitKph": 55,
+        "access": {
+          "vehicles": true,
+          "pedestrians": true,
+          "emergency": true
+        },
+        "points": [
+          {
+            "x": 0.0,
+            "y": 29.87,
+            "z": 0.0
+          },
+          {
+            "x": 7.05,
+            "y": 28.2,
+            "z": -29.05
+          },
+          {
+            "x": 0.4,
+            "y": 27.01,
+            "z": -50.55
+          },
+          {
+            "x": 11.8,
+            "y": 27.25,
+            "z": -81.99
+          },
+          {
+            "x": 3.92,
+            "y": 22.91,
+            "z": -102.82
+          }
+        ],
+        "connectedSettlementIds": [
+          "country-095-capital",
+          "country-095-village-3"
+        ]
+      },
+      {
+        "roadId": "country-095-road-4",
+        "class": "collector",
+        "lanes": 2,
+        "speedLimitKph": 55,
+        "access": {
+          "vehicles": true,
+          "pedestrians": true,
+          "emergency": true
+        },
+        "points": [
+          {
+            "x": 0.0,
+            "y": 29.87,
+            "z": 0.0
+          },
+          {
+            "x": -2.03,
+            "y": 29.87,
+            "z": 7.64
+          },
+          {
+            "x": 2.11,
+            "y": 29.9,
+            "z": 11.89
+          },
+          {
+            "x": 18.07,
+            "y": 33.37,
+            "z": 9.63
+          },
+          {
+            "x": 20.77,
+            "y": 33.37,
+            "z": 14.67
+          }
+        ],
+        "connectedSettlementIds": [
+          "country-095-capital",
+          "country-095-village-4"
+        ]
+      }
+    ],
+    "bridges": [
+      {
+        "bridgeId": "country-095-bridge-1",
+        "roadId": "country-095-road-1",
+        "riverId": "country-095-river-1",
+        "lengthM": 24.9,
+        "loadClass": "heavy-vehicle",
+        "supportsTrain": false,
+        "x": -3.96,
+        "y": 28.55,
+        "z": -32.09
+      },
+      {
+        "bridgeId": "country-095-bridge-2",
+        "roadId": "country-095-road-2",
+        "riverId": "country-095-river-2",
+        "lengthM": 31.8,
+        "loadClass": "heavy-vehicle",
+        "supportsTrain": false,
+        "x": -56.46,
+        "y": 13.48,
+        "z": 1.74
+      }
+    ]
+  },
+  "railNetwork": {
+    "lines": [
+      {
+        "lineId": "country-095-rail-1",
+        "mode": "intercity-rail",
+        "electrification": "future-ready",
+        "trackGaugeMm": 1435,
+        "maxSpeedKph": 180,
+        "points": [
+          {
+            "x": 0.0,
+            "y": 29.87,
+            "z": 0.0
+          },
+          {
+            "x": 1.74,
+            "y": 29.87,
+            "z": 4.26
+          },
+          {
+            "x": -2.21,
+            "y": 29.9,
+            "z": 11.65
+          },
+          {
+            "x": 11.36,
+            "y": 33.37,
+            "z": 9.41
+          },
+          {
+            "x": 11.6,
+            "y": 33.37,
+            "z": 14.49
+          },
+          {
+            "x": 20.77,
+            "y": 33.37,
+            "z": 14.67
+          }
+        ]
+      }
+    ],
+    "stations": [
+      {
+        "stationId": "country-095-country-095-capital-station",
+        "settlementId": "country-095-capital",
+        "name": "Tervok Central Central Station",
+        "service": "intercity",
+        "x": 0.0,
+        "y": 30.37,
+        "z": 0.0
+      },
+      {
+        "stationId": "country-095-country-095-village-1-station",
+        "settlementId": "country-095-village-1",
+        "name": "Tervok Village 1 Central Station",
+        "service": "intercity",
+        "x": 50.76,
+        "y": 28.86,
+        "z": 96.14
+      },
+      {
+        "stationId": "country-095-country-095-village-2-station",
+        "settlementId": "country-095-village-2",
+        "name": "Tervok Village 2 Central Station",
+        "service": "intercity",
+        "x": -19.13,
+        "y": 21.92,
+        "z": -76.67
+      },
+      {
+        "stationId": "country-095-country-095-village-3-station",
+        "settlementId": "country-095-village-3",
+        "name": "Tervok Village 3 Central Station",
+        "service": "intercity",
+        "x": 3.92,
+        "y": 23.41,
+        "z": -102.82
+      },
+      {
+        "stationId": "country-095-country-095-village-4-station",
+        "settlementId": "country-095-village-4",
+        "name": "Tervok Village 4 Central Station",
+        "service": "intercity",
+        "x": 20.77,
+        "y": 33.87,
+        "z": 14.67
+      }
+    ],
+    "trainService": {
+      "enabled": true,
+      "rollingStockProfile": "regional-electric-template"
+    }
+  },
+  "riverNetwork": {
+    "rivers": [
+      {
+        "riverId": "country-095-river-1",
+        "navigable": true,
+        "widthM": 12.9,
+        "transportMode": "river-freight",
+        "points": [
+          {
+            "x": -128.0,
+            "y": -0.47,
+            "z": -41.89
+          },
+          {
+            "x": -77.64,
+            "y": 9.76,
+            "z": -43.58
+          },
+          {
+            "x": -50.04,
+            "y": 17.07,
+            "z": -32.76
+          },
+          {
+            "x": -3.96,
+            "y": 28.2,
+            "z": -32.09
+          },
+          {
+            "x": 36.73,
+            "y": 35.44,
+            "z": -28.47
+          },
+          {
+            "x": 75.36,
+            "y": 40.43,
+            "z": -23.7
+          },
+          {
+            "x": 128.0,
+            "y": 36.66,
+            "z": -26.65
+          }
+        ]
+      },
+      {
+        "riverId": "country-095-river-2",
+        "navigable": true,
+        "widthM": 19.8,
+        "transportMode": "river-freight",
+        "points": [
+          {
+            "x": -9.63,
+            "y": 14.68,
+            "z": -128.0
+          },
+          {
+            "x": -12.47,
+            "y": 19.78,
+            "z": -91.78
+          },
+          {
+            "x": -50.59,
+            "y": 17.07,
+            "z": -36.15
+          },
+          {
+            "x": -56.46,
+            "y": 13.13,
+            "z": 1.74
+          },
+          {
+            "x": -74.25,
+            "y": 6.63,
+            "z": 46.18
+          },
+          {
+            "x": -72.67,
+            "y": 3.86,
+            "z": 79.97
+          },
+          {
+            "x": -96.98,
+            "y": -1.5,
+            "z": 128.0
+          }
+        ]
+      }
+    ],
+    "riverBridges": [
+      "country-095-bridge-1",
+      "country-095-bridge-2"
+    ]
+  },
+  "simulationHooks": {
+    "cityInfrastructure": true,
+    "residentialAccess": true,
+    "trafficSimulation": true,
+    "massTransitSimulation": true,
+    "waterTrafficSimulation": true
+  }
+}

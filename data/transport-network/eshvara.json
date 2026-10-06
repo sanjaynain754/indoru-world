@@ -1,0 +1,500 @@
+{
+  "schemaVersion": 1,
+  "countryId": "country-010",
+  "mapKey": "country/eshvara",
+  "seed": 8947034305328067879,
+  "sourceTerrain": "data/country-content/eshvara/terrain.json",
+  "roadNetwork": {
+    "segments": [
+      {
+        "roadId": "country-010-road-1",
+        "class": "arterial",
+        "lanes": 4,
+        "speedLimitKph": 90,
+        "access": {
+          "vehicles": true,
+          "pedestrians": true,
+          "emergency": true
+        },
+        "points": [
+          {
+            "x": 0.0,
+            "y": -1.5,
+            "z": 0.0
+          },
+          {
+            "x": -2.65,
+            "y": -1.5,
+            "z": -5.59
+          },
+          {
+            "x": 10.0,
+            "y": -1.5,
+            "z": -19.59
+          },
+          {
+            "x": 10.79,
+            "y": -1.5,
+            "z": -27.07
+          },
+          {
+            "x": -0.13,
+            "y": -1.5,
+            "z": -28.11
+          }
+        ],
+        "connectedSettlementIds": [
+          "country-010-capital",
+          "country-010-village-1"
+        ]
+      },
+      {
+        "roadId": "country-010-road-2",
+        "class": "collector",
+        "lanes": 2,
+        "speedLimitKph": 55,
+        "access": {
+          "vehicles": true,
+          "pedestrians": true,
+          "emergency": true
+        },
+        "points": [
+          {
+            "x": 0.0,
+            "y": -1.5,
+            "z": 0.0
+          },
+          {
+            "x": -10.26,
+            "y": -1.5,
+            "z": -14.38
+          },
+          {
+            "x": -45.02,
+            "y": -1.5,
+            "z": -15.28
+          },
+          {
+            "x": -63.12,
+            "y": -1.5,
+            "z": -25.36
+          },
+          {
+            "x": -79.08,
+            "y": -1.5,
+            "z": -36.6
+          }
+        ],
+        "connectedSettlementIds": [
+          "country-010-capital",
+          "country-010-village-2"
+        ]
+      },
+      {
+        "roadId": "country-010-road-3",
+        "class": "collector",
+        "lanes": 2,
+        "speedLimitKph": 55,
+        "access": {
+          "vehicles": true,
+          "pedestrians": true,
+          "emergency": true
+        },
+        "points": [
+          {
+            "x": 0.0,
+            "y": -1.5,
+            "z": 0.0
+          },
+          {
+            "x": 31.52,
+            "y": -1.5,
+            "z": 13.3
+          },
+          {
+            "x": 63.02,
+            "y": -1.5,
+            "z": 26.62
+          },
+          {
+            "x": 88.34,
+            "y": -1.5,
+            "z": 43.33
+          },
+          {
+            "x": 107.19,
+            "y": -1.5,
+            "z": 63.6
+          }
+        ],
+        "connectedSettlementIds": [
+          "country-010-capital",
+          "country-010-village-3"
+        ]
+      },
+      {
+        "roadId": "country-010-road-4",
+        "class": "collector",
+        "lanes": 2,
+        "speedLimitKph": 55,
+        "access": {
+          "vehicles": true,
+          "pedestrians": true,
+          "emergency": true
+        },
+        "points": [
+          {
+            "x": 0.0,
+            "y": -1.5,
+            "z": 0.0
+          },
+          {
+            "x": -13.87,
+            "y": -1.5,
+            "z": 23.23
+          },
+          {
+            "x": -26.01,
+            "y": -1.5,
+            "z": 45.51
+          },
+          {
+            "x": -38.54,
+            "y": -1.5,
+            "z": 68.0
+          },
+          {
+            "x": -50.94,
+            "y": -1.5,
+            "z": 90.42
+          }
+        ],
+        "connectedSettlementIds": [
+          "country-010-capital",
+          "country-010-village-4"
+        ]
+      },
+      {
+        "roadId": "country-010-road-5",
+        "class": "collector",
+        "lanes": 2,
+        "speedLimitKph": 55,
+        "access": {
+          "vehicles": true,
+          "pedestrians": true,
+          "emergency": true
+        },
+        "points": [
+          {
+            "x": 0.0,
+            "y": -1.5,
+            "z": 0.0
+          },
+          {
+            "x": 14.49,
+            "y": -1.5,
+            "z": -14.35
+          },
+          {
+            "x": 24.37,
+            "y": -1.5,
+            "z": -26.15
+          },
+          {
+            "x": 45.11,
+            "y": -1.5,
+            "z": -43.93
+          },
+          {
+            "x": 64.63,
+            "y": -1.5,
+            "z": -61.04
+          }
+        ],
+        "connectedSettlementIds": [
+          "country-010-capital",
+          "country-010-village-5"
+        ]
+      },
+      {
+        "roadId": "country-010-road-6",
+        "class": "collector",
+        "lanes": 2,
+        "speedLimitKph": 55,
+        "access": {
+          "vehicles": true,
+          "pedestrians": true,
+          "emergency": true
+        },
+        "points": [
+          {
+            "x": 0.0,
+            "y": -1.5,
+            "z": 0.0
+          },
+          {
+            "x": -25.85,
+            "y": -1.5,
+            "z": -4.03
+          },
+          {
+            "x": -45.84,
+            "y": -1.5,
+            "z": -11.29
+          },
+          {
+            "x": -68.22,
+            "y": -1.5,
+            "z": -17.23
+          },
+          {
+            "x": -88.87,
+            "y": -1.5,
+            "z": -24.13
+          }
+        ],
+        "connectedSettlementIds": [
+          "country-010-capital",
+          "country-010-village-6"
+        ]
+      }
+    ],
+    "bridges": [
+      {
+        "bridgeId": "country-010-bridge-1",
+        "roadId": "country-010-road-1",
+        "riverId": "country-010-river-1",
+        "lengthM": 23.6,
+        "loadClass": "heavy-vehicle",
+        "supportsTrain": false,
+        "x": 9.9,
+        "y": -1.15,
+        "z": -0.79
+      },
+      {
+        "bridgeId": "country-010-bridge-2",
+        "roadId": "country-010-road-2",
+        "riverId": "country-010-river-2",
+        "lengthM": 17.4,
+        "loadClass": "heavy-vehicle",
+        "supportsTrain": false,
+        "x": 6.61,
+        "y": -1.15,
+        "z": -4.75
+      }
+    ]
+  },
+  "railNetwork": {
+    "lines": [
+      {
+        "lineId": "country-010-rail-1",
+        "mode": "intercity-rail",
+        "electrification": "future-ready",
+        "trackGaugeMm": 1435,
+        "maxSpeedKph": 180,
+        "points": [
+          {
+            "x": 0.0,
+            "y": -1.5,
+            "z": 0.0
+          },
+          {
+            "x": -18.87,
+            "y": -1.5,
+            "z": -4.22
+          },
+          {
+            "x": -45.16,
+            "y": -1.5,
+            "z": -4.36
+          },
+          {
+            "x": -55.62,
+            "y": -1.5,
+            "z": -13.22
+          },
+          {
+            "x": -69.08,
+            "y": -1.5,
+            "z": -20.41
+          },
+          {
+            "x": -88.87,
+            "y": -1.5,
+            "z": -24.13
+          }
+        ]
+      }
+    ],
+    "stations": [
+      {
+        "stationId": "country-010-country-010-capital-station",
+        "settlementId": "country-010-capital",
+        "name": "Eshvara Central Central Station",
+        "service": "intercity",
+        "x": 0.0,
+        "y": -1.0,
+        "z": 0.0
+      },
+      {
+        "stationId": "country-010-country-010-village-1-station",
+        "settlementId": "country-010-village-1",
+        "name": "Eshvara Village 1 Central Station",
+        "service": "intercity",
+        "x": -0.13,
+        "y": -1.0,
+        "z": -28.11
+      },
+      {
+        "stationId": "country-010-country-010-village-2-station",
+        "settlementId": "country-010-village-2",
+        "name": "Eshvara Village 2 Central Station",
+        "service": "intercity",
+        "x": -79.08,
+        "y": -1.0,
+        "z": -36.6
+      },
+      {
+        "stationId": "country-010-country-010-village-3-station",
+        "settlementId": "country-010-village-3",
+        "name": "Eshvara Village 3 Central Station",
+        "service": "intercity",
+        "x": 107.19,
+        "y": -1.0,
+        "z": 63.6
+      },
+      {
+        "stationId": "country-010-country-010-village-4-station",
+        "settlementId": "country-010-village-4",
+        "name": "Eshvara Village 4 Central Station",
+        "service": "intercity",
+        "x": -50.94,
+        "y": -1.0,
+        "z": 90.42
+      },
+      {
+        "stationId": "country-010-country-010-village-5-station",
+        "settlementId": "country-010-village-5",
+        "name": "Eshvara Village 5 Central Station",
+        "service": "intercity",
+        "x": 64.63,
+        "y": -1.0,
+        "z": -61.04
+      },
+      {
+        "stationId": "country-010-country-010-village-6-station",
+        "settlementId": "country-010-village-6",
+        "name": "Eshvara Village 6 Central Station",
+        "service": "intercity",
+        "x": -88.87,
+        "y": -1.0,
+        "z": -24.13
+      }
+    ],
+    "trainService": {
+      "enabled": true,
+      "rollingStockProfile": "regional-electric-template"
+    }
+  },
+  "riverNetwork": {
+    "rivers": [
+      {
+        "riverId": "country-010-river-1",
+        "navigable": false,
+        "widthM": 11.6,
+        "transportMode": "waterway",
+        "points": [
+          {
+            "x": -128.0,
+            "y": 5.4,
+            "z": 72.02
+          },
+          {
+            "x": -76.2,
+            "y": -1.5,
+            "z": 44.54
+          },
+          {
+            "x": -50.86,
+            "y": -1.5,
+            "z": 31.62
+          },
+          {
+            "x": 9.9,
+            "y": -1.5,
+            "z": -0.79
+          },
+          {
+            "x": 35.94,
+            "y": -1.5,
+            "z": -14.1
+          },
+          {
+            "x": 87.5,
+            "y": -1.5,
+            "z": -41.45
+          },
+          {
+            "x": 128.0,
+            "y": -1.5,
+            "z": -62.71
+          }
+        ]
+      },
+      {
+        "riverId": "country-010-river-2",
+        "navigable": false,
+        "widthM": 5.4,
+        "transportMode": "waterway",
+        "points": [
+          {
+            "x": -35.07,
+            "y": -1.5,
+            "z": -128.0
+          },
+          {
+            "x": -25.06,
+            "y": -1.5,
+            "z": -84.78
+          },
+          {
+            "x": -2.81,
+            "y": -1.5,
+            "z": -48.29
+          },
+          {
+            "x": 6.61,
+            "y": -1.5,
+            "z": -4.75
+          },
+          {
+            "x": 6.51,
+            "y": -1.5,
+            "z": 44.03
+          },
+          {
+            "x": 25.3,
+            "y": -1.5,
+            "z": 82.42
+          },
+          {
+            "x": 31.03,
+            "y": -1.5,
+            "z": 128.0
+          }
+        ]
+      }
+    ],
+    "riverBridges": [
+      "country-010-bridge-1",
+      "country-010-bridge-2"
+    ]
+  },
+  "simulationHooks": {
+    "cityInfrastructure": true,
+    "residentialAccess": true,
+    "trafficSimulation": true,
+    "massTransitSimulation": true,
+    "waterTrafficSimulation": false
+  }
+}

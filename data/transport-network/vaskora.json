@@ -1,0 +1,296 @@
+{
+  "schemaVersion": 1,
+  "countryId": "country-025",
+  "mapKey": "country/vaskora",
+  "seed": 9753910080436353151,
+  "sourceTerrain": "data/country-content/vaskora/terrain.json",
+  "roadNetwork": {
+    "segments": [
+      {
+        "roadId": "country-025-road-1",
+        "class": "arterial",
+        "lanes": 4,
+        "speedLimitKph": 90,
+        "access": {
+          "vehicles": true,
+          "pedestrians": true,
+          "emergency": true
+        },
+        "points": [
+          {
+            "x": 0.0,
+            "y": 5.58,
+            "z": 0.0
+          },
+          {
+            "x": -0.51,
+            "y": 5.58,
+            "z": 5.26
+          },
+          {
+            "x": 30.77,
+            "y": -0.41,
+            "z": -6.97
+          },
+          {
+            "x": 19.19,
+            "y": 2.96,
+            "z": 4.37
+          },
+          {
+            "x": 39.01,
+            "y": -0.41,
+            "z": -1.56
+          }
+        ],
+        "connectedSettlementIds": [
+          "country-025-capital",
+          "country-025-village-1"
+        ]
+      },
+      {
+        "roadId": "country-025-road-2",
+        "class": "collector",
+        "lanes": 2,
+        "speedLimitKph": 55,
+        "access": {
+          "vehicles": true,
+          "pedestrians": true,
+          "emergency": true
+        },
+        "points": [
+          {
+            "x": 0.0,
+            "y": 5.58,
+            "z": 0.0
+          },
+          {
+            "x": -10.45,
+            "y": 5.99,
+            "z": -12.35
+          },
+          {
+            "x": -32.2,
+            "y": 6.7,
+            "z": -18.49
+          },
+          {
+            "x": -60.31,
+            "y": 6.61,
+            "z": -21.13
+          },
+          {
+            "x": -83.91,
+            "y": 6.02,
+            "z": -26.25
+          }
+        ],
+        "connectedSettlementIds": [
+          "country-025-capital",
+          "country-025-village-2"
+        ]
+      }
+    ],
+    "bridges": [
+      {
+        "bridgeId": "country-025-bridge-1",
+        "roadId": "country-025-road-1",
+        "riverId": "country-025-river-1",
+        "lengthM": 28.2,
+        "loadClass": "heavy-vehicle",
+        "supportsTrain": false,
+        "x": -8.47,
+        "y": 9.049999999999999,
+        "z": 16.97
+      },
+      {
+        "bridgeId": "country-025-bridge-2",
+        "roadId": "country-025-road-2",
+        "riverId": "country-025-river-2",
+        "lengthM": 24.1,
+        "loadClass": "heavy-vehicle",
+        "supportsTrain": false,
+        "x": 72.08,
+        "y": -1.15,
+        "z": -1.34
+      }
+    ]
+  },
+  "railNetwork": {
+    "lines": [
+      {
+        "lineId": "country-025-rail-1",
+        "mode": "intercity-rail",
+        "electrification": "future-ready",
+        "trackGaugeMm": 1435,
+        "maxSpeedKph": 180,
+        "points": [
+          {
+            "x": 0.0,
+            "y": 5.58,
+            "z": 0.0
+          },
+          {
+            "x": -6.7,
+            "y": 4.55,
+            "z": -10.8
+          },
+          {
+            "x": -34.96,
+            "y": 6.7,
+            "z": -9.73
+          },
+          {
+            "x": -58.71,
+            "y": 6.61,
+            "z": -11.15
+          },
+          {
+            "x": -63.41,
+            "y": 6.61,
+            "z": -23.05
+          },
+          {
+            "x": -83.91,
+            "y": 6.02,
+            "z": -26.25
+          }
+        ]
+      }
+    ],
+    "stations": [
+      {
+        "stationId": "country-025-country-025-capital-station",
+        "settlementId": "country-025-capital",
+        "name": "Vaskora Central Central Station",
+        "service": "intercity",
+        "x": 0.0,
+        "y": 6.08,
+        "z": 0.0
+      },
+      {
+        "stationId": "country-025-country-025-village-1-station",
+        "settlementId": "country-025-village-1",
+        "name": "Vaskora Village 1 Central Station",
+        "service": "intercity",
+        "x": 39.01,
+        "y": 0.09,
+        "z": -1.56
+      },
+      {
+        "stationId": "country-025-country-025-village-2-station",
+        "settlementId": "country-025-village-2",
+        "name": "Vaskora Village 2 Central Station",
+        "service": "intercity",
+        "x": -83.91,
+        "y": 6.52,
+        "z": -26.25
+      }
+    ],
+    "trainService": {
+      "enabled": true,
+      "rollingStockProfile": "regional-electric-template"
+    }
+  },
+  "riverNetwork": {
+    "rivers": [
+      {
+        "riverId": "country-025-river-1",
+        "navigable": true,
+        "widthM": 16.2,
+        "transportMode": "river-freight",
+        "points": [
+          {
+            "x": -128.0,
+            "y": 13.08,
+            "z": 94.41
+          },
+          {
+            "x": -94.03,
+            "y": 13.16,
+            "z": 71.83
+          },
+          {
+            "x": -34.08,
+            "y": 11.53,
+            "z": 34.96
+          },
+          {
+            "x": -8.47,
+            "y": 8.7,
+            "z": 16.97
+          },
+          {
+            "x": 49.14,
+            "y": -1.5,
+            "z": -18.61
+          },
+          {
+            "x": 91.39,
+            "y": -1.5,
+            "z": -45.75
+          },
+          {
+            "x": 128.0,
+            "y": -1.5,
+            "z": -69.78
+          }
+        ]
+      },
+      {
+        "riverId": "country-025-river-2",
+        "navigable": true,
+        "widthM": 12.1,
+        "transportMode": "river-freight",
+        "points": [
+          {
+            "x": 101.72,
+            "y": -1.5,
+            "z": -128.0
+          },
+          {
+            "x": 89.14,
+            "y": -1.5,
+            "z": -84.3
+          },
+          {
+            "x": 71.33,
+            "y": -1.5,
+            "z": -37.72
+          },
+          {
+            "x": 72.08,
+            "y": -1.5,
+            "z": -1.34
+          },
+          {
+            "x": 55.07,
+            "y": -0.15,
+            "z": 44.79
+          },
+          {
+            "x": 42.75,
+            "y": 7.92,
+            "z": 88.35
+          },
+          {
+            "x": 37.54,
+            "y": 15.99,
+            "z": 128.0
+          }
+        ]
+      }
+    ],
+    "riverBridges": [
+      "country-025-bridge-1",
+      "country-025-bridge-2"
+    ]
+  },
+  "simulationHooks": {
+    "cityInfrastructure": true,
+    "residentialAccess": true,
+    "trafficSimulation": true,
+    "massTransitSimulation": true,
+    "waterTrafficSimulation": true
+  }
+}

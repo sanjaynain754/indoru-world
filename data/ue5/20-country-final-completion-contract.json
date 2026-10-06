@@ -1,0 +1,42 @@
+{
+  "schema": "indoru.complete-world-contract.v2",
+  "populationRule": "10,000,000 simulated residents; not 10,000,000 heavyweight Actors simultaneously loaded",
+  "countryRule": "20 playable countries, each with independent government and unique flag",
+  "umbrellaRule": "Indoru flag is the shared/federal umbrella identity",
+  "requiredBuildingLayers": [
+    "government",
+    "security",
+    "military",
+    "medical",
+    "education",
+    "commerce",
+    "food_nightlife",
+    "transport",
+    "industry",
+    "residential",
+    "culture"
+  ],
+  "ue5": [
+    "World Partition",
+    "Data Layers",
+    "HLOD",
+    "MassEntity",
+    "World-Partition Navigation"
+  ],
+  "dataLayers": [
+    "Environment_Base",
+    "Government",
+    "Security",
+    "Military",
+    "Emergency",
+    "Commerce",
+    "Industry",
+    "Residential",
+    "Culture",
+    "Traffic",
+    "Crowd",
+    "Weather",
+    "Events"
+  ],
+  "boundary": "Manifest is world-design/production data; final AAA meshes/interiors/animations/audio/VFX still require UE5 content authoring."
+}

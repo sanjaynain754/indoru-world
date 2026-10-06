@@ -1,0 +1,438 @@
+{
+  "schemaVersion": 1,
+  "countryId": "country-108",
+  "name": "Norriku",
+  "status": "playable",
+  "completion": "template",
+  "templatePolicy": {
+    "generated": true,
+    "requiresReview": true,
+    "placeholderContentAllowed": true
+  },
+  "terrain": {
+    "asset": "data/country-content/norriku/terrain.json",
+    "mapKey": "country/norriku",
+    "biome": "polar-tundra"
+  },
+  "spawn": {
+    "x": 0.0,
+    "y": 1.2,
+    "z": 0.0,
+    "headingRad": 0.0
+  },
+  "settlements": [
+    {
+      "id": "country-108-capital",
+      "name": "Norriku Central",
+      "type": "capital",
+      "populationTier": "large",
+      "x": 0.0,
+      "y": 21.92,
+      "z": 0.0
+    },
+    {
+      "id": "country-108-village-1",
+      "name": "Norriku Village 1",
+      "type": "village",
+      "populationTier": "medium",
+      "x": 78.21,
+      "y": -1.0,
+      "z": -106.76
+    },
+    {
+      "id": "country-108-village-2",
+      "name": "Norriku Village 2",
+      "type": "village",
+      "populationTier": "small",
+      "x": -74.66,
+      "y": 30.71,
+      "z": 37.06
+    },
+    {
+      "id": "country-108-village-3",
+      "name": "Norriku Village 3",
+      "type": "village",
+      "populationTier": "small",
+      "x": 49.23,
+      "y": 6.23,
+      "z": -63.12
+    },
+    {
+      "id": "country-108-village-4",
+      "name": "Norriku Village 4",
+      "type": "village",
+      "populationTier": "medium",
+      "x": 80.69,
+      "y": 9.2,
+      "z": 29.71
+    }
+  ],
+  "infrastructure": {
+    "rivers": [
+      {
+        "id": "country-108-river-1",
+        "name": "Norriku River 1",
+        "widthM": 18.1,
+        "points": [
+          {
+            "x": -128.0,
+            "y": 26.08,
+            "z": 2.24
+          },
+          {
+            "x": -77.35,
+            "y": 28.85,
+            "z": 9.79
+          },
+          {
+            "x": -46.43,
+            "y": 29.45,
+            "z": 28.18
+          },
+          {
+            "x": 0.96,
+            "y": 22.72,
+            "z": 37.51
+          },
+          {
+            "x": 47.02,
+            "y": 14.3,
+            "z": 47.58
+          },
+          {
+            "x": 88.9,
+            "y": 7.75,
+            "z": 59.95
+          },
+          {
+            "x": 128.0,
+            "y": 2.52,
+            "z": 73.84
+          }
+        ]
+      }
+    ],
+    "lakes": [
+      {
+        "id": "country-108-lake-1",
+        "name": "Norriku Lake 1",
+        "x": 75.3,
+        "y": 0.37,
+        "z": -38.44,
+        "radiusM": 23.3,
+        "type": "natural"
+      }
+    ],
+    "mountains": [
+      {
+        "id": "country-108-mountain-1",
+        "name": "Norriku Highland 1",
+        "x": -86.1,
+        "y": 31.45,
+        "z": 85.4,
+        "heightM": 25.76,
+        "radiusM": 28.7
+      },
+      {
+        "id": "country-108-mountain-2",
+        "name": "Norriku Highland 2",
+        "x": -78.87,
+        "y": 21.35,
+        "z": -60.51,
+        "heightM": 25.87,
+        "radiusM": 19.9
+      },
+      {
+        "id": "country-108-mountain-3",
+        "name": "Norriku Highland 3",
+        "x": 17.48,
+        "y": 17.26,
+        "z": -11.94,
+        "heightM": 26.08,
+        "radiusM": 23.5
+      }
+    ],
+    "settlements": [
+      {
+        "id": "country-108-capital",
+        "name": "Norriku Central",
+        "type": "capital",
+        "populationTier": "large",
+        "x": 0.0,
+        "y": 21.92,
+        "z": 0.0
+      },
+      {
+        "id": "country-108-village-1",
+        "name": "Norriku Village 1",
+        "type": "village",
+        "populationTier": "medium",
+        "x": 78.21,
+        "y": -1.0,
+        "z": -106.76
+      },
+      {
+        "id": "country-108-village-2",
+        "name": "Norriku Village 2",
+        "type": "village",
+        "populationTier": "small",
+        "x": -74.66,
+        "y": 30.71,
+        "z": 37.06
+      },
+      {
+        "id": "country-108-village-3",
+        "name": "Norriku Village 3",
+        "type": "village",
+        "populationTier": "small",
+        "x": 49.23,
+        "y": 6.23,
+        "z": -63.12
+      },
+      {
+        "id": "country-108-village-4",
+        "name": "Norriku Village 4",
+        "type": "village",
+        "populationTier": "medium",
+        "x": 80.69,
+        "y": 9.2,
+        "z": 29.71
+      }
+    ],
+    "roads": [
+      {
+        "id": "country-108-road-1",
+        "class": "highway",
+        "points": [
+          {
+            "x": 0.0,
+            "y": 21.42,
+            "z": 0.0
+          },
+          {
+            "x": 18.69,
+            "y": 15.51,
+            "z": -26.21
+          },
+          {
+            "x": 30.29,
+            "y": 10.73,
+            "z": -48.53
+          },
+          {
+            "x": 55.08,
+            "y": 3.25,
+            "z": -78.1
+          },
+          {
+            "x": 78.21,
+            "y": -1.5,
+            "z": -106.76
+          }
+        ]
+      },
+      {
+        "id": "country-108-road-2",
+        "class": "regional",
+        "points": [
+          {
+            "x": 0.0,
+            "y": 21.42,
+            "z": 0.0
+          },
+          {
+            "x": -28.23,
+            "y": 27.02,
+            "z": 14.53
+          },
+          {
+            "x": -29.19,
+            "y": 27.02,
+            "z": 14.05
+          },
+          {
+            "x": -48.05,
+            "y": 28.28,
+            "z": 23.43
+          },
+          {
+            "x": -74.66,
+            "y": 30.21,
+            "z": 37.06
+          }
+        ]
+      },
+      {
+        "id": "country-108-road-3",
+        "class": "regional",
+        "points": [
+          {
+            "x": 0.0,
+            "y": 21.42,
+            "z": 0.0
+          },
+          {
+            "x": 18.05,
+            "y": 17.26,
+            "z": -18.94
+          },
+          {
+            "x": 14.64,
+            "y": 15.51,
+            "z": -26.08
+          },
+          {
+            "x": 38.79,
+            "y": 10.73,
+            "z": -48.37
+          },
+          {
+            "x": 49.23,
+            "y": 5.73,
+            "z": -63.12
+          }
+        ]
+      },
+      {
+        "id": "country-108-road-4",
+        "class": "regional",
+        "points": [
+          {
+            "x": 0.0,
+            "y": 21.42,
+            "z": 0.0
+          },
+          {
+            "x": 23.15,
+            "y": 18.46,
+            "z": 5.79
+          },
+          {
+            "x": 47.01,
+            "y": 12.64,
+            "z": 11.19
+          },
+          {
+            "x": 51.71,
+            "y": 13.5,
+            "z": 27.13
+          },
+          {
+            "x": 80.69,
+            "y": 8.7,
+            "z": 29.71
+          }
+        ]
+      }
+    ],
+    "bridges": [
+      {
+        "id": "country-108-bridge-1",
+        "name": "Norriku Crossing 1",
+        "roadId": "country-108-road-1",
+        "riverId": "country-108-river-1",
+        "x": 0.96,
+        "y": 23.07,
+        "z": 37.51,
+        "lengthM": 30.1
+      }
+    ],
+    "railways": [
+      {
+        "id": "country-108-rail-1",
+        "class": "intercity",
+        "points": [
+          {
+            "x": 0.0,
+            "y": 21.42,
+            "z": 0.0
+          },
+          {
+            "x": 13.43,
+            "y": 18.46,
+            "z": 7.43
+          },
+          {
+            "x": 39.19,
+            "y": 15.85,
+            "z": 8.08
+          },
+          {
+            "x": 58.74,
+            "y": 9.77,
+            "z": 12.15
+          },
+          {
+            "x": 56.32,
+            "y": 10.92,
+            "z": 28.29
+          },
+          {
+            "x": 80.69,
+            "y": 8.7,
+            "z": 29.71
+          }
+        ]
+      }
+    ],
+    "airports": [],
+    "ports": [],
+    "militaryBases": [],
+    "metroLines": [
+      {
+        "id": "country-108-metro-1",
+        "status": "planned",
+        "serves": [
+          "country-108-capital",
+          "country-108-village-1",
+          "country-108-village-2"
+        ]
+      }
+    ],
+    "airRoutes": [
+      {
+        "id": "country-108-air-route-1",
+        "status": "regional",
+        "airportId": null
+      }
+    ],
+    "shipLanes": [
+      {
+        "id": "country-108-ship-lane-1",
+        "status": "regional",
+        "portId": null
+      }
+    ],
+    "submarineZones": [
+      {
+        "id": "country-108-submarine-zone-1",
+        "status": "charted",
+        "depthM": 205.9
+      }
+    ]
+  },
+  "missions": [
+    {
+      "id": "country-108-intro",
+      "title": "Welcome to Norriku",
+      "status": "template",
+      "placeholder": true
+    },
+    {
+      "id": "country-108-route",
+      "title": "Cross-Region Route",
+      "status": "template",
+      "placeholder": true
+    }
+  ],
+  "systems": {
+    "weatherProfile": "template",
+    "peopleProfile": "people-norriku",
+    "trafficProfile": "template"
+  },
+  "nextSteps": [
+    "replace placeholder settlements",
+    "author terrain landmarks",
+    "author missions and NPC schedules"
+  ]
+}

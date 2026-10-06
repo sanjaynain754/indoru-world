@@ -1,0 +1,341 @@
+{
+  "schemaVersion": 1,
+  "countryId": "country-036",
+  "name": "Sorevka",
+  "status": "playable",
+  "completion": "template",
+  "templatePolicy": {
+    "generated": true,
+    "requiresReview": true,
+    "placeholderContentAllowed": true
+  },
+  "terrain": {
+    "asset": "data/country-content/sorevka/terrain.json",
+    "mapKey": "country/sorevka",
+    "biome": "canyon-steppe"
+  },
+  "spawn": {
+    "x": 0.0,
+    "y": 1.2,
+    "z": 0.0,
+    "headingRad": 0.0
+  },
+  "settlements": [
+    {
+      "id": "country-036-capital",
+      "name": "Sorevka Central",
+      "type": "capital",
+      "populationTier": "large",
+      "x": 0.0,
+      "y": 11.33,
+      "z": 0.0
+    },
+    {
+      "id": "country-036-village-1",
+      "name": "Sorevka Village 1",
+      "type": "village",
+      "populationTier": "medium",
+      "x": -28.36,
+      "y": -1.0,
+      "z": -66.92
+    },
+    {
+      "id": "country-036-village-2",
+      "name": "Sorevka Village 2",
+      "type": "village",
+      "populationTier": "small",
+      "x": 23.11,
+      "y": 19.61,
+      "z": 28.07
+    }
+  ],
+  "infrastructure": {
+    "rivers": [
+      {
+        "id": "country-036-river-1",
+        "name": "Sorevka River 1",
+        "widthM": 20.8,
+        "points": [
+          {
+            "x": -128.0,
+            "y": -1.5,
+            "z": 97.05
+          },
+          {
+            "x": -95.21,
+            "y": -0.89,
+            "z": 66.37
+          },
+          {
+            "x": -40.13,
+            "y": 2.01,
+            "z": 23.42
+          },
+          {
+            "x": 2.48,
+            "y": 7.82,
+            "z": -12.66
+          },
+          {
+            "x": 49.88,
+            "y": 11.29,
+            "z": -51.38
+          },
+          {
+            "x": 89.0,
+            "y": 10.24,
+            "z": -85.54
+          },
+          {
+            "x": 128.0,
+            "y": 5.86,
+            "z": -119.64
+          }
+        ]
+      }
+    ],
+    "lakes": [
+      {
+        "id": "country-036-lake-1",
+        "name": "Sorevka Lake 1",
+        "x": 9.07,
+        "y": 0.38,
+        "z": -70.21,
+        "radiusM": 21.7,
+        "type": "reservoir"
+      }
+    ],
+    "mountains": [
+      {
+        "id": "country-036-mountain-1",
+        "name": "Sorevka Highland 1",
+        "x": 44.66,
+        "y": 16.48,
+        "z": -15.23,
+        "heightM": 52.91,
+        "radiusM": 25.8
+      }
+    ],
+    "settlements": [
+      {
+        "id": "country-036-capital",
+        "name": "Sorevka Central",
+        "type": "capital",
+        "populationTier": "large",
+        "x": 0.0,
+        "y": 11.33,
+        "z": 0.0
+      },
+      {
+        "id": "country-036-village-1",
+        "name": "Sorevka Village 1",
+        "type": "village",
+        "populationTier": "medium",
+        "x": -28.36,
+        "y": -1.0,
+        "z": -66.92
+      },
+      {
+        "id": "country-036-village-2",
+        "name": "Sorevka Village 2",
+        "type": "village",
+        "populationTier": "small",
+        "x": 23.11,
+        "y": 19.61,
+        "z": 28.07
+      }
+    ],
+    "roads": [
+      {
+        "id": "country-036-road-1",
+        "class": "highway",
+        "points": [
+          {
+            "x": 0.0,
+            "y": 10.83,
+            "z": 0.0
+          },
+          {
+            "x": -6.32,
+            "y": 7.82,
+            "z": -17.15
+          },
+          {
+            "x": -5.32,
+            "y": 4.99,
+            "z": -38.33
+          },
+          {
+            "x": -11.41,
+            "y": -0.48,
+            "z": -55.61
+          },
+          {
+            "x": -28.36,
+            "y": -1.5,
+            "z": -66.92
+          }
+        ]
+      },
+      {
+        "id": "country-036-road-2",
+        "class": "regional",
+        "points": [
+          {
+            "x": 0.0,
+            "y": 10.83,
+            "z": 0.0
+          },
+          {
+            "x": -4.06,
+            "y": 13.76,
+            "z": 12.43
+          },
+          {
+            "x": 3.85,
+            "y": 13.76,
+            "z": 18.27
+          },
+          {
+            "x": 9.04,
+            "y": 19.11,
+            "z": 25.61
+          },
+          {
+            "x": 23.11,
+            "y": 19.11,
+            "z": 28.07
+          }
+        ]
+      }
+    ],
+    "bridges": [
+      {
+        "id": "country-036-bridge-1",
+        "name": "Sorevka Crossing 1",
+        "roadId": "country-036-road-1",
+        "riverId": "country-036-river-1",
+        "x": 2.48,
+        "y": 8.17,
+        "z": -12.66,
+        "lengthM": 32.8
+      }
+    ],
+    "railways": [
+      {
+        "id": "country-036-rail-1",
+        "class": "intercity",
+        "points": [
+          {
+            "x": 0.0,
+            "y": 10.83,
+            "z": 0.0
+          },
+          {
+            "x": 11.69,
+            "y": 14.24,
+            "z": 1.72
+          },
+          {
+            "x": 0.95,
+            "y": 13.76,
+            "z": 15.79
+          },
+          {
+            "x": 20.15,
+            "y": 16.88,
+            "z": 13.38
+          },
+          {
+            "x": 27.29,
+            "y": 19.21,
+            "z": 17.61
+          },
+          {
+            "x": 23.11,
+            "y": 19.11,
+            "z": 28.07
+          }
+        ]
+      }
+    ],
+    "airports": [
+      {
+        "id": "country-036-airport-1",
+        "name": "Sorevka International",
+        "size": "large",
+        "x": -15.69,
+        "y": -1.3,
+        "z": -61.4,
+        "runwayLengthM": 900
+      }
+    ],
+    "ports": [],
+    "militaryBases": [
+      {
+        "id": "country-036-base-1",
+        "name": "Sorevka Defense Station",
+        "type": "air-ground",
+        "x": 13.56,
+        "y": 19.41,
+        "z": 34.18
+      }
+    ],
+    "metroLines": [
+      {
+        "id": "country-036-metro-1",
+        "status": "planned",
+        "serves": [
+          "country-036-capital",
+          "country-036-village-1",
+          "country-036-village-2"
+        ]
+      }
+    ],
+    "airRoutes": [
+      {
+        "id": "country-036-air-route-1",
+        "status": "regional",
+        "airportId": "country-036-airport-1"
+      }
+    ],
+    "shipLanes": [
+      {
+        "id": "country-036-ship-lane-1",
+        "status": "regional",
+        "portId": null
+      }
+    ],
+    "submarineZones": [
+      {
+        "id": "country-036-submarine-zone-1",
+        "status": "charted",
+        "depthM": 160.6
+      }
+    ]
+  },
+  "missions": [
+    {
+      "id": "country-036-intro",
+      "title": "Welcome to Sorevka",
+      "status": "template",
+      "placeholder": true
+    },
+    {
+      "id": "country-036-route",
+      "title": "Cross-Region Route",
+      "status": "template",
+      "placeholder": true
+    }
+  ],
+  "systems": {
+    "weatherProfile": "template",
+    "peopleProfile": "people-sorevka",
+    "trafficProfile": "template"
+  },
+  "nextSteps": [
+    "replace placeholder settlements",
+    "author terrain landmarks",
+    "author missions and NPC schedules"
+  ]
+}

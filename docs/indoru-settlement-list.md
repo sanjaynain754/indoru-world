@@ -1,6 +1,6 @@
 # Indoru — Central Map Settlement List
 
-> यह list केवल central playable Indoru map के लिए है। सभी settlements Indoru country के अंदर आते हैं; वे अलग देश नहीं हैं और country का national flag use करेंगे। Global Coming Soon countries इस list में शामिल नहीं हैं।
+> यह list केवल central playable Indoru map के लिए है। सभी settlements Indoru country के अंदर आते हैं; वे अलग देश नहीं हैं और country का national flag use करेंगे। सभी registered countries इसी all-playable world policy के अंतर्गत अलग streamed packages में उपलब्ध हैं।
 
 | Category | Count | Ownership |
 |---|---:|---|
@@ -225,4 +225,4 @@
 
 ## Data fields
 
-`settlementId`, `name`, `countryId`, `region`, `type`, `status`, `flagRef`, `mapKey`, `populationTier` और `unlockLabel` प्रत्येक record में मौजूद हैं। `Coming Soon` content को इस central list में modify नहीं किया गया है।
+`settlementId`, `name`, `countryId`, `region`, `type`, `status`, `flagRef`, `mapKey`, `populationTier` और `unlockLabel` प्रत्येक record में मौजूद हैं। सभी listed content playable registry के साथ synchronized है।

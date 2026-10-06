@@ -1,0 +1,359 @@
+{
+  "schemaVersion": 1,
+  "countryId": "country-041",
+  "name": "Lunessa",
+  "status": "playable",
+  "completion": "template",
+  "templatePolicy": {
+    "generated": true,
+    "requiresReview": true,
+    "placeholderContentAllowed": true
+  },
+  "terrain": {
+    "asset": "data/country-content/lunessa/terrain.json",
+    "mapKey": "country/lunessa",
+    "biome": "coastal-island"
+  },
+  "spawn": {
+    "x": 0.0,
+    "y": 1.2,
+    "z": 0.0,
+    "headingRad": 0.0
+  },
+  "settlements": [
+    {
+      "id": "country-041-capital",
+      "name": "Lunessa Central",
+      "type": "capital",
+      "populationTier": "large",
+      "x": 0.0,
+      "y": -1.0,
+      "z": 0.0
+    },
+    {
+      "id": "country-041-village-1",
+      "name": "Lunessa Village 1",
+      "type": "village",
+      "populationTier": "medium",
+      "x": -33.32,
+      "y": -1.0,
+      "z": 85.71
+    },
+    {
+      "id": "country-041-village-2",
+      "name": "Lunessa Village 2",
+      "type": "village",
+      "populationTier": "small",
+      "x": 69.3,
+      "y": -1.0,
+      "z": -50.45
+    }
+  ],
+  "infrastructure": {
+    "rivers": [
+      {
+        "id": "country-041-river-1",
+        "name": "Lunessa River 1",
+        "widthM": 14.6,
+        "points": [
+          {
+            "x": -128.0,
+            "y": -0.48,
+            "z": -44.41
+          },
+          {
+            "x": -81.96,
+            "y": -1.5,
+            "z": -33.7
+          },
+          {
+            "x": -40.57,
+            "y": -1.5,
+            "z": -20.45
+          },
+          {
+            "x": -1.47,
+            "y": -1.5,
+            "z": -5.93
+          },
+          {
+            "x": 34.32,
+            "y": -1.5,
+            "z": 10.4
+          },
+          {
+            "x": 83.46,
+            "y": -1.5,
+            "z": 19.4
+          },
+          {
+            "x": 128.0,
+            "y": -1.5,
+            "z": 30.92
+          }
+        ]
+      }
+    ],
+    "lakes": [
+      {
+        "id": "country-041-lake-1",
+        "name": "Lunessa Lake 1",
+        "x": 56.15,
+        "y": 0.43,
+        "z": 54.27,
+        "radiusM": 9.4,
+        "type": "natural"
+      },
+      {
+        "id": "country-041-lake-2",
+        "name": "Lunessa Lake 2",
+        "x": -0.37,
+        "y": 0.43,
+        "z": 72.32,
+        "radiusM": 8.2,
+        "type": "natural"
+      }
+    ],
+    "mountains": [
+      {
+        "id": "country-041-mountain-1",
+        "name": "Lunessa Highland 1",
+        "x": -22.54,
+        "y": 0.42,
+        "z": 28.06,
+        "heightM": 57.66,
+        "radiusM": 25.3
+      }
+    ],
+    "settlements": [
+      {
+        "id": "country-041-capital",
+        "name": "Lunessa Central",
+        "type": "capital",
+        "populationTier": "large",
+        "x": 0.0,
+        "y": -1.0,
+        "z": 0.0
+      },
+      {
+        "id": "country-041-village-1",
+        "name": "Lunessa Village 1",
+        "type": "village",
+        "populationTier": "medium",
+        "x": -33.32,
+        "y": -1.0,
+        "z": 85.71
+      },
+      {
+        "id": "country-041-village-2",
+        "name": "Lunessa Village 2",
+        "type": "village",
+        "populationTier": "small",
+        "x": 69.3,
+        "y": -1.0,
+        "z": -50.45
+      }
+    ],
+    "roads": [
+      {
+        "id": "country-041-road-1",
+        "class": "highway",
+        "points": [
+          {
+            "x": 0.0,
+            "y": -1.5,
+            "z": 0.0
+          },
+          {
+            "x": -8.41,
+            "y": -1.5,
+            "z": 21.47
+          },
+          {
+            "x": -13.69,
+            "y": -1.5,
+            "z": 41.22
+          },
+          {
+            "x": -27.34,
+            "y": -1.5,
+            "z": 65.58
+          },
+          {
+            "x": -33.32,
+            "y": -1.5,
+            "z": 85.71
+          }
+        ]
+      },
+      {
+        "id": "country-041-road-2",
+        "class": "regional",
+        "points": [
+          {
+            "x": 0.0,
+            "y": -1.5,
+            "z": 0.0
+          },
+          {
+            "x": 26.2,
+            "y": -1.5,
+            "z": -17.49
+          },
+          {
+            "x": 45.53,
+            "y": -1.5,
+            "z": -31.21
+          },
+          {
+            "x": 58.25,
+            "y": -1.5,
+            "z": -41.29
+          },
+          {
+            "x": 69.3,
+            "y": -1.5,
+            "z": -50.45
+          }
+        ]
+      }
+    ],
+    "bridges": [
+      {
+        "id": "country-041-bridge-1",
+        "name": "Lunessa Crossing 1",
+        "roadId": "country-041-road-1",
+        "riverId": "country-041-river-1",
+        "x": -1.47,
+        "y": -1.15,
+        "z": -5.93,
+        "lengthM": 26.6
+      }
+    ],
+    "railways": [
+      {
+        "id": "country-041-rail-1",
+        "class": "intercity",
+        "points": [
+          {
+            "x": 0.0,
+            "y": -1.5,
+            "z": 0.0
+          },
+          {
+            "x": 16.81,
+            "y": -1.5,
+            "z": -11.71
+          },
+          {
+            "x": 18.54,
+            "y": -1.5,
+            "z": -15.13
+          },
+          {
+            "x": 39.23,
+            "y": -1.5,
+            "z": -28.98
+          },
+          {
+            "x": 50.98,
+            "y": -1.5,
+            "z": -37.91
+          },
+          {
+            "x": 69.3,
+            "y": -1.5,
+            "z": -50.45
+          }
+        ]
+      }
+    ],
+    "airports": [
+      {
+        "id": "country-041-airport-1",
+        "name": "Lunessa International",
+        "size": "regional",
+        "x": 62.78,
+        "y": -1.3,
+        "z": -36.18,
+        "runwayLengthM": 900
+      }
+    ],
+    "ports": [
+      {
+        "id": "country-041-port-1",
+        "name": "Lunessa Maritime Port",
+        "x": -95.49,
+        "y": 0.72,
+        "z": -27.62,
+        "capacity": "small"
+      }
+    ],
+    "militaryBases": [
+      {
+        "id": "country-041-base-1",
+        "name": "Lunessa Defense Station",
+        "type": "air-ground",
+        "x": -29.35,
+        "y": -1.2,
+        "z": -52.78
+      }
+    ],
+    "metroLines": [
+      {
+        "id": "country-041-metro-1",
+        "status": "planned",
+        "serves": [
+          "country-041-capital",
+          "country-041-village-1",
+          "country-041-village-2"
+        ]
+      }
+    ],
+    "airRoutes": [
+      {
+        "id": "country-041-air-route-1",
+        "status": "regional",
+        "airportId": "country-041-airport-1"
+      }
+    ],
+    "shipLanes": [
+      {
+        "id": "country-041-ship-lane-1",
+        "status": "regional",
+        "portId": "country-041-port-1"
+      }
+    ],
+    "submarineZones": [
+      {
+        "id": "country-041-submarine-zone-1",
+        "status": "charted",
+        "depthM": 70.8
+      }
+    ]
+  },
+  "missions": [
+    {
+      "id": "country-041-intro",
+      "title": "Welcome to Lunessa",
+      "status": "template",
+      "placeholder": true
+    },
+    {
+      "id": "country-041-route",
+      "title": "Cross-Region Route",
+      "status": "template",
+      "placeholder": true
+    }
+  ],
+  "systems": {
+    "weatherProfile": "template",
+    "peopleProfile": "people-lunessa",
+    "trafficProfile": "template"
+  },
+  "nextSteps": [
+    "replace placeholder settlements",
+    "author terrain landmarks",
+    "author missions and NPC schedules"
+  ]
+}

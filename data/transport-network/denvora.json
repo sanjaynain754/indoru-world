@@ -1,0 +1,445 @@
+{
+  "schemaVersion": 1,
+  "countryId": "country-100",
+  "mapKey": "country/denvora",
+  "seed": 10273102390093779984,
+  "sourceTerrain": "data/country-content/denvora/terrain.json",
+  "roadNetwork": {
+    "segments": [
+      {
+        "roadId": "country-100-road-1",
+        "class": "arterial",
+        "lanes": 4,
+        "speedLimitKph": 90,
+        "access": {
+          "vehicles": true,
+          "pedestrians": true,
+          "emergency": true
+        },
+        "points": [
+          {
+            "x": 0.0,
+            "y": 4.31,
+            "z": 0.0
+          },
+          {
+            "x": 7.87,
+            "y": 5.5,
+            "z": -15.99
+          },
+          {
+            "x": -4.37,
+            "y": 5.5,
+            "z": -20.92
+          },
+          {
+            "x": -10.8,
+            "y": 4.27,
+            "z": -29.05
+          },
+          {
+            "x": 1.18,
+            "y": 6.28,
+            "z": -47.3
+          }
+        ],
+        "connectedSettlementIds": [
+          "country-100-capital",
+          "country-100-village-1"
+        ]
+      },
+      {
+        "roadId": "country-100-road-2",
+        "class": "collector",
+        "lanes": 2,
+        "speedLimitKph": 55,
+        "access": {
+          "vehicles": true,
+          "pedestrians": true,
+          "emergency": true
+        },
+        "points": [
+          {
+            "x": 0.0,
+            "y": 4.31,
+            "z": 0.0
+          },
+          {
+            "x": -13.87,
+            "y": 0.88,
+            "z": 9.97
+          },
+          {
+            "x": -24.61,
+            "y": -0.29,
+            "z": 18.21
+          },
+          {
+            "x": -37.67,
+            "y": -1.5,
+            "z": 27.73
+          },
+          {
+            "x": -45.76,
+            "y": -1.5,
+            "z": 34.52
+          }
+        ],
+        "connectedSettlementIds": [
+          "country-100-capital",
+          "country-100-village-2"
+        ]
+      },
+      {
+        "roadId": "country-100-road-3",
+        "class": "collector",
+        "lanes": 2,
+        "speedLimitKph": 55,
+        "access": {
+          "vehicles": true,
+          "pedestrians": true,
+          "emergency": true
+        },
+        "points": [
+          {
+            "x": 0.0,
+            "y": 4.31,
+            "z": 0.0
+          },
+          {
+            "x": 5.13,
+            "y": 6.24,
+            "z": -30.03
+          },
+          {
+            "x": -12.78,
+            "y": 3.95,
+            "z": -47.39
+          },
+          {
+            "x": -8.11,
+            "y": 0.91,
+            "z": -77.16
+          },
+          {
+            "x": -12.48,
+            "y": -1.41,
+            "z": -101.96
+          }
+        ],
+        "connectedSettlementIds": [
+          "country-100-capital",
+          "country-100-village-3"
+        ]
+      },
+      {
+        "roadId": "country-100-road-4",
+        "class": "collector",
+        "lanes": 2,
+        "speedLimitKph": 55,
+        "access": {
+          "vehicles": true,
+          "pedestrians": true,
+          "emergency": true
+        },
+        "points": [
+          {
+            "x": 0.0,
+            "y": 4.31,
+            "z": 0.0
+          },
+          {
+            "x": -16.96,
+            "y": 2.53,
+            "z": 4.14
+          },
+          {
+            "x": -48.04,
+            "y": -0.77,
+            "z": 16.05
+          },
+          {
+            "x": -83.23,
+            "y": -1.5,
+            "z": 30.22
+          },
+          {
+            "x": -104.93,
+            "y": 0.53,
+            "z": 36.97
+          }
+        ],
+        "connectedSettlementIds": [
+          "country-100-capital",
+          "country-100-village-4"
+        ]
+      },
+      {
+        "roadId": "country-100-road-5",
+        "class": "collector",
+        "lanes": 2,
+        "speedLimitKph": 55,
+        "access": {
+          "vehicles": true,
+          "pedestrians": true,
+          "emergency": true
+        },
+        "points": [
+          {
+            "x": 0.0,
+            "y": 4.31,
+            "z": 0.0
+          },
+          {
+            "x": -9.81,
+            "y": 3.74,
+            "z": -12.57
+          },
+          {
+            "x": -27.84,
+            "y": 2.39,
+            "z": -20.63
+          },
+          {
+            "x": -26.9,
+            "y": 2.55,
+            "z": -39.11
+          },
+          {
+            "x": -41.16,
+            "y": 0.18,
+            "z": -49.24
+          }
+        ],
+        "connectedSettlementIds": [
+          "country-100-capital",
+          "country-100-village-5"
+        ]
+      },
+      {
+        "roadId": "country-100-road-6",
+        "class": "collector",
+        "lanes": 2,
+        "speedLimitKph": 55,
+        "access": {
+          "vehicles": true,
+          "pedestrians": true,
+          "emergency": true
+        },
+        "points": [
+          {
+            "x": 0.0,
+            "y": 4.31,
+            "z": 0.0
+          },
+          {
+            "x": 3.83,
+            "y": 2.9,
+            "z": 21.71
+          },
+          {
+            "x": 3.4,
+            "y": -0.05,
+            "z": 45.76
+          },
+          {
+            "x": -10.08,
+            "y": -1.5,
+            "z": 76.99
+          },
+          {
+            "x": -8.08,
+            "y": -1.5,
+            "z": 99.7
+          }
+        ],
+        "connectedSettlementIds": [
+          "country-100-capital",
+          "country-100-village-6"
+        ]
+      }
+    ],
+    "bridges": [
+      {
+        "bridgeId": "country-100-bridge-1",
+        "roadId": "country-100-road-1",
+        "riverId": "country-100-river-1",
+        "lengthM": 17.4,
+        "loadClass": "heavy-vehicle",
+        "supportsTrain": false,
+        "x": 7.7,
+        "y": 1.79,
+        "z": 38.59
+      }
+    ]
+  },
+  "railNetwork": {
+    "lines": [
+      {
+        "lineId": "country-100-rail-1",
+        "mode": "intercity-rail",
+        "electrification": "future-ready",
+        "trackGaugeMm": 1435,
+        "maxSpeedKph": 180,
+        "points": [
+          {
+            "x": 0.0,
+            "y": 4.31,
+            "z": 0.0
+          },
+          {
+            "x": 9.21,
+            "y": 5.82,
+            "z": 13.99
+          },
+          {
+            "x": -4.51,
+            "y": -0.05,
+            "z": 40.58
+          },
+          {
+            "x": -14.89,
+            "y": -1.5,
+            "z": 65.34
+          },
+          {
+            "x": -10.2,
+            "y": -1.5,
+            "z": 81.81
+          },
+          {
+            "x": -8.08,
+            "y": -1.5,
+            "z": 99.7
+          }
+        ]
+      }
+    ],
+    "stations": [
+      {
+        "stationId": "country-100-country-100-capital-station",
+        "settlementId": "country-100-capital",
+        "name": "Denvora Central Central Station",
+        "service": "intercity",
+        "x": 0.0,
+        "y": 4.81,
+        "z": 0.0
+      },
+      {
+        "stationId": "country-100-country-100-village-1-station",
+        "settlementId": "country-100-village-1",
+        "name": "Denvora Village 1 Central Station",
+        "service": "intercity",
+        "x": 1.18,
+        "y": 6.78,
+        "z": -47.3
+      },
+      {
+        "stationId": "country-100-country-100-village-2-station",
+        "settlementId": "country-100-village-2",
+        "name": "Denvora Village 2 Central Station",
+        "service": "intercity",
+        "x": -45.76,
+        "y": -1.0,
+        "z": 34.52
+      },
+      {
+        "stationId": "country-100-country-100-village-3-station",
+        "settlementId": "country-100-village-3",
+        "name": "Denvora Village 3 Central Station",
+        "service": "intercity",
+        "x": -12.48,
+        "y": -0.91,
+        "z": -101.96
+      },
+      {
+        "stationId": "country-100-country-100-village-4-station",
+        "settlementId": "country-100-village-4",
+        "name": "Denvora Village 4 Central Station",
+        "service": "intercity",
+        "x": -104.93,
+        "y": 1.03,
+        "z": 36.97
+      },
+      {
+        "stationId": "country-100-country-100-village-5-station",
+        "settlementId": "country-100-village-5",
+        "name": "Denvora Village 5 Central Station",
+        "service": "intercity",
+        "x": -41.16,
+        "y": 0.68,
+        "z": -49.24
+      },
+      {
+        "stationId": "country-100-country-100-village-6-station",
+        "settlementId": "country-100-village-6",
+        "name": "Denvora Village 6 Central Station",
+        "service": "intercity",
+        "x": -8.08,
+        "y": -1.0,
+        "z": 99.7
+      }
+    ],
+    "trainService": {
+      "enabled": true,
+      "rollingStockProfile": "regional-electric-template"
+    }
+  },
+  "riverNetwork": {
+    "rivers": [
+      {
+        "riverId": "country-100-river-1",
+        "navigable": false,
+        "widthM": 5.4,
+        "transportMode": "waterway",
+        "points": [
+          {
+            "x": -128.0,
+            "y": -1.5,
+            "z": 101.88
+          },
+          {
+            "x": -95.38,
+            "y": -1.5,
+            "z": 87.72
+          },
+          {
+            "x": -34.52,
+            "y": -1.5,
+            "z": 58.03
+          },
+          {
+            "x": 7.7,
+            "y": 1.44,
+            "z": 38.59
+          },
+          {
+            "x": 38.02,
+            "y": 8.63,
+            "z": 25.7
+          },
+          {
+            "x": 84.32,
+            "y": 22.86,
+            "z": 4.02
+          },
+          {
+            "x": 128.0,
+            "y": 33.7,
+            "z": -16.23
+          }
+        ]
+      }
+    ],
+    "riverBridges": [
+      "country-100-bridge-1"
+    ]
+  },
+  "simulationHooks": {
+    "cityInfrastructure": true,
+    "residentialAccess": true,
+    "trafficSimulation": true,
+    "massTransitSimulation": true,
+    "waterTrafficSimulation": false
+  }
+}

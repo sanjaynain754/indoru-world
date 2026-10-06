@@ -1,0 +1,580 @@
+{
+  "schemaVersion": 1,
+  "countryId": "country-107",
+  "name": "Skelvar",
+  "status": "playable",
+  "completion": "template",
+  "templatePolicy": {
+    "generated": true,
+    "requiresReview": true,
+    "placeholderContentAllowed": true
+  },
+  "terrain": {
+    "asset": "data/country-content/skelvar/terrain.json",
+    "mapKey": "country/skelvar",
+    "biome": "polar-tundra"
+  },
+  "spawn": {
+    "x": 0.0,
+    "y": 1.2,
+    "z": 0.0,
+    "headingRad": 0.0
+  },
+  "settlements": [
+    {
+      "id": "country-107-capital",
+      "name": "Skelvar Central",
+      "type": "capital",
+      "populationTier": "large",
+      "x": 0.0,
+      "y": 5.1,
+      "z": 0.0
+    },
+    {
+      "id": "country-107-village-1",
+      "name": "Skelvar Village 1",
+      "type": "village",
+      "populationTier": "medium",
+      "x": 37.14,
+      "y": 7.46,
+      "z": 74.39
+    },
+    {
+      "id": "country-107-village-2",
+      "name": "Skelvar Village 2",
+      "type": "village",
+      "populationTier": "small",
+      "x": -25.17,
+      "y": 3.27,
+      "z": -42.41
+    },
+    {
+      "id": "country-107-village-3",
+      "name": "Skelvar Village 3",
+      "type": "village",
+      "populationTier": "small",
+      "x": -26.01,
+      "y": 13.06,
+      "z": 19.15
+    },
+    {
+      "id": "country-107-village-4",
+      "name": "Skelvar Village 4",
+      "type": "village",
+      "populationTier": "medium",
+      "x": -17.55,
+      "y": 8.2,
+      "z": -1.74
+    },
+    {
+      "id": "country-107-village-5",
+      "name": "Skelvar Village 5",
+      "type": "village",
+      "populationTier": "small",
+      "x": -36.52,
+      "y": 14.71,
+      "z": 33.44
+    },
+    {
+      "id": "country-107-village-6",
+      "name": "Skelvar Village 6",
+      "type": "village",
+      "populationTier": "small",
+      "x": 10.37,
+      "y": -1.0,
+      "z": -66.24
+    }
+  ],
+  "infrastructure": {
+    "rivers": [
+      {
+        "id": "country-107-river-1",
+        "name": "Skelvar River 1",
+        "widthM": 18.6,
+        "points": [
+          {
+            "x": -128.0,
+            "y": 25.58,
+            "z": 45.98
+          },
+          {
+            "x": -95.23,
+            "y": 26.42,
+            "z": 57.58
+          },
+          {
+            "x": -36.33,
+            "y": 15.41,
+            "z": 54.8
+          },
+          {
+            "x": -7.33,
+            "y": 10.1,
+            "z": 68.47
+          },
+          {
+            "x": 44.25,
+            "y": 3.55,
+            "z": 69.73
+          },
+          {
+            "x": 94.11,
+            "y": -0.54,
+            "z": 71.92
+          },
+          {
+            "x": 128.0,
+            "y": -1.07,
+            "z": 82.9
+          }
+        ]
+      },
+      {
+        "id": "country-107-river-2",
+        "name": "Skelvar River 2",
+        "widthM": 20.9,
+        "points": [
+          {
+            "x": -123.26,
+            "y": 5.17,
+            "z": -128.0
+          },
+          {
+            "x": -119.88,
+            "y": 10.42,
+            "z": -83.47
+          },
+          {
+            "x": -112.28,
+            "y": 14.2,
+            "z": -41.25
+          },
+          {
+            "x": -101.74,
+            "y": 17.95,
+            "z": -0.66
+          },
+          {
+            "x": -93.91,
+            "y": 24.65,
+            "z": 41.42
+          },
+          {
+            "x": -85.68,
+            "y": 25.68,
+            "z": 83.29
+          },
+          {
+            "x": -82.62,
+            "y": 25.6,
+            "z": 128.0
+          }
+        ]
+      }
+    ],
+    "lakes": [
+      {
+        "id": "country-107-lake-1",
+        "name": "Skelvar Lake 1",
+        "x": 3.47,
+        "y": 0.37,
+        "z": 38.93,
+        "radiusM": 14.8,
+        "type": "natural"
+      }
+    ],
+    "mountains": [
+      {
+        "id": "country-107-mountain-1",
+        "name": "Skelvar Highland 1",
+        "x": -46.89,
+        "y": 12.81,
+        "z": -6.98,
+        "heightM": 59.62,
+        "radiusM": 41.0
+      }
+    ],
+    "settlements": [
+      {
+        "id": "country-107-capital",
+        "name": "Skelvar Central",
+        "type": "capital",
+        "populationTier": "large",
+        "x": 0.0,
+        "y": 5.1,
+        "z": 0.0
+      },
+      {
+        "id": "country-107-village-1",
+        "name": "Skelvar Village 1",
+        "type": "village",
+        "populationTier": "medium",
+        "x": 37.14,
+        "y": 7.46,
+        "z": 74.39
+      },
+      {
+        "id": "country-107-village-2",
+        "name": "Skelvar Village 2",
+        "type": "village",
+        "populationTier": "small",
+        "x": -25.17,
+        "y": 3.27,
+        "z": -42.41
+      },
+      {
+        "id": "country-107-village-3",
+        "name": "Skelvar Village 3",
+        "type": "village",
+        "populationTier": "small",
+        "x": -26.01,
+        "y": 13.06,
+        "z": 19.15
+      },
+      {
+        "id": "country-107-village-4",
+        "name": "Skelvar Village 4",
+        "type": "village",
+        "populationTier": "medium",
+        "x": -17.55,
+        "y": 8.2,
+        "z": -1.74
+      },
+      {
+        "id": "country-107-village-5",
+        "name": "Skelvar Village 5",
+        "type": "village",
+        "populationTier": "small",
+        "x": -36.52,
+        "y": 14.71,
+        "z": 33.44
+      },
+      {
+        "id": "country-107-village-6",
+        "name": "Skelvar Village 6",
+        "type": "village",
+        "populationTier": "small",
+        "x": 10.37,
+        "y": -1.0,
+        "z": -66.24
+      }
+    ],
+    "roads": [
+      {
+        "id": "country-107-road-1",
+        "class": "highway",
+        "points": [
+          {
+            "x": 0.0,
+            "y": 4.6,
+            "z": 0.0
+          },
+          {
+            "x": 17.17,
+            "y": 2.87,
+            "z": 14.26
+          },
+          {
+            "x": 7.28,
+            "y": 8.81,
+            "z": 43.4
+          },
+          {
+            "x": 18.61,
+            "y": 7.52,
+            "z": 60.88
+          },
+          {
+            "x": 37.14,
+            "y": 6.96,
+            "z": 74.39
+          }
+        ]
+      },
+      {
+        "id": "country-107-road-2",
+        "class": "regional",
+        "points": [
+          {
+            "x": 0.0,
+            "y": 4.6,
+            "z": 0.0
+          },
+          {
+            "x": -13.24,
+            "y": 7.7,
+            "z": -6.78
+          },
+          {
+            "x": -8.34,
+            "y": 5.5,
+            "z": -23.54
+          },
+          {
+            "x": -29.79,
+            "y": 5.34,
+            "z": -25.81
+          },
+          {
+            "x": -25.17,
+            "y": 2.77,
+            "z": -42.41
+          }
+        ]
+      },
+      {
+        "id": "country-107-road-3",
+        "class": "regional",
+        "points": [
+          {
+            "x": 0.0,
+            "y": 4.6,
+            "z": 0.0
+          },
+          {
+            "x": -12.28,
+            "y": 7.7,
+            "z": 7.97
+          },
+          {
+            "x": -12.0,
+            "y": 9.49,
+            "z": 9.02
+          },
+          {
+            "x": -21.83,
+            "y": 9.49,
+            "z": 15.64
+          },
+          {
+            "x": -26.01,
+            "y": 12.56,
+            "z": 19.15
+          }
+        ]
+      },
+      {
+        "id": "country-107-road-4",
+        "class": "regional",
+        "points": [
+          {
+            "x": 0.0,
+            "y": 4.6,
+            "z": 0.0
+          },
+          {
+            "x": -8.48,
+            "y": 7.7,
+            "z": 1.81
+          },
+          {
+            "x": -12.1,
+            "y": 7.7,
+            "z": 0.96
+          },
+          {
+            "x": -17.33,
+            "y": 7.7,
+            "z": 0.99
+          },
+          {
+            "x": -17.55,
+            "y": 7.7,
+            "z": -1.74
+          }
+        ]
+      },
+      {
+        "id": "country-107-road-5",
+        "class": "regional",
+        "points": [
+          {
+            "x": 0.0,
+            "y": 4.6,
+            "z": 0.0
+          },
+          {
+            "x": -11.08,
+            "y": 9.49,
+            "z": 9.43
+          },
+          {
+            "x": -14.0,
+            "y": 9.49,
+            "z": 14.38
+          },
+          {
+            "x": -16.81,
+            "y": 9.49,
+            "z": 19.26
+          },
+          {
+            "x": -36.52,
+            "y": 14.21,
+            "z": 33.44
+          }
+        ]
+      },
+      {
+        "id": "country-107-road-6",
+        "class": "regional",
+        "points": [
+          {
+            "x": 0.0,
+            "y": 4.6,
+            "z": 0.0
+          },
+          {
+            "x": -6.64,
+            "y": 2.71,
+            "z": -11.48
+          },
+          {
+            "x": -5.12,
+            "y": 0.48,
+            "z": -27.45
+          },
+          {
+            "x": 12.25,
+            "y": -1.5,
+            "z": -52.14
+          },
+          {
+            "x": 10.37,
+            "y": -1.5,
+            "z": -66.24
+          }
+        ]
+      }
+    ],
+    "bridges": [
+      {
+        "id": "country-107-bridge-1",
+        "name": "Skelvar Crossing 1",
+        "roadId": "country-107-road-1",
+        "riverId": "country-107-river-1",
+        "x": -7.33,
+        "y": 10.45,
+        "z": 68.47,
+        "lengthM": 30.6
+      },
+      {
+        "id": "country-107-bridge-2",
+        "name": "Skelvar Crossing 2",
+        "roadId": "country-107-road-2",
+        "riverId": "country-107-river-2",
+        "x": -101.74,
+        "y": 18.3,
+        "z": -0.66,
+        "lengthM": 32.9
+      }
+    ],
+    "railways": [
+      {
+        "id": "country-107-rail-1",
+        "class": "intercity",
+        "points": [
+          {
+            "x": 0.0,
+            "y": 4.6,
+            "z": 0.0
+          },
+          {
+            "x": -8.22,
+            "y": 7.7,
+            "z": -7.59
+          },
+          {
+            "x": -1.82,
+            "y": 2.71,
+            "z": -23.22
+          },
+          {
+            "x": 6.61,
+            "y": 0.48,
+            "z": -39.96
+          },
+          {
+            "x": 6.71,
+            "y": -1.5,
+            "z": -52.12
+          },
+          {
+            "x": 10.37,
+            "y": -1.5,
+            "z": -66.24
+          }
+        ]
+      }
+    ],
+    "airports": [
+      {
+        "id": "country-107-airport-1",
+        "name": "Skelvar International",
+        "size": "large",
+        "x": -35.04,
+        "y": 12.76,
+        "z": 19.46,
+        "runwayLengthM": 900
+      }
+    ],
+    "ports": [],
+    "militaryBases": [],
+    "metroLines": [
+      {
+        "id": "country-107-metro-1",
+        "status": "planned",
+        "serves": [
+          "country-107-capital",
+          "country-107-village-1",
+          "country-107-village-2"
+        ]
+      }
+    ],
+    "airRoutes": [
+      {
+        "id": "country-107-air-route-1",
+        "status": "regional",
+        "airportId": "country-107-airport-1"
+      }
+    ],
+    "shipLanes": [
+      {
+        "id": "country-107-ship-lane-1",
+        "status": "regional",
+        "portId": null
+      }
+    ],
+    "submarineZones": [
+      {
+        "id": "country-107-submarine-zone-1",
+        "status": "charted",
+        "depthM": 141.4
+      }
+    ]
+  },
+  "missions": [
+    {
+      "id": "country-107-intro",
+      "title": "Welcome to Skelvar",
+      "status": "template",
+      "placeholder": true
+    },
+    {
+      "id": "country-107-route",
+      "title": "Cross-Region Route",
+      "status": "template",
+      "placeholder": true
+    }
+  ],
+  "systems": {
+    "weatherProfile": "template",
+    "peopleProfile": "people-skelvar",
+    "trafficProfile": "template"
+  },
+  "nextSteps": [
+    "replace placeholder settlements",
+    "author terrain landmarks",
+    "author missions and NPC schedules"
+  ]
+}

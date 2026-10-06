@@ -1,0 +1,589 @@
+{
+  "schemaVersion": 1,
+  "countryId": "country-026",
+  "name": "Ternuva",
+  "status": "playable",
+  "completion": "template",
+  "templatePolicy": {
+    "generated": true,
+    "requiresReview": true,
+    "placeholderContentAllowed": true
+  },
+  "terrain": {
+    "asset": "data/country-content/ternuva/terrain.json",
+    "mapKey": "country/ternuva",
+    "biome": "canyon-steppe"
+  },
+  "spawn": {
+    "x": 0.0,
+    "y": 1.2,
+    "z": 0.0,
+    "headingRad": 0.0
+  },
+  "settlements": [
+    {
+      "id": "country-026-capital",
+      "name": "Ternuva Central",
+      "type": "capital",
+      "populationTier": "large",
+      "x": 0.0,
+      "y": 36.44,
+      "z": 0.0
+    },
+    {
+      "id": "country-026-village-1",
+      "name": "Ternuva Village 1",
+      "type": "village",
+      "populationTier": "medium",
+      "x": 85.82,
+      "y": 15.92,
+      "z": -75.78
+    },
+    {
+      "id": "country-026-village-2",
+      "name": "Ternuva Village 2",
+      "type": "village",
+      "populationTier": "small",
+      "x": 29.05,
+      "y": 26.97,
+      "z": 91.58
+    },
+    {
+      "id": "country-026-village-3",
+      "name": "Ternuva Village 3",
+      "type": "village",
+      "populationTier": "small",
+      "x": -25.84,
+      "y": 37.8,
+      "z": 11.02
+    },
+    {
+      "id": "country-026-village-4",
+      "name": "Ternuva Village 4",
+      "type": "village",
+      "populationTier": "medium",
+      "x": 5.56,
+      "y": 33.83,
+      "z": -36.4
+    },
+    {
+      "id": "country-026-village-5",
+      "name": "Ternuva Village 5",
+      "type": "village",
+      "populationTier": "small",
+      "x": 40.05,
+      "y": 28.61,
+      "z": -22.67
+    },
+    {
+      "id": "country-026-village-6",
+      "name": "Ternuva Village 6",
+      "type": "village",
+      "populationTier": "small",
+      "x": -84.16,
+      "y": 33.48,
+      "z": 46.9
+    }
+  ],
+  "infrastructure": {
+    "rivers": [
+      {
+        "id": "country-026-river-1",
+        "name": "Ternuva River 1",
+        "widthM": 18.6,
+        "points": [
+          {
+            "x": -128.0,
+            "y": 22.92,
+            "z": 65.66
+          },
+          {
+            "x": -92.1,
+            "y": 29.73,
+            "z": 71.21
+          },
+          {
+            "x": -42.94,
+            "y": 35.39,
+            "z": 69.46
+          },
+          {
+            "x": 8.09,
+            "y": 30.91,
+            "z": 66.69
+          },
+          {
+            "x": 34.72,
+            "y": 27.67,
+            "z": 77.34
+          },
+          {
+            "x": 89.21,
+            "y": 16.02,
+            "z": 72.66
+          },
+          {
+            "x": 128.0,
+            "y": 7.83,
+            "z": 76.63
+          }
+        ]
+      },
+      {
+        "id": "country-026-river-2",
+        "name": "Ternuva River 2",
+        "widthM": 7.4,
+        "points": [
+          {
+            "x": -90.53,
+            "y": 15.65,
+            "z": -128.0
+          },
+          {
+            "x": -80.42,
+            "y": 24.49,
+            "z": -88.66
+          },
+          {
+            "x": -76.23,
+            "y": 30.55,
+            "z": -46.06
+          },
+          {
+            "x": -80.63,
+            "y": 32.46,
+            "z": 1.26
+          },
+          {
+            "x": -66.42,
+            "y": 35.24,
+            "z": 38.34
+          },
+          {
+            "x": -75.45,
+            "y": 29.55,
+            "z": 88.21
+          },
+          {
+            "x": -66.15,
+            "y": 25.34,
+            "z": 128.0
+          }
+        ]
+      }
+    ],
+    "lakes": [
+      {
+        "id": "country-026-lake-1",
+        "name": "Ternuva Lake 1",
+        "x": -55.47,
+        "y": 0.38,
+        "z": 0.25,
+        "radiusM": 19.6,
+        "type": "natural"
+      },
+      {
+        "id": "country-026-lake-2",
+        "name": "Ternuva Lake 2",
+        "x": 63.32,
+        "y": 0.38,
+        "z": 60.4,
+        "radiusM": 25.8,
+        "type": "natural"
+      }
+    ],
+    "mountains": [
+      {
+        "id": "country-026-mountain-1",
+        "name": "Ternuva Highland 1",
+        "x": 86.34,
+        "y": 18.9,
+        "z": -43.84,
+        "heightM": 55.39,
+        "radiusM": 38.7
+      }
+    ],
+    "settlements": [
+      {
+        "id": "country-026-capital",
+        "name": "Ternuva Central",
+        "type": "capital",
+        "populationTier": "large",
+        "x": 0.0,
+        "y": 36.44,
+        "z": 0.0
+      },
+      {
+        "id": "country-026-village-1",
+        "name": "Ternuva Village 1",
+        "type": "village",
+        "populationTier": "medium",
+        "x": 85.82,
+        "y": 15.92,
+        "z": -75.78
+      },
+      {
+        "id": "country-026-village-2",
+        "name": "Ternuva Village 2",
+        "type": "village",
+        "populationTier": "small",
+        "x": 29.05,
+        "y": 26.97,
+        "z": 91.58
+      },
+      {
+        "id": "country-026-village-3",
+        "name": "Ternuva Village 3",
+        "type": "village",
+        "populationTier": "small",
+        "x": -25.84,
+        "y": 37.8,
+        "z": 11.02
+      },
+      {
+        "id": "country-026-village-4",
+        "name": "Ternuva Village 4",
+        "type": "village",
+        "populationTier": "medium",
+        "x": 5.56,
+        "y": 33.83,
+        "z": -36.4
+      },
+      {
+        "id": "country-026-village-5",
+        "name": "Ternuva Village 5",
+        "type": "village",
+        "populationTier": "small",
+        "x": 40.05,
+        "y": 28.61,
+        "z": -22.67
+      },
+      {
+        "id": "country-026-village-6",
+        "name": "Ternuva Village 6",
+        "type": "village",
+        "populationTier": "small",
+        "x": -84.16,
+        "y": 33.48,
+        "z": 46.9
+      }
+    ],
+    "roads": [
+      {
+        "id": "country-026-road-1",
+        "class": "highway",
+        "points": [
+          {
+            "x": 0.0,
+            "y": 35.94,
+            "z": 0.0
+          },
+          {
+            "x": 24.02,
+            "y": 31.26,
+            "z": -20.35
+          },
+          {
+            "x": 51.01,
+            "y": 25.97,
+            "z": -42.34
+          },
+          {
+            "x": 74.05,
+            "y": 17.47,
+            "z": -62.16
+          },
+          {
+            "x": 85.82,
+            "y": 15.42,
+            "z": -75.78
+          }
+        ]
+      },
+      {
+        "id": "country-026-road-2",
+        "class": "regional",
+        "points": [
+          {
+            "x": 0.0,
+            "y": 35.94,
+            "z": 0.0
+          },
+          {
+            "x": -0.36,
+            "y": 35.59,
+            "z": 27.09
+          },
+          {
+            "x": 9.18,
+            "y": 32.22,
+            "z": 48.73
+          },
+          {
+            "x": 21.72,
+            "y": 30.91,
+            "z": 68.72
+          },
+          {
+            "x": 29.05,
+            "y": 26.47,
+            "z": 91.58
+          }
+        ]
+      },
+      {
+        "id": "country-026-road-3",
+        "class": "regional",
+        "points": [
+          {
+            "x": 0.0,
+            "y": 35.94,
+            "z": 0.0
+          },
+          {
+            "x": -16.39,
+            "y": 37.24,
+            "z": 8.22
+          },
+          {
+            "x": -19.51,
+            "y": 37.24,
+            "z": 9.13
+          },
+          {
+            "x": -27.93,
+            "y": 37.3,
+            "z": 12.97
+          },
+          {
+            "x": -25.84,
+            "y": 37.3,
+            "z": 11.02
+          }
+        ]
+      },
+      {
+        "id": "country-026-road-4",
+        "class": "regional",
+        "points": [
+          {
+            "x": 0.0,
+            "y": 35.94,
+            "z": 0.0
+          },
+          {
+            "x": -9.97,
+            "y": 36.68,
+            "z": -2.85
+          },
+          {
+            "x": -4.73,
+            "y": 34.96,
+            "z": -14.07
+          },
+          {
+            "x": -3.25,
+            "y": 34.96,
+            "z": -23.22
+          },
+          {
+            "x": 5.56,
+            "y": 33.33,
+            "z": -36.4
+          }
+        ]
+      },
+      {
+        "id": "country-026-road-5",
+        "class": "regional",
+        "points": [
+          {
+            "x": 0.0,
+            "y": 35.94,
+            "z": 0.0
+          },
+          {
+            "x": 20.5,
+            "y": 33.58,
+            "z": -11.43
+          },
+          {
+            "x": 21.93,
+            "y": 33.58,
+            "z": -12.38
+          },
+          {
+            "x": 39.32,
+            "y": 31.26,
+            "z": -22.11
+          },
+          {
+            "x": 40.05,
+            "y": 28.11,
+            "z": -22.67
+          }
+        ]
+      },
+      {
+        "id": "country-026-road-6",
+        "class": "regional",
+        "points": [
+          {
+            "x": 0.0,
+            "y": 35.94,
+            "z": 0.0
+          },
+          {
+            "x": -33.03,
+            "y": 37.3,
+            "z": 18.32
+          },
+          {
+            "x": -37.3,
+            "y": 37.3,
+            "z": 20.82
+          },
+          {
+            "x": -55.97,
+            "y": 36.79,
+            "z": 31.24
+          },
+          {
+            "x": -84.16,
+            "y": 32.98,
+            "z": 46.9
+          }
+        ]
+      }
+    ],
+    "bridges": [
+      {
+        "id": "country-026-bridge-1",
+        "name": "Ternuva Crossing 1",
+        "roadId": "country-026-road-1",
+        "riverId": "country-026-river-1",
+        "x": 8.09,
+        "y": 31.26,
+        "z": 66.69,
+        "lengthM": 30.6
+      },
+      {
+        "id": "country-026-bridge-2",
+        "name": "Ternuva Crossing 2",
+        "roadId": "country-026-road-2",
+        "riverId": "country-026-river-2",
+        "x": -80.63,
+        "y": 32.81,
+        "z": 1.26,
+        "lengthM": 19.4
+      }
+    ],
+    "railways": [
+      {
+        "id": "country-026-rail-1",
+        "class": "intercity",
+        "points": [
+          {
+            "x": 0.0,
+            "y": 35.94,
+            "z": 0.0
+          },
+          {
+            "x": -11.74,
+            "y": 36.68,
+            "z": 6.58
+          },
+          {
+            "x": -32.06,
+            "y": 37.3,
+            "z": 17.88
+          },
+          {
+            "x": -45.27,
+            "y": 36.79,
+            "z": 25.26
+          },
+          {
+            "x": -63.0,
+            "y": 35.24,
+            "z": 35.14
+          },
+          {
+            "x": -84.16,
+            "y": 32.98,
+            "z": 46.9
+          }
+        ]
+      }
+    ],
+    "airports": [
+      {
+        "id": "country-026-airport-1",
+        "name": "Ternuva International",
+        "size": "regional",
+        "x": 14.99,
+        "y": 33.78,
+        "z": -23.22,
+        "runwayLengthM": 900
+      }
+    ],
+    "ports": [],
+    "militaryBases": [],
+    "metroLines": [
+      {
+        "id": "country-026-metro-1",
+        "status": "planned",
+        "serves": [
+          "country-026-capital",
+          "country-026-village-1",
+          "country-026-village-2"
+        ]
+      }
+    ],
+    "airRoutes": [
+      {
+        "id": "country-026-air-route-1",
+        "status": "regional",
+        "airportId": "country-026-airport-1"
+      }
+    ],
+    "shipLanes": [
+      {
+        "id": "country-026-ship-lane-1",
+        "status": "regional",
+        "portId": null
+      }
+    ],
+    "submarineZones": [
+      {
+        "id": "country-026-submarine-zone-1",
+        "status": "charted",
+        "depthM": 101.7
+      }
+    ]
+  },
+  "missions": [
+    {
+      "id": "country-026-intro",
+      "title": "Welcome to Ternuva",
+      "status": "template",
+      "placeholder": true
+    },
+    {
+      "id": "country-026-route",
+      "title": "Cross-Region Route",
+      "status": "template",
+      "placeholder": true
+    }
+  ],
+  "systems": {
+    "weatherProfile": "template",
+    "peopleProfile": "people-ternuva",
+    "trafficProfile": "template"
+  },
+  "nextSteps": [
+    "replace placeholder settlements",
+    "author terrain landmarks",
+    "author missions and NPC schedules"
+  ]
+}

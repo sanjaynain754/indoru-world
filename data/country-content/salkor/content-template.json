@@ -1,0 +1,549 @@
+{
+  "schemaVersion": 1,
+  "countryId": "country-068",
+  "name": "Salkor",
+  "status": "playable",
+  "completion": "template",
+  "templatePolicy": {
+    "generated": true,
+    "requiresReview": true,
+    "placeholderContentAllowed": true
+  },
+  "terrain": {
+    "asset": "data/country-content/salkor/terrain.json",
+    "mapKey": "country/salkor",
+    "biome": "highland-basin"
+  },
+  "spawn": {
+    "x": 0.0,
+    "y": 1.2,
+    "z": 0.0,
+    "headingRad": 0.0
+  },
+  "settlements": [
+    {
+      "id": "country-068-capital",
+      "name": "Salkor Central",
+      "type": "capital",
+      "populationTier": "large",
+      "x": 0.0,
+      "y": 28.64,
+      "z": 0.0
+    },
+    {
+      "id": "country-068-village-1",
+      "name": "Salkor Village 1",
+      "type": "village",
+      "populationTier": "medium",
+      "x": 12.14,
+      "y": 35.28,
+      "z": 62.24
+    },
+    {
+      "id": "country-068-village-2",
+      "name": "Salkor Village 2",
+      "type": "village",
+      "populationTier": "small",
+      "x": 93.22,
+      "y": 33.29,
+      "z": -48.65
+    },
+    {
+      "id": "country-068-village-3",
+      "name": "Salkor Village 3",
+      "type": "village",
+      "populationTier": "small",
+      "x": 55.61,
+      "y": 38.13,
+      "z": 107.18
+    },
+    {
+      "id": "country-068-village-4",
+      "name": "Salkor Village 4",
+      "type": "village",
+      "populationTier": "medium",
+      "x": -104.6,
+      "y": -1.0,
+      "z": -68.46
+    },
+    {
+      "id": "country-068-village-5",
+      "name": "Salkor Village 5",
+      "type": "village",
+      "populationTier": "small",
+      "x": -49.49,
+      "y": 15.76,
+      "z": 15.56
+    }
+  ],
+  "infrastructure": {
+    "rivers": [
+      {
+        "id": "country-068-river-1",
+        "name": "Salkor River 1",
+        "widthM": 17.0,
+        "points": [
+          {
+            "x": -128.0,
+            "y": -1.5,
+            "z": -117.63
+          },
+          {
+            "x": -83.84,
+            "y": -1.5,
+            "z": -79.17
+          },
+          {
+            "x": -33.92,
+            "y": 10.93,
+            "z": -43.88
+          },
+          {
+            "x": 10.11,
+            "y": 32.47,
+            "z": -5.35
+          },
+          {
+            "x": 42.88,
+            "y": 39.79,
+            "z": 39.38
+          },
+          {
+            "x": 79.41,
+            "y": 43.04,
+            "z": 82.03
+          },
+          {
+            "x": 128.0,
+            "y": 36.54,
+            "z": 118.05
+          }
+        ]
+      },
+      {
+        "id": "country-068-river-2",
+        "name": "Salkor River 2",
+        "widthM": 6.1,
+        "points": [
+          {
+            "x": -125.23,
+            "y": -1.5,
+            "z": -128.0
+          },
+          {
+            "x": -80.33,
+            "y": -1.5,
+            "z": -91.25
+          },
+          {
+            "x": -68.06,
+            "y": 5.38,
+            "z": -36.56
+          },
+          {
+            "x": -12.98,
+            "y": 23.23,
+            "z": -5.4
+          },
+          {
+            "x": 6.57,
+            "y": 32.25,
+            "z": 45.28
+          },
+          {
+            "x": 42.9,
+            "y": 39.27,
+            "z": 86.75
+          },
+          {
+            "x": 79.61,
+            "y": 38.51,
+            "z": 128.0
+          }
+        ]
+      }
+    ],
+    "lakes": [
+      {
+        "id": "country-068-lake-1",
+        "name": "Salkor Lake 1",
+        "x": 57.67,
+        "y": 0.38,
+        "z": 41.13,
+        "radiusM": 11.9,
+        "type": "natural"
+      }
+    ],
+    "mountains": [
+      {
+        "id": "country-068-mountain-1",
+        "name": "Salkor Highland 1",
+        "x": 70.04,
+        "y": 41.3,
+        "z": 42.5,
+        "heightM": 41.71,
+        "radiusM": 23.0
+      }
+    ],
+    "settlements": [
+      {
+        "id": "country-068-capital",
+        "name": "Salkor Central",
+        "type": "capital",
+        "populationTier": "large",
+        "x": 0.0,
+        "y": 28.64,
+        "z": 0.0
+      },
+      {
+        "id": "country-068-village-1",
+        "name": "Salkor Village 1",
+        "type": "village",
+        "populationTier": "medium",
+        "x": 12.14,
+        "y": 35.28,
+        "z": 62.24
+      },
+      {
+        "id": "country-068-village-2",
+        "name": "Salkor Village 2",
+        "type": "village",
+        "populationTier": "small",
+        "x": 93.22,
+        "y": 33.29,
+        "z": -48.65
+      },
+      {
+        "id": "country-068-village-3",
+        "name": "Salkor Village 3",
+        "type": "village",
+        "populationTier": "small",
+        "x": 55.61,
+        "y": 38.13,
+        "z": 107.18
+      },
+      {
+        "id": "country-068-village-4",
+        "name": "Salkor Village 4",
+        "type": "village",
+        "populationTier": "medium",
+        "x": -104.6,
+        "y": -1.0,
+        "z": -68.46
+      },
+      {
+        "id": "country-068-village-5",
+        "name": "Salkor Village 5",
+        "type": "village",
+        "populationTier": "small",
+        "x": -49.49,
+        "y": 15.76,
+        "z": 15.56
+      }
+    ],
+    "roads": [
+      {
+        "id": "country-068-road-1",
+        "class": "highway",
+        "points": [
+          {
+            "x": 0.0,
+            "y": 28.14,
+            "z": 0.0
+          },
+          {
+            "x": 7.35,
+            "y": 30.43,
+            "z": 13.19
+          },
+          {
+            "x": -2.67,
+            "y": 31.84,
+            "z": 35.93
+          },
+          {
+            "x": 1.53,
+            "y": 32.25,
+            "z": 50.85
+          },
+          {
+            "x": 12.14,
+            "y": 34.78,
+            "z": 62.24
+          }
+        ]
+      },
+      {
+        "id": "country-068-road-2",
+        "class": "regional",
+        "points": [
+          {
+            "x": 0.0,
+            "y": 28.14,
+            "z": 0.0
+          },
+          {
+            "x": 19.29,
+            "y": 29.7,
+            "z": -9.95
+          },
+          {
+            "x": 35.39,
+            "y": 33.46,
+            "z": -18.16
+          },
+          {
+            "x": 65.93,
+            "y": 35.23,
+            "z": -34.3
+          },
+          {
+            "x": 93.22,
+            "y": 32.79,
+            "z": -48.65
+          }
+        ]
+      },
+      {
+        "id": "country-068-road-3",
+        "class": "regional",
+        "points": [
+          {
+            "x": 0.0,
+            "y": 28.14,
+            "z": 0.0
+          },
+          {
+            "x": 6.07,
+            "y": 31.84,
+            "z": 31.1
+          },
+          {
+            "x": 24.16,
+            "y": 37.93,
+            "z": 55.6
+          },
+          {
+            "x": 31.33,
+            "y": 36.59,
+            "z": 86.09
+          },
+          {
+            "x": 55.61,
+            "y": 37.63,
+            "z": 107.18
+          }
+        ]
+      },
+      {
+        "id": "country-068-road-4",
+        "class": "regional",
+        "points": [
+          {
+            "x": 0.0,
+            "y": 28.14,
+            "z": 0.0
+          },
+          {
+            "x": -17.29,
+            "y": 20.46,
+            "z": -21.99
+          },
+          {
+            "x": -42.5,
+            "y": 9.27,
+            "z": -39.62
+          },
+          {
+            "x": -78.62,
+            "y": -1.18,
+            "z": -51.25
+          },
+          {
+            "x": -104.6,
+            "y": -1.5,
+            "z": -68.46
+          }
+        ]
+      },
+      {
+        "id": "country-068-road-5",
+        "class": "regional",
+        "points": [
+          {
+            "x": 0.0,
+            "y": 28.14,
+            "z": 0.0
+          },
+          {
+            "x": -16.68,
+            "y": 23.23,
+            "z": 6.26
+          },
+          {
+            "x": -29.91,
+            "y": 20.45,
+            "z": 10.62
+          },
+          {
+            "x": -40.68,
+            "y": 15.26,
+            "z": 13.63
+          },
+          {
+            "x": -49.49,
+            "y": 15.26,
+            "z": 15.56
+          }
+        ]
+      }
+    ],
+    "bridges": [
+      {
+        "id": "country-068-bridge-1",
+        "name": "Salkor Crossing 1",
+        "roadId": "country-068-road-1",
+        "riverId": "country-068-river-1",
+        "x": 10.11,
+        "y": 32.82,
+        "z": -5.35,
+        "lengthM": 29.0
+      },
+      {
+        "id": "country-068-bridge-2",
+        "name": "Salkor Crossing 2",
+        "roadId": "country-068-road-2",
+        "riverId": "country-068-river-2",
+        "x": -12.98,
+        "y": 23.580000000000002,
+        "z": -5.4,
+        "lengthM": 18.1
+      }
+    ],
+    "railways": [
+      {
+        "id": "country-068-rail-1",
+        "class": "intercity",
+        "points": [
+          {
+            "x": 0.0,
+            "y": 28.14,
+            "z": 0.0
+          },
+          {
+            "x": -9.76,
+            "y": 23.23,
+            "z": 3.04
+          },
+          {
+            "x": -30.25,
+            "y": 20.45,
+            "z": 11.97
+          },
+          {
+            "x": -41.33,
+            "y": 15.26,
+            "z": 15.74
+          },
+          {
+            "x": -35.64,
+            "y": 20.45,
+            "z": 10.27
+          },
+          {
+            "x": -49.49,
+            "y": 15.26,
+            "z": 15.56
+          }
+        ]
+      }
+    ],
+    "airports": [
+      {
+        "id": "country-068-airport-1",
+        "name": "Salkor International",
+        "size": "large",
+        "x": -20.9,
+        "y": 23.43,
+        "z": -0.49,
+        "runwayLengthM": 900
+      }
+    ],
+    "ports": [
+      {
+        "id": "country-068-port-1",
+        "name": "Salkor Maritime Port",
+        "x": 112.74,
+        "y": 0.67,
+        "z": -84.65,
+        "capacity": "large"
+      }
+    ],
+    "militaryBases": [
+      {
+        "id": "country-068-base-1",
+        "name": "Salkor Defense Station",
+        "type": "air-ground",
+        "x": -3.75,
+        "y": 32.55,
+        "z": 41.56
+      }
+    ],
+    "metroLines": [
+      {
+        "id": "country-068-metro-1",
+        "status": "planned",
+        "serves": [
+          "country-068-capital",
+          "country-068-village-1",
+          "country-068-village-2"
+        ]
+      }
+    ],
+    "airRoutes": [
+      {
+        "id": "country-068-air-route-1",
+        "status": "regional",
+        "airportId": "country-068-airport-1"
+      }
+    ],
+    "shipLanes": [
+      {
+        "id": "country-068-ship-lane-1",
+        "status": "regional",
+        "portId": "country-068-port-1"
+      }
+    ],
+    "submarineZones": [
+      {
+        "id": "country-068-submarine-zone-1",
+        "status": "charted",
+        "depthM": 177.8
+      }
+    ]
+  },
+  "missions": [
+    {
+      "id": "country-068-intro",
+      "title": "Welcome to Salkor",
+      "status": "template",
+      "placeholder": true
+    },
+    {
+      "id": "country-068-route",
+      "title": "Cross-Region Route",
+      "status": "template",
+      "placeholder": true
+    }
+  ],
+  "systems": {
+    "weatherProfile": "template",
+    "peopleProfile": "people-salkor",
+    "trafficProfile": "template"
+  },
+  "nextSteps": [
+    "replace placeholder settlements",
+    "author terrain landmarks",
+    "author missions and NPC schedules"
+  ]
+}

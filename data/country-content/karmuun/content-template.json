@@ -1,0 +1,558 @@
+{
+  "schemaVersion": 1,
+  "countryId": "country-056",
+  "name": "Karmuun",
+  "status": "playable",
+  "completion": "template",
+  "templatePolicy": {
+    "generated": true,
+    "requiresReview": true,
+    "placeholderContentAllowed": true
+  },
+  "terrain": {
+    "asset": "data/country-content/karmuun/terrain.json",
+    "mapKey": "country/karmuun",
+    "biome": "highland-basin"
+  },
+  "spawn": {
+    "x": 0.0,
+    "y": 1.2,
+    "z": 0.0,
+    "headingRad": 0.0
+  },
+  "settlements": [
+    {
+      "id": "country-056-capital",
+      "name": "Karmuun Central",
+      "type": "capital",
+      "populationTier": "large",
+      "x": 0.0,
+      "y": 6.2,
+      "z": 0.0
+    },
+    {
+      "id": "country-056-village-1",
+      "name": "Karmuun Village 1",
+      "type": "village",
+      "populationTier": "medium",
+      "x": -69.74,
+      "y": 22.27,
+      "z": -21.1
+    },
+    {
+      "id": "country-056-village-2",
+      "name": "Karmuun Village 2",
+      "type": "village",
+      "populationTier": "small",
+      "x": -55.45,
+      "y": 10.27,
+      "z": 46.77
+    },
+    {
+      "id": "country-056-village-3",
+      "name": "Karmuun Village 3",
+      "type": "village",
+      "populationTier": "small",
+      "x": 84.88,
+      "y": -1.0,
+      "z": -80.08
+    },
+    {
+      "id": "country-056-village-4",
+      "name": "Karmuun Village 4",
+      "type": "village",
+      "populationTier": "medium",
+      "x": 104.17,
+      "y": -1.0,
+      "z": 33.8
+    },
+    {
+      "id": "country-056-village-5",
+      "name": "Karmuun Village 5",
+      "type": "village",
+      "populationTier": "small",
+      "x": 23.48,
+      "y": -1.0,
+      "z": 27.55
+    }
+  ],
+  "infrastructure": {
+    "rivers": [
+      {
+        "id": "country-056-river-1",
+        "name": "Karmuun River 1",
+        "widthM": 13.6,
+        "points": [
+          {
+            "x": -128.0,
+            "y": 25.45,
+            "z": 54.59
+          },
+          {
+            "x": -92.3,
+            "y": 21.38,
+            "z": 49.47
+          },
+          {
+            "x": -31.48,
+            "y": 8.62,
+            "z": 30.53
+          },
+          {
+            "x": -0.29,
+            "y": -0.2,
+            "z": 27.89
+          },
+          {
+            "x": 51.89,
+            "y": -1.5,
+            "z": 13.7
+          },
+          {
+            "x": 77.83,
+            "y": -1.5,
+            "z": 13.95
+          },
+          {
+            "x": 128.0,
+            "y": -0.46,
+            "z": 0.87
+          }
+        ]
+      },
+      {
+        "id": "country-056-river-2",
+        "name": "Karmuun River 2",
+        "widthM": 19.8,
+        "points": [
+          {
+            "x": -121.96,
+            "y": 28.95,
+            "z": -128.0
+          },
+          {
+            "x": -116.06,
+            "y": 32.71,
+            "z": -88.96
+          },
+          {
+            "x": -133.33,
+            "y": 36.53,
+            "z": -37.17
+          },
+          {
+            "x": -125.12,
+            "y": 32.61,
+            "z": 0.61
+          },
+          {
+            "x": -117.24,
+            "y": 25.95,
+            "z": 38.56
+          },
+          {
+            "x": -113.45,
+            "y": 18.13,
+            "z": 78.76
+          },
+          {
+            "x": -126.08,
+            "y": 9.32,
+            "z": 128.0
+          }
+        ]
+      }
+    ],
+    "lakes": [
+      {
+        "id": "country-056-lake-1",
+        "name": "Karmuun Lake 1",
+        "x": 21.05,
+        "y": 0.38,
+        "z": -42.57,
+        "radiusM": 12.4,
+        "type": "reservoir"
+      },
+      {
+        "id": "country-056-lake-2",
+        "name": "Karmuun Lake 2",
+        "x": 56.98,
+        "y": 0.38,
+        "z": 75.9,
+        "radiusM": 12.8,
+        "type": "natural"
+      }
+    ],
+    "mountains": [
+      {
+        "id": "country-056-mountain-1",
+        "name": "Karmuun Highland 1",
+        "x": 31.6,
+        "y": 0.37,
+        "z": 23.03,
+        "heightM": 54.66,
+        "radiusM": 38.6
+      },
+      {
+        "id": "country-056-mountain-2",
+        "name": "Karmuun Highland 2",
+        "x": 67.12,
+        "y": 0.37,
+        "z": 48.52,
+        "heightM": 52.82,
+        "radiusM": 37.6
+      }
+    ],
+    "settlements": [
+      {
+        "id": "country-056-capital",
+        "name": "Karmuun Central",
+        "type": "capital",
+        "populationTier": "large",
+        "x": 0.0,
+        "y": 6.2,
+        "z": 0.0
+      },
+      {
+        "id": "country-056-village-1",
+        "name": "Karmuun Village 1",
+        "type": "village",
+        "populationTier": "medium",
+        "x": -69.74,
+        "y": 22.27,
+        "z": -21.1
+      },
+      {
+        "id": "country-056-village-2",
+        "name": "Karmuun Village 2",
+        "type": "village",
+        "populationTier": "small",
+        "x": -55.45,
+        "y": 10.27,
+        "z": 46.77
+      },
+      {
+        "id": "country-056-village-3",
+        "name": "Karmuun Village 3",
+        "type": "village",
+        "populationTier": "small",
+        "x": 84.88,
+        "y": -1.0,
+        "z": -80.08
+      },
+      {
+        "id": "country-056-village-4",
+        "name": "Karmuun Village 4",
+        "type": "village",
+        "populationTier": "medium",
+        "x": 104.17,
+        "y": -1.0,
+        "z": 33.8
+      },
+      {
+        "id": "country-056-village-5",
+        "name": "Karmuun Village 5",
+        "type": "village",
+        "populationTier": "small",
+        "x": 23.48,
+        "y": -1.0,
+        "z": 27.55
+      }
+    ],
+    "roads": [
+      {
+        "id": "country-056-road-1",
+        "class": "highway",
+        "points": [
+          {
+            "x": 0.0,
+            "y": 5.7,
+            "z": 0.0
+          },
+          {
+            "x": -29.05,
+            "y": 13.79,
+            "z": 1.11
+          },
+          {
+            "x": -32.97,
+            "y": 15.04,
+            "z": -11.6
+          },
+          {
+            "x": -53.71,
+            "y": 18.45,
+            "z": -15.05
+          },
+          {
+            "x": -69.74,
+            "y": 21.77,
+            "z": -21.1
+          }
+        ]
+      },
+      {
+        "id": "country-056-road-2",
+        "class": "regional",
+        "points": [
+          {
+            "x": 0.0,
+            "y": 5.7,
+            "z": 0.0
+          },
+          {
+            "x": -15.08,
+            "y": 7.23,
+            "z": 12.36
+          },
+          {
+            "x": -16.1,
+            "y": 7.23,
+            "z": 16.99
+          },
+          {
+            "x": -53.22,
+            "y": 9.77,
+            "z": 41.48
+          },
+          {
+            "x": -55.45,
+            "y": 9.77,
+            "z": 46.77
+          }
+        ]
+      },
+      {
+        "id": "country-056-road-3",
+        "class": "regional",
+        "points": [
+          {
+            "x": 0.0,
+            "y": 5.7,
+            "z": 0.0
+          },
+          {
+            "x": 25.2,
+            "y": 0.78,
+            "z": -22.21
+          },
+          {
+            "x": 42.12,
+            "y": -0.18,
+            "z": -39.86
+          },
+          {
+            "x": 53.42,
+            "y": 0.96,
+            "z": -54.43
+          },
+          {
+            "x": 84.88,
+            "y": -1.5,
+            "z": -80.08
+          }
+        ]
+      },
+      {
+        "id": "country-056-road-4",
+        "class": "regional",
+        "points": [
+          {
+            "x": 0.0,
+            "y": 5.7,
+            "z": 0.0
+          },
+          {
+            "x": 25.15,
+            "y": -1.5,
+            "z": 8.94
+          },
+          {
+            "x": 40.86,
+            "y": -1.5,
+            "z": 23.07
+          },
+          {
+            "x": 74.99,
+            "y": -1.5,
+            "z": 27.08
+          },
+          {
+            "x": 104.17,
+            "y": -1.5,
+            "z": 33.8
+          }
+        ]
+      },
+      {
+        "id": "country-056-road-5",
+        "class": "regional",
+        "points": [
+          {
+            "x": 0.0,
+            "y": 5.7,
+            "z": 0.0
+          },
+          {
+            "x": 12.97,
+            "y": 1.83,
+            "z": 2.98
+          },
+          {
+            "x": 12.9,
+            "y": -0.87,
+            "z": 13.14
+          },
+          {
+            "x": 11.38,
+            "y": -1.5,
+            "z": 24.09
+          },
+          {
+            "x": 23.48,
+            "y": -1.5,
+            "z": 27.55
+          }
+        ]
+      }
+    ],
+    "bridges": [
+      {
+        "id": "country-056-bridge-1",
+        "name": "Karmuun Crossing 1",
+        "roadId": "country-056-road-1",
+        "riverId": "country-056-river-1",
+        "x": -0.29,
+        "y": 0.14999999999999997,
+        "z": 27.89,
+        "lengthM": 25.6
+      },
+      {
+        "id": "country-056-bridge-2",
+        "name": "Karmuun Crossing 2",
+        "roadId": "country-056-road-2",
+        "riverId": "country-056-river-2",
+        "x": -125.12,
+        "y": 32.96,
+        "z": 0.61,
+        "lengthM": 31.8
+      }
+    ],
+    "railways": [
+      {
+        "id": "country-056-rail-1",
+        "class": "intercity",
+        "points": [
+          {
+            "x": 0.0,
+            "y": 5.7,
+            "z": 0.0
+          },
+          {
+            "x": 15.25,
+            "y": 1.83,
+            "z": -0.3
+          },
+          {
+            "x": 21.01,
+            "y": 1.83,
+            "z": 4.63
+          },
+          {
+            "x": 5.08,
+            "y": 2.94,
+            "z": 21.49
+          },
+          {
+            "x": 28.08,
+            "y": -1.5,
+            "z": 16.92
+          },
+          {
+            "x": 23.48,
+            "y": -1.5,
+            "z": 27.55
+          }
+        ]
+      }
+    ],
+    "airports": [
+      {
+        "id": "country-056-airport-1",
+        "name": "Karmuun International",
+        "size": "regional",
+        "x": -17.14,
+        "y": 11.67,
+        "z": -15.28,
+        "runwayLengthM": 1800
+      }
+    ],
+    "ports": [],
+    "militaryBases": [
+      {
+        "id": "country-056-base-1",
+        "name": "Karmuun Defense Station",
+        "type": "air-ground",
+        "x": -48.07,
+        "y": 18.35,
+        "z": -77.23
+      }
+    ],
+    "metroLines": [
+      {
+        "id": "country-056-metro-1",
+        "status": "planned",
+        "serves": [
+          "country-056-capital",
+          "country-056-village-1",
+          "country-056-village-2"
+        ]
+      }
+    ],
+    "airRoutes": [
+      {
+        "id": "country-056-air-route-1",
+        "status": "regional",
+        "airportId": "country-056-airport-1"
+      }
+    ],
+    "shipLanes": [
+      {
+        "id": "country-056-ship-lane-1",
+        "status": "regional",
+        "portId": null
+      }
+    ],
+    "submarineZones": [
+      {
+        "id": "country-056-submarine-zone-1",
+        "status": "charted",
+        "depthM": 131.5
+      }
+    ]
+  },
+  "missions": [
+    {
+      "id": "country-056-intro",
+      "title": "Welcome to Karmuun",
+      "status": "template",
+      "placeholder": true
+    },
+    {
+      "id": "country-056-route",
+      "title": "Cross-Region Route",
+      "status": "template",
+      "placeholder": true
+    }
+  ],
+  "systems": {
+    "weatherProfile": "template",
+    "peopleProfile": "people-karmuun",
+    "trafficProfile": "template"
+  },
+  "nextSteps": [
+    "replace placeholder settlements",
+    "author terrain landmarks",
+    "author missions and NPC schedules"
+  ]
+}

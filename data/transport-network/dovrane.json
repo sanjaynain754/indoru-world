@@ -1,0 +1,445 @@
+{
+  "schemaVersion": 1,
+  "countryId": "country-033",
+  "mapKey": "country/dovrane",
+  "seed": 12223706127352838592,
+  "sourceTerrain": "data/country-content/dovrane/terrain.json",
+  "roadNetwork": {
+    "segments": [
+      {
+        "roadId": "country-033-road-1",
+        "class": "arterial",
+        "lanes": 4,
+        "speedLimitKph": 90,
+        "access": {
+          "vehicles": true,
+          "pedestrians": true,
+          "emergency": true
+        },
+        "points": [
+          {
+            "x": 0.0,
+            "y": 33.63,
+            "z": 0.0
+          },
+          {
+            "x": 13.29,
+            "y": 32.2,
+            "z": -22.91
+          },
+          {
+            "x": 19.09,
+            "y": 26.87,
+            "z": -41.7
+          },
+          {
+            "x": 33.02,
+            "y": 24.04,
+            "z": -64.96
+          },
+          {
+            "x": 53.15,
+            "y": 17.37,
+            "z": -91.63
+          }
+        ],
+        "connectedSettlementIds": [
+          "country-033-capital",
+          "country-033-village-1"
+        ]
+      },
+      {
+        "roadId": "country-033-road-2",
+        "class": "collector",
+        "lanes": 2,
+        "speedLimitKph": 55,
+        "access": {
+          "vehicles": true,
+          "pedestrians": true,
+          "emergency": true
+        },
+        "points": [
+          {
+            "x": 0.0,
+            "y": 33.63,
+            "z": 0.0
+          },
+          {
+            "x": 6.69,
+            "y": 31.44,
+            "z": -8.96
+          },
+          {
+            "x": 22.7,
+            "y": 32.2,
+            "z": -23.05
+          },
+          {
+            "x": 44.76,
+            "y": 26.44,
+            "z": -40.46
+          },
+          {
+            "x": 59.1,
+            "y": 24.89,
+            "z": -53.63
+          }
+        ],
+        "connectedSettlementIds": [
+          "country-033-capital",
+          "country-033-village-2"
+        ]
+      },
+      {
+        "roadId": "country-033-road-3",
+        "class": "collector",
+        "lanes": 2,
+        "speedLimitKph": 55,
+        "access": {
+          "vehicles": true,
+          "pedestrians": true,
+          "emergency": true
+        },
+        "points": [
+          {
+            "x": 0.0,
+            "y": 33.63,
+            "z": 0.0
+          },
+          {
+            "x": 0.2,
+            "y": 31.44,
+            "z": -14.07
+          },
+          {
+            "x": 17.73,
+            "y": 29.71,
+            "z": -37.67
+          },
+          {
+            "x": 45.1,
+            "y": 23.54,
+            "z": -66.69
+          },
+          {
+            "x": 44.57,
+            "y": 20.42,
+            "z": -80.36
+          }
+        ],
+        "connectedSettlementIds": [
+          "country-033-capital",
+          "country-033-village-3"
+        ]
+      },
+      {
+        "roadId": "country-033-road-4",
+        "class": "collector",
+        "lanes": 2,
+        "speedLimitKph": 55,
+        "access": {
+          "vehicles": true,
+          "pedestrians": true,
+          "emergency": true
+        },
+        "points": [
+          {
+            "x": 0.0,
+            "y": 33.63,
+            "z": 0.0
+          },
+          {
+            "x": -13.16,
+            "y": 32.2,
+            "z": -1.4
+          },
+          {
+            "x": -27.28,
+            "y": 30.02,
+            "z": -2.26
+          },
+          {
+            "x": -30.87,
+            "y": 27.81,
+            "z": -8.92
+          },
+          {
+            "x": -47.7,
+            "y": 25.44,
+            "z": -8.3
+          }
+        ],
+        "connectedSettlementIds": [
+          "country-033-capital",
+          "country-033-village-4"
+        ]
+      },
+      {
+        "roadId": "country-033-road-5",
+        "class": "collector",
+        "lanes": 2,
+        "speedLimitKph": 55,
+        "access": {
+          "vehicles": true,
+          "pedestrians": true,
+          "emergency": true
+        },
+        "points": [
+          {
+            "x": 0.0,
+            "y": 33.63,
+            "z": 0.0
+          },
+          {
+            "x": 29.27,
+            "y": 34.44,
+            "z": 20.85
+          },
+          {
+            "x": 41.31,
+            "y": 33.72,
+            "z": 51.19
+          },
+          {
+            "x": 61.48,
+            "y": 33.1,
+            "z": 77.05
+          },
+          {
+            "x": 93.05,
+            "y": 27.77,
+            "z": 96.64
+          }
+        ],
+        "connectedSettlementIds": [
+          "country-033-capital",
+          "country-033-village-5"
+        ]
+      },
+      {
+        "roadId": "country-033-road-6",
+        "class": "collector",
+        "lanes": 2,
+        "speedLimitKph": 55,
+        "access": {
+          "vehicles": true,
+          "pedestrians": true,
+          "emergency": true
+        },
+        "points": [
+          {
+            "x": 0.0,
+            "y": 33.63,
+            "z": 0.0
+          },
+          {
+            "x": -30.49,
+            "y": 27.81,
+            "z": -11.65
+          },
+          {
+            "x": -47.38,
+            "y": 23.59,
+            "z": -30.8
+          },
+          {
+            "x": -67.91,
+            "y": 19.69,
+            "z": -47.93
+          },
+          {
+            "x": -89.23,
+            "y": 11.38,
+            "z": -64.63
+          }
+        ],
+        "connectedSettlementIds": [
+          "country-033-capital",
+          "country-033-village-6"
+        ]
+      }
+    ],
+    "bridges": [
+      {
+        "bridgeId": "country-033-bridge-1",
+        "roadId": "country-033-road-1",
+        "riverId": "country-033-river-1",
+        "lengthM": 25.3,
+        "loadClass": "heavy-vehicle",
+        "supportsTrain": false,
+        "x": 1.5,
+        "y": 17.37,
+        "z": -110.7
+      }
+    ]
+  },
+  "railNetwork": {
+    "lines": [
+      {
+        "lineId": "country-033-rail-1",
+        "mode": "intercity-rail",
+        "electrification": "future-ready",
+        "trackGaugeMm": 1435,
+        "maxSpeedKph": 180,
+        "points": [
+          {
+            "x": 0.0,
+            "y": 33.63,
+            "z": 0.0
+          },
+          {
+            "x": -7.59,
+            "y": 31.44,
+            "z": -18.57
+          },
+          {
+            "x": -30.43,
+            "y": 25.6,
+            "z": -28.75
+          },
+          {
+            "x": -47.86,
+            "y": 21.78,
+            "z": -41.9
+          },
+          {
+            "x": -61.02,
+            "y": 17.74,
+            "z": -57.4
+          },
+          {
+            "x": -89.23,
+            "y": 11.38,
+            "z": -64.63
+          }
+        ]
+      }
+    ],
+    "stations": [
+      {
+        "stationId": "country-033-country-033-capital-station",
+        "settlementId": "country-033-capital",
+        "name": "Dovrane Central Central Station",
+        "service": "intercity",
+        "x": 0.0,
+        "y": 34.13,
+        "z": 0.0
+      },
+      {
+        "stationId": "country-033-country-033-village-1-station",
+        "settlementId": "country-033-village-1",
+        "name": "Dovrane Village 1 Central Station",
+        "service": "intercity",
+        "x": 53.15,
+        "y": 17.87,
+        "z": -91.63
+      },
+      {
+        "stationId": "country-033-country-033-village-2-station",
+        "settlementId": "country-033-village-2",
+        "name": "Dovrane Village 2 Central Station",
+        "service": "intercity",
+        "x": 59.1,
+        "y": 25.39,
+        "z": -53.63
+      },
+      {
+        "stationId": "country-033-country-033-village-3-station",
+        "settlementId": "country-033-village-3",
+        "name": "Dovrane Village 3 Central Station",
+        "service": "intercity",
+        "x": 44.57,
+        "y": 20.92,
+        "z": -80.36
+      },
+      {
+        "stationId": "country-033-country-033-village-4-station",
+        "settlementId": "country-033-village-4",
+        "name": "Dovrane Village 4 Central Station",
+        "service": "intercity",
+        "x": -47.7,
+        "y": 25.94,
+        "z": -8.3
+      },
+      {
+        "stationId": "country-033-country-033-village-5-station",
+        "settlementId": "country-033-village-5",
+        "name": "Dovrane Village 5 Central Station",
+        "service": "intercity",
+        "x": 93.05,
+        "y": 28.27,
+        "z": 96.64
+      },
+      {
+        "stationId": "country-033-country-033-village-6-station",
+        "settlementId": "country-033-village-6",
+        "name": "Dovrane Village 6 Central Station",
+        "service": "intercity",
+        "x": -89.23,
+        "y": 11.88,
+        "z": -64.63
+      }
+    ],
+    "trainService": {
+      "enabled": true,
+      "rollingStockProfile": "regional-electric-template"
+    }
+  },
+  "riverNetwork": {
+    "rivers": [
+      {
+        "riverId": "country-033-river-1",
+        "navigable": true,
+        "widthM": 13.3,
+        "transportMode": "river-freight",
+        "points": [
+          {
+            "x": -128.0,
+            "y": -1.5,
+            "z": -124.36
+          },
+          {
+            "x": -90.74,
+            "y": 2.19,
+            "z": -116.55
+          },
+          {
+            "x": -34.64,
+            "y": 15.12,
+            "z": -119.12
+          },
+          {
+            "x": 1.5,
+            "y": 17.02,
+            "z": -110.7
+          },
+          {
+            "x": 39.33,
+            "y": 18.26,
+            "z": -103.21
+          },
+          {
+            "x": 83.11,
+            "y": 14.39,
+            "z": -98.99
+          },
+          {
+            "x": 128.0,
+            "y": 5.29,
+            "z": -95.39
+          }
+        ]
+      }
+    ],
+    "riverBridges": [
+      "country-033-bridge-1"
+    ]
+  },
+  "simulationHooks": {
+    "cityInfrastructure": true,
+    "residentialAccess": true,
+    "trafficSimulation": true,
+    "massTransitSimulation": true,
+    "waterTrafficSimulation": true
+  }
+}
