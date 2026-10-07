@@ -44,6 +44,9 @@ def map_slices(country: dict[str, Any], terrain: dict[str, Any]) -> list[dict[st
 def build_country(country: dict[str, Any], terrain: dict[str, Any]) -> dict[str, Any]:
     identity = country.get("identity", "")
     weather = dict(WEATHER_BY_IDENTITY.get(identity, DEFAULT_WEATHER))
+    ordinal = int(country["countryId"].split("-")[-1]) - 21
+    latitude = 34.0 + (ordinal % 6) * 5.4 + (ordinal // 6) * 0.8
+    longitude = 24.0 + (ordinal // 6) * 25.0 + (ordinal % 6) * 2.2
     weather["countryId"] = country["countryId"]
     weather["simulationEffects"] = ["traffic", "visibility", "road-grip", "rail-delay", "river-level", "npc-schedules", "emergency-calls", "power-demand", "asset-wear"]
     weather["dailyCycle"] = {"forecastHours": 24, "updateMinutes": 15, "seededBy": ["countryId", "terrainSeed", "simulationDay"]}
@@ -52,6 +55,7 @@ def build_country(country: dict[str, Any], terrain: dict[str, Any]) -> dict[str,
         "name": country["name"],
         "regionId": "region-khoruun-reach",
         "identity": identity,
+        "globePlacement": {"latitudeDegrees": round(latitude, 4), "longitudeDegrees": round(longitude, 4), "coordinateSystem": "WGS84-like fictional globe", "pinAnchor": "capital", "datelineSafe": True},
         "mapScale": {"unit": "km", "worldExtent": [0, 100, 0, 100], "cellSize": 2.0},
         "mapSlices": map_slices(country, terrain),
         "visualLayers": ["country-border", "capital-marker", "city-marker", "village-marker", "road-network", "rail-network", "river-and-waterway", "bridge-and-tunnel", "mountains", "weather-overlay", "compass", "scale-bar"],
@@ -76,7 +80,7 @@ def main() -> int:
     for country in countries:
         terrain = read(args.content / country["name"].lower() / "terrain.json")
         records.append(build_country(country, terrain))
-    output = {"schemaVersion": 1, "worldId": world["worldId"], "regionId": "region-khoruun-reach", "regionName": "Khoruun Reach", "buildOrder": 2, "contentState": "baseline-design", "platformTarget": ["desktop-gaming-pc", "playstation-5"], "canonicalImagePolicy": "concept images are references only until approved placement assets exist", "mapCount": len(records) * 4, "countryCount": len(records), "countries": records}
+    output = {"schemaVersion": 2, "worldId": world["worldId"], "regionId": "region-khoruun-reach", "regionName": "Khoruun Reach", "buildOrder": 2, "contentState": "baseline-design", "platformTarget": ["desktop-gaming-pc", "playstation-5"], "canonicalImagePolicy": "concept images are references only until approved placement assets exist", "globe": {"projection": "equirectangular-authored-to-unit-sphere", "pinAnimation": "shortest-longitude-smoothstep", "rotationDurationSeconds": 0.8, "climateBands": [{"id": "polar-highland", "latitudeMin": 64.0, "latitudeMax": 90.0, "visual": "snow-and-ice", "hazards": ["blizzard", "avalanche"]}, {"id": "temperate-plateau", "latitudeMin": 48.0, "latitudeMax": 64.0, "visual": "cold-plateau-and-forest", "hazards": ["black-ice", "rockfall"]}, {"id": "arid-canyon", "latitudeMin": 34.0, "latitudeMax": 48.0, "visual": "canyon-and-salt-flat", "hazards": ["dust-storm", "flash-flood", "heatwave"]}]}, "mapCount": len(records) * 4, "countryCount": len(records), "countries": records}
     write(args.output, output)
     print(f"Generated Khoruun baseline: countries={len(records)} maps={len(records) * 4} weatherProfiles={len(records)}")
     return 0

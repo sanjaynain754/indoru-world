@@ -51,6 +51,12 @@ Weather affects:
 - Emergency calls and rescue dispatch
 - Power demand and asset wear
 
+## Spherical world and pin behavior
+
+Khoruun is authored on a globe coordinate contract rather than a permanently flat map. Every country and settlement pin carries latitude and longitude, which the native runtime converts to a unit-sphere position. When a user selects any pin, the globe controller must use the shortest wrapped longitude path, so a pin near +179° to a pin near -179° rotates across the dateline instead of spinning almost a full revolution. The default transition uses a smoothstep curve and an 0.8-second duration, with the duration adjustable by the native presentation layer.
+
+The region is divided into three visual climate bands. The northern highlands are snow and ice with blizzard and avalanche risk. The middle belt combines cold plateau, forest and rockfall exposure. The southern belt contains arid canyons, salt flats and flash-flood or heatwave risk. These bands are presentation and simulation hints; final weather remains driven by the deterministic native weather sampler and local terrain/elevation data.
+
 ## Production acceptance gates
 
 A Khoruun country is not complete until:
@@ -79,3 +85,5 @@ weatherProfiles=18
 ```
 
 The output is `data/region-baselines/khoruun-reach.json`. It is a production planning contract; final terrain meshes, textures, lighting, VFX and authored city assets remain native-runtime work.
+
+The native implementation is in `engine/cpp/include/indoru/globe_projection.hpp` and `engine/cpp/src/globe_projection.cpp`. Its regression test covers pole conversion, coordinate round-trip, dateline wrapping and pin animation completion.

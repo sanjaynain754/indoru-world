@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "worldId": "indoru-world-001",
   "regionId": "region-khoruun-reach",
   "regionName": "Khoruun Reach",
@@ -10,6 +10,44 @@
     "playstation-5"
   ],
   "canonicalImagePolicy": "concept images are references only until approved placement assets exist",
+  "globe": {
+    "projection": "equirectangular-authored-to-unit-sphere",
+    "pinAnimation": "shortest-longitude-smoothstep",
+    "rotationDurationSeconds": 0.8,
+    "climateBands": [
+      {
+        "id": "polar-highland",
+        "latitudeMin": 64.0,
+        "latitudeMax": 90.0,
+        "visual": "snow-and-ice",
+        "hazards": [
+          "blizzard",
+          "avalanche"
+        ]
+      },
+      {
+        "id": "temperate-plateau",
+        "latitudeMin": 48.0,
+        "latitudeMax": 64.0,
+        "visual": "cold-plateau-and-forest",
+        "hazards": [
+          "black-ice",
+          "rockfall"
+        ]
+      },
+      {
+        "id": "arid-canyon",
+        "latitudeMin": 34.0,
+        "latitudeMax": 48.0,
+        "visual": "canyon-and-salt-flat",
+        "hazards": [
+          "dust-storm",
+          "flash-flood",
+          "heatwave"
+        ]
+      }
+    ]
+  },
   "mapCount": 72,
   "countryCount": 18,
   "countries": [
@@ -18,6 +56,13 @@
       "name": "Khorava",
       "regionId": "region-khoruun-reach",
       "identity": "Red canyon federation",
+      "globePlacement": {
+        "latitudeDegrees": 34.0,
+        "longitudeDegrees": 24.0,
+        "coordinateSystem": "WGS84-like fictional globe",
+        "pinAnchor": "capital",
+        "datelineSafe": true
+      },
       "mapScale": {
         "unit": "km",
         "worldExtent": [
@@ -210,6 +255,13 @@
       "name": "Drensik",
       "regionId": "region-khoruun-reach",
       "identity": "Salt flats and solar energy",
+      "globePlacement": {
+        "latitudeDegrees": 39.4,
+        "longitudeDegrees": 26.2,
+        "coordinateSystem": "WGS84-like fictional globe",
+        "pinAnchor": "capital",
+        "datelineSafe": true
+      },
       "mapScale": {
         "unit": "km",
         "worldExtent": [
@@ -402,6 +454,13 @@
       "name": "Uldren",
       "regionId": "region-khoruun-reach",
       "identity": "Cold border plateau",
+      "globePlacement": {
+        "latitudeDegrees": 44.8,
+        "longitudeDegrees": 28.4,
+        "coordinateSystem": "WGS84-like fictional globe",
+        "pinAnchor": "capital",
+        "datelineSafe": true
+      },
       "mapScale": {
         "unit": "km",
         "worldExtent": [
@@ -594,6 +653,13 @@
       "name": "Marqeshan",
       "regionId": "region-khoruun-reach",
       "identity": "Canyon railways and mining towns",
+      "globePlacement": {
+        "latitudeDegrees": 50.2,
+        "longitudeDegrees": 30.6,
+        "coordinateSystem": "WGS84-like fictional globe",
+        "pinAnchor": "capital",
+        "datelineSafe": true
+      },
       "mapScale": {
         "unit": "km",
         "worldExtent": [
@@ -786,6 +852,13 @@
       "name": "Vaskora",
       "regionId": "region-khoruun-reach",
       "identity": "Storm coast and shipyards",
+      "globePlacement": {
+        "latitudeDegrees": 55.6,
+        "longitudeDegrees": 32.8,
+        "coordinateSystem": "WGS84-like fictional globe",
+        "pinAnchor": "capital",
+        "datelineSafe": true
+      },
       "mapScale": {
         "unit": "km",
         "worldExtent": [
@@ -978,6 +1051,13 @@
       "name": "Ternuva",
       "regionId": "region-khoruun-reach",
       "identity": "Wide steppe and mobile settlements",
+      "globePlacement": {
+        "latitudeDegrees": 61.0,
+        "longitudeDegrees": 35.0,
+        "coordinateSystem": "WGS84-like fictional globe",
+        "pinAnchor": "capital",
+        "datelineSafe": true
+      },
       "mapScale": {
         "unit": "km",
         "worldExtent": [
@@ -1170,6 +1250,13 @@
       "name": "Oqvar",
       "regionId": "region-khoruun-reach",
       "identity": "High pass republic",
+      "globePlacement": {
+        "latitudeDegrees": 34.8,
+        "longitudeDegrees": 49.0,
+        "coordinateSystem": "WGS84-like fictional globe",
+        "pinAnchor": "capital",
+        "datelineSafe": true
+      },
       "mapScale": {
         "unit": "km",
         "worldExtent": [
@@ -1362,6 +1449,13 @@
       "name": "Zarekh",
       "regionId": "region-khoruun-reach",
       "identity": "Ancient ruins and dry basin",
+      "globePlacement": {
+        "latitudeDegrees": 40.2,
+        "longitudeDegrees": 51.2,
+        "coordinateSystem": "WGS84-like fictional globe",
+        "pinAnchor": "capital",
+        "datelineSafe": true
+      },
       "mapScale": {
         "unit": "km",
         "worldExtent": [
@@ -1554,6 +1648,13 @@
       "name": "Bravosk",
       "regionId": "region-khoruun-reach",
       "identity": "Heavy industry and river dams",
+      "globePlacement": {
+        "latitudeDegrees": 45.6,
+        "longitudeDegrees": 53.4,
+        "coordinateSystem": "WGS84-like fictional globe",
+        "pinAnchor": "capital",
+        "datelineSafe": true
+      },
       "mapScale": {
         "unit": "km",
         "worldExtent": [
@@ -1746,6 +1847,13 @@
       "name": "Kelmora",
       "regionId": "region-khoruun-reach",
       "identity": "Cedar-like forests and lakes",
+      "globePlacement": {
+        "latitudeDegrees": 51.0,
+        "longitudeDegrees": 55.6,
+        "coordinateSystem": "WGS84-like fictional globe",
+        "pinAnchor": "capital",
+        "datelineSafe": true
+      },
       "mapScale": {
         "unit": "km",
         "worldExtent": [
@@ -1938,6 +2046,13 @@
       "name": "Arvunik",
       "regionId": "region-khoruun-reach",
       "identity": "Independent frontier province turned nation",
+      "globePlacement": {
+        "latitudeDegrees": 56.4,
+        "longitudeDegrees": 57.8,
+        "coordinateSystem": "WGS84-like fictional globe",
+        "pinAnchor": "capital",
+        "datelineSafe": true
+      },
       "mapScale": {
         "unit": "km",
         "worldExtent": [
@@ -2130,6 +2245,13 @@
       "name": "Norsava",
       "regionId": "region-khoruun-reach",
       "identity": "Northern fjord coast",
+      "globePlacement": {
+        "latitudeDegrees": 61.8,
+        "longitudeDegrees": 60.0,
+        "coordinateSystem": "WGS84-like fictional globe",
+        "pinAnchor": "capital",
+        "datelineSafe": true
+      },
       "mapScale": {
         "unit": "km",
         "worldExtent": [
@@ -2322,6 +2444,13 @@
       "name": "Dovrane",
       "regionId": "region-khoruun-reach",
       "identity": "Wind farms and salt-water canals",
+      "globePlacement": {
+        "latitudeDegrees": 35.6,
+        "longitudeDegrees": 74.0,
+        "coordinateSystem": "WGS84-like fictional globe",
+        "pinAnchor": "capital",
+        "datelineSafe": true
+      },
       "mapScale": {
         "unit": "km",
         "worldExtent": [
@@ -2514,6 +2643,13 @@
       "name": "Raskel",
       "regionId": "region-khoruun-reach",
       "identity": "Border markets and intelligence intrigue",
+      "globePlacement": {
+        "latitudeDegrees": 41.0,
+        "longitudeDegrees": 76.2,
+        "coordinateSystem": "WGS84-like fictional globe",
+        "pinAnchor": "capital",
+        "datelineSafe": true
+      },
       "mapScale": {
         "unit": "km",
         "worldExtent": [
@@ -2706,6 +2842,13 @@
       "name": "Yurnek",
       "regionId": "region-khoruun-reach",
       "identity": "Glacier-fed valleys",
+      "globePlacement": {
+        "latitudeDegrees": 46.4,
+        "longitudeDegrees": 78.4,
+        "coordinateSystem": "WGS84-like fictional globe",
+        "pinAnchor": "capital",
+        "datelineSafe": true
+      },
       "mapScale": {
         "unit": "km",
         "worldExtent": [
@@ -2898,6 +3041,13 @@
       "name": "Sorevka",
       "regionId": "region-khoruun-reach",
       "identity": "Long eastern peninsula",
+      "globePlacement": {
+        "latitudeDegrees": 51.8,
+        "longitudeDegrees": 80.6,
+        "coordinateSystem": "WGS84-like fictional globe",
+        "pinAnchor": "capital",
+        "datelineSafe": true
+      },
       "mapScale": {
         "unit": "km",
         "worldExtent": [
@@ -3090,6 +3240,13 @@
       "name": "Kelvash",
       "regionId": "region-khoruun-reach",
       "identity": "Copper hills and underground cities",
+      "globePlacement": {
+        "latitudeDegrees": 57.2,
+        "longitudeDegrees": 82.8,
+        "coordinateSystem": "WGS84-like fictional globe",
+        "pinAnchor": "capital",
+        "datelineSafe": true
+      },
       "mapScale": {
         "unit": "km",
         "worldExtent": [
@@ -3282,6 +3439,13 @@
       "name": "Ombrava",
       "regionId": "region-khoruun-reach",
       "identity": "Black-soil farming belt",
+      "globePlacement": {
+        "latitudeDegrees": 62.6,
+        "longitudeDegrees": 85.0,
+        "coordinateSystem": "WGS84-like fictional globe",
+        "pinAnchor": "capital",
+        "datelineSafe": true
+      },
       "mapScale": {
         "unit": "km",
         "worldExtent": [
