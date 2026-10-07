@@ -33,6 +33,7 @@ Temporary labels such as `D1`, `D2`, `E1` and `E2` are not part of the canonical
 | `tools/validate_ue5_world_manifest.py` | Validates the imported UE5 20-country vertical-slice manifest |
 | `engine/cpp/include/indoru/world_simulation_bridge.hpp` | Connects transport links to city, residential and household simulation plans |
 | `engine/cpp/include/indoru/state_system.hpp` | Validated hierarchy and overflow-safe population transitions |
+| `engine/cpp/include/indoru/weather_simulation.hpp` | Deterministic weather sampling with traffic, NPC, rail, river and emergency effects |
 | `docs/architecture-workflow-and-roadmap.md` | Native PC architecture diagram, data flow and implementation roadmap |
 
 ## UI behavior

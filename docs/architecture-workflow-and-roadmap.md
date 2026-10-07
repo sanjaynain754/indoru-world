@@ -22,11 +22,13 @@ flowchart TD
     E --> H[Household + Daily Life Simulation]
     E --> I[Road / Rail / River Transport Simulation]
     E --> ST[State System]
+    E --> WX[Native Weather Simulation]
     F --> J[Population and service targets]
     G --> J
     H --> K[NPC schedules and occupancy]
     I --> L[Traffic, trains and water traffic]
     ST --> M[Validated state transitions]
+    WX --> L[Weather-aware traffic, NPCs, rail, river and emergency response]
 
     J --> M[Native PC world runtime]
     K --> M
@@ -69,6 +71,7 @@ The C++ engine consumes validated contracts and produces simulation plans:
 - `ResidentialSimulation`: household capacity, occupancy and schedules.
 - `WorldSimulationBridge`: maps country transport links into city/residential simulation plans.
 - `StateSystem`: validates world/region/country/city/settlement hierarchy and applies overflow-safe population transitions.
+- `WeatherSimulation`: samples deterministic 15-minute weather states and applies bounded effects to grip, visibility, NPC activity, rail service, river navigation and emergency response.
 
 ### 4. Native PC runtime
 
