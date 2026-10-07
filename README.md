@@ -23,6 +23,7 @@ Temporary labels such as `D1`, `D2`, `E1` and `E2` are not part of the canonical
 | `scripts/generate_country_templates.py` | Generates deterministic geography and reviewable content templates for all 120 countries |
 | `scripts/generate_transport_network.py` | Generates road, bridge, rail/train-station and river transport contracts for all 120 countries |
 | `scripts/generate_state_system.py` | Generates world → region → country → city/settlement state packages for all 120 countries |
+| `scripts/generate_khoruun_baseline.py` | Generates Khoruun's 18-country, 72-map-slice production contract with weather and visual layers |
 | `scripts/validate_world_data.py` | Checks cross-file identity, starter, duplicate-ID and asset invariants |
 | `game/client/src/game/world/CountryTerrain.ts` | Loads generated heightfields into Babylon.js meshes when a country is selected |
 | `game/client/src/game/world/CountryFeatureLayer.ts` | Renders generated rivers, lakes, mountains, roads, bridges, rail, settlements, airports, ports and bases |
@@ -49,6 +50,7 @@ python3 scripts/build_world_data.py
 python3 scripts/generate_country_templates.py
 python3 scripts/generate_transport_network.py
 python3 scripts/generate_state_system.py
+python3 scripts/generate_khoruun_baseline.py
 python3 scripts/validate_world_data.py
 ```
 

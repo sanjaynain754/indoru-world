@@ -1,0 +1,3473 @@
+{
+  "schemaVersion": 1,
+  "worldId": "indoru-world-001",
+  "regionId": "region-khoruun-reach",
+  "regionName": "Khoruun Reach",
+  "buildOrder": 2,
+  "contentState": "baseline-design",
+  "platformTarget": [
+    "desktop-gaming-pc",
+    "playstation-5"
+  ],
+  "canonicalImagePolicy": "concept images are references only until approved placement assets exist",
+  "mapCount": 72,
+  "countryCount": 18,
+  "countries": [
+    {
+      "countryId": "country-021",
+      "name": "Khorava",
+      "regionId": "region-khoruun-reach",
+      "identity": "Red canyon federation",
+      "mapScale": {
+        "unit": "km",
+        "worldExtent": [
+          0,
+          100,
+          0,
+          100
+        ],
+        "cellSize": 2.0
+      },
+      "mapSlices": [
+        {
+          "mapId": "khorava-capital-core",
+          "role": "capital-and-civic-core",
+          "layers": [
+            "border",
+            "capital",
+            "city",
+            "roads",
+            "rail",
+            "weather",
+            "services"
+          ],
+          "sourceFeatures": [
+            "settlements",
+            "roads",
+            "railways"
+          ]
+        },
+        {
+          "mapId": "khorava-resource-frontier",
+          "role": "industry-or-resource-frontier",
+          "layers": [
+            "border",
+            "settlements",
+            "roads",
+            "terrain",
+            "weather",
+            "industry"
+          ],
+          "sourceFeatures": [
+            "mountains",
+            "settlements",
+            "roads",
+            "militaryBases"
+          ]
+        },
+        {
+          "mapId": "khorava-water-and-corridor",
+          "role": "river-lake-or-coastal-corridor",
+          "layers": [
+            "border",
+            "rivers",
+            "lakes",
+            "bridges",
+            "ports",
+            "roads",
+            "weather"
+          ],
+          "sourceFeatures": [
+            "rivers",
+            "lakes",
+            "bridges",
+            "ports",
+            "shipLanes"
+          ]
+        },
+        {
+          "mapId": "khorava-remote-settlements",
+          "role": "remote-villages-and-wilderness",
+          "layers": [
+            "border",
+            "villages",
+            "terrain",
+            "emergency-routes",
+            "weather"
+          ],
+          "sourceFeatures": [
+            "settlements",
+            "mountains",
+            "roads",
+            "submarineZones"
+          ]
+        }
+      ],
+      "visualLayers": [
+        "country-border",
+        "capital-marker",
+        "city-marker",
+        "village-marker",
+        "road-network",
+        "rail-network",
+        "river-and-waterway",
+        "bridge-and-tunnel",
+        "mountains",
+        "weather-overlay",
+        "compass",
+        "scale-bar"
+      ],
+      "imageReferences": [
+        {
+          "assetId": "concept-khoruun-khorava",
+          "status": "reference-only",
+          "path": "assets/concept/khoruun/khorava.png",
+          "canonical": false
+        }
+      ],
+      "terrainContract": {
+        "source": "data/country-content/khorava/terrain.json",
+        "requiredFeatures": [
+          "mountains",
+          "rivers",
+          "roads",
+          "railways",
+          "bridges",
+          "settlements"
+        ],
+        "noBuildZones": [
+          "protected-wilderness",
+          "unstable-slope",
+          "salt-flat-core"
+        ]
+      },
+      "weather": {
+        "climate": "arid-canyon",
+        "seasons": [
+          "cool-dry",
+          "hot-dry",
+          "storm-transition",
+          "cold-night"
+        ],
+        "hazards": [
+          "flash-flood",
+          "dust-storm",
+          "rockfall",
+          "extreme-heat"
+        ],
+        "modifiers": {
+          "roadGrip": [
+            0.75,
+            0.95
+          ],
+          "visibilityM": [
+            80,
+            18000
+          ],
+          "npcActivity": [
+            0.45,
+            1.0
+          ]
+        },
+        "responses": [
+          "close-canyon-road",
+          "activate-flood-warning",
+          "reroute-freight"
+        ],
+        "countryId": "country-021",
+        "simulationEffects": [
+          "traffic",
+          "visibility",
+          "road-grip",
+          "rail-delay",
+          "river-level",
+          "npc-schedules",
+          "emergency-calls",
+          "power-demand",
+          "asset-wear"
+        ],
+        "dailyCycle": {
+          "forecastHours": 24,
+          "updateMinutes": 15,
+          "seededBy": [
+            "countryId",
+            "terrainSeed",
+            "simulationDay"
+          ]
+        }
+      },
+      "productionAcceptance": {
+        "borderVerified": false,
+        "locationNamesVerified": true,
+        "imagePlacementVerified": false,
+        "weatherSimulationVerified": false,
+        "transportGameplayVerified": false,
+        "nativeStreamingVerified": false
+      }
+    },
+    {
+      "countryId": "country-022",
+      "name": "Drensik",
+      "regionId": "region-khoruun-reach",
+      "identity": "Salt flats and solar energy",
+      "mapScale": {
+        "unit": "km",
+        "worldExtent": [
+          0,
+          100,
+          0,
+          100
+        ],
+        "cellSize": 2.0
+      },
+      "mapSlices": [
+        {
+          "mapId": "drensik-capital-core",
+          "role": "capital-and-civic-core",
+          "layers": [
+            "border",
+            "capital",
+            "city",
+            "roads",
+            "rail",
+            "weather",
+            "services"
+          ],
+          "sourceFeatures": [
+            "settlements",
+            "roads",
+            "railways"
+          ]
+        },
+        {
+          "mapId": "drensik-resource-frontier",
+          "role": "industry-or-resource-frontier",
+          "layers": [
+            "border",
+            "settlements",
+            "roads",
+            "terrain",
+            "weather",
+            "industry"
+          ],
+          "sourceFeatures": [
+            "mountains",
+            "settlements",
+            "roads",
+            "militaryBases"
+          ]
+        },
+        {
+          "mapId": "drensik-water-and-corridor",
+          "role": "river-lake-or-coastal-corridor",
+          "layers": [
+            "border",
+            "rivers",
+            "lakes",
+            "bridges",
+            "ports",
+            "roads",
+            "weather"
+          ],
+          "sourceFeatures": [
+            "rivers",
+            "lakes",
+            "bridges",
+            "ports",
+            "shipLanes"
+          ]
+        },
+        {
+          "mapId": "drensik-remote-settlements",
+          "role": "remote-villages-and-wilderness",
+          "layers": [
+            "border",
+            "villages",
+            "terrain",
+            "emergency-routes",
+            "weather"
+          ],
+          "sourceFeatures": [
+            "settlements",
+            "mountains",
+            "roads",
+            "submarineZones"
+          ]
+        }
+      ],
+      "visualLayers": [
+        "country-border",
+        "capital-marker",
+        "city-marker",
+        "village-marker",
+        "road-network",
+        "rail-network",
+        "river-and-waterway",
+        "bridge-and-tunnel",
+        "mountains",
+        "weather-overlay",
+        "compass",
+        "scale-bar"
+      ],
+      "imageReferences": [
+        {
+          "assetId": "concept-khoruun-drensik",
+          "status": "reference-only",
+          "path": "assets/concept/khoruun/drensik.png",
+          "canonical": false
+        }
+      ],
+      "terrainContract": {
+        "source": "data/country-content/drensik/terrain.json",
+        "requiredFeatures": [
+          "mountains",
+          "rivers",
+          "roads",
+          "railways",
+          "bridges",
+          "settlements"
+        ],
+        "noBuildZones": [
+          "protected-wilderness",
+          "unstable-slope",
+          "salt-flat-core"
+        ]
+      },
+      "weather": {
+        "climate": "salt-desert",
+        "seasons": [
+          "dry-wind",
+          "peak-heat",
+          "monsoon-edge",
+          "cold-clear"
+        ],
+        "hazards": [
+          "salt-corrosion",
+          "dust-storm",
+          "heat-haze",
+          "flash-flood"
+        ],
+        "modifiers": {
+          "roadGrip": [
+            0.65,
+            0.98
+          ],
+          "visibilityM": [
+            120,
+            22000
+          ],
+          "npcActivity": [
+            0.35,
+            1.0
+          ]
+        },
+        "responses": [
+          "protect-solar-assets",
+          "close-salt-track",
+          "reroute-service-convoy"
+        ],
+        "countryId": "country-022",
+        "simulationEffects": [
+          "traffic",
+          "visibility",
+          "road-grip",
+          "rail-delay",
+          "river-level",
+          "npc-schedules",
+          "emergency-calls",
+          "power-demand",
+          "asset-wear"
+        ],
+        "dailyCycle": {
+          "forecastHours": 24,
+          "updateMinutes": 15,
+          "seededBy": [
+            "countryId",
+            "terrainSeed",
+            "simulationDay"
+          ]
+        }
+      },
+      "productionAcceptance": {
+        "borderVerified": false,
+        "locationNamesVerified": true,
+        "imagePlacementVerified": false,
+        "weatherSimulationVerified": false,
+        "transportGameplayVerified": false,
+        "nativeStreamingVerified": false
+      }
+    },
+    {
+      "countryId": "country-023",
+      "name": "Uldren",
+      "regionId": "region-khoruun-reach",
+      "identity": "Cold border plateau",
+      "mapScale": {
+        "unit": "km",
+        "worldExtent": [
+          0,
+          100,
+          0,
+          100
+        ],
+        "cellSize": 2.0
+      },
+      "mapSlices": [
+        {
+          "mapId": "uldren-capital-core",
+          "role": "capital-and-civic-core",
+          "layers": [
+            "border",
+            "capital",
+            "city",
+            "roads",
+            "rail",
+            "weather",
+            "services"
+          ],
+          "sourceFeatures": [
+            "settlements",
+            "roads",
+            "railways"
+          ]
+        },
+        {
+          "mapId": "uldren-resource-frontier",
+          "role": "industry-or-resource-frontier",
+          "layers": [
+            "border",
+            "settlements",
+            "roads",
+            "terrain",
+            "weather",
+            "industry"
+          ],
+          "sourceFeatures": [
+            "mountains",
+            "settlements",
+            "roads",
+            "militaryBases"
+          ]
+        },
+        {
+          "mapId": "uldren-water-and-corridor",
+          "role": "river-lake-or-coastal-corridor",
+          "layers": [
+            "border",
+            "rivers",
+            "lakes",
+            "bridges",
+            "ports",
+            "roads",
+            "weather"
+          ],
+          "sourceFeatures": [
+            "rivers",
+            "lakes",
+            "bridges",
+            "ports",
+            "shipLanes"
+          ]
+        },
+        {
+          "mapId": "uldren-remote-settlements",
+          "role": "remote-villages-and-wilderness",
+          "layers": [
+            "border",
+            "villages",
+            "terrain",
+            "emergency-routes",
+            "weather"
+          ],
+          "sourceFeatures": [
+            "settlements",
+            "mountains",
+            "roads",
+            "submarineZones"
+          ]
+        }
+      ],
+      "visualLayers": [
+        "country-border",
+        "capital-marker",
+        "city-marker",
+        "village-marker",
+        "road-network",
+        "rail-network",
+        "river-and-waterway",
+        "bridge-and-tunnel",
+        "mountains",
+        "weather-overlay",
+        "compass",
+        "scale-bar"
+      ],
+      "imageReferences": [
+        {
+          "assetId": "concept-khoruun-uldren",
+          "status": "reference-only",
+          "path": "assets/concept/khoruun/uldren.png",
+          "canonical": false
+        }
+      ],
+      "terrainContract": {
+        "source": "data/country-content/uldren/terrain.json",
+        "requiredFeatures": [
+          "mountains",
+          "rivers",
+          "roads",
+          "railways",
+          "bridges",
+          "settlements"
+        ],
+        "noBuildZones": [
+          "protected-wilderness",
+          "unstable-slope",
+          "salt-flat-core"
+        ]
+      },
+      "weather": {
+        "climate": "cold-plateau",
+        "seasons": [
+          "deep-winter",
+          "thaw",
+          "short-summer",
+          "freeze-up"
+        ],
+        "hazards": [
+          "blizzard",
+          "black-ice",
+          "avalanche",
+          "permafrost-heave"
+        ],
+        "modifiers": {
+          "roadGrip": [
+            0.25,
+            0.98
+          ],
+          "visibilityM": [
+            20,
+            20000
+          ],
+          "npcActivity": [
+            0.2,
+            1.0
+          ]
+        },
+        "responses": [
+          "snow-clear-priority-route",
+          "open-warm-shelter",
+          "delay-rail-service"
+        ],
+        "countryId": "country-023",
+        "simulationEffects": [
+          "traffic",
+          "visibility",
+          "road-grip",
+          "rail-delay",
+          "river-level",
+          "npc-schedules",
+          "emergency-calls",
+          "power-demand",
+          "asset-wear"
+        ],
+        "dailyCycle": {
+          "forecastHours": 24,
+          "updateMinutes": 15,
+          "seededBy": [
+            "countryId",
+            "terrainSeed",
+            "simulationDay"
+          ]
+        }
+      },
+      "productionAcceptance": {
+        "borderVerified": false,
+        "locationNamesVerified": true,
+        "imagePlacementVerified": false,
+        "weatherSimulationVerified": false,
+        "transportGameplayVerified": false,
+        "nativeStreamingVerified": false
+      }
+    },
+    {
+      "countryId": "country-024",
+      "name": "Marqeshan",
+      "regionId": "region-khoruun-reach",
+      "identity": "Canyon railways and mining towns",
+      "mapScale": {
+        "unit": "km",
+        "worldExtent": [
+          0,
+          100,
+          0,
+          100
+        ],
+        "cellSize": 2.0
+      },
+      "mapSlices": [
+        {
+          "mapId": "marqeshan-capital-core",
+          "role": "capital-and-civic-core",
+          "layers": [
+            "border",
+            "capital",
+            "city",
+            "roads",
+            "rail",
+            "weather",
+            "services"
+          ],
+          "sourceFeatures": [
+            "settlements",
+            "roads",
+            "railways"
+          ]
+        },
+        {
+          "mapId": "marqeshan-resource-frontier",
+          "role": "industry-or-resource-frontier",
+          "layers": [
+            "border",
+            "settlements",
+            "roads",
+            "terrain",
+            "weather",
+            "industry"
+          ],
+          "sourceFeatures": [
+            "mountains",
+            "settlements",
+            "roads",
+            "militaryBases"
+          ]
+        },
+        {
+          "mapId": "marqeshan-water-and-corridor",
+          "role": "river-lake-or-coastal-corridor",
+          "layers": [
+            "border",
+            "rivers",
+            "lakes",
+            "bridges",
+            "ports",
+            "roads",
+            "weather"
+          ],
+          "sourceFeatures": [
+            "rivers",
+            "lakes",
+            "bridges",
+            "ports",
+            "shipLanes"
+          ]
+        },
+        {
+          "mapId": "marqeshan-remote-settlements",
+          "role": "remote-villages-and-wilderness",
+          "layers": [
+            "border",
+            "villages",
+            "terrain",
+            "emergency-routes",
+            "weather"
+          ],
+          "sourceFeatures": [
+            "settlements",
+            "mountains",
+            "roads",
+            "submarineZones"
+          ]
+        }
+      ],
+      "visualLayers": [
+        "country-border",
+        "capital-marker",
+        "city-marker",
+        "village-marker",
+        "road-network",
+        "rail-network",
+        "river-and-waterway",
+        "bridge-and-tunnel",
+        "mountains",
+        "weather-overlay",
+        "compass",
+        "scale-bar"
+      ],
+      "imageReferences": [
+        {
+          "assetId": "concept-khoruun-marqeshan",
+          "status": "reference-only",
+          "path": "assets/concept/khoruun/marqeshan.png",
+          "canonical": false
+        }
+      ],
+      "terrainContract": {
+        "source": "data/country-content/marqeshan/terrain.json",
+        "requiredFeatures": [
+          "mountains",
+          "rivers",
+          "roads",
+          "railways",
+          "bridges",
+          "settlements"
+        ],
+        "noBuildZones": [
+          "protected-wilderness",
+          "unstable-slope",
+          "salt-flat-core"
+        ]
+      },
+      "weather": {
+        "climate": "high-desert",
+        "seasons": [
+          "dry-winter",
+          "hot-summer",
+          "thunderstorm",
+          "cold-evening"
+        ],
+        "hazards": [
+          "rockfall",
+          "mine-subsidence",
+          "dust-storm",
+          "flash-flood"
+        ],
+        "modifiers": {
+          "roadGrip": [
+            0.55,
+            0.98
+          ],
+          "visibilityM": [
+            60,
+            21000
+          ],
+          "npcActivity": [
+            0.4,
+            1.0
+          ]
+        },
+        "responses": [
+          "inspect-tunnel",
+          "hold-freight-train",
+          "close-blast-zone"
+        ],
+        "countryId": "country-024",
+        "simulationEffects": [
+          "traffic",
+          "visibility",
+          "road-grip",
+          "rail-delay",
+          "river-level",
+          "npc-schedules",
+          "emergency-calls",
+          "power-demand",
+          "asset-wear"
+        ],
+        "dailyCycle": {
+          "forecastHours": 24,
+          "updateMinutes": 15,
+          "seededBy": [
+            "countryId",
+            "terrainSeed",
+            "simulationDay"
+          ]
+        }
+      },
+      "productionAcceptance": {
+        "borderVerified": false,
+        "locationNamesVerified": true,
+        "imagePlacementVerified": false,
+        "weatherSimulationVerified": false,
+        "transportGameplayVerified": false,
+        "nativeStreamingVerified": false
+      }
+    },
+    {
+      "countryId": "country-025",
+      "name": "Vaskora",
+      "regionId": "region-khoruun-reach",
+      "identity": "Storm coast and shipyards",
+      "mapScale": {
+        "unit": "km",
+        "worldExtent": [
+          0,
+          100,
+          0,
+          100
+        ],
+        "cellSize": 2.0
+      },
+      "mapSlices": [
+        {
+          "mapId": "vaskora-capital-core",
+          "role": "capital-and-civic-core",
+          "layers": [
+            "border",
+            "capital",
+            "city",
+            "roads",
+            "rail",
+            "weather",
+            "services"
+          ],
+          "sourceFeatures": [
+            "settlements",
+            "roads",
+            "railways"
+          ]
+        },
+        {
+          "mapId": "vaskora-resource-frontier",
+          "role": "industry-or-resource-frontier",
+          "layers": [
+            "border",
+            "settlements",
+            "roads",
+            "terrain",
+            "weather",
+            "industry"
+          ],
+          "sourceFeatures": [
+            "mountains",
+            "settlements",
+            "roads",
+            "militaryBases"
+          ]
+        },
+        {
+          "mapId": "vaskora-water-and-corridor",
+          "role": "river-lake-or-coastal-corridor",
+          "layers": [
+            "border",
+            "rivers",
+            "lakes",
+            "bridges",
+            "ports",
+            "roads",
+            "weather"
+          ],
+          "sourceFeatures": [
+            "rivers",
+            "lakes",
+            "bridges",
+            "ports",
+            "shipLanes"
+          ]
+        },
+        {
+          "mapId": "vaskora-remote-settlements",
+          "role": "remote-villages-and-wilderness",
+          "layers": [
+            "border",
+            "villages",
+            "terrain",
+            "emergency-routes",
+            "weather"
+          ],
+          "sourceFeatures": [
+            "settlements",
+            "mountains",
+            "roads",
+            "submarineZones"
+          ]
+        }
+      ],
+      "visualLayers": [
+        "country-border",
+        "capital-marker",
+        "city-marker",
+        "village-marker",
+        "road-network",
+        "rail-network",
+        "river-and-waterway",
+        "bridge-and-tunnel",
+        "mountains",
+        "weather-overlay",
+        "compass",
+        "scale-bar"
+      ],
+      "imageReferences": [
+        {
+          "assetId": "concept-khoruun-vaskora",
+          "status": "reference-only",
+          "path": "assets/concept/khoruun/vaskora.png",
+          "canonical": false
+        }
+      ],
+      "terrainContract": {
+        "source": "data/country-content/vaskora/terrain.json",
+        "requiredFeatures": [
+          "mountains",
+          "rivers",
+          "roads",
+          "railways",
+          "bridges",
+          "settlements"
+        ],
+        "noBuildZones": [
+          "protected-wilderness",
+          "unstable-slope",
+          "salt-flat-core"
+        ]
+      },
+      "weather": {
+        "climate": "continental-frontier",
+        "seasons": [
+          "cold-dry",
+          "hot-dry",
+          "storm-season",
+          "cool-transition"
+        ],
+        "hazards": [
+          "dust-storm",
+          "flash-flood",
+          "heatwave",
+          "cold-snap"
+        ],
+        "modifiers": {
+          "roadGrip": [
+            0.5,
+            0.98
+          ],
+          "visibilityM": [
+            50,
+            22000
+          ],
+          "npcActivity": [
+            0.3,
+            1.0
+          ]
+        },
+        "responses": [
+          "issue-weather-alert",
+          "reroute-public-transport",
+          "open-emergency-depot"
+        ],
+        "countryId": "country-025",
+        "simulationEffects": [
+          "traffic",
+          "visibility",
+          "road-grip",
+          "rail-delay",
+          "river-level",
+          "npc-schedules",
+          "emergency-calls",
+          "power-demand",
+          "asset-wear"
+        ],
+        "dailyCycle": {
+          "forecastHours": 24,
+          "updateMinutes": 15,
+          "seededBy": [
+            "countryId",
+            "terrainSeed",
+            "simulationDay"
+          ]
+        }
+      },
+      "productionAcceptance": {
+        "borderVerified": false,
+        "locationNamesVerified": true,
+        "imagePlacementVerified": false,
+        "weatherSimulationVerified": false,
+        "transportGameplayVerified": false,
+        "nativeStreamingVerified": false
+      }
+    },
+    {
+      "countryId": "country-026",
+      "name": "Ternuva",
+      "regionId": "region-khoruun-reach",
+      "identity": "Wide steppe and mobile settlements",
+      "mapScale": {
+        "unit": "km",
+        "worldExtent": [
+          0,
+          100,
+          0,
+          100
+        ],
+        "cellSize": 2.0
+      },
+      "mapSlices": [
+        {
+          "mapId": "ternuva-capital-core",
+          "role": "capital-and-civic-core",
+          "layers": [
+            "border",
+            "capital",
+            "city",
+            "roads",
+            "rail",
+            "weather",
+            "services"
+          ],
+          "sourceFeatures": [
+            "settlements",
+            "roads",
+            "railways"
+          ]
+        },
+        {
+          "mapId": "ternuva-resource-frontier",
+          "role": "industry-or-resource-frontier",
+          "layers": [
+            "border",
+            "settlements",
+            "roads",
+            "terrain",
+            "weather",
+            "industry"
+          ],
+          "sourceFeatures": [
+            "mountains",
+            "settlements",
+            "roads",
+            "militaryBases"
+          ]
+        },
+        {
+          "mapId": "ternuva-water-and-corridor",
+          "role": "river-lake-or-coastal-corridor",
+          "layers": [
+            "border",
+            "rivers",
+            "lakes",
+            "bridges",
+            "ports",
+            "roads",
+            "weather"
+          ],
+          "sourceFeatures": [
+            "rivers",
+            "lakes",
+            "bridges",
+            "ports",
+            "shipLanes"
+          ]
+        },
+        {
+          "mapId": "ternuva-remote-settlements",
+          "role": "remote-villages-and-wilderness",
+          "layers": [
+            "border",
+            "villages",
+            "terrain",
+            "emergency-routes",
+            "weather"
+          ],
+          "sourceFeatures": [
+            "settlements",
+            "mountains",
+            "roads",
+            "submarineZones"
+          ]
+        }
+      ],
+      "visualLayers": [
+        "country-border",
+        "capital-marker",
+        "city-marker",
+        "village-marker",
+        "road-network",
+        "rail-network",
+        "river-and-waterway",
+        "bridge-and-tunnel",
+        "mountains",
+        "weather-overlay",
+        "compass",
+        "scale-bar"
+      ],
+      "imageReferences": [
+        {
+          "assetId": "concept-khoruun-ternuva",
+          "status": "reference-only",
+          "path": "assets/concept/khoruun/ternuva.png",
+          "canonical": false
+        }
+      ],
+      "terrainContract": {
+        "source": "data/country-content/ternuva/terrain.json",
+        "requiredFeatures": [
+          "mountains",
+          "rivers",
+          "roads",
+          "railways",
+          "bridges",
+          "settlements"
+        ],
+        "noBuildZones": [
+          "protected-wilderness",
+          "unstable-slope",
+          "salt-flat-core"
+        ]
+      },
+      "weather": {
+        "climate": "continental-frontier",
+        "seasons": [
+          "cold-dry",
+          "hot-dry",
+          "storm-season",
+          "cool-transition"
+        ],
+        "hazards": [
+          "dust-storm",
+          "flash-flood",
+          "heatwave",
+          "cold-snap"
+        ],
+        "modifiers": {
+          "roadGrip": [
+            0.5,
+            0.98
+          ],
+          "visibilityM": [
+            50,
+            22000
+          ],
+          "npcActivity": [
+            0.3,
+            1.0
+          ]
+        },
+        "responses": [
+          "issue-weather-alert",
+          "reroute-public-transport",
+          "open-emergency-depot"
+        ],
+        "countryId": "country-026",
+        "simulationEffects": [
+          "traffic",
+          "visibility",
+          "road-grip",
+          "rail-delay",
+          "river-level",
+          "npc-schedules",
+          "emergency-calls",
+          "power-demand",
+          "asset-wear"
+        ],
+        "dailyCycle": {
+          "forecastHours": 24,
+          "updateMinutes": 15,
+          "seededBy": [
+            "countryId",
+            "terrainSeed",
+            "simulationDay"
+          ]
+        }
+      },
+      "productionAcceptance": {
+        "borderVerified": false,
+        "locationNamesVerified": true,
+        "imagePlacementVerified": false,
+        "weatherSimulationVerified": false,
+        "transportGameplayVerified": false,
+        "nativeStreamingVerified": false
+      }
+    },
+    {
+      "countryId": "country-027",
+      "name": "Oqvar",
+      "regionId": "region-khoruun-reach",
+      "identity": "High pass republic",
+      "mapScale": {
+        "unit": "km",
+        "worldExtent": [
+          0,
+          100,
+          0,
+          100
+        ],
+        "cellSize": 2.0
+      },
+      "mapSlices": [
+        {
+          "mapId": "oqvar-capital-core",
+          "role": "capital-and-civic-core",
+          "layers": [
+            "border",
+            "capital",
+            "city",
+            "roads",
+            "rail",
+            "weather",
+            "services"
+          ],
+          "sourceFeatures": [
+            "settlements",
+            "roads",
+            "railways"
+          ]
+        },
+        {
+          "mapId": "oqvar-resource-frontier",
+          "role": "industry-or-resource-frontier",
+          "layers": [
+            "border",
+            "settlements",
+            "roads",
+            "terrain",
+            "weather",
+            "industry"
+          ],
+          "sourceFeatures": [
+            "mountains",
+            "settlements",
+            "roads",
+            "militaryBases"
+          ]
+        },
+        {
+          "mapId": "oqvar-water-and-corridor",
+          "role": "river-lake-or-coastal-corridor",
+          "layers": [
+            "border",
+            "rivers",
+            "lakes",
+            "bridges",
+            "ports",
+            "roads",
+            "weather"
+          ],
+          "sourceFeatures": [
+            "rivers",
+            "lakes",
+            "bridges",
+            "ports",
+            "shipLanes"
+          ]
+        },
+        {
+          "mapId": "oqvar-remote-settlements",
+          "role": "remote-villages-and-wilderness",
+          "layers": [
+            "border",
+            "villages",
+            "terrain",
+            "emergency-routes",
+            "weather"
+          ],
+          "sourceFeatures": [
+            "settlements",
+            "mountains",
+            "roads",
+            "submarineZones"
+          ]
+        }
+      ],
+      "visualLayers": [
+        "country-border",
+        "capital-marker",
+        "city-marker",
+        "village-marker",
+        "road-network",
+        "rail-network",
+        "river-and-waterway",
+        "bridge-and-tunnel",
+        "mountains",
+        "weather-overlay",
+        "compass",
+        "scale-bar"
+      ],
+      "imageReferences": [
+        {
+          "assetId": "concept-khoruun-oqvar",
+          "status": "reference-only",
+          "path": "assets/concept/khoruun/oqvar.png",
+          "canonical": false
+        }
+      ],
+      "terrainContract": {
+        "source": "data/country-content/oqvar/terrain.json",
+        "requiredFeatures": [
+          "mountains",
+          "rivers",
+          "roads",
+          "railways",
+          "bridges",
+          "settlements"
+        ],
+        "noBuildZones": [
+          "protected-wilderness",
+          "unstable-slope",
+          "salt-flat-core"
+        ]
+      },
+      "weather": {
+        "climate": "continental-frontier",
+        "seasons": [
+          "cold-dry",
+          "hot-dry",
+          "storm-season",
+          "cool-transition"
+        ],
+        "hazards": [
+          "dust-storm",
+          "flash-flood",
+          "heatwave",
+          "cold-snap"
+        ],
+        "modifiers": {
+          "roadGrip": [
+            0.5,
+            0.98
+          ],
+          "visibilityM": [
+            50,
+            22000
+          ],
+          "npcActivity": [
+            0.3,
+            1.0
+          ]
+        },
+        "responses": [
+          "issue-weather-alert",
+          "reroute-public-transport",
+          "open-emergency-depot"
+        ],
+        "countryId": "country-027",
+        "simulationEffects": [
+          "traffic",
+          "visibility",
+          "road-grip",
+          "rail-delay",
+          "river-level",
+          "npc-schedules",
+          "emergency-calls",
+          "power-demand",
+          "asset-wear"
+        ],
+        "dailyCycle": {
+          "forecastHours": 24,
+          "updateMinutes": 15,
+          "seededBy": [
+            "countryId",
+            "terrainSeed",
+            "simulationDay"
+          ]
+        }
+      },
+      "productionAcceptance": {
+        "borderVerified": false,
+        "locationNamesVerified": true,
+        "imagePlacementVerified": false,
+        "weatherSimulationVerified": false,
+        "transportGameplayVerified": false,
+        "nativeStreamingVerified": false
+      }
+    },
+    {
+      "countryId": "country-028",
+      "name": "Zarekh",
+      "regionId": "region-khoruun-reach",
+      "identity": "Ancient ruins and dry basin",
+      "mapScale": {
+        "unit": "km",
+        "worldExtent": [
+          0,
+          100,
+          0,
+          100
+        ],
+        "cellSize": 2.0
+      },
+      "mapSlices": [
+        {
+          "mapId": "zarekh-capital-core",
+          "role": "capital-and-civic-core",
+          "layers": [
+            "border",
+            "capital",
+            "city",
+            "roads",
+            "rail",
+            "weather",
+            "services"
+          ],
+          "sourceFeatures": [
+            "settlements",
+            "roads",
+            "railways"
+          ]
+        },
+        {
+          "mapId": "zarekh-resource-frontier",
+          "role": "industry-or-resource-frontier",
+          "layers": [
+            "border",
+            "settlements",
+            "roads",
+            "terrain",
+            "weather",
+            "industry"
+          ],
+          "sourceFeatures": [
+            "mountains",
+            "settlements",
+            "roads",
+            "militaryBases"
+          ]
+        },
+        {
+          "mapId": "zarekh-water-and-corridor",
+          "role": "river-lake-or-coastal-corridor",
+          "layers": [
+            "border",
+            "rivers",
+            "lakes",
+            "bridges",
+            "ports",
+            "roads",
+            "weather"
+          ],
+          "sourceFeatures": [
+            "rivers",
+            "lakes",
+            "bridges",
+            "ports",
+            "shipLanes"
+          ]
+        },
+        {
+          "mapId": "zarekh-remote-settlements",
+          "role": "remote-villages-and-wilderness",
+          "layers": [
+            "border",
+            "villages",
+            "terrain",
+            "emergency-routes",
+            "weather"
+          ],
+          "sourceFeatures": [
+            "settlements",
+            "mountains",
+            "roads",
+            "submarineZones"
+          ]
+        }
+      ],
+      "visualLayers": [
+        "country-border",
+        "capital-marker",
+        "city-marker",
+        "village-marker",
+        "road-network",
+        "rail-network",
+        "river-and-waterway",
+        "bridge-and-tunnel",
+        "mountains",
+        "weather-overlay",
+        "compass",
+        "scale-bar"
+      ],
+      "imageReferences": [
+        {
+          "assetId": "concept-khoruun-zarekh",
+          "status": "reference-only",
+          "path": "assets/concept/khoruun/zarekh.png",
+          "canonical": false
+        }
+      ],
+      "terrainContract": {
+        "source": "data/country-content/zarekh/terrain.json",
+        "requiredFeatures": [
+          "mountains",
+          "rivers",
+          "roads",
+          "railways",
+          "bridges",
+          "settlements"
+        ],
+        "noBuildZones": [
+          "protected-wilderness",
+          "unstable-slope",
+          "salt-flat-core"
+        ]
+      },
+      "weather": {
+        "climate": "continental-frontier",
+        "seasons": [
+          "cold-dry",
+          "hot-dry",
+          "storm-season",
+          "cool-transition"
+        ],
+        "hazards": [
+          "dust-storm",
+          "flash-flood",
+          "heatwave",
+          "cold-snap"
+        ],
+        "modifiers": {
+          "roadGrip": [
+            0.5,
+            0.98
+          ],
+          "visibilityM": [
+            50,
+            22000
+          ],
+          "npcActivity": [
+            0.3,
+            1.0
+          ]
+        },
+        "responses": [
+          "issue-weather-alert",
+          "reroute-public-transport",
+          "open-emergency-depot"
+        ],
+        "countryId": "country-028",
+        "simulationEffects": [
+          "traffic",
+          "visibility",
+          "road-grip",
+          "rail-delay",
+          "river-level",
+          "npc-schedules",
+          "emergency-calls",
+          "power-demand",
+          "asset-wear"
+        ],
+        "dailyCycle": {
+          "forecastHours": 24,
+          "updateMinutes": 15,
+          "seededBy": [
+            "countryId",
+            "terrainSeed",
+            "simulationDay"
+          ]
+        }
+      },
+      "productionAcceptance": {
+        "borderVerified": false,
+        "locationNamesVerified": true,
+        "imagePlacementVerified": false,
+        "weatherSimulationVerified": false,
+        "transportGameplayVerified": false,
+        "nativeStreamingVerified": false
+      }
+    },
+    {
+      "countryId": "country-029",
+      "name": "Bravosk",
+      "regionId": "region-khoruun-reach",
+      "identity": "Heavy industry and river dams",
+      "mapScale": {
+        "unit": "km",
+        "worldExtent": [
+          0,
+          100,
+          0,
+          100
+        ],
+        "cellSize": 2.0
+      },
+      "mapSlices": [
+        {
+          "mapId": "bravosk-capital-core",
+          "role": "capital-and-civic-core",
+          "layers": [
+            "border",
+            "capital",
+            "city",
+            "roads",
+            "rail",
+            "weather",
+            "services"
+          ],
+          "sourceFeatures": [
+            "settlements",
+            "roads",
+            "railways"
+          ]
+        },
+        {
+          "mapId": "bravosk-resource-frontier",
+          "role": "industry-or-resource-frontier",
+          "layers": [
+            "border",
+            "settlements",
+            "roads",
+            "terrain",
+            "weather",
+            "industry"
+          ],
+          "sourceFeatures": [
+            "mountains",
+            "settlements",
+            "roads",
+            "militaryBases"
+          ]
+        },
+        {
+          "mapId": "bravosk-water-and-corridor",
+          "role": "river-lake-or-coastal-corridor",
+          "layers": [
+            "border",
+            "rivers",
+            "lakes",
+            "bridges",
+            "ports",
+            "roads",
+            "weather"
+          ],
+          "sourceFeatures": [
+            "rivers",
+            "lakes",
+            "bridges",
+            "ports",
+            "shipLanes"
+          ]
+        },
+        {
+          "mapId": "bravosk-remote-settlements",
+          "role": "remote-villages-and-wilderness",
+          "layers": [
+            "border",
+            "villages",
+            "terrain",
+            "emergency-routes",
+            "weather"
+          ],
+          "sourceFeatures": [
+            "settlements",
+            "mountains",
+            "roads",
+            "submarineZones"
+          ]
+        }
+      ],
+      "visualLayers": [
+        "country-border",
+        "capital-marker",
+        "city-marker",
+        "village-marker",
+        "road-network",
+        "rail-network",
+        "river-and-waterway",
+        "bridge-and-tunnel",
+        "mountains",
+        "weather-overlay",
+        "compass",
+        "scale-bar"
+      ],
+      "imageReferences": [
+        {
+          "assetId": "concept-khoruun-bravosk",
+          "status": "reference-only",
+          "path": "assets/concept/khoruun/bravosk.png",
+          "canonical": false
+        }
+      ],
+      "terrainContract": {
+        "source": "data/country-content/bravosk/terrain.json",
+        "requiredFeatures": [
+          "mountains",
+          "rivers",
+          "roads",
+          "railways",
+          "bridges",
+          "settlements"
+        ],
+        "noBuildZones": [
+          "protected-wilderness",
+          "unstable-slope",
+          "salt-flat-core"
+        ]
+      },
+      "weather": {
+        "climate": "continental-frontier",
+        "seasons": [
+          "cold-dry",
+          "hot-dry",
+          "storm-season",
+          "cool-transition"
+        ],
+        "hazards": [
+          "dust-storm",
+          "flash-flood",
+          "heatwave",
+          "cold-snap"
+        ],
+        "modifiers": {
+          "roadGrip": [
+            0.5,
+            0.98
+          ],
+          "visibilityM": [
+            50,
+            22000
+          ],
+          "npcActivity": [
+            0.3,
+            1.0
+          ]
+        },
+        "responses": [
+          "issue-weather-alert",
+          "reroute-public-transport",
+          "open-emergency-depot"
+        ],
+        "countryId": "country-029",
+        "simulationEffects": [
+          "traffic",
+          "visibility",
+          "road-grip",
+          "rail-delay",
+          "river-level",
+          "npc-schedules",
+          "emergency-calls",
+          "power-demand",
+          "asset-wear"
+        ],
+        "dailyCycle": {
+          "forecastHours": 24,
+          "updateMinutes": 15,
+          "seededBy": [
+            "countryId",
+            "terrainSeed",
+            "simulationDay"
+          ]
+        }
+      },
+      "productionAcceptance": {
+        "borderVerified": false,
+        "locationNamesVerified": true,
+        "imagePlacementVerified": false,
+        "weatherSimulationVerified": false,
+        "transportGameplayVerified": false,
+        "nativeStreamingVerified": false
+      }
+    },
+    {
+      "countryId": "country-030",
+      "name": "Kelmora",
+      "regionId": "region-khoruun-reach",
+      "identity": "Cedar-like forests and lakes",
+      "mapScale": {
+        "unit": "km",
+        "worldExtent": [
+          0,
+          100,
+          0,
+          100
+        ],
+        "cellSize": 2.0
+      },
+      "mapSlices": [
+        {
+          "mapId": "kelmora-capital-core",
+          "role": "capital-and-civic-core",
+          "layers": [
+            "border",
+            "capital",
+            "city",
+            "roads",
+            "rail",
+            "weather",
+            "services"
+          ],
+          "sourceFeatures": [
+            "settlements",
+            "roads",
+            "railways"
+          ]
+        },
+        {
+          "mapId": "kelmora-resource-frontier",
+          "role": "industry-or-resource-frontier",
+          "layers": [
+            "border",
+            "settlements",
+            "roads",
+            "terrain",
+            "weather",
+            "industry"
+          ],
+          "sourceFeatures": [
+            "mountains",
+            "settlements",
+            "roads",
+            "militaryBases"
+          ]
+        },
+        {
+          "mapId": "kelmora-water-and-corridor",
+          "role": "river-lake-or-coastal-corridor",
+          "layers": [
+            "border",
+            "rivers",
+            "lakes",
+            "bridges",
+            "ports",
+            "roads",
+            "weather"
+          ],
+          "sourceFeatures": [
+            "rivers",
+            "lakes",
+            "bridges",
+            "ports",
+            "shipLanes"
+          ]
+        },
+        {
+          "mapId": "kelmora-remote-settlements",
+          "role": "remote-villages-and-wilderness",
+          "layers": [
+            "border",
+            "villages",
+            "terrain",
+            "emergency-routes",
+            "weather"
+          ],
+          "sourceFeatures": [
+            "settlements",
+            "mountains",
+            "roads",
+            "submarineZones"
+          ]
+        }
+      ],
+      "visualLayers": [
+        "country-border",
+        "capital-marker",
+        "city-marker",
+        "village-marker",
+        "road-network",
+        "rail-network",
+        "river-and-waterway",
+        "bridge-and-tunnel",
+        "mountains",
+        "weather-overlay",
+        "compass",
+        "scale-bar"
+      ],
+      "imageReferences": [
+        {
+          "assetId": "concept-khoruun-kelmora",
+          "status": "reference-only",
+          "path": "assets/concept/khoruun/kelmora.png",
+          "canonical": false
+        }
+      ],
+      "terrainContract": {
+        "source": "data/country-content/kelmora/terrain.json",
+        "requiredFeatures": [
+          "mountains",
+          "rivers",
+          "roads",
+          "railways",
+          "bridges",
+          "settlements"
+        ],
+        "noBuildZones": [
+          "protected-wilderness",
+          "unstable-slope",
+          "salt-flat-core"
+        ]
+      },
+      "weather": {
+        "climate": "continental-frontier",
+        "seasons": [
+          "cold-dry",
+          "hot-dry",
+          "storm-season",
+          "cool-transition"
+        ],
+        "hazards": [
+          "dust-storm",
+          "flash-flood",
+          "heatwave",
+          "cold-snap"
+        ],
+        "modifiers": {
+          "roadGrip": [
+            0.5,
+            0.98
+          ],
+          "visibilityM": [
+            50,
+            22000
+          ],
+          "npcActivity": [
+            0.3,
+            1.0
+          ]
+        },
+        "responses": [
+          "issue-weather-alert",
+          "reroute-public-transport",
+          "open-emergency-depot"
+        ],
+        "countryId": "country-030",
+        "simulationEffects": [
+          "traffic",
+          "visibility",
+          "road-grip",
+          "rail-delay",
+          "river-level",
+          "npc-schedules",
+          "emergency-calls",
+          "power-demand",
+          "asset-wear"
+        ],
+        "dailyCycle": {
+          "forecastHours": 24,
+          "updateMinutes": 15,
+          "seededBy": [
+            "countryId",
+            "terrainSeed",
+            "simulationDay"
+          ]
+        }
+      },
+      "productionAcceptance": {
+        "borderVerified": false,
+        "locationNamesVerified": true,
+        "imagePlacementVerified": false,
+        "weatherSimulationVerified": false,
+        "transportGameplayVerified": false,
+        "nativeStreamingVerified": false
+      }
+    },
+    {
+      "countryId": "country-031",
+      "name": "Arvunik",
+      "regionId": "region-khoruun-reach",
+      "identity": "Independent frontier province turned nation",
+      "mapScale": {
+        "unit": "km",
+        "worldExtent": [
+          0,
+          100,
+          0,
+          100
+        ],
+        "cellSize": 2.0
+      },
+      "mapSlices": [
+        {
+          "mapId": "arvunik-capital-core",
+          "role": "capital-and-civic-core",
+          "layers": [
+            "border",
+            "capital",
+            "city",
+            "roads",
+            "rail",
+            "weather",
+            "services"
+          ],
+          "sourceFeatures": [
+            "settlements",
+            "roads",
+            "railways"
+          ]
+        },
+        {
+          "mapId": "arvunik-resource-frontier",
+          "role": "industry-or-resource-frontier",
+          "layers": [
+            "border",
+            "settlements",
+            "roads",
+            "terrain",
+            "weather",
+            "industry"
+          ],
+          "sourceFeatures": [
+            "mountains",
+            "settlements",
+            "roads",
+            "militaryBases"
+          ]
+        },
+        {
+          "mapId": "arvunik-water-and-corridor",
+          "role": "river-lake-or-coastal-corridor",
+          "layers": [
+            "border",
+            "rivers",
+            "lakes",
+            "bridges",
+            "ports",
+            "roads",
+            "weather"
+          ],
+          "sourceFeatures": [
+            "rivers",
+            "lakes",
+            "bridges",
+            "ports",
+            "shipLanes"
+          ]
+        },
+        {
+          "mapId": "arvunik-remote-settlements",
+          "role": "remote-villages-and-wilderness",
+          "layers": [
+            "border",
+            "villages",
+            "terrain",
+            "emergency-routes",
+            "weather"
+          ],
+          "sourceFeatures": [
+            "settlements",
+            "mountains",
+            "roads",
+            "submarineZones"
+          ]
+        }
+      ],
+      "visualLayers": [
+        "country-border",
+        "capital-marker",
+        "city-marker",
+        "village-marker",
+        "road-network",
+        "rail-network",
+        "river-and-waterway",
+        "bridge-and-tunnel",
+        "mountains",
+        "weather-overlay",
+        "compass",
+        "scale-bar"
+      ],
+      "imageReferences": [
+        {
+          "assetId": "concept-khoruun-arvunik",
+          "status": "reference-only",
+          "path": "assets/concept/khoruun/arvunik.png",
+          "canonical": false
+        }
+      ],
+      "terrainContract": {
+        "source": "data/country-content/arvunik/terrain.json",
+        "requiredFeatures": [
+          "mountains",
+          "rivers",
+          "roads",
+          "railways",
+          "bridges",
+          "settlements"
+        ],
+        "noBuildZones": [
+          "protected-wilderness",
+          "unstable-slope",
+          "salt-flat-core"
+        ]
+      },
+      "weather": {
+        "climate": "continental-frontier",
+        "seasons": [
+          "cold-dry",
+          "hot-dry",
+          "storm-season",
+          "cool-transition"
+        ],
+        "hazards": [
+          "dust-storm",
+          "flash-flood",
+          "heatwave",
+          "cold-snap"
+        ],
+        "modifiers": {
+          "roadGrip": [
+            0.5,
+            0.98
+          ],
+          "visibilityM": [
+            50,
+            22000
+          ],
+          "npcActivity": [
+            0.3,
+            1.0
+          ]
+        },
+        "responses": [
+          "issue-weather-alert",
+          "reroute-public-transport",
+          "open-emergency-depot"
+        ],
+        "countryId": "country-031",
+        "simulationEffects": [
+          "traffic",
+          "visibility",
+          "road-grip",
+          "rail-delay",
+          "river-level",
+          "npc-schedules",
+          "emergency-calls",
+          "power-demand",
+          "asset-wear"
+        ],
+        "dailyCycle": {
+          "forecastHours": 24,
+          "updateMinutes": 15,
+          "seededBy": [
+            "countryId",
+            "terrainSeed",
+            "simulationDay"
+          ]
+        }
+      },
+      "productionAcceptance": {
+        "borderVerified": false,
+        "locationNamesVerified": true,
+        "imagePlacementVerified": false,
+        "weatherSimulationVerified": false,
+        "transportGameplayVerified": false,
+        "nativeStreamingVerified": false
+      }
+    },
+    {
+      "countryId": "country-032",
+      "name": "Norsava",
+      "regionId": "region-khoruun-reach",
+      "identity": "Northern fjord coast",
+      "mapScale": {
+        "unit": "km",
+        "worldExtent": [
+          0,
+          100,
+          0,
+          100
+        ],
+        "cellSize": 2.0
+      },
+      "mapSlices": [
+        {
+          "mapId": "norsava-capital-core",
+          "role": "capital-and-civic-core",
+          "layers": [
+            "border",
+            "capital",
+            "city",
+            "roads",
+            "rail",
+            "weather",
+            "services"
+          ],
+          "sourceFeatures": [
+            "settlements",
+            "roads",
+            "railways"
+          ]
+        },
+        {
+          "mapId": "norsava-resource-frontier",
+          "role": "industry-or-resource-frontier",
+          "layers": [
+            "border",
+            "settlements",
+            "roads",
+            "terrain",
+            "weather",
+            "industry"
+          ],
+          "sourceFeatures": [
+            "mountains",
+            "settlements",
+            "roads",
+            "militaryBases"
+          ]
+        },
+        {
+          "mapId": "norsava-water-and-corridor",
+          "role": "river-lake-or-coastal-corridor",
+          "layers": [
+            "border",
+            "rivers",
+            "lakes",
+            "bridges",
+            "ports",
+            "roads",
+            "weather"
+          ],
+          "sourceFeatures": [
+            "rivers",
+            "lakes",
+            "bridges",
+            "ports",
+            "shipLanes"
+          ]
+        },
+        {
+          "mapId": "norsava-remote-settlements",
+          "role": "remote-villages-and-wilderness",
+          "layers": [
+            "border",
+            "villages",
+            "terrain",
+            "emergency-routes",
+            "weather"
+          ],
+          "sourceFeatures": [
+            "settlements",
+            "mountains",
+            "roads",
+            "submarineZones"
+          ]
+        }
+      ],
+      "visualLayers": [
+        "country-border",
+        "capital-marker",
+        "city-marker",
+        "village-marker",
+        "road-network",
+        "rail-network",
+        "river-and-waterway",
+        "bridge-and-tunnel",
+        "mountains",
+        "weather-overlay",
+        "compass",
+        "scale-bar"
+      ],
+      "imageReferences": [
+        {
+          "assetId": "concept-khoruun-norsava",
+          "status": "reference-only",
+          "path": "assets/concept/khoruun/norsava.png",
+          "canonical": false
+        }
+      ],
+      "terrainContract": {
+        "source": "data/country-content/norsava/terrain.json",
+        "requiredFeatures": [
+          "mountains",
+          "rivers",
+          "roads",
+          "railways",
+          "bridges",
+          "settlements"
+        ],
+        "noBuildZones": [
+          "protected-wilderness",
+          "unstable-slope",
+          "salt-flat-core"
+        ]
+      },
+      "weather": {
+        "climate": "continental-frontier",
+        "seasons": [
+          "cold-dry",
+          "hot-dry",
+          "storm-season",
+          "cool-transition"
+        ],
+        "hazards": [
+          "dust-storm",
+          "flash-flood",
+          "heatwave",
+          "cold-snap"
+        ],
+        "modifiers": {
+          "roadGrip": [
+            0.5,
+            0.98
+          ],
+          "visibilityM": [
+            50,
+            22000
+          ],
+          "npcActivity": [
+            0.3,
+            1.0
+          ]
+        },
+        "responses": [
+          "issue-weather-alert",
+          "reroute-public-transport",
+          "open-emergency-depot"
+        ],
+        "countryId": "country-032",
+        "simulationEffects": [
+          "traffic",
+          "visibility",
+          "road-grip",
+          "rail-delay",
+          "river-level",
+          "npc-schedules",
+          "emergency-calls",
+          "power-demand",
+          "asset-wear"
+        ],
+        "dailyCycle": {
+          "forecastHours": 24,
+          "updateMinutes": 15,
+          "seededBy": [
+            "countryId",
+            "terrainSeed",
+            "simulationDay"
+          ]
+        }
+      },
+      "productionAcceptance": {
+        "borderVerified": false,
+        "locationNamesVerified": true,
+        "imagePlacementVerified": false,
+        "weatherSimulationVerified": false,
+        "transportGameplayVerified": false,
+        "nativeStreamingVerified": false
+      }
+    },
+    {
+      "countryId": "country-033",
+      "name": "Dovrane",
+      "regionId": "region-khoruun-reach",
+      "identity": "Wind farms and salt-water canals",
+      "mapScale": {
+        "unit": "km",
+        "worldExtent": [
+          0,
+          100,
+          0,
+          100
+        ],
+        "cellSize": 2.0
+      },
+      "mapSlices": [
+        {
+          "mapId": "dovrane-capital-core",
+          "role": "capital-and-civic-core",
+          "layers": [
+            "border",
+            "capital",
+            "city",
+            "roads",
+            "rail",
+            "weather",
+            "services"
+          ],
+          "sourceFeatures": [
+            "settlements",
+            "roads",
+            "railways"
+          ]
+        },
+        {
+          "mapId": "dovrane-resource-frontier",
+          "role": "industry-or-resource-frontier",
+          "layers": [
+            "border",
+            "settlements",
+            "roads",
+            "terrain",
+            "weather",
+            "industry"
+          ],
+          "sourceFeatures": [
+            "mountains",
+            "settlements",
+            "roads",
+            "militaryBases"
+          ]
+        },
+        {
+          "mapId": "dovrane-water-and-corridor",
+          "role": "river-lake-or-coastal-corridor",
+          "layers": [
+            "border",
+            "rivers",
+            "lakes",
+            "bridges",
+            "ports",
+            "roads",
+            "weather"
+          ],
+          "sourceFeatures": [
+            "rivers",
+            "lakes",
+            "bridges",
+            "ports",
+            "shipLanes"
+          ]
+        },
+        {
+          "mapId": "dovrane-remote-settlements",
+          "role": "remote-villages-and-wilderness",
+          "layers": [
+            "border",
+            "villages",
+            "terrain",
+            "emergency-routes",
+            "weather"
+          ],
+          "sourceFeatures": [
+            "settlements",
+            "mountains",
+            "roads",
+            "submarineZones"
+          ]
+        }
+      ],
+      "visualLayers": [
+        "country-border",
+        "capital-marker",
+        "city-marker",
+        "village-marker",
+        "road-network",
+        "rail-network",
+        "river-and-waterway",
+        "bridge-and-tunnel",
+        "mountains",
+        "weather-overlay",
+        "compass",
+        "scale-bar"
+      ],
+      "imageReferences": [
+        {
+          "assetId": "concept-khoruun-dovrane",
+          "status": "reference-only",
+          "path": "assets/concept/khoruun/dovrane.png",
+          "canonical": false
+        }
+      ],
+      "terrainContract": {
+        "source": "data/country-content/dovrane/terrain.json",
+        "requiredFeatures": [
+          "mountains",
+          "rivers",
+          "roads",
+          "railways",
+          "bridges",
+          "settlements"
+        ],
+        "noBuildZones": [
+          "protected-wilderness",
+          "unstable-slope",
+          "salt-flat-core"
+        ]
+      },
+      "weather": {
+        "climate": "continental-frontier",
+        "seasons": [
+          "cold-dry",
+          "hot-dry",
+          "storm-season",
+          "cool-transition"
+        ],
+        "hazards": [
+          "dust-storm",
+          "flash-flood",
+          "heatwave",
+          "cold-snap"
+        ],
+        "modifiers": {
+          "roadGrip": [
+            0.5,
+            0.98
+          ],
+          "visibilityM": [
+            50,
+            22000
+          ],
+          "npcActivity": [
+            0.3,
+            1.0
+          ]
+        },
+        "responses": [
+          "issue-weather-alert",
+          "reroute-public-transport",
+          "open-emergency-depot"
+        ],
+        "countryId": "country-033",
+        "simulationEffects": [
+          "traffic",
+          "visibility",
+          "road-grip",
+          "rail-delay",
+          "river-level",
+          "npc-schedules",
+          "emergency-calls",
+          "power-demand",
+          "asset-wear"
+        ],
+        "dailyCycle": {
+          "forecastHours": 24,
+          "updateMinutes": 15,
+          "seededBy": [
+            "countryId",
+            "terrainSeed",
+            "simulationDay"
+          ]
+        }
+      },
+      "productionAcceptance": {
+        "borderVerified": false,
+        "locationNamesVerified": true,
+        "imagePlacementVerified": false,
+        "weatherSimulationVerified": false,
+        "transportGameplayVerified": false,
+        "nativeStreamingVerified": false
+      }
+    },
+    {
+      "countryId": "country-034",
+      "name": "Raskel",
+      "regionId": "region-khoruun-reach",
+      "identity": "Border markets and intelligence intrigue",
+      "mapScale": {
+        "unit": "km",
+        "worldExtent": [
+          0,
+          100,
+          0,
+          100
+        ],
+        "cellSize": 2.0
+      },
+      "mapSlices": [
+        {
+          "mapId": "raskel-capital-core",
+          "role": "capital-and-civic-core",
+          "layers": [
+            "border",
+            "capital",
+            "city",
+            "roads",
+            "rail",
+            "weather",
+            "services"
+          ],
+          "sourceFeatures": [
+            "settlements",
+            "roads",
+            "railways"
+          ]
+        },
+        {
+          "mapId": "raskel-resource-frontier",
+          "role": "industry-or-resource-frontier",
+          "layers": [
+            "border",
+            "settlements",
+            "roads",
+            "terrain",
+            "weather",
+            "industry"
+          ],
+          "sourceFeatures": [
+            "mountains",
+            "settlements",
+            "roads",
+            "militaryBases"
+          ]
+        },
+        {
+          "mapId": "raskel-water-and-corridor",
+          "role": "river-lake-or-coastal-corridor",
+          "layers": [
+            "border",
+            "rivers",
+            "lakes",
+            "bridges",
+            "ports",
+            "roads",
+            "weather"
+          ],
+          "sourceFeatures": [
+            "rivers",
+            "lakes",
+            "bridges",
+            "ports",
+            "shipLanes"
+          ]
+        },
+        {
+          "mapId": "raskel-remote-settlements",
+          "role": "remote-villages-and-wilderness",
+          "layers": [
+            "border",
+            "villages",
+            "terrain",
+            "emergency-routes",
+            "weather"
+          ],
+          "sourceFeatures": [
+            "settlements",
+            "mountains",
+            "roads",
+            "submarineZones"
+          ]
+        }
+      ],
+      "visualLayers": [
+        "country-border",
+        "capital-marker",
+        "city-marker",
+        "village-marker",
+        "road-network",
+        "rail-network",
+        "river-and-waterway",
+        "bridge-and-tunnel",
+        "mountains",
+        "weather-overlay",
+        "compass",
+        "scale-bar"
+      ],
+      "imageReferences": [
+        {
+          "assetId": "concept-khoruun-raskel",
+          "status": "reference-only",
+          "path": "assets/concept/khoruun/raskel.png",
+          "canonical": false
+        }
+      ],
+      "terrainContract": {
+        "source": "data/country-content/raskel/terrain.json",
+        "requiredFeatures": [
+          "mountains",
+          "rivers",
+          "roads",
+          "railways",
+          "bridges",
+          "settlements"
+        ],
+        "noBuildZones": [
+          "protected-wilderness",
+          "unstable-slope",
+          "salt-flat-core"
+        ]
+      },
+      "weather": {
+        "climate": "continental-frontier",
+        "seasons": [
+          "cold-dry",
+          "hot-dry",
+          "storm-season",
+          "cool-transition"
+        ],
+        "hazards": [
+          "dust-storm",
+          "flash-flood",
+          "heatwave",
+          "cold-snap"
+        ],
+        "modifiers": {
+          "roadGrip": [
+            0.5,
+            0.98
+          ],
+          "visibilityM": [
+            50,
+            22000
+          ],
+          "npcActivity": [
+            0.3,
+            1.0
+          ]
+        },
+        "responses": [
+          "issue-weather-alert",
+          "reroute-public-transport",
+          "open-emergency-depot"
+        ],
+        "countryId": "country-034",
+        "simulationEffects": [
+          "traffic",
+          "visibility",
+          "road-grip",
+          "rail-delay",
+          "river-level",
+          "npc-schedules",
+          "emergency-calls",
+          "power-demand",
+          "asset-wear"
+        ],
+        "dailyCycle": {
+          "forecastHours": 24,
+          "updateMinutes": 15,
+          "seededBy": [
+            "countryId",
+            "terrainSeed",
+            "simulationDay"
+          ]
+        }
+      },
+      "productionAcceptance": {
+        "borderVerified": false,
+        "locationNamesVerified": true,
+        "imagePlacementVerified": false,
+        "weatherSimulationVerified": false,
+        "transportGameplayVerified": false,
+        "nativeStreamingVerified": false
+      }
+    },
+    {
+      "countryId": "country-035",
+      "name": "Yurnek",
+      "regionId": "region-khoruun-reach",
+      "identity": "Glacier-fed valleys",
+      "mapScale": {
+        "unit": "km",
+        "worldExtent": [
+          0,
+          100,
+          0,
+          100
+        ],
+        "cellSize": 2.0
+      },
+      "mapSlices": [
+        {
+          "mapId": "yurnek-capital-core",
+          "role": "capital-and-civic-core",
+          "layers": [
+            "border",
+            "capital",
+            "city",
+            "roads",
+            "rail",
+            "weather",
+            "services"
+          ],
+          "sourceFeatures": [
+            "settlements",
+            "roads",
+            "railways"
+          ]
+        },
+        {
+          "mapId": "yurnek-resource-frontier",
+          "role": "industry-or-resource-frontier",
+          "layers": [
+            "border",
+            "settlements",
+            "roads",
+            "terrain",
+            "weather",
+            "industry"
+          ],
+          "sourceFeatures": [
+            "mountains",
+            "settlements",
+            "roads",
+            "militaryBases"
+          ]
+        },
+        {
+          "mapId": "yurnek-water-and-corridor",
+          "role": "river-lake-or-coastal-corridor",
+          "layers": [
+            "border",
+            "rivers",
+            "lakes",
+            "bridges",
+            "ports",
+            "roads",
+            "weather"
+          ],
+          "sourceFeatures": [
+            "rivers",
+            "lakes",
+            "bridges",
+            "ports",
+            "shipLanes"
+          ]
+        },
+        {
+          "mapId": "yurnek-remote-settlements",
+          "role": "remote-villages-and-wilderness",
+          "layers": [
+            "border",
+            "villages",
+            "terrain",
+            "emergency-routes",
+            "weather"
+          ],
+          "sourceFeatures": [
+            "settlements",
+            "mountains",
+            "roads",
+            "submarineZones"
+          ]
+        }
+      ],
+      "visualLayers": [
+        "country-border",
+        "capital-marker",
+        "city-marker",
+        "village-marker",
+        "road-network",
+        "rail-network",
+        "river-and-waterway",
+        "bridge-and-tunnel",
+        "mountains",
+        "weather-overlay",
+        "compass",
+        "scale-bar"
+      ],
+      "imageReferences": [
+        {
+          "assetId": "concept-khoruun-yurnek",
+          "status": "reference-only",
+          "path": "assets/concept/khoruun/yurnek.png",
+          "canonical": false
+        }
+      ],
+      "terrainContract": {
+        "source": "data/country-content/yurnek/terrain.json",
+        "requiredFeatures": [
+          "mountains",
+          "rivers",
+          "roads",
+          "railways",
+          "bridges",
+          "settlements"
+        ],
+        "noBuildZones": [
+          "protected-wilderness",
+          "unstable-slope",
+          "salt-flat-core"
+        ]
+      },
+      "weather": {
+        "climate": "continental-frontier",
+        "seasons": [
+          "cold-dry",
+          "hot-dry",
+          "storm-season",
+          "cool-transition"
+        ],
+        "hazards": [
+          "dust-storm",
+          "flash-flood",
+          "heatwave",
+          "cold-snap"
+        ],
+        "modifiers": {
+          "roadGrip": [
+            0.5,
+            0.98
+          ],
+          "visibilityM": [
+            50,
+            22000
+          ],
+          "npcActivity": [
+            0.3,
+            1.0
+          ]
+        },
+        "responses": [
+          "issue-weather-alert",
+          "reroute-public-transport",
+          "open-emergency-depot"
+        ],
+        "countryId": "country-035",
+        "simulationEffects": [
+          "traffic",
+          "visibility",
+          "road-grip",
+          "rail-delay",
+          "river-level",
+          "npc-schedules",
+          "emergency-calls",
+          "power-demand",
+          "asset-wear"
+        ],
+        "dailyCycle": {
+          "forecastHours": 24,
+          "updateMinutes": 15,
+          "seededBy": [
+            "countryId",
+            "terrainSeed",
+            "simulationDay"
+          ]
+        }
+      },
+      "productionAcceptance": {
+        "borderVerified": false,
+        "locationNamesVerified": true,
+        "imagePlacementVerified": false,
+        "weatherSimulationVerified": false,
+        "transportGameplayVerified": false,
+        "nativeStreamingVerified": false
+      }
+    },
+    {
+      "countryId": "country-036",
+      "name": "Sorevka",
+      "regionId": "region-khoruun-reach",
+      "identity": "Long eastern peninsula",
+      "mapScale": {
+        "unit": "km",
+        "worldExtent": [
+          0,
+          100,
+          0,
+          100
+        ],
+        "cellSize": 2.0
+      },
+      "mapSlices": [
+        {
+          "mapId": "sorevka-capital-core",
+          "role": "capital-and-civic-core",
+          "layers": [
+            "border",
+            "capital",
+            "city",
+            "roads",
+            "rail",
+            "weather",
+            "services"
+          ],
+          "sourceFeatures": [
+            "settlements",
+            "roads",
+            "railways"
+          ]
+        },
+        {
+          "mapId": "sorevka-resource-frontier",
+          "role": "industry-or-resource-frontier",
+          "layers": [
+            "border",
+            "settlements",
+            "roads",
+            "terrain",
+            "weather",
+            "industry"
+          ],
+          "sourceFeatures": [
+            "mountains",
+            "settlements",
+            "roads",
+            "militaryBases"
+          ]
+        },
+        {
+          "mapId": "sorevka-water-and-corridor",
+          "role": "river-lake-or-coastal-corridor",
+          "layers": [
+            "border",
+            "rivers",
+            "lakes",
+            "bridges",
+            "ports",
+            "roads",
+            "weather"
+          ],
+          "sourceFeatures": [
+            "rivers",
+            "lakes",
+            "bridges",
+            "ports",
+            "shipLanes"
+          ]
+        },
+        {
+          "mapId": "sorevka-remote-settlements",
+          "role": "remote-villages-and-wilderness",
+          "layers": [
+            "border",
+            "villages",
+            "terrain",
+            "emergency-routes",
+            "weather"
+          ],
+          "sourceFeatures": [
+            "settlements",
+            "mountains",
+            "roads",
+            "submarineZones"
+          ]
+        }
+      ],
+      "visualLayers": [
+        "country-border",
+        "capital-marker",
+        "city-marker",
+        "village-marker",
+        "road-network",
+        "rail-network",
+        "river-and-waterway",
+        "bridge-and-tunnel",
+        "mountains",
+        "weather-overlay",
+        "compass",
+        "scale-bar"
+      ],
+      "imageReferences": [
+        {
+          "assetId": "concept-khoruun-sorevka",
+          "status": "reference-only",
+          "path": "assets/concept/khoruun/sorevka.png",
+          "canonical": false
+        }
+      ],
+      "terrainContract": {
+        "source": "data/country-content/sorevka/terrain.json",
+        "requiredFeatures": [
+          "mountains",
+          "rivers",
+          "roads",
+          "railways",
+          "bridges",
+          "settlements"
+        ],
+        "noBuildZones": [
+          "protected-wilderness",
+          "unstable-slope",
+          "salt-flat-core"
+        ]
+      },
+      "weather": {
+        "climate": "continental-frontier",
+        "seasons": [
+          "cold-dry",
+          "hot-dry",
+          "storm-season",
+          "cool-transition"
+        ],
+        "hazards": [
+          "dust-storm",
+          "flash-flood",
+          "heatwave",
+          "cold-snap"
+        ],
+        "modifiers": {
+          "roadGrip": [
+            0.5,
+            0.98
+          ],
+          "visibilityM": [
+            50,
+            22000
+          ],
+          "npcActivity": [
+            0.3,
+            1.0
+          ]
+        },
+        "responses": [
+          "issue-weather-alert",
+          "reroute-public-transport",
+          "open-emergency-depot"
+        ],
+        "countryId": "country-036",
+        "simulationEffects": [
+          "traffic",
+          "visibility",
+          "road-grip",
+          "rail-delay",
+          "river-level",
+          "npc-schedules",
+          "emergency-calls",
+          "power-demand",
+          "asset-wear"
+        ],
+        "dailyCycle": {
+          "forecastHours": 24,
+          "updateMinutes": 15,
+          "seededBy": [
+            "countryId",
+            "terrainSeed",
+            "simulationDay"
+          ]
+        }
+      },
+      "productionAcceptance": {
+        "borderVerified": false,
+        "locationNamesVerified": true,
+        "imagePlacementVerified": false,
+        "weatherSimulationVerified": false,
+        "transportGameplayVerified": false,
+        "nativeStreamingVerified": false
+      }
+    },
+    {
+      "countryId": "country-037",
+      "name": "Kelvash",
+      "regionId": "region-khoruun-reach",
+      "identity": "Copper hills and underground cities",
+      "mapScale": {
+        "unit": "km",
+        "worldExtent": [
+          0,
+          100,
+          0,
+          100
+        ],
+        "cellSize": 2.0
+      },
+      "mapSlices": [
+        {
+          "mapId": "kelvash-capital-core",
+          "role": "capital-and-civic-core",
+          "layers": [
+            "border",
+            "capital",
+            "city",
+            "roads",
+            "rail",
+            "weather",
+            "services"
+          ],
+          "sourceFeatures": [
+            "settlements",
+            "roads",
+            "railways"
+          ]
+        },
+        {
+          "mapId": "kelvash-resource-frontier",
+          "role": "industry-or-resource-frontier",
+          "layers": [
+            "border",
+            "settlements",
+            "roads",
+            "terrain",
+            "weather",
+            "industry"
+          ],
+          "sourceFeatures": [
+            "mountains",
+            "settlements",
+            "roads",
+            "militaryBases"
+          ]
+        },
+        {
+          "mapId": "kelvash-water-and-corridor",
+          "role": "river-lake-or-coastal-corridor",
+          "layers": [
+            "border",
+            "rivers",
+            "lakes",
+            "bridges",
+            "ports",
+            "roads",
+            "weather"
+          ],
+          "sourceFeatures": [
+            "rivers",
+            "lakes",
+            "bridges",
+            "ports",
+            "shipLanes"
+          ]
+        },
+        {
+          "mapId": "kelvash-remote-settlements",
+          "role": "remote-villages-and-wilderness",
+          "layers": [
+            "border",
+            "villages",
+            "terrain",
+            "emergency-routes",
+            "weather"
+          ],
+          "sourceFeatures": [
+            "settlements",
+            "mountains",
+            "roads",
+            "submarineZones"
+          ]
+        }
+      ],
+      "visualLayers": [
+        "country-border",
+        "capital-marker",
+        "city-marker",
+        "village-marker",
+        "road-network",
+        "rail-network",
+        "river-and-waterway",
+        "bridge-and-tunnel",
+        "mountains",
+        "weather-overlay",
+        "compass",
+        "scale-bar"
+      ],
+      "imageReferences": [
+        {
+          "assetId": "concept-khoruun-kelvash",
+          "status": "reference-only",
+          "path": "assets/concept/khoruun/kelvash.png",
+          "canonical": false
+        }
+      ],
+      "terrainContract": {
+        "source": "data/country-content/kelvash/terrain.json",
+        "requiredFeatures": [
+          "mountains",
+          "rivers",
+          "roads",
+          "railways",
+          "bridges",
+          "settlements"
+        ],
+        "noBuildZones": [
+          "protected-wilderness",
+          "unstable-slope",
+          "salt-flat-core"
+        ]
+      },
+      "weather": {
+        "climate": "continental-frontier",
+        "seasons": [
+          "cold-dry",
+          "hot-dry",
+          "storm-season",
+          "cool-transition"
+        ],
+        "hazards": [
+          "dust-storm",
+          "flash-flood",
+          "heatwave",
+          "cold-snap"
+        ],
+        "modifiers": {
+          "roadGrip": [
+            0.5,
+            0.98
+          ],
+          "visibilityM": [
+            50,
+            22000
+          ],
+          "npcActivity": [
+            0.3,
+            1.0
+          ]
+        },
+        "responses": [
+          "issue-weather-alert",
+          "reroute-public-transport",
+          "open-emergency-depot"
+        ],
+        "countryId": "country-037",
+        "simulationEffects": [
+          "traffic",
+          "visibility",
+          "road-grip",
+          "rail-delay",
+          "river-level",
+          "npc-schedules",
+          "emergency-calls",
+          "power-demand",
+          "asset-wear"
+        ],
+        "dailyCycle": {
+          "forecastHours": 24,
+          "updateMinutes": 15,
+          "seededBy": [
+            "countryId",
+            "terrainSeed",
+            "simulationDay"
+          ]
+        }
+      },
+      "productionAcceptance": {
+        "borderVerified": false,
+        "locationNamesVerified": true,
+        "imagePlacementVerified": false,
+        "weatherSimulationVerified": false,
+        "transportGameplayVerified": false,
+        "nativeStreamingVerified": false
+      }
+    },
+    {
+      "countryId": "country-038",
+      "name": "Ombrava",
+      "regionId": "region-khoruun-reach",
+      "identity": "Black-soil farming belt",
+      "mapScale": {
+        "unit": "km",
+        "worldExtent": [
+          0,
+          100,
+          0,
+          100
+        ],
+        "cellSize": 2.0
+      },
+      "mapSlices": [
+        {
+          "mapId": "ombrava-capital-core",
+          "role": "capital-and-civic-core",
+          "layers": [
+            "border",
+            "capital",
+            "city",
+            "roads",
+            "rail",
+            "weather",
+            "services"
+          ],
+          "sourceFeatures": [
+            "settlements",
+            "roads",
+            "railways"
+          ]
+        },
+        {
+          "mapId": "ombrava-resource-frontier",
+          "role": "industry-or-resource-frontier",
+          "layers": [
+            "border",
+            "settlements",
+            "roads",
+            "terrain",
+            "weather",
+            "industry"
+          ],
+          "sourceFeatures": [
+            "mountains",
+            "settlements",
+            "roads",
+            "militaryBases"
+          ]
+        },
+        {
+          "mapId": "ombrava-water-and-corridor",
+          "role": "river-lake-or-coastal-corridor",
+          "layers": [
+            "border",
+            "rivers",
+            "lakes",
+            "bridges",
+            "ports",
+            "roads",
+            "weather"
+          ],
+          "sourceFeatures": [
+            "rivers",
+            "lakes",
+            "bridges",
+            "ports",
+            "shipLanes"
+          ]
+        },
+        {
+          "mapId": "ombrava-remote-settlements",
+          "role": "remote-villages-and-wilderness",
+          "layers": [
+            "border",
+            "villages",
+            "terrain",
+            "emergency-routes",
+            "weather"
+          ],
+          "sourceFeatures": [
+            "settlements",
+            "mountains",
+            "roads",
+            "submarineZones"
+          ]
+        }
+      ],
+      "visualLayers": [
+        "country-border",
+        "capital-marker",
+        "city-marker",
+        "village-marker",
+        "road-network",
+        "rail-network",
+        "river-and-waterway",
+        "bridge-and-tunnel",
+        "mountains",
+        "weather-overlay",
+        "compass",
+        "scale-bar"
+      ],
+      "imageReferences": [
+        {
+          "assetId": "concept-khoruun-ombrava",
+          "status": "reference-only",
+          "path": "assets/concept/khoruun/ombrava.png",
+          "canonical": false
+        }
+      ],
+      "terrainContract": {
+        "source": "data/country-content/ombrava/terrain.json",
+        "requiredFeatures": [
+          "mountains",
+          "rivers",
+          "roads",
+          "railways",
+          "bridges",
+          "settlements"
+        ],
+        "noBuildZones": [
+          "protected-wilderness",
+          "unstable-slope",
+          "salt-flat-core"
+        ]
+      },
+      "weather": {
+        "climate": "continental-frontier",
+        "seasons": [
+          "cold-dry",
+          "hot-dry",
+          "storm-season",
+          "cool-transition"
+        ],
+        "hazards": [
+          "dust-storm",
+          "flash-flood",
+          "heatwave",
+          "cold-snap"
+        ],
+        "modifiers": {
+          "roadGrip": [
+            0.5,
+            0.98
+          ],
+          "visibilityM": [
+            50,
+            22000
+          ],
+          "npcActivity": [
+            0.3,
+            1.0
+          ]
+        },
+        "responses": [
+          "issue-weather-alert",
+          "reroute-public-transport",
+          "open-emergency-depot"
+        ],
+        "countryId": "country-038",
+        "simulationEffects": [
+          "traffic",
+          "visibility",
+          "road-grip",
+          "rail-delay",
+          "river-level",
+          "npc-schedules",
+          "emergency-calls",
+          "power-demand",
+          "asset-wear"
+        ],
+        "dailyCycle": {
+          "forecastHours": 24,
+          "updateMinutes": 15,
+          "seededBy": [
+            "countryId",
+            "terrainSeed",
+            "simulationDay"
+          ]
+        }
+      },
+      "productionAcceptance": {
+        "borderVerified": false,
+        "locationNamesVerified": true,
+        "imagePlacementVerified": false,
+        "weatherSimulationVerified": false,
+        "transportGameplayVerified": false,
+        "nativeStreamingVerified": false
+      }
+    }
+  ]
+}
