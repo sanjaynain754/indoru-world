@@ -57,11 +57,12 @@
       "regionId": "region-khoruun-reach",
       "identity": "Red canyon federation",
       "globePlacement": {
-        "latitudeDegrees": 34.0,
+        "latitudeDegrees": 42.0,
         "longitudeDegrees": 24.0,
         "coordinateSystem": "WGS84-like fictional globe",
         "pinAnchor": "capital",
-        "datelineSafe": true
+        "datelineSafe": true,
+        "climateBand": "arid-canyon"
       },
       "mapScale": {
         "unit": "km",
@@ -195,10 +196,11 @@
           "cold-night"
         ],
         "hazards": [
-          "flash-flood",
           "dust-storm",
-          "rockfall",
-          "extreme-heat"
+          "extreme-heat",
+          "flash-flood",
+          "heatwave",
+          "rockfall"
         ],
         "modifiers": {
           "roadGrip": [
@@ -220,6 +222,11 @@
           "reroute-freight"
         ],
         "countryId": "country-021",
+        "globalClimateBand": "arid-canyon",
+        "weatherPartition": "south-red-canyon",
+        "latitudeDriven": true,
+        "latitudeDegrees": 42.0,
+        "globalClimateRule": "derived from geodetic latitude; altitude and terrain refine local weather",
         "simulationEffects": [
           "traffic",
           "visibility",
@@ -256,11 +263,12 @@
       "regionId": "region-khoruun-reach",
       "identity": "Salt flats and solar energy",
       "globePlacement": {
-        "latitudeDegrees": 39.4,
+        "latitudeDegrees": 47.2,
         "longitudeDegrees": 26.2,
         "coordinateSystem": "WGS84-like fictional globe",
         "pinAnchor": "capital",
-        "datelineSafe": true
+        "datelineSafe": true,
+        "climateBand": "arid-canyon"
       },
       "mapScale": {
         "unit": "km",
@@ -394,10 +402,11 @@
           "cold-clear"
         ],
         "hazards": [
-          "salt-corrosion",
           "dust-storm",
+          "flash-flood",
           "heat-haze",
-          "flash-flood"
+          "heatwave",
+          "salt-corrosion"
         ],
         "modifiers": {
           "roadGrip": [
@@ -419,6 +428,11 @@
           "reroute-service-convoy"
         ],
         "countryId": "country-022",
+        "globalClimateBand": "arid-canyon",
+        "weatherPartition": "south-red-canyon",
+        "latitudeDriven": true,
+        "latitudeDegrees": 47.2,
+        "globalClimateRule": "derived from geodetic latitude; altitude and terrain refine local weather",
         "simulationEffects": [
           "traffic",
           "visibility",
@@ -455,11 +469,12 @@
       "regionId": "region-khoruun-reach",
       "identity": "Cold border plateau",
       "globePlacement": {
-        "latitudeDegrees": 44.8,
+        "latitudeDegrees": 52.4,
         "longitudeDegrees": 28.4,
         "coordinateSystem": "WGS84-like fictional globe",
         "pinAnchor": "capital",
-        "datelineSafe": true
+        "datelineSafe": true,
+        "climateBand": "temperate-plateau"
       },
       "mapScale": {
         "unit": "km",
@@ -593,10 +608,12 @@
           "freeze-up"
         ],
         "hazards": [
-          "blizzard",
-          "black-ice",
           "avalanche",
-          "permafrost-heave"
+          "black-ice",
+          "blizzard",
+          "permafrost-heave",
+          "rockfall",
+          "snow"
         ],
         "modifiers": {
           "roadGrip": [
@@ -618,6 +635,11 @@
           "delay-rail-service"
         ],
         "countryId": "country-023",
+        "globalClimateBand": "temperate-plateau",
+        "weatherPartition": "middle-polar",
+        "latitudeDriven": true,
+        "latitudeDegrees": 52.4,
+        "globalClimateRule": "derived from geodetic latitude; altitude and terrain refine local weather",
         "simulationEffects": [
           "traffic",
           "visibility",
@@ -654,11 +676,12 @@
       "regionId": "region-khoruun-reach",
       "identity": "Canyon railways and mining towns",
       "globePlacement": {
-        "latitudeDegrees": 50.2,
+        "latitudeDegrees": 57.6,
         "longitudeDegrees": 30.6,
         "coordinateSystem": "WGS84-like fictional globe",
         "pinAnchor": "capital",
-        "datelineSafe": true
+        "datelineSafe": true,
+        "climateBand": "temperate-plateau"
       },
       "mapScale": {
         "unit": "km",
@@ -792,10 +815,12 @@
           "cold-evening"
         ],
         "hazards": [
-          "rockfall",
-          "mine-subsidence",
+          "black-ice",
           "dust-storm",
-          "flash-flood"
+          "flash-flood",
+          "mine-subsidence",
+          "rockfall",
+          "snow"
         ],
         "modifiers": {
           "roadGrip": [
@@ -817,6 +842,11 @@
           "close-blast-zone"
         ],
         "countryId": "country-024",
+        "globalClimateBand": "temperate-plateau",
+        "weatherPartition": "middle-polar",
+        "latitudeDriven": true,
+        "latitudeDegrees": 57.6,
+        "globalClimateRule": "derived from geodetic latitude; altitude and terrain refine local weather",
         "simulationEffects": [
           "traffic",
           "visibility",
@@ -853,11 +883,12 @@
       "regionId": "region-khoruun-reach",
       "identity": "Storm coast and shipyards",
       "globePlacement": {
-        "latitudeDegrees": 55.6,
+        "latitudeDegrees": 62.8,
         "longitudeDegrees": 32.8,
         "coordinateSystem": "WGS84-like fictional globe",
         "pinAnchor": "capital",
-        "datelineSafe": true
+        "datelineSafe": true,
+        "climateBand": "temperate-plateau"
       },
       "mapScale": {
         "unit": "km",
@@ -991,10 +1022,13 @@
           "cool-transition"
         ],
         "hazards": [
+          "black-ice",
+          "cold-snap",
           "dust-storm",
           "flash-flood",
           "heatwave",
-          "cold-snap"
+          "rockfall",
+          "snow"
         ],
         "modifiers": {
           "roadGrip": [
@@ -1016,6 +1050,11 @@
           "open-emergency-depot"
         ],
         "countryId": "country-025",
+        "globalClimateBand": "temperate-plateau",
+        "weatherPartition": "middle-polar",
+        "latitudeDriven": true,
+        "latitudeDegrees": 62.8,
+        "globalClimateRule": "derived from geodetic latitude; altitude and terrain refine local weather",
         "simulationEffects": [
           "traffic",
           "visibility",
@@ -1052,11 +1091,12 @@
       "regionId": "region-khoruun-reach",
       "identity": "Wide steppe and mobile settlements",
       "globePlacement": {
-        "latitudeDegrees": 61.0,
+        "latitudeDegrees": 68.0,
         "longitudeDegrees": 35.0,
         "coordinateSystem": "WGS84-like fictional globe",
         "pinAnchor": "capital",
-        "datelineSafe": true
+        "datelineSafe": true,
+        "climateBand": "polar-highland"
       },
       "mapScale": {
         "unit": "km",
@@ -1190,10 +1230,13 @@
           "cool-transition"
         ],
         "hazards": [
+          "avalanche",
+          "black-ice",
+          "blizzard",
+          "cold-snap",
           "dust-storm",
           "flash-flood",
-          "heatwave",
-          "cold-snap"
+          "heatwave"
         ],
         "modifiers": {
           "roadGrip": [
@@ -1215,6 +1258,11 @@
           "open-emergency-depot"
         ],
         "countryId": "country-026",
+        "globalClimateBand": "polar-highland",
+        "weatherPartition": "north-polar",
+        "latitudeDriven": true,
+        "latitudeDegrees": 68.0,
+        "globalClimateRule": "derived from geodetic latitude; altitude and terrain refine local weather",
         "simulationEffects": [
           "traffic",
           "visibility",
@@ -1251,11 +1299,12 @@
       "regionId": "region-khoruun-reach",
       "identity": "High pass republic",
       "globePlacement": {
-        "latitudeDegrees": 34.8,
+        "latitudeDegrees": 43.4,
         "longitudeDegrees": 49.0,
         "coordinateSystem": "WGS84-like fictional globe",
         "pinAnchor": "capital",
-        "datelineSafe": true
+        "datelineSafe": true,
+        "climateBand": "arid-canyon"
       },
       "mapScale": {
         "unit": "km",
@@ -1389,10 +1438,10 @@
           "cool-transition"
         ],
         "hazards": [
+          "cold-snap",
           "dust-storm",
           "flash-flood",
-          "heatwave",
-          "cold-snap"
+          "heatwave"
         ],
         "modifiers": {
           "roadGrip": [
@@ -1414,6 +1463,11 @@
           "open-emergency-depot"
         ],
         "countryId": "country-027",
+        "globalClimateBand": "arid-canyon",
+        "weatherPartition": "south-red-canyon",
+        "latitudeDriven": true,
+        "latitudeDegrees": 43.4,
+        "globalClimateRule": "derived from geodetic latitude; altitude and terrain refine local weather",
         "simulationEffects": [
           "traffic",
           "visibility",
@@ -1450,11 +1504,12 @@
       "regionId": "region-khoruun-reach",
       "identity": "Ancient ruins and dry basin",
       "globePlacement": {
-        "latitudeDegrees": 40.2,
+        "latitudeDegrees": 48.6,
         "longitudeDegrees": 51.2,
         "coordinateSystem": "WGS84-like fictional globe",
         "pinAnchor": "capital",
-        "datelineSafe": true
+        "datelineSafe": true,
+        "climateBand": "arid-canyon"
       },
       "mapScale": {
         "unit": "km",
@@ -1588,10 +1643,10 @@
           "cool-transition"
         ],
         "hazards": [
+          "cold-snap",
           "dust-storm",
           "flash-flood",
-          "heatwave",
-          "cold-snap"
+          "heatwave"
         ],
         "modifiers": {
           "roadGrip": [
@@ -1613,6 +1668,11 @@
           "open-emergency-depot"
         ],
         "countryId": "country-028",
+        "globalClimateBand": "arid-canyon",
+        "weatherPartition": "south-red-canyon",
+        "latitudeDriven": true,
+        "latitudeDegrees": 48.6,
+        "globalClimateRule": "derived from geodetic latitude; altitude and terrain refine local weather",
         "simulationEffects": [
           "traffic",
           "visibility",
@@ -1649,11 +1709,12 @@
       "regionId": "region-khoruun-reach",
       "identity": "Heavy industry and river dams",
       "globePlacement": {
-        "latitudeDegrees": 45.6,
+        "latitudeDegrees": 53.8,
         "longitudeDegrees": 53.4,
         "coordinateSystem": "WGS84-like fictional globe",
         "pinAnchor": "capital",
-        "datelineSafe": true
+        "datelineSafe": true,
+        "climateBand": "temperate-plateau"
       },
       "mapScale": {
         "unit": "km",
@@ -1787,10 +1848,13 @@
           "cool-transition"
         ],
         "hazards": [
+          "black-ice",
+          "cold-snap",
           "dust-storm",
           "flash-flood",
           "heatwave",
-          "cold-snap"
+          "rockfall",
+          "snow"
         ],
         "modifiers": {
           "roadGrip": [
@@ -1812,6 +1876,11 @@
           "open-emergency-depot"
         ],
         "countryId": "country-029",
+        "globalClimateBand": "temperate-plateau",
+        "weatherPartition": "middle-polar",
+        "latitudeDriven": true,
+        "latitudeDegrees": 53.8,
+        "globalClimateRule": "derived from geodetic latitude; altitude and terrain refine local weather",
         "simulationEffects": [
           "traffic",
           "visibility",
@@ -1848,11 +1917,12 @@
       "regionId": "region-khoruun-reach",
       "identity": "Cedar-like forests and lakes",
       "globePlacement": {
-        "latitudeDegrees": 51.0,
+        "latitudeDegrees": 59.0,
         "longitudeDegrees": 55.6,
         "coordinateSystem": "WGS84-like fictional globe",
         "pinAnchor": "capital",
-        "datelineSafe": true
+        "datelineSafe": true,
+        "climateBand": "temperate-plateau"
       },
       "mapScale": {
         "unit": "km",
@@ -1986,10 +2056,13 @@
           "cool-transition"
         ],
         "hazards": [
+          "black-ice",
+          "cold-snap",
           "dust-storm",
           "flash-flood",
           "heatwave",
-          "cold-snap"
+          "rockfall",
+          "snow"
         ],
         "modifiers": {
           "roadGrip": [
@@ -2011,6 +2084,11 @@
           "open-emergency-depot"
         ],
         "countryId": "country-030",
+        "globalClimateBand": "temperate-plateau",
+        "weatherPartition": "middle-polar",
+        "latitudeDriven": true,
+        "latitudeDegrees": 59.0,
+        "globalClimateRule": "derived from geodetic latitude; altitude and terrain refine local weather",
         "simulationEffects": [
           "traffic",
           "visibility",
@@ -2047,11 +2125,12 @@
       "regionId": "region-khoruun-reach",
       "identity": "Independent frontier province turned nation",
       "globePlacement": {
-        "latitudeDegrees": 56.4,
+        "latitudeDegrees": 64.2,
         "longitudeDegrees": 57.8,
         "coordinateSystem": "WGS84-like fictional globe",
         "pinAnchor": "capital",
-        "datelineSafe": true
+        "datelineSafe": true,
+        "climateBand": "polar-highland"
       },
       "mapScale": {
         "unit": "km",
@@ -2185,10 +2264,13 @@
           "cool-transition"
         ],
         "hazards": [
+          "avalanche",
+          "black-ice",
+          "blizzard",
+          "cold-snap",
           "dust-storm",
           "flash-flood",
-          "heatwave",
-          "cold-snap"
+          "heatwave"
         ],
         "modifiers": {
           "roadGrip": [
@@ -2210,6 +2292,11 @@
           "open-emergency-depot"
         ],
         "countryId": "country-031",
+        "globalClimateBand": "polar-highland",
+        "weatherPartition": "north-polar",
+        "latitudeDriven": true,
+        "latitudeDegrees": 64.2,
+        "globalClimateRule": "derived from geodetic latitude; altitude and terrain refine local weather",
         "simulationEffects": [
           "traffic",
           "visibility",
@@ -2246,11 +2333,12 @@
       "regionId": "region-khoruun-reach",
       "identity": "Northern fjord coast",
       "globePlacement": {
-        "latitudeDegrees": 61.8,
+        "latitudeDegrees": 69.4,
         "longitudeDegrees": 60.0,
         "coordinateSystem": "WGS84-like fictional globe",
         "pinAnchor": "capital",
-        "datelineSafe": true
+        "datelineSafe": true,
+        "climateBand": "polar-highland"
       },
       "mapScale": {
         "unit": "km",
@@ -2384,10 +2472,13 @@
           "cool-transition"
         ],
         "hazards": [
+          "avalanche",
+          "black-ice",
+          "blizzard",
+          "cold-snap",
           "dust-storm",
           "flash-flood",
-          "heatwave",
-          "cold-snap"
+          "heatwave"
         ],
         "modifiers": {
           "roadGrip": [
@@ -2409,6 +2500,11 @@
           "open-emergency-depot"
         ],
         "countryId": "country-032",
+        "globalClimateBand": "polar-highland",
+        "weatherPartition": "north-polar",
+        "latitudeDriven": true,
+        "latitudeDegrees": 69.4,
+        "globalClimateRule": "derived from geodetic latitude; altitude and terrain refine local weather",
         "simulationEffects": [
           "traffic",
           "visibility",
@@ -2445,11 +2541,12 @@
       "regionId": "region-khoruun-reach",
       "identity": "Wind farms and salt-water canals",
       "globePlacement": {
-        "latitudeDegrees": 35.6,
+        "latitudeDegrees": 44.8,
         "longitudeDegrees": 74.0,
         "coordinateSystem": "WGS84-like fictional globe",
         "pinAnchor": "capital",
-        "datelineSafe": true
+        "datelineSafe": true,
+        "climateBand": "arid-canyon"
       },
       "mapScale": {
         "unit": "km",
@@ -2583,10 +2680,10 @@
           "cool-transition"
         ],
         "hazards": [
+          "cold-snap",
           "dust-storm",
           "flash-flood",
-          "heatwave",
-          "cold-snap"
+          "heatwave"
         ],
         "modifiers": {
           "roadGrip": [
@@ -2608,6 +2705,11 @@
           "open-emergency-depot"
         ],
         "countryId": "country-033",
+        "globalClimateBand": "arid-canyon",
+        "weatherPartition": "south-red-canyon",
+        "latitudeDriven": true,
+        "latitudeDegrees": 44.8,
+        "globalClimateRule": "derived from geodetic latitude; altitude and terrain refine local weather",
         "simulationEffects": [
           "traffic",
           "visibility",
@@ -2644,11 +2746,12 @@
       "regionId": "region-khoruun-reach",
       "identity": "Border markets and intelligence intrigue",
       "globePlacement": {
-        "latitudeDegrees": 41.0,
+        "latitudeDegrees": 50.0,
         "longitudeDegrees": 76.2,
         "coordinateSystem": "WGS84-like fictional globe",
         "pinAnchor": "capital",
-        "datelineSafe": true
+        "datelineSafe": true,
+        "climateBand": "arid-canyon"
       },
       "mapScale": {
         "unit": "km",
@@ -2782,10 +2885,10 @@
           "cool-transition"
         ],
         "hazards": [
+          "cold-snap",
           "dust-storm",
           "flash-flood",
-          "heatwave",
-          "cold-snap"
+          "heatwave"
         ],
         "modifiers": {
           "roadGrip": [
@@ -2807,6 +2910,11 @@
           "open-emergency-depot"
         ],
         "countryId": "country-034",
+        "globalClimateBand": "arid-canyon",
+        "weatherPartition": "south-red-canyon",
+        "latitudeDriven": true,
+        "latitudeDegrees": 50.0,
+        "globalClimateRule": "derived from geodetic latitude; altitude and terrain refine local weather",
         "simulationEffects": [
           "traffic",
           "visibility",
@@ -2843,11 +2951,12 @@
       "regionId": "region-khoruun-reach",
       "identity": "Glacier-fed valleys",
       "globePlacement": {
-        "latitudeDegrees": 46.4,
+        "latitudeDegrees": 55.2,
         "longitudeDegrees": 78.4,
         "coordinateSystem": "WGS84-like fictional globe",
         "pinAnchor": "capital",
-        "datelineSafe": true
+        "datelineSafe": true,
+        "climateBand": "temperate-plateau"
       },
       "mapScale": {
         "unit": "km",
@@ -2981,10 +3090,13 @@
           "cool-transition"
         ],
         "hazards": [
+          "black-ice",
+          "cold-snap",
           "dust-storm",
           "flash-flood",
           "heatwave",
-          "cold-snap"
+          "rockfall",
+          "snow"
         ],
         "modifiers": {
           "roadGrip": [
@@ -3006,6 +3118,11 @@
           "open-emergency-depot"
         ],
         "countryId": "country-035",
+        "globalClimateBand": "temperate-plateau",
+        "weatherPartition": "middle-polar",
+        "latitudeDriven": true,
+        "latitudeDegrees": 55.2,
+        "globalClimateRule": "derived from geodetic latitude; altitude and terrain refine local weather",
         "simulationEffects": [
           "traffic",
           "visibility",
@@ -3042,11 +3159,12 @@
       "regionId": "region-khoruun-reach",
       "identity": "Long eastern peninsula",
       "globePlacement": {
-        "latitudeDegrees": 51.8,
+        "latitudeDegrees": 60.4,
         "longitudeDegrees": 80.6,
         "coordinateSystem": "WGS84-like fictional globe",
         "pinAnchor": "capital",
-        "datelineSafe": true
+        "datelineSafe": true,
+        "climateBand": "temperate-plateau"
       },
       "mapScale": {
         "unit": "km",
@@ -3180,10 +3298,13 @@
           "cool-transition"
         ],
         "hazards": [
+          "black-ice",
+          "cold-snap",
           "dust-storm",
           "flash-flood",
           "heatwave",
-          "cold-snap"
+          "rockfall",
+          "snow"
         ],
         "modifiers": {
           "roadGrip": [
@@ -3205,6 +3326,11 @@
           "open-emergency-depot"
         ],
         "countryId": "country-036",
+        "globalClimateBand": "temperate-plateau",
+        "weatherPartition": "middle-polar",
+        "latitudeDriven": true,
+        "latitudeDegrees": 60.4,
+        "globalClimateRule": "derived from geodetic latitude; altitude and terrain refine local weather",
         "simulationEffects": [
           "traffic",
           "visibility",
@@ -3241,11 +3367,12 @@
       "regionId": "region-khoruun-reach",
       "identity": "Copper hills and underground cities",
       "globePlacement": {
-        "latitudeDegrees": 57.2,
+        "latitudeDegrees": 65.6,
         "longitudeDegrees": 82.8,
         "coordinateSystem": "WGS84-like fictional globe",
         "pinAnchor": "capital",
-        "datelineSafe": true
+        "datelineSafe": true,
+        "climateBand": "polar-highland"
       },
       "mapScale": {
         "unit": "km",
@@ -3379,10 +3506,13 @@
           "cool-transition"
         ],
         "hazards": [
+          "avalanche",
+          "black-ice",
+          "blizzard",
+          "cold-snap",
           "dust-storm",
           "flash-flood",
-          "heatwave",
-          "cold-snap"
+          "heatwave"
         ],
         "modifiers": {
           "roadGrip": [
@@ -3404,6 +3534,11 @@
           "open-emergency-depot"
         ],
         "countryId": "country-037",
+        "globalClimateBand": "polar-highland",
+        "weatherPartition": "north-polar",
+        "latitudeDriven": true,
+        "latitudeDegrees": 65.6,
+        "globalClimateRule": "derived from geodetic latitude; altitude and terrain refine local weather",
         "simulationEffects": [
           "traffic",
           "visibility",
@@ -3440,11 +3575,12 @@
       "regionId": "region-khoruun-reach",
       "identity": "Black-soil farming belt",
       "globePlacement": {
-        "latitudeDegrees": 62.6,
+        "latitudeDegrees": 70.8,
         "longitudeDegrees": 85.0,
         "coordinateSystem": "WGS84-like fictional globe",
         "pinAnchor": "capital",
-        "datelineSafe": true
+        "datelineSafe": true,
+        "climateBand": "polar-highland"
       },
       "mapScale": {
         "unit": "km",
@@ -3578,10 +3714,13 @@
           "cool-transition"
         ],
         "hazards": [
+          "avalanche",
+          "black-ice",
+          "blizzard",
+          "cold-snap",
           "dust-storm",
           "flash-flood",
-          "heatwave",
-          "cold-snap"
+          "heatwave"
         ],
         "modifiers": {
           "roadGrip": [
@@ -3603,6 +3742,11 @@
           "open-emergency-depot"
         ],
         "countryId": "country-038",
+        "globalClimateBand": "polar-highland",
+        "weatherPartition": "north-polar",
+        "latitudeDriven": true,
+        "latitudeDegrees": 70.8,
+        "globalClimateRule": "derived from geodetic latitude; altitude and terrain refine local weather",
         "simulationEffects": [
           "traffic",
           "visibility",

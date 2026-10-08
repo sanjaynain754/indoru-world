@@ -57,6 +57,8 @@ Khoruun is authored on a globe coordinate contract rather than a permanently fla
 
 The region is divided into three visual climate bands. The northern highlands are snow and ice with blizzard and avalanche risk. The middle belt combines cold plateau, forest and rockfall exposure. The southern belt contains arid canyons, salt flats and flash-flood or heatwave risk. These bands are presentation and simulation hints; final weather remains driven by the deterministic native weather sampler and local terrain/elevation data.
 
+The band is now derived from each country's globe latitude rather than selected only from its fictional identity. Khoruun country placement spans approximately 42°N to 71°N: below 52°N uses the South Red Canyon partition, 52°N–63.999°N uses Middle Polar, and 64°N or higher uses North Polar. Altitude, terrain and coast exposure refine the local weather after this global classification. This keeps the upper side of Khoruun cold while allowing its southern belt to remain a believable red-canyon and salt-flat transition.
+
 ## Production acceptance gates
 
 A Khoruun country is not complete until:
