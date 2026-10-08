@@ -89,3 +89,11 @@ weatherProfiles=18
 The output is `data/region-baselines/khoruun-reach.json`. It is a production planning contract; final terrain meshes, textures, lighting, VFX and authored city assets remain native-runtime work.
 
 The native implementation is in `engine/cpp/include/indoru/globe_projection.hpp` and `engine/cpp/src/globe_projection.cpp`. Its regression test covers pole conversion, coordinate round-trip, dateline wrapping and pin animation completion.
+
+## Winter life package
+
+The first detailed content slice is the generated `winter-life.json` package for every one of the 18 countries. It provides three residential colony archetypes, four heated shop/service types, a winter mobility and home showroom, and repeatable NPC loops for heating checks, market delivery, safe school routes, snow-clearing shifts, warm cafés and storm-shelter response. The design uses cold-climate principles such as continuous insulation, airtight envelopes, high-performance windows, mechanical fresh air, pipe-freeze protection, wind shelter, snow storage and protected pedestrian entries. Snow is also a civic and economic identity: markets, festivals, winter recreation and rescue logistics should make the season playable rather than merely punitive.
+
+The generated package is a gameplay contract, not a claim that final AAA meshes or animation assets already exist. Authored buildings, materials, crowds, audio, VFX and performance budgets remain the next implementation layers.
+
+Design references: [U.S. Department of Energy cold and very cold climate guides](https://www.energy.gov/cmei/buildings/guides-and-case-studies-cold-and-very-cold-climates) and [Michigan State University Extension winter-city placemaking guidance](https://www.canr.msu.edu/news/what_is_a_winter_citys_placemaking_strategy).
