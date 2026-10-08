@@ -23,6 +23,7 @@ add_library(indoru_engine STATIC
     src/globe_projection.cpp
     src/weather_partition.cpp
     src/country_map_streaming.cpp
+    src/earth_gravity.cpp
 )
 
 target_include_directories(indoru_engine PUBLIC include)
@@ -104,3 +105,8 @@ add_executable(indoru_khoruun_runtime_test tests/khoruun_runtime_smoke.cpp)
 target_link_libraries(indoru_khoruun_runtime_test PRIVATE indoru_engine)
 target_compile_options(indoru_khoruun_runtime_test PRIVATE -Wall -Wextra -Wpedantic -Wconversion -Wshadow)
 add_test(NAME khoruun_runtime_smoke COMMAND indoru_khoruun_runtime_test)
+
+add_executable(indoru_earth_gravity_test tests/earth_gravity_smoke.cpp)
+target_link_libraries(indoru_earth_gravity_test PRIVATE indoru_engine)
+target_compile_options(indoru_earth_gravity_test PRIVATE -Wall -Wextra -Wpedantic -Wconversion -Wshadow)
+add_test(NAME earth_gravity_smoke COMMAND indoru_earth_gravity_test)

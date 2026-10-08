@@ -37,6 +37,7 @@ Temporary labels such as `D1`, `D2`, `E1` and `E2` are not part of the canonical
 | `engine/cpp/include/indoru/globe_projection.hpp` | Spherical latitude/longitude projection and dateline-safe pin animation |
 | `engine/cpp/include/indoru/weather_partition.hpp` | North Polar, Middle Polar and South Red Canyon partitions with bounded snow/dust showroom particles |
 | `engine/cpp/include/indoru/country_map_streaming.hpp` | Globe-pin country translation and prioritized four-slice resident streaming |
+| `engine/cpp/include/indoru/earth_gravity.hpp` | WGS84-style latitude/altitude normal gravity and globe-center down direction |
 | `docs/architecture-workflow-and-roadmap.md` | Native PC architecture diagram, data flow and implementation roadmap |
 
 ## UI behavior
