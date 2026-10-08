@@ -1,0 +1,215 @@
+{
+  "schemaVersion": 1,
+  "countryId": "country-035",
+  "countryName": "Yurnek",
+  "regionId": "region-khoruun-reach",
+  "source": "deterministic-cold-climate-baseline",
+  "globe": {
+    "latitudeDegrees": 55.2,
+    "climateBand": "temperate-plateau",
+    "weatherPartition": "middle-polar"
+  },
+  "winterDesign": {
+    "buildingProfile": "cold-plateau-insulated",
+    "winterIntensity": 0.7,
+    "thermalEnvelope": [
+      "continuous-insulation",
+      "air-sealed-envelope",
+      "triple-pane-or-equivalent-windows",
+      "mechanical-fresh-air",
+      "pipe-freeze-protection"
+    ],
+    "heatingSystems": [
+      "district-heat",
+      "heat-pump",
+      "sealed-thermal-envelope"
+    ],
+    "snowAndWindSystems": [
+      "roof-snow-load",
+      "wind-shelter",
+      "snow-dump-zone",
+      "ice-grit-depot"
+    ],
+    "mobilitySystems": [
+      "all-weather-road",
+      "heated-bus-stop",
+      "winter-rail-maintenance"
+    ],
+    "publicRealm": [
+      "sun-facing-rest-area",
+      "wind-sheltered-square",
+      "covered-entry-canopies",
+      "winter-lighting",
+      "snow-storage-kept-away-from-drainage"
+    ]
+  },
+  "residentialDistricts": [
+    {
+      "id": "country-035-heated-courtyard",
+      "type": "heated-courtyard-colony",
+      "homes": 59,
+      "features": [
+        "shared-heating-loop",
+        "covered-entry",
+        "drying-room",
+        "child-safe-snow-play"
+      ]
+    },
+    {
+      "id": "country-035-wind-shelter-colony",
+      "type": "wind-sheltered-family-colony",
+      "homes": 50,
+      "features": [
+        "windbreak-blocks",
+        "heated-footpath",
+        "grocery-nearby",
+        "clinic-route"
+      ]
+    },
+    {
+      "id": "country-035-service-housing",
+      "type": "worker-and-service-housing",
+      "homes": 21,
+      "features": [
+        "garage-access",
+        "shift-worker-common-room",
+        "emergency-power"
+      ]
+    }
+  ],
+  "shopsAndServices": [
+    {
+      "id": "country-035-winter-market",
+      "type": "heated-market",
+      "name": "Yurnek Winter Market",
+      "openHours": [
+        7,
+        22
+      ],
+      "delivery": [
+        "snow-road",
+        "rail-freight"
+      ],
+      "services": [
+        "groceries",
+        "warm-food",
+        "local-produce",
+        "winter-clothing"
+      ]
+    },
+    {
+      "id": "country-035-repair-row",
+      "type": "vehicle-and-heating-repair",
+      "name": "Yurnek Repair Row",
+      "openHours": [
+        6,
+        23
+      ],
+      "delivery": [
+        "road",
+        "service-van"
+      ],
+      "services": [
+        "vehicle-repair",
+        "snow-plow-repair",
+        "boiler-service",
+        "tire-chain-fitting"
+      ]
+    },
+    {
+      "id": "country-035-health-corner",
+      "type": "clinic-and-pharmacy",
+      "name": "Yurnek Health Corner",
+      "openHours": [
+        0,
+        24
+      ],
+      "delivery": [
+        "emergency-road",
+        "medevac"
+      ],
+      "services": [
+        "clinic",
+        "pharmacy",
+        "cold-injury-response"
+      ]
+    },
+    {
+      "id": "country-035-barber-cafe",
+      "type": "barber-and-warm-cafe",
+      "name": "Yurnek Warm Corner",
+      "openHours": [
+        8,
+        21
+      ],
+      "delivery": [
+        "pedestrian",
+        "heated-bus"
+      ],
+      "services": [
+        "barber",
+        "cafe",
+        "public-heating-lounge"
+      ]
+    }
+  ],
+  "showroom": {
+    "id": "country-035-winter-showroom",
+    "type": "winter-mobility-and-home-showroom",
+    "name": "Yurnek Snowline Showroom",
+    "exhibits": [
+      "insulated-home-module",
+      "district-heating-control",
+      "snow-clearing-vehicle",
+      "tracked-rescue-vehicle",
+      "winter-rail-car",
+      "cold-weather-clothing"
+    ],
+    "demoRoute": [
+      "heated-market",
+      "snow-depot",
+      "mountain-pass-gate",
+      "remote-village"
+    ],
+    "interactiveActions": [
+      "compare-heating-cost",
+      "test-snow-traction",
+      "plan-winter-delivery",
+      "inspect-insulation",
+      "dispatch-rescue-vehicle"
+    ]
+  },
+  "weatherGameplay": {
+    "hazardInputs": [
+      "black-ice",
+      "cold-snap",
+      "dust-storm",
+      "flash-flood",
+      "heatwave",
+      "rockfall",
+      "snow"
+    ],
+    "responses": [
+      "clear-priority-roads",
+      "open-warm-shelter",
+      "reroute-market-delivery",
+      "protect-water-pipes",
+      "delay-or-resume-rail",
+      "dispatch-medical-rescue"
+    ],
+    "npcLoops": [
+      "morning-heating-check",
+      "market-delivery",
+      "school-safe-route",
+      "snow-clearing-shift",
+      "evening-warm-cafe",
+      "storm-shelter-callout"
+    ]
+  },
+  "assetPolicy": {
+    "status": "generated-contract",
+    "requiresAuthoredMeshes": true,
+    "requiresWinterMaterials": true,
+    "requiresGameplayHooks": true
+  }
+}

@@ -64,6 +64,18 @@ for country in countries:
         fail(f"incomplete feature package for {country['countryId']}")
     if len(features["settlements"]) < 2 or len(features["roads"]) < 1 or len(features["rivers"]) < 1:
         fail(f"country {country['countryId']} lacks basic geography features")
+    if country.get("region") == "Khoruun Reach":
+        winter_path = package_dir / "winter-life.json"
+        if not winter_path.is_file():
+            fail(f"missing Khoruun winter-life package for {country['countryId']}")
+        winter = json.loads(winter_path.read_text(encoding="utf-8"))
+        if winter.get("countryId") != country["countryId"] or winter.get("regionId") != "region-khoruun-reach":
+            fail(f"winter-life identity mismatch for {country['countryId']}")
+        if len(winter.get("residentialDistricts", [])) < 3 or len(winter.get("shopsAndServices", [])) < 4:
+            fail(f"winter-life package incomplete for {country['countryId']}")
+        showroom = winter.get("showroom", {})
+        if not showroom.get("exhibits") or not showroom.get("interactiveActions"):
+            fail(f"winter showroom incomplete for {country['countryId']}")
     transport_path = transport_root / f"{country['name'].lower()}.json"
     if not transport_path.is_file():
         fail(f"missing transport network for {country['countryId']}")

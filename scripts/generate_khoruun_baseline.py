@@ -41,13 +41,28 @@ def map_slices(country: dict[str, Any], terrain: dict[str, Any]) -> list[dict[st
     ]
 
 
+def climate_band(latitude: float) -> tuple[str, str, list[str]]:
+    if latitude >= 64.0:
+        return "polar-highland", "north-polar", ["blizzard", "avalanche", "black-ice"]
+    if latitude >= 52.0:
+        return "temperate-plateau", "middle-polar", ["black-ice", "rockfall", "snow"]
+    return "arid-canyon", "south-red-canyon", ["dust-storm", "flash-flood", "heatwave"]
+
+
 def build_country(country: dict[str, Any], terrain: dict[str, Any]) -> dict[str, Any]:
     identity = country.get("identity", "")
     weather = dict(WEATHER_BY_IDENTITY.get(identity, DEFAULT_WEATHER))
     ordinal = int(country["countryId"].split("-")[-1]) - 21
-    latitude = 34.0 + (ordinal % 6) * 5.4 + (ordinal // 6) * 0.8
+    latitude = 42.0 + (ordinal % 6) * 5.2 + (ordinal // 6) * 1.4
     longitude = 24.0 + (ordinal // 6) * 25.0 + (ordinal % 6) * 2.2
+    band, partition, band_hazards = climate_band(latitude)
     weather["countryId"] = country["countryId"]
+    weather["globalClimateBand"] = band
+    weather["weatherPartition"] = partition
+    weather["latitudeDriven"] = True
+    weather["latitudeDegrees"] = round(latitude, 4)
+    weather["hazards"] = sorted(set(weather.get("hazards", [])) | set(band_hazards))
+    weather["globalClimateRule"] = "derived from geodetic latitude; altitude and terrain refine local weather"
     weather["simulationEffects"] = ["traffic", "visibility", "road-grip", "rail-delay", "river-level", "npc-schedules", "emergency-calls", "power-demand", "asset-wear"]
     weather["dailyCycle"] = {"forecastHours": 24, "updateMinutes": 15, "seededBy": ["countryId", "terrainSeed", "simulationDay"]}
     return {
@@ -55,7 +70,7 @@ def build_country(country: dict[str, Any], terrain: dict[str, Any]) -> dict[str,
         "name": country["name"],
         "regionId": "region-khoruun-reach",
         "identity": identity,
-        "globePlacement": {"latitudeDegrees": round(latitude, 4), "longitudeDegrees": round(longitude, 4), "coordinateSystem": "WGS84-like fictional globe", "pinAnchor": "capital", "datelineSafe": True},
+        "globePlacement": {"latitudeDegrees": round(latitude, 4), "longitudeDegrees": round(longitude, 4), "coordinateSystem": "WGS84-like fictional globe", "pinAnchor": "capital", "datelineSafe": True, "climateBand": band},
         "mapScale": {"unit": "km", "worldExtent": [0, 100, 0, 100], "cellSize": 2.0},
         "mapSlices": map_slices(country, terrain),
         "visualLayers": ["country-border", "capital-marker", "city-marker", "village-marker", "road-network", "rail-network", "river-and-waterway", "bridge-and-tunnel", "mountains", "weather-overlay", "compass", "scale-bar"],

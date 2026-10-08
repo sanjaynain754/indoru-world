@@ -1,0 +1,215 @@
+{
+  "schemaVersion": 1,
+  "countryId": "country-032",
+  "countryName": "Norsava",
+  "regionId": "region-khoruun-reach",
+  "source": "deterministic-cold-climate-baseline",
+  "globe": {
+    "latitudeDegrees": 69.4,
+    "climateBand": "polar-highland",
+    "weatherPartition": "north-polar"
+  },
+  "winterDesign": {
+    "buildingProfile": "polar-insulated",
+    "winterIntensity": 1.0,
+    "thermalEnvelope": [
+      "continuous-insulation",
+      "air-sealed-envelope",
+      "triple-pane-or-equivalent-windows",
+      "mechanical-fresh-air",
+      "pipe-freeze-protection"
+    ],
+    "heatingSystems": [
+      "district-heat",
+      "backup-boiler",
+      "heated-entry"
+    ],
+    "snowAndWindSystems": [
+      "roof-snow-load",
+      "covered-walkway",
+      "snow-dump-zone",
+      "blizzard-shelter"
+    ],
+    "mobilitySystems": [
+      "tracked-service-vehicle",
+      "snow-cleared-priority-route",
+      "heated-bus-stop"
+    ],
+    "publicRealm": [
+      "sun-facing-rest-area",
+      "wind-sheltered-square",
+      "covered-entry-canopies",
+      "winter-lighting",
+      "snow-storage-kept-away-from-drainage"
+    ]
+  },
+  "residentialDistricts": [
+    {
+      "id": "country-032-heated-courtyard",
+      "type": "heated-courtyard-colony",
+      "homes": 62,
+      "features": [
+        "shared-heating-loop",
+        "covered-entry",
+        "drying-room",
+        "child-safe-snow-play"
+      ]
+    },
+    {
+      "id": "country-032-wind-shelter-colony",
+      "type": "wind-sheltered-family-colony",
+      "homes": 36,
+      "features": [
+        "windbreak-blocks",
+        "heated-footpath",
+        "grocery-nearby",
+        "clinic-route"
+      ]
+    },
+    {
+      "id": "country-032-service-housing",
+      "type": "worker-and-service-housing",
+      "homes": 18,
+      "features": [
+        "garage-access",
+        "shift-worker-common-room",
+        "emergency-power"
+      ]
+    }
+  ],
+  "shopsAndServices": [
+    {
+      "id": "country-032-winter-market",
+      "type": "heated-market",
+      "name": "Norsava Winter Market",
+      "openHours": [
+        7,
+        22
+      ],
+      "delivery": [
+        "snow-road",
+        "rail-freight"
+      ],
+      "services": [
+        "groceries",
+        "warm-food",
+        "local-produce",
+        "winter-clothing"
+      ]
+    },
+    {
+      "id": "country-032-repair-row",
+      "type": "vehicle-and-heating-repair",
+      "name": "Norsava Repair Row",
+      "openHours": [
+        6,
+        23
+      ],
+      "delivery": [
+        "road",
+        "service-van"
+      ],
+      "services": [
+        "vehicle-repair",
+        "snow-plow-repair",
+        "boiler-service",
+        "tire-chain-fitting"
+      ]
+    },
+    {
+      "id": "country-032-health-corner",
+      "type": "clinic-and-pharmacy",
+      "name": "Norsava Health Corner",
+      "openHours": [
+        0,
+        24
+      ],
+      "delivery": [
+        "emergency-road",
+        "medevac"
+      ],
+      "services": [
+        "clinic",
+        "pharmacy",
+        "cold-injury-response"
+      ]
+    },
+    {
+      "id": "country-032-barber-cafe",
+      "type": "barber-and-warm-cafe",
+      "name": "Norsava Warm Corner",
+      "openHours": [
+        8,
+        21
+      ],
+      "delivery": [
+        "pedestrian",
+        "heated-bus"
+      ],
+      "services": [
+        "barber",
+        "cafe",
+        "public-heating-lounge"
+      ]
+    }
+  ],
+  "showroom": {
+    "id": "country-032-winter-showroom",
+    "type": "winter-mobility-and-home-showroom",
+    "name": "Norsava Snowline Showroom",
+    "exhibits": [
+      "insulated-home-module",
+      "district-heating-control",
+      "snow-clearing-vehicle",
+      "tracked-rescue-vehicle",
+      "winter-rail-car",
+      "cold-weather-clothing"
+    ],
+    "demoRoute": [
+      "heated-market",
+      "snow-depot",
+      "mountain-pass-gate",
+      "remote-village"
+    ],
+    "interactiveActions": [
+      "compare-heating-cost",
+      "test-snow-traction",
+      "plan-winter-delivery",
+      "inspect-insulation",
+      "dispatch-rescue-vehicle"
+    ]
+  },
+  "weatherGameplay": {
+    "hazardInputs": [
+      "avalanche",
+      "black-ice",
+      "blizzard",
+      "cold-snap",
+      "dust-storm",
+      "flash-flood",
+      "heatwave"
+    ],
+    "responses": [
+      "clear-priority-roads",
+      "open-warm-shelter",
+      "reroute-market-delivery",
+      "protect-water-pipes",
+      "delay-or-resume-rail",
+      "dispatch-medical-rescue"
+    ],
+    "npcLoops": [
+      "morning-heating-check",
+      "market-delivery",
+      "school-safe-route",
+      "snow-clearing-shift",
+      "evening-warm-cafe",
+      "storm-shelter-callout"
+    ]
+  },
+  "assetPolicy": {
+    "status": "generated-contract",
+    "requiresAuthoredMeshes": true,
+    "requiresWinterMaterials": true,
+    "requiresGameplayHooks": true
+  }
+}
