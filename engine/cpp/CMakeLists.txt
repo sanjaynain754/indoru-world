@@ -24,6 +24,7 @@ add_library(indoru_engine STATIC
     src/weather_partition.cpp
     src/country_map_streaming.cpp
     src/earth_gravity.cpp
+    src/planet_day_night.cpp
 )
 
 target_include_directories(indoru_engine PUBLIC include)
@@ -110,3 +111,8 @@ add_executable(indoru_earth_gravity_test tests/earth_gravity_smoke.cpp)
 target_link_libraries(indoru_earth_gravity_test PRIVATE indoru_engine)
 target_compile_options(indoru_earth_gravity_test PRIVATE -Wall -Wextra -Wpedantic -Wconversion -Wshadow)
 add_test(NAME earth_gravity_smoke COMMAND indoru_earth_gravity_test)
+
+add_executable(indoru_planet_day_night_test tests/planet_day_night_smoke.cpp)
+target_link_libraries(indoru_planet_day_night_test PRIVATE indoru_engine)
+target_compile_options(indoru_planet_day_night_test PRIVATE -Wall -Wextra -Wpedantic -Wconversion -Wshadow)
+add_test(NAME planet_day_night_smoke COMMAND indoru_planet_day_night_test)

@@ -14,6 +14,12 @@ At sea-level reference height, gravity varies with latitude: it is lower near th
 
 Input safety bounds are latitude `[-90°, +90°]` and gameplay altitude `[-1,000 m, +100,000 m]`. Invalid input returns a safe zero sample rather than propagating NaN values into the physics engine.
 
+## Day and night
+
+The planet clock models a solar day, an orbital year and axial tilt. The runtime derives solar declination, the subsolar longitude, local solar hour, solar elevation and azimuth. It exposes both hard daylight and civil twilight, plus a bounded daylight factor for lighting and sky blending. Polar regions therefore receive long seasonal day/night periods rather than an artificial fixed 12-hour cycle.
+
+The implementation is deliberately deterministic and presentation-friendly: terrain, weather and NPC systems can sample the same clock and location to remain synchronized. The next refinement is a renderer-side sun, sky and shadow integration; it will consume this state rather than inventing a second time model.
+
 ## Branch ownership
 
 - `world/globe-gravity`: planet coordinates, globe projection, Earth gravity, global climate bands and future orbital/rotation systems.
