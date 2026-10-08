@@ -21,6 +21,8 @@ add_library(indoru_engine STATIC
     src/state_system.cpp
     src/weather_simulation.cpp
     src/globe_projection.cpp
+    src/weather_partition.cpp
+    src/country_map_streaming.cpp
 )
 
 target_include_directories(indoru_engine PUBLIC include)
@@ -97,3 +99,8 @@ add_executable(indoru_globe_projection_test tests/globe_projection_smoke.cpp)
 target_link_libraries(indoru_globe_projection_test PRIVATE indoru_engine)
 target_compile_options(indoru_globe_projection_test PRIVATE -Wall -Wextra -Wpedantic -Wconversion -Wshadow)
 add_test(NAME globe_projection_smoke COMMAND indoru_globe_projection_test)
+
+add_executable(indoru_khoruun_runtime_test tests/khoruun_runtime_smoke.cpp)
+target_link_libraries(indoru_khoruun_runtime_test PRIVATE indoru_engine)
+target_compile_options(indoru_khoruun_runtime_test PRIVATE -Wall -Wextra -Wpedantic -Wconversion -Wshadow)
+add_test(NAME khoruun_runtime_smoke COMMAND indoru_khoruun_runtime_test)
