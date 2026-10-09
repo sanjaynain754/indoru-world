@@ -1,0 +1,47 @@
+name: Native Engine and World Data Checks
+
+on:
+  push:
+    branches: [main, 'world/**', 'region/**', 'docs/**', 'polish/**']
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: engine-and-data-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  engine-tests:
+    name: Native C++ engine tests
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Configure native engine (Debug keeps asserts enabled)
+        run: cmake -S engine/cpp -B build -DCMAKE_BUILD_TYPE=Debug
+      - name: Build native engine and tests
+        run: cmake --build build --parallel 2
+      - name: Run native C++ test suite
+        run: ctest --test-dir build --output-on-failure
+
+  world-data-checks:
+    name: World data validators
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Validate canonical world data
+        run: python3 scripts/validate_world_data.py
+      - name: Validate regional baselines
+        run: python3 scripts/validate_region_baselines.py
+      - name: Validate imported UE5 world manifest
+        run: python3 tools/validate_ue5_world_manifest.py
+      - name: Run Avarra baseline regression test
+        run: python3 scripts/test_avarra_baseline.py

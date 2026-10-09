@@ -18,7 +18,7 @@ Input safety bounds are latitude `[-90°, +90°]` and gameplay altitude `[-1,000
 
 The planet clock models a solar day, an orbital year and axial tilt. The runtime derives solar declination, the subsolar longitude, local solar hour, solar elevation and azimuth. It exposes both hard daylight and civil twilight, plus a bounded daylight factor for lighting and sky blending. Polar regions therefore receive long seasonal day/night periods rather than an artificial fixed 12-hour cycle.
 
-The implementation is deliberately deterministic and presentation-friendly: terrain, weather and NPC systems can sample the same clock and location to remain synchronized. The next refinement is a renderer-side sun, sky and shadow integration; it will consume this state rather than inventing a second time model.
+The implementation is deliberately deterministic and presentation-friendly: terrain, weather and NPC systems can sample the same clock and location to remain synchronized. The renderer-side sun, sky and shadow integration now exists as `indoru::sky` and consumes this state rather than inventing a second time model.
 
 ## Ocean, coast and beach foundation
 
@@ -42,6 +42,28 @@ The ocean system now derives synthetic water temperature, salinity, density and 
 ## Mathematical global terrain tiles
 
 `indoru::terrain` provides a procedural equirectangular tile contract. A tile is addressed by `{level, x, y}` over the complete longitude/latitude domain, with deterministic bounds and grid generation. Its mathematical field produces land elevation, ocean bathymetry depth, slope and moisture from a seed. This gives the renderer and region streaming systems a stable global scaffold without importing real-world geography. Region-owned terrain packages can later replace or blend the field at selected tiles while preserving the same tile identity and sampling API.
+
+## Sky, sun, moon and shadow integration
+
+`indoru::sky` is the renderer-facing lighting contract. It never re-derives solar geometry: it consumes a `planet::SunState` plus an optional local `atmosphere::State` and produces the presentation values a renderer needs.
+
+- Sun: unit direction in the globe frame (east/north/up basis at the sampled location), irradiance, and an air-mass-driven colour that reddens toward the horizon. Civil twilight contributes a bounded ambient term so the transition at the horizon stays continuous.
+- Sky and ambient: zenith, horizon and ambient linear-RGB colours blended from the day-night model's own `daylightFactor`, with a warm sunset band that peaks at the horizon and is damped by cloud cover.
+- Fog: colour derived from the sky gradient plus a density that grows with cloud cover and humidity and decays with observer altitude.
+- Stars: visibility suppressed by daylight and cloud, with a deterministic seed-driven night-sky tint.
+- Moon: a phase-shifted view of the same clock. The synodic month drives the elongation from the sun, so new moon sits with the sun and full moon sits opposite it; illumination, direction, elevation and intensity follow from that single phase.
+- Shadow: light direction, a ground-projected length factor that is disabled at or below the horizon, softness from sun altitude and cloud cover, and intensity for shadow-map blending.
+- Exposure: a bounded multiplier hint (1.0 in full daylight, larger at night) so tone mapping does not need a second brightness model.
+
+All colours are bounded to the 0..1 linear range and invalid input returns a safe default state instead of NaN values.
+
+## Unified environment sample
+
+`indoru::environment` is the single entry point for the runtime and streaming layers. One call at one location and one simulation time returns gravity, ground, atmosphere, sun, sky and water derived from the same clock and the same forcing, so no subsystem invents its own time or forcing model.
+
+It wires the subsystems together rather than duplicating them: terrain supplies elevation, bathymetry, slope and the ocean flag; gravity is sampled at the terrain surface through the documented altitude clamp; the orbital phase feeds the atmosphere; the atmosphere's wind drives the ocean forcing; and the sky consumes the resulting sun and air state. `State::valid` reports whether the inputs were accepted, so a rejected sample is distinguishable from a legitimate all-zero one.
+
+Region branches override the per-system `Config` values instead of forking the pipeline, which keeps Khoruun-style regional work additive.
 
 ## Branch ownership
 

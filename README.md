@@ -39,6 +39,8 @@ Temporary labels such as `D1`, `D2`, `E1` and `E2` are not part of the canonical
 | `engine/cpp/include/indoru/country_map_streaming.hpp` | Globe-pin country translation and prioritized four-slice resident streaming |
 | `engine/cpp/include/indoru/earth_gravity.hpp` | WGS84-style latitude/altitude normal gravity and globe-center down direction |
 | `engine/cpp/include/indoru/planet_day_night.hpp` | Axial-tilt seasons, solar position, daylight and civil twilight sampling |
+| `engine/cpp/include/indoru/planet_sky.hpp` | Renderer-facing sun, sky, moon, fog, star and shadow state from the planet clock |
+| `engine/cpp/include/indoru/planet_environment.hpp` | One-call gravity, ground, atmosphere, sun, sky and water sample for the runtime |
 | `docs/architecture-workflow-and-roadmap.md` | Native PC architecture diagram, data flow and implementation roadmap |
 
 ## UI behavior

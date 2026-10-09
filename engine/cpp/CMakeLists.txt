@@ -28,6 +28,8 @@ add_library(indoru_engine STATIC
     src/planet_ocean.cpp
     src/planet_atmosphere.cpp
     src/planet_terrain.cpp
+    src/planet_sky.cpp
+    src/planet_environment.cpp
 )
 
 target_include_directories(indoru_engine PUBLIC include)
@@ -134,3 +136,13 @@ add_executable(indoru_planet_terrain_test tests/planet_terrain_smoke.cpp)
 target_link_libraries(indoru_planet_terrain_test PRIVATE indoru_engine)
 target_compile_options(indoru_planet_terrain_test PRIVATE -Wall -Wextra -Wpedantic -Wconversion -Wshadow)
 add_test(NAME planet_terrain_smoke COMMAND indoru_planet_terrain_test)
+
+add_executable(indoru_planet_sky_test tests/planet_sky_smoke.cpp)
+target_link_libraries(indoru_planet_sky_test PRIVATE indoru_engine)
+target_compile_options(indoru_planet_sky_test PRIVATE -Wall -Wextra -Wpedantic -Wconversion -Wshadow)
+add_test(NAME planet_sky_smoke COMMAND indoru_planet_sky_test)
+
+add_executable(indoru_planet_environment_test tests/planet_environment_smoke.cpp)
+target_link_libraries(indoru_planet_environment_test PRIVATE indoru_engine)
+target_compile_options(indoru_planet_environment_test PRIVATE -Wall -Wextra -Wpedantic -Wconversion -Wshadow)
+add_test(NAME planet_environment_smoke COMMAND indoru_planet_environment_test)
