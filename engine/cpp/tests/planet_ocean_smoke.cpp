@@ -21,6 +21,10 @@ int main() {
     assert(deep.zone == ocean::CoastalZone::DeepOcean);
     assert(deep.significantWaveHeightMeters > 0.0);
     assert(deep.dominantPeriodSeconds >= 2.0);
+    assert(deep.waterTemperatureC > config.polarTemperatureC);
+    assert(deep.salinityPsu >= 28.0 && deep.salinityPsu <= 40.0);
+    assert(deep.waterDensityKgPerM3 > 0.0);
+    assert(std::isfinite(deep.currentEastMetersPerSecond));
     assert(std::isfinite(deep.surfaceElevationMeters));
 
     const ocean::CoastSample beach{{20.0, 30.0}, 2.0, 0.0, 5.0};

@@ -25,6 +25,12 @@ struct Config final {
     double shallowWaterDepthMeters{20.0};
     double breakingDepthRatio{0.78};
     double waterDensityKgPerM3{1'025.0};
+    std::uint64_t syntheticSeed{0x0CEA2026ULL};
+    double equatorialTemperatureC{27.0};
+    double polarTemperatureC{-1.0};
+    double seasonalTemperatureAmplitudeC{3.0};
+    double baseSalinityPsu{34.5};
+    double maximumCurrentMetersPerSecond{1.6};
 };
 
 struct Forcing final {
@@ -35,6 +41,7 @@ struct Forcing final {
     double swellHeightMeters{0.0};
     double swellPeriodSeconds{12.0};
     double tidePhaseRadians{0.0};
+    double seasonalPhaseRadians{0.0};
 };
 
 struct CoastSample final {
@@ -59,6 +66,11 @@ struct OceanState final {
     double foamFactor{0.0};
     double surfaceVelocityXMetersPerSecond{0.0};
     double surfaceVelocityZMetersPerSecond{0.0};
+    double currentEastMetersPerSecond{0.0};
+    double currentNorthMetersPerSecond{0.0};
+    double waterTemperatureC{0.0};
+    double salinityPsu{0.0};
+    double waterDensityKgPerM3{0.0};
     earth::GravitySample gravity{};
 };
 

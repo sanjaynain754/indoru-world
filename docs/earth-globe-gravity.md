@@ -33,6 +33,16 @@ The implementation is deliberately deterministic and presentation-friendly: terr
 
 This is a simulation foundation rather than a renderer. A future renderer can use `surfaceElevationMeters`, `surfaceVelocityXMetersPerSecond`, `surfaceVelocityZMetersPerSecond` and `foamFactor` for animated water, shore foam, spray and reflections without creating a second water clock. Terrain or bathymetry streaming supplies `CoastSample::terrainElevationMeters` and `seabedDepthMeters`; the native system then remains valid for the whole globe, including beaches and storm coasts.
 
+## Game atmosphere and synthetic ocean fields
+
+`indoru::atmosphere` provides a deliberately stylized, seed-driven atmosphere rather than a copied real-world weather dataset. It samples temperature, pressure, humidity, cloud factor, precipitation, air density and an east/north/up wind vector from location, simulation time, altitude and a region-friendly forcing profile. Wind direction is expressed as degrees clockwise from north. The field is deterministic, bounded and suitable for gameplay, streaming and replay.
+
+The ocean system now derives synthetic water temperature, salinity, density and east/north current velocity from the same location, season and seed. These fields are not intended to reproduce Earth’s actual coastlines or currents. They create consistent game behavior for boats, swimming, fishing, storms and renderer effects while allowing region branches to override local parameters.
+
+## Mathematical global terrain tiles
+
+`indoru::terrain` provides a procedural equirectangular tile contract. A tile is addressed by `{level, x, y}` over the complete longitude/latitude domain, with deterministic bounds and grid generation. Its mathematical field produces land elevation, ocean bathymetry depth, slope and moisture from a seed. This gives the renderer and region streaming systems a stable global scaffold without importing real-world geography. Region-owned terrain packages can later replace or blend the field at selected tiles while preserving the same tile identity and sampling API.
+
 ## Branch ownership
 
 - `world/globe-gravity`: planet coordinates, globe projection, Earth gravity, global climate bands and future orbital/rotation systems.

@@ -47,6 +47,11 @@ double wave_length(double gravity, double period, double depth) noexcept {
     return std::max(0.1, deepWaterLength * shallowCorrection);
 }
 
+double synthetic_noise(double latitude, double longitude, double time, std::uint64_t seed) noexcept {
+    const double phase = static_cast<double>(seed % 65'536U) * 0.00017;
+    return std::sin(latitude * 3.1 + longitude * 2.4 + time * 0.000006 + phase);
+}
+
 CoastalZone classify_zone(const Config& config, const CoastSample& coast, double waterDepth) noexcept {
     if (waterDepth > 0.0) {
         return waterDepth < config.shallowWaterDepthMeters ? CoastalZone::ShallowSea : CoastalZone::DeepOcean;
@@ -68,7 +73,11 @@ bool valid_config(const Config& config) noexcept {
            std::isfinite(config.shallowWaterDepthMeters) && config.shallowWaterDepthMeters > 0.0 &&
            std::isfinite(config.breakingDepthRatio) && config.breakingDepthRatio > 0.0 &&
            config.breakingDepthRatio <= 1.0 && std::isfinite(config.waterDensityKgPerM3) &&
-           config.waterDensityKgPerM3 > 0.0;
+           config.waterDensityKgPerM3 > 0.0 && std::isfinite(config.equatorialTemperatureC) &&
+           std::isfinite(config.polarTemperatureC) && config.equatorialTemperatureC > config.polarTemperatureC &&
+           finite_non_negative(config.seasonalTemperatureAmplitudeC) && std::isfinite(config.baseSalinityPsu) &&
+           config.baseSalinityPsu > 0.0 && std::isfinite(config.maximumCurrentMetersPerSecond) &&
+           config.maximumCurrentMetersPerSecond > 0.0;
 }
 
 bool valid_forcing(const Forcing& forcing) noexcept {
@@ -76,7 +85,8 @@ bool valid_forcing(const Forcing& forcing) noexcept {
            std::isfinite(forcing.windDirectionDegrees) && finite_non_negative(forcing.fetchMeters) &&
            finite_non_negative(forcing.swellHeightMeters) && std::isfinite(forcing.swellPeriodSeconds) &&
            forcing.swellPeriodSeconds >= MinimumWavePeriodSeconds &&
-           forcing.swellPeriodSeconds <= MaximumWavePeriodSeconds && std::isfinite(forcing.tidePhaseRadians);
+           forcing.swellPeriodSeconds <= MaximumWavePeriodSeconds && std::isfinite(forcing.tidePhaseRadians) &&
+           std::isfinite(forcing.seasonalPhaseRadians);
 }
 
 bool valid_coast_sample(const CoastSample& sample) noexcept {
@@ -100,10 +110,37 @@ OceanState sample(const Config& config, const Forcing& forcing, const CoastSampl
     state.zone = classify_zone(config, coast, state.waterDepthMeters);
     state.surfaceElevationMeters = state.submerged ? tideAdjustedSeaLevel : coast.terrainElevationMeters;
 
+    if (state.submerged) {
+        const double latitude = radians(coast.location.latitudeDegrees);
+        const double longitude = radians(coast.location.longitudeDegrees);
+        const double latitudeBlend = std::pow(std::max(0.0, std::cos(latitude)), 0.65);
+        const double noise = synthetic_noise(latitude, longitude, forcing.simulationSeconds, config.syntheticSeed);
+        state.waterTemperatureC = config.polarTemperatureC +
+                                  (config.equatorialTemperatureC - config.polarTemperatureC) * latitudeBlend +
+                                  config.seasonalTemperatureAmplitudeC * std::cos(latitude) *
+                                      std::sin(forcing.seasonalPhaseRadians) + noise * 1.5;
+        state.salinityPsu = clamp(config.baseSalinityPsu + noise * 0.8 +
+                                      0.35 * std::sin(longitude * 2.0 - latitude * 1.5),
+                                  28.0, 40.0);
+        state.waterDensityKgPerM3 = config.waterDensityKgPerM3 +
+                                    (state.salinityPsu - config.baseSalinityPsu) * 0.75 -
+                                    (state.waterTemperatureC - 15.0) * 0.2;
+        const double gyre = std::sin(latitude * 2.0 + forcing.seasonalPhaseRadians + noise * 0.35);
+        const double currentScale = config.maximumCurrentMetersPerSecond *
+                                    (0.35 + 0.65 * std::abs(std::cos(latitude)));
+        state.currentEastMetersPerSecond = currentScale * gyre;
+        state.currentNorthMetersPerSecond = currentScale * 0.35 *
+                                            std::sin(longitude * 1.7 - forcing.seasonalPhaseRadians);
+    }
+
     const double windWaveHeight = fetch_limited_wind_wave_height(state.gravityMetersPerSecondSquared, forcing);
     const double swellHeight = forcing.swellHeightMeters;
     const double combinedHeight = std::sqrt(windWaveHeight * windWaveHeight + swellHeight * swellHeight);
-    if (!state.submerged || combinedHeight <= 1e-9) return state;
+    if (!state.submerged || combinedHeight <= 1e-9) {
+        state.surfaceVelocityXMetersPerSecond = state.currentEastMetersPerSecond;
+        state.surfaceVelocityZMetersPerSecond = state.currentNorthMetersPerSecond;
+        return state;
+    }
 
     state.dominantPeriodSeconds = clamp(
         std::max(forcing.swellPeriodSeconds, 7.54 * forcing.windSpeedMetersPerSecond / state.gravityMetersPerSecondSquared),
@@ -126,8 +163,10 @@ OceanState sample(const Config& config, const Forcing& forcing, const CoastSampl
     const double amplitude = 0.5 * state.significantWaveHeightMeters;
     state.surfaceElevationMeters += amplitude * std::sin(wavePhase);
     const double velocityAmplitude = amplitude * 2.0 * Pi / state.dominantPeriodSeconds;
-    state.surfaceVelocityXMetersPerSecond = velocityAmplitude * std::cos(wavePhase) * std::cos(direction);
-    state.surfaceVelocityZMetersPerSecond = velocityAmplitude * std::cos(wavePhase) * std::sin(direction);
+    state.surfaceVelocityXMetersPerSecond = state.currentEastMetersPerSecond +
+                                            velocityAmplitude * std::cos(wavePhase) * std::cos(direction);
+    state.surfaceVelocityZMetersPerSecond = state.currentNorthMetersPerSecond +
+                                            velocityAmplitude * std::cos(wavePhase) * std::sin(direction);
     return state;
 }
 
@@ -142,8 +181,9 @@ BuoyancyResult buoyancy(const Config& config,
         !std::isfinite(bodyMassKg) || bodyMassKg <= 0.0 || !std::isfinite(submergedFraction)) return result;
 
     const double fraction = clamp(submergedFraction, 0.0, 1.0);
+    const double density = state.waterDensityKgPerM3 > 0.0 ? state.waterDensityKgPerM3 : config.waterDensityKgPerM3;
     result.accelerationMetersPerSecondSquared =
-        config.waterDensityKgPerM3 * displacedVolumeM3 * state.gravityMetersPerSecondSquared * fraction / bodyMassKg;
+        density * displacedVolumeM3 * state.gravityMetersPerSecondSquared * fraction / bodyMassKg;
     result.acceleration = {
         -state.gravity.downX * result.accelerationMetersPerSecondSquared,
         -state.gravity.downY * result.accelerationMetersPerSecondSquared,

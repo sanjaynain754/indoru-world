@@ -26,6 +26,8 @@ add_library(indoru_engine STATIC
     src/earth_gravity.cpp
     src/planet_day_night.cpp
     src/planet_ocean.cpp
+    src/planet_atmosphere.cpp
+    src/planet_terrain.cpp
 )
 
 target_include_directories(indoru_engine PUBLIC include)
@@ -122,3 +124,13 @@ add_executable(indoru_planet_ocean_test tests/planet_ocean_smoke.cpp)
 target_link_libraries(indoru_planet_ocean_test PRIVATE indoru_engine)
 target_compile_options(indoru_planet_ocean_test PRIVATE -Wall -Wextra -Wpedantic -Wconversion -Wshadow)
 add_test(NAME planet_ocean_smoke COMMAND indoru_planet_ocean_test)
+
+add_executable(indoru_planet_atmosphere_test tests/planet_atmosphere_smoke.cpp)
+target_link_libraries(indoru_planet_atmosphere_test PRIVATE indoru_engine)
+target_compile_options(indoru_planet_atmosphere_test PRIVATE -Wall -Wextra -Wpedantic -Wconversion -Wshadow)
+add_test(NAME planet_atmosphere_smoke COMMAND indoru_planet_atmosphere_test)
+
+add_executable(indoru_planet_terrain_test tests/planet_terrain_smoke.cpp)
+target_link_libraries(indoru_planet_terrain_test PRIVATE indoru_engine)
+target_compile_options(indoru_planet_terrain_test PRIVATE -Wall -Wextra -Wpedantic -Wconversion -Wshadow)
+add_test(NAME planet_terrain_smoke COMMAND indoru_planet_terrain_test)
