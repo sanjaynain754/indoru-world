@@ -20,6 +20,19 @@ The planet clock models a solar day, an orbital year and axial tilt. The runtime
 
 The implementation is deliberately deterministic and presentation-friendly: terrain, weather and NPC systems can sample the same clock and location to remain synchronized. The next refinement is a renderer-side sun, sky and shadow integration; it will consume this state rather than inventing a second time model.
 
+## Ocean, coast and beach foundation
+
+`indoru::ocean` is the native planetary water contract. It consumes the same geodetic location and gravity sample as the globe system and provides:
+
+- sea level plus deterministic M2-like tide elevation;
+- deep-ocean, shallow-sea, beach, tidal-flat and rocky-coast classification;
+- fetch-limited wind waves combined with swell;
+- shallow-water wave breaking, foam factor, wavelength and crest speed;
+- deterministic local surface elevation and horizontal wave velocity;
+- gravity-aligned buoyancy acceleration for boats, swimmers and floating debris.
+
+This is a simulation foundation rather than a renderer. A future renderer can use `surfaceElevationMeters`, `surfaceVelocityXMetersPerSecond`, `surfaceVelocityZMetersPerSecond` and `foamFactor` for animated water, shore foam, spray and reflections without creating a second water clock. Terrain or bathymetry streaming supplies `CoastSample::terrainElevationMeters` and `seabedDepthMeters`; the native system then remains valid for the whole globe, including beaches and storm coasts.
+
 ## Branch ownership
 
 - `world/globe-gravity`: planet coordinates, globe projection, Earth gravity, global climate bands and future orbital/rotation systems.
